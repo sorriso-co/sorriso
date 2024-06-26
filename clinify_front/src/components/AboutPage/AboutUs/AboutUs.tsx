@@ -16,15 +16,17 @@ const AboutUs: React.FC = () => {
   return (
     <div className="relative min-h-screen overflow-hidden">
       <div className="absolute inset-0 h-full w-full">
-        <Image
-          src="/images/about_us_slide/tech.png"
-          alt="Background"
-          layout="fill"
-          objectFit="cover"
-          quality={100}
-          className="z-0"
-        />
-        <div className="absolute inset-0 bg-black opacity-50 z-1"></div>
+        <div className="relative w-full h-full">
+          <Image
+            src="/images/about_us_slide/tech.png"
+            alt="Background"
+            layout="fill"
+            objectFit="cover"
+            quality={100}
+            className="z-0"
+          />
+          <div className="absolute inset-0 bg-black opacity-50 z-1"></div>
+        </div>
       </div>
 
       {/* Content */}
@@ -32,20 +34,20 @@ const AboutUs: React.FC = () => {
         <div className="md:w-1/2 md:pr-8 lg:pr-12 xl:pr-16">
           <ul className="space-y-6 sm:space-y-8 md:space-y-10 lg:space-y-12 xl:space-y-14 2xl:space-y-16">
             <li
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold font-serif text-white drop-shadow-md transition-transform transform hover:scale-105 hover:text-gray-300"
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold font-serif text-white drop-shadow-md transition-transform transform hover:scale-105 hover:text-gray-300"
               data-aos="fade-up"
             >
               {t('about.advantages.first')}
             </li>
             <li
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold font-serif text-white drop-shadow-md transition-transform transform hover:scale-105 hover:text-gray-300"
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold font-serif text-white drop-shadow-md transition-transform transform hover:scale-105 hover:text-gray-300"
               data-aos="fade-up"
               data-aos-delay="200"
             >
               {t('about.advantages.second')}
             </li>
             <li
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold font-serif text-white drop-shadow-md transition-transform transform hover:scale-105 hover:text-gray-300"
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold font-serif text-white drop-shadow-md transition-transform transform hover:scale-105 hover:text-gray-300"
               data-aos="fade-up"
               data-aos-delay="400"
             >

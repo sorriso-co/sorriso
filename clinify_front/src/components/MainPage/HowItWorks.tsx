@@ -136,7 +136,7 @@ const HowItWorks: React.FC = () => {
                   src="https://www.youtube.com/embed/CoucS-fy2FI?si=qt3GdS64rwl0elN2&start=2"
                   title="YouTube video player"
                   className="absolute top-0 left-0 w-full h-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
                   allowFullScreen
                 ></iframe>
               </div>

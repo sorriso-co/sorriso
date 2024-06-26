@@ -118,7 +118,7 @@ const HowItWorks: React.FC = () => {
                       src={t('howItWorks.videoUrl')}
                       title="YouTube video player"
                       className="w-full h-[300px] sm:h-[500px]"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
                       allowFullScreen
                     ></iframe>
                   </div>

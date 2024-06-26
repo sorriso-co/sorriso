@@ -7,7 +7,7 @@ import Mission from "@/components/AboutPage/AboutUs/Mission";
 
 const About = () => {
   return (
-    <div className="mx-auto">
+    <div >
       <AboutUs />
       <Mission />
       <YouTubeEmbed />

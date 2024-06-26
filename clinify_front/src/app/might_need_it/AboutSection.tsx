@@ -50,26 +50,6 @@ const AboutSection = () => {
           />
         </div>
       </div>
-
-      {/* {isModalOpen && (
-        <div className="fixed inset-0 flex items-center justify-center z-50 ">
-          <div className="bg-white rounded-lg p-8">
-            <button onClick={toggleModal} className="mb-4">
-              Close
-            </button>
-            <div className={styles.videoContainer}>
-              <iframe
-                src="https://www.youtube.com/embed/CoucS-fy2FI?si=qt3GdS64rwl0elN2&start=2"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-                width="560"
-                height="315"
-              ></iframe>
-            </div>
-          </div>
-        </div> */}
     </section>
   );
 };

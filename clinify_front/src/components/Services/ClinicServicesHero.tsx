@@ -16,7 +16,7 @@ const ClinicServicesHero = () => {
   const { t } = useTranslation('business');
 
   return (
-    <div className=" bg-gradient-to-br overflow-x-hidden from-teal-400 via-teal-300 to-teal-200 py-32 px-8 relative overflow-hidden">
+    <div className="bg-gradient-to-br overflow-x-hidden from-teal-400 via-teal-300 to-teal-200 py-32 px-8 relative overflow-hidden">
       <div className="container mx-auto flex flex-col lg:flex-row items-center relative z-10">
         <div className="text-left lg:w-1/2" data-aos="fade-right">
           <h1 className="text-5xl lg:text-7xl font-serif font-bold mb-6 text-white leading-tight drop-shadow-lg">
@@ -40,10 +40,10 @@ const ClinicServicesHero = () => {
             <Image
               src="/images/Team/founders/filip.jpg"
               alt="Private Clinic Services"
-              width={550}
-              height={650}
-              objectFit="cover"
+              width={600}
+              height={600}
               className="rounded-full"
+              priority
             />
           </div>
         </div>

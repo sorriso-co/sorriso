@@ -72,7 +72,7 @@ const WatchPromo = () => {
                     src={t('watchPromo.videoUrl')}
                     title="YouTube video player"
                     className="w-full h-[500px]"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
                     allowFullScreen
                   ></iframe>
                 </div>
