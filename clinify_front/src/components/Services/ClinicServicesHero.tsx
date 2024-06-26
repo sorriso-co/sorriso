@@ -42,6 +42,8 @@ const ClinicServicesHero = () => {
               alt="Private Clinic Services"
               width={600}
               height={600}
+              layout="fill"
+              objectFit="cover"
               className="rounded-full"
               priority
             />
