@@ -1,0 +1,343 @@
+{
+  "callToAction": {
+    "title": "Obtén la Sonrisa que Siempre Has Querido",
+    "cta": "Agenda una Cita"
+  },
+  "howItWorksHero": {
+    "title": "Cómo Funciona Sorriso",
+    "description": "Conoce a nuestro equipo a través de una consulta de teledentistry y obtén un plan de tratamiento personalizado.",
+    "cta": "Comenzar"
+  },
+  "serviceHero": {
+    "title": "Nuestros Servicios Dentales",
+    "description": "Descubre nuestra amplia gama de servicios dentales diseñados para mantener tu sonrisa sana y hermosa.",
+    "ctaLearnMore": "Más Información",
+    "ctaBookAppointment": "Agendar una Cita"
+  },
+  "serviceDetails": {
+    "sectionTitle": "Nuestros Servicios",
+    "services": [
+      {
+        "title": "Dentistas Experimentados",
+        "description": "Nuestro equipo de dentistas cuenta con años de experiencia y formación especializada."
+      },
+      {
+        "title": "Instalaciones de Última Generación",
+        "description": "Utilizamos la última tecnología y equipamiento para garantizar el mejor cuidado."
+      },
+      {
+        "title": "Cuidado Personalizado",
+        "description": "Proveemos planes de tratamiento individualizados adaptados a tus necesidades específicas."
+      }
+    ],
+    "imageAlt": "Doctor"
+  },
+  "experienceSection": {
+    "title": "Una Clínica con una Tradición de Excelencia",
+    "experience": "Experiencia",
+    "description": "Durante 30 años, nuestra clínica ha ayudado a pacientes de todo el mundo a lograr su sonrisa perfecta.",
+    "satisfiedPatients": "+250,000",
+    "satisfiedPatientsText": "Pacientes satisfechos atendidos",
+    "cta": "Ver más fotos del antes y después"
+  },
+  "howItWorks": {
+    "title": "Pasos Simples para tu Sonrisa Perfecta",
+    "description": "Sorriso te ayuda a lograr la sonrisa de tus sueños con nuestro proceso fácil y conveniente.",
+    "steps": [
+      {
+        "title": "Paso 1: Consulta Inicial",
+        "description": "Completa nuestro formulario sencillo y programa una consulta en línea con nuestro dentista, donde discutiremos tus preocupaciones y expectativas dentales.",
+        "icon": "FaPhoneAlt"
+      },
+      {
+        "title": "Paso 2: Plan de Tratamiento Personalizado",
+        "description": "Nuestros expertos crean un plan de tratamiento personalizado adaptado a tus requisitos específicos.",
+        "icon": "FaClipboardList"
+      },
+      {
+        "title": "Paso 3: Arreglos de Viaje",
+        "description": "Te asistimos con los arreglos de viaje para asegurar un viaje sin complicaciones.",
+        "icon": "FaPlane"
+      },
+      {
+        "title": "Paso 4: Llegada y Alojamiento",
+        "description": "Al llegar, ofrecemos alojamiento confortable y asistencia local durante tu estancia.",
+        "icon": "FaHotel"
+      },
+      {
+        "title": "Paso 5: Tratamiento Dental",
+        "description": "Recibe tratamiento dental de clase mundial de nuestros profesionales experimentados en instalaciones de última generación.",
+        "icon": "FaTooth"
+      },
+      {
+        "title": "Paso 6: Seguimiento y Cuidado Posterior",
+        "description": "Ofrecemos seguimiento y cuidado posterior integral para asegurar los mejores resultados y tu completa satisfacción.",
+        "icon": "FaRegSmile"
+      }
+    ],
+    "videoButton": "Ver Ahora",
+    "videoUrl": "https://www.youtube.com/embed/OEyE7MUoXIc?si=vo2pTGQpw4ZP6U0U",
+    "readyTitle": "¿Listo para Comenzar?",
+    "readyDescription": "Contáctanos hoy para programar tu consulta gratuita.",
+    "contactUs": "Contáctanos",
+    "scheduleAppointment": "Agenda una Cita"
+  },
+  "treatmentsHero": {
+    "title": "Transforma tu Sonrisa con Nuestros Tratamientos Avanzados",
+    "description": "Descubre nuestra amplia gama de procedimientos dentales, diseñados para proporcionarte los mejores resultados utilizando las últimas tecnologías y modernas instalaciones.",
+    "contactUs": "Contáctanos",
+    "viewAllTreatments": "Ver Todos los Tratamientos"
+  },
+  "priceComparison": {
+    "title": "¿Por qué Elegir Montenegro para tus Procedimientos Dentales?",
+    "description": "Descubre la combinación perfecta de atención dental asequible y experiencias impresionantes en Montenegro.",
+    "cards": [
+      {
+        "icon": "FaMoneyBillWave",
+        "title": "Ahorro de Costos",
+        "description": "Ahorra significativamente en tus procedimientos dentales en comparación con otros países."
+      },
+      {
+        "icon": "FaGlobe",
+        "title": "Rica Historia",
+        "description": "Explora el rico patrimonio cultural y sitios históricos de Montenegro."
+      },
+      {
+        "icon": "FaTree",
+        "title": "Belleza Natural",
+        "description": "Disfruta de los impresionantes paisajes, desde hermosos lagos hasta majestuosas montañas."
+      },
+      {
+        "icon": "FaHiking",
+        "title": "Aventuras al Aire Libre",
+        "description": "Experimenta actividades emocionantes como rafting, tirolesa y senderismo."
+      },
+      {
+        "icon": "FaBalanceScale",
+        "title": "Experiencia Equilibrada",
+        "description": "Disfruta de una combinación equilibrada de belleza natural, lujo y encanto tradicional."
+      },
+      {
+        "icon": "FaArrowDown",
+        "title": "Excelencia Asequible",
+        "description": "Recibe atención dental exquisita de profesionales altamente capacitados a un precio asequible."
+      }
+    ],
+    "subTitle": "Montenegro: Más que solo Atención Dental",
+    "subDescription": "Montenegro no solo trata de tratamientos dentales rentables. Es un destino donde puedes sumergirte en una rica historia, naturaleza impresionante y aventuras emocionantes. Ya sea explorando las encantadoras ciudades antiguas, haciendo senderismo por parques nacionales o disfrutando de los serenos lagos y playas, Montenegro ofrece una experiencia única que hace que tu viaje dental sea verdaderamente memorable."
+  },
+  "flipCard": {
+    "moreInfo": "Más Información",
+    "necessity": "Cuando podría ser necesario",
+    "candidate": "Buen candidato",
+    "duration": "Duración",
+    "back": "Atrás"
+  },
+  "mostWanted": {
+    "title": "Nuestros Procedimientos Más Solicitados",
+    "description": "Explora nuestros procedimientos más populares, elegidos por los pacientes por sus resultados sobresalientes y beneficios."
+  },
+  "facilities": {
+    "title": "Nuestras Instalaciones",
+    "description": "Instalaciones modernas para una experiencia cómoda y eficiente del paciente.",
+    "features": [
+      {
+        "icon": "FaTooth",
+        "title": "De Última Generación",
+        "description": "Última tecnología dental."
+      },
+      {
+        "icon": "FaChair",
+        "title": "Cómodas",
+        "description": "Ambiente moderno y limpio."
+      },
+      {
+        "icon": "FaShieldAlt",
+        "title": "Esterilizadas",
+        "description": "Los más altos estándares de higiene."
+      }
+    ]
+  },
+  "expertise": {
+    "title": "Nuestra Experiencia",
+    "description": "Aprovechando años de experiencia y un equipo multidisciplinario de profesionales altamente capacitados, ofrecemos atención médica y dental exquisita utilizando las últimas tecnologías.",
+    "sectionTitle": "Somos Expertos en lo que Hacemos",
+    "sectionDescription": "Nuestra clínica está equipada con instalaciones de última generación y cuenta con un equipo de profesionales dedicados, incluyendo expertos en cirugía general, ginecología, pulmonología y más. Estamos comprometidos a proporcionar una atención excepcional y integral adaptada a las necesidades de cada paciente.",
+    "features": [
+      {
+        "icon": "FaMicroscope",
+        "text": "Tecnología de Punta"
+      },
+      {
+        "icon": "FaUserMd",
+        "text": "Especialistas Multidisciplinarios"
+      },
+      {
+        "icon": "FaHeartbeat",
+        "text": "Enfoque Centrado en el Paciente"
+      },
+      {
+        "icon": "FaStethoscope",
+        "text": "Atención Integral"
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para Transformar tu Sonrisa?",
+    "description": "Contáctanos hoy para programar tu consulta y dar el primer paso hacia una sonrisa más saludable y brillante.",
+    "buttonText": "Contáctanos"
+  },
+  "serviceGrid": {
+    "title": "Nuestros Servicios",
+    "description": "Proveemos tratamiento de clase mundial para todos los problemas dentales",
+    "buttonText": "Ver Ahora",
+    "services": [
+      { "title": "Odontología General" },
+      { "title": "Implantes Dentales" },
+      { "title": "Coronas Dentales" },
+      { "title": "Cirugía Dental" },
+      { "title": "Blanqueamiento Dental" },
+      { "title": "Protección" },
+      { "title": "Periodoncia" },
+      { "title": "Radiología" }
+    ]
+
+
+  },
+  "watchVideo": "Ver Video",
+  "testimonialsHero": {
+    "title": "Nuestros Pacientes Satisfechos",
+    "description": "Escucha a nuestros pacientes sobre sus experiencias y la atención de alta calidad que recibieron."
+  },
+  "countries": {
+    "unitedStates": "Estados Unidos",
+    "italy": "Italia",
+    "montenegro": "Montenegro",
+    "australia": "Australia"
+  },
+  "treatments": {
+    "hollywoodSmile": "SONRISA HOLLYWOODENSE",
+    "dentalImplant": "IMPLANTE DENTAL",
+    "teethWhitening": "BLANQUEAMIENTO DENTAL",
+    "orthodontics": "ORTODONCIA"
+  },
+  "testimonials": {
+    "sheilaPeterson": {
+      "description": "Dr. Aleksa: honestamente, su profesionalismo y paciencia son increíbles. Estoy de vacaciones aquí y estaba nerviosa por recibir tratamiento dental estando sola. Él fue muy tranquilizador, amable, alentador y muy gentil. Es verdaderamente un dentista de primera. Ahora ha hecho de mí una cliente habitual, aunque tenga que viajar desde Londres hasta aquí. ¡Muchas gracias y sigue con el gran trabajo!"
+    },
+    "lauraBastone": {
+      "description": "Estoy muy satisfecha. Alta competencia, gran atención y cortesía. Muchas gracias."
+    },
+    "lelaKovacMajcevski": {
+      "description": "Las intervenciones dentales suelen ser dolorosas. Esa también es mi experiencia, sin embargo, el Dr. Šuković y su equipo son realmente muy profesionales. La atmósfera es agradable, sin tensión, y el paciente siente que está en buenas manos aquí. Son muy corteses, fáciles de concertar citas. Está ordenado y limpio. Parece que todo está verdaderamente dedicado al paciente. El Dr. Dražen y el resto del equipo son muy responsables. En cualquier caso, recomiendo encarecidamente este hospital a todos. Todo aquí está organizado pensando en el paciente."
+    },
+    "marryDianaJones": {
+      "description": "Mis muchos años de experiencia en la clínica Ars Medica pueden describirse como más que excelentes. Los médicos y el personal son profesionales, dedicados y muy amables. La calidad de los servicios está al más alto nivel en un entorno de renombradas clínicas mundiales."
+    }
+  },
+  "gallerySection": {
+    "galleryTitle": "Galería de Transformación",
+    "galleryImageAlt": "Imagen de la galería {{index}}"
+  },
+  "procedures": [
+    {
+      "image": "/images/bills/implant.jpeg",
+      "title": "Implantes Dentales",
+      "shortDescription": "Reemplaza dientes perdidos con implantes duraderos.",
+      "link": "/contact",
+      "necessity": "Cuando tienes uno o más dientes perdidos.",
+      "candidate": "Pacientes con buena salud oral.",
+      "duration": "1-2 horas por implante."
+    },
+    {
+      "image": "/images/bills/zcrown.jpeg",
+      "title": "Coronas de Zirconio",
+      "shortDescription": "Coronas duraderas y estéticamente agradables.",
+      "link": "/contact",
+      "necessity": "Cuando necesitas coronas fuertes y de aspecto natural.",
+      "candidate": "Pacientes que necesitan coronas dentales.",
+      "duration": "1-2 horas por corona."
+    },
+    {
+      "image": "/images/bills/hollywood.jpeg",
+      "title": "Tu Sonrisa Perfecta",
+      "shortDescription": "Logra una sonrisa perfecta con carillas.",
+      "link": "/contact",
+      "necessity": "Para una transformación completa de la sonrisa.",
+      "candidate": "Pacientes que desean una sonrisa perfecta.",
+      "duration": "2-3 sesiones."
+    },
+    {
+      "image": "/images/bills/allon4.jpeg",
+      "title": "All-on-4",
+      "shortDescription": "Restauración de arco completo con solo 4 implantes.",
+      "link": "/contact",
+      "necessity": "Cuando necesitas restauración de arco completo.",
+      "candidate": "Pacientes con pérdida significativa de dientes.",
+      "duration": "1-2 horas."
+    },
+    {
+      "image": "/images/bills/allon6.jpeg",
+      "title": "All-on-6",
+      "shortDescription": "Restauración de arco completo con 6 implantes.",
+      "link": "/contact",
+      "necessity": "Cuando necesitas restauración de arco completo con mayor estabilidad.",
+      "candidate": "Pacientes con pérdida significativa de dientes.",
+      "duration": "1-2 horas."
+    },
+    {
+      "image": "/images/bills/white.jpeg",
+      "title": "Blanqueamiento Dental",
+      "shortDescription": "Ilumina tu sonrisa con blanqueamiento profesional.",
+      "link": "/contact",
+      "necessity": "Cuando deseas eliminar manchas y decoloración.",
+      "candidate": "Pacientes que desean iluminar su sonrisa.",
+      "duration": "1 hora."
+    },
+    {
+      "image": "/images/bills/veneers.jpeg",
+      "title": "Carillas Dentales",
+      "shortDescription": "Mejora tu sonrisa con carillas personalizadas.",
+      "link": "/contact",
+      "necessity": "Para mejorar la apariencia de los dientes.",
+      "candidate": "Pacientes con dientes astillados, manchados o desalineados.",
+      "duration": "2-3 sesiones."
+    },
+    {
+      "image": "/images/bills/root.png",
+      "title": "Tratamiento de Conducto Radicular",
+      "shortDescription": "Salva tus dientes naturales.",
+      "link": "/contact",
+      "necessity": "Cuando tienes una pulpa dental infectada o inflamada.",
+      "candidate": "Pacientes con dolor de dientes severo o infección.",
+      "duration": "1-2 horas."
+    },
+    {
+      "image": "/images/bills/bridge.jpeg",
+      "title": "Puentes Dentales",
+      "shortDescription": "Reemplaza dientes perdidos con un puente dental.",
+      "link": "/contact",
+      "necessity": "Cuando tienes uno o más dientes perdidos.",
+      "candidate": "Pacientes con buena salud oral y dientes adyacentes.",
+      "duration": "2-3 sesiones."
+    },
+    {
+      "image": "/images/bills/gum.png",
+      "title": "Contorno de Encías",
+      "shortDescription": "Remodela tus encías para una mejor sonrisa.",
+      "link": "/contact",
+      "necessity": "Para corregir líneas de encías desiguales.",
+      "candidate": "Pacientes con exceso o encías desiguales.",
+      "duration": "1-2 horas."
+    },
+    {
+      "image": "/images/bills/full.jpeg",
+      "title": "Reconstrucción Total de la Boca",
+      "shortDescription": "Restauración dental completa.",
+      "link": "/contact",
+      "necessity": "Cuando necesitas trabajo dental extenso.",
+      "candidate": "Pacientes con múltiples problemas dentales.",
+      "duration": "Varía según el caso."
+    }
+  ]
+}

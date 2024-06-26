@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "description": "Sorriso: Turismo dentale conveniente nei Balcani. Offriamo cure dentali di alta qualità a una frazione del costo per i pazienti provenienti da Europa, Stati Uniti, Australia e oltre.",
+    "title": "Sorriso - Turismo Dentale Conveniente",
+    "ogTitle": "Sorriso - Turismo Dentale Conveniente nei Balcani",
+    "ogDescription": "Sorriso fornisce cure dentali di alta qualità e convenienti nei Balcani per i pazienti provenienti da Europa, Stati Uniti, Australia e oltre. Scopri i vantaggi del turismo dentale con Sorriso.",
+    "twitterTitle": "Sorriso - Turismo Dentale Conveniente nei Balcani",
+    "twitterDescription": "Scopri le cure dentali convenienti nei Balcani con Sorriso. Offriamo trattamenti di alta qualità per i pazienti provenienti da Europa, Stati Uniti, Australia e oltre.",
+    "keywords": "turismo dentale, cure dentali convenienti, cure dentali Balcani, Sorriso, trattamenti dentali Europa, impianti dentali, sbiancamento dentale, ortodonzia, corone dentali, ponti dentali, faccette dentali, odontoiatria cosmetica, chirurgia dentale, controllo dentale, clinica dentale, servizi dentali, consulenza dentale, cure dentali nei Balcani, viaggio dentale, pacchetti dentali, cure dentali all'estero, cure dentali internazionali, cure dentali di alta qualità, risparmio sulle cure dentali, turismo dentale Europa, turismo dentale Balcani, cure dentali per pazienti americani, cure dentali per pazienti australiani, cure dentali per pazienti europei, turismo sanitario dentale, trattamento dentale all'estero, pacchetti di turismo dentale, vacanza dentale, pacchetti di cure dentali, trattamenti dentali convenienti, destinazioni di turismo dentale, offerte di cure dentali, offerte di turismo dentale, cure dentali a basso costo, piani di risparmio sulle cure dentali, cliniche dentali internazionali, specialisti dentali in Europa, cure dentali avanzate, opzioni di cure dentali, piani di cure dentali, fornitori di cure dentali, cure dentali professionali, consulenze dentali, offerte di cure dentali, migliori cure dentali all'estero, piani di trattamento dentale, viaggio sanitario dentale, viaggi di cure dentali, assicurazione viaggio dentale, vacanza dentale, sconti sulle cure dentali, hotspot di turismo dentale, procedure dentali all'estero, soluzioni dentali convenienti, cure dentali complete, pacchetti di cure dentali in Europa, competenza nelle cure dentali, servizi dentali affidabili, trattamenti dentali di qualità, cliniche dentali moderne, salute e benessere dentale, cure dentali incentrate sul paziente, trattamenti dentali personalizzati, eccellenza nelle cure dentali, cure dentali rinomate, professionisti dentali esperti, soddisfazione del paziente nelle cure dentali, cure dentali senza soluzione di continuità, programmi di benessere dentale, cure dentali esperte all'estero, sicurezza nelle cure dentali, pacchetti di salute dentale, pacchetti dentali convenienti, cure dentali premium, opzioni di cure dentali all'estero, servizi dentali estesi, cure dentali personalizzate, pianificazione del turismo dentale, risparmio sui trattamenti dentali, pacchetti di viaggio sanitario dentale, cure dentali superiori, cure dentali convenienti, flessibilità nelle cure dentali, odontoiatria cosmetica conveniente, trattamenti dentali innovativi, servizi dentali affidabili, comodità nelle cure dentali, soluzioni dentali internazionali, viaggi per cure dentali, appuntamenti per cure dentali all'estero, costi del trattamento dentale all'estero, cure dentali efficienti, coordinamento delle cure dentali, comfort nelle cure dentali, tecnologia dentale avanzata, cure dentali accessibili, offerte di cure dentali all'estero, opzioni di cure dentali per anziani, cure dentali per famiglie all'estero, viaggi dentali di gruppo, pacchetti dentali aziendali, cure dentali di lusso, turismo del benessere dentale, varietà di trattamenti dentali, raccomandazioni per cure dentali, standard delle cure dentali, cura del paziente dentale, materiali dentali di qualità, tecniche dentali avanzate, consigli sul turismo dentale, consulenze per trattamenti dentali, cure dentali con assicurazione, assistenza nella pianificazione delle cure dentali, consulenze dentali esperte, servizi di salute dentale, cure dentali senza stress, recensioni sul turismo dentale, testimonianze sui trattamenti dentali, soddisfazione delle cure dentali, valutazioni della salute dentale, cliniche dentali affidabili, garanzie sui servizi dentali, trattamenti dentali leader, vantaggi del turismo dentale, esperti dentali internazionali, specialisti delle cure dentali, supporto ai pazienti dentali, competenza nei trattamenti dentali, innovazione nelle cure dentali, risultati delle cure dentali, miglioramento della salute dentale, qualità delle cure dentali, soluzioni dentali personalizzate, valutazioni dentali professionali, garanzie sui trattamenti dentali, eccellenza nella cura del paziente dentale, rete di cure dentali, fornitori di cure dentali affidabili"
+  },
+  "header": {
+    "menu": {
+      "home": "Home",
+      "about": "Chi Siamo",
+      "about_submenu": {
+        "about": "Chi Siamo",
+        "our_team": "Il Nostro Team",
+        "why_montenegro": "Perché il Montenegro?"
+      },
+      "services": "Servizi",
+      "services_submenu": {
+        "our_services": "I Nostri Servizi",
+        "how_it_works": "Come Funziona",
+        "treatments": "Trattamenti",
+        "experiences": "Esperienze",
+        "gallery": "Galleria"
+      },
+      "business": "Affari",
+      "business_submenu": {
+        "for_clinics": "Per le Cliniche",
+        "for_affiliates": "Per gli Affiliati"
+      },
+      "pricing": "Prezzi",
+      "contact": "Contatto"
+    },
+    "mobile_nav": {
+      "menu": "Menu",
+      "close": "Chiudi"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Sorriso. Tutti i diritti riservati.",
+    "aboutUs": "Chi siamo",
+    "contact": "Contatto",
+    "privacyPolicy": "Politica sulla riservatezza",
+    "facebook": "https://facebook.com",
+    "instagram": "https://instagram.com"
+  },
+  "contactDetails": {
+    "title": "Contattaci",
+    "addressTitle": "Il nostro indirizzo",
+    "address": "Ulica 13.Jula 2/18\nPodgorica 81000, Montenegro",
+    "phoneTitle": "Chiamaci in qualsiasi momento",
+    "phone": "+38269851872",
+    "emailTitle": "Inviaci un'email",
+    "email": "contact@sorriso.care",
+    "hoursTitle": "Orari di lavoro",
+    "hours": "Lunedì - Venerdì: 9.00 - 17.00"
+  },
+  "contactForm": {
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefono",
+    "message": "Messaggio",
+    "messagePlaceholder": "Inviaci un messaggio delineando le tue preoccupazioni dentali, aspettative o domande. Ti risponderemo al più presto.",
+    "upload": "Carica un'immagine dei tuoi denti (opzionale)",
+    "send": "Invia messaggio",
+    "success": "Email inviata con successo!",
+    "failure": "Invio email fallito. Per favore riprova."
+  },
+  "contactSection": {
+    "title": "Mettiti in contatto con noi",
+    "subtitle": "Elimina le inconvenienze. Lascia che ti aiutiamo a essere te stesso.",
+    "consultationTitle": "Prenota una consulenza gratuita di 30 minuti",
+    "consultationDescription": "Programma una consulenza gratuita con i nostri esperti per discutere le tue esigenze e come possiamo aiutarti a raggiungere i tuoi obiettivi."
+  },
+  "privacyPolicy": {
+    "title": "Informativa sulla Privacy",
+    "introductionTitle": "Introduzione",
+    "introductionContent": "Benvenuti nella nostra Informativa sulla Privacy. La tua privacy è di fondamentale importanza per noi. La nostra informativa sulla privacy spiega come gestiamo le tue informazioni personali e i tuoi dati.",
+    "informationWeCollectTitle": "Informazioni che Raccogliamo",
+    "informationWeCollectContent": "Raccogliamo diversi tipi di informazioni dagli utenti del nostro sito web, tra cui:",
+    "informationWeCollectItem1": "Informazioni di identificazione personale (Nome, indirizzo email, numero di telefono, ecc.)",
+    "informationWeCollectItem2": "Informazioni demografiche (età, sesso, preferenze, interessi, ecc.)",
+    "informationWeCollectItem3": "Dati tecnici (indirizzo IP, tipo e versione del browser, impostazione del fuso orario, ecc.)",
+    "informationWeCollectItem4": "Dati di utilizzo (informazioni su come usi il nostro sito web, prodotti e servizi)",
+    "howWeUseInformationTitle": "Come Usiamo le Tue Informazioni",
+    "howWeUseInformationContent": "Utilizziamo le informazioni che raccogliamo in vari modi, tra cui:",
+    "howWeUseInformationItem1": "Fornire, operare e mantenere il nostro sito web",
+    "howWeUseInformationItem2": "Migliorare, personalizzare ed espandere il nostro sito web",
+    "howWeUseInformationItem3": "Comprendere e analizzare come utilizzi il nostro sito web",
+    "howWeUseInformationItem4": "Sviluppare nuovi prodotti, servizi, funzionalità e caratteristiche",
+    "dataSecurityTitle": "Sicurezza dei Dati",
+    "dataSecurityContent": "Abbiamo implementato misure di sicurezza tecniche e organizzative appropriate per proteggere la sicurezza di qualsiasi informazione personale che trattiamo."
+  }
+}

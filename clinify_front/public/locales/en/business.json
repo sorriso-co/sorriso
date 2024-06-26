@@ -1,0 +1,228 @@
+{
+  "clinicServicesHero": {
+    "title": "Services for Private Clinics",
+    "subtitle": "Our platform offers private clinics the tools needed to streamline the onboarding process with patients, making it easier to manage appointments, patient records, and communications. Our ultimate goal is to empower clinics to provide the best possible care to their patients.",
+    "cta": "Learn More"
+  },
+    "internationalPatientWorkflow": {
+      "title": "Streamlining Workflow for International Patients",
+      "description": "Sorriso simplifies managing international patients, allowing clinics to focus on exceptional care. We follow the patient journey from the first contact to the final follow-up, ensuring a seamless experience. Clinic managers and dedicated personnel often have too much to coordinate to provide a constant, world-class patient experience for those traveling the world for life-changing procedures. We understand that the patient experience is a top priority for clinics, and we are here to help. Our platform allows clinics to provide a seamless experience for international patients without the hassle of managing hundreds of moving parts: emails, Zoom links, phone calls, schedules, bookings, and transportation. We have it all covered.",
+      "cta": "Learn More",
+      "feature1": {
+        "title": "Interfacing with International Patients",
+        "description": "Clear and effective communication with support for multiple languages."
+      },
+      "feature2": {
+        "title": "Scheduling Calls and Appointments",
+        "description": "Automated appointment bookings, reminders, and time zone adjustments."
+      },
+      "feature3": {
+        "title": "Organizing Pick-up from the Airport",
+        "description": "Smooth and comfortable arrival experience with easy transport coordination."
+      },
+      "feature4": {
+        "title": "Hotel Management",
+        "description": "Manage bookings and special requests with local accommodation providers."
+      },
+      "feature5": {
+        "title": "Data Transfer for Relevant Scans and Health Documentation",
+        "description": "Secure electronic transfer of health records and critical documentation."
+      },
+      "feature6": {
+        "title": "Patient Experience Enhancement",
+        "description": "Providing an enjoyable and stress-free experience from arrival to departure."
+      }
+    },
+      "dataSpeaks": {
+          "title": "Data Speaks: The Real Cost of Inefficiency",
+          "description": "Discover how much time clinics lose to bureaucracy and unnecessary tasks, and how Sorriso can help reclaim that time for better patient care.",
+          "cta": "Learn More",
+          "statistics": {
+            "statistic1": {
+              "title": "Time Lost on Bureaucracy",
+              "stat": "30%",
+              "description": "Clinics spend up to 30% of their time on bureaucratic tasks, taking away from patient care."
+            },
+            "statistic2": {
+              "title": "Unnecessary Tasks",
+              "stat": "25 hours/week",
+              "description": "On average, clinics lose 25 hours per week on unnecessary administrative tasks."
+            },
+            "statistic3": {
+              "title": "Accommodation Coordination",
+              "stat": "10 hours/week",
+              "description": "Coordinating accommodation for international patients can take up to 10 hours each week."
+            },
+            "statistic4": {
+              "title": "Transport Management",
+              "stat": "8 hours/week",
+              "description": "Managing transport logistics can consume up to 8 hours of valuable time each week."
+            }
+          }
+        },
+    "watchPromo": {
+      "title": "Get a Free Trial and Discover the Best Software for International Patient Onboarding",
+      "description": "Reach out to us and experience the first-of-its-kind software designed to streamline international patient onboarding and provide exceptional care.",
+      "ctaFreeTrial": "Get a Free Trial",
+      "ctaContactUs": "Contact Us",
+      "videoButton": "Watch Now",
+      "videoUrl": "https://youtu.be/knav3WWGBeE"
+  },
+    "hero": {
+      "headline1": "Join",
+      "headline2": "Promote",
+      "headline3": "Earn",
+      "description": "Join our dental tourism affiliate program and grow your earnings with top-tier services, generous commissions, and exceptional support. Increase your income with performance-based bonuses and a clear path to higher levels. Sign up now and experience the difference!",
+      "ctaText": "Sign Up Now",
+      "imageAlt": "Affiliate Program Image"
+    },
+      "howItWorks": {
+        "title": "How It Works",
+        "description": "Join our affiliate program and earn commissions by promoting healthier smiles.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Join as an Affiliate",
+            "items": [
+              "Sign up online",
+              "Watch the onboarding video",
+              "Start sharing Sorriso"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "title": "Earn Commissions",
+            "description": "Earn 2% on every sale. Upgrade to earn 5%.",
+            "footnote": "*A sale is defined as one patient acquisition."
+          },
+          {
+            "stepNumber": 3,
+            "title": "Increase Earnings",
+            "items": [
+              "Earn 5% after 10 sales.",
+              "Expert Affiliates earn 5% after 10 sales."
+            ]
+          },
+          {
+            "stepNumber": 4,
+            "title": "Become an Expert",
+            "description": "Achieve 10 sales in a quarter to boost your earnings to 5%."
+          },
+          {
+            "stepNumber": 5,
+            "title": "Build Your Network",
+            "items": [
+              "Form a team of affiliates",
+              "Earn on sales made by your team"
+            ]
+          }
+        ]
+      },
+      "payoff": {
+    "title": "Sorriso is Your Best Choice",
+    "description": "Join our leading dental tourism affiliate program and watch your earnings grow. Our top-tier services, generous commission structure, and exceptional support make us the best choice for affiliates. Enter the ultimate ROI game!",
+    "cta": "Sign Up",
+    "contactPrompt": "Still have any questions? Write to us, we will respond promptly!",
+    "contactEmail": "contact@sorriso.care",
+    "cards": {
+      "card1": {
+        "title": "Payouts up to $500",
+        "description": "Earn $200 commission per referred person who completes a procedure."
+      },
+      "card2": {
+        "title": "Reliable Tracking",
+        "description": "Utilize our reliable tracking system to monitor your revenue in real-time."
+      },
+      "card3": {
+        "title": "Top Clinics",
+        "description": "Partner with the best clinics in Eastern Europe offering top-notch treatments at affordable prices."
+      },
+      "card4": {
+        "title": "High Earnings",
+        "description": "Join a thriving network where the average affiliate marketer earns substantial revenue monthly."
+      },
+      "card5": {
+        "title": "Performance Bonuses",
+        "description": "Increase your commission with performance-based bonuses and climb to higher affiliate levels."
+      },
+      "card6": {
+        "title": "Exceptional Support",
+        "description": "Our dedicated support team helps you maximize your potential and grow your earnings."
+      }
+    }
+  },
+  "affiliatesStories": {
+    "title": "Hear from Our Affiliates",
+    "testimonials": [
+      {
+        "name": "Hunter",
+        "story": "Listen to Hunter’s success with Sorriso’s Affiliate Program",
+        "image": "/images/affiliates/hunt.png",
+        "quote": "It's a win-win-win with Sorriso's affiliate program. Clients thrive with top-tier services, you earn substantial commissions, and together, we all succeed. I honestly believe everyone should give Sorriso a try.",
+        "position": "Affiliate Marketer",
+        "company": "Hugo Productions"
+      },
+      {
+        "name": "Jane",
+        "story": "Listen to Jane’s Success With Sorriso Affiliate Program",
+        "image": "/images/affiliates/jane.png",
+        "quote": "Joining Sorriso’s affiliate program has been the best decision. The support is exceptional, and the earnings are fantastic. Highly recommend it!",
+        "position": "Influencer",
+        "company": "Jane & Co."
+      },
+      {
+        "name": "Satraj",
+        "story": "Listen to Oliver’s Success With Sorriso Affiliate Program",
+        "image": "/images/affiliates/oliver.png",
+        "quote": "Sorriso’s affiliate program is truly remarkable. The commission structure and support are unmatched. It has significantly boosted my income.",
+        "position": "Content Creator",
+        "company": "Mango Studios"
+      }
+    ],
+    "commissionEarned": "Commission Earned",
+    "perReferral": "per referral",
+    "totalReferrals": "Total Referrals"
+  },
+  "title": "Who is our Affiliate Program for?",
+  "affiliateTypes": [
+    {
+      "label": "Digital marketing agencies"
+    },
+    {
+      "label": "Influencers"
+    },
+    {
+      "label": "Tech consultants"
+    },
+    {
+      "label": "Business coaches"
+    },
+    {
+      "label": "E-commerce web developers"
+    },
+    {
+      "label": "Content creators"
+    }
+  ],
+  "joinProgram": {
+    "title": "Join the Sorriso Affiliate Program",
+    "cards": [
+      {
+        "icon": "FaThumbsUp",
+        "title": "It’s Easy!",
+        "description": "Promote our dental tourism services using your blogs, videos, and social channels. Invite contacts to click our affiliate URL link."
+      },
+      {
+        "icon": "FaCode",
+        "title": "No Tech, Zero Cost",
+        "description": "Embed the link in your channel communications. There’s no technical integration required and zero cost to join."
+      },
+      {
+        "icon": "FaDollarSign",
+        "title": "Generous Commissions",
+        "description": "Earn $200 commission per referred person who completes a procedure. Enjoy performance-based bonuses and high earnings."
+      }
+    ],
+    "ctaButton": "Sign Up Now"
+  }
+}

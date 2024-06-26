@@ -1,0 +1,168 @@
+{
+  "about": {
+    "title": "Chi Siamo",
+    "advantages": {
+      "first": "Ultima Tecnologia",
+      "second": "Professionalità",
+      "third": "Materiali di Qualità Superiore"
+    },
+    "description": "Il nostro impegno per l'innovazione e la qualità garantisce che tu riceva i migliori prodotti e servizi disponibili. Unisciti a noi per vivere il futuro della tecnologia."
+  },
+  "mission": {
+    "title": "La Nostra Missione",
+    "subtitle": "Trasformare Sorrisi, Trasformare Vite",
+    "paragraph1": "In Sorriso, la nostra missione è rivoluzionare il turismo dentale fornendo cure dentistiche eccezionali combinate con esperienze di viaggio indimenticabili. Miriamo a offrire trattamenti dentali personalizzati, di alta qualità e accessibili in splendide destinazioni, garantendo che ogni paziente torni a casa con un sorriso più luminoso, più sano e con ricordi preziosi.",
+    "paragraph2": "Siamo impegnati nell'eccellenza delle cure dentistiche, utilizzando le ultime tecnologie e tecniche per ottenere risultati ottimali per i pazienti. Il nostro team di professionisti lavora instancabilmente per rendere il turismo dentale accessibile e piacevole per tutti, colmando il divario tra servizi dentali di classe mondiale e l'avventura di esplorare nuovi luoghi."
+  },
+  "box": {
+    "section1": {
+      "title": "I Pazienti Vengono Prima",
+      "subtitle": "Sorriso Ti Supporta",
+      "description": "Sorriso è un'agenzia che ti accompagna in un viaggio trasformativo verso una migliore salute dentale e un sorriso splendido."
+    },
+    "metrics": {
+      "client_satisfaction": "Soddisfazione dei Clienti",
+      "dental_success": "Successo Dentale",
+      "client_referral": "Riferimenti dei Clienti"
+    },
+    "cta": {
+      "title": "Pronto a Trasformare il Tuo Sorriso?",
+      "description": "Contattaci oggi per programmare la tua consulenza e fare il primo passo verso un sorriso più sano e luminoso.",
+      "button": "Contattaci"
+    }
+  },
+  "youtubeEmbed": {
+    "title": "Odontoiatria di Alta Qualità",
+    "description": "Guarda il nostro video per comprendere il processo senza soluzione di continuità del turismo dentale con Sorriso. Dalla prima consultazione online alla pianificazione, all'arrivo in Montenegro e allo svolgimento della procedura, garantiamo un'esperienza fluida e confortevole. Scopri la bellezza del Montenegro mentre ricevi le migliori cure dentistiche."
+  },
+  "topSection": {
+    "title": "Incontra il Nostro Team di Dentisti Esperti",
+    "description": "Scopri le competenze eccezionali e le qualifiche dei nostri dentisti amichevoli, dedicati a fornirti le migliori cure dentistiche. La loro esperienza copre varie specializzazioni dentali, garantendoti un trattamento completo.",
+    "button": "Collaboriamo"
+  },
+  "founders": {
+    "title": "Incontra i Nostri Fondatori",
+    "member1": {
+      "name": "Ivan Cabrilo",
+      "description": "Il sig. Cabrilo è originario del Montenegro e attualmente studia all'Università di Rochester a New York con una borsa di studio completa. Doppia specializzazione in Informatica e Business mentre ricerca attivamente in AI e Machine Learning."
+    },
+    "member2": {
+      "name": "Dr. Filip Sukovic med. dent.",
+      "description": "Il Dr. Filip Šuković è nato a Cetinje. Ha completato la scuola superiore presso il St. Clare's International College a Oxford e ha iniziato i suoi studi dentali presso la Birkbeck University di Londra, completandoli presso la Facoltà di Odontoiatria CEU Cardinal Herrera a Valencia."
+    },
+    "member3": {
+      "name": "Djordje Ivanovic",
+      "description": "Il sig. Ivanovic è originario di Podgorica, Montenegro, e attualmente studia ad Harvard a Boston, Massachusetts, con una borsa di studio prestigiosa. Sta perseguendo una carriera in Informatica con un interesse per l'Economia."
+    }
+  },
+  "team": {
+    "title": "Incontra il Nostro Team di Esperti",
+    "description": "Abbiamo collaborato con i migliori dentisti del paese con una tradizione di eccellenza che dura da oltre 30 anni. Il loro servizio eccezionale, attenzione ai dettagli e comprensione ti garantiscono il sorriso che hai sempre desiderato.",
+    "doctor1": {
+      "name": "Dr. Milija Sukovic med. dent.",
+      "title": "Specialista in Implantologia"
+    },
+    "doctor2": {
+      "name": "Dr. Jelena Rutesic med. dent.",
+      "title": "Dottore in Odontoiatria"
+    },
+    "doctor3": {
+      "name": "Dr. Dražen Nikčević med. dent.",
+      "title": "Dottore in Odontoiatria"
+    },
+    "doctor4": {
+      "name": "Dr. Aleksa Raičković med. dent.",
+      "title": "Dottore in Odontoiatria"
+    },
+    "doctor5": {
+      "name": "Ms. Milena Bojanic",
+      "title": "Infermiera"
+    },
+    "doctor6": {
+      "name": "Ms. Dijana Scepanovic",
+      "title": "Infermiera Dentale"
+    },
+    "doctor7": {
+      "name": "Ms. Aleksandra Jevrić",
+      "title": "Assistente Medico"
+    },
+    "doctor8": {
+      "name": "Ms. Nađa Vukadinović",
+      "title": "Assistente Medico"
+    }
+  },
+  "scheduleAppointment": {
+    "title": "Prenota un Appuntamento",
+    "description": "Pronto a trasformare il tuo sorriso? Prenota un appuntamento con il nostro team di esperti oggi stesso e inizia il tuo viaggio verso un futuro più luminoso e sano.",
+    "bookNow": "Prenota Ora",
+    "whatWeStandFor": "I Nostri Valori"
+  },
+  "whyMontenegro": {
+    "title": "Perché Montenegro?",
+    "subtitle": "Risposta Semplice"
+  },
+  "dentalTravelIntro": {
+    "title": "Viaggio Dentale con Sorriso",
+    "description": "Visita il paese dotato di una bellezza naturale incontaminata. Porta tutta la tua famiglia in vacanza, ottieni il sorriso che hai sempre desiderato e paga di meno.",
+    "buttonText": "Vivi Ora la Tua Vacanza Dentale!",
+    "travel": "Viaggio",
+    "accommodation": "Alloggio",
+    "sightseeing": "Visite Turistiche"
+  },
+  "experienceMontenegro": {
+    "heading": "Torna a Casa Sorridendo",
+    "subheading": "Vivi il Montenegro",
+    "cards": {
+      "card1": {
+        "caption": "Soggiorna",
+        "text": [
+          "Sveti Stefan (San Stefano) è una piccola isola adriatica vicino a Budva in Montenegro. Un tempo era un villaggio di pescatori con case risalenti al XV secolo.",
+          "L'isola non è aperta al pubblico, ma solo ai residenti, agli ospiti dell'hotel o come parte di una visita guidata.",
+          "Sull'isola ci sono diverse vecchie chiese, tra cui quella di (Sveti Stefan) che ha dato il nome all'isola. Negli anni '50 e '60, l'intero piccolo villaggio è stato trasformato in un'isola hotel mantenendo il suo aspetto originale."
+        ]
+      },
+      "card2": {
+        "caption": "Vedi",
+        "text": [
+          "Gospa od Škrpjela (Nostra Signora delle Rocce) è un isolotto artificiale al largo di Perast, Montenegro, creato da bastioni di rocce e navi affondate per oltre 200 anni. Ospita la Chiesa Cattolica e un museo.",
+          "Secondo la leggenda, l'isolotto è stato costruito da marinai che trovarono un'icona della Madonna e del Bambino su una roccia il 22 luglio 1452 e fecero un voto di posare una roccia lì dopo ogni viaggio di successo.",
+          "Questa tradizione continua ancora oggi con un evento annuale chiamato fašinada il 22 luglio, quando i locali prendono barche e gettano rocce nel mare, ampliando la superficie dell'isolotto."
+        ]
+      },
+      "card3": {
+        "caption": "Esplora",
+        "text": [
+          "Durmitor è uno dei 5 parchi nazionali del paese. È un massiccio situato nel nord-ovest del Montenegro. Fa parte delle Alpi Dinariche.",
+          "La sua vetta più alta, Bobotov Kuk, raggiunge un'altezza di 2.523 metri (8.278 piedi). Il massiccio è delimitato dal canyon del fiume Tara a nord, dal canyon del fiume Piva a ovest e dal canyon del fiume Komarnica a sud.",
+          "Il massiccio dà il nome al parco nazionale che lo comprende. Il Parco Nazionale Durmitor è stato fondato nel 1952 ed è stato designato come Patrimonio dell'Umanità nel 1980."
+        ]
+      },
+      "card4": {
+        "caption": "Gusta",
+        "text": [
+          "Concediti una cucina deliziosa.",
+          "Il Montenegro ha una ricca dieta mediterranea che è considerata tra le più sane e gustose al mondo. La varietà di spezie e cibo ti lascerà sicuramente a bocca aperta.",
+          "Avendo una ricca storia del vino come parte integrante della cultura, puoi ottenere un vino di classe mondiale nei mercati a meno di 10 dollari. Inoltre, per soli 50 dollari, una famiglia di 4 persone può fare un pranzo incredibile proprio accanto al mare, con una varietà di piatti di pesce fresco e scelte di vino."
+        ]
+      }
+    },
+    "ctaButton": "Esplora di Più"
+  },
+  "montenegroHighlights": {
+    "title": "Perché Montenegro?",
+    "description": "Il Montenegro è un gioiello nascosto che attira i visitatori con i suoi paesaggi mozzafiato, la ricca storia e la calorosa ospitalità. Con il suo clima mediterraneo, le spiagge dorate, i paesaggi montuosi, la storia interessante, i prezzi accessibili e la deliziosa cucina locale, il Montenegro ha tutto ciò che un turista potrebbe desiderare da un'avventura europea.",
+    "highlights": {
+      "highlight1": "Foreste Pluviali",
+      "highlight2": "Montagne",
+      "highlight3": "Mare Turchese",
+      "highlight4": "Animali Esotici"
+    },
+    "ctaButton": "Hai Bisogno di Consigli di Viaggio? Chatta con Noi"
+  },
+  "vision": {
+    "title": "La Nostra Visione",
+    "subtitle": "Valorizzare il Montenegro come Hub del Turismo Dentale",
+    "paragraph1": "In Sorriso, la nostra visione è quella di posizionare il Montenegro come la destinazione principale per il turismo dentale. Miriamo a combinare cure dentistiche di alta qualità con la bellezza mozzafiato e la ricca cultura del Montenegro, offrendo un'esperienza unica e trasformativa ai nostri pazienti.",
+    "paragraph2": "Siamo impegnati a sfruttare le ultime tecnologie dentistiche e a collaborare con i migliori professionisti per garantire cure eccezionali. Promuovendo i paesaggi mozzafiato del Montenegro e le sistemazioni lussuose, ci sforziamo di creare viaggi indimenticabili che vanno oltre il trattamento dentale."
+  }
+}

@@ -1,0 +1,40 @@
+
+/* styles.module.css */
+
+  .videoContainer {
+    position: relative;
+    width: 100%;
+    /* max-width: 1800px;  */ 
+    padding-bottom: 56.25%; 
+    height: 0;
+    box-sizing: border-box;
+  } 
+
+
+  
+  @media (max-width: 600px) {
+    .videoContainer iframe {
+      max-width: 100%;
+      max-height: 56.25vw; 
+    }
+  }
+  
+
+  .imageContainer img {
+    max-width: 100%;
+    height: auto;
+  } 
+
+
+  /* custom-slick.css */
+.slick-prev:before, .slick-next:before {
+  color: #0d9488; /* Dark teal color */
+}
+
+.slick-prev {
+  left: -35px; /* Adjust position if necessary */
+}
+
+.slick-next {
+  right: -35px; /* Adjust position if necessary */
+}

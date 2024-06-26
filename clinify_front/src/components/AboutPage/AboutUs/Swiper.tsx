@@ -1,0 +1,69 @@
+"use client";
+import Image from "next/legacy/image";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+
+const slides = [
+  { id: 1, src: "/images/about_us_slide/ars_technology.jpg" },
+  { id: 2, src: "/images/about_us_slide/program.png" },
+  { id: 5, src: "/images/about_us_slide/pc.png" },
+  { id: 3, src: "/images/about_us_slide/clinic.png" },
+  { id: 4, src: "/images/about_us_slide/chair.png" },
+  { id: 6, src: "/images/about_us_slide/waiting.jpeg" },
+];
+
+const TestSwiper: React.FC = () => {
+  return (
+    <div className="relative">
+      <Swiper
+        modules={[Navigation, Pagination, Autoplay]}
+        spaceBetween={10}
+        slidesPerView={1}
+        centeredSlides={true}
+        navigation={{
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        }}
+        pagination={{ clickable: true }}
+        autoplay={{ delay: 3000 }}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          1024: {
+            slidesPerView: 4,
+          },
+        }}
+        className="mySwiper"
+      >
+        {slides.map((slide) => (
+          <SwiperSlide key={slide.id} className="relative group">
+            <Image
+              src={slide.src}
+              alt={`Slide ${slide.id}`}
+              width={1200} // Adjust width as needed
+              height={800} // Adjust height as needed
+              className="w-full h-64 object-cover rounded-lg shadow-md"
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      <div className="swiper-button-prev absolute top-1/2 left-2 transform -translate-y-1/2 bg-white text-black rounded-full shadow-md p-2 cursor-pointer z-10">
+        <FaArrowLeft />
+      </div>
+      <div className="swiper-button-next absolute top-1/2 right-2 transform -translate-y-1/2 bg-white text-black rounded-full shadow-md p-2 cursor-pointer z-10">
+        <FaArrowRight />
+      </div>
+    </div>
+  );
+};
+
+export default TestSwiper;

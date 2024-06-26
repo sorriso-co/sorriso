@@ -1,0 +1,168 @@
+{
+  "about": {
+    "title": "O nama",
+    "advantages": {
+      "first": "Najnovija Tehnologija",
+      "second": "Profesionalizam",
+      "third": "Materijali Najvišeg Kvaliteta"
+    },
+    "description": "Naša posvećenost inovacijama i kvalitetu osigurava da dobijete najbolje dostupne proizvode i usluge. Pridružite nam se u iskusnom budućnosti tehnologije."
+  },
+  "mission": {
+    "title": "Naša Misija",
+    "subtitle": "Transformacija Osmeha, Transformacija Života",
+    "paragraph1": "U Sorrisu, naša misija je da revolucioniziramo dentalni turizam pružajući izuzetnu stomatološku negu kombinovanu sa nezaboravnim putničkim iskustvima. Cilj nam je da ponudimo personalizovane, visokokvalitetne i pristupačne stomatološke tretmane na prelepim destinacijama, osiguravajući da se svaki pacijent vrati kući sa svetlijim, zdravijim osmehom i dragocenim uspomenama.",
+    "paragraph2": "Posvećeni smo izvrsnosti u stomatološkoj nezi, koristeći najnoviju tehnologiju i tehnike za postizanje optimalnih rezultata za pacijente. Naš posvećeni tim profesionalaca neumorno radi kako bi dentalni turizam učinio dostupnim i prijatnim za sve, premošćujući jaz između vrhunskih stomatoloških usluga i avanture otkrivanja novih mesta."
+  },
+  "box": {
+    "section1": {
+      "title": "Pacijenti su Prvi",
+      "subtitle": "Sorriso Vas Podržava",
+      "description": "Sorriso je agencija koja vas vodi na transformativno putovanje ka boljem zdravlju zuba i lepšem osmehu."
+    },
+    "metrics": {
+      "client_satisfaction": "Zadovoljstvo Klijenata",
+      "dental_success": "Uspeh u Stomatologiji",
+      "client_referral": "Preporuke Klijenata"
+    },
+    "cta": {
+      "title": "Spremni da Transformišete Svoj Osmeh?",
+      "description": "Kontaktirajte nas danas kako biste zakazali svoju konsultaciju i napravili prvi korak ka zdravijem, svetlijem osmehu.",
+      "button": "Kontaktirajte Nas"
+    }
+  },
+  "youtubeEmbed": {
+    "title": "Stomatologija Visokog Kvaliteta",
+    "description": "Pogledajte naš video da biste razumeli besprekornu proceduru dentalnog turizma sa Sorrisom. Od prve online konsultacije, preko zakazivanja, dolaska u Crnu Goru i izvođenja procedure, osiguravamo glatko i udobno iskustvo. Otkrijte lepotu Crne Gore dok primate najbolju stomatološku negu."
+  },
+  "topSection": {
+    "title": "Upoznajte Naš Tim Stručnih Stomatologa",
+    "description": "Otkrijte izuzetne veštine i kvalifikacije naših ljubaznih stomatologa, posvećenih pružanju najbolje stomatološke nege. Njihova stručnost obuhvata razne stomatološke specijalnosti, osiguravajući vam sveobuhvatan tretman.",
+    "button": "Saradnja"
+  },
+  "founders": {
+    "title": "Upoznajte Naše Osnivače",
+    "member1": {
+      "name": "Ivan Cabrilo",
+      "description": "Gospodin Cabrilo je iz Crne Gore i trenutno studira na Univerzitetu u Ročesteru u Njujorku sa punom stipendijom. Dvostruko se bavi računarstvom i poslovanjem dok aktivno istražuje veštačku inteligenciju i mašinsko učenje."
+    },
+    "member2": {
+      "name": "Dr. Filip Sukovic med. dent.",
+      "description": "Dr. Filip Šuković je rođen u Cetinju. Završio je srednju školu na St. Clare's International College u Oksfordu i započeo studije stomatologije na Birkbeck University u Londonu, završivši ih na Fakultetu za stomatologiju CEU Cardinal Herrera u Valensiji."
+    },
+    "member3": {
+      "name": "Djordje Ivanovic",
+      "description": "Gospodin Ivanović je iz Podgorice, Crna Gora, i trenutno studira na Harvardu u Bostonu, Masačusets, sa prestižnom stipendijom. Usmerava se ka karijeri u računarskim naukama sa interesovanjem za ekonomiju."
+    }
+  },
+  "team": {
+    "title": "Upoznajte Naš Stručni Tim",
+    "description": "Saradjujemo sa najboljim stomatolozima u zemlji sa dugogodišnjom tradicijom izvrsnosti koja traje preko 30 godina. Njihova izuzetna usluga, pažnja prema detaljima i razumevanje garantuju vam osmeh koji ste oduvek želeli.",
+    "doctor1": {
+      "name": "Dr. Milija Sukovic med. dent.",
+      "title": "Specijalista za Implantologiju"
+    },
+    "doctor2": {
+      "name": "Dr. Jelena Rutesic med. dent.",
+      "title": "Doktor Stomatologije"
+    },
+    "doctor3": {
+      "name": "Dr. Dražen Nikčević med. dent.",
+      "title": "Doktor Stomatologije"
+    },
+    "doctor4": {
+      "name": "Dr. Aleksa Raičković med. dent.",
+      "title": "Doktor Stomatologije"
+    },
+    "doctor5": {
+      "name": "Gospođa Milena Bojanić",
+      "title": "Medicinska Sestra"
+    },
+    "doctor6": {
+      "name": "Gospođa Dijana Šćepanović",
+      "title": "Zubarska Sestra"
+    },
+    "doctor7": {
+      "name": "Gospođa Aleksandra Jevrić",
+      "title": "Medicinska Asistentkinja"
+    },
+    "doctor8": {
+      "name": "Gospođa Nađa Vukadinović",
+      "title": "Medicinska Asistentkinja"
+    }
+  },
+  "scheduleAppointment": {
+    "title": "Zakazivanje Termina",
+    "description": "Spremni da transformišete svoj osmeh? Zakažite termin sa našim stručnim timom već danas i započnite svoje putovanje ka svetlijoj, zdravijoj budućnosti.",
+    "bookNow": "Zakaži Sada",
+    "whatWeStandFor": "Zašta se Zalažemo"
+  },
+  "whyMontenegro": {
+    "title": "Zašto Crna Gora?",
+    "subtitle": "Jednostavan Odgovor"
+  },
+  "dentalTravelIntro": {
+    "title": "Dentalno Putovanje sa Sorrisom",
+    "description": "Posetite zemlju obdarenom netaknutom prirodnom lepotom. Povedite celu porodicu na odmor, dobijte osmeh koji ste oduvek želeli i platite manje.",
+    "buttonText": "Iskusite Svoju Dentalnu Avanturu Sada!",
+    "travel": "Putovanje",
+    "accommodation": "Smeštaj",
+    "sightseeing": "Razgledanje"
+  },
+  "experienceMontenegro": {
+    "heading": "Idi Kući Sa Osmehom",
+    "subheading": "Iskusite Crnu Goru",
+    "cards": {
+      "card1": {
+        "caption": "Ostanite",
+        "text": [
+          "Sveti Stefan je mala Jadranska ostrva blizu Budve u Crnoj Gori. Nekada je to bilo ribarsko selo sa kućama iz 15. veka.",
+          "Ostrvo nije otvoreno za javnost, već samo za stanovnike, goste hotela ili kao deo vođenog obilaska.",
+          "Na ostrvu se nalazi nekoliko starih crkava, uključujući crkvu Svetog Stefana, po kojoj je ostrvo dobilo ime. Pedesetih i šezdesetih godina prošlog veka, celo malo selo je pretvoreno u hotelsko ostrvo, zadržavajući svoj izvorni izgled."
+        ]
+      },
+      "card2": {
+        "caption": "Vidi",
+        "text": [
+          "Gospa od Škrpjela je veštačko ostrvo uz obalu Perasta, Crna Gora, koje je nastalo tokom 200 godina putem bedema od stena i potopljenih brodova. Na njemu se nalazi katolička crkva i muzej.",
+          "Prema legendi, ostrvo su izgradili mornari koji su 22. jula 1452. godine na steni pronašli ikonu Bogorodice sa Detetom i zavetovali se da će posle svake uspešne plovidbe tu postaviti stenu.",
+          "Ova tradicija se nastavlja i danas sa godišnjim događajem zvanim fašinada 22. jula, kada meštani uzimaju čamce i bacaju stene u more, proširujući površinu ostrva."
+        ]
+      },
+      "card3": {
+        "caption": "Istražite",
+        "text": [
+          "Durmitor je jedan od 5 nacionalnih parkova u zemlji. To je masiv koji se nalazi u severozapadnom delu Crne Gore. Deo je Dinarskih Alpa.",
+          "Njegov najviši vrh, Bobotov Kuk, dostiže visinu od 2.523 metra (8.278 stopa). Masiv je ograničen kanjonom reke Tare na severu, kanjonom reke Pive na zapadu i kanjonom reke Komarnice na jugu.",
+          "Masiv daje ime nacionalnom parku koji ga obuhvata. Nacionalni park Durmitor osnovan je 1952. godine i 1980. godine je proglašen svetskom baštinom."
+        ]
+      },
+      "card4": {
+        "caption": "Uživajte",
+        "text": [
+          "Uživajte u ukusnoj kuhinji.",
+          "Crna Gora ima bogatu mediteransku ishranu koja se smatra jednom od najzdravijih i najukusnijih na svetu. Raznovrsnost začina i hrane će vas sigurno oduševiti.",
+          "Sa bogatom istorijom vina kao integralnim delom kulture, možete dobiti svetsko vino na tržištima za manje od 10 dolara. Pored toga, za samo 50 dolara četvoročlana porodica može imati neverovatnu večeru pored mora, sa raznovrsnim svežim ribljim tanjirima i izborom vina."
+        ]
+      }
+    },
+    "ctaButton": "Istražite Više"
+  },
+  "montenegroHighlights": {
+    "title": "Zašto Crna Gora?",
+    "description": "Crna Gora je skriveni dragulj koji privlači posetioce svojim zadivljujućim pejzažima, bogatom istorijom i toplom gostoljubivošću. Sa svojim mediteranskim klimom, zlatnim plažama, planinskim pejzažima, zanimljivom istorijom, pristupačnim cenama i ukusnom lokalnom kuhinjom, Crna Gora ima sve što bi turist mogao poželeti od evropske avanture.",
+    "highlights": {
+      "highlight1": "Kišne Šume",
+      "highlight2": "Planine",
+      "highlight3": "Tirkizno More",
+      "highlight4": "Egzotične Životinje"
+    },
+    "ctaButton": "Trebate Savet za Putovanje? Razgovarajte sa Nama"
+  },
+  "vision": {
+    "title": "Naša Vizija",
+    "subtitle": "Poboljšanje Crne Gore kao Centra za Dentalni Turizam",
+    "paragraph1": "U Sorrisu, naša vizija je da pozicioniramo Crnu Goru kao glavnu destinaciju za dentalni turizam. Cilj nam je da spojimo vrhunsku stomatološku negu sa zadivljujućom lepotom i bogatom kulturom Crne Gore, pružajući našim pacijentima jedinstveno i transformativno iskustvo.",
+    "paragraph2": "Posvećeni smo korišćenju najnovijih stomatoloških tehnologija i partnerstvu sa najboljim profesionalcima kako bismo osigurali izvanrednu negu. Promovišući zadivljujuće pejzaže Crne Gore i luksuzni smeštaj, trudimo se da stvorimo nezaboravna putovanja koja nadilaze stomatološki tretman."
+  }
+}

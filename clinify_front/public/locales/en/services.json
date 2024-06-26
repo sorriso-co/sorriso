@@ -1,0 +1,341 @@
+{
+  "callToAction": {
+    "title": "Get the Smile You've Always Wanted",
+    "cta": "Schedule an Appointment"
+  },
+  "howItWorksHero": {
+    "title": "How Sorriso Works",
+    "description": "Meet our team through teledentistry consultation and get a personalized treatment plan.",
+    "cta": "Get Started"
+  },
+  "serviceHero": {
+    "title": "Our Dental Services",
+    "description": "Discover our wide range of dental services designed to keep your smile healthy and beautiful.",
+    "ctaLearnMore": "Learn More",
+    "ctaBookAppointment": "Book an Appointment"
+  },
+  "serviceDetails": {
+    "sectionTitle": "Our Services",
+    "services": [
+      {
+        "title": "Experienced Dentists",
+        "description": "Our team of dentists has years of experience and specialized training."
+      },
+      {
+        "title": "State-of-the-Art Facility",
+        "description": "We use the latest technology and equipment to ensure the best care."
+      },
+      {
+        "title": "Personalized Care",
+        "description": "We provide individualized treatment plans tailored to your specific needs."
+      }
+    ],
+    "imageAlt": "Doctor"
+  },
+  "experienceSection": {
+    "title": "A Clinic with a Tradition of Excellence",
+    "experience": "Experience",
+    "description": "For 30 years now, our clinic has been helping patients from around the world achieve their perfect smile.",
+    "satisfiedPatients": "+250,000",
+    "satisfiedPatientsText": "Satisfied patients helped",
+    "cta": "View more before and after photos"
+  },
+  "howItWorks": {
+      "title": "Simple Steps to Your Perfect Smile",
+      "description": "Sorriso helps you achieve your dream smile with our easy and convenient process.",
+      "steps": [
+        {
+          "title": "Step 1: Initial Consultation",
+          "description": "Fill out our simple form and schedule an online consultation with our dentist, where we discuss your dental concerns and expectations.",
+          "icon": "FaPhoneAlt"
+        },
+        {
+          "title": "Step 2: Personalized Treatment Plan",
+          "description": "Our experts create a personalized treatment plan tailored to your specific requirements.",
+          "icon": "FaClipboardList"
+        },
+        {
+          "title": "Step 3: Travel Arrangements",
+          "description": "We assist you with travel arrangements to ensure a smooth and hassle-free journey.",
+          "icon": "FaPlane"
+        },
+        {
+          "title": "Step 4: Arrival and Accommodation",
+          "description": "Upon arrival, we offer comfortable accommodation and local assistance throughout your stay.",
+          "icon": "FaHotel"
+        },
+        {
+          "title": "Step 5: Dental Treatment",
+          "description": "Receive world-class dental treatment from our experienced professionals in a state-of-the-art facility.",
+          "icon": "FaTooth"
+        },
+        {
+          "title": "Step 6: Follow-up and Aftercare",
+          "description": "We offer comprehensive follow-up and aftercare to ensure the best results and your complete satisfaction.",
+          "icon": "FaRegSmile"
+        }
+      ],
+      "videoButton": "Watch Now",
+      "videoUrl": "https://www.youtube.com/embed/OEyE7MUoXIc?si=vo2pTGQpw4ZP6U0U",
+      "readyTitle": "Ready to Get Started?",
+      "readyDescription": "Contact us today to schedule your free consultation.",
+      "contactUs": "Contact Us",
+      "scheduleAppointment": "Schedule an Appointment"
+    },
+    "treatmentsHero": {
+    "title": "Transform Your Smile with Our Advanced Treatments",
+    "description": "Discover our wide range of dental procedures, designed to provide you with the best results using the latest technologies and modern facilities.",
+    "contactUs": "Contact Us",
+    "viewAllTreatments": "View All Treatments"
+  },
+  "priceComparison": {
+    "title": "Why Choose Montenegro for Your Dental Procedures?",
+    "description": "Discover the perfect combination of affordable dental care and breathtaking experiences in Montenegro.",
+    "cards": [
+      {
+        "icon": "FaMoneyBillWave",
+        "title": "Cost Savings",
+        "description": "Save significantly on your dental procedures compared to other countries."
+      },
+      {
+        "icon": "FaGlobe",
+        "title": "Rich History",
+        "description": "Explore Montenegro's rich cultural heritage and historical sites."
+      },
+      {
+        "icon": "FaTree",
+        "title": "Natural Beauty",
+        "description": "Enjoy the stunning landscapes, from beautiful lakes to majestic mountains."
+      },
+      {
+        "icon": "FaHiking",
+        "title": "Outdoor Adventures",
+        "description": "Experience thrilling activities like rafting, ziplining, and hiking."
+      },
+      {
+        "icon": "FaBalanceScale",
+        "title": "Balanced Experience",
+        "description": "Enjoy a balanced combination of natural beauty, luxury, and traditional charm."
+      },
+      {
+        "icon": "FaArrowDown",
+        "title": "Affordable Excellence",
+        "description": "Receive exquisite dental care from highly skilled professionals at an affordable price."
+      }
+    ],
+    "subTitle": "Montenegro: More Than Just Dental Care",
+    "subDescription": "Montenegro is not just about cost-effective dental treatments. It's a destination where you can immerse yourself in rich history, stunning nature, and exciting adventures. Whether you're exploring the charming old towns, hiking through national parks, or enjoying the serene lakes and beaches, Montenegro offers a unique experience that makes your dental trip truly memorable."
+  },
+  "flipCard": {
+    "moreInfo": "More Info",
+    "necessity": "When it might be necessary",
+    "candidate": "Good candidate",
+    "duration": "Duration",
+    "back": "Back"
+  },
+  "mostWanted": {
+    "title": "Our Most Wanted Procedures",
+    "description": "Explore our most popular procedures, chosen by patients for their outstanding results and benefits."
+  },
+  "facilities": {
+    "title": "Our Facilities",
+    "description": "Modern facilities for a comfortable and efficient patient experience.",
+    "features": [
+      {
+        "icon": "FaTooth",
+        "title": "State-of-the-Art",
+        "description": "Latest dental technology."
+      },
+      {
+        "icon": "FaChair",
+        "title": "Comfortable",
+        "description": "Modern and clean environment."
+      },
+      {
+        "icon": "FaShieldAlt",
+        "title": "Sterilized",
+        "description": "Highest standards of hygiene."
+      }
+    ]
+  },
+  "expertise": {
+    "title": "Our Expertise",
+    "description": "Leveraging years of experience and a multidisciplinary team of highly skilled professionals, we provide exquisite medical and dental care using the latest technologies.",
+    "sectionTitle": "We Are Experts At What We Do",
+    "sectionDescription": "Our clinic is equipped with state-of-the-art facilities and staffed by a team of dedicated professionals, including experts in general surgery, gynecology, pulmonology, and more. We are committed to providing exceptional, comprehensive care tailored to each patient's needs.",
+    "features": [
+      {
+        "icon": "FaMicroscope",
+        "text": "Cutting-Edge Technology"
+      },
+      {
+        "icon": "FaUserMd",
+        "text": "Multidisciplinary Specialists"
+      },
+      {
+        "icon": "FaHeartbeat",
+        "text": "Patient-Centered Approach"
+      },
+      {
+        "icon": "FaStethoscope",
+        "text": "Comprehensive Care"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Transform Your Smile?",
+    "description": "Contact us today to schedule your consultation and take the first step towards a healthier, brighter smile.",
+    "buttonText": "Contact Us"
+  },
+  "serviceGrid": {
+    "title": "Our Services",
+    "description": "We provide world-class treatment for all dental problems",
+    "buttonText": "Watch Now",
+    "services": [
+      { "title": "General Dentistry" },
+      { "title": "Dental Implants" },
+      { "title": "Dental Crowns" },
+      { "title": "Dental Surgery" },
+      { "title": "Teeth Whitening" },
+      { "title": "Protection" },
+      { "title": "Periodontics" },
+      { "title": "Radiology" }
+    ]
+  },
+   "watchVideo": "Watch Video",
+   "testimonialsHero": {
+    "title": "Our Satisfied Patients",
+    "description": "Hear from our patients about their experiences and the high-quality care they received."
+  },
+  "countries": {
+    "unitedStates": "United States",
+    "italy": "Italy",
+    "montenegro": "Montenegro",
+    "australia": "Australia"
+  },
+  "treatments": {
+    "hollywoodSmile": "HOLLYWOOD SMILE",
+    "dentalImplant": "DENTAL IMPLANT",
+    "teethWhitening": "TEETH WHITENING",
+    "orthodontics": "ORTHODONTICS"
+  },
+  "testimonials": {
+    "sheilaPeterson": {
+      "description": "Dr. Aleksa – honestly his professionalism and patience is incredible. I am on holiday here and I was nervous to have dental work as I am alone. He was so assuring, kind, encouraging and very gentle. He is truly a top dentist. He has now made a regular customer even if I have to travel from London here. Thank you so much and continue the great work!"
+    },
+    "lauraBastone": {
+      "description": "I am very satisfied. High expertise, great attention and courtesy. Thank you very much."
+    },
+    "lelaKovacMajcevski": {
+      "description": "Dental interventions are often painful. That is also my experience, however, Dr. Šuković and his team are truly very professional. The atmosphere is pleasant, without tension, and the patient feels that they are in safe hands here. They are very courteous, easy to arrange appointments with. It is neat and clean. It seems that everything is truly dedicated to the patient. Dr. Dražen and the rest of the team are very responsible. In any case, I heartily recommend this hospital to everyone. Everything here is organized with the patient in mind."
+    },
+    "marryDianaJones": {
+      "description": "My many years of experience at the Ars Medica clinic can be described as more than excellent. The doctors and staff are professional, dedicated, and very kind. The quality of services is at the highest level in an environment of renowned world clinics."
+    }
+  },
+  "gallerySection": {
+    "galleryTitle": "Transformation Gallery",
+    "galleryImageAlt": "Gallery Image {{index}}"
+  },
+  "procedures": [
+    {
+      "image": "/images/bills/implant.jpeg",
+      "title": "Dental Implants",
+      "shortDescription": "Replace missing teeth with durable implants.",
+      "link": "/contact",
+      "necessity": "When you have one or more missing teeth.",
+      "candidate": "Patients with good oral health.",
+      "duration": "1-2 hours per implant."
+    },
+    {
+      "image": "/images/bills/zcrown.jpeg",
+      "title": "Zirconium Crowns",
+      "shortDescription": "Durable and aesthetically pleasing crowns.",
+      "link": "/contact",
+      "necessity": "When you need strong and natural-looking crowns.",
+      "candidate": "Patients needing dental crowns.",
+      "duration": "1-2 hours per crown."
+    },
+    {
+      "image": "/images/bills/hollywood.jpeg",
+      "title": "Your Perfect Smile",
+      "shortDescription": "Achieve a perfect smile with veneers.",
+      "link": "/contact",
+      "necessity": "For a complete smile makeover.",
+      "candidate": "Patients wanting a perfect smile.",
+      "duration": "2-3 sessions."
+    },
+    {
+      "image": "/images/bills/allon4.jpeg",
+      "title": "All-on-4",
+      "shortDescription": "Full-arch restoration with only 4 implants.",
+      "link": "/contact",
+      "necessity": "When you need full arch restoration.",
+      "candidate": "Patients with significant tooth loss.",
+      "duration": "1-2 hours."
+    },
+    {
+      "image": "/images/bills/allon6.jpeg",
+      "title": "All-on-6",
+      "shortDescription": "Full-arch restoration with 6 implants.",
+      "link": "/contact",
+      "necessity": "When you need full arch restoration with extra stability.",
+      "candidate": "Patients with significant tooth loss.",
+      "duration": "1-2 hours."
+    },
+    {
+      "image": "/images/bills/white.jpeg",
+      "title": "Teeth Whitening",
+      "shortDescription": "Brighten your smile with professional whitening.",
+      "link": "/contact",
+      "necessity": "When you want to remove stains and discoloration.",
+      "candidate": "Patients looking to brighten their smile.",
+      "duration": "1 hour."
+    },
+    {
+      "image": "/images/bills/veneers.jpeg",
+      "title": "Dental Veneers",
+      "shortDescription": "Enhance your smile with custom veneers.",
+      "link": "/contact",
+      "necessity": "For improving the appearance of teeth.",
+      "candidate": "Patients with chipped, stained, or misaligned teeth.",
+      "duration": "2-3 sessions."
+    },
+    {
+      "image": "/images/bills/root.png",
+      "title": "Root Canal Treatment",
+      "shortDescription": "Save your natural teeth.",
+      "link": "/contact",
+      "necessity": "When you have an infected or inflamed tooth pulp.",
+      "candidate": "Patients with severe tooth pain or infection.",
+      "duration": "1-2 hours."
+    },
+    {
+      "image": "/images/bills/bridge.jpeg",
+      "title": "Dental Bridges",
+      "shortDescription": "Replace missing teeth with a dental bridge.",
+      "link": "/contact",
+      "necessity": "When you have one or more missing teeth.",
+      "candidate": "Patients with good oral health and adjacent teeth.",
+      "duration": "2-3 sessions."
+    },
+    {
+      "image": "/images/bills/gum.png",
+      "title": "Gum Contouring",
+      "shortDescription": "Reshape your gums for a better smile.",
+      "link": "/contact",
+      "necessity": "For correcting uneven gum lines.",
+      "candidate": "Patients with excessive or uneven gums.",
+      "duration": "1-2 hours."
+    },
+    {
+      "image": "/images/bills/full.jpeg",
+      "title": "Full Mouth Reconstruction",
+      "shortDescription": "Complete dental restoration.",
+      "link": "/contact",
+      "necessity": "When you need extensive dental work.",
+      "candidate": "Patients with multiple dental issues.",
+      "duration": "Varies by case."
+    }
+  ]
+}

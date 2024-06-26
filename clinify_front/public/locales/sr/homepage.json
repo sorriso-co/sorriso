@@ -1,0 +1,185 @@
+{
+  "slideshow": {
+    "slide1": "BESPLATNE Online Konsultacije",
+    "slide2": "Uštedite do 70%",
+    "slide3": "Uživajte više",
+    "slide4": "Provedite svoj odmor sa osmehom"
+  },
+  "introduction": {
+    "title": "Vaše sledeće putovanje za zubarsku negu",
+    "subtitle": "Veni. Vidi. Vici sa Sorriso",
+    "description": "Otkrijte izuzetnu zubarsku negu kombinovanu sa nezaboravnim putovanjem. Neka vas Sorriso vodi kroz putovanje ka sjajnijem, zdravijem osmehu dok istražujete lepotu i kulturu Crne Gore.",
+    "joinUsTitle": "Pridružite nam se",
+    "joinUsDescription": "Zakažite sastanak i započnite svoje putovanje ka savršenom osmehu sa Sorriso.",
+    "scheduleButton": "Zakažite sada"
+  },
+  "howItWorks": {
+    "title": "Kako funkcioniše",
+    "steps": {
+      "step1": {
+        "title": "Kontaktirajte nas",
+        "description": "Popunite formular i opcionalno pošaljite najnoviji rendgenski snimak ili sliku vaših zuba. Kontaktiraćemo vas u roku od 24 sata da zakažemo vašu online konsultaciju."
+      },
+      "step2": {
+        "title": "Primite vaš plan lečenja",
+        "description": "Dobijate plan lečenja koji detaljno prikazuje sve korake i troškove."
+      },
+      "step3": {
+        "title": "Početna konsultacija",
+        "description": "Tokom konsultacije imate priliku da postavite bilo koja pitanja o lečenju."
+      },
+      "step4": {
+        "title": "Putovanje",
+        "description": "Kada je plan spreman, samo se spakujte, putujte i primite tretman. Mi ćemo se pobrinuti za sve."
+      },
+      "step5": {
+        "title": "Lečenje",
+        "description": "Primite potrebni tretman od naših visoko kvalifikovanih zubara. Koristimo najnoviju tehnologiju."
+      },
+      "step6": {
+        "title": "Zabavite se",
+        "description": "Uživajte u boravku i istražujte lokalne atrakcije dok primate najbolju zubarsku negu i uživate u Crnoj Gori."
+      }
+    },
+    "buttonText": "Pogledajte sada"
+  },
+  "serviceGrid": {
+    "title": "Naše usluge",
+    "description": "Pružamo vrhunske tretmane za sve zubarske probleme",
+    "services": [
+      { "title": "Opšta stomatologija" },
+      { "title": "Implantologija" },
+      { "title": "Protetika" },
+      { "title": "Zubarska hirurgija" },
+      { "title": "Estetska stomatologija" },
+      { "title": "Endodoncija" },
+      { "title": "Parodontologija" },
+      { "title": "Zubna radiologija" }
+    ],
+    "buttonText": "Pogledajte sada"
+  },
+  "pricing": {
+    "title": "Prosečno poređenje troškova",
+    "procedures": [
+      {
+        "procedure": "Titanijumski implant",
+        "ukPrice": "€3,000",
+        "euPrice": "€2,200",
+        "usPrice": "€3,600",
+        "balkanPrice": "€1,072",
+        "savings": "65%"
+      },
+      {
+        "procedure": "All-on-4 Implatanti",
+        "ukPrice": "€14,400",
+        "euPrice": "€10,000",
+        "usPrice": "€15,000",
+        "balkanPrice": "€6,231",
+        "savings": "58%"
+      },
+      {
+        "procedure": "All-on-6 Implatanti",
+        "ukPrice": "€16,200",
+        "euPrice": "€11,500",
+        "usPrice": "€16,800",
+        "balkanPrice": "€7,916",
+        "savings": "52%"
+      },
+      {
+        "procedure": "All-on-8 Implatanti",
+        "ukPrice": "€18,000",
+        "euPrice": "€13,000",
+        "usPrice": "€19,200",
+        "balkanPrice": "€9,499",
+        "savings": "52%"
+      },
+      {
+        "procedure": "Puna porcelanska kruna",
+        "ukPrice": "€1,200",
+        "euPrice": "€800",
+        "usPrice": "€1,300",
+        "balkanPrice": "€383",
+        "savings": "68%"
+      },
+      {
+        "procedure": "Cirkonijumska kruna",
+        "ukPrice": "€1,440",
+        "euPrice": "€1,000",
+        "usPrice": "€1,560",
+        "balkanPrice": "€383",
+        "savings": "75%"
+      },
+      {
+        "procedure": "Porcelanska faseta",
+        "ukPrice": "€1,200",
+        "euPrice": "€850",
+        "usPrice": "€1,440",
+        "balkanPrice": "€255",
+        "savings": "82%"
+      },
+      {
+        "procedure": "E-Max faseta",
+        "ukPrice": "€1,260",
+        "euPrice": "€900",
+        "usPrice": "€1,500",
+        "balkanPrice": "€383",
+        "savings": "75%"
+      },
+      {
+        "procedure": "Puna proteza",
+        "ukPrice": "€2,160",
+        "euPrice": "€1,500",
+        "usPrice": "€2,400",
+        "balkanPrice": "€664",
+        "savings": "72%"
+      },
+      {
+        "procedure": "Izbeljivanje zuba",
+        "ukPrice": "€600",
+        "euPrice": "€450",
+        "usPrice": "€720",
+        "balkanPrice": "€255",
+        "savings": "65%"
+      },
+      {
+        "procedure": "Lečenje kanala (molar)",
+        "ukPrice": "€960",
+        "euPrice": "€700",
+        "usPrice": "€1,080",
+        "balkanPrice": "€123",
+        "savings": "87%"
+      },
+      {
+        "procedure": "Vađenje zuba (jednostavno)",
+        "ukPrice": "€240",
+        "euPrice": "€180",
+        "usPrice": "€300",
+        "balkanPrice": "€56",
+        "savings": "77%"
+      },
+      {
+        "procedure": "Vađenje zuba (hirurško)",
+        "ukPrice": "€360",
+        "euPrice": "€250",
+        "usPrice": "€420",
+        "balkanPrice": "€189",
+        "savings": "55%"
+      },
+      {
+        "procedure": "Redovno čišćenje zuba",
+        "ukPrice": "€360",
+        "euPrice": "€250",
+        "usPrice": "€420",
+        "balkanPrice": "€66",
+        "savings": "84%"
+      }
+    ],
+    "note": "*Cene zavise od slučaja. Popunite naš online formular za upit da biste saznali najnovije ponude i ekskluzivne popuste!",
+    "buttonText": "Pogledajte naše cene"
+  },
+  "haveItAll": {
+    "title": "Imati sve sa Sorriso",
+    "description": "Otkrijte savršenu kombinaciju vrhunske zubarske nege i odmora iz snova u Crnoj Gori. Sa Sorrisom možete iskusiti vrhunske zubarske tretmane dok uživate u zadivljujućoj lepoti pejzaža Crne Gore, njenoj bogatoj istoriji i toplom gostoprimstvu. Uštedite do 80% na zubarskim tretmanima.",
+    "buttonText": "Zakažite sastanak"
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "hero": {
+    "title": "Preisübersicht unserer zahnärztlichen Dienstleistungen",
+    "subtitle": "Der beste Preis bei höchster Qualität!",
+    "cta": "Kostenlose Online-Untersuchung",
+    "ctaNote": "Völlig kostenlos! Keine versteckten Kosten!"
+  },
+  "comparison": {
+    "title": "Vergleich der Behandlungspreise",
+    "description": "In diesem vereinfachten Vergleich werden die Preise realer Kostenvoranschläge verwendet. Man kann sehen, dass die Behandlungskosten in Montenegro im Durchschnitt etwa 65 % günstiger sind als in der EU. Wie ist das möglich? Das liegt daran, dass die Lebenshaltungskosten in Montenegro deutlich niedriger sind als in der EU. Kommen Sie also nach Montenegro und sparen Sie Geld bei Ihrer Zahnbehandlung, während Sie eines der schönsten und vielfältigsten Länder Europas genießen.",
+    "cta": "Zweite Meinung anfordern"
+  },
+  "competitiveAdvantage": {
+    "title": "Warum uns wählen?",
+    "description": "Erleben Sie die beste zahnärztliche Versorgung im schönen Montenegro mit hochwertigen Materialien und internationalen Verbindungen. Genießen Sie erhebliche Einsparungen, außergewöhnlichen Service und die Verwendung hochwertigster Materialien für Ihre Zahnbehandlungen.",
+    "advantages": {
+      "personalizedCare": {
+        "title": "Personalisierte Betreuung",
+        "description": "Wir bieten Ihnen eine auf Ihre Bedürfnisse zugeschnittene, personalisierte Betreuung."
+      },
+      "qualityService": {
+        "title": "Qualität des Services",
+        "description": "Hervorragende zahnärztliche Leistungen mit außergewöhnlicher Betreuung."
+      },
+      "competitivePricing": {
+        "title": "Wettbewerbsfähige Preise",
+        "description": "Deutlich niedrigere Preise im Vergleich zu anderen Ländern."
+      },
+      "highQualityMaterials": {
+        "title": "Hochwertige Materialien",
+        "description": "Es werden nur die hochwertigsten Materialien verwendet."
+      },
+      "beautifulMontenegro": {
+        "title": "Schönes Montenegro",
+        "description": "Genießen Sie die malerische Schönheit Montenegros."
+      },
+      "internationalConnections": {
+        "title": "Internationale Verbindungen",
+        "description": "Starke internationale Verbindungen für eine reibungslose Reise."
+      }
+    }
+  },
+  "pricingSection": {
+    "title": "Unsere wettbewerbsfähigen Preise",
+    "description": "Entdecken Sie die kostengünstigen Zahnbehandlungslösungen, die wir anbieten. Unsere Behandlungen gewährleisten nicht nur höchste Qualität und Pflege, sondern kommen auch zu einem Bruchteil der Kosten im Vergleich zu anderen Ländern. Entdecken Sie unten unsere Preisoptionen, um zu sehen, warum wir die beste Wahl für Ihre zahnärztlichen Bedürfnisse sind.",
+    "dentalImplants": {
+      "title": "Zahnimplantate",
+      "description": "Wenn Ihnen ein oder mehrere Zähne fehlen, sind Zahnimplantate die Lösung für Sie.",
+      "prices": {
+        "montenegro": "€800",
+        "italy": "€1,800",
+        "austria": "€1,700",
+        "australia": "€2,500",
+        "germany": "€1,600",
+        "switzerland": "€2,200",
+        "unitedStates": "€3,000"
+      },
+      "buttonText": "Mehr erfahren",
+      "topImage": "/images/bills/implant.jpeg"
+    },
+    "zirconiumCrowns": {
+      "title": "Zirkon-Kronen",
+      "description": "Zahnkronen stellen die Form, Größe und Stärke eines Zahns wieder her.",
+      "prices": {
+        "montenegro": "€250",
+        "italy": "€700",
+        "austria": "€650",
+        "australia": "€1,000",
+        "germany": "€800",
+        "switzerland": "€900",
+        "unitedStates": "€1,200"
+      },
+      "buttonText": "Mehr erfahren",
+      "topImage": "/images/bills/zcrown.jpeg"
+    },
+    "ceramicCrowns": {
+      "title": "Keramikkronen",
+      "description": "Keramikkronen sorgen für ein natürliches Aussehen und sind eine hervorragende Option für die Vorderzähne.",
+      "prices": {
+        "montenegro": "€300",
+        "italy": "€800",
+        "austria": "€750",
+        "australia": "€1,200",
+        "germany": "€900",
+        "switzerland": "€1,000",
+        "unitedStates": "€1,300"
+      },
+      "buttonText": "Mehr erfahren",
+      "topImage": "/images/bills/ccrown.jpeg"
+    },
+    "allon4": {
+      "title": "All-on-4",
+      "description": "Das All-on-4-Behandlungskonzept bietet eine Vollprothese auf nur vier Implantaten.",
+      "prices": {
+        "montenegro": "€3,500",
+        "italy": "€7,500",
+        "austria": "€7,000",
+        "australia": "€10,000",
+        "germany": "€8,500",
+        "switzerland": "€9,000",
+        "unitedStates": "€12,000"
+      },
+      "buttonText": "Mehr erfahren",
+      "topImage": "/images/bills/allon4.jpeg"
+    },
+    "allon6": {
+      "title": "All-on-6",
+      "description": "Das All-on-6-Behandlungskonzept bietet eine Vollprothese auf sechs Implantaten.",
+      "prices": {
+        "montenegro": "€5,000",
+        "italy": "€10,000",
+        "austria": "€9,500",
+        "australia": "€13,000",
+        "germany": "€11,000",
+        "switzerland": "€12,000",
+        "unitedStates": "€15,000"
+      },
+      "buttonText": "Mehr erfahren",
+      "topImage": "/images/bills/allon6.jpeg"
+    },
+    "hollywoodSmile": {
+      "title": "Ihr perfektes Lächeln",
+      "description": "Erreichen Sie Ihr perfektes Lächeln mit der 'Hollywood Smile'-Behandlung.",
+      "prices": {
+        "montenegro": "€3,000",
+        "italy": "€6,000",
+        "austria": "€5,500",
+        "australia": "€8,000",
+        "germany": "€7,000",
+        "switzerland": "€7,500",
+        "unitedStates": "€10,000"
+      },
+      "buttonText": "Mehr erfahren",
+      "topImage": "/images/bills/hollywood.jpeg"
+    }
+  },
+  "dentalExamination": {
+    "name": "Zahnärztliche Untersuchung",
+    "price": "20.0",
+    "euPrice": "50.0"
+  },
+  "interproximalXray": {
+    "name": "Interproximal Röntgen",
+    "price": "20.0",
+    "euPrice": "50.0"
+  },
+  "panoramicXray": {
+    "name": "Panorama-Röntgen",
+    "price": "20.0",
+    "euPrice": "60.0"
+  },
+  "cbctScan": {
+    "name": "CBCT-Scan",
+    "price": "100.0",
+    "euPrice": "300.0"
+  },
+  "segmentalCbctScan": {
+    "name": "Segmentaler CBCT-Scan",
+    "price": "50.0",
+    "euPrice": "150.0"
+  },
+  "compositeFilling": {
+    "name": "Kompositfüllung",
+    "price": "50.0",
+    "euPrice": "120.0"
+  },
+  "compositeReconstruction": {
+    "name": "Kompositrekonstruktion",
+    "price": "80.0",
+    "euPrice": "200.0"
+  },
+  "dentalHygieneTreatment": {
+    "name": "Zahnreinigung (pro Kiefer)",
+    "price": "30.0",
+    "euPrice": "80.0"
+  },
+  "removalOfNicotineStains": {
+    "name": "Entfernung von Nikotinflecken (pro Kiefer)",
+    "price": "50.0",
+    "euPrice": "150.0"
+  },
+  "simpleToothExtraction": {
+    "name": "Einfache Zahnentfernung",
+    "price": "30.0",
+    "euPrice": "80.0"
+  },
+  "semiImpactedToothExtraction": {
+    "name": "Halb-impaktierte Zahnentfernung",
+    "price": "300.0",
+    "euPrice": "700.0"
+  },
+  "impactedWisdomToothExtraction": {
+    "name": "Entfernung eines impaktierten Weisheitszahns",
+    "price": "600.0",
+    "euPrice": "1500.0"
+  },
+  "periodontalPocketDebridement": {
+    "name": "Parodontal-Taschenreinigung",
+    "price": "20.0",
+    "euPrice": "50.0"
+  },
+  "laserGumTreatment": {
+    "name": "Laser Zahnfleischbehandlung",
+    "price": "50.0",
+    "euPrice": "200.0"
+  },
+  "implantHygieneMaintenance": {
+    "name": "Implanthygiene (pro Kiefer)",
+    "price": "60.0",
+    "euPrice": "150.0"
+  },
+  "softTissueGraft": {
+    "name": "Weichgewebetransplantat",
+    "price": "400.0",
+    "euPrice": "1200.0"
+  },
+  "apicotomy": {
+    "name": "Apikotomie",
+    "price": "160.0",
+    "euPrice": "400.0"
+  },
+  "frenectomy": {
+    "name": "Frenektomie",
+    "price": "60.0",
+    "euPrice": "150.0"
+  },
+  "abscessIncision": {
+    "name": "Abszessinzision",
+    "price": "30.0",
+    "euPrice": "80.0"
+  },
+  "gumPlasticSurgery": {
+    "name": "Plastische Zahnfleischoperation",
+    "price": "100.0",
+    "euPrice": "300.0"
+  },
+  "biopsy": {
+    "name": "Biopsie",
+    "price": "80.0",
+    "euPrice": "200.0"
+  },
+  "phExam": {
+    "name": "Ph-Untersuchung",
+    "price": "35.0",
+    "euPrice": "100.0"
+  },
+  "analgoSedation": {
+    "name": "Analgo-Sedation (pro Stunde)",
+    "price": "300.0",
+    "euPrice": "700.0"
+  },
+  "metalCeramicCrown": {
+    "name": "Metall-Keramikkrone",
+    "price": "150.0",
+    "euPrice": "500.0"
+  },
+  "porcelainCrown": {
+    "name": "Porzellankrone",
+    "price": "250.0",
+    "euPrice": "800.0"
+  },
+  "zirconiumCrown": {
+    "name": "Zirkonkrone",
+    "price": "350.0",
+    "euPrice": "1000.0"
+  },
+  "porcelainCrownOnImplant": {
+    "name": "Porzellankrone auf Implantat",
+    "price": "200.0",
+    "euPrice": "700.0"
+  },
+  "nightguard": {
+    "name": "Knirscherschiene",
+    "price": "60.0",
+    "euPrice": "200.0"
+  },
+  "teethWhiteningKit": {
+    "name": "Zahnaufhellung Kit",
+    "price": "35.0",
+    "euPrice": "150.0"
+  },
+  "endodonticPost": {
+    "name": "Endodontischer Stift",
+    "price": "50.0",
+    "euPrice": "150.0"
+  },
+  "implant": {
+    "name": "Implantat",
+    "price": "600.0",
+    "euPrice": "1000.0"
+  },
+  "suprastructure": {
+    "name": "Suprastruktur",
+    "price": "150.0",
+    "euPrice": "500.0"
+  },
+  "temporaryCrowns": {
+    "name": "Provisorische Kronen",
+    "option1": {
+      "variant": "",
+      "price": "20.0",
+      "euPrice": "100.0"
+    },
+    "option2": {
+      "variant": "Laborgefertigt",
+      "price": "50.0",
+      "euPrice": "200.0"
+    }
+  },
+  "teethWhitening": {
+    "name": "Zahnaufhellung (pro Zahn)",
+    "option1": {
+      "variant": "Mit Schiene",
+      "price": "15.0",
+      "euPrice": "70.0"
+    },
+    "option2": {
+      "variant": "In der Praxis",
+      "price": "20.0",
+      "euPrice": "100.0"
+    }
+  },
+  "sinusLift": {
+    "name": "Sinuslift",
+    "option1": {
+      "variant": "I",
+      "price": "400.0",
+      "euPrice": "1200.0"
+    },
+    "option2": {
+      "variant": "II",
+      "price": "800.0",
+      "euPrice": "1500.0"
+    }
+  },
+  "complicatedToothExtraction": {
+    "name": "Komplizierte Zahnentfernung",
+    "option1": {
+      "variant": "",
+      "price": "50.0",
+      "euPrice": "150.0"
+    },
+    "option2": {
+      "variant": "Mit Trennung",
+      "price": "160.0",
+      "euPrice": "400.0"
+    }
+  },
+  "boneGraft": {
+    "name": "Knochenaufbau",
+    "option1": {
+      "variant": "a",
+      "price": "800.0",
+      "euPrice": "1500.0"
+    },
+    "option2": {
+      "variant": "b",
+      "price": "400.0",
+      "euPrice": "800.0"
+    },
+    "option3": {
+      "variant": "c",
+      "price": "200.0",
+      "euPrice": "600.0"
+    }
+  },
+  "fibrin": {
+    "name": "Fibrin",
+    "option1": {
+      "variant": "I",
+      "price": "200.0",
+      "euPrice": "600.0"
+    },
+    "option2": {
+      "variant": "II",
+      "price": "400.0",
+      "euPrice": "800.0"
+    }
+  },
+  "endodonticTreatment": {
+    "name": "Endodontische Behandlung",
+    "option1": {
+      "variant": "Einzelkanal-Zahn",
+      "price": "80.0",
+      "euPrice": "250.0"
+    },
+    "option2": {
+      "variant": "Mehrkanal-Zahn",
+      "price": "100.0",
+      "euPrice": "350.0"
+    }
+  },
+  "endodonticReTreatment": {
+    "name": "Endodontische Nachbehandlung",
+    "option1": {
+      "variant": "Einzelkanal-Zahn",
+      "price": "100.0",
+      "euPrice": "300.0"
+    },
+    "option2": {
+      "variant": "Mehrkanal-Zahn",
+      "price": "140.0",
+      "euPrice": "450.0"
+    }
+  },
+  "treatment": "Behandlung",
+  "price": "Preis ($)",
+  "savings": "Ersparnisse (%)",
+  "clickForOptions": "Klicken Sie für Optionen",
+  "close": "Schließen",
+  "packageCard": {
+    "moreInformationButton": "Mehr Informationen"
+  },
+  "packagesSection": {
+    "title": "Unsere beliebtesten Pakete",
+    "description": "Sorriso bietet umfassende Pakete für Zahnbehandlungen in Montenegro. Wählen Sie das Paket, das Ihren Bedürfnissen entspricht. Wählen Sie Qualität, wählen Sie Sorriso.",
+    "packages": [
+      {
+        "price": "$1,100",
+        "title": "Kleinere Eingriffe",
+        "description": "Ein oder mehrere Implantate; ein kurzer Aufenthalt von 3 Tagen in Montenegro.",
+        "features": [
+          "1 Implantat mit Krone",
+          "Transfers zum und vom Flughafen",
+          "2 Übernachtungen in unserer Kliniksuite",
+          "Nachsorge am Tag nach der Behandlung"
+        ]
+      },
+      {
+        "price": "$5,300",
+        "title": "Standardbehandlung",
+        "description": "Mehrere Implantate oder eine Brücke; Reise nach Montenegro.",
+        "features": [
+          "4 Implantate mit 8 Kronen",
+          "2 Transfers zum und vom Flughafen",
+          "4 Übernachtungen in unserer Kliniksuite",
+          "Nachsorge am Tag nach der Behandlung"
+        ]
+      },
+      {
+        "price": "$10,000",
+        "title": "Komplettpaket Zahnbehandlung",
+        "description": "Eine komplette Zahnsanierung; ein Aufenthalt von 5 bis 7 Tagen.",
+        "features": [
+          "8 Implantate mit 16 Kronen",
+          "2 Transfers zum und vom Flughafen",
+          "7 Übernachtungen in unserer Kliniksuite",
+          "Nachsorge am Tag nach der Behandlung"
+        ]
+      }
+    ],
+    "note": "* Die oben ausgewählten Pakete sind eine Schätzung und können je nach Zustand des Patienten und Behandlungsplan variieren. Ein individuell angepasster Behandlungsplan steht im Mittelpunkt unseres Ansatzes, weshalb wir eine kostenlose Beratung und ein Angebot ohne versteckte Kosten bei der Beratung anbieten."
+  },
+  "contactUs": {
+    "title": "Werden Sie einer unserer vielen zufriedenen Patienten!",
+    "description": "Sagen Sie Ja und vertrauen Sie uns – Sie werden es nicht bereuen. Kontaktieren Sie uns und wir werden uns so schnell wie möglich bei Ihnen melden!",
+    "contactButton": "Kontaktieren Sie uns",
+    "callUs": "Oder rufen Sie uns an",
+    "phone": "+382 69 851 872"
+  }
+}

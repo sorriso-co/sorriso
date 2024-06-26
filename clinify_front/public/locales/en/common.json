@@ -1,0 +1,98 @@
+{
+    "meta": {
+    "description": "Sorriso: Affordable Dental Tourism in the Balkans. Offering high-quality dental care at a fraction of the cost for patients from Europe, US, Australia, and beyond.",
+    "title": "Sorriso - Affordable Dental Tourism",
+    "ogTitle": "Sorriso - Affordable Dental Tourism in the Balkans",
+    "ogDescription": "Sorriso provides high-quality, affordable dental care in the Balkans for patients from Europe, the US, Australia, and beyond. Discover the benefits of dental tourism with Sorriso.",
+    "twitterTitle": "Sorriso - Affordable Dental Tourism in the Balkans",
+    "twitterDescription": "Discover affordable dental care in the Balkans with Sorriso. We offer high-quality treatments for patients from Europe, the US, Australia, and beyond.",
+    "keywords": "dental tourism, affordable dental care, dental care Balkans, Sorriso, dental treatments Europe, dental implants, teeth whitening, orthodontics, dental crowns, dental bridges, dental veneers, cosmetic dentistry, dental surgery, dental checkup, dental clinic, dental services, dental consultation, Balkans dental care, dental travel, dental packages, dental care abroad, international dental care, high-quality dental care, dental care savings, dental tourism Europe, dental tourism Balkans, dental care for US patients, dental care for Australian patients, dental care for European patients, dental health tourism, dental treatment abroad, dental tourism packages, dental holiday, dental care packages, affordable dental treatments, dental tourism destinations, dental care offers, dental tourism deals, low-cost dental care, dental care savings plans, international dental clinics, dental specialists Europe, advanced dental care, dental care options, dental care plans, dental care providers, professional dental care, dental care consultations, dental care deals, best dental care abroad, dental treatment plans, dental health travel, dental care trips, dental travel insurance, dental vacation, dental care discounts, dental tourism hotspots, dental procedures abroad, affordable dental solutions, comprehensive dental care, dental care packages Europe, dental care expertise, trusted dental services, quality dental treatments, modern dental clinics, dental health and wellness, patient-focused dental care, customized dental treatments, dental care excellence, reputable dental care, experienced dental professionals, dental care satisfaction, seamless dental care, dental wellness programs, expert dental care abroad, dental care safety, dental health packages, affordable dental packages, premium dental care, dental care options abroad, extensive dental services, personalized dental care, dental tourism planning, dental treatment savings, dental health travel packages, superior dental care, convenient dental care, dental care flexibility, affordable cosmetic dentistry, innovative dental treatments, reliable dental services, dental care convenience, international dental solutions, dental care travel, dental care appointments abroad, dental treatment abroad costs, efficient dental care, dental care coordination, dental care comfort, advanced dental technology, accessible dental care, dental care offers abroad, dental care options for seniors, family dental care abroad, group dental travel, corporate dental packages, luxury dental care, dental wellness tourism, dental treatment variety, dental care recommendations, dental care standards, dental patient care, quality dental materials, advanced dental techniques, dental tourism advice, dental treatment consultations, dental care with insurance, dental care planning assistance, expert dental consultations, dental health services, stress-free dental care, dental tourism reviews, dental treatment testimonials, dental care satisfaction, dental health assessments, reliable dental clinics, dental service guarantees, leading dental treatments, dental tourism benefits, international dental experts, dental care specialists, dental patient support, dental treatment expertise, dental care innovation, dental care results, dental health improvement, dental care quality, personalized dental solutions, professional dental assessments, dental treatment guarantees, dental patient care excellence, dental care network, trusted dental care providers"
+  },
+  
+    "header": {
+      "menu": {
+        "home": "Home",
+        "about": "About",
+        "about_submenu": {
+          "about": "About",
+          "our_team": "Our Team",
+          "why_montenegro": "Why Montenegro?"
+        },
+        "services": "Services",
+        "services_submenu": {
+          "our_services": "Our Services",
+          "how_it_works": "How It Works",
+          "treatments": "Treatments",
+          "experiences": "Experiences",
+          "gallery": "Gallery"
+        },
+        "business": "Business",
+        "business_submenu": {
+          "for_clinics": "For Clinics",
+          "for_affiliates": "For Affiliates"
+        },
+        "pricing": "Pricing",
+        "contact": "Contact"
+      },
+      "mobile_nav": {
+        "menu": "Menu",
+        "close": "Close"
+      }
+    },
+    "footer": {
+    "copyright": "© 2024 Sorriso. All rights reserved.",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy Policy",
+    "facebook": "https://facebook.com",
+    "instagram": "https://instagram.com"
+    },
+    "contactDetails": {
+      "title": "Contact Us",
+      "addressTitle": "Our Address",
+      "address": "Ulica 13.Jula 2/18\nPodgorica 81000, Montenegro",
+      "phoneTitle": "Call Us Any Time",
+      "phone": "+38269851872",
+      "emailTitle": "Email Us",
+      "email": "contact@sorriso.care",
+      "hoursTitle": "Working Hours",
+      "hours": "Monday - Friday: 9.00 - 17.00"
+    },
+    "contactForm": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "messagePlaceholder": "Send us a message outlining your dental concerns, expectations, or questions. We will get back to you as soon as possible.",
+    "upload": "Upload an image of your teeth (optional)",
+    "send": "Send Message",
+    "success": "Email sent successfully!",
+    "failure": "Failed to send email. Please try again."
+    },
+    "contactSection": {
+      "title": "Get in Touch with Us",
+      "subtitle": "Get rid of the inconveniance. Let us help you be you.",
+      "consultationTitle": "Book a Free 30-Minute Consultation",
+      "consultationDescription": "Schedule a free consultation with our experts to discuss your needs and how we can help you achieve your goals."
+    },
+    "privacyPolicy": {
+    "title": "Privacy Policy",
+    "introductionTitle": "Introduction",
+    "introductionContent": "Welcome to our Privacy Policy. Your privacy is critically important to us. Our privacy policy explains how we handle your personal information and data.",
+    "informationWeCollectTitle": "Information We Collect",
+    "informationWeCollectContent": "We collect several types of information from and about users of our website, including:",
+    "informationWeCollectItem1": "Personal identification information (Name, email address, phone number, etc.)",
+    "informationWeCollectItem2": "Demographic information (age, gender, preferences, interests, etc.)",
+    "informationWeCollectItem3": "Technical data (IP address, browser type and version, time zone setting, etc.)",
+    "informationWeCollectItem4": "Usage data (information about how you use our website, products, and services)",
+    "howWeUseInformationTitle": "How We Use Your Information",
+    "howWeUseInformationContent": "We use the information we collect in various ways, including to:",
+    "howWeUseInformationItem1": "Provide, operate, and maintain our website",
+    "howWeUseInformationItem2": "Improve, personalize, and expand our website",
+    "howWeUseInformationItem3": "Understand and analyze how you use our website",
+    "howWeUseInformationItem4": "Develop new products, services, features, and functionality",
+    "dataSecurityTitle": "Data Security",
+    "dataSecurityContent": "We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process."
+  }
+  }
+  

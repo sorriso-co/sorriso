@@ -1,0 +1,229 @@
+{
+    "clinicServicesHero": {
+      "title": "Servicios para Clínicas Privadas",
+      "subtitle": "Nuestra plataforma ofrece a las clínicas privadas las herramientas necesarias para agilizar el proceso de incorporación de pacientes, facilitando la gestión de citas, registros de pacientes y comunicaciones. Nuestro objetivo final es capacitar a las clínicas para que brinden la mejor atención posible a sus pacientes.",
+      "cta": "Aprende Más"
+    },
+    "internationalPatientWorkflow": {
+      "title": "Agilización del Flujo de Trabajo para Pacientes Internacionales",
+      "description": "Sorriso simplifica la gestión de pacientes internacionales, permitiendo a las clínicas centrarse en la atención excepcional. Seguimos el viaje del paciente desde el primer contacto hasta el seguimiento final, asegurando una experiencia fluida. Los gerentes de clínicas y el personal dedicado a menudo tienen demasiado que coordinar para brindar una experiencia constante y de clase mundial a los pacientes que viajan por el mundo para procedimientos que cambian la vida. Entendemos que la experiencia del paciente es una prioridad para las clínicas, y estamos aquí para ayudar. Nuestra plataforma permite a las clínicas ofrecer una experiencia fluida para los pacientes internacionales sin la molestia de gestionar cientos de piezas en movimiento: correos electrónicos, enlaces de Zoom, llamadas telefónicas, horarios, reservas y transporte. Lo tenemos todo cubierto.",
+      "cta": "Aprende Más",
+      "feature1": {
+        "title": "Interfaz con Pacientes Internacionales",
+        "description": "Comunicación clara y efectiva con soporte para múltiples idiomas."
+      },
+      "feature2": {
+        "title": "Programación de Llamadas y Citas",
+        "description": "Reservas de citas automatizadas, recordatorios y ajustes de zona horaria."
+      },
+      "feature3": {
+        "title": "Organización de Recogida en el Aeropuerto",
+        "description": "Experiencia de llegada suave y cómoda con fácil coordinación de transporte."
+      },
+      "feature4": {
+        "title": "Gestión de Hoteles",
+        "description": "Gestiona reservas y solicitudes especiales con proveedores de alojamiento locales."
+      },
+      "feature5": {
+        "title": "Transferencia de Datos para Escaneos y Documentación de Salud Relevante",
+        "description": "Transferencia electrónica segura de registros de salud y documentación crítica."
+      },
+      "feature6": {
+        "title": "Mejora de la Experiencia del Paciente",
+        "description": "Brindando una experiencia agradable y sin estrés desde la llegada hasta la salida."
+      }
+    },
+    "dataSpeaks": {
+      "title": "Datos Hablan: El Costo Real de la Ineficiencia",
+      "description": "Descubre cuánto tiempo pierden las clínicas en burocracia y tareas innecesarias, y cómo Sorriso puede ayudar a recuperar ese tiempo para una mejor atención al paciente.",
+      "cta": "Aprende Más",
+      "statistics": {
+        "statistic1": {
+          "title": "Tiempo Perdido en Burocracia",
+          "stat": "30%",
+          "description": "Las clínicas dedican hasta el 30% de su tiempo a tareas burocráticas, restando tiempo a la atención al paciente."
+        },
+        "statistic2": {
+          "title": "Tareas Innecesarias",
+          "stat": "25 horas/semana",
+          "description": "En promedio, las clínicas pierden 25 horas por semana en tareas administrativas innecesarias."
+        },
+        "statistic3": {
+          "title": "Coordinación de Alojamiento",
+          "stat": "10 horas/semana",
+          "description": "La coordinación de alojamiento para pacientes internacionales puede llevar hasta 10 horas cada semana."
+        },
+        "statistic4": {
+          "title": "Gestión de Transporte",
+          "stat": "8 horas/semana",
+          "description": "La gestión de la logística de transporte puede consumir hasta 8 horas de tiempo valioso cada semana."
+        }
+      }
+    },
+    "watchPromo": {
+      "title": "Obtén una Prueba Gratuita y Descubre el Mejor Software para la Incorporación de Pacientes Internacionales",
+      "description": "Contáctanos y experimenta el primer software de su tipo diseñado para agilizar la incorporación de pacientes internacionales y brindar una atención excepcional.",
+      "ctaFreeTrial": "Obtén una Prueba Gratuita",
+      "ctaContactUs": "Contáctanos",
+      "videoButton": "Mira Ahora",
+      "videoUrl": "https://youtu.be/knav3WWGBeE"
+    },
+    "hero": {
+      "headline1": "Únete",
+      "headline2": "Promociona",
+      "headline3": "Gana",
+      "description": "Únete a nuestro programa de afiliados de turismo dental y aumenta tus ganancias con servicios de primer nivel, comisiones generosas y soporte excepcional. Incrementa tus ingresos con bonificaciones basadas en el rendimiento y un camino claro hacia niveles más altos. ¡Regístrate ahora y experimenta la diferencia!",
+      "ctaText": "Regístrate Ahora",
+      "imageAlt": "Imagen del Programa de Afiliados"
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "description": "Únete a nuestro programa de afiliados y gana comisiones promoviendo sonrisas más saludables.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Únete como Afiliado",
+          "items": [
+            "Regístrate en línea",
+            "Mira el video de incorporación",
+            "Comienza a compartir Sorriso"
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Gana Comisiones",
+          "description": "Gana un 2% en cada venta. Mejora para ganar un 5%.",
+          "footnote": "*Una venta se define como la adquisición de un paciente."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Aumenta tus Ganancias",
+          "items": [
+            "Gana un 5% después de 10 ventas.",
+            "Los Afiliados Expertos ganan un 5% después de 10 ventas."
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "title": "Conviértete en un Experto",
+          "description": "Logra 10 ventas en un trimestre para aumentar tus ganancias a un 5%."
+        },
+        {
+          "stepNumber": 5,
+          "title": "Construye tu Red",
+          "items": [
+            "Forma un equipo de afiliados",
+            "Gana en ventas realizadas por tu equipo"
+          ]
+        }
+      ]
+    },
+    "payoff": {
+      "title": "Sorriso es tu Mejor Opción",
+      "description": "Únete a nuestro programa líder de afiliados de turismo dental y observa cómo crecen tus ganancias. Nuestros servicios de primer nivel, estructura de comisiones generosa y soporte excepcional nos hacen la mejor opción para los afiliados. ¡Ingresa al juego definitivo de ROI!",
+      "cta": "Regístrate",
+      "contactPrompt": "¿Aún tienes preguntas? Escríbenos, ¡responderemos rápidamente!",
+      "contactEmail": "contact@sorriso.care",
+      "cards": {
+        "card1": {
+          "title": "Pagos hasta $500",
+          "description": "Gana una comisión de $200 por cada persona referida que complete un procedimiento."
+        },
+        "card2": {
+          "title": "Seguimiento Confiable",
+          "description": "Utiliza nuestro sistema de seguimiento confiable para monitorear tus ingresos en tiempo real."
+        },
+        "card3": {
+          "title": "Clínicas de Primer Nivel",
+          "description": "Asóciate con las mejores clínicas de Europa del Este que ofrecen tratamientos de alta calidad a precios asequibles."
+        },
+        "card4": {
+          "title": "Altos Ingresos",
+          "description": "Únete a una red próspera donde el comercializador afiliado promedio gana ingresos sustanciales mensualmente."
+        },
+        "card5": {
+          "title": "Bonos por Rendimiento",
+          "description": "Aumenta tu comisión con bonos por rendimiento y asciende a niveles de afiliados superiores."
+        },
+        "card6": {
+          "title": "Soporte Excepcional",
+          "description": "Nuestro equipo de soporte dedicado te ayuda a maximizar tu potencial y aumentar tus ganancias."
+        }
+      }
+    },
+    "affiliatesStories": {
+      "title": "Escucha a Nuestros Afiliados",
+      "testimonials": [
+        {
+          "name": "Hunter",
+          "story": "Escucha el éxito de Hunter con el Programa de Afiliados de Sorriso",
+          "image": "/images/affiliates/hunt.png",
+          "quote": "Es un ganar-ganar-ganar con el programa de afiliados de Sorriso. Los clientes prosperan con servicios de primer nivel, tú ganas comisiones sustanciales y juntos, todos triunfamos. Honestamente creo que todos deberían darle una oportunidad a Sorriso.",
+          "position": "Comercializador Afiliado",
+          "company": "Hugo Productions"
+        },
+        {
+          "name": "Jane",
+          "story": "Escucha el Éxito de Jane con el Programa de Afiliados de Sorriso",
+          "image": "/images/affiliates/jane.png",
+          "quote": "Unirse al programa de afiliados de Sorriso ha sido la mejor decisión. El soporte es excepcional y las ganancias son fantásticas. ¡Altamente recomendado!",
+          "position": "Influencer",
+          "company": "Jane & Co."
+        },
+        {
+          "name": "Satraj",
+          "story": "Escucha el Éxito de Oliver con el Programa de Afiliados de Sorriso",
+          "image": "/images/affiliates/oliver.png",
+          "quote": "El programa de afiliados de Sorriso es realmente notable. La estructura de comisiones y el soporte son incomparables. Ha aumentado significativamente mis ingresos.",
+          "position": "Creador de Contenido",
+          "company": "Mango Studios"
+        }
+      ],
+      "commissionEarned": "Comisión Ganada",
+      "perReferral": "por referencia",
+      "totalReferrals": "Referencias Totales"
+    },
+    "title": "¿Para Quién es Nuestro Programa de Afiliados?",
+    "affiliateTypes": [
+      {
+        "label": "Agencias de marketing digital"
+      },
+      {
+        "label": "Influencers"
+      },
+      {
+        "label": "Consultores tecnológicos"
+      },
+      {
+        "label": "Entrenadores de negocios"
+      },
+      {
+        "label": "Desarrolladores web de comercio electrónico"
+      },
+      {
+        "label": "Creadores de contenido"
+      }
+    ],
+    "joinProgram": {
+      "title": "Únete al Programa de Afiliados de Sorriso",
+      "cards": [
+        {
+          "icon": "FaThumbsUp",
+          "title": "¡Es Fácil!",
+          "description": "Promociona nuestros servicios de turismo dental utilizando tus blogs, videos y canales sociales. Invita a tus contactos a hacer clic en nuestro enlace de URL de afiliado."
+        },
+        {
+          "icon": "FaCode",
+          "title": "Sin Tecnología, Cero Costos",
+          "description": "Incorpora el enlace en tus comunicaciones de canal. No se requiere integración técnica y unirse no tiene costo."
+        },
+        {
+          "icon": "FaDollarSign",
+          "title": "Comisiones Generosas",
+          "description": "Gana una comisión de $200 por cada persona referida que complete un procedimiento. Disfruta de bonificaciones basadas en el rendimiento y altos ingresos."
+        }
+      ],
+      "ctaButton": "Regístrate Ahora"
+    }
+  }
+    
