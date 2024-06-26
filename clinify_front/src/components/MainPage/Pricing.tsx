@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect } from "react";
 import Link from "next/link";
 import AOS from "aos";
@@ -82,14 +83,14 @@ const Pricing: React.FC = () => {
         </div>
         <p className="mt-8 text-lg text-gray-600" data-aos="fade-up">
           {t("pricing.note", { defaultValue: "*Prices are case-dependent. Fill out our online request form to know the latest deals on prices and exclusive discounts!" })}{" "}
-          <Link href="contact" className="text-darkPink underline">
-            {t("pricing.onlineRequestForm", { defaultValue: "online request form" })}
+          <Link href="/contact"
+            className="text-darkPink underline">
+              {t("pricing.onlineRequestForm", { defaultValue: "online request form" })}
           </Link>
         </p>
-        <Link href="/pricing">
-          <button className="bg-teal-500 hover:bg-teal-200 text-white text-lg font-light py-4 px-8 rounded-full mt-8" data-aos="fade-up">
+        <Link href="/pricing"
+          className="bg-teal-500 hover:bg-teal-200 text-white text-lg font-light py-4 px-8 rounded-full mt-8 inline-block" data-aos="fade-up">
             {t("pricing.buttonText", { defaultValue: "See Our Pricing" })}
-          </button>
         </Link>
       </div>
     </section>

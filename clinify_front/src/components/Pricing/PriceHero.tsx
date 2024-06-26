@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -37,12 +37,12 @@ const Hero = () => {
           </p>
         </div>
         <div className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end" data-aos="fade-left">
-          <div className="relative w-full h-64 md:h-auto">
+          <div className="relative priority w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto">
             <Image
               src="/images/Team/staff/sestra.jpg"
               alt="Dentist"
               width={500}
-              height={700}
+              height={600}
               style={{ borderRadius: "10%" }}
               className="rounded-lg shadow-lg"
             />

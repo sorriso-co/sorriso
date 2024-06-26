@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import { useTranslation } from 'next-i18next';
 
 interface PackageCardProps {
@@ -8,7 +8,7 @@ interface PackageCardProps {
   features: string[];
 }
 
-const PackageCard: React.FC<PackageCardProps> = ({ price, title, description, features }) => {
+const PackageCard: React.FC<PackageCardProps> = ({ price, title, description, features }): ReactElement => {
   const { t } = useTranslation('pricing');
 
   return (

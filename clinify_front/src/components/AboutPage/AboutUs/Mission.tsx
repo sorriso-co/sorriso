@@ -16,7 +16,7 @@ const Mission = () => {
   }, []);
 
   return (
-    <section className="relative bg-gradient-to-r from-teal-200 via-teal-100 to-teal-50 text-left py-12 px-6 sm:py-16 sm:px-8 lg:px-16 overflow-hidden">
+    <section className="relative bg-gradient-to-r from-teal-200 via-teal-100 to-teal-50 text-left py-12 px-6 sm:py-16 sm:px-8 lg:px-16 xl:px-24 2xl:px-32 overflow-hidden">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <svg width="100%" height="100%">
           <defs>
@@ -35,20 +35,8 @@ const Mission = () => {
           <circle cx="75%" cy="70%" r="200" fill="url(#gradient1)" />
         </svg>
       </div>
-      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center m-3">
-        <div
-          className="w-full lg:w-1/2 mb-8 lg:mb-0 flex justify-center lg:justify-start"
-          data-aos="fade-right"
-        >
-          <Image
-            src="/images/Team/staff/mili_boss.png"
-            alt="Healthcare Mission"
-            width={500}
-            height={700}
-            className="rounded-lg shadow-2xl transform transition-transform hover:scale-105"
-          />
-        </div>
-        <div className="w-full lg:w-1/2 lg:pl-12" data-aos="fade-left">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-8 xl:space-x-12 2xl:space-x-16 m-3">
+        <div className="w-full lg:w-1/2 lg:order-1 lg:pl-8 xl:pl-12 2xl:pl-16" data-aos="fade-left">
           <h1 className="text-4xl sm:text-5xl font-serif font-extrabold mb-4 sm:mb-6 text-teal-900 hover:text-teal-700 transition duration-300">
             {t('mission.title')}
           </h1>
@@ -63,6 +51,15 @@ const Mission = () => {
               {t('mission.paragraph2')}
             </p>
           </div>
+        </div>
+        <div className="w-full lg:w-1/2 lg:order-2 flex justify-center lg:justify-end" data-aos="fade-right">
+          <Image
+            src="/images/Team/staff/milija.jpg"
+            alt="Healthcare Mission"
+            width={450}
+            height={500}
+            className="rounded-lg shadow-2xl transform transition-transform hover:scale-105"
+          />
         </div>
       </div>
     </section>

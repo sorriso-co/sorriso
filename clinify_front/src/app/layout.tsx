@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 import React, { ReactNode } from "react";
 import Head from "next/head";
 import { Inter } from "next/font/google";
@@ -40,7 +40,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children, t }) => {
         <meta name="author" content="Sorriso Care" />
         <meta name="keywords" content={t('meta.keywords')} />
       </Head>
-      <body className="max-w-screen w-full overflow-x-hidden h-full flex flex-col">
+      <body className={`max-w-screen w-full overflow-x-hidden h-full flex flex-col ${inter.className}`}>
         <Header />
         <main className="flex-grow px-0 sm:px-0 lg:px-0">
           {children}

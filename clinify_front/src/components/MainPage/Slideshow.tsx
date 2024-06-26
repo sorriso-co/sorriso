@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Image from "next/legacy/image";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../MainPage/Language/LanguageSwitcher";
 
@@ -45,17 +44,16 @@ const Slideshow: React.FC = () => {
             className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
               index === currentSlide ? "opacity-100" : "opacity-0"
             }`}
+            style={{
+              backgroundImage: `url(${slide.image})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat',
+            }}
           >
-            <Image
-              src={slide.image}
-              alt={`Slide ${index + 1}`}
-              layout="fill"
-              objectFit="cover"
-              className="w-full h-full"
-            />
             <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
             <div className="absolute inset-0 flex items-end justify-center pb-10 sm:pb-16 md:pb-20 lg:pb-32 xl:pb-36">
-              <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white font-bold p-4 text-center">
+              <h1 className="text-sm sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white font-bold p-4 text-center">
                 {slide.text}
               </h1>
             </div>

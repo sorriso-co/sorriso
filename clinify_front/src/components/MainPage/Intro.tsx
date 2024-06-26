@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
+import Link from "next/link";
 
 const Introduction: React.FC = () => {
   const { t } = useTranslation('homepage');
@@ -40,9 +41,11 @@ const Introduction: React.FC = () => {
           <p className="text-base sm:text-lg text-white mt-4">
             {t("introduction.joinUsDescription", { defaultValue: "Schedule an appointment and start your journey to a perfect smile with Sorriso." })}
           </p>
-          <button className="mt-6 bg-teal-900 text-white font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-full hover:bg-teal-700 transition-colors duration-300">
-            {t("introduction.scheduleButton", { defaultValue: "Schedule Now" })}
-          </button>
+          <br />
+          <Link href="/contact"
+            className="mt-6 bg-teal-900 text-white font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-full hover:bg-teal-700 transition-colors duration-300">
+              {t("introduction.scheduleButton", { defaultValue: "Schedule Now" })}
+          </Link>
         </div>
       </div>
     </section>

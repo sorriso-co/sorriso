@@ -1,5 +1,7 @@
 {
-    "hero": {
+  "moreInformationButton": "More Information",
+
+  "hero": {
     "title": "Price List Of Our Dental Services",
     "subtitle": "The best price with the highest quality!",
     "cta": "Free Online Check-Up",

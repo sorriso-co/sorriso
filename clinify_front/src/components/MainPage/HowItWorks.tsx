@@ -131,11 +131,11 @@ const HowItWorks: React.FC = () => {
               >
                 &times;
               </button>
-              <div className="aspect-w-16 aspect-h-9">
+              <div className="relative" style={{ paddingBottom: "56.25%", height: 0 }}>
                 <iframe
                   src="https://www.youtube.com/embed/CoucS-fy2FI?si=qt3GdS64rwl0elN2&start=2"
                   title="YouTube video player"
-                  className="w-[940px] h-[800px]"
+                  className="absolute top-0 left-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                 ></iframe>
