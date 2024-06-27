@@ -81,12 +81,12 @@ const TestimonialCard: React.FC<{ testimonial: Testimonial }> = ({
           {t("watchVideo", { defaultValue: "Watch Video" })}
         </Link>
       </div>
-      <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-auto lg:w-1/2">
-        {/* <BeforeAfter
+      {/* <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-auto lg:w-1/2">
+        <BeforeAfter
           beforeImage={testimonial.beforeImage}
           afterImage={testimonial.afterImage}
-        /> */}
-      </div>
+        />
+      </div> */}
     </div>
   );
 };

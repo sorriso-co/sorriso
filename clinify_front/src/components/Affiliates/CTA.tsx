@@ -5,6 +5,7 @@ import { FaThumbsUp, FaCode, FaDollarSign } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useTranslation } from 'next-i18next';
+import Link from 'next/link';
 
 // Define the Card interface
 interface Card {
@@ -54,12 +55,13 @@ const CTA: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="container mx-auto text-center mt-12">
-        <a href="/signup" className="inline-block bg-teal-500 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-teal-600 transition-colors duration-300 transform hover:scale-105">
-          {t('joinProgram.ctaButton')}
-        </a>
-      </div>
       <div className="absolute bottom-0 left-0 w-full h-40 bg-wave-bottom bg-no-repeat bg-bottom"></div>
+      <div className="container mx-auto text-center mt-12">
+        <Link href="/contact"
+          className="inline-block bg-teal-500 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-teal-600 transition-colors duration-300 transform hover:scale-105">
+            {t('joinProgram.ctaButton')}
+        </Link>
+      </div>
     </div>
   );
 };

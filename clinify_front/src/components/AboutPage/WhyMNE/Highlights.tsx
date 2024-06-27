@@ -43,8 +43,7 @@ const MontenegroHighlights: React.FC = () => {
               <Image
                 src="/images/mne/biogradska.jpeg"
                 alt={t('montenegroHighlights.highlights.highlight1')}
-                width={208}
-                height={208}
+                fill
                 priority
                 className="rounded-full"
               />
@@ -62,8 +61,7 @@ const MontenegroHighlights: React.FC = () => {
               <Image
                 src="/images/mne/lovcen.jpeg"
                 alt={t('montenegroHighlights.highlights.highlight2')}
-                width={208}
-                height={208}
+                fill
                 priority
                 className="rounded-full"
               />
@@ -81,8 +79,7 @@ const MontenegroHighlights: React.FC = () => {
               <Image
                 src="/images/mne/more.png"
                 alt={t('montenegroHighlights.highlights.highlight3')}
-                width={208}
-                height={208}
+                fill
                 priority
                 className="rounded-full"
               />
@@ -100,8 +97,7 @@ const MontenegroHighlights: React.FC = () => {
               <Image
                 src="/images/mne/flamingo.jpeg"
                 alt={t('montenegroHighlights.highlights.highlight4')}
-                width={208}
-                height={208}
+                fill
                 priority
                 className="rounded-full"
               />

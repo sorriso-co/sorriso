@@ -29,7 +29,7 @@ const MostWantedProcedures: React.FC<MostWantedProceduresProps> = ({
   }, []);
 
   return (
-    <section className="bg-teal-50 py-16 px-4 sm:px-8 overflow-x-hidden">
+    <section className="w-full h-full bg-teal-50 py-16 px-4 sm:px-8 overflow-x-hidden">
       <div className="container mx-auto text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-serif font-bold text-teal-800 mb-6">
           {t('mostWanted.title')}
@@ -38,10 +38,10 @@ const MostWantedProcedures: React.FC<MostWantedProceduresProps> = ({
           {t('mostWanted.description')}
         </p>
       </div>
-      <div className="container mx-auto flex justify-center">
+      <div className="container mx-auto flex justify-center max-h-screen overflow-y-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {procedures.map((procedure, index) => (
-            <div data-aos="fade-up" key={index}>
+            <div data-aos="fade-up" key={index} className="max-w-xs mx-auto">
               <FlipCard procedure={procedure} />
             </div>
           ))}

@@ -22,7 +22,7 @@ const ProceduresPage: React.FC = () => {
   const procedures = t('procedures', { returnObjects: true }) as Procedure[];
 
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden w-full h-full">
       <TreatmentsHero />
       <MostWantedProcedures procedures={procedures} />
       <ExpertiseOverview />

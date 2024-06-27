@@ -61,8 +61,7 @@ const Vision: React.FC = () => {
               <Image
                 src="/images/mne/cable.jpeg"
                 alt="Montenegro Landscape 1"
-                width={500}
-                height={500}
+                fill
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -72,8 +71,7 @@ const Vision: React.FC = () => {
               <Image
                 src="/images/mne/perast.jpeg"
                 alt="Montenegro Landscape 2"
-                width={500}
-                height={500}
+                fill
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -83,8 +81,7 @@ const Vision: React.FC = () => {
               <Image
                 src="/images/mne/durmitor.jpeg"
                 alt="Montenegro Landscape 3"
-                width={500}
-                height={500}
+                fill
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -94,8 +91,7 @@ const Vision: React.FC = () => {
               <Image
                 src="/images/mne/rafting.jpeg"
                 alt="Montenegro Landscape 4"
-                width={500}
-                height={500}
+                fill
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -105,8 +101,7 @@ const Vision: React.FC = () => {
               <Image
                 src="/images/mne/lovcen.jpeg"
                 alt="Montenegro Landscape 5"
-                width={500}
-                height={500}
+                fill
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -116,8 +111,7 @@ const Vision: React.FC = () => {
               <Image
                 src="/images/mne/ljepota.png"
                 alt="Montenegro Landscape 6"
-                width={500}
-                height={500}
+                fill
                 className="rounded-lg shadow-lg"
               />
             </div>

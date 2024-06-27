@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "next-i18next";
+import Link from 'next/link';
 
 const CallToAction = () => {
   const { t } = useTranslation('services'); 
@@ -24,9 +25,11 @@ const CallToAction = () => {
         <h2 className="text-5xl font-extrabold mb-8 text-teal-900 drop-shadow-lg">
           {t('callToAction.title')}
         </h2>
-        <button className="bg-white text-teal-600 py-3 px-8 rounded-full font-bold text-xl hover:bg-teal-100 transition-colors shadow-2xl transform hover:scale-105 transition-transform duration-300">
-          {t('callToAction.cta')}
-        </button>
+        <Link href="/contact"
+          className="bg-white text-teal-600 py-3 px-8 rounded-full font-bold text-xl hover:bg-teal-100 transition-colors shadow-2xl transform hover:scale-105 transition-transform duration-300">
+            {t('callToAction.cta')}
+          
+        </Link>
       </div>
       <div className="absolute inset-0 bg-gradient-to-r from-teal-100 via-teal-200 to-teal-300 opacity-50 animate-pulse"></div>
       <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center pointer-events-none">
@@ -38,3 +41,4 @@ const CallToAction = () => {
 };
 
 export default CallToAction;
+

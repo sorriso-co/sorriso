@@ -24,7 +24,7 @@ const CompetitiveAdvantage = () => {
   }, []);
 
   return (
-    <div className="relative bg-teal-200 text-teal-900 p-8 md:p-16 rounded-lg shadow-lg overflow-x-hidden">
+    <div className="w-full h-full relative bg-teal-200 text-teal-900 p-8 md:p-16 rounded-lg shadow-lg overflow-x-hidden">
       <div className="absolute inset-0 bg-teal-100 opacity-40"></div>
       <div className="relative z-10 flex flex-col items-center">
         <h2

@@ -141,7 +141,7 @@ const HowItWorks: React.FC = () => {
                 {t('howItWorks.contactUs')}
               </Link>
               <Link
-                href="/login"
+                href="/contact"
                 className="inline-block bg-teal-800 text-white py-2 px-6 sm:py-3 sm:px-8 font-serif rounded-lg hover:bg-gray-700 transition-colors text-lg sm:text-xl lg:text-2xl"
               >
                 {t('howItWorks.scheduleAppointment')}

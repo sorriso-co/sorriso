@@ -26,9 +26,9 @@ const GallerySection = () => {
   ];
 
   return (
-    <div className="bg-white py-16">
+    <div className="bg-white py-16 w-full overflow-x-hidden">
       <div className="container mx-auto px-4">
-        <h2 className="text-5xl font-serif font-semibold mb-10 text-center text-teal-800">
+        <h2 className="text-4xl font-serif font-semibold mb-10 text-center text-teal-800">
           {t("gallerySection.galleryTitle", { defaultValue: "Transformation Gallery" })}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
