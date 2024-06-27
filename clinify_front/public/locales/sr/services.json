@@ -4,13 +4,13 @@
     "cta": "Zakažite pregled"
   },
   "howItWorksHero": {
-    "title": "Kako Sorriso radi",
+    "title": "Kako funkcioniše Sorriso",
     "description": "Upoznajte naš tim putem telemedicinske konsultacije i dobijte personalizovani plan liječenja.",
     "cta": "Započnite"
   },
   "serviceHero": {
-    "title": "Naše zubne usluge",
-    "description": "Otkrijte naš širok spektar zubnih usluga dizajniranih da očuvaju vaš osmijeh zdravim i lijepim.",
+    "title": "Naše stomatološke usluge",
+    "description": "Otkrijte naš širok spektar stomatoloških usluga dizajniranih da očuvaju vaš osmijeh zdravim i lijepim.",
     "ctaLearnMore": "Saznajte više",
     "ctaBookAppointment": "Zakažite termin"
   },
@@ -37,7 +37,7 @@
     "experience": "Iskustvo",
     "description": "Već 30 godina naša klinika pomaže pacijentima iz cijelog svijeta da postignu savršen osmijeh.",
     "satisfiedPatients": "+250.000",
-    "satisfiedPatientsText": "zadovoljnih pacijenata pomaže",
+    "satisfiedPatientsText": "zadovoljnih pacijenata",
     "cta": "Pogledajte više prije i poslije fotografija"
   },
   "howItWorks": {
@@ -46,7 +46,7 @@
     "steps": [
       {
         "title": "Korak 1: Početna konsultacija",
-        "description": "Popunite naš jednostavan obrazac i zakažite online konsultaciju sa našim zubarom, gdje ćemo razgovarati o vašim stomatološkim problemima i očekivanjima.",
+        "description": "Popunite naš jednostavni obrazac i zakažite online konsultaciju sa našim zubarom, gdje ćemo razgovarati o vašim stomatološkim problemima i očekivanjima.",
         "icon": "FaPhoneAlt"
       },
       {
@@ -134,7 +134,7 @@
     "back": "Nazad"
   },
   "mostWanted": {
-    "title": "Naši najtraženiji postupci",
+    "title": "Naši najtraženiji tretmani",
     "description": "Istražite naše najpopularnije procedure, odabrane od strane pacijenata zbog izvanrednih rezultata i beneficija."
   },
   "facilities": {
@@ -144,7 +144,7 @@
       {
         "icon": "FaTooth",
         "title": "Najsavremenija tehnologija",
-        "description": "Najnovija zubarska tehnologija."
+        "description": "Najnovija tehnologija."
       },
       {
         "icon": "FaChair",
@@ -160,7 +160,7 @@
   },
   "expertise": {
     "title": "Naša ekspertiza",
-    "description": "Koristeći godine iskustva i multidisciplinarni tim visoko kvalifikovanih stručnjaka, pružamo izuzetnu medicinsku i zubarsku njegu koristeći najnovije tehnologije.",
+    "description": "Koristeći godine iskustva i multidisciplinarni tim visoko kvalifikovanih stručnjaka, pružamo izuzetnu medicinsku i stomatološku njegu koristeći najnovije tehnologije.",
     "sectionTitle": "Mi smo stručnjaci u onome što radimo",
     "sectionDescription": "Naša klinika je opremljena najsavremenijim objektima i osobljena timom posvećenih profesionalaca, uključujući stručnjake za opštu hirurgiju, ginekologiju, pulmologiju i više. Posvećeni smo pružanju izuzetne, sveobuhvatne njege prilagođene potrebama svakog pacijenta.",
     "features": [
@@ -174,7 +174,7 @@
       },
       {
         "icon": "FaHeartbeat",
-        "text": "Pacijent-centriran pristup"
+        "text": "Pacijent je na prvom mjestu"
       },
       {
         "icon": "FaStethoscope",
@@ -193,8 +193,8 @@
     "buttonText": "Pogledajte sada",
     "services": [
       { "title": "Opšta stomatologija" },
-      { "title": "Zubni implanti" },
-      { "title": "Zubne krunice" },
+      { "title": "Implanti" },
+      { "title": "Krunice" },
       { "title": "Stomatološke operacije" },
       { "title": "Izbjeljivanje zuba" },
       { "title": "Zaštita" },
@@ -221,7 +221,7 @@
   },
   "testimonials": {
     "sheilaPeterson": {
-      "description": "Dr. Aleksa - iskreno, njegova profesionalnost i strpljenje su nevjerovatni. Ja sam ovdje na odmoru i bila sam nervozna zbog stomatološkog rada jer sam sama. On je bio tako utješan, ljubazan, ohrabrujući i veoma nježan. On je zaista vrhunski stomatolog. Sada je od mene napravio redovnog klijenta, čak i ako moram da putujem iz Londona ovdje. Hvala puno i nastavite sa odličnim radom!"
+      "description": "Dr. Aleksa - iskreno, njegova profesionalnost i strpljenje su nevjerovatni. Ja sam ovdje na odmoru i bila sam nervozna zbog stomatološkog rada jer sam sama. On je bio tako ljubazan i veoma nježan. On je zaista vrhunski stomatolog. Sada je od mene napravio redovnog klijenta, čak i ako moram da putujem iz Londona ovdje. Hvala puno i nastavite sa odličnim radom!"
     },
     "lauraBastone": {
       "description": "Veoma sam zadovoljna. Visoka stručnost, velika pažnja i ljubaznost. Hvala puno."
@@ -230,7 +230,7 @@
       "description": "Stomatološki zahvati su često bolni. To je i moje iskustvo, ali dr. Šuković i njegov tim su zaista vrlo profesionalni. Atmosfera je prijatna, bez tenzija, i pacijent se ovdje osjeća sigurno. Veoma su ljubazni, lako se zakazuje. Sve je uredno i čisto. Čini se da je sve ovdje posvećeno pacijentu. Dr. Dražen i ostatak tima su vrlo odgovorni. U svakom slučaju, toplo preporučujem ovu kliniku svima. Sve je ovdje organizovano sa ciljem da se pomogne pacijentu."
     },
     "marryDianaJones": {
-      "description": "Moje dugogodišnje iskustvo u klinici Ars Medica može se opisati kao više nego odlično. Ljekari i osoblje su profesionalni, posvećeni i vrlo ljubazni. Kvalitet usluga je na najvišem nivou u okruženju poznatih svjetskih klinika."
+      "description": "Moje dugogodišnje iskustvo u klinici Ars Medica može se opisati kao više nego odlično. Ljekari i osoblje su profesionalni, posvećeni i vrlo ljubazni. Kvalitet usluga je na najvišem nivou."
     }
   },
   "gallerySection": {
@@ -294,7 +294,7 @@
     },
     {
       "image": "/images/bills/veneers.jpeg",
-      "title": "Zubne fasete",
+      "title": "Fasete",
       "shortDescription": "Poboljšajte svoj osmijeh prilagođenim fasetama.",
       "link": "/contact",
       "necessity": "Za poboljšanje izgleda zuba.",
@@ -312,7 +312,7 @@
     },
     {
       "image": "/images/bills/bridge.jpeg",
-      "title": "Zubni mostovi",
+      "title": "Mostovi",
       "shortDescription": "Zamijenite nedostajuće zube zubnim mostom.",
       "link": "/contact",
       "necessity": "Kada imate jedan ili više nedostajućih zuba.",

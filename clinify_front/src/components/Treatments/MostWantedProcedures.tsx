@@ -9,7 +9,7 @@ interface Procedure {
   image: string;
   title: string;
   shortDescription?: string;
-  link?: string; 
+  link?: string;
   necessity?: string;
   candidate?: string;
   duration?: string;
@@ -38,10 +38,10 @@ const MostWantedProcedures: React.FC<MostWantedProceduresProps> = ({
           {t('mostWanted.description')}
         </p>
       </div>
-      <div className="container mx-auto flex justify-center max-h-screen overflow-y-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+      <div className="container mx-auto flex justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {procedures.map((procedure, index) => (
-            <div data-aos="fade-up" key={index} className="max-w-xs mx-auto">
+            <div data-aos="fade-up" key={index}>
               <FlipCard procedure={procedure} />
             </div>
           ))}

@@ -6,9 +6,9 @@
     "slide4": "Provedite svoj odmor sa osmijehom"
   },
   "introduction": {
-    "title": "Vaše sljedeće putovanje za zubarsku njegu",
+    "title": "Vaše sljedeće putovanje za stomatološku njegu",
     "subtitle": "Veni. Vidi. Vici sa Sorriso",
-    "description": "Otkrijte izuzetnu zubarsku njegu kombinovanu sa nezaboravnim putovanjem. Neka vas Sorriso vodi kroz putovanje ka sjajnijem, zdravijem osmijehu dok istražujete ljepotu i kulturu Crne Gore.",
+    "description": "Otkrijte izuzetnu stomatološku njegu kombinovanu sa nezaboravnim putovanjem. Neka vas Sorriso vodi kroz putovanje ka sjajnijem, zdravijem osmijehu dok istražujete ljepotu i kulturu Crne Gore.",
     "joinUsTitle": "Pridružite nam se",
     "joinUsDescription": "Zakažite sastanak i započnite svoje putovanje ka savršenom osmijehu sa Sorriso.",
     "scheduleButton": "Zakažite sada"
@@ -38,28 +38,28 @@
       },
       "step6": {
         "title": "Zabavite se",
-        "description": "Uživajte u boravku i istražujte lokalne atrakcije dok primate najbolju zubarsku njegu i uživate u Crnoj Gori."
+        "description": "Uživajte u boravku i istražujte lokalne atrakcije dok dobijate najbolju stomatološku njegu i uživate u Crnoj Gori."
       }
     },
     "buttonText": "Pogledajte sada"
   },
   "serviceGrid": {
     "title": "Naše usluge",
-    "description": "Pružamo vrhunske tretmane za sve zubarske probleme",
+    "description": "Pružamo vrhunske tretmane za sve stomatološke probleme",
     "services": [
       { "title": "Opšta stomatologija" },
       { "title": "Implantologija" },
       { "title": "Protetika" },
-      { "title": "Zubarska hirurgija" },
+      { "title": "Oralna hirurgija" },
       { "title": "Estetska stomatologija" },
       { "title": "Endodoncija" },
       { "title": "Parodontologija" },
-      { "title": "Zubna radiologija" }
+      { "title": "Radiologija" }
     ],
     "buttonText": "Pogledajte sada"
   },
   "pricing": {
-    "title": "Prosječno poređenje troškova",
+    "title": "Poređenje prosječnih troškova",
     "procedure": "Procedura",
     "ukPrice": "Cijena u Velikoj Britaniji",
     "euPrice": "Prosječna cijena u EU",
@@ -186,7 +186,7 @@
   },
   "haveItAll": {
     "title": "Sa Sorrisom možeš imati sve",
-    "description": "Otkrijte savršenu kombinaciju vrhunske zubarske njege i odmora iz snova u Crnoj Gori. Sa Sorrisom možete iskusiti vrhunske zubarske tretmane dok uživate u zadivljujućoj ljepoti pejzaža Crne Gore, njenoj bogatoj istoriji i toplom gostoprimstvu. Uštedite do 80% na zubarskim tretmanima.",
+    "description": "Otkrijte savršenu kombinaciju vrhunske stomatološke njege i odmora iz snova u Crnoj Gori. Sa Sorrisom možete iskusiti vrhunske stomatološke tretmane dok uživate u zadivljujućoj ljepoti pejzaža Crne Gore, njenoj bogatoj istoriji i toplom gostoprimstvu. Uštedite do 80% na tretmanima.",
     "buttonText": "Zakažite sastanak"
   }
 }
