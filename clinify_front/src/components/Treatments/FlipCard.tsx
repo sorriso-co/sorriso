@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { useTranslation } from "next-i18next";
 
 interface Procedure {
@@ -42,15 +42,18 @@ const FlipCard: React.FC<FlipCardProps> = ({ procedure }) => {
             <Image
               src={procedure.image}
               alt={procedure.title}
-              className="object-cover w-full h-full"
-              layout="fill"
+              width={400}
+              height={350}
+              priority
+              className="w-full h-full object-cover"
             />
           </div>
-          <div className="p-4">
-            <h3 className="text-xl sm:text-2xl font-serif font-bold text-white mb-2">
+          <br />
+          <div className="p-4 h-1/3 flex flex-col justify-between">
+            <h3 className="text-xl sm:text-2xl font-serif font-bold text-teal-900 mb-2">
               {procedure.title}
             </h3>
-            <p className="text-sm sm:text-lg font-serif text-white mb-4">
+            <p className="text-sm sm:text-lg font-serif text-teal-900 mb-4">
               {procedure.shortDescription}
             </p>
           </div>

@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import "aos/dist/aos.css";
 import { FaMicroscope, FaUserMd, FaHeartbeat, FaStethoscope } from "react-icons/fa";
 import { useTranslation } from "next-i18next";

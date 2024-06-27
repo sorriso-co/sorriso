@@ -23,7 +23,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children, t }) => {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="icon" href="/images/icons/icon.png" />
         <title>{t('meta.title')}</title>
-        <meta property="og:type" content="website" />
+        {/* <meta property="og:type" content="website" />
         <meta property="og:title" content={t('meta.ogTitle')} />
         <meta property="og:description" content={t('meta.ogDescription')} />
         <meta property="og:image" content="/images/og-image.jpg" />
@@ -35,9 +35,9 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children, t }) => {
         <meta name="twitter:site" content="@sorrisocare" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Sorriso Care" />
-        <meta name="keywords" content={t('meta.keywords')} />
+        <meta name="keywords" content={t('meta.keywords')} /> */}
       </Head>
-      <body className={`max-w-screen w-full overflow-x-hidden h-full flex flex-col ${inter.className}`}>
+      <body className="max-w-screen w-full overflow-x-hidden h-full flex flex-col">
         <Header />
         <main className="flex-grow">
           {children}

@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -70,8 +70,10 @@ const Hero: React.FC = () => {
             <Image
               src="/images/affiliates/affiliates.jpg"
               alt={t("hero.imageAlt")}
-              layout="fill"
-              className="rounded-full"
+              width={1000}
+              height={1000}
+              priority
+              className="rounded-full w-full h-full"
             />
           </div>
         </div>

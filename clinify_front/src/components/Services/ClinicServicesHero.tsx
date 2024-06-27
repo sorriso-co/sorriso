@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from 'next-i18next';
@@ -40,10 +40,8 @@ const ClinicServicesHero = () => {
             <Image
               src="/images/Team/founders/filip.jpg"
               alt="Private Clinic Services"
-              width={600}
-              height={600}
-              layout="fill"
-              objectFit="cover"
+              width={550}
+              height={550}
               className="rounded-full"
               priority
             />

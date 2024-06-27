@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
@@ -61,8 +61,8 @@ const Vision: React.FC = () => {
               <Image
                 src="/images/mne/cable.jpeg"
                 alt="Montenegro Landscape 1"
-                layout="fill"
-                objectFit="cover"
+                width={500}
+                height={500}
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -72,8 +72,8 @@ const Vision: React.FC = () => {
               <Image
                 src="/images/mne/perast.jpeg"
                 alt="Montenegro Landscape 2"
-                layout="fill"
-                objectFit="cover"
+                width={500}
+                height={500}
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -83,8 +83,8 @@ const Vision: React.FC = () => {
               <Image
                 src="/images/mne/durmitor.jpeg"
                 alt="Montenegro Landscape 3"
-                layout="fill"
-                objectFit="cover"
+                width={500}
+                height={500}
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -94,8 +94,8 @@ const Vision: React.FC = () => {
               <Image
                 src="/images/mne/rafting.jpeg"
                 alt="Montenegro Landscape 4"
-                layout="fill"
-                objectFit="cover"
+                width={500}
+                height={500}
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -105,8 +105,8 @@ const Vision: React.FC = () => {
               <Image
                 src="/images/mne/lovcen.jpeg"
                 alt="Montenegro Landscape 5"
-                layout="fill"
-                objectFit="cover"
+                width={500}
+                height={500}
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -116,8 +116,8 @@ const Vision: React.FC = () => {
               <Image
                 src="/images/mne/ljepota.png"
                 alt="Montenegro Landscape 6"
-                layout="fill"
-                objectFit="cover"
+                width={500}
+                height={500}
                 className="rounded-lg shadow-lg"
               />
             </div>

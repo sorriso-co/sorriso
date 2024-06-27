@@ -2,7 +2,7 @@
 "use client";
 import React, { useEffect } from "react";
 import Slider from "react-slick";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";

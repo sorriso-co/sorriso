@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const LanguageSwitcher: React.FC = () => {
   const { i18n } = useTranslation();

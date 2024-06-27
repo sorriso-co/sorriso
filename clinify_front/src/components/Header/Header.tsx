@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import NavbarItem from "./NavbarItem";
 import MobileNav from "./MobileNav";
 import { useTranslation } from "react-i18next";
@@ -45,6 +45,7 @@ const Header: React.FC = () => {
               alt="Sorriso"
               width={200}
               height={50}
+              priority
               className="h-auto w-auto"
             />
           </Link>

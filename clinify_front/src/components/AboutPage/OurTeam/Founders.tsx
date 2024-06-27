@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
@@ -32,9 +32,8 @@ const Founders: React.FC = () => {
             <Image
               src="/images/Team/founders/ivan.jpeg"
               alt="Ivan Cabrilo"
-              layout="fill"
-              objectFit="cover"
-              objectPosition="center"
+              width={300}
+              height={300}
               className="rounded-full shadow-lg transform transition-transform duration-300 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-teal-700 opacity-0 group-hover:opacity-80 rounded-full transition-opacity duration-300"></div>
@@ -54,9 +53,9 @@ const Founders: React.FC = () => {
             <Image
               src="/images/Team/founders/filip.jpg"
               alt="Dr. Filip Sukovic med. dent."
-              layout="fill"
-              objectFit="cover"
-              objectPosition="center"
+              width={300}
+              height={300}
+              priority
               className="rounded-full shadow-lg transform transition-transform duration-300 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-teal-700 opacity-0 group-hover:opacity-80 rounded-full transition-opacity duration-300"></div>
@@ -76,9 +75,8 @@ const Founders: React.FC = () => {
             <Image
               src="/images/Team/founders/djole.jpeg"
               alt="Djordje Ivanovic"
-              layout="fill"
-              objectFit="cover"
-              objectPosition="center"
+              width={300}
+              height={300}
               className="rounded-full shadow-lg transform transition-transform duration-300 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-teal-700 opacity-0 group-hover:opacity-80 rounded-full transition-opacity duration-300"></div>

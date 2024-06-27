@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image"; // Use the new Image component
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
@@ -59,6 +59,7 @@ const Mission = () => {
             width={450}
             height={500}
             className="rounded-lg shadow-2xl transform transition-transform hover:scale-105"
+            priority
           />
         </div>
       </div>

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 
 const Hero: React.FC = () => {
@@ -10,8 +10,8 @@ const Hero: React.FC = () => {
         <Image
           src="/images/hero-bg.png"
           alt="Hero Background"
-          layout="fill"
-          objectFit="cover"
+          width={1920}
+          height={1080}
           objectPosition="center center"
           priority
           className="w-full h-full"

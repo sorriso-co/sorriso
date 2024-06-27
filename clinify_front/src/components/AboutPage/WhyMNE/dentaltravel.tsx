@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlane, faHotel, faEye } from "@fortawesome/free-solid-svg-icons";
@@ -47,7 +47,7 @@ const DentalTravelIntro: React.FC = () => {
                 alt="Montenegro landscape"
                 width={500}
                 height={500}
-                layout="responsive"
+                priority
                 className="min-w-[280px] min-h-[280px] transition-transform transform hover:scale-105"
               />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">

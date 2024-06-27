@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import Link from "next/link";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "next-i18next";
@@ -42,8 +42,9 @@ const HowItWorksHero: React.FC = () => {
             <Image
               src="/images/logos/how-it-works.png"
               alt="Online consultation"
-              layout="fill"
-              objectFit="cover"
+              width={500}
+              height={500}
+              priority
               className="rounded-full"
             />
           </div>

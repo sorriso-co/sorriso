@@ -9,7 +9,7 @@ import {
   FaShoppingCart,
   FaCamera,
 } from "react-icons/fa";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../../styles/global.css";

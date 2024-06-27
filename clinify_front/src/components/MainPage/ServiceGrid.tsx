@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useInView } from "react-intersection-observer";
 import { FaPlay } from "react-icons/fa";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { useTranslation } from "react-i18next";
 
 interface Service {

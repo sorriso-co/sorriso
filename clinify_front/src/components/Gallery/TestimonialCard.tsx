@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -43,6 +43,7 @@ const TestimonialCard: React.FC<{ testimonial: Testimonial }> = ({
             alt={testimonial.name}
             width={160}
             height={160}
+            priority
             className="object-cover w-full h-full"
           />
         </div>

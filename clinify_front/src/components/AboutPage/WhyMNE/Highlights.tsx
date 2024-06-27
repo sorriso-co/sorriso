@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -43,8 +43,9 @@ const MontenegroHighlights: React.FC = () => {
               <Image
                 src="/images/mne/biogradska.jpeg"
                 alt={t('montenegroHighlights.highlights.highlight1')}
-                layout="fill"
-                objectFit="cover"
+                width={208}
+                height={208}
+                priority
                 className="rounded-full"
               />
             </div>
@@ -57,12 +58,13 @@ const MontenegroHighlights: React.FC = () => {
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-52 lg:h-52 rounded-full overflow-hidden relative shadow-lg">
+            <div className="relative w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-52 lg:h-52 rounded-full overflow-hidden relative shadow-lg">
               <Image
                 src="/images/mne/lovcen.jpeg"
                 alt={t('montenegroHighlights.highlights.highlight2')}
-                layout="fill"
-                objectFit="cover"
+                width={208}
+                height={208}
+                priority
                 className="rounded-full"
               />
             </div>
@@ -75,12 +77,13 @@ const MontenegroHighlights: React.FC = () => {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-52 lg:h-52 rounded-full overflow-hidden relative shadow-lg">
+            <div className=" relative w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-52 lg:h-52 rounded-full overflow-hidden shadow-lg">
               <Image
                 src="/images/mne/more.png"
                 alt={t('montenegroHighlights.highlights.highlight3')}
-                layout="fill"
-                objectFit="cover"
+                width={208}
+                height={208}
+                priority
                 className="rounded-full"
               />
             </div>
@@ -93,12 +96,13 @@ const MontenegroHighlights: React.FC = () => {
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-52 lg:h-52 rounded-full overflow-hidden relative shadow-lg">
+            <div className="relative w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-52 lg:h-52 rounded-full overflow-hidden shadow-lg">
               <Image
                 src="/images/mne/flamingo.jpeg"
                 alt={t('montenegroHighlights.highlights.highlight4')}
-                layout="fill"
-                objectFit="cover"
+                width={208}
+                height={208}
+                priority
                 className="rounded-full"
               />
             </div>

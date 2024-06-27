@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { FaPlay } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -49,7 +49,7 @@ const WatchPromo = () => {
 
         <div className="lg:w-1/2 flex flex-col items-center" data-aos="fade-left">
           <div className="mb-8">
-            <Image src="/images/services/conf.png" width={550} height={550} alt="Promo Image 2" className="w-full h-auto rounded-lg shadow-lg" />
+            <Image src="/images/services/conf.png" width={550} height={550} priority alt="Promo Image 2" className="w-full h-auto rounded-lg shadow-lg" />
           </div>
 
           <button

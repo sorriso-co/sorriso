@@ -5,7 +5,7 @@ import React, {
   MouseEvent,
   TouchEvent,
 } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowsAltH } from "@fortawesome/free-solid-svg-icons";
 
@@ -115,15 +115,17 @@ const BeforeAfter: React.FC<BeforeAfterProps> = ({
     >
       <Image
         src={beforeImage}
-        layout="fill"
-        objectFit="cover"
+        width={400}
+        height={400}
+        priority
         alt="Before"
         className="absolute top-0 left-0 w-full h-full"
       />
       <Image
         src={afterImage}
-        layout="fill"
-        objectFit="cover"
+        width={400}
+        height={400}
+        priority
         alt="After"
         className="absolute top-0 left-0 w-full h-full"
         style={{

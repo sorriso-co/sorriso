@@ -29,7 +29,7 @@ const GallerySection = () => {
     <div className="bg-white py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl font-serif font-semibold mb-10 text-center text-teal-800">
-          {t("galleryTitle", { defaultValue: "Transformation Gallery" })}
+          {t("gallerySection.galleryTitle", { defaultValue: "Transformation Gallery" })}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {images.map((image, index) => (
@@ -41,7 +41,7 @@ const GallerySection = () => {
               <div className="relative group">
                 <Image
                   src={image}
-                  alt={t("galleryImageAlt", { index: index + 1 })}
+                  alt={""}
                   width={1000}
                   height={800}
                   className="object-cover rounded-3xl transition-transform transform group-hover:scale-105 duration-300"

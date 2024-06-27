@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import "aos/dist/aos.css";
 
 // doctor must be defined here!!!
@@ -19,8 +19,9 @@ const DoctorCard: React.FC<{ doctor: Doctor }> = ({ doctor }) => {
         <Image
           src={doctor.image}
           alt={doctor.name}
-          layout="fill"
-          objectFit="cover"
+          width={224}
+          height={224}
+          priority
           className="rounded-full"
         />
       </div>

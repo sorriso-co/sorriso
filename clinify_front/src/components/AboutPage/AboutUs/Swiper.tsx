@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/legacy/image";
+import Image from "next/image"; // Use the new Image component
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -46,13 +46,16 @@ const TestSwiper: React.FC = () => {
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id} className="relative group">
-            <Image
-              src={slide.src}
-              alt={`Slide ${slide.id}`}
-              width={1200} // Adjust width as needed
-              height={800} // Adjust height as needed
-              className="w-full h-64 object-cover rounded-lg shadow-md"
-            />
+            <div className="relative w-full h-64">
+              <Image
+                src={slide.src}
+                alt={`Slide ${slide.id}`}
+                width={400}
+                height={300}
+                className="rounded-lg shadow-md object-cover "
+                priority // Add the priority property
+              />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

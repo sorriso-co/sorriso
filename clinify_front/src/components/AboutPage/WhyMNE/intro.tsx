@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
@@ -16,15 +16,15 @@ const WhyMontenegro: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative h-screen overflow-x-hidden">
-      <div className="absolute inset-0">
+    <div className="relative h-screen overflow-hidden">
+      <div className="absolute inset-0 w-full h-full">
         <Image
           src="/images/mne/prokletije.jpeg"
           alt="Background"
-          layout="fill"
-          objectFit="cover"
-          quality={100}
-          className="z-0"
+          width={1920}
+          height={1080}
+          priority
+          className="object-cover z-0 w-full h-full"
         />
         <div className="absolute inset-0 bg-black opacity-50 z-1"></div>
       </div>

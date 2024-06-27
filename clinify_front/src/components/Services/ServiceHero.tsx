@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { useTranslation } from "next-i18next";
 
 const ServiceHero: React.FC = () => {
@@ -51,8 +51,9 @@ const ServiceHero: React.FC = () => {
           <Image
             src="/images/about_us_slide/chair.png"
             alt="Dental Services"
-            width={800} // Adjust width as needed
-            height={600} // Adjust height as needed
+            width={800} 
+            height={600} 
+            priority
             className="rounded-lg shadow-lg max-w-full h-auto border-4 border-white transform hover:scale-105 transition-transform duration-500"
           />
         </div>
