@@ -3,14 +3,14 @@
     "slide1": "BESPLATNE Online Konsultacije",
     "slide2": "Uštedite do 70%",
     "slide3": "Uživajte više",
-    "slide4": "Provedite svoj odmor sa osmehom"
+    "slide4": "Provedite svoj odmor sa osmijehom"
   },
   "introduction": {
-    "title": "Vaše sledeće putovanje za zubarsku negu",
+    "title": "Vaše sljedeće putovanje za zubarsku njegu",
     "subtitle": "Veni. Vidi. Vici sa Sorriso",
-    "description": "Otkrijte izuzetnu zubarsku negu kombinovanu sa nezaboravnim putovanjem. Neka vas Sorriso vodi kroz putovanje ka sjajnijem, zdravijem osmehu dok istražujete lepotu i kulturu Crne Gore.",
+    "description": "Otkrijte izuzetnu zubarsku njegu kombinovanu sa nezaboravnim putovanjem. Neka vas Sorriso vodi kroz putovanje ka sjajnijem, zdravijem osmijehu dok istražujete ljepotu i kulturu Crne Gore.",
     "joinUsTitle": "Pridružite nam se",
-    "joinUsDescription": "Zakažite sastanak i započnite svoje putovanje ka savršenom osmehu sa Sorriso.",
+    "joinUsDescription": "Zakažite sastanak i započnite svoje putovanje ka savršenom osmijehu sa Sorriso.",
     "scheduleButton": "Zakažite sada"
   },
   "howItWorks": {
@@ -21,24 +21,24 @@
         "description": "Popunite formular i opcionalno pošaljite najnoviji rendgenski snimak ili sliku vaših zuba. Kontaktiraćemo vas u roku od 24 sata da zakažemo vašu online konsultaciju."
       },
       "step2": {
-        "title": "Primite vaš plan lečenja",
-        "description": "Dobijate plan lečenja koji detaljno prikazuje sve korake i troškove."
+        "title": "Primite vaš plan liječenja",
+        "description": "Dobijate plan liječenja koji detaljno prikazuje sve korake i troškove."
       },
       "step3": {
         "title": "Početna konsultacija",
-        "description": "Tokom konsultacije imate priliku da postavite bilo koja pitanja o lečenju."
+        "description": "Tokom konsultacije imate priliku da postavite bilo koje pitanje o liječenju."
       },
       "step4": {
         "title": "Putovanje",
-        "description": "Kada je plan spreman, samo se spakujte, putujte i primite tretman. Mi ćemo se pobrinuti za sve."
+        "description": "Kada je plan spreman, samo se spakujte, putujte i završite tretman. Mi ćemo se pobrinuti za sve."
       },
       "step5": {
-        "title": "Lečenje",
+        "title": "Liječenje",
         "description": "Primite potrebni tretman od naših visoko kvalifikovanih zubara. Koristimo najnoviju tehnologiju."
       },
       "step6": {
         "title": "Zabavite se",
-        "description": "Uživajte u boravku i istražujte lokalne atrakcije dok primate najbolju zubarsku negu i uživate u Crnoj Gori."
+        "description": "Uživajte u boravku i istražujte lokalne atrakcije dok primate najbolju zubarsku njegu i uživate u Crnoj Gori."
       }
     },
     "buttonText": "Pogledajte sada"
@@ -58,135 +58,135 @@
     ],
     "buttonText": "Pogledajte sada"
   },
-    "pricing": {
-      "title": "Prosečno Poređenje Troškova",
-      "procedure": "Procedura",
-      "ukPrice": "Cena u Velikoj Britaniji",
-      "euPrice": "Prosečna cena u EU",
-      "usPrice": "Cena u SAD",
-      "balkanPrice": "Naša cena",
-      "savings": "Ušteda",
-      "note": "*Cene zavise od slučaja. Ispunite naš online zahtev za najnovije ponude i ekskluzivne popuste!",
-      "onlineRequestForm": "online zahtev",
-      "buttonText": "Pogledajte Naše Cene",
-      "procedures": [
-        {
-          "procedure": "Titanijumski Implant",
-          "ukPrice": "€3,000",
-          "euPrice": "€2,200",
-          "usPrice": "€3,600",
-          "balkanPrice": "€1,072",
-          "savings": "65%"
-        },
-        {
-          "procedure": "All-on-4 Implantati",
-          "ukPrice": "€14,400",
-          "euPrice": "€10,000",
-          "usPrice": "€15,000",
-          "balkanPrice": "€6,231",
-          "savings": "58%"
-        },
-        {
-          "procedure": "All-on-6 Implantati",
-          "ukPrice": "€16,200",
-          "euPrice": "€11,500",
-          "usPrice": "€16,800",
-          "balkanPrice": "€7,916",
-          "savings": "52%"
-        },
-        {
-          "procedure": "All-on-8 Implantati",
-          "ukPrice": "€18,000",
-          "euPrice": "€13,000",
-          "usPrice": "€19,200",
-          "balkanPrice": "€9,499",
-          "savings": "52%"
-        },
-        {
-          "procedure": "Puna Porcelanska Kruna",
-          "ukPrice": "€1,200",
-          "euPrice": "€800",
-          "usPrice": "€1,300",
-          "balkanPrice": "€383",
-          "savings": "68%"
-        },
-        {
-          "procedure": "Cirkonijumska Kruna",
-          "ukPrice": "€1,440",
-          "euPrice": "€1,000",
-          "usPrice": "€1,560",
-          "balkanPrice": "€383",
-          "savings": "75%"
-        },
-        {
-          "procedure": "Porcelanska Faseta",
-          "ukPrice": "€1,200",
-          "euPrice": "€850",
-          "usPrice": "€1,440",
-          "balkanPrice": "€255",
-          "savings": "82%"
-        },
-        {
-          "procedure": "E-Max Faseta",
-          "ukPrice": "€1,260",
-          "euPrice": "€900",
-          "usPrice": "€1,500",
-          "balkanPrice": "€383",
-          "savings": "75%"
-        },
-        {
-          "procedure": "Puna Proteza",
-          "ukPrice": "€2,160",
-          "euPrice": "€1,500",
-          "usPrice": "€2,400",
-          "balkanPrice": "€664",
-          "savings": "72%"
-        },
-        {
-          "procedure": "Izbeljivanje Zuba",
-          "ukPrice": "€600",
-          "euPrice": "€450",
-          "usPrice": "€720",
-          "balkanPrice": "€255",
-          "savings": "65%"
-        },
-        {
-          "procedure": "Lečenje Kanala Korena (molari)",
-          "ukPrice": "€960",
-          "euPrice": "€700",
-          "usPrice": "€1,080",
-          "balkanPrice": "€123",
-          "savings": "87%"
-        },
-        {
-          "procedure": "Vađenje (jednostavno)",
-          "ukPrice": "€240",
-          "euPrice": "€180",
-          "usPrice": "€300",
-          "balkanPrice": "€56",
-          "savings": "77%"
-        },
-        {
-          "procedure": "Vađenje (hirurško)",
-          "ukPrice": "€360",
-          "euPrice": "€250",
-          "usPrice": "€420",
-          "balkanPrice": "€189",
-          "savings": "55%"
-        },
-        {
-          "procedure": "Redovno Čišćenje Zuba",
-          "ukPrice": "€360",
-          "euPrice": "€250",
-          "usPrice": "€420",
-          "balkanPrice": "€66",
-          "savings": "84%"
-        }
-      ]
-    },  
+  "pricing": {
+    "title": "Prosječno poređenje troškova",
+    "procedure": "Procedura",
+    "ukPrice": "Cijena u Velikoj Britaniji",
+    "euPrice": "Prosječna cijena u EU",
+    "usPrice": "Cijena u SAD",
+    "balkanPrice": "Naša cijena",
+    "savings": "Ušteda",
+    "note": "*Cijene zavise od slučaja. Ispunite naš online zahtjev za najnovije ponude i ekskluzivne popuste!",
+    "onlineRequestForm": "online zahtjev",
+    "buttonText": "Pogledajte Naše Cijene",
+    "procedures": [
+      {
+        "procedure": "Titanijumski Implant",
+        "ukPrice": "€3,000",
+        "euPrice": "€2,200",
+        "usPrice": "€3,600",
+        "balkanPrice": "€1,072",
+        "savings": "65%"
+      },
+      {
+        "procedure": "All-on-4 Implantati",
+        "ukPrice": "€14,400",
+        "euPrice": "€10,000",
+        "usPrice": "€15,000",
+        "balkanPrice": "€6,231",
+        "savings": "58%"
+      },
+      {
+        "procedure": "All-on-6 Implantati",
+        "ukPrice": "€16,200",
+        "euPrice": "€11,500",
+        "usPrice": "€16,800",
+        "balkanPrice": "€7,916",
+        "savings": "52%"
+      },
+      {
+        "procedure": "All-on-8 Implantati",
+        "ukPrice": "€18,000",
+        "euPrice": "€13,000",
+        "usPrice": "€19,200",
+        "balkanPrice": "€9,499",
+        "savings": "52%"
+      },
+      {
+        "procedure": "Puna Porcelanska Kruna",
+        "ukPrice": "€1,200",
+        "euPrice": "€800",
+        "usPrice": "€1,300",
+        "balkanPrice": "€383",
+        "savings": "68%"
+      },
+      {
+        "procedure": "Cirkonijumska Kruna",
+        "ukPrice": "€1,440",
+        "euPrice": "€1,000",
+        "usPrice": "€1,560",
+        "balkanPrice": "€383",
+        "savings": "75%"
+      },
+      {
+        "procedure": "Porcelanska Faseta",
+        "ukPrice": "€1,200",
+        "euPrice": "€850",
+        "usPrice": "€1,440",
+        "balkanPrice": "€255",
+        "savings": "82%"
+      },
+      {
+        "procedure": "E-Max Faseta",
+        "ukPrice": "€1,260",
+        "euPrice": "€900",
+        "usPrice": "€1,500",
+        "balkanPrice": "€383",
+        "savings": "75%"
+      },
+      {
+        "procedure": "Puna Proteza",
+        "ukPrice": "€2,160",
+        "euPrice": "€1,500",
+        "usPrice": "€2,400",
+        "balkanPrice": "€664",
+        "savings": "72%"
+      },
+      {
+        "procedure": "Izbjeljivanje Zuba",
+        "ukPrice": "€600",
+        "euPrice": "€450",
+        "usPrice": "€720",
+        "balkanPrice": "€255",
+        "savings": "65%"
+      },
+      {
+        "procedure": "Liječenje Kanala Korijena (molari)",
+        "ukPrice": "€960",
+        "euPrice": "€700",
+        "usPrice": "€1,080",
+        "balkanPrice": "€123",
+        "savings": "87%"
+      },
+      {
+        "procedure": "Vađenje (jednostavno)",
+        "ukPrice": "€240",
+        "euPrice": "€180",
+        "usPrice": "€300",
+        "balkanPrice": "€56",
+        "savings": "77%"
+      },
+      {
+        "procedure": "Vađenje (hirurško)",
+        "ukPrice": "€360",
+        "euPrice": "€250",
+        "usPrice": "€420",
+        "balkanPrice": "€189",
+        "savings": "55%"
+      },
+      {
+        "procedure": "Redovno Čišćenje Zuba",
+        "ukPrice": "€360",
+        "euPrice": "€250",
+        "usPrice": "€420",
+        "balkanPrice": "€66",
+        "savings": "84%"
+      }
+    ]
+  },
   "haveItAll": {
-    "title": "Imati sve sa Sorriso",
-    "description": "Otkrijte savršenu kombinaciju vrhunske zubarske nege i odmora iz snova u Crnoj Gori. Sa Sorrisom možete iskusiti vrhunske zubarske tretmane dok uživate u zadivljujućoj lepoti pejzaža Crne Gore, njenoj bogatoj istoriji i toplom gostoprimstvu. Uštedite do 80% na zubarskim tretmanima.",
+    "title": "Sa Sorrisom možeš imati sve",
+    "description": "Otkrijte savršenu kombinaciju vrhunske zubarske njege i odmora iz snova u Crnoj Gori. Sa Sorrisom možete iskusiti vrhunske zubarske tretmane dok uživate u zadivljujućoj ljepoti pejzaža Crne Gore, njenoj bogatoj istoriji i toplom gostoprimstvu. Uštedite do 80% na zubarskim tretmanima.",
     "buttonText": "Zakažite sastanak"
   }
 }

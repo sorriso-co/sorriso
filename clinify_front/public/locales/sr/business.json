@@ -1,12 +1,12 @@
 {
   "clinicServicesHero": {
     "title": "Usluge za privatne klinike",
-    "subtitle": "Naša platforma nudi privatnim klinikama alate potrebne za pojednostavljenje procesa prijema pacijenata, olakšavajući upravljanje terminima, zdravstvenim kartonima pacijenata i komunikacijama. Naš krajnji cilj je osnažiti klinike da pružaju najbolju moguću negu svojim pacijentima.",
+    "subtitle": "Naša platforma nudi privatnim klinikama alate potrebne za pojednostavljenje procesa primanja pacijenata, olakšavajući upravljanje terminima, zdravstvenim kartonima pacijenata i komunikaciji sa pacijentom. Naš krajnji cilj je da osnažimo klinike da pružaju najbolju moguću njegu svojim pacijentima.",
     "cta": "Saznajte više"
   },
   "internationalPatientWorkflow": {
     "title": "Poboljšanje rada sa međunarodnim pacijentima",
-    "description": "Sorriso pojednostavljuje upravljanje međunarodnim pacijentima, omogućavajući klinikama da se fokusiraju na izuzetnu negu. Pratimo put pacijenta od prvog kontakta do završnog praćenja, osiguravajući besprekorno iskustvo. Menadžeri klinika i posvećeno osoblje često imaju previše stvari za koordinaciju kako bi pružili stalno, svetski priznato pacijentovo iskustvo onima koji putuju po svetu radi životno promenljivih procedura. Razumemo da je iskustvo pacijenata prioritet za klinike, i tu smo da pomognemo. Naša platforma omogućava klinikama da pruže besprekorno iskustvo za međunarodne pacijente bez muke upravljanja stotinama pokretnih delova: e-mailova, Zoom linkova, telefonskih poziva, rasporeda, rezervacija i transporta. Sve smo pokrili.",
+    "description": "Sorriso pojednostavljuje primanje međunarodnij pacijenata, omogućavajući klinikama da se fokusiraju na izuzetnu njegu. Pratimo put pacijenta od prvog kontakta do završnog pregleda, osiguravajući besprekorno iskustvo. Menadžeri klinika i posvećeno osoblje često imaju previše stvari za koordinaciju kako bi pružili odlično iskustvo onima koji putuju po svijetu radi procedura koji pojedincu mogu promijeniti život. Razumijemo da je iskustvo pacijenata prioritet za klinike, i tu smo da pomognemo. Naša platforma omogućava klinikama da pruže besprekorno iskustvo za međunarodne pacijente bez muke upravljanja stotinama odvojenih dijelova: e-mailova, Zoom linkova, telefonskih poziva, rasporeda, rezervacija i transporta. Sorriso pokriva sve.",
     "cta": "Saznajte više",
     "feature1": {
       "title": "Komunikacija sa međunarodnim pacijentima",
@@ -14,7 +14,7 @@
     },
     "feature2": {
       "title": "Zakazivanje poziva i termina",
-      "description": "Automatizovano zakazivanje termina, podsetnici i prilagođavanje vremenskih zona."
+      "description": "Automatizovano zakazivanje termina, podsjetnici i prilagođavanje vremenskih zona."
     },
     "feature3": {
       "title": "Organizovanje prevoza sa aerodroma",
@@ -22,47 +22,47 @@
     },
     "feature4": {
       "title": "Upravljanje hotelima",
-      "description": "Upravljajte rezervacijama i posebnim zahtevima sa lokalnim pružaocima smeštaja."
+      "description": "Upravljajte rezervacijama i posebnim zahtjevima za smještaj."
     },
     "feature5": {
-      "title": "Prenos podataka za relevantne skeniranja i zdravstvenu dokumentaciju",
+      "title": "Prenos podataka za relevantne skenove i zdravstvenu dokumentaciju",
       "description": "Siguran elektronski prenos zdravstvenih kartona i kritične dokumentacije."
     },
     "feature6": {
       "title": "Poboljšanje iskustva pacijenata",
-      "description": "Pružanje prijatnog i bezstresnog iskustva od dolaska do odlaska."
+      "description": "Pružanje prijatnog iskustva bez stresa od dolaska do odlaska."
     }
   },
   "dataSpeaks": {
-    "title": "Podaci govore: Stvarni trošak neefikasnosti",
-    "description": "Saznajte koliko vremena klinike gube na birokratiju i nepotrebne zadatke, i kako Sorriso može pomoći da se to vreme povrati za bolju negu pacijenata.",
+    "title": "Podaci govore: stvarni trošak neefikasnosti",
+    "description": "Saznajte koliko vremena klinike gube na birokratiju i nepotrebne zadatke, i kako Sorriso može pomoći da se to vrijeme povrati za bolju njegu pacijenata.",
     "cta": "Saznajte više",
     "statistics": {
       "statistic1": {
         "title": "Gubitak vremena na birokratiju",
         "stat": "30%",
-        "description": "Klinike troše do 30% svog vremena na birokratske zadatke, smanjujući vreme za negu pacijenata."
+        "description": "Klinike troše do 30% svog vremena na birokratske zadatke, smanjujući vrijeme za njegu pacijenata."
       },
       "statistic2": {
         "title": "Nepotrebni zadaci",
-        "stat": "25 sati/nedelja",
-        "description": "U proseku, klinike gube 25 sati nedeljno na nepotrebne administrativne zadatke."
+        "stat": "25 sati/nedjelja",
+        "description": "U prosjeku, klinike gube 25 sati nedjeljno na nepotrebne administrativne zadatke."
       },
       "statistic3": {
-        "title": "Koordinacija smeštaja",
-        "stat": "10 sati/nedelja",
-        "description": "Koordinacija smeštaja za međunarodne pacijente može trajati do 10 sati nedeljno."
+        "title": "Koordinacija smještaja",
+        "stat": "10 sati/nedjelja",
+        "description": "Koordinacija smještaja za međunarodne pacijente može trajati do 10 sati nedjeljno."
       },
       "statistic4": {
         "title": "Upravljanje transportom",
-        "stat": "8 sati/nedelja",
-        "description": "Upravljanje logistikom prevoza može zauzeti do 8 sati dragocenog vremena nedeljno."
+        "stat": "8 sati/nedjelja",
+        "description": "Upravljanje logistikom prevoza može zauzeti do 8 sati dragocjenog vremena nedjeljno."
       }
     }
   },
   "watchPromo": {
     "title": "Dobijte besplatnu probnu verziju i otkrijte najbolji softver za prijem međunarodnih pacijenata",
-    "description": "Obratite nam se i iskusite prvi softver te vrste, dizajniran da pojednostavi prijem međunarodnih pacijenata i pruži izuzetnu negu.",
+    "description": "Obratite nam se i iskusite prvi softver te vrste, dizajniran da pojednostavi prijem međunarodnih pacijenata i pruži izuzetnu njegu.",
     "ctaFreeTrial": "Besplatna probna verzija",
     "ctaContactUs": "Kontaktirajte nas",
     "videoButton": "Pogledajte sada",
@@ -72,110 +72,97 @@
     "headline1": "Pridružite se",
     "headline2": "Promovišite",
     "headline3": "Zaradite",
-    "description": "Pridružite se našem partnerskom programu za dentalni turizam i povećajte svoje prihode sa vrhunskim uslugama, velikodušnim provizijama i izuzetnom podrškom. Povećajte svoj prihod sa bonusima zasnovanim na učinku i jasnim putem do viših nivoa. Prijavite se sada i iskusite razliku!",
+    "description": "Pridružite se našem partnerskom programu za dentalni turizam i povećajte svoje prihode sa vrhunskim uslugama, velikim provizijama i izuzetnom podrškom. Povećajte svoj prihod sa bonusima zasnovanim na učinku i jasnim putem do viših nivoa zarade. Prijavite se sada i iskusite razliku!",
     "ctaText": "Prijavite se sada",
     "imageAlt": "Slika partnerskog programa"
   },
   "howItWorks": {
     "title": "Kako funkcioniše",
-    "description": "Pridružite se našem partnerskom programu i zarađujte provizije promovisanjem zdravijih osmeha.",
+    "description": "Pridružite se našem partnerskom programu i zaradite provizije promovišući zdravije osmijehe.",
     "steps": [
       {
         "stepNumber": 1,
-        "title": "Postanite partner",
+        "title": "Pridružite se kao partner",
         "items": [
           "Prijavite se online",
-          "Pogledajte video za uvođenje",
-          "Počnite deliti Sorriso"
+          "Pogledajte uvodni video",
+          "Zaradite 2% provizije na svaku prodaju"
         ]
       },
       {
         "stepNumber": 2,
-        "title": "Zaradite provizije",
-        "description": "Zaradite 2% na svaku prodaju. Ažurirajte da biste zaradili 5%.",
-        "footnote": "*Prodaja se definiše kao jedno sticanje pacijenta."
+        "title": "Postanite stručni partner",
+        "description": "Povećajte svoje zarade na 5% nakon što postignete prvih 10 prodaja i postanete stručni partner.",
+        "footnote": "*Prodaja se definiše kao sticanje jednog pacijenta."
       },
       {
         "stepNumber": 3,
-        "title": "Povećajte zaradu",
-        "items": [
-          "Zaradite 5% nakon 10 prodaja.",
-          "Iskusni partneri zarađuju 5% nakon 10 prodaja."
-        ]
-      },
-      {
-        "stepNumber": 4,
-        "title": "Postanite ekspert",
-        "description": "Postignite 10 prodaja u tromesečju da biste povećali zaradu na 5%."
-      },
-      {
-        "stepNumber": 5,
         "title": "Izgradite svoju mrežu",
         "items": [
-          "Formirajte tim partnera",
-          "Zaradite na prodaji koju napravi vaš tim"
+          "Formirajte svoj tim partnera",
+          "Zaradite na prodajama koje ostvaruje vaš tim."
         ]
       }
     ]
   },
   "payoff": {
-    "title": "Sorriso je vaš najbolji izbor",
-    "description": "Pridružite se našem vodećem partnerskom programu za dentalni turizam i gledajte kako vaši prihodi rastu. Naše vrhunske usluge, velikodušna provizijska struktura i izuzetna podrška čine nas najboljim izborom za partnere. Uđite u ultimativnu ROI igru!",
+    "title": "Počnite promovisati Sorriso i zarađujte",
+    "description": "Pridružite se našem vodećem programu partnerstva u dentalnom turizmu i gledajte kako vaša zarada raste. Naše vrhunske usluge, struktura provizija i izuzetna podrška čine nas najboljim izborom za partnere.",
     "cta": "Prijavite se",
-    "contactPrompt": "Još imate pitanja? Pišite nam, odgovorićemo brzo!",
+    "contactPrompt": "Imate li još pitanja? Pišite nam, odgovorićemo odmah!",
     "contactEmail": "contact@sorriso.care",
     "cards": {
       "card1": {
-        "title": "Isplate do $500",
-        "description": "Zaradite $200 provizije po osobi koju preporučite i koja završi proceduru."
+        "title": "Isplate do 500 $",
+        "description": "Zaradite proviziju po preporučenom pacijentu koji završi proceduru."
       },
       "card2": {
         "title": "Pouzdano praćenje",
-        "description": "Koristite naš pouzdani sistem praćenja da biste u realnom vremenu pratili svoje prihode."
+        "description": "Koristite naš pouzdani sistem praćenja da biste pratili svoje prihode na dnevnom nivou."
       },
       "card3": {
-        "title": "Vrhunske klinike",
-        "description": "Partnerstvo sa najboljim klinikama u istočnoj Evropi koje nude vrhunske tretmane po pristupačnim cenama."
+        "title": "Najbolje klinike",
+        "description": "Saradnja sa najboljim klinikama u istočnoj Evropi koje nude vrhunske tretmane po pristupačnim cijenama."
       },
       "card4": {
         "title": "Visoki prihodi",
-        "description": "Pridružite se prosperitetnoj mreži gde prosečan partnerski marketer ostvaruje značajne mesečne prihode."
+        "description": "Pridružite se rastućoj mreži u kojoj prosječni partner u marketingu zarađuje značajne mjesečne prihode."
       },
       "card5": {
-        "title": "Bonusi zasnovani na učinku",
-        "description": "Povećajte svoju proviziju sa bonusima zasnovanim na učinku i napredujte do viših partnerskih nivoa."
+        "title": "Bonusi za učinak",
+        "description": "Povećajte svoju proviziju sa bonusima zasnovanim na učinku i popnite se na više nivoe partnerstva."
       },
       "card6": {
         "title": "Izuzetna podrška",
         "description": "Naš posvećeni tim za podršku pomaže vam da maksimalno iskoristite svoj potencijal i povećate svoje prihode."
       }
     }
-  },
+  },  
   "affiliatesStories": {
     "title": "Čujte iskustva naših partnera",
     "testimonials": [
       {
         "name": "Hunter",
-        "story": "Slušajte Hunterov uspeh sa Sorriso partnerskim programom",
+        "story": "Slušajte Hunterov uspjeh sa Sorriso partnerskim programom",
         "image": "/images/affiliates/hunt.png",
-        "quote": "To je win-win-win sa Sorriso partnerskim programom. Klijenti uspevaju sa vrhunskim uslugama, vi zarađujete značajne provizije, a zajedno svi uspevamo. Iskreno verujem da bi svako trebalo da proba Sorriso.",
-        "position": "Partner marketer",
+        "quote": "Svako dobija sa Sorriso partnerskim programom. Klijenti uspijevaju sa vrhunskim uslugama, vi zarađujete značajne provizije, a zajedno svi uspijevamo. Iskreno vjerujem da bi svako trebalo da proba Sorriso.",
+        "position": "Partner marketar",
         "company": "Hugo Productions"
       },
       {
         "name": "Jane",
-        "story": "Slušajte Janein uspeh sa Sorriso partnerskim programom",
+        "story": "Slušajte Janein uspjeh sa Sorriso partnerskim programom",
         "image": "/images/affiliates/jane.png",
         "quote": "Pridruživanje Sorriso partnerskom programu bila je najbolja odluka. Podrška je izuzetna, a prihodi fantastični. Toplo preporučujem!",
         "position": "Influenser",
         "company": "Jane & Co."
       },
       {
-        "name": "Satraj",
-        "story": "Slušajte Oliverov uspeh sa Sorriso partnerskim programom",
+        "name": "Oliver",
+        "story": "Slušajte Oliverov uspjeh sa Sorriso partnerskim programom",
         "image": "/images/affiliates/oliver.png",
         "quote": "Sorriso partnerski program je zaista izuzetan. Struktura provizija i podrška su neuporedivi. Značajno je povećao moj prihod.",
-        "position": "Kreator sadržaja",
+        "position": "Digitalni dizajner",
         "company": "Mango Studios"
       }
     ],
@@ -210,17 +197,17 @@
       {
         "icon": "FaThumbsUp",
         "title": "To je lako!",
-        "description": "Promovišite naše usluge dentalnog turizma koristeći svoje blogove, video zapise i društvene kanale. Pozovite kontakte da kliknu na naš partnerski URL link."
+        "description": "Promovišite naše usluge dentalnog turizma koristeći svoje blogove, video zapise i društvene kanale. Pozovite ljude da kliknu na naš partnerski URL link."
       },
       {
         "icon": "FaCode",
         "title": "Nema tehnologije, nema troškova",
-        "description": "Ugradite link u svoju kanal komunikaciju. Nije potrebna tehnička integracija i učlanjenje je besplatno."
+        "description": "Ugradite link u svoju kanal komunikacije. Nije potrebna tehnička integracija i učlanjenje je besplatno."
       },
       {
         "icon": "FaDollarSign",
-        "title": "Velikodušne provizije",
-        "description": "Zaradite $200 provizije po osobi koju preporučite i koja završi proceduru. Uživajte u bonusima zasnovanim na učinku i visokim prihodima."
+        "title": "Velike provizije",
+        "description": "Zaradite do $500 provizije po osobi koju preporučite i koja završi proceduru. Uživajte u bonusima zasnovanim na učinku i visokim prihodima."
       }
     ],
     "ctaButton": "Prijavite se sada"

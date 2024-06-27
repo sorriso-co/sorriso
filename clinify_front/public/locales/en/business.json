@@ -86,48 +86,35 @@
             "items": [
               "Sign up online",
               "Watch the onboarding video",
-              "Start sharing Sorriso"
+              "Earn 2% commision on every sale"
             ]
           },
           {
             "stepNumber": 2,
-            "title": "Earn Commissions",
-            "description": "Earn 2% on every sale. Upgrade to earn 5%.",
+            "title": "Become an expert affiliate",
+            "description": "Boost your earnings to 5% after achieving first 10 sales and become an Expert Affiliate.",
             "footnote": "*A sale is defined as one patient acquisition."
           },
           {
             "stepNumber": 3,
-            "title": "Increase Earnings",
-            "items": [
-              "Earn 5% after 10 sales.",
-              "Expert Affiliates earn 5% after 10 sales."
-            ]
-          },
-          {
-            "stepNumber": 4,
-            "title": "Become an Expert",
-            "description": "Achieve 10 sales in a quarter to boost your earnings to 5%."
-          },
-          {
-            "stepNumber": 5,
             "title": "Build Your Network",
             "items": [
-              "Form a team of affiliates",
-              "Earn on sales made by your team"
+              "Form your team of affiliates",
+              "Earn on sales made by your team."
             ]
           }
         ]
       },
       "payoff": {
-    "title": "Sorriso is Your Best Choice",
-    "description": "Join our leading dental tourism affiliate program and watch your earnings grow. Our top-tier services, generous commission structure, and exceptional support make us the best choice for affiliates. Enter the ultimate ROI game!",
+    "title": "Start Sharing Sorriso and Earn",
+    "description": "Join our leading dental tourism affiliate program and watch your earnings grow. Our top-tier services, generous commission structure, and exceptional support make us the best choice for affiliates.",
     "cta": "Sign Up",
     "contactPrompt": "Still have any questions? Write to us, we will respond promptly!",
     "contactEmail": "contact@sorriso.care",
     "cards": {
       "card1": {
         "title": "Payouts up to $500",
-        "description": "Earn $200 commission per referred person who completes a procedure."
+        "description": "Earn a commission per referred patient who completes the procedure."
       },
       "card2": {
         "title": "Reliable Tracking",
@@ -171,7 +158,7 @@
         "company": "Jane & Co."
       },
       {
-        "name": "Satraj",
+        "name": "Oliver",
         "story": "Listen to Oliver’s Success With Sorriso Affiliate Program",
         "image": "/images/affiliates/oliver.png",
         "quote": "Sorriso’s affiliate program is truly remarkable. The commission structure and support are unmatched. It has significantly boosted my income.",

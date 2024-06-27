@@ -12,7 +12,7 @@ interface StepProps {
 const Step: React.FC<StepProps> = ({ stepNumber, title, items, description, footnote }) => {
   return (
     <div
-      className="mb-12 p-10 border-4 border-teal-700 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-100 rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+      className="mb-12 p-12 border-4 border-teal-700 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-100 rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
       data-aos="fade-up"
       data-aos-duration="800"
       style={{ maxWidth: '450px', margin: '0 auto', textAlign: 'center' }}

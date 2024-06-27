@@ -76,81 +76,68 @@
       "ctaText": "Inscrivez-vous maintenant",
       "imageAlt": "Image du Programme d'Affiliation"
     },
-    "howItWorks": {
-      "title": "Comment ça marche",
-      "description": "Rejoignez notre programme d'affiliation et gagnez des commissions en promouvant des sourires plus sains.",
-      "steps": [
-        {
-          "stepNumber": 1,
-          "title": "Rejoignez en tant qu'Affilié",
-          "items": [
-            "Inscrivez-vous en ligne",
-            "Regardez la vidéo d'intégration",
-            "Commencez à partager Sorriso"
-          ]
-        },
-        {
-          "stepNumber": 2,
-          "title": "Gagnez des Commissions",
-          "description": "Gagnez 2% sur chaque vente. Passez à 5%.",
-          "footnote": "*Une vente est définie comme l'acquisition d'un patient."
-        },
-        {
-          "stepNumber": 3,
-          "title": "Augmentez vos Revenus",
-          "items": [
-            "Gagnez 5% après 10 ventes.",
-            "Les Affiliés Experts gagnent 5% après 10 ventes."
-          ]
-        },
-        {
-          "stepNumber": 4,
-          "title": "Devenez un Expert",
-          "description": "Réalisez 10 ventes en un trimestre pour augmenter vos gains à 5%."
-        },
-        {
-          "stepNumber": 5,
-          "title": "Construisez votre Réseau",
-          "items": [
-            "Formez une équipe d'affiliés",
-            "Gagnez sur les ventes réalisées par votre équipe"
-          ]
+      "howItWorks": {
+        "title": "Comment ça marche",
+        "description": "Rejoignez notre programme d'affiliation et gagnez des commissions en promouvant des sourires plus sains.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Devenez affilié",
+            "items": [
+              "Inscrivez-vous en ligne",
+              "Regardez la vidéo d'introduction",
+              "Gagnez 2 % de commission sur chaque vente"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "title": "Devenez un affilié expert",
+            "description": "Augmentez vos gains à 5 % après avoir réalisé vos 10 premières ventes et devenez un affilié expert.",
+            "footnote": "*Une vente est définie comme l'acquisition d'un patient."
+          },
+          {
+            "stepNumber": 3,
+            "title": "Construisez votre réseau",
+            "items": [
+              "Formez votre équipe d'affiliés",
+              "Gagnez sur les ventes réalisées par votre équipe."
+            ]
+          }
+        ]
+      },
+      "payoff": {
+        "title": "Commencez à partager Sorriso et gagnez",
+        "description": "Rejoignez notre programme d'affiliation leader en tourisme dentaire et voyez vos revenus augmenter. Nos services de premier ordre, notre structure de commissions généreuse et notre soutien exceptionnel font de nous le meilleur choix pour les affiliés.",
+        "cta": "S'inscrire",
+        "contactPrompt": "Vous avez encore des questions ? Écrivez-nous, nous répondrons rapidement !",
+        "contactEmail": "contact@sorriso.care",
+        "cards": {
+          "card1": {
+            "title": "Paiements jusqu'à 500 $",
+            "description": "Gagnez une commission par patient référé qui complète la procédure."
+          },
+          "card2": {
+            "title": "Suivi fiable",
+            "description": "Utilisez notre système de suivi fiable pour surveiller vos revenus en temps réel."
+          },
+          "card3": {
+            "title": "Meilleures cliniques",
+            "description": "Collaborez avec les meilleures cliniques d'Europe de l'Est offrant des traitements de qualité à des prix abordables."
+          },
+          "card4": {
+            "title": "Revenus élevés",
+            "description": "Rejoignez un réseau florissant où le marketer affilié moyen gagne des revenus substantiels chaque mois."
+          },
+          "card5": {
+            "title": "Bonus de performance",
+            "description": "Augmentez votre commission avec des bonus basés sur la performance et accédez à des niveaux d'affiliation supérieurs."
+          },
+          "card6": {
+            "title": "Support exceptionnel",
+            "description": "Notre équipe de support dédiée vous aide à maximiser votre potentiel et à augmenter vos revenus."
+          }
         }
-      ]
-    },
-    "payoff": {
-      "title": "Sorriso est votre Meilleur Choix",
-      "description": "Rejoignez notre programme d'affiliation leader dans le tourisme dentaire et regardez vos revenus augmenter. Nos services de premier ordre, notre structure de commission généreuse et notre support exceptionnel font de nous le meilleur choix pour les affiliés. Entrez dans le jeu ultime du ROI !",
-      "cta": "Inscrivez-vous",
-      "contactPrompt": "Vous avez encore des questions ? Écrivez-nous, nous vous répondrons rapidement !",
-      "contactEmail": "contact@sorriso.care",
-      "cards": {
-        "card1": {
-          "title": "Paiements jusqu'à 500 $",
-          "description": "Gagnez 200 $ de commission par personne référée qui termine une procédure."
-        },
-        "card2": {
-          "title": "Suivi Fiable",
-          "description": "Utilisez notre système de suivi fiable pour surveiller vos revenus en temps réel."
-        },
-        "card3": {
-          "title": "Meilleures Cliniques",
-          "description": "Partenariat avec les meilleures cliniques d'Europe de l'Est offrant des traitements de qualité à des prix abordables."
-        },
-        "card4": {
-          "title": "Hauts Revenus",
-          "description": "Rejoignez un réseau prospère où le revenu moyen des affiliés est substantiel chaque mois."
-        },
-        "card5": {
-          "title": "Primes de Performance",
-          "description": "Augmentez votre commission avec des primes basées sur la performance et atteignez des niveaux d'affiliation supérieurs."
-        },
-        "card6": {
-          "title": "Support Exceptionnel",
-          "description": "Notre équipe de support dédiée vous aide à maximiser votre potentiel et à augmenter vos revenus."
-        }
-      }
-    },
+      },    
     "affiliatesStories": {
       "title": "Témoignages de nos Affiliés",
       "testimonials": [
@@ -171,7 +158,7 @@
           "company": "Jane & Co."
         },
         {
-          "name": "Satraj",
+          "name": "Oliver",
           "story": "Écoutez le succès d'Oliver avec le programme d'affiliation de Sorriso",
           "image": "/images/affiliates/oliver.png",
           "quote": "Le programme d'affiliation de Sorriso est vraiment remarquable. La structure de commission et le support sont incomparables. Cela a considérablement augmenté mes revenus.",

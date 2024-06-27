@@ -1,16 +1,16 @@
 {
   "callToAction": {
-    "title": "Dobijte osmeh kakav ste oduvek želeli",
+    "title": "Dobijte osmijeh kakav ste oduvijek željeli",
     "cta": "Zakažite pregled"
   },
   "howItWorksHero": {
     "title": "Kako Sorriso radi",
-    "description": "Upoznajte naš tim putem teledentističke konsultacije i dobijte personalizovani plan lečenja.",
+    "description": "Upoznajte naš tim putem telemedicinske konsultacije i dobijte personalizovani plan liječenja.",
     "cta": "Započnite"
   },
   "serviceHero": {
     "title": "Naše zubne usluge",
-    "description": "Otkrijte naš širok spektar zubnih usluga dizajniranih da očuvaju vaš osmeh zdravim i lepim.",
+    "description": "Otkrijte naš širok spektar zubnih usluga dizajniranih da očuvaju vaš osmijeh zdravim i lijepim.",
     "ctaLearnMore": "Saznajte više",
     "ctaBookAppointment": "Zakažite termin"
   },
@@ -23,74 +23,74 @@
       },
       {
         "title": "Najsavremenija oprema",
-        "description": "Koristimo najnoviju tehnologiju i opremu kako bismo osigurali najbolju negu."
+        "description": "Koristimo najnoviju tehnologiju i opremu kako bismo osigurali najbolju njegu."
       },
       {
-        "title": "Personalizovana nega",
+        "title": "Personalizovana njega",
         "description": "Pratimo individualne tretmane prilagođene vašim specifičnim potrebama."
       }
     ],
-    "imageAlt": "Doktor"
+    "imageAlt": "doktor"
   },
   "experienceSection": {
     "title": "Klinika sa tradicijom izvrsnosti",
     "experience": "Iskustvo",
-    "description": "Već 30 godina naša klinika pomaže pacijentima iz celog sveta da postignu savršen osmeh.",
+    "description": "Već 30 godina naša klinika pomaže pacijentima iz cijelog svijeta da postignu savršen osmijeh.",
     "satisfiedPatients": "+250.000",
-    "satisfiedPatientsText": "Zadovoljnih pacijenata pomaže",
-    "cta": "Pogledajte više pre i posle fotografija"
+    "satisfiedPatientsText": "zadovoljnih pacijenata pomaže",
+    "cta": "Pogledajte više prije i poslije fotografija"
   },
   "howItWorks": {
-      "title": "Jednostavni koraci do savršenog osmeha",
-      "description": "Sorriso vam pomaže da ostvarite svoj san o osmehu sa našim jednostavnim i praktičnim procesom.",
-      "steps": [
-        {
-          "title": "Korak 1: Početna konsultacija",
-          "description": "Popunite naš jednostavan obrazac i zakazujte online konsultaciju sa našim zubarom, gde ćemo razgovarati o vašim stomatološkim problemima i očekivanjima.",
-          "icon": "FaPhoneAlt"
-        },
-        {
-          "title": "Korak 2: Personalizovani plan lečenja",
-          "description": "Naši stručnjaci kreiraju personalizovani plan lečenja prilagođen vašim specifičnim zahtevima.",
-          "icon": "FaClipboardList"
-        },
-        {
-          "title": "Korak 3: Organizacija putovanja",
-          "description": "Pomažemo vam oko organizacije putovanja kako bismo osigurali glatko i bezbrižno putovanje.",
-          "icon": "FaPlane"
-        },
-        {
-          "title": "Korak 4: Dolazak i smeštaj",
-          "description": "Po dolasku nudimo udoban smeštaj i lokalnu podršku tokom vašeg boravka.",
-          "icon": "FaHotel"
-        },
-        {
-          "title": "Korak 5: Stomatološki tretman",
-          "description": "Primite stomatološki tretman svetske klase od naših iskusnih profesionalaca u najsavremenijem objektu.",
-          "icon": "FaTooth"
-        },
-        {
-          "title": "Korak 6: Praćenje i naknadna nega",
-          "description": "Nudimo sveobuhvatno praćenje i naknadnu negu kako bismo osigurali najbolje rezultate i vašu potpunu zadovoljstvo.",
-          "icon": "FaRegSmile"
-        }
-      ],
-      "videoButton": "Pogledajte sada",
-      "videoUrl": "https://www.youtube.com/embed/OEyE7MUoXIc?si=vo2pTGQpw4ZP6U0U",
-      "readyTitle": "Spremni da počnete?",
-      "readyDescription": "Kontaktirajte nas danas da biste zakazali vašu besplatnu konsultaciju.",
-      "contactUs": "Kontaktirajte nas",
-      "scheduleAppointment": "Zakažite termin"
-    },
-    "treatmentsHero": {
-    "title": "Transformišite svoj osmeh našim naprednim tretmanima",
+    "title": "Jednostavni koraci do savršenog osmijeha",
+    "description": "Sorriso vam pomaže da ostvarite svoj san o osmijehu sa našim jednostavnim i praktičnim procesom.",
+    "steps": [
+      {
+        "title": "Korak 1: Početna konsultacija",
+        "description": "Popunite naš jednostavan obrazac i zakažite online konsultaciju sa našim zubarom, gdje ćemo razgovarati o vašim stomatološkim problemima i očekivanjima.",
+        "icon": "FaPhoneAlt"
+      },
+      {
+        "title": "Korak 2: Personalizovani plan liječenja",
+        "description": "Naši stručnjaci kreiraju personalizovani plan liječenja prilagođen vašim specifičnim zahtjevima.",
+        "icon": "FaClipboardList"
+      },
+      {
+        "title": "Korak 3: Organizacija putovanja",
+        "description": "Pomažemo vam oko organizacije putovanja kako bismo osigurali glatko i bezbrižno putovanje.",
+        "icon": "FaPlane"
+      },
+      {
+        "title": "Korak 4: Dolazak i smještaj",
+        "description": "Po dolasku nudimo udoban smještaj i lokalnu podršku tokom vašeg boravka.",
+        "icon": "FaHotel"
+      },
+      {
+        "title": "Korak 5: Stomatološki tretman",
+        "description": "Primite stomatološki tretman svjetske klase od naših iskusnih profesionalaca u najsavremenijem objektu.",
+        "icon": "FaTooth"
+      },
+      {
+        "title": "Korak 6: Praćenje i naknadna njega",
+        "description": "Nudimo sveobuhvatno praćenje i naknadnu njegu kako bismo osigurali najbolje rezultate i vašu potpunu zadovoljstvo.",
+        "icon": "FaRegSmile"
+      }
+    ],
+    "videoButton": "Pogledajte sada",
+    "videoUrl": "https://www.youtube.com/embed/OEyE7MUoXIc?si=vo2pTGQpw4ZP6U0U",
+    "readyTitle": "Spremni da počnete?",
+    "readyDescription": "Kontaktirajte nas danas da biste zakazali vašu besplatnu konsultaciju.",
+    "contactUs": "Kontaktirajte nas",
+    "scheduleAppointment": "Zakažite termin"
+  },
+  "treatmentsHero": {
+    "title": "Transformišite svoj osmijeh našim naprednim tretmanima",
     "description": "Otkrijte naš širok spektar stomatoloških procedura dizajniranih da vam pruže najbolje rezultate koristeći najnovije tehnologije i moderne objekte.",
     "contactUs": "Kontaktirajte nas",
     "viewAllTreatments": "Pogledajte sve tretmane"
   },
   "priceComparison": {
     "title": "Zašto izabrati Crnu Goru za vaše stomatološke procedure?",
-    "description": "Otkrijte savršenu kombinaciju pristupačne stomatološke nege i zadivljujućih doživljaja u Crnoj Gori.",
+    "description": "Otkrijte savršenu kombinaciju pristupačne stomatološke njege i zadivljujućih doživljaja u Crnoj Gori.",
     "cards": [
       {
         "icon": "FaMoneyBillWave",
@@ -100,12 +100,12 @@
       {
         "icon": "FaGlobe",
         "title": "Bogata istorija",
-        "description": "Istražite bogato kulturno nasleđe i istorijske lokalitete Crne Gore."
+        "description": "Istražite bogato kulturno nasljeđe i istorijske lokalitete Crne Gore."
       },
       {
         "icon": "FaTree",
-        "title": "Prirodna lepota",
-        "description": "Uživajte u zadivljujućim pejzažima, od prelepih jezera do veličanstvenih planina."
+        "title": "Prirodna ljepota",
+        "description": "Uživajte u zadivljujućim pejzažima, od prelijepih jezera do veličanstvenih planina."
       },
       {
         "icon": "FaHiking",
@@ -115,16 +115,16 @@
       {
         "icon": "FaBalanceScale",
         "title": "Balansirano iskustvo",
-        "description": "Uživajte u balansiranoj kombinaciji prirodne lepote, luksuza i tradicionalnog šarma."
+        "description": "Uživajte u balansiranoj kombinaciji prirodne ljepote, luksuza i tradicionalnog šarma."
       },
       {
         "icon": "FaArrowDown",
         "title": "Pristupačna izvrsnost",
-        "description": "Dobijte izuzetnu stomatološku negu od visoko kvalifikovanih profesionalaca po pristupačnoj ceni."
+        "description": "Dobijte izuzetnu stomatološku njegu od visoko kvalifikovanih profesionalaca po pristupačnoj cijeni."
       }
     ],
-    "subTitle": "Crna Gora: Više od samo stomatološke nege",
-    "subDescription": "Crna Gora nije samo o ekonomičnoj stomatološkoj nezi. To je destinacija gde možete uživati u bogatoj istoriji, zadivljujućoj prirodi i uzbudljivim avanturama. Bilo da istražujete šarmantne stare gradove, planinarite kroz nacionalne parkove ili uživate u mirnim jezerima i plažama, Crna Gora nudi jedinstveno iskustvo koje će vaše stomatološko putovanje učiniti zaista nezaboravnim."
+    "subTitle": "Crna Gora: Više od samo stomatološke njege",
+    "subDescription": "Crna Gora nije samo o ekonomičnoj stomatološkoj njezi. To je destinacija gdje možete uživati u bogatoj istoriji, zadivljujućoj prirodi i uzbudljivim avanturama. Bilo da istražujete šarmantne stare gradove, planinarite kroz nacionalne parkove ili uživate u mirnim jezerima i plažama, Crna Gora nudi jedinstveno iskustvo koje će vaše stomatološko putovanje učiniti zaista nezaboravnim."
   },
   "flipCard": {
     "moreInfo": "Više informacija",
@@ -138,7 +138,7 @@
     "description": "Istražite naše najpopularnije procedure, odabrane od strane pacijenata zbog izvanrednih rezultata i beneficija."
   },
   "facilities": {
-    "title": "Naše objekti",
+    "title": "Naši objekti",
     "description": "Moderne ustanove za udobno i efikasno iskustvo pacijenata.",
     "features": [
       {
@@ -149,7 +149,7 @@
       {
         "icon": "FaChair",
         "title": "Udobnost",
-        "description": "Moderan i čist okruženje."
+        "description": "Moderno i čisto okruženje."
       },
       {
         "icon": "FaShieldAlt",
@@ -160,9 +160,9 @@
   },
   "expertise": {
     "title": "Naša ekspertiza",
-    "description": "Koristeći godine iskustva i multidisciplinarni tim visoko kvalifikovanih stručnjaka, pružamo izuzetnu medicinsku i zubarsku negu koristeći najnovije tehnologije.",
+    "description": "Koristeći godine iskustva i multidisciplinarni tim visoko kvalifikovanih stručnjaka, pružamo izuzetnu medicinsku i zubarsku njegu koristeći najnovije tehnologije.",
     "sectionTitle": "Mi smo stručnjaci u onome što radimo",
-    "sectionDescription": "Naša klinika je opremljena najsavremenijim objektima i osobljena timom posvećenih profesionalaca, uključujući stručnjake za opštu hirurgiju, ginekologiju, pulmonologiju i više. Posvećeni smo pružanju izuzetne, sveobuhvatne nege prilagođene potrebama svakog pacijenta.",
+    "sectionDescription": "Naša klinika je opremljena najsavremenijim objektima i osobljena timom posvećenih profesionalaca, uključujući stručnjake za opštu hirurgiju, ginekologiju, pulmologiju i više. Posvećeni smo pružanju izuzetne, sveobuhvatne njege prilagođene potrebama svakog pacijenta.",
     "features": [
       {
         "icon": "FaMicroscope",
@@ -178,13 +178,13 @@
       },
       {
         "icon": "FaStethoscope",
-        "text": "Sveobuhvatna nega"
+        "text": "Sveobuhvatna njega"
       }
     ]
   },
   "cta": {
-    "title": "Spremni da transformišete svoj osmeh?",
-    "description": "Kontaktirajte nas danas da biste zakazali vašu konsultaciju i napravili prvi korak ka zdravijem, sjajnijem osmehu.",
+    "title": "Spremni da transformišete svoj osmijeh?",
+    "description": "Kontaktirajte nas danas da biste zakazali vašu konsultaciju i napravili prvi korak ka zdravijem, sjajnijem osmijehu.",
     "buttonText": "Kontaktirajte nas"
   },
   "serviceGrid": {
@@ -196,16 +196,16 @@
       { "title": "Zubni implanti" },
       { "title": "Zubne krunice" },
       { "title": "Stomatološke operacije" },
-      { "title": "Izbeljivanje zuba" },
+      { "title": "Izbjeljivanje zuba" },
       { "title": "Zaštita" },
       { "title": "Parodontologija" },
       { "title": "Radiologija" }
     ]
   },
-   "watchVideo": "Pogledajte video",
-   "testimonialsHero": {
+  "watchVideo": "Pogledajte video",
+  "testimonialsHero": {
     "title": "Naši zadovoljni pacijenti",
-    "description": "Čujte od naših pacijenata o njihovim iskustvima i visokokvalitetnoj nezi koju su dobili."
+    "description": "Čujte od naših pacijenata o njihovim iskustvima i visokokvalitetnoj njezi koju su dobili."
   },
   "countries": {
     "unitedStates": "Sjedinjene Američke Države",
@@ -214,129 +214,128 @@
     "australia": "Australija"
   },
   "treatments": {
-    "hollywoodSmile": "Holivudski osmeh",
+    "hollywoodSmile": "Holivudski osmijeh",
     "dentalImplant": "Dentalni implantat",
-    "teethWhitening": "Izbeljivanje zuba",
+    "teethWhitening": "Izbjeljivanje zuba",
     "orthodontics": "Ortodoncija"
   },
   "testimonials": {
     "sheilaPeterson": {
-      "description": "Dr. Aleksa - iskreno, njegova profesionalnost i strpljenje su neverovatni. Ja sam ovde na odmoru i bila sam nervozna zbog stomatološkog rada jer sam sama. On je bio tako utešan, ljubazan, ohrabrujući i veoma nežan. On je zaista vrhunski stomatolog. Sada je od mene napravio redovnog klijenta, čak i ako moram da putujem iz Londona ovde. Hvala puno i nastavite sa odličnim radom!"
+      "description": "Dr. Aleksa - iskreno, njegova profesionalnost i strpljenje su nevjerovatni. Ja sam ovdje na odmoru i bila sam nervozna zbog stomatološkog rada jer sam sama. On je bio tako utješan, ljubazan, ohrabrujući i veoma nježan. On je zaista vrhunski stomatolog. Sada je od mene napravio redovnog klijenta, čak i ako moram da putujem iz Londona ovdje. Hvala puno i nastavite sa odličnim radom!"
     },
     "lauraBastone": {
       "description": "Veoma sam zadovoljna. Visoka stručnost, velika pažnja i ljubaznost. Hvala puno."
     },
     "lelaKovacMajcevski": {
-      "description": "Stomatološki zahvati su često bolni. To je i moje iskustvo, ali dr. Šuković i njegov tim su zaista vrlo profesionalni. Atmosfera je prijatna, bez tenzija, i pacijent se ovde oseća sigurno. Veoma su ljubazni, lako se zakazuje. Sve je uredno i čisto. Čini se da je sve ovde posvećeno pacijentu. Dr. Dražen i ostatak tima su vrlo odgovorni. U svakom slučaju, toplo preporučujem ovu kliniku svima. Sve je ovde organizovano sa ciljem da se pomogne pacijentu."
+      "description": "Stomatološki zahvati su često bolni. To je i moje iskustvo, ali dr. Šuković i njegov tim su zaista vrlo profesionalni. Atmosfera je prijatna, bez tenzija, i pacijent se ovdje osjeća sigurno. Veoma su ljubazni, lako se zakazuje. Sve je uredno i čisto. Čini se da je sve ovdje posvećeno pacijentu. Dr. Dražen i ostatak tima su vrlo odgovorni. U svakom slučaju, toplo preporučujem ovu kliniku svima. Sve je ovdje organizovano sa ciljem da se pomogne pacijentu."
     },
     "marryDianaJones": {
-      "description": "Moje dugogodišnje iskustvo u klinici Ars Medica može se opisati kao više nego odlično. Lekari i osoblje su profesionalni, posvećeni i vrlo ljubazni. Kvalitet usluga je na najvišem nivou u okruženju poznatih svetskih klinika."
+      "description": "Moje dugogodišnje iskustvo u klinici Ars Medica može se opisati kao više nego odlično. Ljekari i osoblje su profesionalni, posvećeni i vrlo ljubazni. Kvalitet usluga je na najvišem nivou u okruženju poznatih svjetskih klinika."
     }
   },
   "gallerySection": {
     "galleryTitle": "Galerija transformacija",
     "galleryImageAlt": "Slika galerije {{index}}"
   },
-    "procedures": [
-      {
-        "image": "/images/bills/implant.jpeg",
-        "title": "Zubni Implanti",
-        "shortDescription": "Zamenite nedostajuće zube trajnim implantima.",
-        "link": "/contact",
-        "necessity": "Kada imate jedan ili više nedostajućih zuba.",
-        "candidate": "Pacijenti sa dobrim oralnim zdravljem.",
-        "duration": "1-2 sata po implantu."
-      },
-      {
-        "image": "/images/bills/zcrown.jpeg",
-        "title": "Cirkonijumske Krune",
-        "shortDescription": "Izdržljive i estetski prijatne krune.",
-        "link": "/contact",
-        "necessity": "Kada su vam potrebne jake i prirodnog izgleda krune.",
-        "candidate": "Pacijenti kojima su potrebne zubne krune.",
-        "duration": "1-2 sata po kruni."
-      },
-      {
-        "image": "/images/bills/hollywood.jpeg",
-        "title": "Vaš Savršen Osmeh",
-        "shortDescription": "Postignite savršen osmeh pomoću faseta.",
-        "link": "/contact",
-        "necessity": "Za kompletnu transformaciju osmeha.",
-        "candidate": "Pacijenti koji žele savršen osmeh.",
-        "duration": "2-3 sesije."
-      },
-      {
-        "image": "/images/bills/allon4.jpeg",
-        "title": "All-on-4",
-        "shortDescription": "Restauracija celog luka sa samo 4 implanta.",
-        "link": "/contact",
-        "necessity": "Kada vam je potrebna restauracija celog luka.",
-        "candidate": "Pacijenti sa značajnim gubitkom zuba.",
-        "duration": "1-2 sata."
-      },
-      {
-        "image": "/images/bills/allon6.jpeg",
-        "title": "All-on-6",
-        "shortDescription": "Restauracija celog luka sa 6 implanta.",
-        "link": "/contact",
-        "necessity": "Kada vam je potrebna restauracija celog luka sa dodatnom stabilnošću.",
-        "candidate": "Pacijenti sa značajnim gubitkom zuba.",
-        "duration": "1-2 sata."
-      },
-      {
-        "image": "/images/bills/white.jpeg",
-        "title": "Izbeljivanje Zuba",
-        "shortDescription": "Osvetlite svoj osmeh profesionalnim izbeljivanjem.",
-        "link": "/contact",
-        "necessity": "Kada želite da uklonite mrlje i diskoloraciju.",
-        "candidate": "Pacijenti koji žele da osvetle svoj osmeh.",
-        "duration": "1 sat."
-      },
-      {
-        "image": "/images/bills/veneers.jpeg",
-        "title": "Zubne Fasete",
-        "shortDescription": "Poboljšajte svoj osmeh prilagođenim fasetama.",
-        "link": "/contact",
-        "necessity": "Za poboljšanje izgleda zuba.",
-        "candidate": "Pacijenti sa polomljenim, obojenim ili nepravilnim zubima.",
-        "duration": "2-3 sesije."
-      },
-      {
-        "image": "/images/bills/root.png",
-        "title": "Tretman Kanala Korena",
-        "shortDescription": "Spasite svoje prirodne zube.",
-        "link": "/contact",
-        "necessity": "Kada imate zaraženu ili upaljenu pulpu zuba.",
-        "candidate": "Pacijenti sa jakim zuboboljom ili infekcijom.",
-        "duration": "1-2 sata."
-      },
-      {
-        "image": "/images/bills/bridge.jpeg",
-        "title": "Zubni Mostovi",
-        "shortDescription": "Zamenite nedostajuće zube zubnim mostom.",
-        "link": "/contact",
-        "necessity": "Kada imate jedan ili više nedostajućih zuba.",
-        "candidate": "Pacijenti sa dobrim oralnim zdravljem i susednim zubima.",
-        "duration": "2-3 sesije."
-      },
-      {
-        "image": "/images/bills/gum.png",
-        "title": "Konturisanje Desni",
-        "shortDescription": "Preoblikujte svoje desni za bolji osmeh.",
-        "link": "/contact",
-        "necessity": "Za korekciju neujednačenih linija desni.",
-        "candidate": "Pacijenti sa prekomernim ili neujednačenim desnima.",
-        "duration": "1-2 sata."
-      },
-      {
-        "image": "/images/bills/full.jpeg",
-        "title": "Kompletna Rekonstrukcija Usta",
-        "shortDescription": "Kompletna restauracija zuba.",
-        "link": "/contact",
-        "necessity": "Kada su vam potrebni opsežni zubni radovi.",
-        "candidate": "Pacijenti sa višestrukim zubnim problemima.",
-        "duration": "Vreme varira u zavisnosti od slučaja."
-      }
-    ]
-  
+  "procedures": [
+    {
+      "image": "/images/bills/implant.jpeg",
+      "title": "Zubni implanti",
+      "shortDescription": "Zamijenite nedostajuće zube trajnim implantima.",
+      "link": "/contact",
+      "necessity": "Kada imate jedan ili više nedostajućih zuba.",
+      "candidate": "Pacijenti sa dobrim oralnim zdravljem.",
+      "duration": "1-2 sata po implantu."
+    },
+    {
+      "image": "/images/bills/zcrown.jpeg",
+      "title": "Cirkonijumske krune",
+      "shortDescription": "Izdržljive i estetski prijatne krune.",
+      "link": "/contact",
+      "necessity": "Kada su vam potrebne jake i prirodnog izgleda krune.",
+      "candidate": "Pacijenti kojima su potrebne zubne krune.",
+      "duration": "1-2 sata po kruni."
+    },
+    {
+      "image": "/images/bills/hollywood.jpeg",
+      "title": "Vaš savršen osmijeh",
+      "shortDescription": "Postignite savršen osmijeh pomoću faseta.",
+      "link": "/contact",
+      "necessity": "Za kompletnu transformaciju osmijeha.",
+      "candidate": "Pacijenti koji žele savršen osmijeh.",
+      "duration": "2-3 sesije."
+    },
+    {
+      "image": "/images/bills/allon4.jpeg",
+      "title": "All-on-4",
+      "shortDescription": "Restauracija cijelog luka sa samo 4 implanta.",
+      "link": "/contact",
+      "necessity": "Kada vam je potrebna restauracija cijelog luka.",
+      "candidate": "Pacijenti sa značajnim gubitkom zuba.",
+      "duration": "1-2 sata."
+    },
+    {
+      "image": "/images/bills/allon6.jpeg",
+      "title": "All-on-6",
+      "shortDescription": "Restauracija cijelog luka sa 6 implanta.",
+      "link": "/contact",
+      "necessity": "Kada vam je potrebna restauracija cijelog luka sa dodatnom stabilnošću.",
+      "candidate": "Pacijenti sa značajnim gubitkom zuba.",
+      "duration": "1-2 sata."
+    },
+    {
+      "image": "/images/bills/white.jpeg",
+      "title": "Izbjeljivanje zuba",
+      "shortDescription": "Osvijetlite svoj osmijeh profesionalnim izbjeljivanjem.",
+      "link": "/contact",
+      "necessity": "Kada želite da uklonite mrlje i diskoloraciju.",
+      "candidate": "Pacijenti koji žele da osvijetle svoj osmijeh.",
+      "duration": "1 sat."
+    },
+    {
+      "image": "/images/bills/veneers.jpeg",
+      "title": "Zubne fasete",
+      "shortDescription": "Poboljšajte svoj osmijeh prilagođenim fasetama.",
+      "link": "/contact",
+      "necessity": "Za poboljšanje izgleda zuba.",
+      "candidate": "Pacijenti sa polomljenim, obojenim ili nepravilnim zubima.",
+      "duration": "2-3 sesije."
+    },
+    {
+      "image": "/images/bills/root.png",
+      "title": "Tretman kanala korijena",
+      "shortDescription": "Spasite svoje prirodne zube.",
+      "link": "/contact",
+      "necessity": "Kada imate zaraženu ili upaljenu pulpu zuba.",
+      "candidate": "Pacijenti sa jakom zuboboljom ili infekcijom.",
+      "duration": "1-2 sata."
+    },
+    {
+      "image": "/images/bills/bridge.jpeg",
+      "title": "Zubni mostovi",
+      "shortDescription": "Zamijenite nedostajuće zube zubnim mostom.",
+      "link": "/contact",
+      "necessity": "Kada imate jedan ili više nedostajućih zuba.",
+      "candidate": "Pacijenti sa dobrim oralnim zdravljem i susjednim zubima.",
+      "duration": "2-3 sesije."
+    },
+    {
+      "image": "/images/bills/gum.png",
+      "title": "Konturisanje desni",
+      "shortDescription": "Preoblikujte svoje desni za bolji osmijeh.",
+      "link": "/contact",
+      "necessity": "Za korekciju neujednačenih linija desni.",
+      "candidate": "Pacijenti sa prekomjernim ili neujednačenim desnima.",
+      "duration": "1-2 sata."
+    },
+    {
+      "image": "/images/bills/full.jpeg",
+      "title": "Kompletna rekonstrukcija usta",
+      "shortDescription": "Kompletna restauracija zuba.",
+      "link": "/contact",
+      "necessity": "Kada su vam potrebni opsežni zubni radovi.",
+      "candidate": "Pacijenti sa višestrukim zubnim problemima.",
+      "duration": "Vrijeme varira u zavisnosti od slučaja."
+    }
+  ]
 }

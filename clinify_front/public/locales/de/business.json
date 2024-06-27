@@ -82,52 +82,39 @@
     "steps": [
       {
         "stepNumber": 1,
-        "title": "Werden Sie ein Partner",
+        "title": "Werden Sie ein Affiliate",
         "items": [
           "Online anmelden",
-          "Sehen Sie sich das Onboarding-Video an",
-          "Beginnen Sie mit der Verbreitung von Sorriso"
+          "Das Einführungsvideo ansehen",
+          "2% Provision auf jeden Verkauf verdienen"
         ]
       },
       {
         "stepNumber": 2,
-        "title": "Verdienen Sie Provisionen",
-        "description": "Verdienen Sie 2% auf jede Verkauf. Aktualisieren Sie, um 5% zu verdienen.",
-        "footnote": "*Ein Verkauf wird als eine Patientenakquise definiert."
+        "title": "Werden Sie ein Experte Affiliate",
+        "description": "Steigern Sie Ihre Einnahmen auf 5%, nachdem Sie die ersten 10 Verkäufe getätigt haben und ein Experte Affiliate geworden sind.",
+        "footnote": "*Ein Verkauf wird als eine Patientenakquisition definiert."
       },
       {
         "stepNumber": 3,
-        "title": "Erhöhen Sie Ihre Einnahmen",
-        "items": [
-          "Verdienen Sie 5% nach 10 Verkäufen.",
-          "Erfahrene Partner verdienen 5% nach 10 Verkäufen."
-        ]
-      },
-      {
-        "stepNumber": 4,
-        "title": "Werden Sie ein Experte",
-        "description": "Erreichen Sie 10 Verkäufe in einem Quartal, um Ihre Einnahmen auf 5% zu steigern."
-      },
-      {
-        "stepNumber": 5,
         "title": "Bauen Sie Ihr Netzwerk auf",
         "items": [
-          "Bilden Sie ein Team von Partnern",
-          "Verdienen Sie an den Verkäufen, die Ihr Team tätigt"
+          "Bilden Sie Ihr Team von Affiliates",
+          "Verdienen Sie an Verkäufen, die von Ihrem Team getätigt werden."
         ]
       }
     ]
   },
   "payoff": {
-    "title": "Sorriso ist Ihre beste Wahl",
-    "description": "Treten Sie unserem führenden Dental-Tourismus-Partnerprogramm bei und sehen Sie, wie Ihre Einnahmen wachsen. Unsere erstklassigen Dienstleistungen, großzügige Provisionsstruktur und außergewöhnlicher Support machen uns zur besten Wahl für Partner. Treten Sie dem ultimativen ROI-Spiel bei!",
+    "title": "Beginnen Sie, Sorriso zu teilen und verdienen Sie",
+    "description": "Treten Sie unserem führenden Affiliate-Programm für Zahntourismus bei und sehen Sie, wie Ihre Einnahmen wachsen. Unsere erstklassigen Dienstleistungen, großzügige Provisionsstruktur und außergewöhnliche Unterstützung machen uns zur besten Wahl für Affiliates.",
     "cta": "Anmelden",
     "contactPrompt": "Haben Sie noch Fragen? Schreiben Sie uns, wir antworten umgehend!",
     "contactEmail": "contact@sorriso.care",
     "cards": {
       "card1": {
-        "title": "Auszahlungen bis zu $500",
-        "description": "Verdienen Sie $200 Provision für jede vermittelte Person, die ein Verfahren abschließt."
+        "title": "Auszahlungen bis zu 500 $",
+        "description": "Verdienen Sie eine Provision pro geworbenen Patienten, der das Verfahren abschließt."
       },
       "card2": {
         "title": "Zuverlässige Verfolgung",
@@ -139,11 +126,11 @@
       },
       "card4": {
         "title": "Hohe Einnahmen",
-        "description": "Treten Sie einem florierenden Netzwerk bei, in dem der durchschnittliche Partner-Marketer monatlich erhebliche Einnahmen erzielt."
+        "description": "Treten Sie einem florierenden Netzwerk bei, in dem der durchschnittliche Affiliate-Marketer beträchtliche monatliche Einnahmen erzielt."
       },
       "card5": {
-        "title": "Leistungsbasierte Boni",
-        "description": "Erhöhen Sie Ihre Provision mit leistungsbasierten Boni und steigen Sie in höhere Partnerebenen auf."
+        "title": "Leistungsboni",
+        "description": "Erhöhen Sie Ihre Provision mit leistungsbasierten Boni und steigen Sie zu höheren Affiliate-Stufen auf."
       },
       "card6": {
         "title": "Außergewöhnlicher Support",
@@ -159,9 +146,7 @@
         "story": "Hören Sie von Hunters Erfolg mit dem Sorriso-Partnerprogramm",
         "image": "/images/affiliates/hunt.png",
         "quote": "Es ist ein Win-Win-Win mit dem Sorriso-Partnerprogramm. Die Kunden profitieren von erstklassigen Dienstleistungen, Sie verdienen erhebliche Provisionen und gemeinsam haben wir Erfolg. Ich glaube wirklich, dass jeder Sorriso ausprobieren sollte.",
-        "position":
-
- "Affiliate Marketer",
+        "position":"Affiliate Marketer",
         "company": "Hugo Productions"
       },
       {
@@ -173,7 +158,7 @@
         "company": "Jane & Co."
       },
       {
-        "name": "Satraj",
+        "name": "Oliver",
         "story": "Hören Sie von Olivers Erfolg mit dem Sorriso-Partnerprogramm",
         "image": "/images/affiliates/oliver.png",
         "quote": "Das Sorriso-Partnerprogramm ist wirklich bemerkenswert. Die Provisionsstruktur und der Support sind unübertroffen. Es hat mein Einkommen erheblich gesteigert.",

@@ -76,81 +76,68 @@
       "ctaText": "Regístrate Ahora",
       "imageAlt": "Imagen del Programa de Afiliados"
     },
-    "howItWorks": {
-      "title": "Cómo Funciona",
-      "description": "Únete a nuestro programa de afiliados y gana comisiones promoviendo sonrisas más saludables.",
-      "steps": [
-        {
-          "stepNumber": 1,
-          "title": "Únete como Afiliado",
-          "items": [
-            "Regístrate en línea",
-            "Mira el video de incorporación",
-            "Comienza a compartir Sorriso"
-          ]
-        },
-        {
-          "stepNumber": 2,
-          "title": "Gana Comisiones",
-          "description": "Gana un 2% en cada venta. Mejora para ganar un 5%.",
-          "footnote": "*Una venta se define como la adquisición de un paciente."
-        },
-        {
-          "stepNumber": 3,
-          "title": "Aumenta tus Ganancias",
-          "items": [
-            "Gana un 5% después de 10 ventas.",
-            "Los Afiliados Expertos ganan un 5% después de 10 ventas."
-          ]
-        },
-        {
-          "stepNumber": 4,
-          "title": "Conviértete en un Experto",
-          "description": "Logra 10 ventas en un trimestre para aumentar tus ganancias a un 5%."
-        },
-        {
-          "stepNumber": 5,
-          "title": "Construye tu Red",
-          "items": [
-            "Forma un equipo de afiliados",
-            "Gana en ventas realizadas por tu equipo"
-          ]
+      "howItWorks": {
+        "title": "Cómo Funciona",
+        "description": "Únase a nuestro programa de afiliados y gane comisiones promoviendo sonrisas más saludables.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Únase como Afiliado",
+            "items": [
+              "Regístrese en línea",
+              "Vea el video de bienvenida",
+              "Gane un 2 % de comisión en cada venta"
+            ]
+          },
+          {
+            "stepNumber": 2,
+            "title": "Conviértase en un Afiliado Experto",
+            "description": "Aumente sus ganancias al 5 % después de lograr las primeras 10 ventas y conviértase en un Afiliado Experto.",
+            "footnote": "*Una venta se define como la adquisición de un paciente."
+          },
+          {
+            "stepNumber": 3,
+            "title": "Construya su Red",
+            "items": [
+              "Forme su equipo de afiliados",
+              "Gane en las ventas realizadas por su equipo."
+            ]
+          }
+        ]
+      },
+      "payoff": {
+        "title": "Empiece a Compartir Sorriso y Gane",
+        "description": "Únase a nuestro programa líder de afiliados de turismo dental y vea crecer sus ingresos. Nuestros servicios de primer nivel, la estructura generosa de comisiones y el apoyo excepcional nos convierten en la mejor opción para los afiliados.",
+        "cta": "Regístrate",
+        "contactPrompt": "¿Aún tienes preguntas? Escríbenos, te responderemos de inmediato!",
+        "contactEmail": "contact@sorriso.care",
+        "cards": {
+          "card1": {
+            "title": "Pagos de hasta $500",
+            "description": "Gane una comisión por cada paciente referido que complete el procedimiento."
+          },
+          "card2": {
+            "title": "Seguimiento Confiable",
+            "description": "Utilice nuestro sistema de seguimiento confiable para monitorear sus ingresos en tiempo real."
+          },
+          "card3": {
+            "title": "Clínicas Top",
+            "description": "Colabore con las mejores clínicas de Europa del Este que ofrecen tratamientos de alta calidad a precios asequibles."
+          },
+          "card4": {
+            "title": "Altos Ingresos",
+            "description": "Únase a una red en crecimiento donde el marketer afiliado promedio gana ingresos sustanciales mensualmente."
+          },
+          "card5": {
+            "title": "Bonos por Rendimiento",
+            "description": "Aumente su comisión con bonos basados en el rendimiento y ascienda a niveles de afiliación superiores."
+          },
+          "card6": {
+            "title": "Apoyo Excepcional",
+            "description": "Nuestro equipo de soporte dedicado le ayuda a maximizar su potencial y aumentar sus ingresos."
+          }
         }
-      ]
-    },
-    "payoff": {
-      "title": "Sorriso es tu Mejor Opción",
-      "description": "Únete a nuestro programa líder de afiliados de turismo dental y observa cómo crecen tus ganancias. Nuestros servicios de primer nivel, estructura de comisiones generosa y soporte excepcional nos hacen la mejor opción para los afiliados. ¡Ingresa al juego definitivo de ROI!",
-      "cta": "Regístrate",
-      "contactPrompt": "¿Aún tienes preguntas? Escríbenos, ¡responderemos rápidamente!",
-      "contactEmail": "contact@sorriso.care",
-      "cards": {
-        "card1": {
-          "title": "Pagos hasta $500",
-          "description": "Gana una comisión de $200 por cada persona referida que complete un procedimiento."
-        },
-        "card2": {
-          "title": "Seguimiento Confiable",
-          "description": "Utiliza nuestro sistema de seguimiento confiable para monitorear tus ingresos en tiempo real."
-        },
-        "card3": {
-          "title": "Clínicas de Primer Nivel",
-          "description": "Asóciate con las mejores clínicas de Europa del Este que ofrecen tratamientos de alta calidad a precios asequibles."
-        },
-        "card4": {
-          "title": "Altos Ingresos",
-          "description": "Únete a una red próspera donde el comercializador afiliado promedio gana ingresos sustanciales mensualmente."
-        },
-        "card5": {
-          "title": "Bonos por Rendimiento",
-          "description": "Aumenta tu comisión con bonos por rendimiento y asciende a niveles de afiliados superiores."
-        },
-        "card6": {
-          "title": "Soporte Excepcional",
-          "description": "Nuestro equipo de soporte dedicado te ayuda a maximizar tu potencial y aumentar tus ganancias."
-        }
-      }
-    },
+      },    
     "affiliatesStories": {
       "title": "Escucha a Nuestros Afiliados",
       "testimonials": [
@@ -171,7 +158,7 @@
           "company": "Jane & Co."
         },
         {
-          "name": "Satraj",
+          "name": "Oliver",
           "story": "Escucha el Éxito de Oliver con el Programa de Afiliados de Sorriso",
           "image": "/images/affiliates/oliver.png",
           "quote": "El programa de afiliados de Sorriso es realmente notable. La estructura de comisiones y el soporte son incomparables. Ha aumentado significativamente mis ingresos.",
