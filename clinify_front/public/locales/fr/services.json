@@ -1,0 +1,342 @@
+{
+    "callToAction": {
+      "title": "Obtenez le sourire dont vous avez toujours rêvé",
+      "cta": "Prenez rendez-vous"
+    },
+    "howItWorksHero": {
+      "title": "Comment fonctionne Sorriso",
+      "description": "Rencontrez notre équipe via une consultation de télédentisterie et obtenez un plan de traitement personnalisé.",
+      "cta": "Commencez"
+    },
+    "serviceHero": {
+      "title": "Nos services dentaires",
+      "description": "Découvrez notre large gamme de services dentaires conçus pour garder votre sourire sain et beau.",
+      "ctaLearnMore": "En savoir plus",
+      "ctaBookAppointment": "Prenez rendez-vous"
+    },
+    "serviceDetails": {
+      "sectionTitle": "Nos services",
+      "services": [
+        {
+          "title": "Dentistes expérimentés",
+          "description": "Notre équipe de dentistes possède des années d'expérience et une formation spécialisée."
+        },
+        {
+          "title": "Installations à la pointe de la technologie",
+          "description": "Nous utilisons les dernières technologies et équipements pour garantir les meilleurs soins."
+        },
+        {
+          "title": "Soins personnalisés",
+          "description": "Nous proposons des plans de traitement individualisés adaptés à vos besoins spécifiques."
+        }
+      ],
+      "imageAlt": "Docteur"
+    },
+    "experienceSection": {
+      "title": "Une clinique avec une tradition d'excellence",
+      "experience": "Expérience",
+      "description": "Depuis 30 ans, notre clinique aide des patients du monde entier à obtenir leur sourire parfait.",
+      "satisfiedPatients": "+250 000",
+      "satisfiedPatientsText": "Patients satisfaits",
+      "cta": "Voir plus de photos avant/après"
+    },
+    "howItWorks": {
+      "title": "Étapes simples pour un sourire parfait",
+      "description": "Sorriso vous aide à obtenir le sourire de vos rêves avec notre processus facile et pratique.",
+      "steps": [
+        {
+          "title": "Étape 1 : Consultation initiale",
+          "description": "Remplissez notre formulaire simple et planifiez une consultation en ligne avec notre dentiste, où nous discuterons de vos préoccupations dentaires et de vos attentes.",
+          "icon": "FaPhoneAlt"
+        },
+        {
+          "title": "Étape 2 : Plan de traitement personnalisé",
+          "description": "Nos experts créent un plan de traitement personnalisé adapté à vos besoins spécifiques.",
+          "icon": "FaClipboardList"
+        },
+        {
+          "title": "Étape 3 : Organisation du voyage",
+          "description": "Nous vous aidons à organiser votre voyage pour garantir un trajet fluide et sans tracas.",
+          "icon": "FaPlane"
+        },
+        {
+          "title": "Étape 4 : Arrivée et hébergement",
+          "description": "À votre arrivée, nous offrons un hébergement confortable et une assistance locale tout au long de votre séjour.",
+          "icon": "FaHotel"
+        },
+        {
+          "title": "Étape 5 : Traitement dentaire",
+          "description": "Recevez des soins dentaires de classe mondiale de la part de nos professionnels expérimentés dans une installation à la pointe de la technologie.",
+          "icon": "FaTooth"
+        },
+        {
+          "title": "Étape 6 : Suivi et soins post-traitement",
+          "description": "Nous offrons un suivi complet et des soins post-traitement pour garantir les meilleurs résultats et votre entière satisfaction.",
+          "icon": "FaRegSmile"
+        }
+      ],
+      "videoButton": "Regarder maintenant",
+      "videoUrl": "https://www.youtube.com/embed/OEyE7MUoXIc?si=vo2pTGQpw4ZP6U0U",
+      "readyTitle": "Prêt à commencer?",
+      "readyDescription": "Contactez-nous dès aujourd'hui pour planifier votre consultation gratuite.",
+      "contactUs": "Contactez-nous",
+      "scheduleAppointment": "Prenez rendez-vous"
+    },
+    "treatmentsHero": {
+      "title": "Transformez votre sourire avec nos traitements avancés",
+      "description": "Découvrez notre large gamme de procédures dentaires, conçues pour vous fournir les meilleurs résultats en utilisant les dernières technologies et installations modernes.",
+      "contactUs": "Contactez-nous",
+      "viewAllTreatments": "Voir tous les traitements"
+    },
+    "priceComparison": {
+      "title": "Pourquoi choisir le Monténégro pour vos soins dentaires?",
+      "description": "Découvrez la combinaison parfaite de soins dentaires abordables et d'expériences inoubliables au Monténégro.",
+      "cards": [
+        {
+          "icon": "FaMoneyBillWave",
+          "title": "Économies",
+          "description": "Économisez considérablement sur vos soins dentaires par rapport à d'autres pays."
+        },
+        {
+          "icon": "FaGlobe",
+          "title": "Riche histoire",
+          "description": "Explorez le riche patrimoine culturel et les sites historiques du Monténégro."
+        },
+        {
+          "icon": "FaTree",
+          "title": "Beauté naturelle",
+          "description": "Profitez des paysages époustouflants, des beaux lacs aux majestueuses montagnes."
+        },
+        {
+          "icon": "FaHiking",
+          "title": "Aventures en plein air",
+          "description": "Vivez des activités palpitantes comme le rafting, la tyrolienne et la randonnée."
+        },
+        {
+          "icon": "FaBalanceScale",
+          "title": "Expérience équilibrée",
+          "description": "Profitez d'une combinaison équilibrée de beauté naturelle, de luxe et de charme traditionnel."
+        },
+        {
+          "icon": "FaArrowDown",
+          "title": "Excellence abordable",
+          "description": "Recevez des soins dentaires exquis de professionnels hautement qualifiés à un prix abordable."
+        }
+      ],
+      "subTitle": "Monténégro : bien plus que des soins dentaires",
+      "subDescription": "Le Monténégro ne se résume pas à des traitements dentaires économiques. C'est une destination où vous pouvez vous immerger dans une riche histoire, une nature époustouflante et des aventures excitantes. Que vous exploriez les charmantes vieilles villes, randonnant à travers les parcs nationaux ou profitant des lacs et des plages sereines, le Monténégro offre une expérience unique qui rend votre voyage dentaire véritablement mémorable."
+    },
+    "flipCard": {
+      "moreInfo": "Plus d'infos",
+      "necessity": "Quand cela peut être nécessaire",
+      "candidate": "Bon candidat",
+      "duration": "Durée",
+      "back": "Retour"
+    },
+    "mostWanted": {
+      "title": "Nos procédures les plus demandées",
+      "description": "Découvrez nos procédures les plus populaires, choisies par les patients pour leurs résultats exceptionnels et leurs avantages."
+    },
+    "facilities": {
+      "title": "Nos installations",
+      "description": "Installations modernes pour une expérience patient confortable et efficace.",
+      "features": [
+        {
+          "icon": "FaTooth",
+          "title": "À la pointe de la technologie",
+          "description": "Technologie dentaire de pointe."
+        },
+        {
+          "icon": "FaChair",
+          "title": "Confortable",
+          "description": "Environnement moderne et propre."
+        },
+        {
+          "icon": "FaShieldAlt",
+          "title": "Stérilisé",
+          "description": "Normes d'hygiène les plus élevées."
+        }
+      ]
+    },
+    "expertise": {
+      "title": "Notre expertise",
+      "description": "Tirant parti de nombreuses années d'expérience et d'une équipe multidisciplinaire de professionnels hautement qualifiés, nous fournissons des soins médicaux et dentaires exquis en utilisant les dernières technologies.",
+      "sectionTitle": "Nous sommes des experts dans ce que nous faisons",
+      "sectionDescription": "Notre clinique est équipée d'installations de pointe et dotée d'une équipe de professionnels dévoués, comprenant des experts en chirurgie générale, gynécologie, pneumologie et plus encore. Nous nous engageons à fournir des soins exceptionnels et complets adaptés aux besoins de chaque patient.",
+      "features": [
+        {
+          "icon": "FaMicroscope",
+          "text": "Technologie de pointe"
+        },
+        {
+          "icon": "FaUserMd",
+          "text": "Spécialistes multidisciplinaires"
+        },
+        {
+          "icon": "FaHeartbeat",
+          "text": "Approche centrée sur le patient"
+        },
+        {
+          "icon": "FaStethoscope",
+          "text": "Soins complets"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à transformer votre sourire?",
+      "description": "Contactez-nous dès aujourd'hui pour planifier votre consultation et franchir la première étape vers un sourire plus sain et plus éclatant.",
+      "buttonText": "Contactez-nous"
+    },
+    "serviceGrid": {
+      "title": "Nos services",
+      "description": "Nous offrons des traitements de classe mondiale pour tous les problèmes dentaires",
+      "buttonText": "Regarder maintenant",
+      "services": [
+        { "title": "Dentisterie générale" },
+        { "title": "Implants dentaires" },
+        { "title": "Couronnes dentaires" },
+        { "title": "Chirurgie dentaire" },
+        { "title": "Blanchiment des dents" },
+        { "title": "Protection" },
+        { "title": "Parodontologie" },
+        { "title": "Radiologie" }
+      ]
+    },
+    "watchVideo": "Regarder la vidéo",
+    "testimonialsHero": {
+      "title": "Nos patients satisfaits",
+      "description": "Écoutez nos patients parler de leurs expériences et des soins de haute qualité qu'ils ont reçus."
+    },
+    "countries": {
+      "unitedStates": "États-Unis",
+      "italy": "Italie",
+      "montenegro": "Monténégro",
+      "australia": "Australie"
+    },
+    "treatments": {
+      "hollywoodSmile": "SOURIRE HOLLYWOODIEN",
+      "dentalImplant": "IMPLANT DENTAIRE",
+      "teethWhitening": "BLANCHIMENT DES DENTS",
+      "orthodontics": "ORTHODONTIE"
+    },
+    "testimonials": {
+      "sheilaPeterson": {
+        "description": "Dr. Aleksa - honnêtement, son professionnalisme et sa patience sont incroyables. Je suis en vacances ici et j'étais nerveuse à l'idée de recevoir des soins dentaires car je suis seule. Il était très rassurant, gentil, encourageant et très doux. Il est vraiment un dentiste de premier ordre. Il a maintenant gagné une cliente régulière même si je dois voyager de Londres jusqu'ici. Merci beaucoup et continuez le bon travail !"
+      },
+      "lauraBastone": {
+        "description": "Je suis très satisfaite. Grande expertise, attention et courtoisie. Merci beaucoup."
+      },
+      "lelaKovacMajcevski": {
+        "description": "Les interventions dentaires sont souvent douloureuses. C'est également mon expérience, cependant, le Dr Šuković et son équipe sont vraiment très professionnels. L'atmosphère est agréable, sans tension, et le patient sent qu'il est entre de bonnes mains ici. Ils sont très courtois, faciles à contacter pour prendre rendez-vous. C'est propre et net. Tout semble vraiment dédié au patient. Le Dr Dražen et le reste de l'équipe sont très responsables. En tout cas, je recommande vivement cet hôpital à tout le monde. Tout ici est organisé en pensant au patient."
+      },
+      "marryDianaJones": {
+        "description": "Mes nombreuses années d'expérience à la clinique Ars Medica peuvent être décrites comme plus qu'excellentes. Les médecins et le personnel sont professionnels, dévoués et très aimables. La qualité des services est au plus haut niveau dans un environnement de cliniques renommées à travers le monde."
+      }
+    },
+    "gallerySection": {
+      "galleryTitle": "Galerie de transformations",
+      "galleryImageAlt": "Image de la galerie {{index}}"
+    },
+    "procedures": [
+      {
+        "image": "/images/bills/implant.jpeg",
+        "title": "Implants dentaires",
+        "shortDescription": "Remplacez les dents manquantes par des implants durables.",
+        "link": "/contact",
+        "necessity": "Quand vous avez une ou plusieurs dents manquantes.",
+        "candidate": "Patients en bonne santé bucco-dentaire.",
+        "duration": "1 à 2 heures par implant."
+      },
+      {
+        "image": "/images/bills/zcrown.jpeg",
+        "title": "Couronnes en zirconium",
+        "shortDescription": "Couronnes durables et esthétiquement plaisantes.",
+        "link": "/contact",
+        "necessity": "Quand vous avez besoin de couronnes solides et d'apparence naturelle.",
+        "candidate": "Patients ayant besoin de couronnes dentaires.",
+        "duration": "1 à 2 heures par couronne."
+      },
+      {
+        "image": "/images/bills/hollywood.jpeg",
+        "title": "Votre sourire parfait",
+        "shortDescription": "Obtenez un sourire parfait avec des facettes.",
+        "link": "/contact",
+        "necessity": "Pour une transformation complète du sourire.",
+        "candidate": "Patients souhaitant un sourire parfait.",
+        "duration": "2 à 3 sessions."
+      },
+      {
+        "image": "/images/bills/allon4.jpeg",
+        "title": "All-on-4",
+        "shortDescription": "Restauration complète de l'arcade avec seulement 4 implants.",
+        "link": "/contact",
+        "necessity": "Quand vous avez besoin d'une restauration complète de l'arcade.",
+        "candidate": "Patients avec une perte dentaire importante.",
+        "duration": "1 à 2 heures."
+      },
+      {
+        "image": "/images/bills/allon6.jpeg",
+        "title": "All-on-6",
+        "shortDescription": "Restauration complète de l'arcade avec 6 implants.",
+        "link": "/contact",
+        "necessity": "Quand vous avez besoin d'une restauration complète de l'arcade avec une stabilité supplémentaire.",
+        "candidate": "Patients avec une perte dentaire importante.",
+        "duration": "1 à 2 heures."
+      },
+      {
+        "image": "/images/bills/white.jpeg",
+        "title": "Blanchiment des dents",
+        "shortDescription": "Éclairez votre sourire avec un blanchiment professionnel.",
+        "link": "/contact",
+        "necessity": "Quand vous voulez enlever les taches et la décoloration.",
+        "candidate": "Patients souhaitant éclaircir leur sourire.",
+        "duration": "1 heure."
+      },
+      {
+        "image": "/images/bills/veneers.jpeg",
+        "title": "Facettes dentaires",
+        "shortDescription": "Améliorez votre sourire avec des facettes personnalisées.",
+        "link": "/contact",
+        "necessity": "Pour améliorer l'apparence des dents.",
+        "candidate": "Patients avec des dents ébréchées, tachées ou mal alignées.",
+        "duration": "2 à 3 sessions."
+      },
+      {
+        "image": "/images/bills/root.png",
+        "title": "Traitement de canal",
+        "shortDescription": "Sauvez vos dents naturelles.",
+        "link": "/contact",
+        "necessity": "Quand vous avez une pulpe dentaire infectée ou enflammée.",
+        "candidate": "Patients avec une douleur dentaire sévère ou une infection.",
+        "duration": "1 à 2 heures."
+      },
+      {
+        "image": "/images/bills/bridge.jpeg",
+        "title": "Ponts dentaires",
+        "shortDescription": "Remplacez les dents manquantes avec un pont dentaire.",
+        "link": "/contact",
+        "necessity": "Quand vous avez une ou plusieurs dents manquantes.",
+        "candidate": "Patients avec une bonne santé bucco-dentaire et des dents adjacentes.",
+        "duration": "2 à 3 sessions."
+      },
+      {
+        "image": "/images/bills/gum.png",
+        "title": "Contour des gencives",
+        "shortDescription": "Remodelez vos gencives pour un meilleur sourire.",
+        "link": "/contact",
+        "necessity": "Pour corriger les lignes gingivales irrégulières.",
+        "candidate": "Patients avec des gencives excessives ou irrégulières.",
+        "duration": "1 à 2 heures."
+      },
+      {
+        "image": "/images/bills/full.jpeg",
+        "title": "Reconstruction complète de la bouche",
+        "shortDescription": "Restauration dentaire complète.",
+        "link": "/contact",
+        "necessity": "Quand vous avez besoin de travaux dentaires étendus.",
+        "candidate": "Patients avec de multiples problèmes dentaires.",
+        "duration": "Varie selon le cas."
+      }
+    ]
+  }
+  

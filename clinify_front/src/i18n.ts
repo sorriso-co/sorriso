@@ -43,16 +43,25 @@ import businessSp from '../public/locales/sp/business.json';
 import homepageSp from '../public/locales/sp/homepage.json';
 import aboutSp from '../public/locales/sp/about.json';
 
+import commonFr from '../public/locales/fr/common.json';
+import pricingFr from '../public/locales/fr/pricing.json';
+import servicesFr from '../public/locales/fr/services.json';
+import businessFr from '../public/locales/fr/business.json';
+import homepageFr from '../public/locales/fr/homepage.json';
+import aboutFr from '../public/locales/fr/about.json';
+
+
 i18n
   .use(initReactI18next)
   .init({
     resources: {
-      en: { common: commonEn, pricing: pricingEn, services: servicesEn, business: businessEn, homepage: homepageEn, about: aboutEn},
-      de: { common: commonDe, pricing: pricingDe, services: servicesDe, business: businessDe, homepage: homepageDe, about: aboutDe},
-      it: { common: commonIt, pricing: pricingIt, services: servicesIt, business: businessIt, homepage: homepageIt, about: aboutIt},
-      sr: { common: commonSr, pricing: pricingSr, services: servicesSr, business: businessSr, homepage: homepageSr, about: aboutSr},
-      ru: { common: commonRu, pricing: pricingRu, services: servicesRu, business: businessRu, homepage: homepageRu, about: aboutRu},
-      sp: { common: commonSp, pricing: pricingSp, services: servicesSp, business: businessSp, homepage: homepageSp, about: aboutSp},
+      en: { common: commonEn, pricing: pricingEn, services: servicesEn, business: businessEn, homepage: homepageEn, about: aboutEn },
+      de: { common: commonDe, pricing: pricingDe, services: servicesDe, business: businessDe, homepage: homepageDe, about: aboutDe },
+      it: { common: commonIt, pricing: pricingIt, services: servicesIt, business: businessIt, homepage: homepageIt, about: aboutIt },
+      sr: { common: commonSr, pricing: pricingSr, services: servicesSr, business: businessSr, homepage: homepageSr, about: aboutSr },
+      ru: { common: commonRu, pricing: pricingRu, services: servicesRu, business: businessRu, homepage: homepageRu, about: aboutRu },
+      sp: { common: commonSp, pricing: pricingSp, services: servicesSp, business: businessSp, homepage: homepageSp, about: aboutSp },
+      fr: { common: commonFr, pricing: pricingFr, services: servicesFr, business: businessFr, homepage: homepageFr, about: aboutFr },
     },
     fallbackLng: 'en',
     debug: true,

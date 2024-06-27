@@ -1,0 +1,193 @@
+{
+    "slideshow": {
+      "slide1": "Consultations en ligne GRATUITES",
+      "slide2": "Économisez jusqu'à 70%",
+      "slide3": "Profitez davantage",
+      "slide4": "Passez vos vacances en souriant"
+    },
+    "introduction": {
+      "title": "Votre prochain voyage dentaire",
+      "subtitle": "Veni. Vidi. Vici avec Sorriso",
+      "description": "Découvrez des soins dentaires exceptionnels combinés à une expérience de voyage inoubliable. Laissez Sorriso vous guider dans un voyage vers un sourire plus éclatant et plus sain tout en explorant la beauté et la culture du Monténégro.",
+      "joinUsTitle": "Rejoignez-nous",
+      "joinUsDescription": "Prenez rendez-vous et commencez votre voyage vers un sourire parfait avec Sorriso.",
+      "scheduleButton": "Prenez rendez-vous maintenant"
+    },
+    "howItWorks": {
+      "title": "Comment ça marche",
+      "steps": {
+        "step1": {
+          "title": "Contactez-nous",
+          "description": "Remplissez le formulaire et envoyez éventuellement la radiographie la plus récente ou une image de vos dents. Nous vous contacterons dans les 24 heures pour planifier votre consultation en ligne."
+        },
+        "step2": {
+          "title": "Recevez votre plan de traitement",
+          "description": "Vous recevrez un plan de traitement détaillant toutes les étapes et les coûts."
+        },
+        "step3": {
+          "title": "Consultation initiale",
+          "description": "Lors de la consultation, vous avez l'opportunité de poser toutes vos questions sur le traitement."
+        },
+        "step4": {
+          "title": "Voyage",
+          "description": "Lorsque le plan est en place, il vous suffit de faire vos valises, de voyager et de vous faire soigner. Nous nous occupons de tout."
+        },
+        "step5": {
+          "title": "Traitement",
+          "description": "Recevez le traitement dont vous avez besoin de la part de nos professionnels dentaires hautement qualifiés. Nous utilisons les dernières technologies."
+        },
+        "step6": {
+          "title": "Amusez-vous",
+          "description": "Profitez de votre séjour et explorez les attractions locales tout en recevant les meilleurs soins dentaires et en profitant du Monténégro."
+        }
+      },
+      "buttonText": "Regarder maintenant"
+    },
+    "serviceGrid": {
+      "title": "Nos services",
+      "description": "Nous offrons des traitements de classe mondiale pour tous les problèmes dentaires",
+      "services": [
+        { "title": "Dentisterie générale" },
+        { "title": "Implantologie" },
+        { "title": "Prothèses" },
+        { "title": "Chirurgie dentaire" },
+        { "title": "Dentisterie esthétique" },
+        { "title": "Endodontie" },
+        { "title": "Parodontologie" },
+        { "title": "Radiologie dentaire" }
+      ],
+      "buttonText": "Regarder maintenant"
+    },
+    "pricing": {
+      "title": "Comparaison des coûts moyens",
+      "procedure": "Procédure",
+      "ukPrice": "Prix au Royaume-Uni",
+      "euPrice": "Moyenne UE",
+      "usPrice": "Prix aux États-Unis",
+      "balkanPrice": "Notre prix",
+      "savings": "Économies",
+      "note": "*Les prix dépendent des cas. Remplissez notre formulaire de demande en ligne pour connaître les dernières offres et les réductions exclusives !",
+      "onlineRequestForm": "formulaire de demande en ligne",
+      "buttonText": "Voir nos tarifs",
+      "procedures": [
+        {
+          "procedure": "Implant en titane",
+          "ukPrice": "3 000 €",
+          "euPrice": "2 200 €",
+          "usPrice": "3 600 €",
+          "balkanPrice": "1 072 €",
+          "savings": "65%"
+        },
+        {
+          "procedure": "Implants All-on-4",
+          "ukPrice": "14 400 €",
+          "euPrice": "10 000 €",
+          "usPrice": "15 000 €",
+          "balkanPrice": "6 231 €",
+          "savings": "58%"
+        },
+        {
+          "procedure": "Implants All-on-6",
+          "ukPrice": "16 200 €",
+          "euPrice": "11 500 €",
+          "usPrice": "16 800 €",
+          "balkanPrice": "7 916 €",
+          "savings": "52%"
+        },
+        {
+          "procedure": "Implants All-on-8",
+          "ukPrice": "18 000 €",
+          "euPrice": "13 000 €",
+          "usPrice": "19 200 €",
+          "balkanPrice": "9 499 €",
+          "savings": "52%"
+        },
+        {
+          "procedure": "Couronne en porcelaine complète",
+          "ukPrice": "1 200 €",
+          "euPrice": "800 €",
+          "usPrice": "1 300 €",
+          "balkanPrice": "383 €",
+          "savings": "68%"
+        },
+        {
+          "procedure": "Couronne en zirconium",
+          "ukPrice": "1 440 €",
+          "euPrice": "1 000 €",
+          "usPrice": "1 560 €",
+          "balkanPrice": "383 €",
+          "savings": "75%"
+        },
+        {
+          "procedure": "Facette en porcelaine",
+          "ukPrice": "1 200 €",
+          "euPrice": "850 €",
+          "usPrice": "1 440 €",
+          "balkanPrice": "255 €",
+          "savings": "82%"
+        },
+        {
+          "procedure": "Facette E-Max",
+          "ukPrice": "1 260 €",
+          "euPrice": "900 €",
+          "usPrice": "1 500 €",
+          "balkanPrice": "383 €",
+          "savings": "75%"
+        },
+        {
+          "procedure": "Prothèse complète",
+          "ukPrice": "2 160 €",
+          "euPrice": "1 500 €",
+          "usPrice": "2 400 €",
+          "balkanPrice": "664 €",
+          "savings": "72%"
+        },
+        {
+          "procedure": "Blanchiment des dents",
+          "ukPrice": "600 €",
+          "euPrice": "450 €",
+          "usPrice": "720 €",
+          "balkanPrice": "255 €",
+          "savings": "65%"
+        },
+        {
+          "procedure": "Traitement de canal (molaires)",
+          "ukPrice": "960 €",
+          "euPrice": "700 €",
+          "usPrice": "1 080 €",
+          "balkanPrice": "123 €",
+          "savings": "87%"
+        },
+        {
+          "procedure": "Extraction (simple)",
+          "ukPrice": "240 €",
+          "euPrice": "180 €",
+          "usPrice": "300 €",
+          "balkanPrice": "56 €",
+          "savings": "77%"
+        },
+        {
+          "procedure": "Extraction (chirurgicale)",
+          "ukPrice": "360 €",
+          "euPrice": "250 €",
+          "usPrice": "420 €",
+          "balkanPrice": "189 €",
+          "savings": "55%"
+        },
+        {
+          "procedure": "Nettoyage des dents régulier",
+          "ukPrice": "360 €",
+          "euPrice": "250 €",
+          "usPrice": "420 €",
+          "balkanPrice": "66 €",
+          "savings": "84%"
+        }
+      ]
+    },
+    "haveItAll": {
+      "title": "Ayez tout avec Sorriso",
+      "description": "Découvrez le mélange parfait de soins dentaires de classe mondiale et de vacances de rêve au Monténégro. Avec Sorriso, vous pouvez bénéficier de procédures dentaires de classe mondiale tout en profitant de la beauté époustouflante des paysages, de l'histoire riche et de l'hospitalité chaleureuse du Monténégro. Économisez jusqu'à 80% sur les traitements dentaires.",
+      "buttonText": "Prenez rendez-vous"
+    }
+  }
+  

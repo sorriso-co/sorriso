@@ -1,0 +1,169 @@
+{
+    "about": {
+      "title": "À propos de nous",
+      "advantages": {
+        "first": "Technologie de pointe",
+        "second": "Professionnalisme",
+        "third": "Matériaux de la plus haute qualité"
+      },
+      "description": "Notre engagement envers l'innovation et la qualité garantit que vous recevrez les meilleurs produits et services disponibles. Rejoignez-nous pour découvrir l'avenir de la technologie."
+    },
+    "mission": {
+      "title": "Notre mission",
+      "subtitle": "Transformer les sourires, transformer les vies",
+      "paragraph1": "Chez Sorriso, notre mission est de révolutionner le tourisme dentaire en offrant des soins dentaires exceptionnels combinés à des expériences de voyage inoubliables. Nous visons à offrir des traitements dentaires personnalisés, de haute qualité et abordables dans de belles destinations, garantissant que chaque patient rentre chez lui avec un sourire plus lumineux et plus sain et des souvenirs précieux.",
+      "paragraph2": "Nous nous engageons à l'excellence des soins dentaires, en utilisant les dernières technologies et techniques pour obtenir les meilleurs résultats pour nos patients. Notre équipe de professionnels dévoués travaille sans relâche pour rendre le tourisme dentaire accessible et agréable pour tous, en comblant le fossé entre des services dentaires de classe mondiale et l'aventure de découvrir de nouveaux lieux."
+    },
+    "box": {
+      "section1": {
+        "title": "Les patients avant tout",
+        "subtitle": "Sorriso veille sur vous",
+        "description": "Sorriso est une agence qui vous emmène dans un voyage transformateur vers une meilleure santé dentaire et un beau sourire."
+      },
+      "metrics": {
+        "client_satisfaction": "Satisfaction client",
+        "dental_success": "Succès dentaire",
+        "client_referral": "Référence client"
+      },
+      "cta": {
+        "title": "Prêt à transformer votre sourire ?",
+        "description": "Contactez-nous dès aujourd'hui pour planifier votre consultation et franchir la première étape vers un sourire plus sain et plus lumineux.",
+        "button": "Contactez-nous"
+      }
+    },
+    "youtubeEmbed": {
+      "title": "Dentisterie de haute qualité",
+      "description": "Regardez notre vidéo pour comprendre le processus fluide du tourisme dentaire avec Sorriso. De la consultation initiale en ligne à la planification, à l'arrivée au Monténégro et à la réalisation de votre procédure, nous assurons une expérience fluide et confortable. Découvrez la beauté du Monténégro tout en recevant les meilleurs soins dentaires."
+    },
+    "topSection": {
+      "title": "Rencontrez notre équipe de dentistes experts",
+      "description": "Découvrez les compétences exceptionnelles et les qualifications de nos dentistes amicaux, dédiés à vous fournir les meilleurs soins dentaires. Leur expertise couvre diverses spécialités dentaires, garantissant un traitement complet.",
+      "button": "Collaborons"
+    },
+    "founders": {
+      "title": "Rencontrez nos fondateurs",
+      "member1": {
+        "name": "Ivan Cabrilo",
+        "description": "M. Cabrilo est originaire du Monténégro et étudie actuellement à l'Université de Rochester à New York avec une bourse complète. Il double majeur en informatique et en affaires tout en recherchant activement l'IA et l'apprentissage automatique."
+      },
+      "member2": {
+        "name": "Dr. Filip Sukovic med. dent.",
+        "description": "Dr. Filip Šuković est né à Cetinje. Il a terminé ses études secondaires au St. Clare's International College à Oxford et a commencé ses études dentaires à l'Université de Birkbeck à Londres, les terminant à la Faculté de dentisterie CEU Cardinal Herrera à Valence."
+      },
+      "member3": {
+        "name": "Djordje Ivanovic",
+        "description": "M. Ivanovic est originaire de Podgorica, au Monténégro, et étudie actuellement à l'Université Harvard à Boston, Massachusetts, avec une prestigieuse bourse. Il poursuit une carrière en informatique avec un intérêt pour l'économie."
+      }
+    },
+    "team": {
+      "title": "Rencontrez notre équipe d'experts",
+      "description": "Nous avons collaboré avec les meilleurs dentistes du pays, avec une longue tradition d'excellence s'étendant sur plus de 30 ans. Leur service exceptionnel, leur attention aux détails et leur compréhension vous garantissent le sourire que vous avez toujours voulu.",
+      "doctor1": {
+        "name": "Dr. Milija Sukovic médical dent",
+        "title": "Spécialiste en implantologie"
+      },
+      "doctor2": {
+        "name": "Dr. Jelena Rutesic med dent",
+        "title": "Docteur en médecine dentaire"
+      },
+      "doctor3": {
+        "name": "Dr. Dražen Nikčević med dent",
+        "title": "Docteur en médecine dentaire"
+      },
+      "doctor4": {
+        "name": "Dr. Aleksa Raičković med dent",
+        "title": "Docteur en médecine dentaire"
+      },
+      "doctor5": {
+        "name": "Mme Milena Bojanic",
+        "title": "Infirmière"
+      },
+      "doctor6": {
+        "name": "Mme Dijana Scepanovic",
+        "title": "Infirmière dentaire"
+      },
+      "doctor7": {
+        "name": "Mme Aleksandra Jevrić infirmière dentaire",
+        "title": "Assistante médicale"
+      },
+      "doctor8": {
+        "name": "Mme Nađa Vukadinović infirmière dentaire",
+        "title": "Assistante médicale"
+      }
+    },
+    "scheduleAppointment": {
+      "title": "Prendre rendez-vous",
+      "description": "Prêt à transformer votre sourire ? Prenez rendez-vous avec notre équipe d'experts dès aujourd'hui et commencez votre voyage vers un avenir plus lumineux et plus sain.",
+      "bookNow": "Réservez maintenant",
+      "whatWeStandFor": "Ce que nous défendons"
+    },
+    "whyMontenegro": {
+      "title": "Pourquoi le Monténégro ?",
+      "subtitle": "Réponse simple"
+    },
+    "dentalTravelIntro": {
+      "title": "Voyage dentaire avec Sorriso",
+      "description": "Visitez le pays doté d'une beauté naturelle intacte. Emmenez toute votre famille en vacances, obtenez le sourire que vous avez toujours voulu et payez moins.",
+      "buttonText": "Vivez vos vacances dentaires maintenant!",
+      "travel": "Voyage",
+      "accommodation": "Hébergement",
+      "sightseeing": "Visites touristiques"
+    },
+    "experienceMontenegro": {
+      "heading": "Rentrez chez vous en souriant",
+      "subheading": "Découvrez le Monténégro",
+      "cards": {
+        "card1": {
+          "caption": "Séjour",
+          "text": [
+            "Sveti Stefan (Saint Stephen) est une petite île adriatique près de Budva au Monténégro. C'était autrefois un village de pêcheurs avec des maisons datant du 15ème siècle.",
+            "L'île n'est pas ouverte au grand public, mais seulement aux résidents, aux clients de l'hôtel ou dans le cadre d'une visite guidée.",
+            "Il y a plusieurs vieilles églises sur l'île, dont celle de (Sveti Stefan) qui a donné son nom à l'île. Dans les années 1950 et 1960, tout le petit village a été converti en une île hôtel tout en conservant son apparence d'origine."
+          ]
+        },
+        "card2": {
+          "caption": "Voir",
+          "text": [
+            "Gospa od Škrpjela (Notre-Dame des Rochers) est un îlot artificiel au large de la côte de Perast, au Monténégro, créé par des remblais de rochers et des navires coulés pendant plus de 200 ans. Il abrite l'église catholique et un musée.",
+            "Selon la légende, l'îlot a été construit par des marins qui ont trouvé une icône de la Vierge et de l'Enfant sur un rocher le 22 juillet 1452 et ont fait le serment de déposer une pierre là après chaque voyage réussi.",
+            "Cette tradition se poursuit aujourd'hui avec un événement annuel appelé fašinada le 22 juillet, lorsque les habitants prennent des bateaux et jettent des pierres dans la mer, élargissant la surface de l'îlot."
+          ]
+        },
+        "card3": {
+          "caption": "Explorer",
+          "text": [
+            "Durmitor est l'un des 5 parcs nationaux du pays. C'est un massif situé dans le nord-ouest du Monténégro. Il fait partie des Alpes dinariques.",
+            "Son plus haut sommet, Bobotov Kuk, atteint une hauteur de 2 523 mètres (8 278 pieds). Le massif est limité par le canyon de la rivière Tara au nord, le canyon de la rivière Piva à l'ouest et le canyon de la rivière Komarnica au sud.",
+            "Le massif donne son nom au parc national qui le comprend. Le parc national de Durmitor a été fondé en 1952 et désigné site du patrimoine mondial en 1980."
+          ]
+        },
+        "card4": {
+          "caption": "Dîner",
+          "text": [
+            "Régalez-vous d'une délicieuse cuisine.",
+            "Le Monténégro a une riche alimentation méditerranéenne qui est considérée parmi les plus saines et les plus savoureuses au monde. La variété des épices et des aliments ravira certainement vos papilles.",
+            "Ayant une riche histoire du vin en tant que partie intégrante de la culture, vous pouvez obtenir un vin de classe mondiale sur les marchés pour moins de 10 $. De plus, pour seulement 50 $, une famille de 4 personnes peut avoir un déjeuner incroyable juste à côté de la mer, avec une variété de plats de poisson frais et de choix de vin."
+          ]
+        }
+      },
+      "ctaButton": "Explorez plus"
+    },
+    "montenegroHighlights": {
+      "title": "Pourquoi le Monténégro ?",
+      "description": "Le Monténégro est un joyau caché qui attire les visiteurs avec ses paysages époustouflants, son histoire riche et son accueil chaleureux. Avec son climat méditerranéen, ses plages dorées, ses paysages montagneux, son histoire intéressante, ses prix abordables et sa délicieuse cuisine locale, le Monténégro a tout ce qu'un touriste peut souhaiter d'une aventure européenne.",
+      "highlights": {
+        "highlight1": "Forêts tropicales",
+        "highlight2": "Montagnes",
+        "highlight3": "Mer turquoise",
+        "highlight4": "Animaux exotiques"
+      },
+      "ctaButton": "Besoin de conseils de voyage ? Discutez avec nous"
+    },
+    "vision": {
+      "title": "Notre vision",
+      "subtitle": "Améliorer le Monténégro en tant que hub de tourisme dentaire",
+      "paragraph1": "Chez Sorriso, notre vision est de positionner le Monténégro comme la destination de premier plan pour le tourisme dentaire. Nous visons à combiner des soins dentaires de premier ordre avec la beauté à couper le souffle et la riche culture du Monténégro, offrant une expérience unique et transformative à nos patients.",
+      "paragraph2": "Nous nous engageons à utiliser les dernières technologies dentaires et à nous associer aux meilleurs professionnels pour garantir des soins exceptionnels. En promouvant les paysages époustouflants du Monténégro et ses hébergements luxueux, nous nous efforçons de créer des voyages inoubliables qui vont au-delà des traitements dentaires."
+    }
+  }
+  

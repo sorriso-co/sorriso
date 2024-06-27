@@ -26,6 +26,18 @@ const Slideshow: React.FC = () => {
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [showLanguageSwitcher, setShowLanguageSwitcher] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+       setShowLanguageSwitcher(false);
+      } else {
+       setShowLanguageSwitcher(true);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -60,7 +72,11 @@ const Slideshow: React.FC = () => {
           </div>
         ))}
       </div>
-      <LanguageSwitcher />
+      {showLanguageSwitcher && (
+        <div className="fixed bottom-4 right-4 z-50">
+          <LanguageSwitcher />
+        </div>
+      )}
     </section>
   );
 };

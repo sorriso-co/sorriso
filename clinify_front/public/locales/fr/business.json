@@ -1,0 +1,229 @@
+{
+    "clinicServicesHero": {
+      "title": "Services pour Cliniques Privées",
+      "subtitle": "Notre plateforme offre aux cliniques privées les outils nécessaires pour simplifier le processus d'accueil des patients, facilitant ainsi la gestion des rendez-vous, des dossiers patients et des communications. Notre objectif ultime est d'aider les cliniques à offrir les meilleurs soins possibles à leurs patients.",
+      "cta": "En savoir plus"
+    },
+    "internationalPatientWorkflow": {
+      "title": "Simplification des Processus pour les Patients Internationaux",
+      "description": "Sorriso simplifie la gestion des patients internationaux, permettant aux cliniques de se concentrer sur des soins exceptionnels. Nous suivons le parcours du patient du premier contact au suivi final, garantissant une expérience fluide. Les gestionnaires de cliniques et le personnel dédié ont souvent trop de choses à coordonner pour offrir une expérience constante et de classe mondiale aux patients voyageant pour des procédures de vie. Nous comprenons que l'expérience patient est une priorité pour les cliniques, et nous sommes là pour aider. Notre plateforme permet aux cliniques d'offrir une expérience fluide aux patients internationaux sans la complexité de gérer des centaines de tâches: emails, liens Zoom, appels téléphoniques, horaires, réservations et transports. Nous nous occupons de tout.",
+      "cta": "En savoir plus",
+      "feature1": {
+        "title": "Interaction avec les Patients Internationaux",
+        "description": "Communication claire et efficace avec support multilingue."
+      },
+      "feature2": {
+        "title": "Planification des Appels et des Rendez-vous",
+        "description": "Réservations de rendez-vous automatisées, rappels et ajustements de fuseaux horaires."
+      },
+      "feature3": {
+        "title": "Organisation des Transferts depuis l'Aéroport",
+        "description": "Expérience d'arrivée fluide et confortable avec coordination facile des transports."
+      },
+      "feature4": {
+        "title": "Gestion des Hôtels",
+        "description": "Gestion des réservations et des demandes spéciales avec les prestataires locaux."
+      },
+      "feature5": {
+        "title": "Transfert de Données pour les Scans et Documents Médicaux",
+        "description": "Transfert électronique sécurisé des dossiers médicaux et des documents critiques."
+      },
+      "feature6": {
+        "title": "Amélioration de l'Expérience Patient",
+        "description": "Offrir une expérience agréable et sans stress de l'arrivée au départ."
+      }
+    },
+    "dataSpeaks": {
+      "title": "Les Données Parlent : Le Coût Réel de l'Inefficacité",
+      "description": "Découvrez combien de temps les cliniques perdent à cause de la bureaucratie et des tâches inutiles, et comment Sorriso peut aider à récupérer ce temps pour de meilleurs soins aux patients.",
+      "cta": "En savoir plus",
+      "statistics": {
+        "statistic1": {
+          "title": "Temps Perdu en Bureaucratie",
+          "stat": "30%",
+          "description": "Les cliniques consacrent jusqu'à 30% de leur temps à des tâches bureaucratiques, au détriment des soins aux patients."
+        },
+        "statistic2": {
+          "title": "Tâches Inutiles",
+          "stat": "25 heures/semaine",
+          "description": "En moyenne, les cliniques perdent 25 heures par semaine en tâches administratives inutiles."
+        },
+        "statistic3": {
+          "title": "Coordination des Hébergements",
+          "stat": "10 heures/semaine",
+          "description": "La coordination des hébergements pour les patients internationaux peut prendre jusqu'à 10 heures par semaine."
+        },
+        "statistic4": {
+          "title": "Gestion des Transports",
+          "stat": "8 heures/semaine",
+          "description": "La gestion des transports peut consommer jusqu'à 8 heures de temps précieux chaque semaine."
+        }
+      }
+    },
+    "watchPromo": {
+      "title": "Obtenez un Essai Gratuit et Découvrez le Meilleur Logiciel pour l'Accueil des Patients Internationaux",
+      "description": "Contactez-nous et découvrez le premier logiciel de ce type conçu pour simplifier l'accueil des patients internationaux et offrir des soins exceptionnels.",
+      "ctaFreeTrial": "Obtenez un Essai Gratuit",
+      "ctaContactUs": "Contactez-nous",
+      "videoButton": "Regarder Maintenant",
+      "videoUrl": "https://youtu.be/knav3WWGBeE"
+    },
+    "hero": {
+      "headline1": "Rejoignez",
+      "headline2": "Promouvez",
+      "headline3": "Gagnez",
+      "description": "Rejoignez notre programme d'affiliation pour le tourisme dentaire et augmentez vos revenus avec des services de premier ordre, des commissions généreuses et un support exceptionnel. Augmentez vos revenus avec des primes basées sur la performance et un chemin clair vers des niveaux supérieurs. Inscrivez-vous maintenant et faites la différence !",
+      "ctaText": "Inscrivez-vous maintenant",
+      "imageAlt": "Image du Programme d'Affiliation"
+    },
+    "howItWorks": {
+      "title": "Comment ça marche",
+      "description": "Rejoignez notre programme d'affiliation et gagnez des commissions en promouvant des sourires plus sains.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rejoignez en tant qu'Affilié",
+          "items": [
+            "Inscrivez-vous en ligne",
+            "Regardez la vidéo d'intégration",
+            "Commencez à partager Sorriso"
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Gagnez des Commissions",
+          "description": "Gagnez 2% sur chaque vente. Passez à 5%.",
+          "footnote": "*Une vente est définie comme l'acquisition d'un patient."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Augmentez vos Revenus",
+          "items": [
+            "Gagnez 5% après 10 ventes.",
+            "Les Affiliés Experts gagnent 5% après 10 ventes."
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "title": "Devenez un Expert",
+          "description": "Réalisez 10 ventes en un trimestre pour augmenter vos gains à 5%."
+        },
+        {
+          "stepNumber": 5,
+          "title": "Construisez votre Réseau",
+          "items": [
+            "Formez une équipe d'affiliés",
+            "Gagnez sur les ventes réalisées par votre équipe"
+          ]
+        }
+      ]
+    },
+    "payoff": {
+      "title": "Sorriso est votre Meilleur Choix",
+      "description": "Rejoignez notre programme d'affiliation leader dans le tourisme dentaire et regardez vos revenus augmenter. Nos services de premier ordre, notre structure de commission généreuse et notre support exceptionnel font de nous le meilleur choix pour les affiliés. Entrez dans le jeu ultime du ROI !",
+      "cta": "Inscrivez-vous",
+      "contactPrompt": "Vous avez encore des questions ? Écrivez-nous, nous vous répondrons rapidement !",
+      "contactEmail": "contact@sorriso.care",
+      "cards": {
+        "card1": {
+          "title": "Paiements jusqu'à 500 $",
+          "description": "Gagnez 200 $ de commission par personne référée qui termine une procédure."
+        },
+        "card2": {
+          "title": "Suivi Fiable",
+          "description": "Utilisez notre système de suivi fiable pour surveiller vos revenus en temps réel."
+        },
+        "card3": {
+          "title": "Meilleures Cliniques",
+          "description": "Partenariat avec les meilleures cliniques d'Europe de l'Est offrant des traitements de qualité à des prix abordables."
+        },
+        "card4": {
+          "title": "Hauts Revenus",
+          "description": "Rejoignez un réseau prospère où le revenu moyen des affiliés est substantiel chaque mois."
+        },
+        "card5": {
+          "title": "Primes de Performance",
+          "description": "Augmentez votre commission avec des primes basées sur la performance et atteignez des niveaux d'affiliation supérieurs."
+        },
+        "card6": {
+          "title": "Support Exceptionnel",
+          "description": "Notre équipe de support dédiée vous aide à maximiser votre potentiel et à augmenter vos revenus."
+        }
+      }
+    },
+    "affiliatesStories": {
+      "title": "Témoignages de nos Affiliés",
+      "testimonials": [
+        {
+          "name": "Hunter",
+          "story": "Écoutez le succès de Hunter avec le programme d'affiliation de Sorriso",
+          "image": "/images/affiliates/hunt.png",
+          "quote": "C'est gagnant-gagnant-gagnant avec le programme d'affiliation de Sorriso. Les clients prospèrent avec des services de premier ordre, vous gagnez des commissions substantielles, et ensemble, nous réussissons tous. Je crois honnêtement que tout le monde devrait essayer Sorriso.",
+          "position": "Marketer Affilié",
+          "company": "Hugo Productions"
+        },
+        {
+          "name": "Jane",
+          "story": "Écoutez le succès de Jane avec le programme d'affiliation de Sorriso",
+          "image": "/images/affiliates/jane.png",
+          "quote": "Rejoindre le programme d'affiliation de Sorriso a été la meilleure décision. Le support est exceptionnel et les revenus sont fantastiques. Je le recommande vivement !",
+          "position": "Influenceuse",
+          "company": "Jane & Co."
+        },
+        {
+          "name": "Satraj",
+          "story": "Écoutez le succès d'Oliver avec le programme d'affiliation de Sorriso",
+          "image": "/images/affiliates/oliver.png",
+          "quote": "Le programme d'affiliation de Sorriso est vraiment remarquable. La structure de commission et le support sont incomparables. Cela a considérablement augmenté mes revenus.",
+          "position": "Créateur de Contenu",
+          "company": "Mango Studios"
+        }
+      ],
+      "commissionEarned": "Commission Gagnée",
+      "perReferral": "par référence",
+      "totalReferrals": "Références Totales"
+    },
+    "title": "À qui s'adresse notre programme d'affiliation ?",
+    "affiliateTypes": [
+      {
+        "label": "Agences de marketing digital"
+      },
+      {
+        "label": "Influenceurs"
+      },
+      {
+        "label": "Consultants en technologie"
+      },
+      {
+        "label": "Coachs d'affaires"
+      },
+      {
+        "label": "Développeurs web e-commerce"
+      },
+      {
+        "label": "Créateurs de contenu"
+      }
+    ],
+    "joinProgram": {
+      "title": "Rejoignez le Programme d'Affiliation Sorriso",
+      "cards": [
+        {
+          "icon": "FaThumbsUp",
+          "title": "C'est Facile !",
+          "description": "Promouvez nos services de tourisme dentaire en utilisant vos blogs, vidéos et réseaux sociaux. Invitez vos contacts à cliquer sur notre lien d'affiliation."
+        },
+        {
+          "icon": "FaCode",
+          "title": "Aucune Technologie, Zéro Coût",
+          "description": "Intégrez le lien dans vos communications. Aucune intégration technique n'est requise et il n'y a aucun coût pour rejoindre."
+        },
+        {
+          "icon": "FaDollarSign",
+          "title": "Commissions Générèses",
+          "description": "Gagnez 200 $ de commission par personne référée qui termine une procédure. Profitez des primes basées sur la performance et des revenus élevés."
+        }
+      ],
+      "ctaButton": "Inscrivez-vous maintenant"
+    }
+  }
+  

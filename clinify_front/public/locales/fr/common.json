@@ -1,0 +1,98 @@
+{
+    "meta": {
+      "description": "Sorriso : Tourisme dentaire abordable dans les Balkans. Offrant des soins dentaires de haute qualité à une fraction du coût pour les patients d'Europe, des États-Unis, d'Australie et d'ailleurs.",
+      "title": "Sorriso - Tourisme dentaire abordable",
+      "ogTitle": "Sorriso - Tourisme dentaire abordable dans les Balkans",
+      "ogDescription": "Sorriso propose des soins dentaires de haute qualité et abordables dans les Balkans pour les patients d'Europe, des États-Unis, d'Australie et d'ailleurs. Découvrez les avantages du tourisme dentaire avec Sorriso.",
+      "twitterTitle": "Sorriso - Tourisme dentaire abordable dans les Balkans",
+      "twitterDescription": "Découvrez des soins dentaires abordables dans les Balkans avec Sorriso. Nous offrons des traitements de haute qualité pour les patients d'Europe, des États-Unis, d'Australie et d'ailleurs.",
+      "keywords": "tourisme dentaire, soins dentaires abordables, soins dentaires Balkans, Sorriso, traitements dentaires Europe, implants dentaires, blanchiment des dents, orthodontie, couronnes dentaires, bridges dentaires, facettes dentaires, dentisterie esthétique, chirurgie dentaire, examen dentaire, clinique dentaire, services dentaires, consultation dentaire, soins dentaires Balkans, voyages dentaires, forfaits dentaires, soins dentaires à l'étranger, soins dentaires internationaux, soins dentaires de haute qualité, économies sur les soins dentaires, tourisme dentaire Europe, tourisme dentaire Balkans, soins dentaires pour les patients américains, soins dentaires pour les patients australiens, soins dentaires pour les patients européens, tourisme de santé dentaire, traitement dentaire à l'étranger, forfaits tourisme dentaire, vacances dentaires, forfaits soins dentaires, traitements dentaires abordables, destinations tourisme dentaire, offres de soins dentaires, promotions tourisme dentaire, soins dentaires à bas coût, plans d'économies de soins dentaires, cliniques dentaires internationales, spécialistes dentaires Europe, soins dentaires avancés, options de soins dentaires, plans de soins dentaires, prestataires de soins dentaires, soins dentaires professionnels, consultations soins dentaires, offres soins dentaires, meilleurs soins dentaires à l'étranger, plans de traitement dentaire, voyages santé dentaire, excursions dentaires, assurances voyages dentaires, vacances dentaires, réductions soins dentaires, destinations tourisme dentaire, interventions dentaires à l'étranger, solutions dentaires abordables, soins dentaires complets, forfaits soins dentaires Europe, expertise soins dentaires, services dentaires de confiance, traitements dentaires de qualité, cliniques dentaires modernes, santé et bien-être dentaire, soins dentaires centrés sur le patient, traitements dentaires personnalisés, excellence en soins dentaires, soins dentaires réputés, professionnels dentaires expérimentés, satisfaction des soins dentaires, soins dentaires sans accroc, programmes de bien-être dentaire, soins dentaires experts à l'étranger, sécurité des soins dentaires, forfaits santé dentaire, forfaits dentaires abordables, soins dentaires premium, options de soins dentaires à l'étranger, services dentaires étendus, soins dentaires personnalisés, planification du tourisme dentaire, économies sur les traitements dentaires, forfaits voyages santé dentaire, soins dentaires supérieurs, soins dentaires pratiques, flexibilité des soins dentaires, dentisterie esthétique abordable, traitements dentaires innovants, services dentaires fiables, confort des soins dentaires, solutions dentaires internationales, voyages dentaires, rendez-vous dentaires à l'étranger, coûts des traitements dentaires à l'étranger, soins dentaires efficaces, coordination des soins dentaires, confort des soins dentaires, technologie dentaire avancée, soins dentaires accessibles, offres de soins dentaires à l'étranger, options de soins dentaires pour seniors, soins dentaires familiaux à l'étranger, voyages dentaires de groupe, forfaits dentaires d'entreprise, soins dentaires de luxe, tourisme bien-être dentaire, variété des traitements dentaires, recommandations soins dentaires, normes des soins dentaires, soins des patients dentaires, matériaux dentaires de qualité, techniques dentaires avancées, conseils tourisme dentaire, consultations sur les traitements dentaires, soins dentaires avec assurance, assistance planification soins dentaires, consultations dentaires expertes, services santé dentaire, soins dentaires sans stress, avis sur le tourisme dentaire, témoignages sur les traitements dentaires, satisfaction des soins dentaires, évaluations santé dentaire, cliniques dentaires fiables, garanties de services dentaires, traitements dentaires de premier plan, avantages du tourisme dentaire, experts dentaires internationaux, spécialistes des soins dentaires, soutien aux patients dentaires, expertise en traitements dentaires, innovation en soins dentaires, résultats en soins dentaires, amélioration de la santé dentaire, qualité des soins dentaires, solutions dentaires personnalisées, évaluations professionnelles des soins dentaires, garanties de traitement dentaire, excellence des soins aux patients dentaires, réseau de soins dentaires, prestataires de soins dentaires de confiance"
+    },
+    "header": {
+      "menu": {
+        "home": "Accueil",
+        "about": "À propos",
+        "about_submenu": {
+          "about": "À propos",
+          "our_team": "Notre équipe",
+          "why_montenegro": "Pourquoi le Monténégro ?"
+        },
+        "services": "Services",
+        "services_submenu": {
+          "our_services": "Nos services",
+          "how_it_works": "Comment ça marche",
+          "treatments": "Traitements",
+          "experiences": "Expériences",
+          "gallery": "Galerie"
+        },
+        "business": "Entreprise",
+        "business_submenu": {
+          "for_clinics": "Pour les cliniques",
+          "for_affiliates": "Pour les affiliés"
+        },
+        "pricing": "Tarifs",
+        "contact": "Contact"
+      },
+      "mobile_nav": {
+        "menu": "Menu",
+        "close": "Fermer"
+      }
+    },
+    "footer": {
+      "copyright": "© 2024 Sorriso. Tous droits réservés.",
+      "aboutUs": "À propos de nous",
+      "contact": "Contact",
+      "privacyPolicy": "Politique de confidentialité",
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com"
+    },
+    "contactDetails": {
+      "title": "Contactez-nous",
+      "addressTitle": "Notre adresse",
+      "address": "Ulica 13.Jula 2/18\nPodgorica 81000, Monténégro",
+      "phoneTitle": "Appelez-nous à tout moment",
+      "phone": "+38269851872",
+      "emailTitle": "Envoyez-nous un email",
+      "email": "contact@sorriso.care",
+      "hoursTitle": "Heures d'ouverture",
+      "hours": "Lundi - Vendredi : 9.00 - 17.00"
+    },
+    "contactForm": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "message": "Message",
+      "messagePlaceholder": "Envoyez-nous un message décrivant vos préoccupations dentaires, vos attentes ou vos questions. Nous vous répondrons dès que possible.",
+      "upload": "Téléchargez une image de vos dents (facultatif)",
+      "send": "Envoyer le message",
+      "success": "Email envoyé avec succès !",
+      "failure": "Échec de l'envoi de l'email. Veuillez réessayer."
+    },
+    "contactSection": {
+      "title": "Prenez contact avec nous",
+      "subtitle": "Dites adieu aux inconvénients. Laissez-nous vous aider à être vous-même.",
+      "consultationTitle": "Réservez une consultation gratuite de 30 minutes",
+      "consultationDescription": "Planifiez une consultation gratuite avec nos experts pour discuter de vos besoins et de la manière dont nous pouvons vous aider à atteindre vos objectifs."
+    },
+    "privacyPolicy": {
+      "title": "Politique de confidentialité",
+      "introductionTitle": "Introduction",
+      "introductionContent": "Bienvenue dans notre politique de confidentialité. Votre vie privée est d'une importance cruciale pour nous. Notre politique de confidentialité explique comment nous traitons vos informations personnelles et vos données.",
+      "informationWeCollectTitle": "Informations que nous collectons",
+      "informationWeCollectContent": "Nous collectons plusieurs types d'informations auprès des utilisateurs de notre site web, notamment :",
+      "informationWeCollectItem1": "Informations d'identification personnelle (Nom, adresse email, numéro de téléphone, etc.)",
+      "informationWeCollectItem2": "Informations démographiques (âge, sexe, préférences, intérêts, etc.)",
+      "informationWeCollectItem3": "Données techniques (adresse IP, type et version du navigateur, réglage du fuseau horaire, etc.)",
+      "informationWeCollectItem4": "Données d'utilisation (informations sur la manière dont vous utilisez notre site web, nos produits et nos services)",
+      "howWeUseInformationTitle": "Comment nous utilisons vos informations",
+      "howWeUseInformationContent": "Nous utilisons les informations que nous collectons de diverses manières, notamment pour :",
+      "howWeUseInformationItem1": "Fournir, exploiter et maintenir notre site web",
+      "howWeUseInformationItem2": "Améliorer, personnaliser et développer notre site web",
+      "howWeUseInformationItem3": "Comprendre et analyser comment vous utilisez notre site web",
+      "howWeUseInformationItem4": "Développer de nouveaux produits, services, fonctionnalités et fonctionnalités",
+      "dataSecurityTitle": "Sécurité des données",
+      "dataSecurityContent": "Nous avons mis en place des mesures techniques et organisationnelles appropriées pour protéger la sécurité de toutes les informations personnelles que nous traitons."
+    },
+    "changeLanguage": "Changer de langue"
+  }
+  

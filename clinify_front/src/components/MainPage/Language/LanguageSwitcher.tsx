@@ -8,7 +8,7 @@ const LanguageSwitcher: React.FC = () => {
 
   return (
     <div className="fixed bottom-4 right-4 flex space-x-2 z-50 p-2 bg-gray-800 bg-opacity-90 rounded-lg shadow-lg">
-      {['sr', 'en', 'it', 'de', 'ru', 'sp'].map((lang) => (
+      {['sr', 'en', 'it', 'de', 'ru', 'sp', 'fr'].map((lang) => (
         <button
           key={lang}
           onClick={() => i18n.changeLanguage(lang)}
