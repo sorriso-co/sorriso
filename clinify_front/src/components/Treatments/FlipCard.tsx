@@ -26,7 +26,7 @@ const FlipCard: React.FC<FlipCardProps> = ({ procedure }) => {
 
   return (
     <div
-      className={`flip-card w-72 sm:w-80 md:w-96 h-96 sm:h-[26rem] md:h-[28rem] rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 cursor-pointer ${
+      className={`flip-card w-64 sm:w-72 md:w-80 h-80 sm:h-88 md:h-96 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 cursor-pointer ${
         isFlipped ? "flipped" : ""
       }`}
       onClick={handleFlip}
@@ -47,10 +47,10 @@ const FlipCard: React.FC<FlipCardProps> = ({ procedure }) => {
             />
           </div>
           <div className="p-4 flex-grow flex flex-col justify-between">
-            <h3 className="text-xl sm:text-2xl font-serif font-bold text-teal-900 mb-2">
+            <h3 className="text-lg sm:text-xl font-serif font-bold text-teal-900 mb-2">
               {procedure.title}
             </h3>
-            <p className="text-sm sm:text-lg font-serif text-teal-900 mb-4">
+            <p className="text-sm sm:text-md font-serif text-teal-900 mb-4">
               {procedure.shortDescription}
             </p>
           </div>
@@ -63,16 +63,16 @@ const FlipCard: React.FC<FlipCardProps> = ({ procedure }) => {
           } flex-col justify-between`}
         >
           <div>
-            <h3 className="text-xl sm:text-2xl font-bold text-white font-serif mb-4">
+            <h3 className="text-lg sm:text-xl font-bold text-white font-serif mb-4">
               {t('flipCard.moreInfo')}
             </h3>
-            <p className="text-base sm:text-xl font-serif text-white mb-2">
+            <p className="text-sm sm:text-md font-serif text-white mb-2">
               <strong>{t('flipCard.necessity')}:</strong> {procedure.necessity}
             </p>
-            <p className="text-base sm:text-xl font-serif text-white mb-2">
+            <p className="text-sm sm:text-md font-serif text-white mb-2">
               <strong>{t('flipCard.candidate')}:</strong> {procedure.candidate}
             </p>
-            <p className="text-base sm:text-xl font-serif text-white mb-4">
+            <p className="text-sm sm:text-md font-serif text-white mb-4">
               <strong>{t('flipCard.duration')}:</strong> {procedure.duration}
             </p>
           </div>

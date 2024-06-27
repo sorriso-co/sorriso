@@ -39,7 +39,7 @@ const MostWantedProcedures: React.FC<MostWantedProceduresProps> = ({
         </p>
       </div>
       <div className="container mx-auto flex justify-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 md:grid-cols-2 md:gap-6">
           {procedures.map((procedure, index) => (
             <div data-aos="fade-up" key={index}>
               <FlipCard procedure={procedure} />

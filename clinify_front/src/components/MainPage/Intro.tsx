@@ -43,8 +43,10 @@ const Introduction: React.FC = () => {
           </p>
           <br />
           <Link href="/contact"
-            className="mt-6 bg-teal-900 text-white font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-full hover:bg-teal-700 transition-colors duration-300">
+              className="mt-6 bg-teal-900 text-white font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-full hover:bg-teal-700 transition-colors duration-300 block text-center sm:inline-block sm:min-w-[180px] sm:max-w-xs"
+            >
               {t("introduction.scheduleButton", { defaultValue: "Schedule Now" })}
+   
           </Link>
         </div>
       </div>
