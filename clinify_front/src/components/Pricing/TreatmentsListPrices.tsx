@@ -189,58 +189,126 @@ const Treatments: React.FC = () => {
     {
       name: t("temporaryCrowns.name"),
       options: [
-        { variant: t("temporaryCrowns.option1.variant"), price: parseFloat(t("temporaryCrowns.option1.price")), euPrice: parseFloat(t("temporaryCrowns.option1.euPrice")) },
-        { variant: t("temporaryCrowns.option2.variant"), price: parseFloat(t("temporaryCrowns.option2.price")), euPrice: parseFloat(t("temporaryCrowns.option2.euPrice")) },
+        {
+          variant: t("temporaryCrowns.option1.variant"),
+          price: parseFloat(t("temporaryCrowns.option1.price")),
+          euPrice: parseFloat(t("temporaryCrowns.option1.euPrice")),
+        },
+        {
+          variant: t("temporaryCrowns.option2.variant"),
+          price: parseFloat(t("temporaryCrowns.option2.price")),
+          euPrice: parseFloat(t("temporaryCrowns.option2.euPrice")),
+        },
       ],
     },
     {
       name: t("teethWhitening.name"),
       options: [
-        { variant: t("teethWhitening.option1.variant"), price: parseFloat(t("teethWhitening.option1.price")), euPrice: parseFloat(t("teethWhitening.option1.euPrice")) },
-        { variant: t("teethWhitening.option2.variant"), price: parseFloat(t("teethWhitening.option2.price")), euPrice: parseFloat(t("teethWhitening.option2.euPrice")) },
+        {
+          variant: t("teethWhitening.option1.variant"),
+          price: parseFloat(t("teethWhitening.option1.price")),
+          euPrice: parseFloat(t("teethWhitening.option1.euPrice")),
+        },
+        {
+          variant: t("teethWhitening.option2.variant"),
+          price: parseFloat(t("teethWhitening.option2.price")),
+          euPrice: parseFloat(t("teethWhitening.option2.euPrice")),
+        },
       ],
     },
     {
       name: t("sinusLift.name"),
       options: [
-        { variant: t("sinusLift.option1.variant"), price: parseFloat(t("sinusLift.option1.price")), euPrice: parseFloat(t("sinusLift.option1.euPrice")) },
-        { variant: t("sinusLift.option2.variant"), price: parseFloat(t("sinusLift.option2.price")), euPrice: parseFloat(t("sinusLift.option2.euPrice")) },
+        {
+          variant: t("sinusLift.option1.variant"),
+          price: parseFloat(t("sinusLift.option1.price")),
+          euPrice: parseFloat(t("sinusLift.option1.euPrice")),
+        },
+        {
+          variant: t("sinusLift.option2.variant"),
+          price: parseFloat(t("sinusLift.option2.price")),
+          euPrice: parseFloat(t("sinusLift.option2.euPrice")),
+        },
       ],
     },
     {
       name: t("complicatedToothExtraction.name"),
       options: [
-        { variant: t("complicatedToothExtraction.option1.variant"), price: parseFloat(t("complicatedToothExtraction.option1.price")), euPrice: parseFloat(t("complicatedToothExtraction.option1.euPrice")) },
-        { variant: t("complicatedToothExtraction.option2.variant"), price: parseFloat(t("complicatedToothExtraction.option2.price")), euPrice: parseFloat(t("complicatedToothExtraction.option2.euPrice")) },
+        {
+          variant: t("complicatedToothExtraction.option1.variant"),
+          price: parseFloat(t("complicatedToothExtraction.option1.price")),
+          euPrice: parseFloat(t("complicatedToothExtraction.option1.euPrice")),
+        },
+        {
+          variant: t("complicatedToothExtraction.option2.variant"),
+          price: parseFloat(t("complicatedToothExtraction.option2.price")),
+          euPrice: parseFloat(t("complicatedToothExtraction.option2.euPrice")),
+        },
       ],
     },
     {
       name: t("boneGraft.name"),
       options: [
-        { variant: t("boneGraft.option1.variant"), price: parseFloat(t("boneGraft.option1.price")), euPrice: parseFloat(t("boneGraft.option1.euPrice")) },
-        { variant: t("boneGraft.option2.variant"), price: parseFloat(t("boneGraft.option2.price")), euPrice: parseFloat(t("boneGraft.option2.euPrice")) },
-        { variant: t("boneGraft.option3.variant"), price: parseFloat(t("boneGraft.option3.price")), euPrice: parseFloat(t("boneGraft.option3.euPrice")) },
+        {
+          variant: t("boneGraft.option1.variant"),
+          price: parseFloat(t("boneGraft.option1.price")),
+          euPrice: parseFloat(t("boneGraft.option1.euPrice")),
+        },
+        {
+          variant: t("boneGraft.option2.variant"),
+          price: parseFloat(t("boneGraft.option2.price")),
+          euPrice: parseFloat(t("boneGraft.option2.euPrice")),
+        },
+        {
+          variant: t("boneGraft.option3.variant"),
+          price: parseFloat(t("boneGraft.option3.price")),
+          euPrice: parseFloat(t("boneGraft.option3.euPrice")),
+        },
       ],
     },
     {
       name: t("fibrin.name"),
       options: [
-        { variant: t("fibrin.option1.variant"), price: parseFloat(t("fibrin.option1.price")), euPrice: parseFloat(t("fibrin.option1.euPrice")) },
-        { variant: t("fibrin.option2.variant"), price: parseFloat(t("fibrin.option2.price")), euPrice: parseFloat(t("fibrin.option2.euPrice")) },
+        {
+          variant: t("fibrin.option1.variant"),
+          price: parseFloat(t("fibrin.option1.price")),
+          euPrice: parseFloat(t("fibrin.option1.euPrice")),
+        },
+        {
+          variant: t("fibrin.option2.variant"),
+          price: parseFloat(t("fibrin.option2.price")),
+          euPrice: parseFloat(t("fibrin.option2.euPrice")),
+        },
       ],
     },
     {
       name: t("endodonticTreatment.name"),
       options: [
-        { variant: t("endodonticTreatment.option1.variant"), price: parseFloat(t("endodonticTreatment.option1.price")), euPrice: parseFloat(t("endodonticTreatment.option1.euPrice")) },
-        { variant: t("endodonticTreatment.option2.variant"), price: parseFloat(t("endodonticTreatment.option2.price")), euPrice: parseFloat(t("endodonticTreatment.option2.euPrice")) },
+        {
+          variant: t("endodonticTreatment.option1.variant"),
+          price: parseFloat(t("endodonticTreatment.option1.price")),
+          euPrice: parseFloat(t("endodonticTreatment.option1.euPrice")),
+        },
+        {
+          variant: t("endodonticTreatment.option2.variant"),
+          price: parseFloat(t("endodonticTreatment.option2.price")),
+          euPrice: parseFloat(t("endodonticTreatment.option2.euPrice")),
+        },
       ],
     },
     {
       name: t("endodonticReTreatment.name"),
       options: [
-        { variant: t("endodonticReTreatment.option1.variant"), price: parseFloat(t("endodonticReTreatment.option1.price")), euPrice: parseFloat(t("endodonticReTreatment.option1.euPrice")) },
-        { variant: t("endodonticReTreatment.option2.variant"), price: parseFloat(t("endodonticReTreatment.option2.price")), euPrice: parseFloat(t("endodonticReTreatment.option2.euPrice")) },
+        {
+          variant: t("endodonticReTreatment.option1.variant"),
+          price: parseFloat(t("endodonticReTreatment.option1.price")),
+          euPrice: parseFloat(t("endodonticReTreatment.option1.euPrice")),
+        },
+        {
+          variant: t("endodonticReTreatment.option2.variant"),
+          price: parseFloat(t("endodonticReTreatment.option2.price")),
+          euPrice: parseFloat(t("endodonticReTreatment.option2.euPrice")),
+        },
       ],
     },
   ];
@@ -267,7 +335,7 @@ const Treatments: React.FC = () => {
   const handleModalClose = () => setModalData(null);
 
   return (
-    <div className="min-h-screen overflow-x-hidden py-8 bg-teal-50 flex justify-center items-center">
+    <div className="min-h-screen overflow-hidden py-8 bg-teal-50 flex justify-center items-center">
       <div className="container mx-auto px-4">
         <div className="overflow-x-auto">
           <table
