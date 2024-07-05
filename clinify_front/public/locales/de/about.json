@@ -114,25 +114,26 @@
     "subheading": "Erleben Sie Montenegro",
     "cards": {
       "card1": {
-        "caption": "Bleib",
+        "caption": "Aufenthalt",
         "text": [
-          "Sveti Stefan (Sankt Stefan) ist eine kleine Adriainsel in der Nähe von Budva in Montenegro. Es war früher ein Fischerdorf mit Häusern aus dem 15. Jahrhundert.",
+          "ist eine kleine Adriainsel in der Nähe von Budva in Montenegro. Es war früher ein Fischerdorf mit Häusern aus dem 15. Jahrhundert.",
           "Die Insel ist für die Öffentlichkeit nicht zugänglich, sondern nur für Bewohner, Hotelgäste oder im Rahmen einer Führung.",
           "Auf der Insel gibt es mehrere alte Kirchen, darunter die Kirche (Sveti Stefan), die der Insel ihren Namen gab. In den 1950er und 1960er Jahren wurde das gesamte kleine Dorf in eine Hotelinsel umgewandelt und behielt dabei sein ursprüngliches Aussehen bei."
         ]
       },
-      "card2": {
-        "caption": "Sehen",
-        "text": [
-          "Gospa od Škrpjela (Unsere Liebe Frau der Felsen) ist eine künstliche Insel vor der Küste von Perast, Montenegro, die über 200 Jahre durch Bollwerke aus Felsen und gesunkenen Schiffen entstanden ist. Sie beherbergt die katholische Kirche und ein Museum.",
-          "Der Legende nach wurde die Insel von Seeleuten gebaut, die am 22. Juli 1452 eine Ikone der Madonna und des Kindes auf einem Felsen fanden und schworen, nach jeder erfolgreichen Reise einen Felsen dort zu legen.",
-          "Diese Tradition wird noch heute mit einer jährlichen Veranstaltung namens fašinada am 22. Juli fortgesetzt, bei der die Einheimischen Boote nehmen und Steine ins Meer werfen, um die Fläche der Insel zu erweitern."
-        ]
-      },
+"card2": {
+  "caption": "Sehen",
+  "text": [
+    "ist eine künstliche Insel vor der Küste von Perast, Montenegro, die über 200 Jahre durch Felsen und gesunkene Schiffe entstand. Sie beherbergt eine Kirche und ein Museum.",
+    "Der Legende nach wurde die Insel von Seeleuten gebaut, die am 22. Juli 1452 eine Ikone der Madonna und des Kindes auf einem Felsen fanden und schworen, nach jeder Reise einen Felsen dort zu legen.",
+    "Diese Tradition wird noch heute mit der Veranstaltung fašinada am 22. Juli fortgesetzt, bei der Einheimische Boote nehmen und Steine ins Meer werfen, um die Insel zu erweitern."
+  ]
+}
+,
       "card3": {
         "caption": "Erkunden",
         "text": [
-          "Durmitor ist einer von 5 Nationalparks des Landes. Es ist ein Massiv im Nordwesten Montenegros. Es ist Teil der Dinarischen Alpen.",
+          "ist einer von 5 Nationalparks des Landes. Es ist ein Massiv im Nordwesten Montenegros. Es ist Teil der Dinarischen Alpen.",
           "Der höchste Gipfel, Bobotov Kuk, erreicht eine Höhe von 2.523 Metern (8.278 Fuß). Das Massiv wird im Norden vom Tara-Flusstal, im Westen vom Piva-Flusstal und im Süden vom Komarnica-Flusstal begrenzt.",
           "Das Massiv gibt dem Nationalpark, der es umfasst, seinen Namen. Der Durmitor-Nationalpark wurde 1952 gegründet und 1980 zum UNESCO-Welterbe erklärt."
         ]

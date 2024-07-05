@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 
 const Pricing: React.FC = () => {
-  const { t } = useTranslation('homepage');
+  const { t } = useTranslation("homepage");
 
   useEffect(() => {
     AOS.init({
@@ -26,9 +26,15 @@ const Pricing: React.FC = () => {
   }[];
 
   return (
-    <section className="py-16 overflow-x-hidden px-8 lg:px-16 bg-teal-50" data-aos="fade-up">
+    <section
+      className="py-16 overflow-hidden px-8 lg:px-16 bg-teal-50"
+      data-aos="fade-up"
+    >
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl font-extrabold text-teal-700 mb-12" data-aos="fade-down">
+        <h2
+          className="text-4xl font-extrabold text-teal-700 mb-12"
+          data-aos="fade-down"
+        >
           {t("pricing.title", { defaultValue: "Average Cost Comparison" })}
         </h2>
         <div className="overflow-x-auto" data-aos="fade-up">
@@ -82,15 +88,22 @@ const Pricing: React.FC = () => {
           </table>
         </div>
         <p className="mt-8 text-lg text-gray-600" data-aos="fade-up">
-          {t("pricing.note", { defaultValue: "*Prices are case-dependent. Fill out our online request form to know the latest deals on prices and exclusive discounts!" })}{" "}
-          <Link href="/contact"
-            className="text-darkPink underline">
-              {t("pricing.onlineRequestForm", { defaultValue: "online request form" })}
+          {t("pricing.note", {
+            defaultValue:
+              "*Prices are case-dependent. Fill out our online request form to know the latest deals on prices and exclusive discounts!",
+          })}{" "}
+          <Link href="/contact" className="text-darkPink underline">
+            {t("pricing.onlineRequestForm", {
+              defaultValue: "online request form",
+            })}
           </Link>
         </p>
-        <Link href="/pricing"
-          className="bg-teal-500 hover:bg-teal-200 text-white text-lg font-light py-4 px-8 rounded-full mt-8 inline-block" data-aos="fade-up">
-            {t("pricing.buttonText", { defaultValue: "See Our Pricing" })}
+        <Link
+          href="/pricing"
+          className="bg-teal-500 hover:bg-teal-200 text-white text-lg font-light py-4 px-8 rounded-full mt-8 inline-block"
+          data-aos="fade-up"
+        >
+          {t("pricing.buttonText", { defaultValue: "See Our Pricing" })}
         </Link>
       </div>
     </section>
