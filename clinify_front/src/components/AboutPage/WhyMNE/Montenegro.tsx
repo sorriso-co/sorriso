@@ -227,27 +227,27 @@ const ImageCard: React.FC<ImageCardProps> = ({
 };
 
 const ExperienceMontenegro: React.FC = () => {
-  const { t } = useTranslation('about');
+  const { t } = useTranslation("about");
 
   return (
     <Container className="overflow-x-hidden">
-      <Heading>{t('experienceMontenegro.heading')}</Heading>
-      <Subheading>{t('experienceMontenegro.subheading')}</Subheading>
+      <Heading>{t("experienceMontenegro.heading")}</Heading>
+      <Subheading>{t("experienceMontenegro.subheading")}</Subheading>
       <ImageContainer>
         <ImageCard
           src="/images/mne/seaside.jpeg"
           alt="Where to stay"
-          caption={t('experienceMontenegro.cards.card1.caption')}
+          caption={t("experienceMontenegro.cards.card1.caption")}
           text={
             <div>
               <p>
                 <span style={{ fontWeight: "bold" }}>
                   Sveti Stefan (Saint Stephen)
                 </span>{" "}
-                {t('experienceMontenegro.cards.card1.text.0')}
+                {t("experienceMontenegro.cards.card1.text.0")}
               </p>
-              <p>{t('experienceMontenegro.cards.card1.text.1')}</p>
-              <p>{t('experienceMontenegro.cards.card1.text.2')}</p>
+              <p>{t("experienceMontenegro.cards.card1.text.1")}</p>
+              <p>{t("experienceMontenegro.cards.card1.text.2")}</p>
             </div>
           }
           autoFlip
@@ -255,54 +255,54 @@ const ExperienceMontenegro: React.FC = () => {
         <ImageCard
           src="/images/mne/ljepota.png"
           alt="What to see"
-          caption={t('experienceMontenegro.cards.card2.caption')}
+          caption={t("experienceMontenegro.cards.card2.caption")}
           text={
             <div>
               <p>
                 <span style={{ fontWeight: "bold" }}>
                   Gospa od Škrpjela (Our Lady of the Rocks)
                 </span>{" "}
-                {t('experienceMontenegro.cards.card2.text.0')}
+                {t("experienceMontenegro.cards.card2.text.0")}
               </p>
-              <p>{t('experienceMontenegro.cards.card2.text.1')}</p>
-              <p>{t('experienceMontenegro.cards.card2.text.2')}</p>
+              <p>{t("experienceMontenegro.cards.card2.text.1")}</p>
+              <p>{t("experienceMontenegro.cards.card2.text.2")}</p>
             </div>
           }
         />
         <ImageCard
           src="/images/mne/zima.png"
           alt="Dine & Wine"
-          caption={t('experienceMontenegro.cards.card3.caption')}
+          caption={t("experienceMontenegro.cards.card3.caption")}
           text={
             <div>
               <p>
                 <span style={{ fontWeight: "bold" }}>Durmitor</span>{" "}
-                {t('experienceMontenegro.cards.card3.text.0')}
+                {t("experienceMontenegro.cards.card3.text.0")}
               </p>
-              <p>{t('experienceMontenegro.cards.card3.text.1')}</p>
-              <p>{t('experienceMontenegro.cards.card3.text.2')}</p>
+              <p>{t("experienceMontenegro.cards.card3.text.1")}</p>
+              <p>{t("experienceMontenegro.cards.card3.text.2")}</p>
             </div>
           }
         />
         <ImageCard
           src="/images/mne/hrana.jpeg"
           alt="Go Around"
-          caption={t('experienceMontenegro.cards.card4.caption')}
+          caption={t("experienceMontenegro.cards.card4.caption")}
           text={
             <div>
               <p>
                 <span style={{ fontWeight: "bold" }}>
-                  {t('experienceMontenegro.cards.card4.text.0')}
+                  {t("experienceMontenegro.cards.card4.text.0")}
                 </span>{" "}
               </p>
-              <p>{t('experienceMontenegro.cards.card4.text.1')}</p>
-              <p>{t('experienceMontenegro.cards.card4.text.2')}</p>
+              <p>{t("experienceMontenegro.cards.card4.text.1")}</p>
+              <p>{t("experienceMontenegro.cards.card4.text.2")}</p>
             </div>
           }
         />
       </ImageContainer>
       <Link href="/whymne">
-        <CTAButton>{t('experienceMontenegro.ctaButton')}</CTAButton>
+        <CTAButton>{t("experienceMontenegro.ctaButton")}</CTAButton>
       </Link>
     </Container>
   );
