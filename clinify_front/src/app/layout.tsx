@@ -48,7 +48,7 @@ import Footer from "../components/Footer/Footer";
 import "../i18n";
 import "../styles/global.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-
+import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 interface RootLayoutProps {
@@ -87,6 +87,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
         <Header />
         <main className="flex-grow">{children}</main>
         <SpeedInsights />
+        <Analytics />
         <Footer />
       </body>
     </html>
