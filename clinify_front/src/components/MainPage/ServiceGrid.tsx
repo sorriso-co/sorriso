@@ -12,7 +12,7 @@ interface Service {
 }
 
 const ServiceGrid: React.FC = () => {
-  const { t } = useTranslation('services');
+  const { t } = useTranslation("services");
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const toggleModal = () => {
@@ -144,7 +144,7 @@ const ServiceGrid: React.FC = () => {
                   <iframe
                     src="https://www.youtube.com/embed/ea3V9RyHDlA"
                     title="YouTube video player"
-                    className="w-full h-[500px]"
+                    className="absolute top-0 left-0 w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
                     allowFullScreen
                   ></iframe>

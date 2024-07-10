@@ -17,7 +17,7 @@ import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 
 const HowItWorks: React.FC = () => {
-  const { t } = useTranslation('homepage');
+  const { t } = useTranslation("homepage");
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const toggleModal = () => {
@@ -31,7 +31,7 @@ const HowItWorks: React.FC = () => {
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 6000,
     responsive: [
       {
         breakpoint: 1024,
@@ -41,7 +41,7 @@ const HowItWorks: React.FC = () => {
           infinite: true,
           dots: true,
           centerMode: false,
-          autoplaySpeed: 3000,
+          autoplaySpeed: 4000,
         },
       },
       {
@@ -50,7 +50,7 @@ const HowItWorks: React.FC = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           centerMode: false,
-          autoplaySpeed: 2000,
+          autoplaySpeed: 5000,
         },
       },
     ],
@@ -76,38 +76,68 @@ const HowItWorks: React.FC = () => {
           <Slider {...settings}>
             <Step
               stepNumber="1"
-              title={t("howItWorks.steps.step1.title", { defaultValue: "Contact Us" })}
-              description={t("howItWorks.steps.step1.description", { defaultValue: "Fill out the form and optionally send the most recent X-ray or image of your teeth. We will contact you within 24 hours to schedule your online consultation." })}
+              title={t("howItWorks.steps.step1.title", {
+                defaultValue: "Contact Us",
+              })}
+              description={t("howItWorks.steps.step1.description", {
+                defaultValue:
+                  "Fill out the form and optionally send your most recent dental X-ray. We will contact you within 24 hours to schedule your online consultation.",
+              })}
               Icon={FaPhoneAlt}
             />
             <Step
               stepNumber="2"
-              title={t("howItWorks.steps.step2.title", { defaultValue: "Receive Your Treatment Plan" })}
-              description={t("howItWorks.steps.step2.description", { defaultValue: "You will receive a treatment plan detailing all steps and costs." })}
+              title={t("howItWorks.steps.step2.title", {
+                defaultValue: "Receive Your Treatment Plan",
+              })}
+              description={t("howItWorks.steps.step2.description", {
+                defaultValue:
+                  "You will receive a treatment plan detailing all steps and costs.",
+              })}
               Icon={FaClipboardList}
             />
             <Step
               stepNumber="3"
-              title={t("howItWorks.steps.step3.title", { defaultValue: "Initial Consultation" })}
-              description={t("howItWorks.steps.step3.description", { defaultValue: "During consultation, you have the opportunity to ask any questions about the treatment." })}
+              title={t("howItWorks.steps.step3.title", {
+                defaultValue: "Initial Consultation",
+              })}
+              description={t("howItWorks.steps.step3.description", {
+                defaultValue:
+                  "During consultation, you have the opportunity to ask any questions about the treatment.",
+              })}
               Icon={FaComments}
             />
             <Step
               stepNumber="4"
-              title={t("howItWorks.steps.step4.title", { defaultValue: "Travel" })}
-              description={t("howItWorks.steps.step4.description", { defaultValue: "When the plan is in place, just pack, travel, and get treated. We will take care of everything." })}
+              title={t("howItWorks.steps.step4.title", {
+                defaultValue: "Travel",
+              })}
+              description={t("howItWorks.steps.step4.description", {
+                defaultValue:
+                  "When the plan is in place, just pack, travel, and get treated. We will take care of everything.",
+              })}
               Icon={FaPlane}
             />
             <Step
               stepNumber="5"
-              title={t("howItWorks.steps.step5.title", { defaultValue: "Treatment" })}
-              description={t("howItWorks.steps.step5.description", { defaultValue: "Receive the treatment you need from our highly qualified dental professionals. We use the latest technology." })}
+              title={t("howItWorks.steps.step5.title", {
+                defaultValue: "Treatment",
+              })}
+              description={t("howItWorks.steps.step5.description", {
+                defaultValue:
+                  "Receive the treatment you need from our highly qualified dental professionals. We use the latest technology.",
+              })}
               Icon={FaTooth}
             />
             <Step
               stepNumber="6"
-              title={t("howItWorks.steps.step6.title", { defaultValue: "Have Fun" })}
-              description={t("howItWorks.steps.step6.description", { defaultValue: "Enjoy your stay and explore the local attractions while you receive the best dental care while enjoying Montenegro." })}
+              title={t("howItWorks.steps.step6.title", {
+                defaultValue: "Have Fun",
+              })}
+              description={t("howItWorks.steps.step6.description", {
+                defaultValue:
+                  "Enjoy your stay and explore the local attractions while you receive the best dental care while enjoying Montenegro.",
+              })}
               Icon={FaSmile}
             />
           </Slider>
@@ -131,7 +161,10 @@ const HowItWorks: React.FC = () => {
               >
                 &times;
               </button>
-              <div className="relative" style={{ paddingBottom: "56.25%", height: 0 }}>
+              <div
+                className="relative"
+                style={{ paddingBottom: "56.25%", height: 0 }}
+              >
                 <iframe
                   src="https://www.youtube.com/embed/CoucS-fy2FI?si=qt3GdS64rwl0elN2&start=2"
                   title="YouTube video player"
