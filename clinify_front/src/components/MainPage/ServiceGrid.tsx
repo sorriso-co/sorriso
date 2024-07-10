@@ -140,7 +140,10 @@ const ServiceGrid: React.FC = () => {
                 >
                   &times;
                 </button>
-                <div className="aspect-w-16 aspect-h-9">
+                <div
+                  className="relative"
+                  style={{ paddingBottom: "56.25%", height: 0 }}
+                >
                   <iframe
                     src="https://www.youtube.com/embed/ea3V9RyHDlA"
                     title="YouTube video player"
@@ -149,6 +152,15 @@ const ServiceGrid: React.FC = () => {
                     allowFullScreen
                   ></iframe>
                 </div>
+                {/* <div className="aspect-w-16 aspect-h-9 mt-10">
+                  <iframe
+                    src="https://www.youtube.com/embed/ea3V9RyHDlA"
+                    title="YouTube video player"
+                    className="w-full h-[500px]"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                    allowFullScreen
+                  ></iframe>
+                </div> */}
               </div>
             </div>
           )}
