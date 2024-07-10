@@ -391,6 +391,7 @@
 
 //   @media (min-width: 768px) and (max-width: 1024px) {
 //     gap: 2rem;
+//     justify-content: space-evenly;
 //   }
 // `;
 
@@ -658,6 +659,7 @@
 // };
 
 // export default ExperienceMontenegro;
+
 "use client";
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
@@ -739,7 +741,7 @@ const ImageContainer = styled.div`
 
   @media (min-width: 768px) and (max-width: 1024px) {
     gap: 2rem;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 `;
 
@@ -749,7 +751,7 @@ const ImageWrapper = styled.div.withConfig({
   position: relative;
   margin: 2rem;
   flex: 1 1 300px;
-  max-width: 600px;
+  max-width: 300px;
   height: 400px;
   transition: transform 0.6s;
   transform-style: preserve-3d;
