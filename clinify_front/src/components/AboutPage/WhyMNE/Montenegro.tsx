@@ -378,7 +378,6 @@ const ImageContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   gap: 4rem;
-
   margin-top: 3rem;
 
   @media (max-width: 1200px) {
@@ -390,7 +389,7 @@ const ImageContainer = styled.div`
   }
 
   @media (min-width: 768px) and (max-width: 1024px) {
-    gap: 1.5rem;
+    gap: 2rem;
   }
 `;
 
@@ -399,7 +398,7 @@ const ImageWrapper = styled.div.withConfig({
 })<{ flipped: boolean }>`
   position: relative;
   margin: 2rem;
-  flex: 1 1 600px;
+  flex: 1 1 300px;
   max-width: 600px;
   height: 400px;
   transition: transform 0.6s;
