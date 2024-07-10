@@ -324,12 +324,8 @@ const Container = styled.div.attrs({
   margin-bottom: 0;
   padding: 4rem 0;
 
-  @media (max-width: 600px) {
+  @media (max-width: 1024px) {
     padding: 2rem 1rem;
-  }
-
-  @media (min-width: 768px) and (max-width: 1024px) {
-    padding: 3rem 2rem;
   }
 `;
 
@@ -340,16 +336,12 @@ const Heading = styled.h2`
   color: #ffffff;
   font-family: "Playfair Display", serif;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     font-size: 2.5rem;
   }
 
   @media (max-width: 600px) {
     font-size: 2rem;
-  }
-
-  @media (min-width: 768px) and (max-width: 1024px) {
-    font-size: 3rem;
   }
 `;
 
@@ -360,16 +352,12 @@ const Subheading = styled.h3`
   color: #ffffff;
   font-family: "Playfair Display", serif;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     font-size: 1.5rem;
   }
 
   @media (max-width: 600px) {
     font-size: 1.2rem;
-  }
-
-  @media (min-width: 768px) and (max-width: 1024px) {
-    font-size: 1.8rem;
   }
 `;
 
@@ -377,19 +365,12 @@ const ImageContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 4rem;
+  gap: 1.5rem;
   margin-top: 3rem;
 
-  @media (max-width: 1200px) {
-    gap: 2rem;
-  }
-
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
+    flex-direction: column;
     gap: 1rem;
-  }
-
-  @media (min-width: 768px) and (max-width: 1024px) {
-    gap: 2rem;
   }
 `;
 
@@ -397,7 +378,7 @@ const ImageWrapper = styled.div.withConfig({
   shouldForwardProp: (prop) => isPropValid(prop) && prop !== "flipped",
 })<{ flipped: boolean }>`
   position: relative;
-  margin: 2rem;
+  margin: 0;
   flex: 1 1 300px;
   max-width: 600px;
   height: 400px;
@@ -411,24 +392,13 @@ const ImageWrapper = styled.div.withConfig({
     transform: rotateY(180deg);
   `}
 
-  @media (max-width: 1200px) {
-    flex: 1 1 300px;
-    max-width: 300px;
-  }
-
-  @media (max-width: 768px) {
-    flex: 1 1 100%;
+  @media (max-width: 1024px) {
     max-width: 100%;
+    height: auto;
   }
 
   @media (max-width: 600px) {
     height: 300px;
-  }
-
-  @media (min-width: 768px) and (max-width: 1024px) {
-    flex: 1 1 45%;
-    max-width: 45%;
-    height: 400px;
   }
 `;
 
@@ -438,6 +408,10 @@ const Image = styled.img`
   border-radius: 10px;
   object-fit: cover;
   backface-visibility: hidden;
+
+  @media (max-width: 1024px) {
+    height: auto;
+  }
 `;
 
 const ImageBack = styled.div.attrs({
@@ -461,7 +435,7 @@ const ImageBack = styled.div.attrs({
   line-height: 1.5;
   font-size: 1rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     padding: 15px;
     font-size: 0.9rem;
   }
@@ -469,11 +443,6 @@ const ImageBack = styled.div.attrs({
   @media (max-width: 600px) {
     padding: 10px;
     font-size: 0.8rem;
-  }
-
-  @media (min-width: 768px) and (max-width: 1024px) {
-    padding: 15px;
-    font-size: 0.9rem;
   }
 `;
 
@@ -484,12 +453,12 @@ const Caption = styled.p`
   font-family: "Playfair Display", serif;
   color: #ffffff;
 
-  @media (max-width: 600px) {
-    font-size: 1.2rem;
+  @media (max-width: 1024px) {
+    font-size: 1.4rem;
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
-    font-size: 1.4rem;
+  @media (max-width: 600px) {
+    font-size: 1.2rem;
   }
 `;
 
@@ -517,7 +486,7 @@ const CTAButton = styled.div.attrs({
     padding: 0.8rem 1.6rem;
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (max-width: 1024px) {
     margin-top: 3rem;
     font-size: 1.4rem;
     padding: 0.9rem 1.8rem;
