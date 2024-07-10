@@ -309,7 +309,6 @@
 // };
 
 // export default ExperienceMontenegro;
-
 "use client";
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
@@ -324,9 +323,11 @@ const Container = styled.div.attrs({
   text-align: center;
   margin-bottom: 0;
   padding: 4rem 0;
+
   @media (max-width: 600px) {
     padding: 2rem 1rem;
   }
+
   @media (min-width: 768px) and (max-width: 1024px) {
     padding: 3rem 2rem;
   }
@@ -428,7 +429,7 @@ const ImageWrapper = styled.div.withConfig({
   @media (min-width: 768px) and (max-width: 1024px) {
     flex: 1 1 45%;
     max-width: 45%;
-    height: 350px;
+    height: 400px;
   }
 `;
 
