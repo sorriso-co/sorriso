@@ -215,7 +215,6 @@
 // };
 
 // export default MobileNav;
-
 import React, { useState } from "react";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
@@ -237,7 +236,7 @@ const MobileNav: React.FC<MobileNavProps> = ({ toggleMenu }) => {
   };
 
   return (
-    <div className="fixed inset-y-0 right-0 w-64 bg-teal-500 z-50 transition-transform duration-300 ease-in-out transform translate-x-0 md:hidden flex flex-col items-start justify-start shadow-lg">
+    <div className="fixed inset-y-0 right-0 w-64 bg-teal-500 z-50 transition-transform duration-300 ease-in-out transform translate-x-0 lg:hidden flex flex-col items-start justify-start shadow-lg">
       <div className="sticky top-0 w-full z-50 bg-teal-500 shadow-lg">
         <div className="flex justify-between items-center w-full px-4 py-3 border-b border-teal-700">
           <span className="text-2xl font-semibold text-white">
