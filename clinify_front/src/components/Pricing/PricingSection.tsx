@@ -16,7 +16,7 @@ const PricingSection: React.FC = () => {
     }, []);
 
     return (
-        <section className="bg-gradient-to-r from-blue-50 to-teal-100 p-4 sm:p-8 lg:p-10 overflow-x-hidden">
+        <section className="bg-gradient-to-r from-blue-50 to-teal-100 p-4 sm:p-8 lg:p-10 overflow--hidden">
             <div className="container mx-auto py-10 text-center">
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-teal-900" data-aos="fade-up">
                     {t('pricingSection.title')}

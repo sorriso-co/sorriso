@@ -19,7 +19,7 @@ const ContactUs = () => {
   const { t } = useTranslation('pricing');
 
   return (
-    <div className="bg-teal-300 py-16 relative overflow-x-hidden">
+    <div className="bg-teal-300 py-16 relative overflow-hidden">
       <div className="container mx-auto text-center relative z-10">
         <h2 className="text-4xl font-bold mb-4 text-white" data-aos="fade-up">
           {t('contactUs.title')}
