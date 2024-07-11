@@ -16,6 +16,107 @@ const Container = styled.div.attrs({
     padding: 2rem 1rem;
   }
 `;
+const ImageContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 3rem;
+
+  @media (max-width: 1200px) {
+    gap: 2rem; /* Reduced gap for medium screens */
+  }
+
+  @media (max-width: 992px) {
+    gap: 1rem; /* Further reduced gap for medium screens */
+  }
+
+  @media (max-width: 768px) {
+    gap: 0.5rem; /* Further reduced gap for smaller screens */
+  }
+`;
+
+const ImageWrapper = styled.div.withConfig({
+  shouldForwardProp: (prop) => isPropValid(prop) && prop !== "flipped",
+})<{ flipped: boolean }>`
+  position: relative;
+  margin: 2rem;
+  flex: 1 1 600px;
+  max-width: 600px;
+  height: 400px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+
+  ${({ flipped }) =>
+    flipped &&
+    `
+    transform: rotateY(180deg);
+  `}
+
+  @media (max-width: 1200px) {
+    flex: 1 1 450px; /* Increased width for medium screens */
+    max-width: 450px; /* Increased width for medium screens */
+    height: 450px; /* Increased height for medium screens */
+  }
+
+  @media (max-width: 992px) {
+    flex: 1 1 400px; /* Further increased width for smaller medium screens */
+    max-width: 400px; /* Further increased width for smaller medium screens */
+    height: 500px; /* Further increased height for smaller medium screens */
+  }
+
+  @media (max-width: 768px) {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  @media (max-width: 600px) {
+    height: 300px;
+  }
+`;
+
+const ImageBack = styled.div.attrs({
+  className: "bg-teal-900",
+})`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  padding: 20px;
+  color: white;
+  text-align: left;
+  font-family: "Georgia", serif;
+  line-height: 1.5;
+  font-size: 1rem;
+
+  @media (max-width: 1200px) {
+    padding: 18px; /* Adjusted padding for medium screens */
+    font-size: 0.95rem; /* Adjusted font size for medium screens */
+  }
+
+  @media (max-width: 992px) {
+    padding: 16px; /* Further adjusted padding for smaller medium screens */
+    font-size: 0.9rem; /* Further adjusted font size for smaller medium screens */
+  }
+
+  @media (max-width: 768px) {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 600px) {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+`;
 
 const Heading = styled.h2`
   font-size: 3.5rem;
@@ -49,55 +150,55 @@ const Subheading = styled.h3`
   }
 `;
 
-const ImageContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 4rem;
+// const ImageContainer = styled.div`
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   gap: 4rem;
 
-  margin-top: 3rem;
+//   margin-top: 3rem;
 
-  @media (max-width: 1200px) {
-    gap: 2rem;
-  }
+//   @media (max-width: 1200px) {
+//     gap: 2rem;
+//   }
 
-  @media (max-width: 768px) {
-    gap: 1rem;
-  }
-`;
+//   @media (max-width: 768px) {
+//     gap: 1rem;
+//   }
+// `;
 
-const ImageWrapper = styled.div.withConfig({
-  shouldForwardProp: (prop) => isPropValid(prop) && prop !== "flipped",
-})<{ flipped: boolean }>`
-  position: relative;
-  margin: 2rem;
-  flex: 1 1 600px;
-  max-width: 600px;
-  height: 400px;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  cursor: pointer;
+// const ImageWrapper = styled.div.withConfig({
+//   shouldForwardProp: (prop) => isPropValid(prop) && prop !== "flipped",
+// })<{ flipped: boolean }>`
+//   position: relative;
+//   margin: 2rem;
+//   flex: 1 1 600px;
+//   max-width: 600px;
+//   height: 400px;
+//   transition: transform 0.6s;
+//   transform-style: preserve-3d;
+//   cursor: pointer;
 
-  ${({ flipped }) =>
-    flipped &&
-    `
-    transform: rotateY(180deg);
-  `}
+//   ${({ flipped }) =>
+//     flipped &&
+//     `
+//     transform: rotateY(180deg);
+//   `}
 
-  @media (max-width: 1200px) {
-    flex: 1 1 300px;
-    max-width: 300px;
-  }
+//   @media (max-width: 1200px) {
+//     flex: 1 1 300px;
+//     max-width: 300px;
+//   }
 
-  @media (max-width: 768px) {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
+//   @media (max-width: 768px) {
+//     flex: 1 1 100%;
+//     max-width: 100%;
+//   }
 
-  @media (max-width: 600px) {
-    height: 300px;
-  }
-`;
+//   @media (max-width: 600px) {
+//     height: 300px;
+//   }
+// `;
 
 const Image = styled.img`
   width: 100%;
@@ -107,37 +208,37 @@ const Image = styled.img`
   backface-visibility: hidden;
 `;
 
-const ImageBack = styled.div.attrs({
-  className: "bg-teal-900",
-})`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  backface-visibility: hidden;
-  transform: rotateY(180deg);
-  padding: 20px;
-  color: white;
-  text-align: left;
-  font-family: "Georgia", serif;
-  line-height: 1.5;
-  font-size: 1rem;
+// const ImageBack = styled.div.attrs({
+//   className: "bg-teal-900",
+// })`
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   border-radius: 10px;
+//   backface-visibility: hidden;
+//   transform: rotateY(180deg);
+//   padding: 20px;
+//   color: white;
+//   text-align: left;
+//   font-family: "Georgia", serif;
+//   line-height: 1.5;
+//   font-size: 1rem;
 
-  @media (max-width: 768px) {
-    padding: 15px;
-    font-size: 0.9rem;
-  }
+//   @media (max-width: 768px) {
+//     padding: 15px;
+//     font-size: 0.9rem;
+//   }
 
-  @media (max-width: 600px) {
-    padding: 10px;
-    font-size: 0.8rem;
-  }
-`;
+//   @media (max-width: 600px) {
+//     padding: 10px;
+//     font-size: 0.8rem;
+//   }
+// `;
 
 const Caption = styled.p`
   margin-top: 1rem;
