@@ -64,7 +64,7 @@ const HowItWorks: React.FC = () => {
   }, []);
 
   return (
-    <div className="bg-teal-50 py-16 overflow-x-hidden" data-aos="fade-up">
+    <div className="bg-teal-50 py-16 overflow-hidden" data-aos="fade-up">
       <div className="container mx-auto px-4 lg:px-16 text-center">
         <h2
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-teal-600 mb-5"
