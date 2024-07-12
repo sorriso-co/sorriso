@@ -1,79 +1,75 @@
-import axiosInstance from '../utils/axios';
+import axios from 'axios';
 
-interface RegisterData {
-  name: string;
-  email: string;
-  age: string;
-  phone: string;
-  country: string;
-  city: string;
-  password: string;
-}
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
-interface LoginData {
-  email: string;
-  password: string;
-}
-
-interface PasswordChangeData {
-  old_password: string;
-  new_password: string;
-}
-
-// Login function
-export const login = async (credentials: LoginData) => {
-  try {
-    const response = await axiosInstance.post('/api/login', credentials);
-    return response.data;
-  } catch (error: any) {
-    throw new Error(error.response?.data?.detail || 'Login failed');
-  }
+export const registerUser = async (userData: { username: string; email: string; password: string }) => {
+    try {
+        const response = await axios.post(`${API_URL}/auth/register`, userData);
+        return response.data;
+    } catch (error: any) {
+        throw error.response.data;
+    }
 };
 
-// Register function
-export const register = async (userData: RegisterData) => {
-  try {
-    const response = await axiosInstance.post('/api/register', {
-      user: {
-        name: userData.name,
-        email: userData.email,
-        age: userData.age,
-        phone: userData.phone,
-        country: userData.country,
-        city: userData.city
-      },
-      password: userData.password
-    });
-    return response.data;
-  } catch (error: any) {
-    throw new Error(error.response?.data?.detail || 'Registration failed');
-  }
+export const loginUser = async (credentials: { username: string; password: string; remember_me: boolean }) => {
+    try {
+        const response = await axios.post(`${API_URL}/auth/login`, credentials);
+        return response.data;
+    } catch (error:any) {
+        throw error.response.data;
+    }
 };
 
-// Get current user function
-export const getUser = async (token: string) => {
-  try {
-    const response = await axiosInstance.get('/api/users/me', {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    });
-    return response.data;
-  } catch (error: any) {
-    throw new Error(error.response?.data?.detail || 'Failed to fetch user data');
-  }
+export const refreshToken = async (token: string) => {
+    try {
+        const response = await axios.post(`${API_URL}/auth/refresh`, { refresh_token: token });
+        return response.data;
+    } catch (error : any) {
+        throw error.response.data;
+    }
 };
 
-// Change password function
-export const changePassword = async (token: string, data: PasswordChangeData) => {
-  try {
-    const response = await axiosInstance.post('/api/change-password', data, {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    });
-    return response.data;
-  } catch (error: any) {
-    throw new Error(error.response?.data?.detail || 'Password change failed');
-  }
+export const logoutUser = async () => {
+    try {
+        const response = await axios.post(`${API_URL}/auth/logout`);
+        return response.data;
+    } catch (error : any) {
+        throw error.response.data;
+    }
+};
+
+export const requestPasswordReset = async (email: string) => {
+    try {
+        const response = await axios.post(`${API_URL}/auth/password-reset-request`, { email });
+        return response.data;
+    } catch (error : any) {
+        throw error.response.data;
+    }
+};
+
+export const confirmPasswordReset = async (data: { email: string; reset_code: string; new_password: string }) => {
+    try {
+        const response = await axios.post(`${API_URL}/auth/password-reset-confirm`, data);
+        return response.data;
+    } catch (error : any) {
+        throw error.response.data;
+    }
+};
+
+export const googleLogin = async () => {
+    try {
+        const response = await axios.get(`${API_URL}/auth/auth/google`);
+        return response.data;
+    } catch (error : any) {
+        throw error.response.data;
+    }
+};
+
+export const facebookLogin = async () => {
+    try {
+        const response = await axios.get(`${API_URL}/auth/auth/facebook`);
+        return response.data;
+    } catch (error : any) {
+        throw error.response.data;
+    }
 };

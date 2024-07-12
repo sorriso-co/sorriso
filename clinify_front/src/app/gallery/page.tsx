@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import GallerySection from "@/components/Gallery/Gallery";
+import GallerySection from "@/components/FrontPage/Gallery/Gallery";
 
 const Gallery = () => {
   return (

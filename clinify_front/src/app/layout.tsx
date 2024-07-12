@@ -1,55 +1,18 @@
-// "use client";
-// import React, { ReactNode } from "react";
-// import { Inter } from "next/font/google";
-// import { useTranslation } from "react-i18next";
-// import Header from "../components/Header/Header";
-// import Footer from "../components/Footer/Footer";
-// import "../i18n";
-// import "../styles/global.css";
-// import { SpeedInsights } from "@vercel/speed-insights/next";
-
-// const inter = Inter({ subsets: ["latin"] });
-
-// interface RootLayoutProps {
-//   children: ReactNode;
-// }
-
-// const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
-//   const { t } = useTranslation();
-
-//   return (
-//     <html lang="en" className={`${inter.className} h-full w-full`}>
-//       <head>
-//         <meta name="viewport" content="width=device-width, initial-scale=1" />
-//         <meta name="description" content={t("meta.description")} />
-//         <meta charSet="UTF-8" />
-//         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-//         <link rel="icon" href="/images/icons/icon.png" />
-//         <title>{t("meta.title")}</title>
-
-//       </head>
-//       <body className="max-w-screen w-full overflow-x-hidden h-full flex flex-col">
-//         <Header />
-//         <main className="flex-grow">{children}</main>
-//         <SpeedInsights />
-//         <Footer />
-//       </body>
-//     </html>
-//   );
-// };
-
-// export default RootLayout;
 "use client";
-import React, { ReactNode } from "react";
-import { Inter } from "next/font/google";
-import { useTranslation } from "react-i18next";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-import "../i18n";
-import "../styles/global.css";
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from "@vercel/analytics/react";
-const inter = Inter({ subsets: ["latin"] });
+
+import React, { ReactNode } from 'react';
+import { usePathname } from 'next/navigation';
+import { Inter } from 'next/font/google';
+import { useTranslation } from 'react-i18next';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
+import { LayoutProvider } from '../app/LayoutContext';
+import '../i18n';
+import '../styles/global.css';
+
+const inter = Inter({ subsets: ['latin'] });
 
 interface RootLayoutProps {
   children: ReactNode;
@@ -57,16 +20,22 @@ interface RootLayoutProps {
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   const { t } = useTranslation();
+  const pathname = usePathname();
+
+  // List of routes where layout should be disabled
+  const noLayoutRoutes = ['/sorriso/auth/login', '/sorriso/auth/register', '/sorriso/auth/change-password', '/sorriso/auth/confirm-password-change'];
+
+  const useLayout = !noLayoutRoutes.includes(pathname);
 
   return (
     <html lang="en" className={`${inter.className} h-full w-full`}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content={t("meta.description")} />
+        <meta name="description" content={t('meta.description')} />
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="icon" href="/images/icons/icon.png" />
-        <title>{t("meta.title")}</title>
+        <title>{t('meta.title')}</title>
         {/* Google tag (gtag.js) */}
         <script
           async
@@ -84,11 +53,19 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
         />
       </head>
       <body className="max-w-screen w-full overflow-x-hidden h-full flex flex-col">
-        <Header />
-        <main className="flex-grow">{children}</main>
-        <SpeedInsights />
-        <Analytics />
-        <Footer />
+        <LayoutProvider>
+          {useLayout ? (
+            <>
+              <Header />
+              <main className="flex-grow">{children}</main>
+              <Footer />
+            </>
+          ) : (
+            <main className="flex-grow">{children}</main>
+          )}
+          <SpeedInsights />
+          <Analytics />
+        </LayoutProvider>
       </body>
     </html>
   );
