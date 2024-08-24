@@ -8,7 +8,7 @@ import AOS from "aos";
 import { useTranslation } from "react-i18next";
 
 const AboutUs: React.FC = () => {
-  const { t } = useTranslation('about');
+  const { t } = useTranslation("about");
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -16,15 +16,15 @@ const AboutUs: React.FC = () => {
   return (
     <div className="relative min-h-screen overflow-hidden">
       <div className="absolute inset-0 h-full w-full">
-          <Image
-            src="/images/about_us_slide/tech.png"
-            alt="Background"
-            width={1920}
-            height={1080}
-            priority
-            className="object-cover z-0 w-full h-full"
-          />
-          <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
+        <Image
+          src="/images/about_us_slide/tech.webp"
+          alt="Background"
+          width={1920}
+          height={1080}
+          priority
+          className="object-cover z-0 w-full h-full"
+        />
+        <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
       </div>
 
       {/* Content */}
@@ -35,21 +35,21 @@ const AboutUs: React.FC = () => {
               className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold font-serif text-white drop-shadow-md transition-transform transform hover:scale-105 hover:text-gray-300"
               data-aos="fade-up"
             >
-              {t('about.advantages.first')}
+              {t("about.advantages.first")}
             </li>
             <li
               className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold font-serif text-white drop-shadow-md transition-transform transform hover:scale-105 hover:text-gray-300"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              {t('about.advantages.second')}
+              {t("about.advantages.second")}
             </li>
             <li
               className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold font-serif text-white drop-shadow-md transition-transform transform hover:scale-105 hover:text-gray-300"
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              {t('about.advantages.third')}
+              {t("about.advantages.third")}
             </li>
           </ul>
           <p
@@ -57,7 +57,7 @@ const AboutUs: React.FC = () => {
             data-aos="fade-up"
             data-aos-delay="600"
           >
-            {t('about.description')}
+            {t("about.description")}
           </p>
         </div>
       </div>

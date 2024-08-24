@@ -8,20 +8,16 @@ const TestimonialsHero = () => {
     <section className="bg-gradient-to-r from-teal-300 via-teal-200 to-blue-200 py-24 text-white p-8 rounded-t-[20px] relative overflow-hidden">
       <div className="container mx-auto text-center">
         <h1 className="text-4xl md:text-6xl font-serif font-bold mb-4">
-          {t("testimonialsHero.title", { defaultValue: "Our Satisfied Patients" })}
+          {t("testimonialsHero.title", {
+            defaultValue: "Our Satisfied Patients",
+          })}
         </h1>
         <p className="text-xl mb-6 font-serif">
-          {t("testimonialsHero.description", { defaultValue: "Hear from our patients about their experiences and the high-quality care they received." })}
+          {t("testimonialsHero.description", {
+            defaultValue:
+              "Hear from our patients about their experiences and the high-quality care they received.",
+          })}
         </p>
-        {/* <div className="relative w-full h-64 md:h-auto mx-auto mt-8">
-          <Image
-            src="/images/hero_testimonials.jpg"
-            alt="Satisfied Patients"
-            layout="fill"
-            objectFit="cover"
-            className="rounded-lg shadow-lg"
-          />
-        </div> */}
       </div>
       <div className="absolute bottom-0 left-0 w-full h-40 overflow-hidden leading-none">
         <svg
