@@ -7,7 +7,7 @@ import Image from "next/image";
 import { useTranslation } from "next-i18next";
 
 const ServiceHero: React.FC = () => {
-  const { t } = useTranslation('services');
+  const { t } = useTranslation("services");
 
   useEffect(() => {
     AOS.init({
@@ -26,20 +26,20 @@ const ServiceHero: React.FC = () => {
           data-aos="zoom-in-up"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif mb-4 text-white">
-            {t('serviceHero.title')}
+            {t("serviceHero.title")}
           </h1>
           <p className="text-lg md:text-xl max-w-2xl font-serif mx-auto md:mx-0 mb-8 text-teal-100">
-            {t('serviceHero.description')}
+            {t("serviceHero.description")}
           </p>
           <div className="flex justify-center md:justify-start space-x-4 mt-8">
             <Link href="/contact" passHref>
               <button className="font-serif bg-white text-teal-700 font-bold py-3 px-6 rounded-full shadow-md hover:bg-teal-100 transition-colors duration-300">
-                {t('serviceHero.ctaLearnMore')}
+                {t("serviceHero.ctaLearnMore")}
               </button>
             </Link>
             <Link href="/contact" passHref>
               <button className="font-serif bg-teal-700 text-white font-bold py-3 px-6 rounded-full shadow-md hover:bg-teal-600 transition-colors duration-300">
-                {t('serviceHero.ctaBookAppointment')}
+                {t("serviceHero.ctaBookAppointment")}
               </button>
             </Link>
           </div>
@@ -49,10 +49,10 @@ const ServiceHero: React.FC = () => {
           data-aos="zoom-in-up"
         >
           <Image
-            src="/images/about_us_slide/chair.png"
+            src="/images/about_us_slide/chair.webp"
             alt="Dental Services"
-            width={800} 
-            height={600} 
+            width={800}
+            height={600}
             priority
             className="rounded-lg shadow-lg max-w-full h-auto border-4 border-white transform hover:scale-105 transition-transform duration-500"
           />

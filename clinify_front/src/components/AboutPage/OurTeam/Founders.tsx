@@ -30,7 +30,7 @@ const Founders: React.FC = () => {
         >
           <div className="relative w-72 h-72">
             <Image
-              src="/images/Team/founders/ivan.jpeg"
+              src="/images/Team/founders/ivan.webp"
               alt="Ivan Cabrilo"
               width={300}
               height={300}
@@ -49,12 +49,12 @@ const Founders: React.FC = () => {
           className="flex flex-col items-center mb-5 group"
           data-aos="fade-left"
         >
-          <div className="relative w-75 h-68">
+          <div className="relative w-72 h-72">
             <Image
-              src="/images/Team/founders/filip.jpg"
+              src="/images/Team/founders/filip.webp"
               alt="Dr. Filip Sukovic med. dent."
-              width={275}
-              height={250}
+              width={300}
+              height={300}
               priority
               className="rounded-full shadow-lg transform transition-transform duration-300 group-hover:scale-110"
             />
@@ -73,7 +73,7 @@ const Founders: React.FC = () => {
         >
           <div className="relative w-72 h-72">
             <Image
-              src="/images/Team/founders/djole.jpeg"
+              src="/images/Team/founders/djole.webp"
               alt="Djordje Ivanovic"
               width={300}
               height={300}

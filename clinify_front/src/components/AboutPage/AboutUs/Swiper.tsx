@@ -9,12 +9,12 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const slides = [
-  { id: 1, src: "/images/about_us_slide/ars_technology.jpg" },
-  { id: 2, src: "/images/about_us_slide/program.png" },
-  { id: 5, src: "/images/about_us_slide/pc.png" },
-  { id: 3, src: "/images/about_us_slide/clinic.png" },
-  { id: 4, src: "/images/about_us_slide/chair.png" },
-  { id: 6, src: "/images/about_us_slide/waiting.jpeg" },
+  { id: 1, src: "/images/about_us_slide/ars_technology.webp" },
+  { id: 2, src: "/images/about_us_slide/program.webp" },
+  { id: 5, src: "/images/about_us_slide/pc.webp" },
+  { id: 3, src: "/images/about_us_slide/clinic.webp" },
+  { id: 4, src: "/images/about_us_slide/chair.webp" },
+  { id: 6, src: "/images/about_us_slide/waiting.webp" },
 ];
 
 const TestSwiper: React.FC = () => {
