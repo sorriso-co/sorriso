@@ -7,7 +7,7 @@ import Link from "next/link";
 import { useTranslation } from "next-i18next";
 
 const ExperienceSection: React.FC = () => {
-  const { t } = useTranslation('services');
+  const { t } = useTranslation("services");
 
   useEffect(() => {
     AOS.init({
@@ -24,22 +24,22 @@ const ExperienceSection: React.FC = () => {
           data-aos="fade-up"
         >
           <h2 className="text-4xl lg:text-5xl font-extrabold mb-4 text-teal-800">
-            {t('experienceSection.title')}
+            {t("experienceSection.title")}
           </h2>
           <p className="text-4xl lg:text-5xl font-extrabold mb-4 text-teal-800">
-            {t('experienceSection.experience')}
+            {t("experienceSection.experience")}
           </p>
           <p className="text-lg lg:text-xl text-teal-700 mb-6">
-            {t('experienceSection.description')}
+            {t("experienceSection.description")}
           </p>
           <p className="text-4xl lg:text-5xl font-extrabold text-teal-800 mb-2">
-            {t('experienceSection.satisfiedPatients')}
+            {t("experienceSection.satisfiedPatients")}
           </p>
           <p className="text-lg lg:text-xl text-teal-700 mb-6">
-            {t('experienceSection.satisfiedPatientsText')}
+            {t("experienceSection.satisfiedPatientsText")}
           </p>
           <button className="bg-teal-600 text-white py-3 px-6 rounded-lg hover:bg-teal-700 transition-colors">
-            <Link href="/experiences">{t('experienceSection.cta')}</Link>
+            <Link href="../gallery">{t("experienceSection.cta")}</Link>
           </button>
         </div>
         <div

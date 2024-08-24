@@ -23,28 +23,31 @@ const GallerySection = () => {
     "/images/services/teeth/example12.png",
     "/images/services/teeth/example13.png",
     "/images/services/teeth/example2.png",
+    // Add more image paths as needed
   ];
 
   return (
     <div className="bg-white py-16 w-full overflow-x-hidden">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-serif font-semibold mb-10 text-center text-teal-800">
-          {t("gallerySection.galleryTitle", { defaultValue: "Transformation Gallery" })}
+          {t("gallerySection.galleryTitle", {
+            defaultValue: "Transformation Gallery",
+          })}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {images.map((image, index) => (
             <div
-              className="gallery-item bg-white rounded-3xl shadow-lg overflow-hidden border-4 border-teal-800"
+              className="relative group bg-white rounded-lg shadow-md overflow-hidden border border-teal-500 p-2"
               data-aos="fade-up"
               key={index}
             >
-              <div className="relative group">
+              <div className="relative w-full h-48 sm:h-40 md:h-36 lg:h-32 xl:h-28 overflow-hidden">
                 <Image
                   src={image}
-                  alt={""}
-                  width={1000}
-                  height={800}
-                  className="object-cover rounded-3xl transition-transform transform group-hover:scale-105 duration-300"
+                  alt={`Transformation ${index + 1}`}
+                  layout="fill"
+                  objectFit="contain"
+                  className="transition-transform duration-300 ease-in-out transform group-hover:scale-105 rounded-lg"
                 />
               </div>
             </div>
