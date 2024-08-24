@@ -4,24 +4,28 @@ import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../MainPage/Language/LanguageSwitcher";
 
 const Slideshow: React.FC = () => {
-  const { t } = useTranslation('homepage');
+  const { t } = useTranslation("homepage");
 
   const slides = [
     {
-      image: "/images/slide_main/zastolicom.jpg",
-      text: t("slideshow.slide1", { defaultValue: "FREE Online Consultations" }),
+      image: "/images/slide_main/zastolicom.webp",
+      text: t("slideshow.slide1", {
+        defaultValue: "FREE Online Consultations",
+      }),
     },
     {
-      image: "/images/slide_main/zastolicom2.jpg",
+      image: "/images/slide_main/zastolicom2.webp",
       text: t("slideshow.slide2", { defaultValue: "Save up to 70%" }),
     },
     {
-      image: "/images/slide_main/operacija.jpg",
+      image: "/images/slide_main/operacija.webp",
       text: t("slideshow.slide3", { defaultValue: "Enjoy more" }),
     },
     {
-      image: "/images/slide_main/smile2.png",
-      text: t("slideshow.slide4", { defaultValue: "Spend Your Vacation Smiling" }),
+      image: "/images/slide_main/smile2.webp",
+      text: t("slideshow.slide4", {
+        defaultValue: "Spend Your Vacation Smiling",
+      }),
     },
   ];
 
@@ -31,12 +35,12 @@ const Slideshow: React.FC = () => {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 100) {
-       setShowLanguageSwitcher(false);
+        setShowLanguageSwitcher(false);
       } else {
-       setShowLanguageSwitcher(true);
+        setShowLanguageSwitcher(true);
       }
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
   }, []);
 
   useEffect(() => {
@@ -58,9 +62,9 @@ const Slideshow: React.FC = () => {
             }`}
             style={{
               backgroundImage: `url(${slide.image})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           >
             <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
