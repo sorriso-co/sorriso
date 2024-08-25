@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSmile,
@@ -9,7 +9,7 @@ import {
   faTeethOpen,
   faStar,
 } from "@fortawesome/free-solid-svg-icons";
-import { useTranslation } from "next-i18next";
+// import { useTranslation } from "next-i18next";
 import { Testimonial, Treatment } from "./types";
 
 const getTreatmentIcon = (treatment: Treatment) => {
@@ -32,7 +32,7 @@ const getTreatmentIcon = (treatment: Treatment) => {
 const TestimonialCard: React.FC<{ testimonial: Testimonial }> = ({
   testimonial,
 }) => {
-  const { t } = useTranslation("services");
+  // const { t } = useTranslation("services");
 
   return (
     <div className="bg-white rounded-3xl shadow-xl p-4 sm:p-8 flex flex-col md:flex-col lg:flex-row items-center space-y-6 md:space-y-6 lg:space-y-0 lg:space-x-8 transition-transform transform hover:scale-105 w-full h-auto">
