@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { FaInstagram } from "react-icons/fa";
+// import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../Footer/LangSwitch";
 
@@ -42,14 +42,14 @@ const Footer: React.FC = () => {
             <LanguageSwitcher />
           </div>
         </div>
-        <div className="mt-6 flex justify-center space-x-6">
-          {/* <Link
+        {/* <div className="mt-6 flex justify-center space-x-6">
+          <Link
             href={t('footer.facebook')}
             className="text-white hover:text-teal-300 transition-colors duration-200"
             aria-label="Facebook"
           >
             <FaFacebook size={24} />
-          </Link> */}
+          </Link> 
           <Link
             href={t("footer.instagram")}
             className="text-white hover:text-teal-300 transition-colors duration-200"
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
           >
             <FaInstagram size={24} />
           </Link>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
