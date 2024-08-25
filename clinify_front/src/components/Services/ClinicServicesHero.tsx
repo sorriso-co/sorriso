@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from "next-i18next";
 
 const ClinicServicesHero = () => {
   useEffect(() => {
@@ -13,23 +13,23 @@ const ClinicServicesHero = () => {
     });
   }, []);
 
-  const { t } = useTranslation('business');
+  const { t } = useTranslation("business");
 
   return (
     <div className="bg-gradient-to-br overflow-x-hidden from-teal-400 via-teal-300 to-teal-200 py-32 px-8 relative overflow-hidden">
       <div className="container mx-auto flex flex-col lg:flex-row items-center relative z-10">
         <div className="text-left lg:w-1/2" data-aos="fade-right">
           <h1 className="text-5xl lg:text-7xl font-serif font-bold mb-6 text-white leading-tight drop-shadow-lg">
-            {t('clinicServicesHero.title')}
+            {t("clinicServicesHero.title")}
           </h1>
           <p className="text-xl lg:text-3xl mb-8 font-serif text-white leading-relaxed drop-shadow-lg">
-            {t('clinicServicesHero.subtitle')}
+            {t("clinicServicesHero.subtitle")}
           </p>
           <Link
             href="/services"
             className="bg-white text-teal-600 font-bold py-4 px-10 rounded-full hover:bg-gray-100 transition-transform transform hover:scale-110 inline-block text-xl lg:text-2xl shadow-lg"
           >
-            {t('clinicServicesHero.cta')}
+            {t("clinicServicesHero.cta")}
           </Link>
         </div>
         <div
@@ -38,7 +38,7 @@ const ClinicServicesHero = () => {
         >
           <div className="relative w-96 h-96 lg:w-[550px] lg:h-[550px] rounded-full overflow-hidden shadow-2xl transform rotate-6">
             <Image
-              src="/images/Team/founders/filip.jpg"
+              src="/images/Team/founders/filip.webp"
               alt="Private Clinic Services"
               width={550}
               height={550}

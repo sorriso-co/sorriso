@@ -7,7 +7,6 @@ import ClinicServicesHero from "@/components/Services/ClinicServicesHero";
 import InternationalPatientWorkflow from "@/components/Services/OfferForClinics";
 import DataSpeaks from "@/components/Services/DataSpeaks";
 import WatchPromo from "@/components/Services/WatchPromo";
-import RootLayout from "../layout";
 
 export default function ClinicsPage() {
   useEffect(() => {
@@ -18,13 +17,11 @@ export default function ClinicsPage() {
   }, []);
 
   return (
-    <RootLayout title="Sorriso - Our Clinics">
-      <div className="overflow-x-hidden">
-        <ClinicServicesHero />
-        <InternationalPatientWorkflow />
-        <DataSpeaks />
-        <WatchPromo />
-      </div>
-    </RootLayout>
+    <div className="overflow-x-hidden">
+      <ClinicServicesHero />
+      <InternationalPatientWorkflow />
+      <DataSpeaks />
+      <WatchPromo />
+    </div>
   );
 }
