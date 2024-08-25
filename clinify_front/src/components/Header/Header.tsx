@@ -104,7 +104,7 @@ const Header: React.FC = () => {
               submenuClassName="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg"
               submenuItemClassName="block px-4 py-2 text-teal-700 hover:bg-teal-100"
             />
-            <NavbarItem
+            {/* <NavbarItem
               href="/clinics"
               text={t("header.menu.business")}
               submenu={[
@@ -120,7 +120,7 @@ const Header: React.FC = () => {
               className="relative px-4 py-2 text-teal-700 hover:text-teal-500 hover:-translate-y-1 transition-transform duration-300"
               submenuClassName="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg"
               submenuItemClassName="block px-4 py-2 text-teal-700 hover:bg-teal-100"
-            />
+            /> */}
             <NavbarItem
               href="/pricing"
               text={t("header.menu.pricing")}

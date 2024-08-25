@@ -158,7 +158,7 @@ const MobileNav: React.FC<MobileNavProps> = ({ toggleMenu }) => {
           </div>
         )}
       </div>
-      <div className="w-full">
+      {/* <div className="w-full">
         <div
           className="flex items-center justify-between w-full px-4 py-2 text-lg text-white cursor-pointer hover:bg-teal-600"
           onClick={() => handleSubmenuToggle("business")}
@@ -195,9 +195,9 @@ const MobileNav: React.FC<MobileNavProps> = ({ toggleMenu }) => {
             >
               {t("header.menu.business_submenu.for_affiliates")}
             </Link>
-          </div>
-        )}
-      </div>
+          </div> 
+        {/* )}
+      </div> */}
       <Link
         href="/pricing"
         className="block px-4 py-2 text-lg text-white hover:bg-teal-600 w-full"
