@@ -7,7 +7,7 @@
 // import "../i18n";
 // import "../styles/global.css";
 // import { SpeedInsights } from "@vercel/speed-insights/next";
-
+// import { Analytics } from "@vercel/analytics/react";
 // const inter = Inter({ subsets: ["latin"] });
 
 // interface RootLayoutProps {
@@ -26,12 +26,27 @@
 //         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 //         <link rel="icon" href="/images/icons/icon.png" />
 //         <title>{t("meta.title")}</title>
-
+//         {/* Google tag (gtag.js) */}
+//         <script
+//           async
+//           src="https://www.googletagmanager.com/gtag/js?id=G-M6K5YPE590"
+//         ></script>
+//         <script
+//           dangerouslySetInnerHTML={{
+//             __html: `
+//               window.dataLayer = window.dataLayer || [];
+//               function gtag(){dataLayer.push(arguments);}
+//               gtag('js', new Date());
+//               gtag('config', 'G-M6K5YPE590');
+//             `,
+//           }}
+//         />
 //       </head>
 //       <body className="max-w-screen w-full overflow-x-hidden h-full flex flex-col">
 //         <Header />
 //         <main className="flex-grow">{children}</main>
 //         <SpeedInsights />
+//         <Analytics />
 //         <Footer />
 //       </body>
 //     </html>
@@ -39,6 +54,7 @@
 // };
 
 // export default RootLayout;
+
 "use client";
 import React, { ReactNode } from "react";
 import { Inter } from "next/font/google";
@@ -49,13 +65,15 @@ import "../i18n";
 import "../styles/global.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
+
 const inter = Inter({ subsets: ["latin"] });
 
 interface RootLayoutProps {
   children: ReactNode;
+  title?: string;
 }
 
-const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
+const RootLayout: React.FC<RootLayoutProps> = ({ children, title }) => {
   const { t } = useTranslation();
 
   return (
@@ -66,7 +84,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="icon" href="/images/icons/icon.png" />
-        <title>{t("meta.title")}</title>
+        <title>{title || t("meta.title")}</title>
         {/* Google tag (gtag.js) */}
         <script
           async
