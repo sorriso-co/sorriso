@@ -7,7 +7,6 @@ import Mission from "@/components/AboutPage/AboutUs/Mission";
 const About = () => {
   return (
     <div>
-      <link rel="canonical" href="https://sorriso.care/about" />
       <AboutUs />
       <Mission />
       <YouTubeEmbed />
