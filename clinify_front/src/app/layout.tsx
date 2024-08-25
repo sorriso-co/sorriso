@@ -84,7 +84,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children, title }) => {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="icon" href="/images/icons/icon.png" />
-        <link rel="canonical" href="https://sorriso.care/" />
+        {/* <link rel="canonical" href="https://sorriso.care/" /> */}
         <title>{title || t("meta.title")}</title>
         {/* Google tag (gtag.js) */}
         <script
