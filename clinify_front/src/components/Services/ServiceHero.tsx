@@ -19,7 +19,7 @@ const ServiceHero: React.FC = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-r from-teal-700 via-teal-500 to-teal-200 text-white py-24 px-8 overflow-x-hidden rounded-lg mb-12 shadow-lg font-serif">
+    <div className="bg-gradient-to-r from-teal-700 via-teal-500 to-teal-200 text-white py-24 px-8 overflow-x-hidden rounded-lg  shadow-lg font-serif">
       <div className="container mx-auto flex flex-col md:flex-row items-center md:space-x-8">
         <div
           className="md:w-1/2 text-center md:text-left"

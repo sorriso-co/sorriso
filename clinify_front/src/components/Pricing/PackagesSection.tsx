@@ -20,9 +20,9 @@ interface TranslationProps {
 }
 
 const PackagesSection: React.FC = () => {
-  const { t } = useTranslation('pricing');
-  
-  const data: TranslationProps = t('packagesSection', { returnObjects: true });
+  const { t } = useTranslation("pricing");
+
+  const data: TranslationProps = t("packagesSection", { returnObjects: true });
 
   useEffect(() => {
     AOS.init({
@@ -35,7 +35,7 @@ const PackagesSection: React.FC = () => {
     <div className="bg-white py-10 sm:py-16 overflow-x-hidden">
       <div className="container mx-auto text-center font-serif px-4">
         <h2
-          className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-6 sm:mb-8 text-teal-700"
+          className="font-serif text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-6 sm:mb-8 text-teal-700"
           data-aos="fade-up"
         >
           {data.title}

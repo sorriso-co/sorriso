@@ -38,9 +38,11 @@ const ExperienceSection: React.FC = () => {
           <p className="text-lg lg:text-xl text-teal-700 mb-6">
             {t("experienceSection.satisfiedPatientsText")}
           </p>
-          <button className="bg-teal-600 text-white py-3 px-6 rounded-lg hover:bg-teal-700 transition-colors">
-            <Link href="../gallery">{t("experienceSection.cta")}</Link>
-          </button>
+          <Link href="../gallery">
+            <span className="bg-teal-600 text-white py-3 px-6 rounded-lg hover:bg-teal-700 transition-colors inline-block">
+              {t("experienceSection.cta")}
+            </span>
+          </Link>
         </div>
         <div
           className="flex justify-center lg:justify-end"
