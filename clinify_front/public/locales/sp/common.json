@@ -67,7 +67,7 @@
       "phone": "Teléfono",
       "message": "Mensaje",
       "messagePlaceholder": "Envíenos un mensaje describiendo sus preocupaciones dentales, expectativas o preguntas. Nos pondremos en contacto con usted lo antes posible.",
-      "upload": "Suba una imagen de sus dientes (opcional)",
+      "upload": "Suba X-ray imagen de sus dientes (opcional)",
       "send": "Enviar Mensaje",
       "success": "¡Correo electrónico enviado con éxito!",
       "failure": "Error al enviar el correo electrónico. Por favor, inténtelo de nuevo."

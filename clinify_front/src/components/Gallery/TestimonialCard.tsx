@@ -74,12 +74,12 @@ const TestimonialCard: React.FC<{ testimonial: Testimonial }> = ({
         <p className="text-base sm:text-xl font-serif text-gray-700 mb-4 overflow-hidden text-ellipsis">
           {testimonial.description}
         </p>
-        <Link
+        {/* <Link
           href={testimonial.videoLink}
           className="inline-block bg-teal-600 text-white text-base sm:text-xl font-serif font-bold py-2 sm:py-3 px-4 sm:px-8 rounded-full hover:bg-teal-700 transition-transform transform hover:scale-105"
         >
           {t("watchVideo", { defaultValue: "Watch Video" })}
-        </Link>
+        </Link> */}
       </div>
       {/* <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-auto lg:w-1/2">
         <BeforeAfter

@@ -63,7 +63,7 @@
       "phone": "Telefon",
       "message": "Nachricht",
       "messagePlaceholder": "Senden Sie uns eine Nachricht mit Ihren Zahnproblemen, Erwartungen oder Fragen. Wir werden uns so schnell wie möglich bei Ihnen melden.",
-      "upload": "Laden Sie ein Bild Ihrer Zähne hoch (optional)",
+      "upload": "Laden Sie X-ray Bild Ihrer Zähne hoch (optional)",
       "send": "Nachricht senden",
       "success": "E-Mail erfolgreich gesendet!",
       "failure": "E-Mail-Versand fehlgeschlagen. Bitte versuche es erneut."

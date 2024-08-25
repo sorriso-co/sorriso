@@ -17,7 +17,9 @@ const TestimonialsSection: React.FC = () => {
       country: t("countries.unitedStates", { defaultValue: "United States" }),
       countryFlag: "/images/flags/us.png",
       profileImage: "/images/people/emily.png",
-      treatment: t("treatments.hollywoodSmile", { defaultValue: "HOLLYWOOD SMILE" }),
+      treatment: t("treatments.hollywoodSmile", {
+        defaultValue: "HOLLYWOOD SMILE",
+      }),
       description: t("testimonials.sheilaPeterson.description"),
       videoLink: "/videos/taila_peters",
       beforeImage: "/images/before-after/pr1/prije.jpg",
@@ -29,7 +31,9 @@ const TestimonialsSection: React.FC = () => {
       country: t("countries.italy", { defaultValue: "Italy" }),
       countryFlag: "/images/flags/ita.svg",
       profileImage: "/images/people/italy.png",
-      treatment: t("treatments.dentalImplant", { defaultValue: "DENTAL IMPLANT" }),
+      treatment: t("treatments.dentalImplant", {
+        defaultValue: "DENTAL IMPLANT",
+      }),
       description: t("testimonials.lauraBastone.description"),
       videoLink: "/videos/sinisa",
       beforeImage: "/images/before-after/pr2/prije.jpg",
@@ -41,7 +45,9 @@ const TestimonialsSection: React.FC = () => {
       country: t("countries.montenegro", { defaultValue: "Montenegro" }),
       countryFlag: "/images/flags/mne.png",
       profileImage: "/images/people/sarah.png",
-      treatment: t("treatments.teethWhitening", { defaultValue: "TEETH WHITENING" }),
+      treatment: t("treatments.teethWhitening", {
+        defaultValue: "TEETH WHITENING",
+      }),
       description: t("testimonials.lelaKovacMajcevski.description"),
       videoLink: "/videos/lela_kovac_majcevski",
       beforeImage: "/images/before-after/pr3/prije.JPG",

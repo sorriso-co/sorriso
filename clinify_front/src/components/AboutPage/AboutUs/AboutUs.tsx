@@ -53,7 +53,7 @@ const AboutUs: React.FC = () => {
             </li>
           </ul>
           <p
-            className="mt-6 sm:mt-8 md:mt-10 lg:mt-12 xl:mt-14 2xl:mt-16 mb-4 sm:mb-6 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold leading-relaxed font-sans text-gray-100 transition-transform transform hover:translate-y-1 hover:text-gray-300"
+            className="mt-6 sm:mt-8 md:mt-10 lg:mt-12 xl:mt-14 2xl:mt-16 mb-4 sm:mb-6 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semi font-serif leading-relaxed font-sans text-gray-100 transition-transform transform hover:translate-y-1 hover:text-gray-300"
             data-aos="fade-up"
             data-aos-delay="600"
           >
