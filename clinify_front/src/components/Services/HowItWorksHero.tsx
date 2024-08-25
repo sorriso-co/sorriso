@@ -22,16 +22,16 @@ const HowItWorksHero: React.FC = () => {
       <div className="container mx-auto flex flex-col lg:flex-row items-center">
         <div className="text-left lg:w-1/2" data-aos="fade-right">
           <h1 className="text-6xl lg:text-8xl font-serif font-bold mb-4 text-white">
-            {t('howItWorksHero.title')}
+            {t("howItWorksHero.title")}
           </h1>
           <p className="text-2xl lg:text-4xl mb-6 font-serif text-white">
-            {t('howItWorksHero.description')}
+            {t("howItWorksHero.description")}
           </p>
           <Link
             href="/contact"
             className="bg-white text-teal-600 font-bold py-3 px-8 rounded-full hover:bg-teal transition-transform transform hover:scale-105 inline-block text-xl lg:text-2xl"
           >
-            {t('howItWorksHero.cta')}
+            {t("howItWorksHero.cta")}
           </Link>
         </div>
         <div

@@ -127,13 +127,13 @@ const MobileNav: React.FC<MobileNavProps> = ({ toggleMenu }) => {
             >
               {t("header.menu.services_submenu.our_services")}
             </Link>
-            <Link
+            {/* <Link
               href="/howitworks"
               className="block px-4 py-2 text-lg text-white hover:bg-teal-600"
               onClick={toggleMenu}
             >
               {t("header.menu.services_submenu.how_it_works")}
-            </Link>
+            </Link> */}
             <Link
               href="/procedures"
               className="block px-4 py-2 text-lg text-white hover:bg-teal-600"

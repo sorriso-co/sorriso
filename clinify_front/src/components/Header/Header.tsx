@@ -83,10 +83,10 @@ const Header: React.FC = () => {
                   href: "/services",
                   text: t("header.menu.services_submenu.our_services"),
                 },
-                {
-                  href: "/howitworks",
-                  text: t("header.menu.services_submenu.how_it_works"),
-                },
+                // {
+                //   href: "/howitworks",
+                //   text: t("header.menu.services_submenu.how_it_works"),
+                // },
                 {
                   href: "/procedures",
                   text: t("header.menu.services_submenu.treatments"),

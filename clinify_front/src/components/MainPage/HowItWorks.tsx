@@ -15,7 +15,7 @@ import "./CSS/custom-slick.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
-
+import Link from "next/link";
 const HowItWorks: React.FC = () => {
   const { t } = useTranslation("homepage");
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -170,7 +170,7 @@ const HowItWorks: React.FC = () => {
           )}
         </div>
         <button
-          className="bg-teal-600 hover:bg-teal-700 text-white py-3 px-8 rounded-full shadow-md transition duration-300 mt-8"
+          className="bg-teal-600 hover:bg-teal-700 font-sams font-semi text-white py-3 px-8 rounded-full shadow-md transition duration-300 mt-8"
           onClick={toggleModal}
           data-aos="fade-up"
         >
@@ -200,6 +200,15 @@ const HowItWorks: React.FC = () => {
                   allowFullScreen
                 ></iframe>
               </div>
+              <Link href="/howitworks">
+                <button
+                  className="bg-teal-600 hover:bg-teal-700 text-white py-3 px-8 rounded-full shadow-md transition duration-300 mt-8"
+                  onClick={toggleModal}
+                  data-aos="fade-up"
+                >
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
         )}
