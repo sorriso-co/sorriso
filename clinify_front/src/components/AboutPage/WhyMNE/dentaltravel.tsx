@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 
 const DentalTravelIntro: React.FC = () => {
-  const { t } = useTranslation('about');
+  const { t } = useTranslation("about");
 
   useEffect(() => {
     AOS.init({
@@ -29,21 +29,21 @@ const DentalTravelIntro: React.FC = () => {
         >
           <div className="md:w-1/2">
             <h2 className="text-4xl md:text-5xl font-semibold text-teal-600 mb-6 md:mb-10 font-serif">
-              {t('dentalTravelIntro.title')}
+              {t("dentalTravelIntro.title")}
             </h2>
             <p className="text-gray-600 text-lg md:text-2xl mb-6 md:mb-10 font-serif font-light">
-              {t('dentalTravelIntro.description')}
+              {t("dentalTravelIntro.description")}
             </p>
             <Link href="/contact">
               <button className="bg-teal-500 font-serif font-bold text-white text-md md:text-xl px-6 py-3 rounded-md shadow-md hover:bg-teal-600 transition duration-300 transform hover:scale-105">
-                {t('dentalTravelIntro.buttonText')}
+                {t("dentalTravelIntro.buttonText")}
               </button>
             </Link>
           </div>
           <div className="mt-8 md:mt-0 md:ml-10 md:w-1/2" data-aos="fade-left">
             <div className="relative rounded-lg shadow-lg overflow-hidden">
               <Image
-                src="/images/mne/blue-cave.jpeg"
+                src="/images/mne/blue-cave.webp"
                 alt="Montenegro landscape"
                 width={600}
                 height={400}
@@ -59,7 +59,7 @@ const DentalTravelIntro: React.FC = () => {
                         className="w-8 h-8 mb-2 md:w-12 md:h-12"
                       />
                       <span className="text-sm font-serif">
-                        {t('dentalTravelIntro.travel')}
+                        {t("dentalTravelIntro.travel")}
                       </span>
                     </div>
                   </Link>
@@ -70,7 +70,7 @@ const DentalTravelIntro: React.FC = () => {
                         className="w-8 h-8 mb-2 md:w-12 md:h-12"
                       />
                       <span className="text-sm font-serif">
-                        {t('dentalTravelIntro.accommodation')}
+                        {t("dentalTravelIntro.accommodation")}
                       </span>
                     </div>
                   </Link>
@@ -81,7 +81,7 @@ const DentalTravelIntro: React.FC = () => {
                         className="w-8 h-8 mb-2 md:w-12 md:h-12"
                       />
                       <span className="text-sm font-serif">
-                        {t('dentalTravelIntro.sightseeing')}
+                        {t("dentalTravelIntro.sightseeing")}
                       </span>
                     </div>
                   </Link>

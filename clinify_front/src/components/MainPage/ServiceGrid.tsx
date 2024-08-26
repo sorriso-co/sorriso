@@ -21,35 +21,35 @@ const ServiceGrid: React.FC = () => {
 
   const services: Service[] = [
     {
-      icon: "/images/service-grid/general-dent.png",
+      icon: "/images/service-grid/general-dent.webp",
       title: t("serviceGrid.services.0.title"),
     },
     {
-      icon: "/images/service-grid/dental-implant.png",
+      icon: "/images/service-grid/dental-implant.webp",
       title: t("serviceGrid.services.1.title"),
     },
     {
-      icon: "/images/service-grid/dental-crown.png",
+      icon: "/images/service-grid/dental-crown.webp",
       title: t("serviceGrid.services.2.title"),
     },
     {
-      icon: "/images/service-grid/dental-surgery.png",
+      icon: "/images/service-grid/dental-surgery.webp",
       title: t("serviceGrid.services.3.title"),
     },
     {
-      icon: "/images/service-grid/tooth-whitening.png",
+      icon: "/images/service-grid/tooth-whitening.webp",
       title: t("serviceGrid.services.4.title"),
     },
     {
-      icon: "/images/service-grid/protection.png",
+      icon: "/images/service-grid/protection.webp",
       title: t("serviceGrid.services.5.title"),
     },
     {
-      icon: "/images/service-grid/perio.png",
+      icon: "/images/service-grid/perio.webp",
       title: t("serviceGrid.services.6.title"),
     },
     {
-      icon: "/images/service-grid/radio.png",
+      icon: "/images/service-grid/radio.webp",
       title: t("serviceGrid.services.7.title"),
     },
   ];

@@ -16,7 +16,7 @@ const TestimonialsSection: React.FC = () => {
       age: 44,
       country: t("countries.unitedStates", { defaultValue: "United States" }),
       countryFlag: "/images/flags/us.png",
-      profileImage: "/images/people/emily.png",
+      profileImage: "/images/people/emily.webp",
       treatment: t("treatments.hollywoodSmile", {
         defaultValue: "HOLLYWOOD SMILE",
       }),
@@ -30,7 +30,7 @@ const TestimonialsSection: React.FC = () => {
       age: 32,
       country: t("countries.italy", { defaultValue: "Italy" }),
       countryFlag: "/images/flags/ita.svg",
-      profileImage: "/images/people/italy.png",
+      profileImage: "/images/people/italy.webp",
       treatment: t("treatments.dentalImplant", {
         defaultValue: "DENTAL IMPLANT",
       }),
@@ -44,7 +44,7 @@ const TestimonialsSection: React.FC = () => {
       age: 49,
       country: t("countries.montenegro", { defaultValue: "Montenegro" }),
       countryFlag: "/images/flags/mne.png",
-      profileImage: "/images/people/sarah.png",
+      profileImage: "/images/people/sarah.webp",
       treatment: t("treatments.teethWhitening", {
         defaultValue: "TEETH WHITENING",
       }),
@@ -58,7 +58,7 @@ const TestimonialsSection: React.FC = () => {
       age: 27,
       country: t("countries.australia", { defaultValue: "Australia" }),
       countryFlag: "/images/flags/a.svg",
-      profileImage: "/images/people/merima.jpeg",
+      profileImage: "/images/people/merima.webp",
       treatment: t("treatments.orthodontics", { defaultValue: "ORTHODONTICS" }),
       description: t("testimonials.marryDianaJones.description"),
       videoLink: "/videos/merim_djukic",
