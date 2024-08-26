@@ -23,12 +23,11 @@ const GallerySection = () => {
     "/images/services/teeth/example12.png",
     "/images/services/teeth/example13.png",
     "/images/services/teeth/example2.png",
-    // Add more image paths as needed
   ];
 
   return (
     <div className="bg-white py-16 w-full overflow-x-hidden">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 overflow-x-hidden">
         <h2 className="text-4xl font-serif font-semibold mb-10 text-center text-teal-800">
           {t("gallerySection.galleryTitle", {
             defaultValue: "Transformation Gallery",
