@@ -21,7 +21,13 @@
 
 // export default nextConfig;
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-};
+// next.config.js
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+});
 
-export default nextConfig;
+module.exports = withBundleAnalyzer({
+  // Other Next.js config options can go here
+  reactStrictMode: true,  // Example config option
+  // Add more options as needed
+});
