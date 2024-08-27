@@ -186,20 +186,28 @@ const Slideshow: React.FC = () => {
   const slides = [
     {
       image: "/images/slide_main/zastolicom.webp",
+      imageSmall: "/images/slide_main/zastolicom-small.webp",
+      imageMedium: "/images/slide_main/zastolicom-medium.webp",
       text: t("slideshow.slide1", {
         defaultValue: "FREE Online Consultations",
       }),
     },
     {
       image: "/images/slide_main/zastolicom2.webp",
+      imageSmall: "/images/slide_main/zastolicom2-small.webp",
+      imageMedium: "/images/slide_main/zastolicom2-medium.webp",
       text: t("slideshow.slide2", { defaultValue: "Save up to 70%" }),
     },
     {
       image: "/images/slide_main/operacija.webp",
+      imageSmall: "/images/slide_main/operacija-small.webp",
+      imageMedium: "/images/slide_main/operacija-medium.webp",
       text: t("slideshow.slide3", { defaultValue: "Enjoy more" }),
     },
     {
       image: "/images/slide_main/smile2.webp",
+      imageSmall: "/images/slide_main/smile2-small.webp",
+      imageMedium: "/images/slide_main/smile2-medium.webp",
       text: t("slideshow.slide4", {
         defaultValue: "Spend Your Vacation Smiling",
       }),
@@ -259,6 +267,16 @@ const Slideshow: React.FC = () => {
               backgroundRepeat: "no-repeat",
             }}
           >
+            <picture>
+              <source
+                srcSet={`${slide.imageSmall} 480w, ${slide.imageMedium} 800w, ${slide.image} 1200w`}
+              />
+              <img
+                src={slide.image}
+                alt={slide.text}
+                className="w-full h-full object-cover"
+              />
+            </picture>
             <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
             <div className="absolute inset-0 flex items-end justify-center pb-10 sm:pb-16 md:pb-20 lg:pb-32 xl:pb-36">
               <h1 className="text-sm sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white font-bold p-4 text-center">
