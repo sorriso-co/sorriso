@@ -26,6 +26,12 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="icon" href="/images/icons/icon.png" />
         <link rel="canonical" href="https://sorriso.care/" />
+        {/* Preload the first image to improve LCP */}
+        <link
+          rel="preload"
+          href="/images/slide_main/zastolicom.webp"
+          as="image"
+        />
         <title>{t("meta.title")}</title>
         {/* Google tag (gtag.js) */}
         <script
