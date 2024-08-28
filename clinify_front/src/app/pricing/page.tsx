@@ -3,16 +3,14 @@ import Comparison from "../../components/Pricing/Comparison";
 import Treatments from "../../components/Pricing/TreatmentsListPrices";
 import PricingSection from "@/components/Pricing/PricingSection";
 import ContactUs from "@/components/Pricing/ReachOut";
-import CompetitiveAdvantage from "@/components/Pricing/CompetitiveAdvantage";
 
 const PricingPage = () => {
   return (
     <section className="overflow-x-hidden">
       <div className="mx-auto">
         <Hero />
-        <Comparison />
-        <CompetitiveAdvantage />
         <PricingSection />
+        <Comparison />
       </div>
       <div className="relative rounded-t-[30px] rounded-b-[30px] bg-white overflow-x-hidden text-teal-900">
         <div className="container mx-auto px-4 pt-16">

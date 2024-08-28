@@ -1,6 +1,5 @@
 "use client";
 import Intro from "../components/MainPage/Intro";
-import Pricing from "../components/MainPage/Pricing";
 import Slideshow from "../components/MainPage/Slideshow";
 import ServiceGrid from "@/components/MainPage/ServiceGrid";
 import HowItWorks from "@/components/MainPage/HowItWorks";
@@ -14,7 +13,6 @@ const Home: React.FC = () => {
       <Intro />
       <HowItWorks />
       <ServiceGrid />
-      <Pricing />
       <HaveItAll />
     </div>
   );
