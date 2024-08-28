@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 import React, { useState } from "react";
 
@@ -61,7 +60,7 @@ const PriceCard: React.FC<PriceCardProps> = ({
               <img
                 src={item.flag}
                 alt={item.country}
-                className="ml-2 w-5 h-5"
+                className="ml-2 w-6 h-4 object-contain"
               />
             </span>
             <span className="font-bold">{item.price}</span>
