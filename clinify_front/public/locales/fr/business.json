@@ -113,7 +113,7 @@
         "contactEmail": "contact@sorriso.care",
         "cards": {
           "card1": {
-            "title": "Paiements jusqu'à 500 $",
+            "title": "Paiements jusqu'à 500 €",
             "description": "Gagnez une commission par patient référé qui complète la procédure."
           },
           "card2": {
@@ -207,7 +207,7 @@
         {
           "icon": "FaDollarSign",
           "title": "Commissions Générèses",
-          "description": "Gagnez 200 $ de commission par personne référée qui termine une procédure. Profitez des primes basées sur la performance et des revenus élevés."
+          "description": "Gagnez 200 € de commission par personne référée qui termine une procédure. Profitez des primes basées sur la performance et des revenus élevés."
         }
       ],
       "ctaButton": "Inscrivez-vous maintenant"

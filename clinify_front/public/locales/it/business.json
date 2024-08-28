@@ -113,7 +113,7 @@
       "contactEmail": "contact@sorriso.care",
       "cards": {
         "card1": {
-          "title": "Pagamenti fino a 500 $",
+          "title": "Pagamenti fino a 500 €",
           "description": "Guadagna una commissione per ogni paziente riferito che completa la procedura."
         },
         "card2": {
@@ -207,7 +207,7 @@
       {
         "icon": "FaDollarSign",
         "title": "Commissioni Generose",
-        "description": "Guadagna $200 di commissione per ogni persona referenziata che completa una procedura. Goditi bonus basati sulle prestazioni e alti guadagni."
+        "description": "Guadagna €200 di commissione per ogni persona referenziata che completa una procedura. Goditi bonus basati sulle prestazioni e alti guadagni."
       }
     ],
     "ctaButton": "Iscriviti Ora"

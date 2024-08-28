@@ -113,7 +113,7 @@
         "contactEmail": "contact@sorriso.care",
         "cards": {
           "card1": {
-            "title": "Pagos de hasta $500",
+            "title": "Pagos de hasta €500",
             "description": "Gane una comisión por cada paciente referido que complete el procedimiento."
           },
           "card2": {
@@ -207,7 +207,7 @@
         {
           "icon": "FaDollarSign",
           "title": "Comisiones Generosas",
-          "description": "Gana una comisión de $200 por cada persona referida que complete un procedimiento. Disfruta de bonificaciones basadas en el rendimiento y altos ingresos."
+          "description": "Gana una comisión de €200 por cada persona referida que complete un procedimiento. Disfruta de bonificaciones basadas en el rendimiento y altos ingresos."
         }
       ],
       "ctaButton": "Regístrate Ahora"

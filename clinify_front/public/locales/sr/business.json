@@ -113,7 +113,7 @@
     "contactEmail": "contact@sorriso.care",
     "cards": {
       "card1": {
-        "title": "Isplate do 500 $",
+        "title": "Isplate do 500 €",
         "description": "Zaradite proviziju po preporučenom pacijentu koji završi proceduru."
       },
       "card2": {
@@ -207,7 +207,7 @@
       {
         "icon": "FaDollarSign",
         "title": "Velike provizije",
-        "description": "Zaradite do $500 provizije po osobi koju preporučite i koja završi proceduru. Uživajte u bonusima zasnovanim na učinku i visokim prihodima."
+        "description": "Zaradite do €500 provizije po osobi koju preporučite i koja završi proceduru. Uživajte u bonusima zasnovanim na učinku i visokim prihodima."
       }
     ],
     "ctaButton": "Prijavite se sada"

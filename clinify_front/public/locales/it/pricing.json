@@ -405,7 +405,7 @@
     }
   },
   "treatment": "Trattamento",
-  "price": "Prezzo ($)",
+  "price": "Prezzo (€)",
   "savings": "Risparmio (%)",
   "clickForOptions": "Clicca per opzioni",
   "close": "Chiudi",
@@ -417,7 +417,7 @@
     "description": "Sorriso offre pacchetti completi per i trattamenti dentali in Montenegro. Scegli il pacchetto che soddisfa le tue esigenze. Scegli la qualità, scegli Sorriso.",
     "packages": [
       {
-        "price": "$1,100",
+        "price": "€1,100",
         "title": "Procedura Minore",
         "description": "Uno o più impianti; un breve soggiorno di 3 giorni in Montenegro.",
         "features": [
@@ -428,7 +428,7 @@
         ]
       },
       {
-        "price": "$5,300",
+        "price": "€5,300",
         "title": "Trattamento Standard",
         "description": "Più impianti o un ponte; viaggio in Montenegro.",
         "features": [
@@ -439,7 +439,7 @@
         ]
       },
       {
-        "price": "$10,000",
+        "price": "€10,000",
         "title": "Pacchetto Dentale Completo",
         "description": "Una ristrutturazione dentale completa; un viaggio di 5 a 7 giorni.",
         "features": [

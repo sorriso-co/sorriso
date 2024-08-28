@@ -113,7 +113,7 @@
     "contactEmail": "contact@sorriso.care",
     "cards": {
       "card1": {
-        "title": "Payouts up to $500",
+        "title": "Payouts up to €500",
         "description": "Earn a commission per referred patient who completes the procedure."
       },
       "card2": {
@@ -207,7 +207,7 @@
       {
         "icon": "FaDollarSign",
         "title": "Generous Commissions",
-        "description": "Earn $200 commission per referred person who completes a procedure. Enjoy performance-based bonuses and high earnings."
+        "description": "Earn €200 commission per referred person who completes a procedure. Enjoy performance-based bonuses and high earnings."
       }
     ],
     "ctaButton": "Sign Up Now"

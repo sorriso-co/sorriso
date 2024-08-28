@@ -113,7 +113,7 @@
     "contactEmail": "contact@sorriso.care",
     "cards": {
       "card1": {
-        "title": "Auszahlungen bis zu 500 $",
+        "title": "Auszahlungen bis zu 500 €",
         "description": "Verdienen Sie eine Provision pro geworbenen Patienten, der das Verfahren abschließt."
       },
       "card2": {
@@ -207,7 +207,7 @@
       {
         "icon": "FaDollarSign",
         "title": "Großzügige Provisionen",
-        "description": "Verdienen Sie $200 Provision für jede vermittelte Person, die ein Verfahren abschließt. Genießen Sie leistungsbasierte Boni und hohe Einnahmen."
+        "description": "Verdienen Sie €200 Provision für jede vermittelte Person, die ein Verfahren abschließt. Genießen Sie leistungsbasierte Boni und hohe Einnahmen."
       }
     ],
     "ctaButton": "Jetzt anmelden"
