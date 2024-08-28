@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import HowItWorksHero from "../../components/Services/HowItWorksHero";
 import {
   FaPhoneAlt,
@@ -8,7 +8,6 @@ import {
   FaHotel,
   FaTooth,
   FaRegSmile,
-  FaPlay,
 } from "react-icons/fa";
 import Link from "next/link";
 import AOS from "aos";
@@ -38,21 +37,16 @@ const iconMapping = {
 };
 
 const HowItWorks: React.FC = () => {
-  const { t } = useTranslation('services');
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const { t } = useTranslation("services");
 
   // Map JSON step data to Step interface
-  const steps: Step[] = (t('howItWorks.steps', { returnObjects: true }) as StepData[]).map(
-    (step: StepData) => ({
-      title: step.title,
-      description: step.description,
-      icon: iconMapping[step.icon],
-    })
-  );
-
-  const toggleModal = () => {
-    setIsModalOpen(!isModalOpen);
-  };
+  const steps: Step[] = (
+    t("howItWorks.steps", { returnObjects: true }) as StepData[]
+  ).map((step: StepData) => ({
+    title: step.title,
+    description: step.description,
+    icon: iconMapping[step.icon],
+  }));
 
   useEffect(() => {
     AOS.init({
@@ -67,10 +61,10 @@ const HowItWorks: React.FC = () => {
       <div className="py-20 sm:py-40 bg-white">
         <div className="container mx-auto text-center mb-12 px-4">
           <h2 className="text-4xl sm:text-5xl lg:text-7xl font-serif font-semibold text-teal-800">
-            {t('howItWorks.title')}
+            {t("howItWorks.title")}
           </h2>
           <p className="text-lg sm:text-xl lg:text-3xl font-serif text-teal-600 mt-4">
-            {t('howItWorks.description')}
+            {t("howItWorks.description")}
           </p>
         </div>
         <div className="container mx-auto">
@@ -97,7 +91,7 @@ const HowItWorks: React.FC = () => {
               </div>
             </div>
           ))}
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <button
               className="bg-teal-600 hover:bg-teal-700 text-white py-2 px-4 sm:py-3 sm:px-6 lg:py-4 lg:px-8 rounded-full shadow-md transition duration-300 mt-8 flex items-center justify-center mx-auto text-lg sm:text-xl lg:text-2xl"
               onClick={toggleModal}
@@ -125,26 +119,26 @@ const HowItWorks: React.FC = () => {
                 </div>
               </div>
             )}
-          </div>
-          <div className="text-center mt-16 px-4">
+          </div> */}
+          <div className="text-center mt-20 px-4">
             <h3 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-teal-800 mb-6">
-              {t('howItWorks.readyTitle')}
+              {t("howItWorks.readyTitle")}
             </h3>
             <p className="text-lg sm:text-xl lg:text-2xl font-serif text-gray-600 mb-8">
-              {t('howItWorks.readyDescription')}
+              {t("howItWorks.readyDescription")}
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
               <Link
                 href="/contact"
                 className="inline-block bg-teal-600 text-white py-2 px-6 sm:py-3 sm:px-8 rounded-lg hover:bg-teal-700 transition-colors text-lg sm:text-xl lg:text-2xl"
               >
-                {t('howItWorks.contactUs')}
+                {t("howItWorks.contactUs")}
               </Link>
               <Link
                 href="/contact"
                 className="inline-block bg-teal-800 text-white py-2 px-6 sm:py-3 sm:px-8 font-serif rounded-lg hover:bg-gray-700 transition-colors text-lg sm:text-xl lg:text-2xl"
               >
-                {t('howItWorks.scheduleAppointment')}
+                {t("howItWorks.scheduleAppointment")}
               </Link>
             </div>
           </div>

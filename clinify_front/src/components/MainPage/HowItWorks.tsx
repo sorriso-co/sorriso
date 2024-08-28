@@ -7,6 +7,7 @@ import {
   FaPlane,
   FaTooth,
   FaSmile,
+  FaPlay,
 } from "react-icons/fa";
 import Step from "./Step";
 import "slick-carousel/slick/slick.css";
@@ -16,6 +17,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
+
 const HowItWorks: React.FC = () => {
   const { t } = useTranslation("homepage");
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -169,49 +171,46 @@ const HowItWorks: React.FC = () => {
             </Slider>
           )}
         </div>
-        <button
-          className="bg-teal-600 hover:bg-teal-700 font-sams font-semi text-white py-3 px-8 rounded-full shadow-md transition duration-300 mt-8"
-          onClick={toggleModal}
-          data-aos="fade-up"
-        >
-          {t("howItWorks.buttonText", { defaultValue: "Watch Now" })}
-        </button>
-        {isModalOpen && (
-          <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75">
-            <div
-              className="bg-white rounded-lg p-8 w-full max-w-2xl relative shadow-xl"
-              data-aos="zoom-in"
-            >
-              <button
-                onClick={toggleModal}
-                className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 text-3xl"
-              >
-                &times;
-              </button>
-              <div
-                className="relative"
-                style={{ paddingBottom: "56.25%", height: 0 }}
-              >
-                <iframe
-                  src="https://www.youtube.com/embed/CoucS-fy2FI?si=qt3GdS64rwl0elN2&start=2"
-                  title="YouTube video player"
-                  className="absolute top-0 left-0 w-full h-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <Link href="/howitworks">
+        <div className="text-center mt-12">
+          <button
+            className="bg-teal-600 hover:bg-teal-700 text-white py-2 px-6 rounded-full shadow-md transition duration-300 mt-8 flex items-center justify-center mx-auto"
+            onClick={toggleModal}
+          >
+            <FaPlay className="mr-2" /> {t("serviceGrid.buttonText")}
+          </button>
+          {isModalOpen && (
+            <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75">
+              <div className="bg-white rounded-lg p-8 w-full max-w-5xl relative shadow-xl">
                 <button
-                  className="bg-teal-600 hover:bg-teal-700 text-white py-3 px-8 rounded-full shadow-md transition duration-300 mt-8"
                   onClick={toggleModal}
-                  data-aos="fade-up"
+                  className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 text-3xl"
                 >
-                  Learn More
+                  &times;
                 </button>
-              </Link>
+                <div
+                  className="relative"
+                  style={{ paddingBottom: "56.25%", height: 0 }}
+                >
+                  <iframe
+                    src="https://www.youtube.com/embed/CoucS-fy2FI?si=qt3GdS64rwl0elN2&start=2"
+                    title="YouTube video player"
+                    className="absolute top-0 left-0 w-full h-full"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <Link href="/howitworks">
+                  <button
+                    className="bg-teal-600 hover:bg-teal-700 text-white py-3 px-8 rounded-full shadow-md transition duration-300 mt-8"
+                    onClick={toggleModal}
+                    data-aos="fade-up"
+                  >
+                    Learn More
+                  </button>
+                </Link>
+              </div>
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );
