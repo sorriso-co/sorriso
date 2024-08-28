@@ -6,14 +6,27 @@ import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import Image from "next/image";
 import "aos/dist/aos.css";
-import { FaMicroscope, FaUserMd, FaHeartbeat, FaStethoscope } from "react-icons/fa";
+import {
+  FaMicroscope,
+  FaUserMd,
+  FaHeartbeat,
+  FaStethoscope,
+} from "react-icons/fa";
 import { useTranslation } from "next-i18next";
 
 const iconMapping = {
-  FaMicroscope: <FaMicroscope className="text-teal-700 mr-2 sm:mr-4 text-2xl sm:text-4xl" />,
-  FaUserMd: <FaUserMd className="text-teal-700 mr-2 sm:mr-4 text-2xl sm:text-4xl" />,
-  FaHeartbeat: <FaHeartbeat className="text-teal-700 mr-2 sm:mr-4 text-2xl sm:text-4xl" />,
-  FaStethoscope: <FaStethoscope className="text-teal-700 mr-2 sm:mr-4 text-2xl sm:text-4xl" />
+  FaMicroscope: (
+    <FaMicroscope className="text-teal-700 mr-2 sm:mr-4 text-2xl sm:text-4xl" />
+  ),
+  FaUserMd: (
+    <FaUserMd className="text-teal-700 mr-2 sm:mr-4 text-2xl sm:text-4xl" />
+  ),
+  FaHeartbeat: (
+    <FaHeartbeat className="text-teal-700 mr-2 sm:mr-4 text-2xl sm:text-4xl" />
+  ),
+  FaStethoscope: (
+    <FaStethoscope className="text-teal-700 mr-2 sm:mr-4 text-2xl sm:text-4xl" />
+  ),
 };
 
 interface Feature {
@@ -22,7 +35,7 @@ interface Feature {
 }
 
 const ExpertiseOverview: React.FC = () => {
-  const { t } = useTranslation('services');
+  const { t } = useTranslation("services");
 
   useEffect(() => {
     AOS.init({ duration: 1200, once: true });
@@ -38,25 +51,25 @@ const ExpertiseOverview: React.FC = () => {
     autoplaySpeed: 3000,
   };
 
-  const features: Feature[] = t('expertise.features', { returnObjects: true });
+  const features: Feature[] = t("expertise.features", { returnObjects: true });
 
   return (
     <section className="bg-white py-16 px-4 sm:px-8 relative overflow-x-hidden">
       <div className="container mx-auto text-center mb-12" data-aos="fade-up">
         <h2 className="text-4xl sm:text-5xl font-serif font-bold text-teal-900 mb-6">
-          {t('expertise.title')}
+          {t("expertise.title")}
         </h2>
         <p className="text-lg sm:text-2xl font-serif text-teal-700 mb-8">
-          {t('expertise.description')}
+          {t("expertise.description")}
         </p>
       </div>
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 w-full mb-8 lg:mb-0" data-aos="fade-right">
           <h3 className="text-2xl sm:text-4xl font-serif font-bold text-teal-700 mb-4">
-            {t('expertise.sectionTitle')}
+            {t("expertise.sectionTitle")}
           </h3>
           <p className="text-base sm:text-lg font-serif text-teal-700 mb-4">
-            {t('expertise.sectionDescription')}
+            {t("expertise.sectionDescription")}
           </p>
           <ul className="text-base sm:text-lg font-serif text-teal-700 list-disc list-inside space-y-4 sm:space-y-6">
             {features.map((feature, index) => (
@@ -80,7 +93,7 @@ const ExpertiseOverview: React.FC = () => {
             </div>
             <div className="w-full h-48 sm:h-64 md:h-80 lg:h-96">
               <Image
-                src="/images/about_us_slide/waiting.jpeg"
+                src="/images/about_us_slide/waiting.webp"
                 alt="Facility 1"
                 layout="responsive"
                 width={1200}
@@ -90,7 +103,7 @@ const ExpertiseOverview: React.FC = () => {
             </div>
             <div className="w-full h-48 sm:h-64 md:h-80 lg:h-96">
               <Image
-                src="/images/about_us_slide/clinic.png"
+                src="/images/about_us_slide/clinic.webp"
                 alt="Facility 2"
                 layout="responsive"
                 width={1200}
@@ -110,7 +123,7 @@ const ExpertiseOverview: React.FC = () => {
             </div>
             <div className="w-full h-48 sm:h-64 md:h-80 lg:h-96">
               <Image
-                src="/images/about_us_slide/chair.png"
+                src="/images/about_us_slide/chair.webp"
                 alt="Facility 4"
                 layout="responsive"
                 width={1200}
