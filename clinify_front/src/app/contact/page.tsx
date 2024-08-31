@@ -15,3 +15,5 @@ const Contact: React.FC = () => {
 export default Contact;
 
 // TEST
+// skola je super
+// i vecera isto
