@@ -15,3 +15,6 @@ const Contact: React.FC = () => {
 export default Contact;
 
 // TEST
+// svaki dan
+// je dobar dan
+// za programiranje
