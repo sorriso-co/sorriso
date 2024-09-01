@@ -18,11 +18,8 @@
 // }
 
 "use client";
-import { useRef } from "react";
 
 export default function BookACall() {
-  const ref = useRef<HTMLDivElement>(null);
-
   return (
     <div className="w-full bg-gray-50 rounded-lg shadow-lg p-4 sm:p-6 lg:p-8 mt-8">
       <div className="relative overflow-hidden rounded-lg">
