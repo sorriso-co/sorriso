@@ -58,7 +58,7 @@
           "unitedStates": "3 000 €"
         },
         "buttonText": "En savoir plus",
-        "topImage": "/images/bills/implant.jpeg"
+        "topImage": "/images/bills/implant.webp"
       },
       "zirconiumCrowns": {
         "title": "Couronnes en zirconium",
@@ -73,7 +73,7 @@
           "unitedStates": "1 200 €"
         },
         "buttonText": "En savoir plus",
-        "topImage": "/images/bills/zcrown.jpeg"
+        "topImage": "/images/bills/zcrown.webp"
       },
       "ceramicCrowns": {
         "title": "Couronnes en céramique",
@@ -88,7 +88,7 @@
           "unitedStates": "1 300 €"
         },
         "buttonText": "En savoir plus",
-        "topImage": "/images/bills/ccrown.jpeg"
+        "topImage": "/images/bills/ccrown.webp"
       },
       "allon4": {
         "title": "All-on-4",
@@ -103,7 +103,7 @@
           "unitedStates": "12 000 €"
         },
         "buttonText": "En savoir plus",
-        "topImage": "/images/bills/allon4.jpeg"
+        "topImage": "/images/bills/allon4.webp"
       },
       "allon6": {
         "title": "All-on-6",
@@ -118,7 +118,7 @@
           "unitedStates": "15 000 €"
         },
         "buttonText": "En savoir plus",
-        "topImage": "/images/bills/allon6.jpeg"
+        "topImage": "/images/bills/allon6.webp"
       },
       "hollywoodSmile": {
         "title": "Votre sourire parfait",
@@ -133,7 +133,7 @@
           "unitedStates": "10 000 €"
         },
         "buttonText": "En savoir plus",
-        "topImage": "/images/bills/hollywood.jpeg"
+        "topImage": "/images/bills/hollywood.webp"
       }
     },
     "dentalExamination": {

@@ -32,7 +32,7 @@ const ServiceHero: React.FC = () => {
             {t("serviceHero.description")}
           </p>
           <div className="flex justify-center md:justify-start space-x-4 mt-8">
-            <Link href="/contact" passHref>
+            <Link href="/howitworks" passHref>
               <button className="font-serif bg-white text-teal-700 font-bold py-3 px-6 rounded-full shadow-md hover:bg-teal-100 transition-colors duration-300">
                 {t("serviceHero.ctaLearnMore")}
               </button>

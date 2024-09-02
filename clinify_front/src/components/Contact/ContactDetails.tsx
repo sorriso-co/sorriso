@@ -7,24 +7,27 @@ import {
   FaClock,
 } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const ContactDetails: React.FC = () => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation("common");
 
   return (
     <section className="contact-details px-4 py-24 border-teal">
       <div className="bg-white shadow-lg rounded-lg p-8 mx-auto max-w-lg">
         <h2 className="text-3xl font-serif font-bold text-center mb-8 text-teal-700">
-          {t('contactDetails.title')}
+          {t("contactDetails.title")}
         </h2>
         <div className="mb-6 flex items-start">
           <FaMapMarkerAlt className="text-teal-500 w-6 h-6 mr-4" />
           <div>
             <h3 className="text-xl font-bold mb-2 text-teal-700">
-              {t('contactDetails.addressTitle')}
+              {t("contactDetails.addressTitle")}
             </h3>
             <p className="text-gray-700 font-serif">
-              {t('contactDetails.address')}
+              {t("contactDetails.address")}
             </p>
           </div>
         </div>
@@ -32,27 +35,39 @@ const ContactDetails: React.FC = () => {
           <FaPhoneAlt className="text-teal-500 w-6 h-6 mr-4" />
           <div>
             <h3 className="text-xl font-bold font-serif mb-2 text-teal-700">
-              {t('contactDetails.phoneTitle')}
+              {t("contactDetails.phoneTitle")}
             </h3>
-            <p className="text-gray-700 font-serif">{t('contactDetails.phone')}</p>
+            <Link href="https://wa.me/+38269664668" passHref>
+              <section className="text-teal-600 font-serif flex items-center underline hover:text-teal-800 transition-colors">
+                {t("contactDetails.phone")}
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  className="w-5 h-5 ml-2 text-green-500"
+                />
+              </section>
+            </Link>
           </div>
         </div>
         <div className="mb-6 flex items-start">
           <FaEnvelope className="text-teal-500 w-6 h-6 mr-4" />
           <div>
             <h3 className="text-xl font-bold mb-2 text-teal-700 font-serif">
-              {t('contactDetails.emailTitle')}
+              {t("contactDetails.emailTitle")}
             </h3>
-            <p className="text-gray-700 font-serif">{t('contactDetails.email')}</p>
+            <p className="text-gray-700 font-serif">
+              {t("contactDetails.email")}
+            </p>
           </div>
         </div>
         <div className="flex items-start">
           <FaClock className="text-teal-500 w-6 h-6 mr-4" />
           <div>
             <h3 className="text-xl font-bold font-serif mb-2 text-teal-700">
-              {t('contactDetails.hoursTitle')}
+              {t("contactDetails.hoursTitle")}
             </h3>
-            <p className="text-gray-700 font-serif">{t('contactDetails.hours')}</p>
+            <p className="text-gray-700 font-serif">
+              {t("contactDetails.hours")}
+            </p>
           </div>
         </div>
       </div>

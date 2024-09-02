@@ -15,14 +15,14 @@ const GallerySection = () => {
   }, []);
 
   const images = [
-    "/images/services/teeth/example3.png",
-    "/images/services/teeth/example4.png",
-    "/images/services/teeth/example1.png",
-    "/images/services/teeth/example14.png",
-    "/images/services/teeth/example5.png",
-    "/images/services/teeth/example12.png",
-    "/images/services/teeth/example13.png",
-    "/images/services/teeth/example2.png",
+    "/images/services/teeth/example3.webp",
+    "/images/services/teeth/example4.webp",
+    "/images/services/teeth/example1.webp",
+    "/images/services/teeth/example14.webp",
+    "/images/services/teeth/example5.webp",
+    "/images/services/teeth/example12.webp",
+    "/images/services/teeth/example2.webp",
+    "/images/services/teeth/example13.webp",
   ];
 
   return (

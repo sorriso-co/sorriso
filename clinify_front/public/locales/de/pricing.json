@@ -57,7 +57,7 @@
         "unitedStates": "€3,000"
       },
       "buttonText": "Mehr erfahren",
-      "topImage": "/images/bills/implant.jpeg"
+      "topImage": "/images/bills/implant.webp"
     },
     "zirconiumCrowns": {
       "title": "Zirkon-Kronen",
@@ -72,7 +72,7 @@
         "unitedStates": "€1,200"
       },
       "buttonText": "Mehr erfahren",
-      "topImage": "/images/bills/zcrown.jpeg"
+      "topImage": "/images/bills/zcrown.webp"
     },
     "ceramicCrowns": {
       "title": "Keramikkronen",
@@ -87,7 +87,7 @@
         "unitedStates": "€1,300"
       },
       "buttonText": "Mehr erfahren",
-      "topImage": "/images/bills/ccrown.jpeg"
+      "topImage": "/images/bills/ccrown.webp"
     },
     "allon4": {
       "title": "All-on-4",
@@ -102,7 +102,7 @@
         "unitedStates": "€12,000"
       },
       "buttonText": "Mehr erfahren",
-      "topImage": "/images/bills/allon4.jpeg"
+      "topImage": "/images/bills/allon4.webp"
     },
     "allon6": {
       "title": "All-on-6",
@@ -117,7 +117,7 @@
         "unitedStates": "€15,000"
       },
       "buttonText": "Mehr erfahren",
-      "topImage": "/images/bills/allon6.jpeg"
+      "topImage": "/images/bills/allon6.webp"
     },
     "hollywoodSmile": {
       "title": "Ihr perfektes Lächeln",
@@ -132,7 +132,7 @@
         "unitedStates": "€10,000"
       },
       "buttonText": "Mehr erfahren",
-      "topImage": "/images/bills/hollywood.jpeg"
+      "topImage": "/images/bills/hollywood.webp"
     }
   },
   "dentalExamination": {
@@ -457,6 +457,6 @@
     "description": "Sagen Sie Ja und vertrauen Sie uns – Sie werden es nicht bereuen. Kontaktieren Sie uns und wir werden uns so schnell wie möglich bei Ihnen melden!",
     "contactButton": "Kontaktieren Sie uns",
     "callUs": "Oder rufen Sie uns an",
-    "phone": "+382 69 664 668"
+    "phone": "+382 69 851 872"
   }
 }

@@ -83,7 +83,7 @@ const ExpertiseOverview: React.FC = () => {
           <Slider {...sliderSettings}>
             <div className="w-full h-48 sm:h-64 md:h-80 lg:h-96">
               <Image
-                src="/images/Team/staff/team.jpg"
+                src="/images/Team/staff/team.webp"
                 alt="Facility 0"
                 layout="responsive"
                 width={1200}
@@ -113,7 +113,7 @@ const ExpertiseOverview: React.FC = () => {
             </div>
             <div className="w-full h-48 sm:h-64 md:h-80 lg:h-96">
               <Image
-                src="/images/services/dr_i_pacijent.png"
+                src="/images/services/dr_i_pacijent.webp"
                 alt="Facility 3"
                 layout="responsive"
                 width={1200}

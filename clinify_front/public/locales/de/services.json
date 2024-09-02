@@ -239,7 +239,7 @@
   },
     "procedures": [
       {
-        "image": "/images/bills/implant.jpeg",
+        "image": "/images/bills/implant.webp",
         "title": "Zahnimplantate",
         "shortDescription": "Ersetzen Sie fehlende Zähne mit langlebigen Implantaten.",
         "link": "/contact",
@@ -248,7 +248,7 @@
         "duration": "1-2 Stunden pro Implantat."
       },
       {
-        "image": "/images/bills/zcrown.jpeg",
+        "image": "/images/bills/zcrown.webp",
         "title": "Zirkoniumkronen",
         "shortDescription": "Langlebige und ästhetisch ansprechende Kronen.",
         "link": "/contact",
@@ -257,7 +257,7 @@
         "duration": "1-2 Stunden pro Krone."
       },
       {
-        "image": "/images/bills/hollywood.jpeg",
+        "image": "/images/bills/hollywood.webp",
         "title": "Ihr Perfektes Lächeln",
         "shortDescription": "Erreichen Sie ein perfektes Lächeln mit Veneers.",
         "link": "/contact",
@@ -266,7 +266,7 @@
         "duration": "2-3 Sitzungen."
       },
       {
-        "image": "/images/bills/allon4.jpeg",
+        "image": "/images/bills/allon4.webp",
         "title": "All-on-4",
         "shortDescription": "Vollbogenrestauration mit nur 4 Implantaten.",
         "link": "/contact",
@@ -275,7 +275,7 @@
         "duration": "1-2 Stunden."
       },
       {
-        "image": "/images/bills/allon6.jpeg",
+        "image": "/images/bills/allon6.webp",
         "title": "All-on-6",
         "shortDescription": "Vollbogenrestauration mit 6 Implantaten.",
         "link": "/contact",
@@ -284,7 +284,7 @@
         "duration": "1-2 Stunden."
       },
       {
-        "image": "/images/bills/white.jpeg",
+        "image": "/images/bills/white.webp",
         "title": "Zahnaufhellung",
         "shortDescription": "Hellen Sie Ihr Lächeln mit professioneller Aufhellung auf.",
         "link": "/contact",
@@ -293,7 +293,7 @@
         "duration": "1 Stunde."
       },
       {
-        "image": "/images/bills/veneers.jpeg",
+        "image": "/images/bills/veneers.webp",
         "title": "Zahnveneers",
         "shortDescription": "Verbessern Sie Ihr Lächeln mit maßgefertigten Veneers.",
         "link": "/contact",
@@ -302,7 +302,7 @@
         "duration": "2-3 Sitzungen."
       },
       {
-        "image": "/images/bills/root.png",
+        "image": "/images/bills/root.webp",
         "title": "Wurzelkanalbehandlung",
         "shortDescription": "Retten Sie Ihre natürlichen Zähne.",
         "link": "/contact",
@@ -311,7 +311,7 @@
         "duration": "1-2 Stunden."
       },
       {
-        "image": "/images/bills/bridge.jpeg",
+        "image": "/images/bills/bridge.webp",
         "title": "Zahnbrücken",
         "shortDescription": "Ersetzen Sie fehlende Zähne mit einer Zahnbrücke.",
         "link": "/contact",
@@ -320,7 +320,7 @@
         "duration": "2-3 Sitzungen."
       },
       {
-        "image": "/images/bills/gum.png",
+        "image": "/images/bills/gum.webp",
         "title": "Zahnfleischkonturierung",
         "shortDescription": "Formen Sie Ihr Zahnfleisch für ein besseres Lächeln um.",
         "link": "/contact",
@@ -329,7 +329,7 @@
         "duration": "1-2 Stunden."
       },
       {
-        "image": "/images/bills/full.jpeg",
+        "image": "/images/bills/full.webp",
         "title": "Vollständige Mundrekonstruktion",
         "shortDescription": "Komplette Zahnrestauration.",
         "link": "/contact",

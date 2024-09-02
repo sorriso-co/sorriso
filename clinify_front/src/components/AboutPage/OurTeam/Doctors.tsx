@@ -25,28 +25,28 @@ const Team: React.FC = () => {
           doctor={{
             name: t("team.doctor1.name"),
             title: t("team.doctor1.title"),
-            image: "/images/Team/staff/milija.jpg",
+            image: "/images/Team/staff/milija.webp",
           }}
         />
         <DoctorCard
           doctor={{
             name: t("team.doctor2.name"),
             title: t("team.doctor2.title"),
-            image: "/images/Team/staff/jelena.jpeg",
+            image: "/images/Team/staff/jelena.webp",
           }}
         />
         <DoctorCard
           doctor={{
             name: t("team.doctor3.name"),
             title: t("team.doctor3.title"),
-            image: "/images/Team/staff/malojacidoktor.jpg",
+            image: "/images/Team/staff/malojacidoktor.webp",
           }}
         />
         <DoctorCard
           doctor={{
             name: t("team.doctor4.name"),
             title: t("team.doctor4.title"),
-            image: "/images/Team/staff/mladidoktor.jpg",
+            image: "/images/Team/staff/mladidoktor.webp",
           }}
         />
         <DoctorCard
@@ -67,14 +67,14 @@ const Team: React.FC = () => {
           doctor={{
             name: t("team.doctor7.name"),
             title: t("team.doctor7.title"),
-            image: "/images/Team/staff/sestra.jpg",
+            image: "/images/Team/staff/sestra.webp",
           }}
         />
         <DoctorCard
           doctor={{
             name: t("team.doctor8.name"),
             title: t("team.doctor8.title"),
-            image: "/images/Team/staff/nadja.jpeg",
+            image: "/images/Team/staff/nadja.webp",
           }}
         />
       </div>

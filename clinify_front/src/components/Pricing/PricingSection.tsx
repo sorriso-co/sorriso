@@ -61,7 +61,7 @@ const PricingSection: React.FC = () => {
                 {
                   country: "Australia",
                   price: t("pricingSection.dentalImplants.prices.australia"),
-                  flag: "/images/flags/a.svg",
+                  flag: "/images/flags/australia.webp",
                 },
                 {
                   country: "Germany",
@@ -110,7 +110,7 @@ const PricingSection: React.FC = () => {
                 {
                   country: "Australia",
                   price: t("pricingSection.zirconiumCrowns.prices.australia"),
-                  flag: "/images/flags/a.svg",
+                  flag: "/images/flags/australia.webp",
                 },
                 {
                   country: "Germany",
@@ -161,7 +161,7 @@ const PricingSection: React.FC = () => {
                 {
                   country: "Australia",
                   price: t("pricingSection.ceramicCrowns.prices.australia"),
-                  flag: "/images/flags/a.svg",
+                  flag: "/images/flags/australia.webp",
                 },
                 {
                   country: "Germany",
@@ -210,7 +210,7 @@ const PricingSection: React.FC = () => {
                 {
                   country: "Australia",
                   price: t("pricingSection.allon4.prices.australia"),
-                  flag: "/images/flags/a.svg",
+                  flag: "/images/flags/australia.webp",
                 },
                 {
                   country: "Germany",
@@ -259,7 +259,7 @@ const PricingSection: React.FC = () => {
                 {
                   country: "Australia",
                   price: t("pricingSection.allon6.prices.australia"),
-                  flag: "/images/flags/a.svg",
+                  flag: "/images/flags/australia.webp",
                 },
                 {
                   country: "Germany",
@@ -308,7 +308,7 @@ const PricingSection: React.FC = () => {
                 {
                   country: "Australia",
                   price: t("pricingSection.hollywoodSmile.prices.australia"),
-                  flag: "/images/flags/a.svg",
+                  flag: "/images/flags/australia.webp",
                 },
                 {
                   country: "Germany",

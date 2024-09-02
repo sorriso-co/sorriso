@@ -11,7 +11,8 @@
     "description": "Otkrijte izuzetnu stomatološku njegu kombinovanu sa nezaboravnim putovanjem. Neka vas Sorriso vodi kroz putovanje ka sjajnijem, zdravijem osmijehu dok istražujete ljepotu i kulturu Crne Gore.",
     "joinUsTitle": "Pridružite nam se",
     "joinUsDescription": "Zakažite sastanak i započnite svoje putovanje ka savršenom osmijehu sa Sorriso.",
-    "scheduleButton": "Zakažite sada"
+    "scheduleButton": "Zakažite sada",
+    "visitButton": "Transformacije"
   },
   "howItWorks": {
     "title": "Kako funkcioniše",

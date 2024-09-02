@@ -239,7 +239,7 @@
     },
     "procedures": [
       {
-        "image": "/images/bills/implant.jpeg",
+        "image": "/images/bills/implant.webp",
         "title": "Зубные имплантаты",
         "shortDescription": "Замена отсутствующих зубов прочными имплантатами.",
         "link": "/contact",
@@ -248,7 +248,7 @@
         "duration": "1-2 часа на имплантат."
       },
       {
-        "image": "/images/bills/zcrown.jpeg",
+        "image": "/images/bills/zcrown.webp",
         "title": "Циркониевые коронки",
         "shortDescription": "Прочные и эстетически привлекательные коронки.",
         "link": "/contact",
@@ -257,7 +257,7 @@
         "duration": "1-2 часа на коронку."
       },
       {
-        "image": "/images/bills/hollywood.jpeg",
+        "image": "/images/bills/hollywood.webp",
         "title": "Ваша идеальная улыбка",
         "shortDescription": "Добейтесь идеальной улыбки с помощью виниров.",
         "link": "/contact",
@@ -266,7 +266,7 @@
         "duration": "2-3 сеанса."
       },
       {
-        "image": "/images/bills/allon4.jpeg",
+        "image": "/images/bills/allon4.webp",
         "title": "All-on-4",
         "shortDescription": "Полная арочная реставрация всего на 4 имплантатах.",
         "link": "/contact",
@@ -275,7 +275,7 @@
         "duration": "1-2 часа."
       },
       {
-        "image": "/images/bills/allon6.jpeg",
+        "image": "/images/bills/allon6.webp",
         "title": "All-on-6",
         "shortDescription": "Полная арочная реставрация на 6 имплантатах.",
         "link": "/contact",
@@ -284,7 +284,7 @@
         "duration": "1-2 часа."
       },
       {
-        "image": "/images/bills/white.jpeg",
+        "image": "/images/bills/white.webp",
         "title": "Отбеливание зубов",
         "shortDescription": "Осветите свою улыбку с помощью профессионального отбеливания.",
         "link": "/contact",
@@ -293,7 +293,7 @@
         "duration": "1 час."
       },
       {
-        "image": "/images/bills/veneers.jpeg",
+        "image": "/images/bills/veneers.webp",
         "title": "Зубные виниры",
         "shortDescription": "Улучшите свою улыбку с помощью индивидуальных виниров.",
         "link": "/contact",
@@ -302,7 +302,7 @@
         "duration": "2-3 сеанса."
       },
       {
-        "image": "/images/bills/root.png",
+        "image": "/images/bills/root.webp",
         "title": "Лечение корневых каналов",
         "shortDescription": "Сохраните свои естественные зубы.",
         "link": "/contact",
@@ -311,7 +311,7 @@
         "duration": "1-2 часа."
       },
       {
-        "image": "/images/bills/bridge.jpeg",
+        "image": "/images/bills/bridge.webp",
         "title": "Зубные мосты",
         "shortDescription": "Замена отсутствующих зубов с помощью зубного моста.",
         "link": "/contact",
@@ -320,7 +320,7 @@
         "duration": "2-3 сеанса."
       },
       {
-        "image": "/images/bills/gum.png",
+        "image": "/images/bills/gum.webp",
         "title": "Контуринг десен",
         "shortDescription": "Сформируйте свои десны для лучшей улыбки.",
         "link": "/contact",
@@ -329,7 +329,7 @@
         "duration": "1-2 часа."
       },
       {
-        "image": "/images/bills/full.jpeg",
+        "image": "/images/bills/full.webp",
         "title": "Полная реконструкция рта",
         "shortDescription": "Полное восстановление зубов.",
         "link": "/contact",

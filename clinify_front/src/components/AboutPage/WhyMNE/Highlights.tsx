@@ -108,7 +108,8 @@ const MontenegroHighlights: React.FC = () => {
           </div>
         </div>
         <Link
-          href="/contact"
+          href="https://wa.me/+38269664668"
+          passHref
           className="inline-block mt-8 bg-teal-600 text-teal-50 px-4 sm:px-6 py-2 sm:py-3 rounded-md text-base sm:text-lg font-semibold hover:bg-teal-700 transition-colors duration-300"
           data-aos="fade-up"
           data-aos-delay="600"

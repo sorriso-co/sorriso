@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 
 const Mission = () => {
-  const { t } = useTranslation('about');
+  const { t } = useTranslation("about");
 
   useEffect(() => {
     AOS.init({
@@ -36,25 +36,27 @@ const Mission = () => {
         </svg>
       </div>
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-8 xl:space-x-12 2xl:space-x-16 m-3">
-        <div className="w-full lg:w-1/2 lg:order-1 lg:pl-8 xl:pl-12 2xl:pl-16" data-aos="fade-left">
+        <div
+          className="w-full lg:w-1/2 lg:order-1 lg:pl-8 xl:pl-12 2xl:pl-16"
+          data-aos="fade-left"
+        >
           <h1 className="text-4xl sm:text-5xl font-serif font-extrabold mb-4 sm:mb-6 text-teal-900 hover:text-teal-700 transition duration-300">
-            {t('mission.title')}
+            {t("mission.title")}
           </h1>
           <h2 className="text-2xl sm:text-3xl font-serif text-teal-800 mb-6 sm:mb-12 font-semibold">
-            {t('mission.subtitle')}
+            {t("mission.subtitle")}
           </h2>
           <div className="text-base sm:text-xl text-teal-800 font-serif space-y-4 sm:space-y-6">
-            <p className="leading-relaxed">
-              {t('mission.paragraph1')}
-            </p>
-            <p className="leading-relaxed">
-              {t('mission.paragraph2')}
-            </p>
+            <p className="leading-relaxed">{t("mission.paragraph1")}</p>
+            <p className="leading-relaxed">{t("mission.paragraph2")}</p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:order-2 flex justify-center lg:justify-end" data-aos="fade-right">
+        <div
+          className="w-full lg:w-1/2 lg:order-2 flex justify-center lg:justify-end"
+          data-aos="fade-right"
+        >
           <Image
-            src="/images/Team/staff/milija.jpg"
+            src="/images/Team/staff/milija.webp"
             alt="Healthcare Mission"
             width={450}
             height={500}

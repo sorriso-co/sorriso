@@ -43,16 +43,16 @@
   "founders": {
     "title": "Lernen Sie unsere Gründer kennen",
     "member1": {
-      "name": "Ivan Cabrilo",
-      "description": "Herr Cabrilo stammt aus Montenegro und studiert derzeit mit einem Vollstipendium an der University of Rochester in New York. Er doppelt sich in Informatik und Wirtschaft, während er aktiv in KI und maschinellem Lernen forscht."
+      "name": "Ivan Čabrilo",
+      "description": "Herr Čabrilo stammt aus Montenegro und studiert derzeit mit einem Vollstipendium an der University of Rochester in New York. Er doppelt sich in Informatik und Wirtschaft, während er aktiv in KI und maschinellem Lernen forscht."
     },
     "member2": {
-      "name": "Dr. Filip Sukovic med. dent.",
+      "name": "Dr. Filip Šuković med. dent.",
       "description": "Dr. Filip Šuković wurde in Cetinje geboren. Er absolvierte die High School am St. Clare's International College in Oxford und begann sein Zahnmedizinstudium an der Birkbeck University in London und beendete es an der Fakultät für Zahnmedizin CEU Cardinal Herrera in Valencia."
     },
     "member3": {
-      "name": "Djordje Ivanovic",
-      "description": "Herr Ivanovic stammt aus Podgorica, Montenegro, und studiert derzeit mit einem renommierten Stipendium an der Harvard University in Boston, Massachusetts. Er verfolgt eine Karriere in der Informatik mit Interesse an Wirtschaft."
+      "name": "Djordje Ivanović",
+      "description": "Herr Ivanović stammt aus Podgorica, Montenegro, und studiert derzeit mit einem renommierten Stipendium an der Harvard University in Boston, Massachusetts. Er verfolgt eine Karriere in der Informatik mit Interesse an Wirtschaft."
     }
   },
   "team": {

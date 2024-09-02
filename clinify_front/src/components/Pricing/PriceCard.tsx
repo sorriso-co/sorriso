@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-
+import Link from "next/link";
 interface PriceCardProps {
   title: string;
   description: string;
@@ -67,9 +67,11 @@ const PriceCard: React.FC<PriceCardProps> = ({
           </div>
         ))}
       </div>
-      <button className="mt-6 bg-teal-600 text-white py-2 px-4 rounded-full transition-colors duration-300 hover:bg-teal-700 shadow-md">
-        {buttonText}
-      </button>
+      <Link href="/contact" passHref>
+        <button className="mt-6 bg-teal-600 text-white py-2 px-4 rounded-full transition-colors duration-300 hover:bg-teal-700 shadow-md">
+          {buttonText}
+        </button>
+      </Link>
     </div>
   );
 };
