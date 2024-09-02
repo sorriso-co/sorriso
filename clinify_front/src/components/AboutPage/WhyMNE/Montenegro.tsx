@@ -253,7 +253,7 @@ const Caption = styled.p`
 `;
 
 const CTAButton = styled.div.attrs({
-  className: "bg-teal-900",
+  className: "bg-teal-900 transition-colors duration-300 hover:text-teal-200",
 })`
   display: inline-block;
   margin-top: 4rem;

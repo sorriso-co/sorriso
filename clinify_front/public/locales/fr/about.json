@@ -43,16 +43,16 @@
     "founders": {
       "title": "Rencontrez nos fondateurs",
       "member1": {
-        "name": "Ivan Cabrilo",
-        "description": "M. Cabrilo est originaire du Monténégro et étudie actuellement à l'Université de Rochester à New York avec une bourse complète. Il double majeur en informatique et en affaires tout en recherchant activement l'IA et l'apprentissage automatique."
+        "name": "Ivan Čabrilo",
+        "description": "M. Čabrilo est originaire du Monténégro et étudie actuellement à l'Université de Rochester à New York avec une bourse complète. Il double majeur en informatique et en affaires tout en recherchant activement l'IA et l'apprentissage automatique."
       },
       "member2": {
-        "name": "Dr. Filip Sukovic med. dent.",
+        "name": "Dr. Filip Šuković med. dent.",
         "description": "Dr. Filip Šuković est né à Cetinje. Il a terminé ses études secondaires au St. Clare's International College à Oxford et a commencé ses études dentaires à l'Université de Birkbeck à Londres, les terminant à la Faculté de dentisterie CEU Cardinal Herrera à Valence."
       },
       "member3": {
-        "name": "Djordje Ivanovic",
-        "description": "M. Ivanovic est originaire de Podgorica, au Monténégro, et étudie actuellement à l'Université Harvard à Boston, Massachusetts, avec une prestigieuse bourse. Il poursuit une carrière en informatique avec un intérêt pour l'économie."
+        "name": "Djordje Ivanović",
+        "description": "M. Ivanović est originaire de Podgorica, au Monténégro, et étudie actuellement à l'Université Harvard à Boston, Massachusetts, avec une prestigieuse bourse. Il poursuit une carrière en informatique avec un intérêt pour l'économie."
       }
     },
     "team": {

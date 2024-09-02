@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import Link from "next/link";
 
 const Introduction: React.FC = () => {
-  const { t } = useTranslation('homepage');
+  const { t } = useTranslation("homepage");
 
   useEffect(() => {
     AOS.init({
@@ -24,10 +24,15 @@ const Introduction: React.FC = () => {
           {t("introduction.title", { defaultValue: "Your Next Dental Trip" })}
         </h1>
         <h4 className="font-serif text-xl sm:text-2xl lg:text-3xl text-teal-700 mt-4">
-          {t("introduction.subtitle", { defaultValue: "Veni. Vidi. Vici with Sorriso" })}
+          {t("introduction.subtitle", {
+            defaultValue: "Veni. Vidi. Vici with Sorriso",
+          })}
         </h4>
         <p className="font-sans text-base sm:text-lg lg:text-xl text-teal-800 mt-6">
-          {t("introduction.description", { defaultValue: "Discover exceptional dental care combined with an unforgettable travel experience. Let Sorriso guide you through a journey to a brighter, healthier smile while exploring the beauty and culture of Montenegro." })}
+          {t("introduction.description", {
+            defaultValue:
+              "Discover exceptional dental care combined with an unforgettable travel experience. Let Sorriso guide you through a journey to a brighter, healthier smile while exploring the beauty and culture of Montenegro.",
+          })}
         </p>
       </div>
       <div
@@ -39,14 +44,26 @@ const Introduction: React.FC = () => {
             {t("introduction.joinUsTitle", { defaultValue: "Join Us" })}
           </h3>
           <p className="text-base sm:text-lg text-white mt-4">
-            {t("introduction.joinUsDescription", { defaultValue: "Schedule an appointment and start your journey to a perfect smile with Sorriso." })}
+            {t("introduction.joinUsDescription", {
+              defaultValue:
+                "Schedule an appointment and start your journey to a perfect smile with Sorriso.",
+            })}
           </p>
           <br />
-          <Link href="/contact"
-              className="mt-6 bg-teal-900 text-white font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-full hover:bg-teal-700 transition-colors duration-300 block text-center sm:inline-block sm:min-w-[180px] sm:max-w-xs"
-            >
-              {t("introduction.scheduleButton", { defaultValue: "Schedule Now" })}
-   
+          <Link
+            href="/gallery"
+            className="mt-6 bg-teal-900 text-white mr-5 font-serif font-semi py-2 sm:py-3 px-4 sm:px-6 rounded-full hover:bg-teal-100 hover:text-teal-500 transition-colors duration-300 block text-center sm:inline-block sm:min-w-[180px] sm:max-w-xs"
+          >
+            {t("introduction.visitButton", {
+              defaultValue: "Our Transformation",
+            })}
+          </Link>
+
+          <Link
+            href="/contact"
+            className="mt-6 bg-teal-100 text-teal-600 font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-full hover:bg-teal-600 hover:text-teal-100 transition-colors duration-300 block text-center sm:inline-block sm:min-w-[180px] sm:max-w-xs"
+          >
+            {t("introduction.scheduleButton", { defaultValue: "Book a Call" })}
           </Link>
         </div>
       </div>

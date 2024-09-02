@@ -49,8 +49,8 @@ const ExperienceSection: React.FC = () => {
           data-aos="fade-left"
         >
           <BeforeAfter
-            beforeImage="/images/services/before.png"
-            afterImage="/images/services/after.png"
+            beforeImage="/images/services/before.webp"
+            afterImage="/images/services/after.webp"
           />
         </div>
       </div>

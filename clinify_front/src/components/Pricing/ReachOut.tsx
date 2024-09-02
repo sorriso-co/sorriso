@@ -6,7 +6,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Link from "next/link";
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from "next-i18next";
 
 const ContactUs = () => {
   useEffect(() => {
@@ -16,58 +16,58 @@ const ContactUs = () => {
     });
   }, []);
 
-  const { t } = useTranslation('pricing');
+  const { t } = useTranslation("pricing");
 
   return (
-    <div className="bg-teal-300 py-16 relative overflow-hidden">
-      <div className="container mx-auto text-center relative z-10">
-        <h2 className="text-4xl font-bold mb-4 text-white" data-aos="fade-up">
-          {t('contactUs.title')}
+    <div className="bg-gradient-to-r from-blue-100 to-teal-100 py-16">
+      <div className="container mx-auto text-center">
+        <h2
+          className="text-4xl font-bold mb-4 text-teal-700"
+          data-aos="fade-up"
+        >
+          {t("contactUs.title")}
         </h2>
         <p
-          className="text-gray-100 mb-6 max-w-2xl mx-auto"
+          className="text-teal-600 mb-8 max-w-2xl mx-auto"
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          {t('contactUs.description')}
+          {t("contactUs.description")}
         </p>
         <Link
           href="/contact"
-          className="inline-block bg-white text-teal-600 py-3 px-8 rounded-full hover:bg-gray-100 transition-transform transform hover:scale-105 mb-6 shadow-lg"
+          className="inline-block bg-teal-500 text-white py-3 px-8 rounded-full hover:bg-teal-600 transition-transform transform hover:scale-105 mb-8 shadow-lg"
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          {t('contactUs.contactButton')}
+          {t("contactUs.contactButton")}
         </Link>
         <div
-          className="text-gray-100 my-4"
+          className="text-teal-600 mb-6"
           data-aos="fade-up"
           data-aos-delay="300"
         >
-          {t('contactUs.callUs')}
+          {t("contactUs.callUs")}
         </div>
         <div
-          className="flex justify-center items-center space-x-8"
+          className="flex justify-center items-center space-x-4"
           data-aos="fade-up"
           data-aos-delay="400"
         >
-          <div className="flex items-center bg-white text-teal-600 py-3 px-6 rounded-full shadow-lg transform transition-transform hover:scale-105">
-            <FontAwesomeIcon
-              icon={faWhatsapp}
-              className="w-6 h-6 mr-3 text-green-500"
-            />
-            <FontAwesomeIcon
-              icon={faPhone}
-              className="w-6 h-6 mr-3 text-blue-500"
-            />
-            <span className="font-semibold">{t('contactUs.phone')}</span>
-          </div>
+          <Link href="https://wa.me/+38269664668" passHref>
+            <div className="flex items-center bg-white text-teal-500 py-3 px-6 rounded-full shadow-lg transform transition-transform hover:scale-105 cursor-pointer">
+              <FontAwesomeIcon
+                icon={faPhone}
+                className="w-6 h-6 mr-3 text-blue-500"
+              />
+              <FontAwesomeIcon
+                icon={faWhatsapp}
+                className="w-6 h-6 mr-3 text-green-500"
+              />
+              <span className="font-semibold">{t("contactUs.phone")}</span>
+            </div>
+          </Link>
         </div>
-      </div>
-      <div className="absolute inset-0 bg-gradient-to-br from-teal-400 to-teal-600 opacity-40"></div>
-      <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center pointer-events-none">
-        <div className="w-64 h-64 bg-white opacity-10 rounded-full blur-xl animate-spin-slow"></div>
-        <div className="w-32 h-32 bg-white opacity-20 rounded-full blur-xl animate-spin-reverse"></div>
       </div>
     </div>
   );

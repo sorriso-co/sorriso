@@ -31,7 +31,7 @@ const Founders: React.FC = () => {
           <div className="relative w-72 h-72">
             <Image
               src="/images/Team/founders/ivan.webp"
-              alt="Ivan Cabrilo"
+              alt="Ivan Čabrilo"
               width={300}
               height={300}
               className="rounded-full shadow-lg transform transition-transform duration-300 group-hover:scale-110"
@@ -52,7 +52,7 @@ const Founders: React.FC = () => {
           <div className="relative w-72 h-72">
             <Image
               src="/images/Team/founders/filip.webp"
-              alt="Dr. Filip Sukovic med. dent."
+              alt="Dr. Filip Šuković med. dent."
               width={300}
               height={300}
               priority
@@ -74,7 +74,7 @@ const Founders: React.FC = () => {
           <div className="relative w-72 h-72">
             <Image
               src="/images/Team/founders/djole.webp"
-              alt="Djordje Ivanovic"
+              alt="Djordje Ivanović"
               width={300}
               height={300}
               className="rounded-full shadow-lg transform transition-transform duration-300 group-hover:scale-110"

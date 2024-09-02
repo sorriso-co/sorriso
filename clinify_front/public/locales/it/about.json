@@ -43,16 +43,16 @@
   "founders": {
     "title": "Incontra i Nostri Fondatori",
     "member1": {
-      "name": "Ivan Cabrilo",
-      "description": "Il sig. Cabrilo è originario del Montenegro e attualmente studia all'Università di Rochester a New York con una borsa di studio completa. Doppia specializzazione in Informatica e Business mentre ricerca attivamente in AI e Machine Learning."
+      "name": "Ivan Čabrilo",
+      "description": "Il sig. Čabrilo è originario del Montenegro e attualmente studia all'Università di Rochester a New York con una borsa di studio completa. Doppia specializzazione in Informatica e Business mentre ricerca attivamente in AI e Machine Learning."
     },
     "member2": {
-      "name": "Dr. Filip Sukovic med. dent.",
+      "name": "Dr. Filip Šuković med. dent.",
       "description": "Il Dr. Filip Šuković è nato a Cetinje. Ha completato la scuola superiore presso il St. Clare's International College a Oxford e ha iniziato i suoi studi dentali presso la Birkbeck University di Londra, completandoli presso la Facoltà di Odontoiatria CEU Cardinal Herrera a Valencia."
     },
     "member3": {
-      "name": "Djordje Ivanovic",
-      "description": "Il sig. Ivanovic è originario di Podgorica, Montenegro, e attualmente studia ad Harvard a Boston, Massachusetts, con una borsa di studio prestigiosa. Sta perseguendo una carriera in Informatica con un interesse per l'Economia."
+      "name": "Djordje Ivanović",
+      "description": "Il sig. Ivanović è originario di Podgorica, Montenegro, e attualmente studia ad Harvard a Boston, Massachusetts, con una borsa di studio prestigiosa. Sta perseguendo una carriera in Informatica con un interesse per l'Economia."
     }
   },
   "team": {

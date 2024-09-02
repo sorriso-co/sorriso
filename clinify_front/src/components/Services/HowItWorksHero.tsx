@@ -40,7 +40,7 @@ const HowItWorksHero: React.FC = () => {
         >
           <div className="relative w-80 h-80 lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden shadow-lg">
             <Image
-              src="/images/logos/how-it-works.png"
+              src="/images/logos/how-it-works.webp"
               alt="Online consultation"
               width={500}
               height={500}

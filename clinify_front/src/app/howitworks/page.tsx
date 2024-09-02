@@ -91,35 +91,6 @@ const HowItWorks: React.FC = () => {
               </div>
             </div>
           ))}
-          {/* <div className="text-center mt-12">
-            <button
-              className="bg-teal-600 hover:bg-teal-700 text-white py-2 px-4 sm:py-3 sm:px-6 lg:py-4 lg:px-8 rounded-full shadow-md transition duration-300 mt-8 flex items-center justify-center mx-auto text-lg sm:text-xl lg:text-2xl"
-              onClick={toggleModal}
-            >
-              <FaPlay className="mr-2" /> {t('howItWorks.videoButton')}
-            </button>
-            {isModalOpen && (
-              <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75">
-                <div className="bg-white rounded-lg p-4 sm:p-8 w-full max-w-2xl sm:max-w-5xl relative shadow-xl">
-                  <button
-                    onClick={toggleModal}
-                    className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 text-2xl sm:text-3xl"
-                  >
-                    &times;
-                  </button>
-                  <div className="aspect-w-16 aspect-h-9">
-                    <iframe
-                      src={t('howItWorks.videoUrl')}
-                      title="YouTube video player"
-                      className="w-full h-[300px] sm:h-[500px]"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-            )}
-          </div> */}
           <div className="text-center mt-20 px-4">
             <h3 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-teal-800 mb-6">
               {t("howItWorks.readyTitle")}
@@ -128,12 +99,12 @@ const HowItWorks: React.FC = () => {
               {t("howItWorks.readyDescription")}
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
-              <Link
+              {/* <Link
                 href="/contact"
                 className="inline-block bg-teal-600 text-white py-2 px-6 sm:py-3 sm:px-8 rounded-lg hover:bg-teal-700 transition-colors text-lg sm:text-xl lg:text-2xl"
               >
                 {t("howItWorks.contactUs")}
-              </Link>
+              </Link> */}
               <Link
                 href="/contact"
                 className="inline-block bg-teal-800 text-white py-2 px-6 sm:py-3 sm:px-8 font-serif rounded-lg hover:bg-gray-700 transition-colors text-lg sm:text-xl lg:text-2xl"
