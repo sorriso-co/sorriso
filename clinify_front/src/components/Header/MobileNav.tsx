@@ -25,7 +25,11 @@ const MobileNav: React.FC<MobileNavProps> = ({ toggleMenu }) => {
           <span className="text-2xl font-semibold text-white">
             {t("header.mobile_nav.menu")}
           </span>
-          <button className="text-white" onClick={toggleMenu}>
+          <button
+            className="text-white"
+            onClick={toggleMenu}
+            aria-label="Close menu" //testing
+          >
             <svg
               className="w-6 h-6"
               fill="none"
@@ -141,13 +145,13 @@ const MobileNav: React.FC<MobileNavProps> = ({ toggleMenu }) => {
             >
               {t("header.menu.services_submenu.treatments")}
             </Link>
-            <Link
+            {/* <Link
               href="/experiences"
               className="block px-4 py-2 text-lg text-white hover:bg-teal-600"
               onClick={toggleMenu}
             >
               {t("header.menu.services_submenu.experiences")}
-            </Link>
+            </Link> */}
             <Link
               href="/gallery"
               className="block px-4 py-2 text-lg text-white hover:bg-teal-600"

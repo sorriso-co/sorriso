@@ -29,19 +29,19 @@ import businessSr from '../public/locales/sr/business.json';
 import homepageSr from '../public/locales/sr/homepage.json';
 import aboutSr from '../public/locales/sr/about.json';
 
-import commonRu from '../public/locales/ru/common.json';
-import pricingRu from '../public/locales/ru/pricing.json';
-import servicesRu from '../public/locales/ru/services.json';
-import businessRu from '../public/locales/ru/business.json';
-import homepageRu from '../public/locales/ru/homepage.json';
-import aboutRu from '../public/locales/ru/about.json';
+// import commonRu from '../public/locales/ru/common.json';
+// import pricingRu from '../public/locales/ru/pricing.json';
+// import servicesRu from '../public/locales/ru/services.json';
+// import businessRu from '../public/locales/ru/business.json';
+// import homepageRu from '../public/locales/ru/homepage.json';
+// import aboutRu from '../public/locales/ru/about.json';
 
-import commonSp from '../public/locales/sp/common.json';
-import pricingSp from '../public/locales/sp/pricing.json';
-import servicesSp from '../public/locales/sp/services.json';
-import businessSp from '../public/locales/sp/business.json';
-import homepageSp from '../public/locales/sp/homepage.json';
-import aboutSp from '../public/locales/sp/about.json';
+// import commonSp from '../public/locales/sp/common.json';
+// import pricingSp from '../public/locales/sp/pricing.json';
+// import servicesSp from '../public/locales/sp/services.json';
+// import businessSp from '../public/locales/sp/business.json';
+// import homepageSp from '../public/locales/sp/homepage.json';
+// import aboutSp from '../public/locales/sp/about.json';
 
 import commonFr from '../public/locales/fr/common.json';
 import pricingFr from '../public/locales/fr/pricing.json';
@@ -59,8 +59,8 @@ i18n
       de: { common: commonDe, pricing: pricingDe, services: servicesDe, business: businessDe, homepage: homepageDe, about: aboutDe },
       it: { common: commonIt, pricing: pricingIt, services: servicesIt, business: businessIt, homepage: homepageIt, about: aboutIt },
       sr: { common: commonSr, pricing: pricingSr, services: servicesSr, business: businessSr, homepage: homepageSr, about: aboutSr },
-      ru: { common: commonRu, pricing: pricingRu, services: servicesRu, business: businessRu, homepage: homepageRu, about: aboutRu },
-      sp: { common: commonSp, pricing: pricingSp, services: servicesSp, business: businessSp, homepage: homepageSp, about: aboutSp },
+      // ru: { common: commonRu, pricing: pricingRu, services: servicesRu, business: businessRu, homepage: homepageRu, about: aboutRu },
+      // sp: { common: commonSp, pricing: pricingSp, services: servicesSp, business: businessSp, homepage: homepageSp, about: aboutSp },
       fr: { common: commonFr, pricing: pricingFr, services: servicesFr, business: businessFr, homepage: homepageFr, about: aboutFr },
     },
     fallbackLng: 'en',
