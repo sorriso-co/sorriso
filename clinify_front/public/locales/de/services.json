@@ -1,342 +1,158 @@
 {
-  "callToAction": {
-    "title": "Erhalten Sie das Lächeln, das Sie schon immer wollten",
-    "cta": "Vereinbaren Sie eine Untersuchung"
-  },
-  "howItWorksHero": {
-    "title": "Wie Sorriso funktioniert",
-    "description": "Lernen Sie unser Team bei einer Telezahnärztlichen Konsultation kennen und erhalten Sie einen personalisierten Behandlungsplan.",
-    "cta": "Loslegen"
-  },
   "serviceHero": {
-    "title": "Unsere Zahnmedizinischen Dienstleistungen",
-    "description": "Entdecken Sie unser breites Spektrum an zahnmedizinischen Dienstleistungen, die darauf ausgelegt sind, Ihr Lächeln gesund und schön zu erhalten.",
+    "title": "Premium-Zahnbehandlungen",
+    "description": "Entdecken Sie erstklassige Zahnbehandlungen, die auf Ihre Bedürfnisse zugeschnitten sind. Unsere erfahrenen Fachkräfte bieten Ihnen eine außergewöhnliche Betreuung und sorgen für ein komfortables und effektives Erlebnis für jeden Patienten.",
     "ctaLearnMore": "Mehr erfahren",
     "ctaBookAppointment": "Termin vereinbaren"
   },
-  "serviceDetails": {
-    "sectionTitle": "Unsere Dienstleistungen",
-    "services": [
-      {
-        "title": "Erfahrene Zahnärzte",
-        "description": "Unser Team von Zahnärzten verfügt über jahrelange Erfahrung und spezialisierte Ausbildung."
-      },
-      {
-        "title": "State-of-the-Art-Einrichtung",
-        "description": "Wir verwenden die neueste Technologie und Ausrüstung, um die beste Pflege zu gewährleisten."
-      },
-      {
-        "title": "Persönliche Betreuung",
-        "description": "Wir bieten individuelle Behandlungspläne, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind."
-      }
-    ],
-    "imageAlt": "Arzt"
-  },
+
   "experienceSection": {
-    "title": "Eine Klinik mit Tradition und Exzellenz",
-    "experience": "Erfahrung",
-    "description": "Seit 30 Jahren hilft unsere Klinik Patienten aus der ganzen Welt, ihr perfektes Lächeln zu erreichen.",
-    "satisfiedPatients": "+25,000",
-    "satisfiedPatientsText": "Zufriedene Patienten geholfen",
-    "cta": "Weitere Vorher-Nachher-Fotos anzeigen"
+    "title": "Unsere Zahnkompetenz",
+    "experience": "Außergewöhnliche Zahnbehandlung",
+    "description": "Bei Sorriso bieten wir erstklassige Zahnbehandlungen, die auf Ihre Bedürfnisse zugeschnitten sind. Von der kosmetischen bis hin zur restaurativen Zahnheilkunde bieten wir ein unübertroffenes Patientenerlebnis.",
+    "satisfiedPatients": "Tausende zufriedener Patienten",
+    "satisfiedPatientsText": "Unser Engagement für Qualität und Patientenzufriedenheit hat unzählige Lächeln auf der ganzen Welt verwandelt.",
+    "cta": "Unsere Galerie ansehen"
   },
-  "howItWorks": {
-      "title": "Einfache Schritte zu Ihrem perfekten Lächeln",
-      "description": "Sorriso hilft Ihnen, Ihr Traumlächeln mit unserem einfachen und bequemen Prozess zu erreichen.",
-      "steps": [
-        {
-          "title": "Schritt 1: Erstberatung",
-          "description": "Füllen Sie unser einfaches Formular aus und vereinbaren Sie eine Online-Beratung mit unserem Zahnarzt, bei der wir Ihre zahnärztlichen Anliegen und Erwartungen besprechen.",
-          "icon": "FaPhoneAlt"
-        },
-        {
-          "title": "Schritt 2: Personalisierter Behandlungsplan",
-          "description": "Unsere Experten erstellen einen personalisierten Behandlungsplan, der auf Ihre spezifischen Anforderungen zugeschnitten ist.",
-          "icon": "FaClipboardList"
-        },
-        {
-          "title": "Schritt 3: Reisevorbereitungen",
-          "description": "Wir unterstützen Sie bei den Reisevorbereitungen, um eine reibungslose und problemlose Reise zu gewährleisten.",
-          "icon": "FaPlane"
-        },
-        {
-          "title": "Schritt 4: Ankunft und Unterkunft",
-          "description": "Bei Ihrer Ankunft bieten wir Ihnen eine komfortable Unterkunft und lokale Unterstützung während Ihres Aufenthalts.",
-          "icon": "FaHotel"
-        },
-        {
-          "title": "Schritt 5: Zahnbehandlung",
-          "description": "Erhalten Sie eine erstklassige zahnmedizinische Behandlung von unseren erfahrenen Fachleuten in einer hochmodernen Einrichtung.",
-          "icon": "FaTooth"
-        },
-        {
-          "title": "Schritt 6: Nachsorge",
-          "description": "Wir bieten umfassende Nachsorge und Pflege, um die besten Ergebnisse und Ihre vollständige Zufriedenheit sicherzustellen.",
-          "icon": "FaRegSmile"
-        }
-      ],
-      "videoButton": "Jetzt ansehen",
-      "videoUrl": "https://www.youtube.com/embed/OEyE7MUoXIc?si=vo2pTGQpw4ZP6U0U",
-      "readyTitle": "Bereit, loszulegen?",
-      "readyDescription": "Kontaktieren Sie uns noch heute, um Ihre kostenlose Beratung zu vereinbaren.",
-      "contactUs": "Kontaktieren Sie uns",
-      "scheduleAppointment": "Termin vereinbaren"
-    },
-    "treatmentsHero": {
-    "title": "Verwandeln Sie Ihr Lächeln mit unseren fortschrittlichen Behandlungen",
-    "description": "Entdecken Sie unser breites Spektrum an zahnärztlichen Verfahren, die entwickelt wurden, um Ihnen die besten Ergebnisse mit den neuesten Technologien und modernen Einrichtungen zu bieten.",
+
+  "treatmentsHero": {
+    "title": "Entdecken Sie unsere Behandlungen",
+    "description": "Entdecken Sie unser umfassendes Angebot an Zahnbehandlungen, die darauf ausgelegt sind, Ihr Lächeln und Ihr Selbstvertrauen wiederherzustellen.",
     "contactUs": "Kontaktieren Sie uns",
-    "viewAllTreatments": "Alle Behandlungen anzeigen"
+    "viewAllTreatments": "Alle Behandlungen ansehen"
   },
-  "priceComparison": {
-    "title": "Warum Montenegro für Ihre zahnmedizinischen Eingriffe wählen?",
-    "description": "Entdecken Sie die perfekte Kombination aus erschwinglicher zahnärztlicher Versorgung und atemberaubenden Erlebnissen in Montenegro.",
-    "cards": [
-      {
-        "icon": "FaMoneyBillWave",
-        "title": "Kosteneinsparungen",
-        "description": "Sparen Sie erheblich bei Ihren zahnärztlichen Eingriffen im Vergleich zu anderen Ländern."
-      },
-      {
-        "icon": "FaGlobe",
-        "title": "Reiche Geschichte",
-        "description": "Erkunden Sie das reiche kulturelle Erbe und die historischen Stätten Montenegros."
-      },
-      {
-        "icon": "FaTree",
-        "title": "Naturschönheit",
-        "description": "Genießen Sie die atemberaubende Landschaft, von schönen Seen bis zu majestätischen Bergen."
-      },
-      {
-        "icon": "FaHiking",
-        "title": "Outdoor-Abenteuer",
-        "description": "Erleben Sie aufregende Aktivitäten wie Rafting, Ziplining und Wandern."
-      },
-      {
-        "icon": "FaBalanceScale",
-        "title": "Ausgewogene Erfahrung",
-        "description": "Genießen Sie eine ausgewogene Kombination aus natürlicher Schönheit, Luxus und traditionellem Charme."
-      },
-      {
-        "icon": "FaArrowDown",
-        "title": "Erschwingliche Exzellenz",
-        "description": "Erhalten Sie exquisite zahnärztliche Versorgung von hochqualifizierten Fachleuten zu einem erschwinglichen Preis."
-      }
-    ],
-    "subTitle": "Montenegro: Mehr als nur zahnärztliche Versorgung",
-    "subDescription": "Montenegro bietet nicht nur kostengünstige zahnärztliche Behandlungen. Es ist ein Reiseziel, in dem Sie sich in eine reiche Geschichte, atemberaubende Natur und aufregende Abenteuer vertiefen können. Egal, ob Sie charmante Altstädte erkunden, durch Nationalparks wandern oder die ruhigen Seen und Strände genießen, Montenegro bietet ein einzigartiges Erlebnis, das Ihre zahnärztliche Reise wirklich unvergesslich macht."
+
+  "procedures": [
+    {
+      "image": "/images/bills/implant.webp",
+      "title": "Zahnimplantate",
+      "shortDescription": "Ersetzen Sie fehlende Zähne mit langlebigen Implantaten.",
+      "link": "/contact",
+      "necessity": "Wenn Sie einen oder mehrere fehlende Zähne haben.",
+      "candidate": "Patienten mit guter Mundgesundheit.",
+      "duration": "1-2 Stunden pro Implantat."
+    },
+    {
+      "image": "/images/bills/zcrown.webp",
+      "title": "Zirkoniumkronen",
+      "shortDescription": "Robuste und ästhetisch ansprechende Kronen.",
+      "link": "/contact",
+      "necessity": "Wenn Sie starke und natürlich aussehende Kronen benötigen.",
+      "candidate": "Patienten, die Zahnkronen benötigen.",
+      "duration": "1-2 Stunden pro Krone."
+    },
+    {
+      "image": "/images/bills/hollywood.webp",
+      "title": "Ihr Perfektes Lächeln",
+      "shortDescription": "Erreichen Sie ein perfektes Lächeln mit Veneers.",
+      "link": "/contact",
+      "necessity": "Für eine komplette Lächeln-Transformation.",
+      "candidate": "Patienten, die ein perfektes Lächeln wünschen.",
+      "duration": "2-3 Sitzungen."
+    },
+    {
+      "image": "/images/bills/allon4.webp",
+      "title": "All-on-4",
+      "shortDescription": "Komplette Zahnbogenrekonstruktion mit nur 4 Implantaten.",
+      "link": "/contact",
+      "necessity": "Wenn Sie eine vollständige Zahnbogenrekonstruktion benötigen.",
+      "candidate": "Patienten mit erheblichem Zahnverlust.",
+      "duration": "1-2 Stunden."
+    },
+    {
+      "image": "/images/bills/allon6.webp",
+      "title": "All-on-6",
+      "shortDescription": "Komplette Zahnbogenrekonstruktion mit 6 Implantaten.",
+      "link": "/contact",
+      "necessity": "Wenn Sie eine vollständige Zahnbogenrekonstruktion mit zusätzlicher Stabilität benötigen.",
+      "candidate": "Patienten mit erheblichem Zahnverlust.",
+      "duration": "1-2 Stunden."
+    },
+    {
+      "image": "/images/bills/white.webp",
+      "title": "Zahnaufhellung",
+      "shortDescription": "Hellen Sie Ihr Lächeln mit professioneller Zahnaufhellung auf.",
+      "link": "/contact",
+      "necessity": "Wenn Sie Flecken und Verfärbungen entfernen möchten.",
+      "candidate": "Patienten, die ihr Lächeln aufhellen möchten.",
+      "duration": "1 Stunde."
+    },
+    {
+      "image": "/images/bills/veneers.webp",
+      "title": "Zahnveneers",
+      "shortDescription": "Verbessern Sie Ihr Lächeln mit maßgefertigten Veneers.",
+      "link": "/contact",
+      "necessity": "Zur Verbesserung des Erscheinungsbildes der Zähne.",
+      "candidate": "Patienten mit abgebrochenen, verfärbten oder schiefen Zähnen.",
+      "duration": "2-3 Sitzungen."
+    },
+    {
+      "image": "/images/bills/root.webp",
+      "title": "Wurzelbehandlung",
+      "shortDescription": "Retten Sie Ihre natürlichen Zähne.",
+      "link": "/contact",
+      "necessity": "Wenn der Zahnnerv entzündet oder infiziert ist.",
+      "candidate": "Patienten mit starken Zahnschmerzen oder Infektionen.",
+      "duration": "1-2 Stunden."
+    },
+    {
+      "image": "/images/bills/bridge.webp",
+      "title": "Zahnbrücken",
+      "shortDescription": "Ersetzen Sie fehlende Zähne mit einer Zahnbrücke.",
+      "link": "/contact",
+      "necessity": "Wenn Sie einen oder mehrere fehlende Zähne haben.",
+      "candidate": "Patienten mit guter Mundgesundheit und angrenzenden Zähnen.",
+      "duration": "2-3 Sitzungen."
+    },
+    {
+      "image": "/images/bills/gum.webp",
+      "title": "Zahnfleischmodellierung",
+      "shortDescription": "Formen Sie Ihr Zahnfleisch für ein besseres Lächeln um.",
+      "link": "/contact",
+      "necessity": "Zur Korrektur ungleichmäßiger Zahnfleischlinien.",
+      "candidate": "Patienten mit übermäßigem oder ungleichmäßigem Zahnfleisch.",
+      "duration": "1-2 Stunden."
+    },
+    {
+      "image": "/images/bills/full.webp",
+      "title": "Komplette Zahnsanierung",
+      "shortDescription": "Komplette Zahnsanierung.",
+      "link": "/contact",
+      "necessity": "Wenn Sie umfangreiche Zahnbehandlungen benötigen.",
+      "candidate": "Patienten mit mehreren Zahnproblemen.",
+      "duration": "Je nach Fall unterschiedlich."
+    }
+  ],
+
+  "expertise": {
+    "title": "Unsere Expertise",
+    "description": "Weltklasse medizinische und zahnmedizinische Leistungen mit einem Expertenteam.",
+    "sectionTitle": "Warum uns Wählen",
+    "sectionDescription": "Entdecken Sie die Vorteile, die Sorriso für Ihre Zahnpflege bietet.",
+    "features": [
+      { "icon": "FaMicroscope", "text": "Fortschrittliche Zahntechnologie für präzise Diagnosen." },
+      { "icon": "FaUserMd", "text": "Hochqualifizierte Zahnmediziner mit langjähriger Erfahrung." },
+      { "icon": "FaHeartbeat", "text": "Umfassende Betreuung mit Fokus auf das Wohlbefinden des Patienten." },
+      { "icon": "FaStethoscope", "text": "Personalisierte Behandlungspläne, die auf Ihre Bedürfnisse zugeschnitten sind." }
+    ]
   },
+
+  "cta": {
+    "title": "Bereit, Ihr Lächeln zu Verwandeln?",
+    "description": "Kontaktieren Sie uns noch heute, um einen Termin zu vereinbaren und den ersten Schritt zu einem gesünderen, strahlenderen Lächeln zu machen.",
+    "buttonText": "Kontaktieren Sie uns"
+  },
+
   "flipCard": {
     "moreInfo": "Weitere Informationen",
-    "necessity": "Wann es möglicherweise notwendig ist",
-    "candidate": "Geeigneter Kandidat",
+    "necessity": "Notwendigkeit",
+    "candidate": "Idealer Kandidat",
     "duration": "Dauer",
     "back": "Zurück"
   },
   "mostWanted": {
-    "title": "Unsere meistgesuchten Verfahren",
-    "description": "Entdecken Sie unsere beliebtesten Verfahren, die von Patienten aufgrund ihrer herausragenden Ergebnisse und Vorteile ausgewählt wurden."
-  },
-  "facilities": {
-    "title": "Unsere Einrichtungen",
-    "description": "Moderne Einrichtungen für eine komfortable und effiziente Patientenerfahrung.",
-    "features": [
-      {
-        "icon": "FaTooth",
-        "title": "State-of-the-Art-Technologie",
-        "description": "Neueste Zahnmedizin-Technologie."
-      },
-      {
-        "icon": "FaChair",
-        "title": "Komfortabel",
-        "description": "Modernes und sauberes Umfeld."
-      },
-      {
-        "icon": "FaShieldAlt",
-        "title": "Sterilisiert",
-        "description": "Höchste Hygienestandards."
-      }
-    ]
-  },
-  "expertise": {
-    "title": "Unsere Expertise",
-    "description": "Durch jahrelange Erfahrung und ein multidisziplinäres Team hochqualifizierter Fachleute bieten wir exquisite medizinische und zahnärztliche Versorgung mit den neuesten Technologien.",
-    "sectionTitle": "Wir sind Experten in dem, was wir tun",
-    "sectionDescription": "Unsere Klinik ist mit modernsten Einrichtungen ausgestattet und wird von einem Team engagierter Fachleute betreut, darunter Experten für Allgemeinchirurgie, Gynäkologie, Pulmonologie und mehr. Wir sind bestrebt, eine außergewöhnliche, umfassende Betreuung zu bieten, die auf die Bedürfnisse jedes einzelnen Patienten zugeschnitten ist.",
-    "features": [
-      {
-        "icon": "FaMicroscope",
-        "text": "Modernste Technologie"
-      },
-      {
-        "icon": "FaUserMd",
-        "text": "Multidisziplinäre Spezialisten"
-      },
-      {
-        "icon": "FaHeartbeat",
-        "text": "Patientenzentrierter Ansatz"
-      },
-      {
-        "icon": "FaStethoscope",
-        "text": "Umfassende Betreuung"
-      }
-    ]
-  },
-  "cta": {
-    "title": "Bereit, Ihr Lächeln zu verändern?",
-    "description": "Kontaktieren Sie uns noch heute, um Ihre Beratung zu vereinbaren und den ersten Schritt zu einem gesünderen, strahlenderen Lächeln zu machen.",
-    "buttonText": "Kontaktieren Sie uns"
-  },
-  "serviceGrid": {
-    "title": "Unsere Dienstleistungen",
-    "description": "Wir bieten erstklassige Behandlung für alle zahnärztlichen Probleme",
-    "buttonText": "Jetzt ansehen",
-    "services": [
-      { "title": "Allgemeine Zahnmedizin" },
-      { "title": "Zahnimplantate" },
-      { "title": "Zahnersatz" },
-      { "title": "Zahnchirurgie" },
-      { "title": "Zahnaufhellung" },
-      { "title": "Schutz" },
-      { "title": "Parodontologie" },
-      { "title": "Radiologie" }
-    ]
-  },
-   "watchVideo": "Video ansehen",
-   "testimonialsHero": {
-    "title": "Unsere zufriedenen Patienten",
-    "description": "Hören Sie von unseren Patienten über ihre Erfahrungen und die hochwertige Betreuung, die sie erhalten haben."
-  },
-  "countries": {
-    "unitedStates": "Vereinigte Staaten",
-    "italy": "Italien",
-    "montenegro": "Montenegro",
-    "australia": "Australien"
-  },
-  "treatments": {
-    "hollywoodSmile": "Hollywood-Lächeln",
-    "dentalImplant": "Zahnimplantat",
-    "teethWhitening": "Zahnaufhellung",
-    "orthodontics": "Kieferorthopädie"
-  },
-  "testimonials": {
-    "sheilaPeterson": {
-      "description": "Dr. Aleksa - ehrlich gesagt, seine Professionalität und Geduld sind unglaublich. Ich bin hier im Urlaub und war nervös, alleine zahnärztliche Arbeit zu leisten. Er war so beruhigend, freundlich, ermutigend und sehr sanft. Er ist wirklich ein Top-Zahnarzt. Er hat mich jetzt zu einem regelmäßigen Kunden gemacht, auch wenn ich von London hierher reisen muss. Vielen Dank und machen Sie weiter so!"
-    },
-    "lauraBastone": {
-      "description": "Ich bin sehr zufrieden. Hohe Kompetenz, große Aufmerksamkeit und Höflichkeit. Vielen Dank."
-    },
-    "lelaKovacMajcevski": {
-      "description": "Zahnärztliche Eingriffe sind oft schmerzhaft. Das ist auch meine Erfahrung, aber Dr. Šuković und sein Team sind wirklich sehr professionell. Die Atmosphäre ist angenehm, ohne Spannungen, und der Patient fühlt sich hier sicher. Sie sind sehr höflich, einfach Termine zu vereinbaren. Es ist ordentlich und sauber. Es scheint, dass hier alles dem Patienten gewidmet ist. Dr. Dražen und der Rest des Teams sind sehr verantwortungsbewusst. In jedem Fall empfehle ich dieses Krankenhaus von ganzem Herzen jedem. Hier ist alles darauf ausgelegt, dem Patienten zu dienen."
-    },
-    "marryDianaJones": {
-      "description": "Meine langjährige Erfahrung in der Klinik Ars Medica kann als mehr als ausgezeichnet beschrieben werden. Die Ärzte und das Personal sind professionell, engagiert und sehr nett. Die Qualität der Dienstleistungen ist auf höchstem Niveau in einer Umgebung renommierter weltweiter Kliniken."
-    }
-  },
-  "gallerySection": {
-    "galleryTitle": "Transformationsgalerie",
-    "galleryImageAlt": "Bild der Galerie {{index}}"
-  },
-    "procedures": [
-      {
-        "image": "/images/bills/implant.webp",
-        "title": "Zahnimplantate",
-        "shortDescription": "Ersetzen Sie fehlende Zähne mit langlebigen Implantaten.",
-        "link": "/contact",
-        "necessity": "Wenn Sie einen oder mehrere fehlende Zähne haben.",
-        "candidate": "Patienten mit guter Mundgesundheit.",
-        "duration": "1-2 Stunden pro Implantat."
-      },
-      {
-        "image": "/images/bills/zcrown.webp",
-        "title": "Zirkoniumkronen",
-        "shortDescription": "Langlebige und ästhetisch ansprechende Kronen.",
-        "link": "/contact",
-        "necessity": "Wenn Sie starke und natürlich aussehende Kronen benötigen.",
-        "candidate": "Patienten, die Zahnkronen benötigen.",
-        "duration": "1-2 Stunden pro Krone."
-      },
-      {
-        "image": "/images/bills/hollywood.webp",
-        "title": "Ihr Perfektes Lächeln",
-        "shortDescription": "Erreichen Sie ein perfektes Lächeln mit Veneers.",
-        "link": "/contact",
-        "necessity": "Für eine komplette Lächelumwandlung.",
-        "candidate": "Patienten, die ein perfektes Lächeln wünschen.",
-        "duration": "2-3 Sitzungen."
-      },
-      {
-        "image": "/images/bills/allon4.webp",
-        "title": "All-on-4",
-        "shortDescription": "Vollbogenrestauration mit nur 4 Implantaten.",
-        "link": "/contact",
-        "necessity": "Wenn Sie eine Vollbogenrestauration benötigen.",
-        "candidate": "Patienten mit erheblichem Zahnverlust.",
-        "duration": "1-2 Stunden."
-      },
-      {
-        "image": "/images/bills/allon6.webp",
-        "title": "All-on-6",
-        "shortDescription": "Vollbogenrestauration mit 6 Implantaten.",
-        "link": "/contact",
-        "necessity": "Wenn Sie eine Vollbogenrestauration mit zusätzlicher Stabilität benötigen.",
-        "candidate": "Patienten mit erheblichem Zahnverlust.",
-        "duration": "1-2 Stunden."
-      },
-      {
-        "image": "/images/bills/white.webp",
-        "title": "Zahnaufhellung",
-        "shortDescription": "Hellen Sie Ihr Lächeln mit professioneller Aufhellung auf.",
-        "link": "/contact",
-        "necessity": "Wenn Sie Flecken und Verfärbungen entfernen möchten.",
-        "candidate": "Patienten, die ihr Lächeln aufhellen möchten.",
-        "duration": "1 Stunde."
-      },
-      {
-        "image": "/images/bills/veneers.webp",
-        "title": "Zahnveneers",
-        "shortDescription": "Verbessern Sie Ihr Lächeln mit maßgefertigten Veneers.",
-        "link": "/contact",
-        "necessity": "Zur Verbesserung des Erscheinungsbildes der Zähne.",
-        "candidate": "Patienten mit abgebrochenen, verfärbten oder schiefen Zähnen.",
-        "duration": "2-3 Sitzungen."
-      },
-      {
-        "image": "/images/bills/root.webp",
-        "title": "Wurzelkanalbehandlung",
-        "shortDescription": "Retten Sie Ihre natürlichen Zähne.",
-        "link": "/contact",
-        "necessity": "Wenn Sie eine infizierte oder entzündete Zahnpulpa haben.",
-        "candidate": "Patienten mit starken Zahnschmerzen oder Infektionen.",
-        "duration": "1-2 Stunden."
-      },
-      {
-        "image": "/images/bills/bridge.webp",
-        "title": "Zahnbrücken",
-        "shortDescription": "Ersetzen Sie fehlende Zähne mit einer Zahnbrücke.",
-        "link": "/contact",
-        "necessity": "Wenn Sie einen oder mehrere fehlende Zähne haben.",
-        "candidate": "Patienten mit guter Mundgesundheit und benachbarten Zähnen.",
-        "duration": "2-3 Sitzungen."
-      },
-      {
-        "image": "/images/bills/gum.webp",
-        "title": "Zahnfleischkonturierung",
-        "shortDescription": "Formen Sie Ihr Zahnfleisch für ein besseres Lächeln um.",
-        "link": "/contact",
-        "necessity": "Zur Korrektur ungleichmäßiger Zahnfleischlinien.",
-        "candidate": "Patienten mit übermäßigem oder ungleichmäßigem Zahnfleisch.",
-        "duration": "1-2 Stunden."
-      },
-      {
-        "image": "/images/bills/full.webp",
-        "title": "Vollständige Mundrekonstruktion",
-        "shortDescription": "Komplette Zahnrestauration.",
-        "link": "/contact",
-        "necessity": "Wenn Sie umfangreiche Zahnarbeiten benötigen.",
-        "candidate": "Patienten mit mehreren Zahnproblemen.",
-        "duration": "Je nach Fall unterschiedlich."
-      }
-    ]
-  
+  "title": "Beliebteste Behandlungen",
+  "description": "Entdecken Sie unsere beliebtesten Zahnbehandlungen, die unzählige Lächeln verwandelt haben."
+}
+
 }

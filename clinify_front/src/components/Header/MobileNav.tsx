@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+"use client";
+import React from "react";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
+import { FiPhoneCall } from "react-icons/fi";
 
 interface MobileNavProps {
   toggleMenu: () => void;
@@ -8,30 +10,22 @@ interface MobileNavProps {
 
 const MobileNav: React.FC<MobileNavProps> = ({ toggleMenu }) => {
   const { t } = useTranslation("common");
-  const [activeSubmenu, setActiveSubmenu] = useState<string | null>(null);
-
-  const handleSubmenuToggle = (submenu: string) => {
-    if (activeSubmenu === submenu) {
-      setActiveSubmenu(null);
-    } else {
-      setActiveSubmenu(submenu);
-    }
-  };
 
   return (
-    <div className="fixed inset-y-0 right-0 w-64 bg-teal-500 z-50 transition-transform duration-300 ease-in-out transform translate-x-0 lg:hidden flex flex-col items-start justify-start shadow-lg">
-      <div className="sticky top-0 w-full z-50 bg-teal-500 shadow-lg">
-        <div className="flex justify-between items-center w-full px-4 py-3 border-b border-teal-700">
-          <span className="text-2xl font-semibold text-white">
+    <div className="fixed inset-0 bg-teal-900 bg-opacity-90 backdrop-blur-lg z-50 transition-transform duration-500 ease-in-out transform translate-x-0 lg:hidden flex flex-col shadow-xl">
+      {/* Header */}
+      <div className="sticky top-0 w-full z-50 bg-teal-900 shadow-lg">
+        <div className="flex justify-between items-center w-full px-6 py-4 border-b border-teal-800">
+          <span className="text-3xl font-bold text-white tracking-wide">
             {t("header.mobile_nav.menu")}
           </span>
           <button
             className="text-white"
             onClick={toggleMenu}
-            aria-label="Close menu" //testing
+            aria-label="Close menu"
           >
             <svg
-              className="w-6 h-6"
+              className="w-8 h-8"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -47,175 +41,54 @@ const MobileNav: React.FC<MobileNavProps> = ({ toggleMenu }) => {
           </button>
         </div>
       </div>
-      <Link
-        href="/"
-        className="block px-4 py-2 text-lg text-white hover:bg-teal-600 w-full"
-        onClick={toggleMenu}
-      >
-        {t("header.menu.home")}
-      </Link>
-      <div className="w-full">
-        <div
-          className="flex items-center justify-between w-full px-4 py-2 text-lg text-white cursor-pointer hover:bg-teal-600"
-          onClick={() => handleSubmenuToggle("about")}
+
+      {/* Menu Links */}
+      <div className="px-4 py-6 space-y-4 flex-grow">
+        {/* Home Link */}
+        <Link
+          href="/"
+          className="block text-xl text-white hover:text-teal-400 transition-all duration-300"
+          onClick={toggleMenu}
         >
-          {t("header.menu.about")}
-          <svg
-            className="w-4 h-4 ml-1"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M19 9l-7 7-7-7"
-            ></path>
-          </svg>
-        </div>
-        {activeSubmenu === "about" && (
-          <div className="pl-6">
-            <Link
-              href="/about"
-              className="block px-4 py-2 text-lg text-white hover:bg-teal-600"
-              onClick={toggleMenu}
-            >
-              {t("header.menu.about_submenu.about")}
-            </Link>
-            <Link
-              href="/ourteam"
-              className="block px-4 py-2 text-lg text-white hover:bg-teal-600"
-              onClick={toggleMenu}
-            >
-              {t("header.menu.about_submenu.our_team")}
-            </Link>
-            <Link
-              href="/whymne"
-              className="block px-4 py-2 text-lg text-white hover:bg-teal-600"
-              onClick={toggleMenu}
-            >
-              {t("header.menu.about_submenu.why_montenegro")}
-            </Link>
-          </div>
-        )}
+          {t("header.mobile_nav.home")}
+        </Link>
+
+        {/* About Link */}
+        <Link
+          href="/about"
+          className="block text-lg text-teal-300 hover:text-white transition-all duration-300"
+          onClick={toggleMenu}
+        >
+          {t("header.mobile_nav.about")}
+        </Link>
+
+        {/* Services Link */}
+        <Link
+          href="/services"
+          className="block text-lg text-teal-300 hover:text-white transition-all duration-300"
+          onClick={toggleMenu}
+        >
+          {t("header.mobile_nav.services")}
+        </Link>
+
+        {/* Pricing Link */}
+        <Link
+          href="/pricing"
+          className="block text-xl text-white hover:text-teal-400 transition-all duration-300"
+          onClick={toggleMenu}
+        >
+          {t("header.mobile_nav.pricing")}
+        </Link>
+
+        {/* Contact Link */}
+        <Link
+          href="/contact"
+          className="block text-xl text-white hover:text-teal-400 transition-all duration-300"
+          onClick={toggleMenu}
+        >
+          {t("header.mobile_nav.contact")}
+        </Link>
       </div>
-      <div className="w-full">
-        <div
-          className="flex items-center justify-between w-full px-4 py-2 text-lg text-white cursor-pointer hover:bg-teal-600"
-          onClick={() => handleSubmenuToggle("services")}
-        >
-          {t("header.menu.services")}
-          <svg
-            className="w-4 h-4 ml-1"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M19 9l-7 7-7-7"
-            ></path>
-          </svg>
-        </div>
-        {activeSubmenu === "services" && (
-          <div className="pl-6">
-            <Link
-              href="/services"
-              className="block px-4 py-2 text-lg text-white hover:bg-teal-600"
-              onClick={toggleMenu}
-            >
-              {t("header.menu.services_submenu.our_services")}
-            </Link>
-            {/* <Link
-              href="/howitworks"
-              className="block px-4 py-2 text-lg text-white hover:bg-teal-600"
-              onClick={toggleMenu}
-            >
-              {t("header.menu.services_submenu.how_it_works")}
-            </Link> */}
-            <Link
-              href="/procedures"
-              className="block px-4 py-2 text-lg text-white hover:bg-teal-600"
-              onClick={toggleMenu}
-            >
-              {t("header.menu.services_submenu.treatments")}
-            </Link>
-            {/* <Link
-              href="/experiences"
-              className="block px-4 py-2 text-lg text-white hover:bg-teal-600"
-              onClick={toggleMenu}
-            >
-              {t("header.menu.services_submenu.experiences")}
-            </Link> */}
-            <Link
-              href="/gallery"
-              className="block px-4 py-2 text-lg text-white hover:bg-teal-600"
-              onClick={toggleMenu}
-            >
-              {t("header.menu.services_submenu.gallery")}
-            </Link>
-          </div>
-        )}
-      </div>
-      {/* <div className="w-full">
-        <div
-          className="flex items-center justify-between w-full px-4 py-2 text-lg text-white cursor-pointer hover:bg-teal-600"
-          onClick={() => handleSubmenuToggle("business")}
-        >
-          {t("header.menu.business")}
-          <svg
-            className="w-4 h-4 ml-1"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M19 9l-7 7-7-7"
-            ></path>
-          </svg>
-        </div>
-        {activeSubmenu === "business" && (
-          <div className="pl-6">
-            <Link
-              href="/clinics"
-              className="block px-4 py-2 text-lg text-white hover:bg-teal-600"
-              onClick={toggleMenu}
-            >
-              {t("header.menu.business_submenu.for_clinics")}
-            </Link>
-            <Link
-              href="/for-affiliates"
-              className="block px-4 py-2 text-lg text-white hover:bg-teal-600"
-              onClick={toggleMenu}
-            >
-              {t("header.menu.business_submenu.for_affiliates")}
-            </Link>
-          </div> 
-        {/* )}
-      </div> */}
-      <Link
-        href="/pricing"
-        className="block px-4 py-2 text-lg text-white hover:bg-teal-600 w-full"
-        onClick={toggleMenu}
-      >
-        {t("header.menu.pricing")}
-      </Link>
-      <Link
-        href="/contact"
-        className="block px-4 py-2 text-lg text-white hover:bg-teal-600 w-full"
-        onClick={toggleMenu}
-      >
-        {t("header.menu.contact")}
-      </Link>
     </div>
   );
 };

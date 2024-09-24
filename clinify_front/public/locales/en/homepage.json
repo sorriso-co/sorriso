@@ -1,9 +1,14 @@
 {
-  "slideshow": {
-    "slide1": "FREE Online Consultations",
-    "slide2": "Save up to 70%",
-    "slide3": "Enjoy more",
-    "slide4": "Spend Your Vacation Smiling"
+  "frontHero": {
+    "title": "Your Next Dental Trip",
+    "subtitle": "Free Consultations, World-Class Treatment, Stunning Results",
+    "visitButton": "Contact us",
+    "scheduleButton": "See our services"
+  },
+  "haveItAll": {
+    "title": "Have It All with Sorriso",
+    "description": "Discover the perfect blend of world-class dental care and a dream vacation in Montenegro. With Sorriso, you can experience world-class dental procedures while enjoying the stunning beauty of Montenegro’s landscapes, rich history, and warm hospitality. Save up to 80% on dental treatments.",
+    "buttonText": "Schedule an Appointment"
   },
   "introduction": {
     "title": "Your Next Dental Trip",
@@ -11,184 +16,76 @@
     "description": "Discover exceptional dental care combined with an unforgettable travel experience. Let Sorriso guide you through a journey to a brighter, healthier smile while exploring the beauty and culture of Montenegro.",
     "joinUsTitle": "Join Us",
     "joinUsDescription": "Schedule an appointment and start your journey to a perfect smile with Sorriso.",
-    "scheduleButton": "Book a Call",
-    "visitButton": "Our Transformations"
+    "visitButton": "Our Transformation",
+    "scheduleButton": "Book a Call"
   },
   "howItWorks": {
-    "title": "How It Works",
+    "title": "In 6 Easy Steps to Your Perfect Smile",
     "steps": {
       "step1": {
-        "title": "Contact Us",
-        "description": "Fill out the form and optionally send the most recent X-ray or image of your teeth. We will contact you within 24 hours to schedule your online consultation."
+        "title": "Free Online Consultation",
+        "description": "Talk to our dental experts to find out if our services are right for you."
       },
       "step2": {
-        "title": "Receive Your Treatment Plan",
-        "description": "You will receive a treatment plan detailing all steps and costs."
+        "title": "Personalized Treatment Plan",
+        "description": "Receive a detailed treatment plan personalized to your needs."
       },
       "step3": {
-        "title": "Initial Consultation",
-        "description": "During consultation, you have the opportunity to ask any questions about the treatment."
+        "title": "Ask Any Questions",
+        "description": "Ask any questions you have about the treatment process."
       },
       "step4": {
-        "title": "Travel",
-        "description": "When the plan is in place, just pack, travel, and get treated. We will take care of everything."
+        "title": "Travel for Treatment",
+        "description": "Travel to Montenegro for your world-class dental treatment."
       },
       "step5": {
-        "title": "Treatment",
-        "description": "Receive the treatment you need from our highly qualified dental professionals. We use the latest technology."
+        "title": "Receive Treatment",
+        "description": "Our expert dentists will provide you with the best care using the latest technology."
       },
       "step6": {
-        "title": "Have Fun",
-        "description": "Enjoy your stay and explore the local attractions while you receive the best dental care while enjoying Montenegro."
+        "title": "Enjoy Your New Smile",
+        "description": "Leave with a beautiful smile and a memorable experience."
       }
     },
-    "buttonText": "Watch Now"
+    "buttonText": "Book a Free Consultation"
   },
   "serviceGrid": {
-    "title": "Our Services",
-    "description": "We provide world class treatment for all dental problems",
+    "title": "Our Dental Services",
+    "description": "Explore our comprehensive dental services designed to meet your needs.",
+    "buttonText": "Watch Our Video",
     "services": [
-      { "title": "General Dentistry" },
-      { "title": "Implantology" },
-      { "title": "Prosthetics" },
-      { "title": "Dental Surgery" },
-      { "title": "Cosmetic Dentistry" },
-      { "title": "Endodontics" },
-      { "title": "Periodontology" },
-      { "title": "Dental Radiology" }
-    ],
-    "buttonText": "Watch Now"
-  },
-    "pricing": {
-      "title": "Average Cost Comparison",
-      "procedure": "Procedure",
-      "ukPrice": "UK Price",
-      "euPrice": "EU Average",
-      "usPrice": "US Price",
-      "balkanPrice": "Our Price",
-      "savings": "Savings",
-      "note": "*Prices are case-dependent. Fill out our online request form to know the latest deals on prices and exclusive discounts!",
-      "onlineRequestForm": "online request form",
-      "buttonText": "See Our Pricing",
-      "procedures": [
-        {
-          "procedure": "Titanium Implant",
-          "ukPrice": "€3,000",
-          "euPrice": "€2,200",
-          "usPrice": "€3,600",
-          "balkanPrice": "€1,072",
-          "savings": "65%"
-        },
-        {
-          "procedure": "All-on-4 Implants",
-          "ukPrice": "€14,400",
-          "euPrice": "€10,000",
-          "usPrice": "€15,000",
-          "balkanPrice": "€6,231",
-          "savings": "58%"
-        },
-        {
-          "procedure": "All-on-6 Implants",
-          "ukPrice": "€16,200",
-          "euPrice": "€11,500",
-          "usPrice": "€16,800",
-          "balkanPrice": "€7,916",
-          "savings": "52%"
-        },
-        {
-          "procedure": "All-on-8 Implants",
-          "ukPrice": "€18,000",
-          "euPrice": "€13,000",
-          "usPrice": "€19,200",
-          "balkanPrice": "€9,499",
-          "savings": "52%"
-        },
-        {
-          "procedure": "Full Porcelain Crown",
-          "ukPrice": "€1,200",
-          "euPrice": "€800",
-          "usPrice": "€1,300",
-          "balkanPrice": "€383",
-          "savings": "68%"
-        },
-        {
-          "procedure": "Zirconium Crown",
-          "ukPrice": "€1,440",
-          "euPrice": "€1,000",
-          "usPrice": "€1,560",
-          "balkanPrice": "€383",
-          "savings": "75%"
-        },
-        {
-          "procedure": "Porcelain Veneer",
-          "ukPrice": "€1,200",
-          "euPrice": "€850",
-          "usPrice": "€1,440",
-          "balkanPrice": "€255",
-          "savings": "82%"
-        },
-        {
-          "procedure": "E-Max Veneer",
-          "ukPrice": "€1,260",
-          "euPrice": "€900",
-          "usPrice": "€1,500",
-          "balkanPrice": "€383",
-          "savings": "75%"
-        },
-        {
-          "procedure": "Full Denture",
-          "ukPrice": "€2,160",
-          "euPrice": "€1,500",
-          "usPrice": "€2,400",
-          "balkanPrice": "€664",
-          "savings": "72%"
-        },
-        {
-          "procedure": "Teeth Whitening",
-          "ukPrice": "€600",
-          "euPrice": "€450",
-          "usPrice": "€720",
-          "balkanPrice": "€255",
-          "savings": "65%"
-        },
-        {
-          "procedure": "Root Canal (molars)",
-          "ukPrice": "€960",
-          "euPrice": "€700",
-          "usPrice": "€1,080",
-          "balkanPrice": "€123",
-          "savings": "87%"
-        },
-        {
-          "procedure": "Extraction (simple)",
-          "ukPrice": "€240",
-          "euPrice": "€180",
-          "usPrice": "€300",
-          "balkanPrice": "€56",
-          "savings": "77%"
-        },
-        {
-          "procedure": "Extraction (surgical)",
-          "ukPrice": "€360",
-          "euPrice": "€250",
-          "usPrice": "€420",
-          "balkanPrice": "€189",
-          "savings": "55%"
-        },
-        {
-          "procedure": "Regular Teeth Cleaning",
-          "ukPrice": "€360",
-          "euPrice": "€250",
-          "usPrice": "€420",
-          "balkanPrice": "€66",
-          "savings": "84%"
-        }
-      ]
-    },
-  "haveItAll": {
-    "title": "Have It All with Sorriso",
-    "description": "Discover the perfect blend of world-class dental care and a dream vacation in Montenegro. With Sorriso, you can experience world-class dental procedures while enjoying the stunning beauty of Montenegro’s landscapes, rich history, and warm hospitality. Save up to 80% on dental treatments.",
-    "buttonText": "Schedule an Appointment"
+      {
+        "title": "General Dentistry",
+        "altText": "General Dentistry Services"
+      },
+      {
+        "title": "Dental Implants",
+        "altText": "Dental Implant Services"
+      },
+      {
+        "title": "Dental Crowns",
+        "altText": "Dental Crown Services"
+      },
+      {
+        "title": "Dental Surgery",
+        "altText": "Dental Surgery Services"
+      },
+      {
+        "title": "Tooth Whitening",
+        "altText": "Tooth Whitening Services"
+      },
+      {
+        "title": "Tooth Protection",
+        "altText": "Tooth Protection Services"
+      },
+      {
+        "title": "Periodontal Treatment",
+        "altText": "Periodontal Treatment Services"
+      },
+      {
+        "title": "Radiology",
+        "altText": "Radiology Services"
+      }
+    ]
   }
 }
-

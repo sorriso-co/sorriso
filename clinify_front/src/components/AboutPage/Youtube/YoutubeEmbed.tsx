@@ -10,10 +10,10 @@ const YouTubeEmbed: React.FC = () => {
   return (
     <div className="youtube-embed">
       <h4 className="font-serif font-bold text-teal-600 text-5xl mb-20">
-        {t('youtubeEmbed.title')}
+        {t('youtubeEmbed.title', { defaultValue: "Watch Our Transformation" })}
       </h4>
       <p className="font-serif text-lg text-teal-600 mb-8">
-        {t('youtubeEmbed.description')}
+        {t('youtubeEmbed.description', { defaultValue: "Discover how Sorriso is transforming smiles and delivering world-class dental care." })}
       </p>
       <div className="video-container">
         <iframe
@@ -28,3 +28,4 @@ const YouTubeEmbed: React.FC = () => {
 };
 
 export default YouTubeEmbed;
+

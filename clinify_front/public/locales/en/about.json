@@ -1,168 +1,92 @@
 {
-   "about": {
-    "title": "About Us",
-    "advantages": {
-      "first": "Latest Tech",
-      "second": "Professionalism",
-      "third": "Highest Quality Materials"
-    },
-    "description": "Our commitment to innovation and quality ensures that you receive the best products and services available. Join us in experiencing the future of technology."
+  "aboutUs": {
+    "cuttingEdgeTech": "Cutting-Edge Dental Technology",
+    "expertTeam": "Expert Team of Dentists",
+    "personalizedCare": "Personalized Care for Every Patient",
+    "description": "At Sorriso, we combine world-class dental care with cutting-edge technology to ensure that you receive the highest level of service possible. Experience the future of dentistry today."
   },
-   "mission": {
-      "title": "Our Mission",
-      "subtitle": "Transforming Smiles, Transforming Lives",
-      "paragraph1": "At Sorriso, our mission is to revolutionize dental tourism by providing exceptional dental care combined with unforgettable travel experiences. We aim to offer personalized, high-quality, and affordable dental treatments in beautiful destinations, ensuring every patient returns home with a brighter, healthier smile and cherished memories.",
-      "paragraph2": "We are committed to excellence in dental care, utilizing the latest technology and techniques to achieve optimal patient outcomes. Our dedicated team of professionals works tirelessly to make dental tourism accessible and enjoyable for everyone, bridging the gap between world-class dental services and the adventure of exploring new places."
+  "box": {
+    "section1": {
+      "title": "Why Choose Sorriso?",
+      "subtitle": "Committed to Excellence",
+      "description": "Our mission is to deliver world-class dental care and ensure client satisfaction."
     },
-    "box": {
-      "section1": {
-        "title": "Patients Come First",
-        "subtitle": "Sorriso Has Your Back",
-        "description": "Sorriso is an agency that takes you on a transformative journey towards better dental health and a beautiful smile."
-      },
-      "metrics": {
-        "client_satisfaction": "Client Satisfaction",
-        "dental_success": "Dental Success",
-        "client_referral": "Client Referral"
-      },
-      "cta": {
-        "title": "Ready to Transform Your Smile?",
-        "description": "Contact us today to schedule your consultation and take the first step towards a healthier, brighter smile.",
-        "button": "Contact Us"
-      }
-    },
-    "youtubeEmbed": {
-      "title": "High Quality Dentistry",
-      "description": "Watch our video to understand the seamless process of dental tourism with Sorriso. From the initial online consultation to scheduling, arrival in Montenegro, and undergoing your procedure, we ensure a smooth and comfortable experience. Discover the beauty of Montenegro while receiving the best dental care."
-    },
-    "topSection": {
-      "title": "Meet Our Team of Expert Dentists",
-      "description": "Discover the exceptional skills and qualifications of our friendly dentists, dedicated to providing you with the best dental care. Their expertise spans across various dental specializations, ensuring you receive comprehensive treatment.",
-      "button": "Let's Collaborate"
-    },
-    "founders": {
-      "title": "Meet Our Founders",
-      "member1": {
-        "name": "Ivan Čabrilo",
-        "description": "Mr. Čabrilo is from Montenegro and currently studies at the University of Rochester in New York with a full scholarship. He double majors in Computer Science and Business while actively researching AI and Machine Learning."
-      },
-      "member2": {
-        "name": "Dr. Filip Šuković med. dent.",
-        "description": "Dr. Filip Šuković was born in Cetinje. He completed high school at St. Clare's International College in Oxford and began his dental studies at Birkbeck University in London, finishing them at the Faculty of Dentistry CEU Cardinal Herrera in Valencia."
-      },
-      "member3": {
-        "name": "Djordje Ivanović",
-        "description": "Mr. Ivanović is from Podgorica, Montenegro, and currently studies at Harvard University in Boston, Massachusetts, on a prestigious scholarship. He is pursuing a career in Computer Science with an interest in Economics."
-      }
-    },
-    "team": {
-      "title": "Meet Our Expert Team",
-      "description": "We have partnered with the best dentists in the country with a long-standing tradition of excellence spanning over 30 years. Their exceptional service, attention to detail, and understanding guarantee you the smile you've always wanted.",
-      "doctor1": {
-        "name": "Dr. Milija Sukovic medical dent",
-        "title": "Implantology Specialist"
-      },
-      "doctor2": {
-        "name": "Dr. Jelena Rutesic med dent",
-        "title": "Doctor of Dental Medicine"
-      },
-      "doctor3": {
-        "name": "Dr. Dražen Nikčević med dent",
-        "title": "Doctor of Dental Medicine"
-      },
-      "doctor4": {
-        "name": "Dr. Aleksa Raičković med dent",
-        "title": "Doctor of Dental Medicine"
-      },
-      "doctor5": {
-        "name": "Ms. Milena Bojanic",
-        "title": "Nurse"
-      },
-      "doctor6": {
-        "name": "Ms. Dijana Scepanovic",
-        "title": "Dental Nurse"
-      },
-      "doctor7": {
-        "name": "Ms. Aleksandra Jevrić dental nurse",
-        "title": "Medical Assistant"
-      },
-      "doctor8": {
-        "name": "Ms. Nađa Vukadinović dental nurse",
-        "title": "Medical Assistant"
-      }
-    },
-    "scheduleAppointment": {
-      "title": "Schedule an Appointment",
-      "description": "Ready to transform your smile? Book an appointment with our expert team today and start your journey towards a brighter, healthier future.",
-      "bookNow": "Book Now",
-      "whatWeStandFor": "What We Stand For"
-    },
-    "whyMontenegro": {
-      "title": "Why Montenegro?",
-      "subtitle": "Simple Answer"
-    },
-    "dentalTravelIntro": {
-      "title": "Dental Travel with Sorriso",
-      "description": "Visit the country endowed with untouched natural beauty. Take your entire family for a vacation, get the smile you always wanted, and pay less.",
-      "buttonText": "Experience Your Dental Holiday Now!",
-      "travel": "Travel",
-      "accommodation": "Accommodation",
-      "sightseeing": "Sightseeing"
-    },
-    "experienceMontenegro": {
-      "heading": "Go Home Smiling",
-      "subheading": "Experience Montenegro",
-      "cards": {
-        "card1": {
-          "caption": "Stay",
-          "text": [
-            "is a small Adriatic island near Budva in Montenegro. It used to be a fishing village with houses dating back to the 15th century.",
-            "The island is not open to the general public, but only to residents, hotel guests or as part of a guided tour.",
-            "There are several old churches on the island, including that of (Sveti Stefan) which gave the island its name. In the 1950s and 1960s, the entire small village was converted into a hotel island while maintaining its original looks."
-          ]
-        },
-        "card2": {
-          "caption": "See",
-          "text": [
-            "is an artificial islet off the coast of Perast, Montenegro, created by bulwarks of rocks and sunken ships over 200 years. It houses the Catholic Church and a museum.",
-            "According to legend, the islet was built by seamen who found an icon of Madonna and Child on a rock on 22nd July 1452 and made an oath to lay a rock there after each successful voyage.",
-            "This tradition continues today with an annual event called fašinada on July 22, when locals take boats and throw rocks into the sea, widening the islet's surface."
-          ]
-        },
-        "card3": {
-          "caption": "Explore",
-          "text": [
-            "is one of 5 national parks of the country. It is a massif located in northwestern Montenegro. It is part of the Dinaric Alps.",
-            "Its highest peak, Bobotov Kuk, reaches a height of 2,523 meters (8,278 ft). The massif is limited by the Tara River Canyon on the north, the Piva River Canyon on the west, and by the Komarnica River Canyon on the south.",
-            "The massif gives its name to the national park that comprises it. Durmitor National Park was founded in 1952, and designated as a World Heritage Site in 1980."
-          ]
-        },
-        "card4": {
-          "caption": "Dine",
-          "text": [
-            "Indulge in a delicious cuisine.",
-            "Montenegro has a rich Mediterranean diet that is considered amongst the healthiest and tastiest in the world. The variety of spices and food will definitely blow your taste buds.",
-            "Having a rich wine history as an integral part of the culture, you can get a world-class wine in markets under €10. Furthermore, for just €50 a 4-person family can have an amazing lunch right next to the sea, with a variety of fresh fish plates and wine choices."
-          ]
+    "metrics": {
+      "client_satisfaction": "Client Satisfaction",
+      "dental_success": "Dental Treatment Success",
+      "client_referral": "Client Referrals"
+    }
+  },
+  "youtubeEmbed": {
+    "title": "Watch Our Transformation",
+    "description": "Discover how Sorriso is transforming smiles and delivering world-class dental care."
+  },
+  "mission": {
+    "title": "Patient-Centric Dental Care",
+    "subtitle": "Excellence, Tailored for You",
+    "description1": "At Sorriso, we combine advanced dental care with personalized treatment plans, ensuring your comfort and well-being at every step. Our mission is to deliver expert care in Montenegro, offering high-quality services to achieve your best smile.",
+    "description2": "With cutting-edge technology and a dedicated team, we provide a seamless dental experience, making Sorriso a leader in dental tourism. Trust us to deliver the best care, from implants to cosmetic treatments.",
+    "cta": "Learn more about our services and how we can enhance your smile."
+  },
+  "whyMontenegro": {
+    "title": "Why Choose Montenegro?",
+    "subtitle": "Stunning Nature and High-Quality Dental Care"
+  },
+  "dentalTravelIntro": {
+    "title": "Explore Dental Tourism in Montenegro",
+    "description": "Discover how you can combine top-quality dental treatments with an unforgettable travel experience in Montenegro.",
+    "buttonText": "Contact Us Today",
+    "travel": "Travel",
+    "accommodation": "Accommodation",
+    "sightseeing": "Sightseeing"
+  },
+  "cta": {
+    "title": "Ready to Experience World-Class Dental Care?",
+    "description": "Join thousands of satisfied clients and get the dental care you deserve at Sorriso. Start your journey towards a healthier, more radiant smile today.",
+    "bookButton": "Book a Consultation",
+    "servicesButton": "Explore Our Services"
+  },
+  "experienceMontenegro": {
+    "heading": "Experience Montenegro",
+    "subheading": "Discover the Beauty and Culture",
+    "ctaButton": "Plan Your Visit",
+    "cards": {
+      "card1": {
+        "caption": "Where to Stay",
+        "title": "Sveti Stefan",
+        "text": {
+          "paragraph1": "is a luxury resort and a symbol of Montenegro's coast.",
+          "paragraph2": "Enjoy breathtaking views and world-class amenities.",
+          "paragraph3": "An ideal place to relax and unwind during your visit."
         }
       },
-      "ctaButton": "Explore More"
-    },
-    "montenegroHighlights": {
-      "title": "Why Montenegro?",
-      "description": "Montenegro is a hidden gem that attracts visitors with its stunning landscapes, rich history, and warm hospitality. With its Mediterranean climate, golden beaches, mountainous landscapes, interesting history, affordable prices, and delicious local cuisine, Montenegro has everything a tourist could possibly want from a European adventure.",
-      "highlights": {
-        "highlight1": "Rain Forests",
-        "highlight2": "Mountains",
-        "highlight3": "Turquoise sea",
-        "highlight4": "Exotic animals"
+      "card2": {
+        "caption": "What to See",
+        "title": "Our Lady of the Rocks",
+        "text": {
+          "paragraph1": "is a man-made islet off the coast of Perast.",
+          "paragraph2": "Visit the historic church and museum filled with art.",
+          "paragraph3": "A must-see destination for history enthusiasts."
+        }
       },
-      "ctaButton": "Need Travel Advice? Chat with us"
-    },
-    "vision": {
-      "title": "Our Vision",
-      "subtitle": "Enhancing Montenegro as a Dental Tourism Hub",
-      "paragraph1": "At Sorriso, our vision is to position Montenegro as the premier destination for dental tourism. We aim to blend top-tier dental care with the breathtaking beauty and rich culture of Montenegro, providing a unique and transformative experience for our patients.",
-      "paragraph2": "We are committed to leveraging the latest dental technologies and partnering with the best professionals to ensure exceptional care. By promoting Montenegro's stunning landscapes and luxurious accommodations, we strive to create unforgettable journeys that go beyond dental treatment."
+      "card3": {
+        "caption": "Outdoor Adventures",
+        "title": "Durmitor",
+        "text": {
+          "paragraph1": "offers stunning mountains, lakes, and canyons.",
+          "paragraph2": "Perfect for hiking, skiing, and exploring nature.",
+          "paragraph3": "Experience the wild beauty of Montenegro."
+        }
+      },
+      "card4": {
+        "caption": "Dine & Wine",
+        "title": "Montenegrin Cuisine",
+        "text": {
+          "paragraph1": "Savor local dishes like Njeguški pršut and cheeses.",
+          "paragraph2": "Pair with regional wines for a delightful experience.",
+          "paragraph3": "Experience the rich flavors of Montenegro."
+        }
+      }
     }
+  }
 }

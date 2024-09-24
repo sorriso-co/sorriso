@@ -1,464 +1,100 @@
 {
-    "moreInformationButton": "Plus d'informations",
-  
-    "hero": {
-      "title": "Liste des tarifs de nos services dentaires",
-      "subtitle": "Le meilleur prix avec la plus haute qualité!",
-      "cta": "Examen en ligne gratuit",
-      "ctaNote": "Complètement gratuit! Sans engagement!"
-    },
-    "comparison": {
-      "title": "Comparaison des prix des traitements",
-      "description": "Dans cette comparaison simplifiée, les prix des devis réels sont utilisés. On peut voir que les prix des traitements sont en moyenne environ 65% moins chers au Monténégro que dans l'UE. Comment est-ce possible ? Cela est dû au fait que le coût de la vie au Monténégro est nettement inférieur à celui de l'UE. Venez donc au Monténégro et économisez de l'argent sur vos traitements dentaires tout en profitant de l'un des pays les plus beaux et les plus diversifiés d'Europe.",
-      "cta": "Demander un second avis"
-    },
-    "competitiveAdvantage": {
-      "title": "Pourquoi nous choisir ?",
-      "description": "Découvrez les meilleurs soins dentaires dans le magnifique Monténégro avec des matériaux de qualité supérieure et des connexions internationales. Profitez d'économies importantes, d'un service exceptionnel et de l'utilisation de matériaux de la plus haute qualité pour vos traitements dentaires.",
-      "advantages": {
-        "personalizedCare": {
-          "title": "Soins personnalisés",
-          "description": "Nous offrons des soins personnalisés adaptés à vos besoins."
-        },
-        "qualityService": {
-          "title": "Qualité de service",
-          "description": "Services dentaires exquis avec des soins exceptionnels."
-        },
-        "competitivePricing": {
-          "title": "Tarification compétitive",
-          "description": "Des prix nettement inférieurs par rapport à d'autres pays."
-        },
-        "highQualityMaterials": {
-          "title": "Matériaux de haute qualité",
-          "description": "Seuls des matériaux de la plus haute qualité sont utilisés."
-        },
-        "beautifulMontenegro": {
-          "title": "Beau Monténégro",
-          "description": "Profitez de la beauté pittoresque du Monténégro."
-        },
-        "internationalConnections": {
-          "title": "Connexions internationales",
-          "description": "Fortes connexions internationales pour un voyage sans souci."
-        }
-      }
-    },
-    "pricingSection": {
-      "title": "Nos tarifs compétitifs",
-      "description": "Découvrez les solutions dentaires économiques que nous offrons. Nos traitements garantissent non seulement la plus haute qualité et des soins attentifs, mais sont également proposés à une fraction du coût par rapport à d'autres pays. Explorez nos options tarifaires ci-dessous pour voir pourquoi nous sommes le meilleur choix pour vos besoins dentaires.",
-      "dentalImplants": {
-        "title": "Implants dentaires",
-        "description": "Si vous avez une ou plusieurs dents manquantes, les implants dentaires sont la solution pour vous.",
-        "prices": {
-          "montenegro": "800 €",
-          "italy": "1 800 €",
-          "austria": "1 700 €",
-          "australia": "2 500 €",
-          "germany": "1 600 €",
-          "switzerland": "2 200 €",
-          "unitedStates": "3 000 €"
-        },
-        "buttonText": "En savoir plus",
-        "topImage": "/images/bills/implant.webp"
+  "hero": {
+    "title": "Tarifs Dentaires Abordables",
+    "subtitle": "Des soins de qualité à des prix raisonnables.",
+    "cta": "Contactez-nous",
+    "ctaNote": "Prenez rendez-vous dès aujourd'hui !",
+    "imageAlt": "Dentiste souriant prêt à vous assister"
+  },
+  "comparison": {
+    "title": "Comparez Nos Tarifs",
+    "description": "Découvrez comment Sorriso Care propose des tarifs abordables par rapport aux services dentaires traditionnels.",
+    "otherBill": "Tarifs Dentaires Traditionnels",
+    "sorrisoBill": "Tarifs Sorriso Care",
+    "cta": "Contactez-nous pour en savoir plus"
+  },
+  "treatment": "Traitement",
+  "price": "Prix",
+  "savings": "Économies",
+  "clickForOptions": "Cliquez pour les options",
+  "dentalExamination": "Examen Dentaire",
+  "interproximalXRay": "Radiographie Interproximale",
+  "panoramicXRay": "Radiographie Panoramique",
+  "cbctScan": "Scan CBCT",
+  "segmentalCbctScan": "Scan CBCT Segmental",
+  "compositeFilling": "Obturation Composite",
+  "compositeReconstruction": "Reconstruction Composite",
+  "dentalHygieneTreatment": "Traitement d'Hygiène Dentaire",
+  "removalOfNicotineStains": "Élimination des Taches de Nicotine",
+  "simpleToothExtraction": "Extraction Simple de Dent",
+  "semiImpactedToothExtraction": "Extraction de Dent Semi-Inclus",
+  "impactedWisdomToothExtraction": "Extraction de Dent de Sagesse Inclus",
+  "periodontalPocketDebridement": "Détartrage des Poches Parodontales",
+  "laserGumTreatment": "Traitement des Gencives au Laser",
+  "implantHygieneMaintenance": "Entretien de l'Hygiène des Implants",
+  "softTissueGraft": "Greffe de Tissu Mou",
+  "apicotomy": "Apicectomie",
+  "frenectomy": "Frenectomie",
+  "abscessIncision": "Incision d'Abcès",
+  "gumPlasticSurgery": "Chirurgie Plastique Gingivale",
+  "biopsy": "Biopsie",
+  "phExamination": "Examen du pH",
+  "analgoSedation": "Sédation Analgésique",
+  "metalCeramicCrown": "Couronne Métal-Céramique",
+  "porcelainCrown": "Couronne en Porcelaine",
+  "zirconiumCrown": "Couronne en Zirconium",
+  "porcelainCrownOnImplant": "Couronne en Porcelaine sur Implant",
+  "nightguard": "Protège-dents Nocturne",
+  "teethWhiteningKit": "Kit de Blanchiment Dentaire",
+  "endodonticPost": "Pivot Endodontique",
+  "implant": "Implant",
+  "suprastructure": "Suprastructure",
+  "temporaryCrowns": "Couronnes Temporaires",
+  "teethWhitening": "Blanchiment Dentaire",
+  "sinusLift": "Élévation Sinusale",
+  "complicatedToothExtraction": "Extraction de Dent Compliquée",
+  "boneGraft": "Greffe Osseuse",
+  "fibrinTreatment": "Traitement à la Fibrine",
+  "endodonticTreatment": "Traitement Endodontique",
+  "endodonticReTreatment": "Retraitement Endodontique",
+  "pricingSection": {
+    "title": "Nos Plans Tarifaires",
+    "description": "Tarification transparente pour des services dentaires de classe mondiale."
+  },
+  "priceCard": {
+    "basicPlan": {
+      "title": "Plan Basique",
+      "description": "Soins dentaires essentiels à un prix abordable.",
+      "prices": {
+        "monthly": "50€/mois",
+        "yearly": "500€/an"
       },
-      "zirconiumCrowns": {
-        "title": "Couronnes en zirconium",
-        "description": "Les couronnes dentaires restaurent la forme, la taille et la force d'une dent.",
-        "prices": {
-          "montenegro": "250 €",
-          "italy": "700 €",
-          "austria": "650 €",
-          "australia": "1 000 €",
-          "germany": "800 €",
-          "switzerland": "900 €",
-          "unitedStates": "1 200 €"
-        },
-        "buttonText": "En savoir plus",
-        "topImage": "/images/bills/zcrown.webp"
+      "buttonText": "Choisir Basique"
+    },
+    "standardPlan": {
+      "title": "Plan Standard",
+      "description": "Soins complets pour votre santé dentaire.",
+      "prices": {
+        "monthly": "70€/mois",
+        "yearly": "700€/an"
       },
-      "ceramicCrowns": {
-        "title": "Couronnes en céramique",
-        "description": "Les couronnes en céramique offrent un aspect naturel et sont une excellente option pour les dents de devant.",
-        "prices": {
-          "montenegro": "300 €",
-          "italy": "800 €",
-          "austria": "750 €",
-          "australia": "1 200 €",
-          "germany": "900 €",
-          "switzerland": "1 000 €",
-          "unitedStates": "1 300 €"
-        },
-        "buttonText": "En savoir plus",
-        "topImage": "/images/bills/ccrown.webp"
+      "buttonText": "Choisir Standard"
+    },
+    "premiumPlan": {
+      "title": "Plan Premium",
+      "description": "Services dentaires tout compris pour plus de tranquillité.",
+      "prices": {
+        "monthly": "100€/mois",
+        "yearly": "1000€/an"
       },
-      "allon4": {
-        "title": "All-on-4",
-        "description": "Le concept de traitement All-on-4 offre une prothèse complète sur seulement quatre implants.",
-        "prices": {
-          "montenegro": "3 500 €",
-          "italy": "7 500 €",
-          "austria": "7 000 €",
-          "australia": "10 000 €",
-          "germany": "8 500 €",
-          "switzerland": "9 000 €",
-          "unitedStates": "12 000 €"
-        },
-        "buttonText": "En savoir plus",
-        "topImage": "/images/bills/allon4.webp"
-      },
-      "allon6": {
-        "title": "All-on-6",
-        "description": "Le concept de traitement All-on-6 offre une prothèse complète sur six implants.",
-        "prices": {
-          "montenegro": "5 000 €",
-          "italy": "10 000 €",
-          "austria": "9 500 €",
-          "australia": "13 000 €",
-          "germany": "11 000 €",
-          "switzerland": "12 000 €",
-          "unitedStates": "15 000 €"
-        },
-        "buttonText": "En savoir plus",
-        "topImage": "/images/bills/allon6.webp"
-      },
-      "hollywoodSmile": {
-        "title": "Votre sourire parfait",
-        "description": "Obtenez votre sourire parfait avec le traitement 'Hollywood Smile'.",
-        "prices": {
-          "montenegro": "3 000 €",
-          "italy": "6 000 €",
-          "austria": "5 500 €",
-          "australia": "8 000 €",
-          "germany": "7 000 €",
-          "switzerland": "7 500 €",
-          "unitedStates": "10 000 €"
-        },
-        "buttonText": "En savoir plus",
-        "topImage": "/images/bills/hollywood.webp"
-      }
-    },
-    "dentalExamination": {
-      "name": "Examen dentaire",
-      "price": "20,0 €",
-      "euPrice": "50,0 €"
-    },
-    "interproximalXray": {
-      "name": "Radiographie interproximale",
-      "price": "20,0 €",
-      "euPrice": "50,0 €"
-    },
-    "panoramicXray": {
-      "name": "Radiographie panoramique",
-      "price": "20,0 €",
-      "euPrice": "60,0 €"
-    },
-    "cbctScan": {
-      "name": "Scanner CBCT",
-      "price": "100,0 €",
-      "euPrice": "300,0 €"
-    },
-    "segmentalCbctScan": {
-      "name": "Scanner CBCT segmentaire",
-      "price": "50,0 €",
-      "euPrice": "150,0 €"
-    },
-    "compositeFilling": {
-      "name": "Obturations en composite",
-      "price": "50,0 €",
-      "euPrice": "120,0 €"
-    },
-    "compositeReconstruction": {
-      "name": "Reconstruction en composite",
-      "price": "80,0 €",
-      "euPrice": "200,0 €"
-    },
-    "dentalHygieneTreatment": {
-      "name": "Traitement d'hygiène dentaire (par mâchoire)",
-      "price": "30,0 €",
-      "euPrice": "80,0 €"
-    },
-    "removalOfNicotineStains": {
-      "name": "Élimination des taches de nicotine (par mâchoire)",
-      "price": "50,0 €",
-      "euPrice": "150,0 €"
-    },
-    "simpleToothExtraction": {
-      "name": "Extraction simple d'une dent",
-      "price": "30,0 €",
-      "euPrice": "80,0 €"
-    },
-    "semiImpactedToothExtraction": {
-      "name": "Extraction de dent semi-incluse",
-      "price": "300,0 €",
-      "euPrice": "700,0 €"
-    },
-    "impactedWisdomToothExtraction": {
-      "name": "Extraction de dent de sagesse incluse",
-      "price": "600,0 €",
-      "euPrice": "1 500,0 €"
-    },
-    "periodontalPocketDebridement": {
-      "name": "Désinfection des poches parodontales",
-      "price": "20,0 €",
-      "euPrice": "50,0 €"
-    },
-    "laserGumTreatment": {
-      "name": "Traitement des gencives au laser",
-      "price": "50,0 €",
-      "euPrice": "200,0 €"
-    },
-    "implantHygieneMaintenance": {
-      "name": "Entretien de l'hygiène des implants (par mâchoire)",
-      "price": "60,0 €",
-      "euPrice": "150,0 €"
-    },
-    "softTissueGraft": {
-      "name": "Greffe de tissus mous",
-      "price": "400,0 €",
-      "euPrice": "1 200,0 €"
-    },
-    "apicotomy": {
-      "name": "Apicectomie",
-      "price": "160,0 €",
-      "euPrice": "400,0 €"
-    },
-    "frenectomy": {
-      "name": "Freinectomie",
-      "price": "60,0 €",
-      "euPrice": "150,0 €"
-    },
-    "abscessIncision": {
-      "name": "Incision d'abcès",
-      "price": "30,0 €",
-      "euPrice": "80,0 €"
-    },
-    "gumPlasticSurgery": {
-      "name": "Chirurgie plastique des gencives",
-      "price": "100,0 €",
-      "euPrice": "300,0 €"
-    },
-    "biopsy": {
-      "name": "Biopsie",
-      "price": "80,0 €",
-      "euPrice": "200,0 €"
-    },
-    "phExam": {
-      "name": "Examen de pH",
-      "price": "35,0 €",
-      "euPrice": "100,0 €"
-    },
-    "analgoSedation": {
-      "name": "Analgosédation (par heure)",
-      "price": "300,0 €",
-      "euPrice": "700,0 €"
-    },
-    "metalCeramicCrown": {
-      "name": "Couronne céramo-métallique",
-      "price": "150,0 €",
-      "euPrice": "500,0 €"
-    },
-    "porcelainCrown": {
-      "name": "Couronne en porcelaine",
-      "price": "250,0 €",
-      "euPrice": "800,0 €"
-    },
-    "zirconiumCrown": {
-      "name": "Couronne en zirconium",
-      "price": "350,0 €",
-      "euPrice": "1 000,0 €"
-    },
-    "porcelainCrownOnImplant": {
-      "name": "Couronne en porcelaine sur implant",
-      "price": "200,0 €",
-      "euPrice": "700,0 €"
-    },
-    "nightguard": {
-      "name": "Gouttière de nuit",
-      "price": "60,0 €",
-      "euPrice": "200,0 €"
-    },
-    "teethWhiteningKit": {
-      "name": "Kit de blanchiment des dents",
-      "price": "35,0 €",
-      "euPrice": "150,0 €"
-    },
-    "endodonticPost": {
-      "name": "Tenon endodontique",
-      "price": "50,0 €",
-      "euPrice": "150,0 €"
-    },
-    "implant": {
-      "name": "Implant",
-      "price": "600,0 €",
-      "euPrice": "1 000,0 €"
-    },
-    "suprastructure": {
-      "name": "Suprastructure",
-      "price": "150,0 €",
-      "euPrice": "500,0 €"
-    },
-    "temporaryCrowns": {
-      "name": "Couronnes temporaires",
-      "option1": {
-        "variant": "",
-        "price": "20,0 €",
-        "euPrice": "100,0 €"
-      },
-      "option2": {
-        "variant": "Fabriquée en laboratoire",
-        "price": "50,0 €",
-        "euPrice": "200,0 €"
-      }
-    },
-    "teethWhitening": {
-      "name": "Blanchiment des dents (par dent)",
-      "option1": {
-        "variant": "Avec gouttière",
-        "price": "15,0 €",
-        "euPrice": "70,0 €"
-      },
-      "option2": {
-        "variant": "En cabinet",
-        "price": "20,0 €",
-        "euPrice": "100,0 €"
-      }
-    },
-    "sinusLift": {
-      "name": "Élévation du sinus",
-      "option1": {
-        "variant": "I",
-        "price": "400,0 €",
-        "euPrice": "1 200,0 €"
-      },
-      "option2": {
-        "variant": "II",
-        "price": "800,0 €",
-        "euPrice": "1 500,0 €"
-      }
-    },
-    "complicatedToothExtraction": {
-      "name": "Extraction de dent compliquée",
-      "option1": {
-        "variant": "",
-        "price": "50,0 €",
-        "euPrice": "150,0 €"
-      },
-      "option2": {
-        "variant": "Avec séparation",
-        "price": "160,0 €",
-        "euPrice": "400,0 €"
-      }
-    },
-    "boneGraft": {
-      "name": "Greffe osseuse",
-      "option1": {
-        "variant": "a",
-        "price": "800,0 €",
-        "euPrice": "1 500,0 €"
-      },
-      "option2": {
-        "variant": "b",
-        "price": "400,0 €",
-        "euPrice": "800,0 €"
-      },
-      "option3": {
-        "variant": "c",
-        "price": "200,0 €",
-        "euPrice": "600,0 €"
-      }
-    },
-    "fibrin": {
-      "name": "Fibrine",
-      "option1": {
-        "variant": "I",
-        "price": "200,0 €",
-        "euPrice": "600,0 €"
-      },
-      "option2": {
-        "variant": "II",
-        "price": "400,0 €",
-        "euPrice": "800,0 €"
-      }
-    },
-    "endodonticTreatment": {
-      "name": "Traitement endodontique",
-      "option1": {
-        "variant": "Dent à canal unique",
-        "price": "80,0 €",
-        "euPrice": "250,0 €"
-      },
-      "option2": {
-        "variant": "Dent à canaux multiples",
-        "price": "100,0 €",
-        "euPrice": "350,0 €"
-      }
-    },
-    "endodonticReTreatment": {
-      "name": "Retraitement endodontique",
-      "option1": {
-        "variant": "Dent à canal unique",
-        "price": "100,0 €",
-        "euPrice": "300,0 €"
-      },
-      "option2": {
-        "variant": "Dent à canaux multiples",
-        "price": "140,0 €",
-        "euPrice": "450,0 €"
-      }
-    },
-    "treatment": "Traitement",
-    "price": "Prix (€)",
-    "savings": "Économies (%)",
-    "clickForOptions": "Cliquez pour options",
-    "close": "Fermer",
-    "packageCard": {
-      "moreInformationButton": "Plus d'informations"
-    },
-    "packagesSection": {
-      "title": "Nos forfaits les plus populaires",
-      "description": "Sorriso propose des forfaits complets pour les traitements dentaires au Monténégro. Choisissez le forfait qui correspond à vos besoins. Choisissez la qualité, choisissez Sorriso.",
-      "packages": [
-        {
-          "price": "1 100 €",
-          "title": "Petite intervention",
-          "description": "Un ou plusieurs implants; un court séjour de 3 jours au Monténégro.",
-          "features": [
-            "1 implant avec couronne",
-            "Transferts depuis et vers l'aéroport",
-            "2 nuits dans notre suite clinique",
-            "Suivi après le traitement"
-          ]
-        },
-        {
-          "price": "5 300 €",
-          "title": "Traitement standard",
-          "description": "Plusieurs implants ou un bridge; voyage au Monténégro.",
-          "features": [
-            "4 implants avec 8 couronnes",
-            "2 transferts depuis et vers l'aéroport",
-            "4 nuits dans notre suite clinique",
-            "Suivi après le traitement"
-          ]
-        },
-        {
-          "price": "10 000 €",
-          "title": "Forfait dentaire complet",
-          "description": "Une rénovation dentaire complète; un voyage de 5 à 7 jours.",
-          "features": [
-            "8 implants avec 16 couronnes",
-            "2 transferts depuis et vers l'aéroport",
-            "7 nuits dans notre suite clinique",
-            "Suivi après le traitement"
-          ]
-        }
-      ],
-      "note": "* Les forfaits sélectionnés ci-dessus sont une estimation et peuvent varier en fonction de l'état du patient et du plan de traitement. Un plan de traitement personnalisé est au cœur de notre approche, c'est pourquoi nous offrons une consultation gratuite et un devis sans frais cachés lors de la consultation."
-    },
-    "contactUs": {
-      "title": "Devenez l'un de nos nombreux patients satisfaits !",
-      "description": "Dites oui, et faites-nous confiance – vous ne le regretterez pas. Contactez-nous et nous vous répondrons dès que possible !",
-      "contactButton": "Contactez-nous",
-      "callUs": "Ou appelez-nous",
-      "phone": "+382 69 664 668"
+      "buttonText": "Choisir Premium"
     }
+  },
+  "contactUs": {
+    "title": "Contactez-nous",
+    "description": "Contactez-nous dès aujourd'hui pour plus d'informations ou pour une assistance concernant vos besoins dentaires. Nous sommes là pour vous aider !",
+    "contactButton": "Contactez-nous",
+    "callUs": "Ou Appelez-nous",
+    "phone": "+382 69 664 668"
   }
-  
+}

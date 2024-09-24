@@ -9,10 +9,11 @@ import { useTranslation } from "react-i18next";
 interface Service {
   icon: string;
   title: string;
+  altText: string;
 }
 
 const ServiceGrid: React.FC = () => {
-  const { t } = useTranslation("services");
+  const { t } = useTranslation("homepage"); 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const toggleModal = () => {
@@ -23,34 +24,42 @@ const ServiceGrid: React.FC = () => {
     {
       icon: "/images/service-grid/general-dent.webp",
       title: t("serviceGrid.services.0.title"),
+      altText: t("serviceGrid.services.0.altText"),
     },
     {
       icon: "/images/service-grid/dental-implant.webp",
       title: t("serviceGrid.services.1.title"),
+      altText: t("serviceGrid.services.1.altText"),
     },
     {
       icon: "/images/service-grid/dental-crown.webp",
       title: t("serviceGrid.services.2.title"),
+      altText: t("serviceGrid.services.2.altText"),
     },
     {
       icon: "/images/service-grid/dental-surgery.webp",
       title: t("serviceGrid.services.3.title"),
+      altText: t("serviceGrid.services.3.altText"),
     },
     {
       icon: "/images/service-grid/tooth-whitening.webp",
       title: t("serviceGrid.services.4.title"),
+      altText: t("serviceGrid.services.4.altText"),
     },
     {
       icon: "/images/service-grid/protection.webp",
       title: t("serviceGrid.services.5.title"),
+      altText: t("serviceGrid.services.5.altText"),
     },
     {
       icon: "/images/service-grid/perio.webp",
       title: t("serviceGrid.services.6.title"),
+      altText: t("serviceGrid.services.6.altText"),
     },
     {
       icon: "/images/service-grid/radio.webp",
       title: t("serviceGrid.services.7.title"),
+      altText: t("serviceGrid.services.7.altText"),
     },
   ];
 
@@ -91,7 +100,7 @@ const ServiceGrid: React.FC = () => {
         </svg>
       </div>
       <div className="container mx-auto relative z-10">
-        <h2 className="text-5xl font-serif font-bold text-center text-teal-700 mb-4 drop-shadow-lg">
+        <h2 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif font-bold text-center text-teal-700 mb-4 drop-shadow-lg">
           {t("serviceGrid.title")}
         </h2>
         <p className="text-2xl font-serif text-center text-teal-600 mb-12">
@@ -111,7 +120,7 @@ const ServiceGrid: React.FC = () => {
                 <div className="w-24 h-24 mb-4">
                   <Image
                     src={service.icon}
-                    alt={service.title}
+                    alt={service.altText}
                     width={96}
                     height={96}
                     className="w-full h-full object-contain"

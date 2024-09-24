@@ -1,193 +1,91 @@
 {
-  "slideshow": {
-    "slide1": "CONSULTAZIONI Online GRATUITE",
-    "slide2": "Risparmia fino al 70%",
-    "slide3": "Goditi di più",
-    "slide4": "Passa la tua vacanza sorridendo"
+  "frontHero": {
+    "title": "Il Tuo Prossimo Viaggio Dentale",
+    "subtitle": "Consulenze Gratuite, Trattamenti di Classe Mondiale, Risultati Straordinari",
+    "visitButton": "Contattaci",
+    "scheduleButton": "Scopri i nostri servizi"
+  },
+  "haveItAll": {
+    "title": "Con Sorriso Puoi Avere Tutto",
+    "description": "Scopri il perfetto equilibrio tra cure dentali di livello mondiale e una vacanza da sogno in Montenegro. Con Sorriso, puoi godere di trattamenti odontoiatrici eccellenti mentre ammiri la bellezza mozzafiato dei paesaggi del Montenegro, la sua ricca storia e la calorosa ospitalità. Risparmia fino all'80% sui trattamenti dentali.",
+    "buttonText": "Prenota un Appuntamento"
   },
   "introduction": {
-    "title": "Il tuo prossimo viaggio dentale",
+    "title": "Il Tuo Prossimo Viaggio Dentale",
     "subtitle": "Veni. Vidi. Vici con Sorriso",
-    "description": "Scopri cure dentali eccezionali combinate con un'esperienza di viaggio indimenticabile. Lascia che Sorriso ti guidi attraverso un viaggio verso un sorriso più luminoso e sano mentre esplori la bellezza e la cultura del Montenegro.",
-    "joinUsTitle": "Unisciti a noi",
-    "joinUsDescription": "Prenota un appuntamento e inizia il tuo viaggio verso un sorriso perfetto con Sorriso.",
-    "scheduleButton": "Prenota ora",
-    "visitButton": "Le nostre trasformazioni"
+    "description": "Scopri cure dentali eccezionali combinate con un'esperienza di viaggio indimenticabile. Lascia che Sorriso ti guidi verso un sorriso più luminoso e sano, mentre esplori la bellezza e la cultura del Montenegro.",
+    "joinUsTitle": "Unisciti a Noi",
+    "joinUsDescription": "Prenota un appuntamento e inizia il tuo percorso verso un sorriso perfetto con Sorriso.",
+    "visitButton": "Le Nostre Trasformazioni",
+    "scheduleButton": "Prenota una Chiamata"
   },
   "howItWorks": {
-    "title": "Come funziona",
+    "title": "6 Semplici Passi per il Tuo Sorriso Perfetto",
     "steps": {
       "step1": {
-        "title": "Contattaci",
-        "description": "Compila il modulo e, se lo desideri, invia la radiografia più recente o un'immagine dei tuoi denti. Ti contatteremo entro 24 ore per programmare la tua consultazione online."
+        "title": "Consulenza Online Gratuita",
+        "description": "Parla con i nostri esperti dentali per capire se i nostri servizi sono adatti a te."
       },
       "step2": {
-        "title": "Ricevi il tuo piano di trattamento",
-        "description": "Riceverai un piano di trattamento che dettaglia tutti i passaggi e i costi."
+        "title": "Piano di Trattamento Personalizzato",
+        "description": "Ricevi un piano di trattamento dettagliato e su misura per le tue esigenze."
       },
       "step3": {
-        "title": "Consultazione iniziale",
-        "description": "Durante la consultazione, avrai l'opportunità di fare qualsiasi domanda sul trattamento."
+        "title": "Fai Tutte le Domande che Vuoi",
+        "description": "Chiedi qualsiasi cosa sul processo di trattamento."
       },
       "step4": {
-        "title": "Viaggio",
-        "description": "Quando il piano è pronto, basta fare le valigie, viaggiare e ricevere il trattamento. Ci occuperemo di tutto."
+        "title": "Viaggia per il Trattamento",
+        "description": "Viaggia in Montenegro per il tuo trattamento dentale di altissimo livello."
       },
       "step5": {
-        "title": "Trattamento",
-        "description": "Ricevi il trattamento di cui hai bisogno dai nostri dentisti altamente qualificati. Usiamo le ultime tecnologie."
+        "title": "Ricevi il Trattamento",
+        "description": "I nostri dentisti esperti ti offriranno le migliori cure con le tecnologie più avanzate."
       },
       "step6": {
-        "title": "Divertiti",
-        "description": "Goditi il tuo soggiorno ed esplora le attrazioni locali mentre ricevi le migliori cure dentistiche godendoti il Montenegro."
+        "title": "Goditi il Tuo Nuovo Sorriso",
+        "description": "Lascia la clinica con un sorriso splendente e un'esperienza indimenticabile."
       }
     },
-    "buttonText": "Guarda ora"
+    "buttonText": "Prenota una Consulenza Gratuita"
   },
   "serviceGrid": {
-    "title": "I nostri servizi",
-    "description": "Forniamo trattamenti di classe mondiale per tutti i problemi dentali",
+    "title": "I Nostri Servizi Dentali",
+    "description": "Esplora i nostri servizi dentali completi progettati per soddisfare tutte le tue esigenze.",
+    "buttonText": "Guarda il Nostro Video",
     "services": [
-      { "title": "Odontoiatria generale" },
-      { "title": "Implantologia" },
-      { "title": "Protesi" },
-      { "title": "Chirurgia dentale" },
-      { "title": "Odontoiatria estetica" },
-      { "title": "Endodonzia" },
-      { "title": "Parodontologia" },
-      { "title": "Radiologia dentale" }
-    ],
-    "buttonText": "Guarda ora"
-  },
-    "pricing": {
-      "title": "Confronto Costo Medio",
-      "procedure": "Procedura",
-      "ukPrice": "Prezzo UK",
-      "euPrice": "Media UE",
-      "usPrice": "Prezzo USA",
-      "balkanPrice": "Nostro Prezzo",
-      "savings": "Risparmi",
-      "note": "*I prezzi dipendono dal caso. Compila il nostro modulo di richiesta online per conoscere le ultime offerte sui prezzi e gli sconti esclusivi!",
-      "onlineRequestForm": "modulo di richiesta online",
-      "buttonText": "Vedi i nostri Prezzi",
-      "procedures": [
-        {
-          "procedure": "Impianto in Titanio",
-          "ukPrice": "€3,000",
-          "euPrice": "€2,200",
-          "usPrice": "€3,600",
-          "balkanPrice": "€1,072",
-          "savings": "65%"
-        },
-        {
-          "procedure": "Impianti All-on-4",
-          "ukPrice": "€14,400",
-          "euPrice": "€10,000",
-          "usPrice": "€15,000",
-          "balkanPrice": "€6,231",
-          "savings": "58%"
-        },
-        {
-          "procedure": "Impianti All-on-6",
-          "ukPrice": "€16,200",
-          "euPrice": "€11,500",
-          "usPrice": "€16,800",
-          "balkanPrice": "€7,916",
-          "savings": "52%"
-        },
-        {
-          "procedure": "Impianti All-on-8",
-          "ukPrice": "€18,000",
-          "euPrice": "€13,000",
-          "usPrice": "€19,200",
-          "balkanPrice": "€9,499",
-          "savings": "52%"
-        },
-        {
-          "procedure": "Corona in Porcellana Completa",
-          "ukPrice": "€1,200",
-          "euPrice": "€800",
-          "usPrice": "€1,300",
-          "balkanPrice": "€383",
-          "savings": "68%"
-        },
-        {
-          "procedure": "Corona in Zirconio",
-          "ukPrice": "€1,440",
-          "euPrice": "€1,000",
-          "usPrice": "€1,560",
-          "balkanPrice": "€383",
-          "savings": "75%"
-        },
-        {
-          "procedure": "Faccetta in Porcellana",
-          "ukPrice": "€1,200",
-          "euPrice": "€850",
-          "usPrice": "€1,440",
-          "balkanPrice": "€255",
-          "savings": "82%"
-        },
-        {
-          "procedure": "Faccetta E-Max",
-          "ukPrice": "€1,260",
-          "euPrice": "€900",
-          "usPrice": "€1,500",
-          "balkanPrice": "€383",
-          "savings": "75%"
-        },
-        {
-          "procedure": "Dentiera Completa",
-          "ukPrice": "€2,160",
-          "euPrice": "€1,500",
-          "usPrice": "€2,400",
-          "balkanPrice": "€664",
-          "savings": "72%"
-        },
-        {
-          "procedure": "Sbiancamento Dentale",
-          "ukPrice": "€600",
-          "euPrice": "€450",
-          "usPrice": "€720",
-          "balkanPrice": "€255",
-          "savings": "65%"
-        },
-        {
-          "procedure": "Devitalizzazione (molari)",
-          "ukPrice": "€960",
-          "euPrice": "€700",
-          "usPrice": "€1,080",
-          "balkanPrice": "€123",
-          "savings": "87%"
-        },
-        {
-          "procedure": "Estrazione (semplice)",
-          "ukPrice": "€240",
-          "euPrice": "€180",
-          "usPrice": "€300",
-          "balkanPrice": "€56",
-          "savings": "77%"
-        },
-        {
-          "procedure": "Estrazione (chirurgica)",
-          "ukPrice": "€360",
-          "euPrice": "€250",
-          "usPrice": "€420",
-          "balkanPrice": "€189",
-          "savings": "55%"
-        },
-        {
-          "procedure": "Pulizia dei Denti Regolare",
-          "ukPrice": "€360",
-          "euPrice": "€250",
-          "usPrice": "€420",
-          "balkanPrice": "€66",
-          "savings": "84%"
-        }
-      ]
-    },  
-  "haveItAll": {
-    "title": "Avere tutto con Sorriso",
-    "description": "Scopri la perfetta combinazione di cure dentistiche di livello mondiale e una vacanza da sogno in Montenegro. Con Sorriso, puoi sperimentare procedure dentistiche di livello mondiale mentre ti godi la straordinaria bellezza dei paesaggi del Montenegro, la sua ricca storia e la calda ospitalità. Risparmia fino all'80% sui trattamenti dentali.",
-    "buttonText": "Prenota un appuntamento"
+      {
+        "title": "Odontoiatria Generale",
+        "altText": "Servizi di Odontoiatria Generale"
+      },
+      {
+        "title": "Impianti Dentali",
+        "altText": "Servizi di Impianti Dentali"
+      },
+      {
+        "title": "Corone Dentali",
+        "altText": "Servizi di Corone Dentali"
+      },
+      {
+        "title": "Chirurgia Dentale",
+        "altText": "Servizi di Chirurgia Dentale"
+      },
+      {
+        "title": "Sbiancamento Dentale",
+        "altText": "Servizi di Sbiancamento Dentale"
+      },
+      {
+        "title": "Protezione dei Denti",
+        "altText": "Servizi di Protezione Dentale"
+      },
+      {
+        "title": "Trattamento Parodontale",
+        "altText": "Servizi di Trattamento Parodontale"
+      },
+      {
+        "title": "Radiologia",
+        "altText": "Servizi di Radiologia"
+      }
+    ]
   }
 }

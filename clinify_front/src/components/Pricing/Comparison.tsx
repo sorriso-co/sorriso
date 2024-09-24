@@ -17,60 +17,74 @@ const Comparison = () => {
   }, []);
 
   return (
-    <div className="container overflow-x-hidden mx-auto py-10 px-4">
-      <h1
-        className="text-6xl font-serif font-semibold text-center mb-6 text-teal-800"
-        data-aos="fade-up"
-      >
-        {t("comparison.title")}
-      </h1>
-      <p
-        className="text-center text-lg font-serif font-light mb-8"
-        data-aos="fade-up"
-        data-aos-delay="100"
-      >
-        {t("comparison.description")}
-      </p>
-      <div
-        className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8"
-        data-aos="fade-up"
-        data-aos-delay="200"
-      >
-        <div
-          className="bg-gray-200 rounded-lg shadow-md p-6"
-          data-aos="fade-right"
+    <section className="bg-gray-50 py-16 px-6 lg:px-16 rounded-xl shadow-lg">
+      <div className="container mx-auto text-center">
+        <h1
+          className="text-5xl sm:text-6xl font-serif font-extrabold text-teal-900 mb-8 leading-tight"
+          data-aos="fade-up"
         >
-          <Image
-            src="/images/bills/other_bill.webp"
-            alt="Dentist Bill 1"
-            width={400}
-            height={700}
-            className="rounded-lg shadow-lg"
-          />
+          {t("comparison.title")}
+        </h1>
+        <p
+          className="text-lg sm:text-xl text-teal-700 mb-12 max-w-4xl mx-auto leading-relaxed"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          {t("comparison.description")}
+        </p>
+
+        {/* Comparison Cards */}
+        <div
+          className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center items-center"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          {/* Other Bill */}
+          <div
+            className="bg-white rounded-lg shadow-2xl p-8 flex flex-col items-center"
+            data-aos="fade-right"
+          >
+            <h3 className="text-2xl font-bold text-teal-800 mb-6">
+              {t("comparison.otherBill")}
+            </h3>
+            <Image
+              src="/images/bills/other_bill.webp"
+              alt={t("comparison.otherBill")}
+              width={400}
+              height={700}
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+
+          {/* Sorriso Bill */}
+          <div
+            className="bg-white rounded-lg shadow-2xl p-8 flex flex-col items-center"
+            data-aos="fade-left"
+          >
+            <h3 className="text-2xl font-bold text-teal-800 mb-6">
+              {t("comparison.sorrisoBill")}
+            </h3>
+            <Image
+              src="/images/bills/sorriso_bill.webp"
+              alt={t("comparison.sorrisoBill")}
+              width={400}
+              height={700}
+              className="rounded-lg shadow-lg"
+            />
+          </div>
         </div>
-        <div
-          className="bg-teal-100 rounded-lg shadow-md p-6"
-          data-aos="fade-left"
-        >
-          <Image
-            src="/images/bills/sorriso_bill.webp"
-            alt="Dentist Bill 2"
-            width={400}
-            height={700}
-            className="rounded-lg shadow-lg"
-          />
+
+        {/* Call to Action */}
+        <div className="mt-16" data-aos="zoom-in">
+          <Link
+            href="/contact"
+            className="inline-block bg-teal-600 text-white text-lg font-bold py-4 px-10 rounded-full shadow-lg transition-transform transform hover:scale-105 hover:bg-teal-700"
+          >
+            {t("comparison.cta")}
+          </Link>
         </div>
       </div>
-      <div className="text-center mt-16">
-        <Link
-          href="/contact"
-          className="inline-block bg-teal-400 text-white py-3 px-8 rounded-lg hover:bg-teal-600 transition-colors"
-          data-aos="zoom-in"
-        >
-          {t("comparison.cta")}
-        </Link>
-      </div>
-    </div>
+    </section>
   );
 };
 

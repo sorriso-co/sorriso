@@ -1,98 +1,172 @@
 {
-  "meta": {
-    "description": "Sorriso: Erschwinglicher Zahntourismus auf dem Balkan. Hochwertige Zahnpflege zu einem Bruchteil der Kosten für Patienten aus Europa, den USA, Australien und darüber hinaus.",
-    "title": "Sorriso - Erschwinglicher Zahntourismus",
-    "ogTitle": "Sorriso - Erschwinglicher Zahntourismus auf dem Balkan",
-    "ogDescription": "Sorriso bietet hochwertige, erschwingliche Zahnpflege auf dem Balkan für Patienten aus Europa, den USA, Australien und darüber hinaus. Entdecken Sie die Vorteile des Zahntourismus mit Sorriso.",
-    "twitterTitle": "Sorriso - Erschwinglicher Zahntourismus auf dem Balkan",
-    "twitterDescription": "Entdecken Sie erschwingliche Zahnpflege auf dem Balkan mit Sorriso. Wir bieten hochwertige Behandlungen für Patienten aus Europa, den USA, Australien und darüber hinaus.",
-    "keywords": "Zahntourismus, erschwingliche Zahnpflege, Zahnpflege Balkan, Sorriso, Zahnbehandlungen Europa, Zahnimplantate, Zahnaufhellung, Kieferorthopädie, Zahnkronen, Zahnbrücken, Zahnveneers, kosmetische Zahnmedizin, Zahnchirurgie, Zahnuntersuchung, Zahnklinik, Zahndienstleistungen, Zahnberatung, Zahnpflege im Balkan, Zahntourismus, Zahnbehandlungspakete, Zahnversorgung im Ausland, internationale Zahnpflege, hochwertige Zahnpflege, Zahnpflege-Ersparnisse, Zahntourismus Europa, Zahntourismus Balkan, Zahnpflege für US-Patienten, Zahnpflege für australische Patienten, Zahnpflege für europäische Patienten, Zahnbehandlung im Ausland, Zahnbehandlungspakete, Zahnpflege im Urlaub, Zahnbehandlungspakete, erschwingliche Zahnbehandlungen, Zahntourismus-Destinationen, Zahnpflegeangebote, Zahntourismus-Angebote, kostengünstige Zahnpflege, Zahnversorgungspläne, internationale Zahnkliniken, Zahnspezialisten Europa, fortgeschrittene Zahnpflege, Zahnpflegeoptionen, Zahnpflegepläne, Zahnpflegeanbieter, professionelle Zahnpflege, Zahnberatungen, Zahnpflegeangebote, beste Zahnpflege im Ausland, Zahnbehandlungspläne, Zahngesundheitsreisen, Zahnreisepakete, Zahnreiseversicherung, Zahnpflege im Urlaub, Zahnpflege-Rabatte, Zahntourismus-Hotspots, Zahnbehandlungen im Ausland, erschwingliche Zahnlösungen, umfassende Zahnpflege, Zahnpflegepakete Europa, Zahnpflegekompetenz, vertrauenswürdige Zahndienstleistungen, hochwertige Zahnbehandlungen, moderne Zahnkliniken, Zahngesundheit und Wellness, patientenorientierte Zahnpflege, maßgeschneiderte Zahnbehandlungen, Zahnpflegeexzellenz, renommierte Zahnpflege, erfahrene Zahnprofis, Zufriedenheit bei der Zahnpflege, nahtlose Zahnpflege, Zahn-Wellness-Programme, Expertenzahnpflege im Ausland, Zahnpflegesicherheit, Zahngesundheitspakete, erschwingliche Zahnpakete, erstklassige Zahnpflege, Zahnpflegeoptionen im Ausland, umfassende Zahndienstleistungen, personalisierte Zahnpflege, Zahntourismusplanung, Zahnpflegeersparnisse, Zahngesundheitspakete, überlegene Zahnpflege, bequeme Zahnpflege, Flexibilität bei der Zahnpflege, erschwingliche kosmetische Zahnmedizin, innovative Zahnbehandlungen, zuverlässige Zahndienstleistungen, Zahnpflegekomfort, internationale Zahnlösungen, Zahnpflegereisen, Zahnversorgungstermine im Ausland, Kosten für Zahnbehandlungen im Ausland, effiziente Zahnpflege, Zahnpflegekoordination, Zahnpflegekomfort, fortschrittliche Zahntechnologie, zugängliche Zahnpflege, Zahnpflegeangebote im Ausland, Zahnpflegeoptionen für Senioren, Familienzahnpflege im Ausland, Gruppen-Zahnreisen, Unternehmenszahnpakete, luxuriöse Zahnpflege, Zahnwellnesstourismus, Vielfalt der Zahnbehandlungen, Zahnpflegeempfehlungen, Zahnpflegestandards, Zahnpflege, hochwertige Zahnmaterialien, fortschrittliche Zahntechniken, Zahntourismusberatung, Zahnbehandlungsberatung, Zahnpflege mit Versicherung, Hilfe bei der Planung der Zahnpflege, Expertenzahnberatungen, Zahngesundheitsdienste, stressfreie Zahnpflege, Zahntourismusbewertungen, Zahnbehandlungserfahrungen, Zufriedenheit mit der Zahnpflege, Zahngesundheitsbewertungen, zuverlässige Zahnkliniken, Zahndienstleistungsgarantien, führende Zahnbehandlungen, Vorteile des Zahntourismus, internationale Zahnspezialisten, Zahnpflegeexperten, Zahnpatientenunterstützung, Fachwissen in der Zahnbehandlung, Zahnpflegeinnovation, Zahnpflegeresultate, Verbesserung der Zahngesundheit, Qualität der Zahnpflege, personalisierte Zahnlösungen, professionelle Zahnbewertungen, Zahnpflegegarantien, Exzellenz in der Zahnpflege, Zahnpflegenetzwerk, vertrauenswürdige Zahnpflegeanbieter"
-  },
   "header": {
     "menu": {
-      "home": "Startseite",
-      "about": "Über Uns",
-      "about_submenu": {
-        "about": "Über Uns",
-        "our_team": "Unser Team",
-        "why_montenegro": "Warum Montenegro?"
-      },
-      "services": "Dienstleistungen",
-      "services_submenu": {
-        "our_services": "Unsere Dienstleistungen",
-        "how_it_works": "Wie Es Funktioniert",
-        "treatments": "Behandlungen",
-        "experiences": "Erfahrungen",
-        "gallery": "Galerie"
-      },
-      "business": "Geschäft",
-      "business_submenu": {
-        "for_clinics": "Für Kliniken",
-        "for_affiliates": "Für Partner"
-      },
+      "about": "Über uns",
+      "services": "Leistungen",
       "pricing": "Preise",
       "contact": "Kontakt"
     },
     "mobile_nav": {
       "menu": "Menü",
-      "close": "Schließen"
+      "home": "Startseite",
+      "about": "Über uns",
+      "services": "Leistungen",
+      "pricing": "Preise",
+      "contact": "Kontakt"
+    },
+    "phone": {
+      "number": "+382 69 664 668",
+      "availability": "Rund um die Uhr erreichbar"
     }
   },
-    "footer": {
-      "copyright": "© 2024 Sorriso. Alle Rechte vorbehalten.",
-      "aboutUs": "Über uns",
-      "contact": "Kontakt",
-      "privacyPolicy": "Datenschutzrichtlinie",
-      "facebook": "https://facebook.com",
-      "instagram": "https://instagram.com"
-    },
-    "contactDetails": {
-      "title": "Kontaktiere uns",
-      "addressTitle": "Unsere Adresse",
-      "address": "Ulica 13.Jula 2/18\nPodgorica 81000, Montenegro",
-      "phoneTitle": "Rufen Sie uns jederzeit an",
-      "phone": "+382 69 664 668",
-      "emailTitle": "Schicke uns eine E-Mail",
-      "email": "contact@sorriso.care",
-      "hoursTitle": "Arbeitszeiten",
-      "hours": "Montag - Freitag: 9.00 - 17.00"
-    },
-    "contactForm": {
-      "name": "Name",
-      "email": "E-Mail",
-      "phone": "Telefon",
-      "message": "Nachricht",
-      "messagePlaceholder": "Senden Sie uns eine Nachricht mit Ihren Zahnproblemen, Erwartungen oder Fragen. Wir werden uns so schnell wie möglich bei Ihnen melden.",
-      "upload": "Laden Sie X-ray Bild Ihrer Zähne hoch (optional)",
-      "send": "Nachricht senden",
-      "success": "E-Mail erfolgreich gesendet!",
-      "failure": "E-Mail-Versand fehlgeschlagen. Bitte versuche es erneut."
-    },
-    "contactSection": {
-      "title": "Kontaktieren Sie uns",
-      "subtitle": "Beseitigen Sie die Unannehmlichkeiten. Lassen Sie uns Ihnen helfen, Sie selbst zu sein.",
-      "consultationTitle": "Buchen Sie eine kostenlose 30-minütige Beratung",
-      "consultationDescription": "Vereinbaren Sie eine kostenlose Beratung mit unseren Experten, um Ihre Bedürfnisse zu besprechen und wie wir Ihnen helfen können, Ihre Ziele zu erreichen."
-    },
-    "privacyPolicy": {
-    "title": "Datenschutzrichtlinie",
-    "introductionTitle": "Einführung",
-    "introductionContent": "Willkommen zu unserer Datenschutzrichtlinie. Ihre Privatsphäre ist uns sehr wichtig. Unsere Datenschutzrichtlinie erklärt, wie wir Ihre persönlichen Informationen und Daten behandeln.",
-    "informationWeCollectTitle": "Informationen, die wir sammeln",
-    "informationWeCollectContent": "Wir sammeln verschiedene Arten von Informationen von und über Benutzer unserer Website, einschließlich:",
-    "informationWeCollectItem1": "Persönliche Identifikationsinformationen (Name, E-Mail-Adresse, Telefonnummer usw.)",
-    "informationWeCollectItem2": "Demografische Informationen (Alter, Geschlecht, Vorlieben, Interessen usw.)",
-    "informationWeCollectItem3": "Technische Daten (IP-Adresse, Browsertyp und -version, Zeitzoneneinstellung usw.)",
-    "informationWeCollectItem4": "Nutzungsdaten (Informationen darüber, wie Sie unsere Website, Produkte und Dienstleistungen nutzen)",
-    "howWeUseInformationTitle": "Wie wir Ihre Informationen verwenden",
-    "howWeUseInformationContent": "Wir verwenden die gesammelten Informationen auf verschiedene Weise, einschließlich:",
-    "howWeUseInformationItem1": "Bereitstellung, Betrieb und Wartung unserer Website",
-    "howWeUseInformationItem2": "Verbesserung, Personalisierung und Erweiterung unserer Website",
-    "howWeUseInformationItem3": "Verständnis und Analyse, wie Sie unsere Website nutzen",
-    "howWeUseInformationItem4": "Entwicklung neuer Produkte, Dienstleistungen, Funktionen und Funktionalitäten",
-    "dataSecurityTitle": "Datensicherheit",
-    "dataSecurityContent": "Wir haben geeignete technische und organisatorische Sicherheitsmaßnahmen implementiert, um die Sicherheit aller von uns verarbeiteten personenbezogenen Informationen zu schützen."
+  "footer": {
+    "aboutTitle": "Über Sorriso",
+    "aboutText": "Erfahre mehr über Sorriso, unsere Mission, erstklassige zahnmedizinische Leistungen anzubieten, und wie wir deine Zahngesundheit verbessern möchten.",
+    "learnMore": "Mehr erfahren",
+    "quickLinks": "Schnellzugriff",
+    "aboutLink": "Über uns",
+    "contactLink": "Kontakt",
+    "servicesLink": "Leistungen",
+    "privacyPolicyLink": "Datenschutzrichtlinie",
+    "followUs": "Folge uns",
+    "language": "Sprache ändern",
+    "copyright": "© 2023 Sorriso Dental. Alle Rechte vorbehalten."
   },
-  "changeLanguage": "Sprache ändern"
-  
+  "privacyPolicy": {
+    "title": "Datenschutzrichtlinie",
+    "introductionTitle": "Einleitung",
+    "introductionContent": "Deine Privatsphäre ist uns wichtig. Diese Richtlinie erklärt, wie wir mit deinen persönlichen Daten umgehen und welche Maßnahmen wir ergreifen, um deine Informationen zu schützen.",
+    "informationWeCollectTitle": "Welche Informationen wir sammeln",
+    "informationWeCollectContent": "Wir sammeln verschiedene Arten von Informationen, um dir den bestmöglichen Service zu bieten. Dazu gehören:",
+    "informationWeCollectItem1": "Persönliche Daten wie Name und E-Mail-Adresse.",
+    "informationWeCollectItem2": "Zahlungsinformationen wie Kreditkartendetails.",
+    "informationWeCollectItem3": "Gesundheitsdaten, die für deine Zahnbehandlung relevant sind.",
+    "informationWeCollectItem4": "Präferenzen für die Kommunikation und Rückmeldungen.",
+    "howWeUseInformationTitle": "Wie wir deine Informationen nutzen",
+    "howWeUseInformationContent": "Wir verwenden deine Daten, um unsere Leistungen zu verbessern und dir die bestmögliche Erfahrung zu bieten. Konkret nutzen wir deine Informationen für:",
+    "howWeUseInformationItem1": "Terminvereinbarungen und Konsultationen.",
+    "howWeUseInformationItem2": "Zahlungsabwicklungen und Kontoverwaltung.",
+    "howWeUseInformationItem3": "Personalisierte Gesundheitsempfehlungen.",
+    "howWeUseInformationItem4": "Wichtige Updates und Angebote zu kommunizieren.",
+    "dataSecurityTitle": "Datensicherheit",
+    "dataSecurityContent": "Wir setzen branchenübliche Sicherheitsmaßnahmen ein, um deine persönlichen Daten vor unbefugtem Zugriff, Änderung oder Zerstörung zu schützen. Deine Daten sind bei uns sicher."
+  },
+  "meta_home": {
+    "title": "Sorriso Care - Dein vertrauenswürdiger Partner für Zahntourismus",
+    "description": "Entdecke Sorriso Care, deinen vertrauenswürdigen Partner für Zahntourismus. Hochwertige zahnmedizinische Leistungen in Montenegro mit fachkundiger Betreuung und individuellen Behandlungen.",
+    "keywords": "Zahntourismus, Sorriso Care, zahnmedizinische Leistungen, Zahnimplantate, Zahnbehandlungen, Zahnpflege Montenegro, bezahlbare Zahnbehandlungen",
+    "og_title": "Sorriso Care - Dein vertrauenswürdiger Zahnarzt",
+    "og_description": "Sorriso Care bietet hochwertige zahnmedizinische Leistungen für internationale Patienten. Erfahre, wie du vom Zahntourismus in Montenegro profitieren kannst.",
+    "twitter_title": "Sorriso Care - Zahntourismus",
+    "twitter_description": "Erkunde den Zahntourismus in Montenegro mit Sorriso Care. Bezahlbare, fachkundige Zahnbehandlungen und erstklassige Pflege."
+  },
+  "meta_services": {
+    "title": "Zahnmedizinische Leistungen - Umfassende Versorgung | Sorriso Care",
+    "description": "Erkunde das breite Spektrum der zahnmedizinischen Leistungen bei Sorriso Care, von kosmetischen Behandlungen bis hin zur Präventivpflege, maßgeschneidert für deine Bedürfnisse.",
+    "keywords": "zahnmedizinische Leistungen, Sorriso Care, Zahnpflege, kosmetische Zahnmedizin, präventive Zahnpflege, Zahnbehandlungen, Zahngesundheit",
+    "og_title": "Umfassende zahnmedizinische Leistungen | Sorriso Care",
+    "og_description": "Entdecke ein breites Spektrum an zahnmedizinischen Leistungen, einschließlich kosmetischer und präventiver Behandlungen, die auf deine Zahngesundheit abgestimmt sind.",
+    "twitter_title": "Umfassende zahnmedizinische Leistungen | Sorriso Care",
+    "twitter_description": "Erkunde die verschiedenen zahnmedizinischen Leistungen bei Sorriso Care, darunter kosmetische, restaurative und präventive Zahnpflege."
+  },
+  "meta_about": {
+    "title": "Über uns - Sorriso Care | Zahntourismus in Montenegro",
+    "description": "Erfahre mehr über Sorriso Care, unsere Mission und warum Montenegro das perfekte Ziel für Zahntourismus ist.",
+    "keywords": "Sorriso Care, Zahntourismus, Montenegro, Zahnpflege, Zahnreisen, Tourismus in Montenegro",
+    "og_title": "Über uns - Sorriso Care",
+    "og_description": "Erfahre mehr über Sorriso Care, unsere Mission und warum Montenegro das ideale Ziel für Zahntourismus ist.",
+    "og_image": "https://sorriso.care/images/about-thumbnail.jpg",
+    "twitter_title": "Über uns - Sorriso Care",
+    "twitter_description": "Erfahre mehr über Sorriso Care, unsere Mission und warum Montenegro das ideale Ziel für Zahntourismus ist.",
+    "twitter_image": "https://sorriso.care/images/about-thumbnail.jpg"
+  },
+  "meta_pricing": {
+    "title": "Preise - Bezahlbare Zahnbehandlungen | Sorriso Care",
+    "description": "Entdecke die transparenten Preise von Sorriso Care für hochwertige Zahnbehandlungen. Vergleiche Preise und Behandlungen, um die beste Lösung für dich zu finden.",
+    "keywords": "Sorriso Care Preise, bezahlbare Zahnbehandlungen, Zahnbehandlungspreise Montenegro, Zahntourismus Preise",
+    "og_title": "Bezahlbare Zahnbehandlungen bei Sorriso Care",
+    "og_description": "Vergleiche die Preise für Zahnbehandlungen bei Sorriso Care und erhalte hochwertige Dienstleistungen zu erschwinglichen Preisen.",
+    "og_image": "https://sorriso.care/images/pricing-thumbnail.jpg",
+    "twitter_title": "Bezahlbare Zahnbehandlungen bei Sorriso Care",
+    "twitter_description": "Entdecke bezahlbare Zahnbehandlungen mit transparenten Preisen bei Sorriso Care.",
+    "twitter_image": "https://sorriso.care/images/pricing-thumbnail.jpg"
+  },
+  "meta_contact": {
+    "title": "Kontakt - Sorriso Care | Nimm Kontakt mit unserem Team auf",
+    "description": "Kontaktiere Sorriso Care bei Fragen oder für Unterstützung bezüglich unserer zahnmedizinischen Leistungen in Montenegro. Wir sind für dich da!",
+    "keywords": "Kontakt Sorriso Care, zahnmedizinische Leistungen, Zahnpflege Montenegro, Zahntourismus Kontakt, Kontaktiere Sorriso Care, zahnmedizinische Dienstleistungen, Zahntourismus Montenegro, Kontakt Zahnpflege",
+    "og_title": "Kontakt - Sorriso Care",
+    "og_description": "Kontaktiere Sorriso Care bei Fragen oder für Unterstützung bezüglich unserer zahnmedizinischen Leistungen in Montenegro.",
+    "og_image": "https://sorriso.care/images/contact-thumbnail.jpg",
+    "twitter_title": "Kontakt - Sorriso Care",
+    "twitter_description": "Kontaktiere Sorriso Care bei Fragen oder für Unterstützung bezüglich unserer zahnmedizinischen Leistungen in Montenegro.",
+    "twitter_image": "https://sorriso.care/images/contact-thumbnail.jpg"
+  },
+  "meta_gallery": {
+    "title": "Galerie - Sorriso Care | Erfolgreiche Zahnbehandlungen ansehen",
+    "description": "Erkunde die Galerie von Sorriso Care und sieh dir echte Beispiele unserer erfolgreichen Zahnbehandlungen an. Erfahre, wie wir Lächeln verwandeln!",
+    "keywords": "Sorriso Care Galerie, Zahnbehandlung Fotos, Lächeln Transformation, Zahntourismus Montenegro",
+    "og_title": "Galerie - Sorriso Care",
+    "og_description": "Erkunde unsere Galerie und sieh, wie Sorriso Care Lächeln mit fachkundigen Zahnbehandlungen verwandelt.",
+    "og_image": "https://sorriso.care/images/gallery-thumbnail.jpg",
+    "twitter_title": "Galerie - Sorriso Care",
+    "twitter_description": "Sieh dir die Galerie von Sorriso Care an und entdecke die Zahntransformationen unserer Patienten.",
+    "twitter_image": "https://sorriso.care/images/gallery-thumbnail.jpg"
+  },
+  "gallerySection": {
+    "title": "Galerie unserer zufriedenen Patienten"
+  },
+  "testimonials": {
+    "sheilaPeterson": {
+      "description": "Ich war immer unsicher über mein Lächeln, aber nach der Hollywood Smile-Behandlung bei Sorriso bin ich stolz auf meine Zähne und fühle mich selbstbewusst. Die Ergebnisse sind fantastisch!"
+    },
+    "lauraBastone": {
+      "description": "Das Team von Sorriso hat mir die Angst genommen, und mein Eingriff für das Zahnimplantat war ein voller Erfolg. Ich bin so glücklich mit den Ergebnissen!"
+    },
+    "lelaKovacMajcevski": {
+      "description": "Ich wollte ein strahlenderes Lächeln, und Sorriso hat geliefert! Meine Zahnaufhellungsbehandlung war schnell, schmerzlos und die Ergebnisse sind beeindruckend."
+    },
+    "marryDianaJones": {
+      "description": "Ich hatte kieferorthopädische Probleme, aber das professionelle Team von Sorriso hat mir mit ihrer kieferorthopädischen Behandlung zu einem perfekten Lächeln verholfen. Sehr zu empfehlen!"
+    }
+  },
+  "treatments": {
+    "hollywoodSmile": "Hollywood-Lächeln",
+    "dentalImplant": "Zahnimplantat",
+    "teethWhitening": "Zahnaufhellung",
+    "orthodontics": "Kieferorthopädie"
+  },
+  "countries": {
+    "unitedStates": "Vereinigte Staaten",
+    "italy": "Italien",
+    "montenegro": "Montenegro",
+    "australia": "Australien"
+  },
+  "bookACall": {
+    "header": {
+      "title": "Vereinbaren Sie einen Anruf mit uns",
+      "description": "Vereinbaren Sie eine Beratung, und wir helfen Ihnen gerne bei Ihren zahnmedizinischen Bedürfnissen."
+    },
+    "iframe": {
+      "title": "Einen Anruf vereinbaren",
+      "ariaLabel": "Google Kalender zum Planen eines Anrufs"
+    }
+  },
+  "contactDetails": {
+    "title": "Kontaktieren Sie uns",
+    "addressTitle": "Adresse",
+    "address": "Ihre Adresse Hier",
+    "phoneTitle": "Telefon",
+    "phone": "+382 69 664 668",
+    "emailTitle": "E-Mail",
+    "email": "email@example.com",
+    "hoursTitle": "Öffnungszeiten",
+    "hours": "Mo-Fr 9:00 AM - 6:00 PM"
+  },
+  "contactSection": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Wir würden uns freuen, von Ihnen zu hören",
+    "consultationTitle": "Vereinbaren Sie eine Beratung",
+    "consultationDescription": "Vereinbaren Sie eine Beratung mit einem unserer Zahnexperten."
+  }
 }

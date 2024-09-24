@@ -5,15 +5,32 @@ import Image from "next/image";
 import NavbarItem from "./NavbarItem";
 import MobileNav from "./MobileNav";
 import { useTranslation } from "react-i18next";
+import { FiPhoneCall } from "react-icons/fi"; // Import phone icon from react-icons
 
 const Header: React.FC = () => {
   const { t } = useTranslation("common");
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+  // Handle scroll effect to change background and text color when scrolled
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -21,9 +38,7 @@ const Header: React.FC = () => {
         setMenuOpen(false);
       }
     }
-
     document.addEventListener("click", handleClickOutside);
-
     return () => {
       document.removeEventListener("click", handleClickOutside);
     };
@@ -31,15 +46,25 @@ const Header: React.FC = () => {
 
   return (
     <>
+      {/* Overlay when mobile menu is open */}
       {menuOpen && (
         <div
           className="fixed inset-0 bg-gray-800 bg-opacity-50 z-40"
           onClick={() => setMenuOpen(false)}
         ></div>
       )}
-      <header className="fixed top-0 left-0 w-full py-6 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 text-xl flex items-center justify-between border-b-4 border-teal-500 bg-white shadow-md z-50">
+
+      {/* Header */}
+      <header
+        className={`fixed top-0 left-0 w-full py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 text-lg flex items-center justify-between z-50 transition-all duration-300 ${
+          isScrolled
+            ? "bg-white shadow-lg text-teal-700"
+            : "bg-transparent text-green-900"
+        }`}
+      >
+        {/* Logo */}
         <div className="flex items-center">
-          <Link href="/" className="font-black text-teal-700">
+          <Link href="/" className="font-black">
             <Image
               src="/images/logos/sorriso.png"
               alt="Sorriso"
@@ -50,91 +75,51 @@ const Header: React.FC = () => {
             />
           </Link>
         </div>
+
+        {/* Menu Links (for larger screens) */}
         <div className="flex flex-1 justify-end items-center">
           <div className="hidden lg:flex flex-1 justify-evenly items-center">
             <NavbarItem
-              href="/"
-              text={t("header.menu.home")}
-              className="relative px-4 py-2 text-teal-700 hover:text-teal-500 hover:-translate-y-1 transition-transform duration-300"
-            />
-            <NavbarItem
               href="/about"
               text={t("header.menu.about")}
-              submenu={[
-                { href: "/about", text: t("header.menu.about_submenu.about") },
-                {
-                  href: "/ourteam",
-                  text: t("header.menu.about_submenu.our_team"),
-                },
-                {
-                  href: "/whymne",
-                  text: t("header.menu.about_submenu.why_montenegro"),
-                },
-              ]}
-              className="relative px-4 py-2 text-teal-700 hover:text-teal-500 hover:-translate-y-1 transition-transform duration-300"
+              className="relative px-4 py-2 hover:text-teal-400 hover:scale-105 transition-all duration-300"
               submenuClassName="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg"
               submenuItemClassName="block px-4 py-2 text-teal-700 hover:bg-teal-100"
             />
             <NavbarItem
               href="/services"
               text={t("header.menu.services")}
-              submenu={[
-                {
-                  href: "/services",
-                  text: t("header.menu.services_submenu.our_services"),
-                },
-                // {
-                //   href: "/howitworks",
-                //   text: t("header.menu.services_submenu.how_it_works"),
-                // },
-                {
-                  href: "/procedures",
-                  text: t("header.menu.services_submenu.treatments"),
-                },
-                // {
-                //   href: "/experiences",
-                //   text: t("header.menu.services_submenu.experiences"),
-                // },
-                {
-                  href: "/gallery",
-                  text: t("header.menu.services_submenu.gallery"),
-                },
-              ]}
-              className="relative px-4 py-2 text-teal-700 hover:text-teal-500 hover:-translate-y-1 transition-transform duration-300"
+              className="relative px-4 py-2 hover:text-teal-400 hover:scale-105 transition-all duration-300"
               submenuClassName="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg"
               submenuItemClassName="block px-4 py-2 text-teal-700 hover:bg-teal-100"
             />
-            {/* <NavbarItem
-              href="/clinics"
-              text={t("header.menu.business")}
-              submenu={[
-                {
-                  href: "/clinics",
-                  text: t("header.menu.business_submenu.for_clinics"),
-                },
-                {
-                  href: "/for-affiliates",
-                  text: t("header.menu.business_submenu.for_affiliates"),
-                },
-              ]}
-              className="relative px-4 py-2 text-teal-700 hover:text-teal-500 hover:-translate-y-1 transition-transform duration-300"
-              submenuClassName="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg"
-              submenuItemClassName="block px-4 py-2 text-teal-700 hover:bg-teal-100"
-            /> */}
             <NavbarItem
               href="/pricing"
               text={t("header.menu.pricing")}
-              className="relative px-4 py-2 text-teal-700 hover:text-teal-500 hover:-translate-y-1 transition-transform duration-300"
+              className="relative px-4 py-2 hover:text-teal-400 hover:scale-105 transition-all duration-300"
             />
             <NavbarItem
               href="/contact"
               text={t("header.menu.contact")}
-              className="relative px-4 py-2 text-teal-700 hover:text-teal-500 hover:-translate-y-1 transition-transform duration-300"
+              className="relative px-4 py-2 hover:text-teal-400 hover:scale-105 transition-all duration-300"
             />
           </div>
+
+          {/* Phone Number (visible only on large screens) */}
+          <div className="hidden lg:flex flex-col items-start text-teal-700">
+            <div className="flex items-center">
+              <FiPhoneCall className="w-6 h-6 mr-2" />
+              <span className="font-semibold">{t("header.phone.number")}</span>
+            </div>
+            <span className="text-sm text-gray-600 -ml-1">
+              {t("header.phone.availability")}
+            </span>
+          </div>
+
+          {/* Mobile Menu Toggle */}
           <div className="relative lg:hidden flex items-center" ref={menuRef}>
             <button
-              className="text-teal-700 focus:outline-none"
+              className="text-current focus:outline-none"
               onClick={toggleMenu}
             >
               <svg
@@ -156,6 +141,8 @@ const Header: React.FC = () => {
           </div>
         </div>
       </header>
+
+      {/* Spacing for fixed header */}
       <div className="mt-24"></div>
     </>
   );

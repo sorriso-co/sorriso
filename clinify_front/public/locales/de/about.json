@@ -1,169 +1,92 @@
 {
-  "about": {
-    "title": "Über uns",
-    "advantages": {
-      "first": "Neueste Technologie",
-      "second": "Professionalität",
-      "third": "Hochwertigste Materialien"
-    },
-    "description": "Unser Engagement für Innovation und Qualität stellt sicher, dass Sie die besten verfügbaren Produkte und Dienstleistungen erhalten. Erleben Sie mit uns die Zukunft der Technologie."
-  },
-  "mission": {
-    "title": "Unsere Mission",
-    "subtitle": "Lächeln verwandeln, Leben verwandeln",
-    "paragraph1": "Bei Sorriso ist es unsere Mission, den Zahntourismus zu revolutionieren, indem wir außergewöhnliche Zahnbehandlungen mit unvergesslichen Reiseerlebnissen kombinieren. Wir bieten personalisierte, hochwertige und erschwingliche Zahnbehandlungen an schönen Reisezielen an und stellen sicher, dass jeder Patient mit einem strahlenderen, gesünderen Lächeln und wertvollen Erinnerungen nach Hause zurückkehrt.",
-    "paragraph2": "Wir sind bestrebt, Exzellenz in der Zahnmedizin zu erreichen, indem wir die neueste Technologie und Techniken einsetzen, um optimale Patientenergebnisse zu erzielen. Unser engagiertes Team von Fachleuten arbeitet unermüdlich daran, Zahntourismus für alle zugänglich und angenehm zu machen und die Lücke zwischen erstklassigen Zahnbehandlungen und dem Abenteuer, neue Orte zu entdecken, zu schließen."
+  "aboutUs": {
+    "cuttingEdgeTech": "Zahnmedizinische Spitzentechnologie",
+    "expertTeam": "Expertenteam von Zahnärzten",
+    "personalizedCare": "Individuelle Betreuung für jeden Patienten",
+    "description": "Bei Sorriso kombinieren wir erstklassige zahnärztliche Versorgung mit modernster Technologie, um sicherzustellen, dass Sie den höchsten Servicestandard erhalten. Erleben Sie die Zukunft der Zahnmedizin noch heute."
   },
   "box": {
     "section1": {
-      "title": "Patienten zuerst",
-      "subtitle": "Sorriso steht Ihnen zur Seite",
-      "description": "Sorriso ist eine Agentur, die Sie auf eine transformative Reise zu besserer Zahngesundheit und einem schönen Lächeln mitnimmt."
+      "title": "Warum Sorriso Wählen?",
+      "subtitle": "Verpflichtung zur Exzellenz",
+      "description": "Unsere Mission ist es, zahnärztliche Versorgung auf Weltklasseniveau zu bieten und die Zufriedenheit unserer Kunden sicherzustellen."
     },
     "metrics": {
       "client_satisfaction": "Kundenzufriedenheit",
-      "dental_success": "Zahnerfolg",
-      "client_referral": "Kundenempfehlung"
-    },
-    "cta": {
-      "title": "Bereit, Ihr Lächeln zu verwandeln?",
-      "description": "Kontaktieren Sie uns noch heute, um Ihre Beratung zu vereinbaren und den ersten Schritt zu einem gesünderen, strahlenderen Lächeln zu machen.",
-      "button": "Kontaktiere uns"
+      "dental_success": "Erfolg der Zahnbehandlungen",
+      "client_referral": "Kundenempfehlungen"
     }
   },
   "youtubeEmbed": {
-    "title": "Hochwertige Zahnmedizin",
-    "description": "Sehen Sie sich unser Video an, um den nahtlosen Prozess des Zahntourismus mit Sorriso zu verstehen. Von der ersten Online-Beratung über die Terminplanung, die Ankunft in Montenegro bis hin zur Durchführung Ihres Verfahrens sorgen wir für ein reibungsloses und komfortables Erlebnis. Entdecken Sie die Schönheit Montenegros, während Sie die beste Zahnbehandlung erhalten."
+    "title": "Sehen Sie sich unsere Transformation an",
+    "description": "Entdecken Sie, wie Sorriso Lächeln verändert und zahnärztliche Versorgung auf Weltklasseniveau bietet."
   },
-  "topSection": {
-    "title": "Lernen Sie unser Expertenteam kennen",
-    "description": "Entdecken Sie die außergewöhnlichen Fähigkeiten und Qualifikationen unserer freundlichen Zahnärzte, die sich der besten zahnärztlichen Versorgung verschrieben haben. Ihre Expertise erstreckt sich über verschiedene zahnärztliche Fachrichtungen, um Ihnen eine umfassende Behandlung zu gewährleisten.",
-    "button": "Lass uns zusammenarbeiten"
-  },
-  "founders": {
-    "title": "Lernen Sie unsere Gründer kennen",
-    "member1": {
-      "name": "Ivan Čabrilo",
-      "description": "Herr Čabrilo stammt aus Montenegro und studiert derzeit mit einem Vollstipendium an der University of Rochester in New York. Er doppelt sich in Informatik und Wirtschaft, während er aktiv in KI und maschinellem Lernen forscht."
-    },
-    "member2": {
-      "name": "Dr. Filip Šuković med. dent.",
-      "description": "Dr. Filip Šuković wurde in Cetinje geboren. Er absolvierte die High School am St. Clare's International College in Oxford und begann sein Zahnmedizinstudium an der Birkbeck University in London und beendete es an der Fakultät für Zahnmedizin CEU Cardinal Herrera in Valencia."
-    },
-    "member3": {
-      "name": "Djordje Ivanović",
-      "description": "Herr Ivanović stammt aus Podgorica, Montenegro, und studiert derzeit mit einem renommierten Stipendium an der Harvard University in Boston, Massachusetts. Er verfolgt eine Karriere in der Informatik mit Interesse an Wirtschaft."
-    }
-  },
-  "team": {
-    "title": "Lernen Sie unser Expertenteam kennen",
-    "description": "Wir haben mit den besten Zahnärzten des Landes zusammengearbeitet, die eine langjährige Tradition der Exzellenz vorweisen können, die über 30 Jahre zurückreicht. Ihr außergewöhnlicher Service, ihre Liebe zum Detail und ihr Verständnis garantieren Ihnen das Lächeln, das Sie sich schon immer gewünscht haben.",
-    "doctor1": {
-      "name": "Dr. Milija Sukovic med. dent.",
-      "title": "Spezialist für Implantologie"
-    },
-    "doctor2": {
-      "name": "Dr. Jelena Rutesic med. dent.",
-      "title": "Zahnarzt"
-    },
-    "doctor3": {
-      "name": "Dr. Dražen Nikčević med. dent.",
-      "title": "Zahnarzt"
-    },
-    "doctor4": {
-      "name": "Dr. Aleksa Raičković med. dent.",
-      "title": "Zahnarzt"
-    },
-    "doctor5": {
-      "name": "Frau Milena Bojanic",
-      "title": "Krankenschwester"
-    },
-    "doctor6": {
-      "name": "Frau Dijana Scepanovic",
-      "title": "Zahnmedizinische Fachangestellte"
-    },
-    "doctor7": {
-      "name": "Frau Aleksandra Jevrić",
-      "title": "Medizinische Assistentin"
-    },
-    "doctor8": {
-      "name": "Frau Nađa Vukadinović",
-      "title": "Medizinische Assistentin"
-    }
-  },
-  "scheduleAppointment": {
-    "title": "Vereinbaren Sie einen Termin",
-    "description": "Bereit, Ihr Lächeln zu verwandeln? Vereinbaren Sie noch heute einen Termin mit unserem Expertenteam und beginnen Sie Ihre Reise zu einer strahlenderen, gesünderen Zukunft.",
-    "bookNow": "Jetzt buchen",
-    "whatWeStandFor": "Wofür wir stehen"
+  "mission": {
+    "title": "Patientenzentrierte Zahnmedizinische Versorgung",
+    "subtitle": "Exzellenz, Maßgeschneidert für Sie",
+    "description1": "Bei Sorriso kombinieren wir fortschrittliche Zahnmedizin mit individuell zugeschnittenen Behandlungsplänen, um Ihren Komfort und Ihr Wohlbefinden in jeder Phase zu gewährleisten. Unsere Mission ist es, Expertenversorgung in Montenegro anzubieten, mit hochwertigen Dienstleistungen, um Ihr schönstes Lächeln zu erreichen.",
+    "description2": "Mit modernster Technologie und einem engagierten Team bieten wir ein nahtloses zahnärztliches Erlebnis und machen Sorriso zu einem führenden Anbieter im Zahntourismus. Vertrauen Sie uns, um Ihnen die besten Behandlungen zu bieten, von Implantaten bis hin zu kosmetischen Eingriffen.",
+    "cta": "Erfahren Sie mehr über unsere Dienstleistungen und wie wir Ihr Lächeln verbessern können."
   },
   "whyMontenegro": {
-    "title": "Warum Montenegro?",
-    "subtitle": "Einfache Antwort"
+    "title": "Warum Montenegro Wählen?",
+    "subtitle": "Atemberaubende Natur und Hochwertige Zahnmedizinische Versorgung"
   },
   "dentalTravelIntro": {
-    "title": "Zahnreisen mit Sorriso",
-    "description": "Besuchen Sie das Land mit unberührter natürlicher Schönheit. Nehmen Sie Ihre ganze Familie mit in den Urlaub, bekommen Sie das Lächeln, das Sie schon immer wollten, und zahlen Sie weniger.",
-    "buttonText": "Erleben Sie jetzt Ihren Zahnurlaub!",
-    "travel": "Reisen",
+    "title": "Entdecken Sie den Zahntourismus in Montenegro",
+    "description": "Erfahren Sie, wie Sie erstklassige Zahnbehandlungen mit einem unvergesslichen Reiseerlebnis in Montenegro kombinieren können.",
+    "buttonText": "Kontaktieren Sie uns noch heute",
+    "travel": "Reise",
     "accommodation": "Unterkunft",
-    "sightseeing": "Besichtigungen"
+    "sightseeing": "Sehenswürdigkeiten"
+  },
+  "cta": {
+    "title": "Bereit für Zahnmedizinische Versorgung auf Weltklasseniveau?",
+    "description": "Schließen Sie sich Tausenden zufriedener Kunden an und erhalten Sie die zahnärztliche Versorgung, die Sie bei Sorriso verdienen. Beginnen Sie noch heute Ihre Reise zu einem gesünderen, strahlenderen Lächeln.",
+    "bookButton": "Vereinbaren Sie einen Beratungstermin",
+    "servicesButton": "Entdecken Sie unsere Dienstleistungen"
   },
   "experienceMontenegro": {
-    "heading": "Geh nach Hause lächelnd",
-    "subheading": "Erleben Sie Montenegro",
+    "heading": "Erleben Sie Montenegro",
+    "subheading": "Entdecken Sie die Schönheit und Kultur",
+    "ctaButton": "Planen Sie Ihren Besuch",
     "cards": {
       "card1": {
-        "caption": "Aufenthalt",
-        "text": [
-          "ist eine kleine Adriainsel in der Nähe von Budva in Montenegro. Es war früher ein Fischerdorf mit Häusern aus dem 15. Jahrhundert.",
-          "Die Insel ist für die Öffentlichkeit nicht zugänglich, sondern nur für Bewohner, Hotelgäste oder im Rahmen einer Führung.",
-          "Auf der Insel gibt es mehrere alte Kirchen, darunter die Kirche (Sveti Stefan), die der Insel ihren Namen gab. In den 1950er und 1960er Jahren wurde das gesamte kleine Dorf in eine Hotelinsel umgewandelt und behielt dabei sein ursprüngliches Aussehen bei."
-        ]
+        "caption": "Unterkünfte",
+        "title": "Sveti Stefan",
+        "text": {
+          "paragraph1": "ist ein luxuriöses Resort und ein Symbol der montenegrinischen Küste.",
+          "paragraph2": "Genießen Sie atemberaubende Ausblicke und erstklassige Annehmlichkeiten.",
+          "paragraph3": "Ein idealer Ort, um sich während Ihres Besuchs zu entspannen."
+        }
       },
-"card2": {
-  "caption": "Sehen",
-  "text": [
-    "ist eine künstliche Insel vor der Küste von Perast, Montenegro, die über 200 Jahre durch Felsen und gesunkene Schiffe entstand. Sie beherbergt eine Kirche und ein Museum.",
-    "Der Legende nach wurde die Insel von Seeleuten gebaut, die am 22. Juli 1452 eine Ikone der Madonna und des Kindes auf einem Felsen fanden und schworen, nach jeder Reise einen Felsen dort zu legen.",
-    "Diese Tradition wird noch heute mit der Veranstaltung fašinada am 22. Juli fortgesetzt, bei der Einheimische Boote nehmen und Steine ins Meer werfen, um die Insel zu erweitern."
-  ]
-}
-,
+      "card2": {
+        "caption": "Was man sehen sollte",
+        "title": "Unsere Liebe Frau vom Felsen",
+        "text": {
+          "paragraph1": "ist eine künstliche Insel vor der Küste von Perast.",
+          "paragraph2": "Besuchen Sie die historische Kirche und das Museum, das voller Kunstwerke ist.",
+          "paragraph3": "Ein Muss für Geschichtsinteressierte."
+        }
+      },
       "card3": {
-        "caption": "Erkunden",
-        "text": [
-          "ist einer von 5 Nationalparks des Landes. Es ist ein Massiv im Nordwesten Montenegros. Es ist Teil der Dinarischen Alpen.",
-          "Der höchste Gipfel, Bobotov Kuk, erreicht eine Höhe von 2.523 Metern (8.278 Fuß). Das Massiv wird im Norden vom Tara-Flusstal, im Westen vom Piva-Flusstal und im Süden vom Komarnica-Flusstal begrenzt.",
-          "Das Massiv gibt dem Nationalpark, der es umfasst, seinen Namen. Der Durmitor-Nationalpark wurde 1952 gegründet und 1980 zum UNESCO-Welterbe erklärt."
-        ]
+        "caption": "Outdoor-Abenteuer",
+        "title": "Durmitor",
+        "text": {
+          "paragraph1": "bietet beeindruckende Berge, Seen und Schluchten.",
+          "paragraph2": "Ideal zum Wandern, Skifahren und Naturerleben.",
+          "paragraph3": "Erleben Sie die wilde Schönheit Montenegros."
+        }
       },
       "card4": {
-        "caption": "Genießen",
-        "text": [
-          "Genießen Sie eine köstliche Küche.",
-          "Montenegro hat eine reiche mediterrane Ernährung, die als eine der gesündesten und schmackhaftesten der Welt gilt. Die Vielfalt an Gewürzen und Lebensmitteln wird Ihre Geschmacksknospen definitiv überraschen.",
-          "Mit einer reichen Weingeschichte als integraler Bestandteil der Kultur können Sie auf den Märkten für unter 10 Dollar einen Wein von Weltklasse bekommen. Außerdem kann eine Familie mit 4 Personen für nur 50 Dollar ein fantastisches Mittagessen direkt am Meer genießen, mit einer Vielzahl von frischen Fischgerichten und Weinauswahl."
-        ]
+        "caption": "Essen & Wein",
+        "title": "Montenegrinische Küche",
+        "text": {
+          "paragraph1": "Genießen Sie lokale Gerichte wie Njeguški pršut und Käse.",
+          "paragraph2": "Kombinieren Sie sie mit regionalen Weinen für ein genussvolles Erlebnis.",
+          "paragraph3": "Erleben Sie die reichen Aromen Montenegros."
+        }
       }
-    },
-    "ctaButton": "Mehr entdecken"
-  },
-  "montenegroHighlights": {
-    "title": "Warum Montenegro?",
-    "description": "Montenegro ist ein verstecktes Juwel, das Besucher mit seiner atemberaubenden Landschaft, reichen Geschichte und herzlichen Gastfreundschaft anzieht. Mit seinem mediterranen Klima, goldenen Stränden, bergigen Landschaften, interessanter Geschichte, erschwinglichen Preisen und köstlicher lokaler Küche bietet Montenegro alles, was ein Tourist von einem europäischen Abenteuer erwarten könnte.",
-    "highlights": {
-      "highlight1": "Regenwälder",
-      "highlight2": "Berge",
-      "highlight3": "Türkises Meer",
-      "highlight4": "Exotische Tiere"
-    },
-    "ctaButton": "Brauchen Sie Reisetipps? Chatten Sie mit uns"
-  },
-  "vision": {
-    "title": "Unsere Vision",
-    "subtitle": "Montenegro als Zentrum des Zahntourismus stärken",
-    "paragraph1": "Bei Sorriso ist es unsere Vision, Montenegro als das führende Reiseziel für Zahntourismus zu positionieren. Wir möchten erstklassige Zahnbehandlungen mit der atemberaubenden Schönheit und reichen Kultur Montenegros verbinden und unseren Patienten ein einzigartiges und transformierendes Erlebnis bieten.",
-    "paragraph2": "Wir verpflichten uns, die neuesten Zahntechnologien zu nutzen und mit den besten Fachleuten zusammenzuarbeiten, um außergewöhnliche Pflege zu gewährleisten. Durch die Förderung der atemberaubenden Landschaften Montenegros und luxuriöser Unterkünfte streben wir danach, unvergessliche Reisen zu schaffen, die über die Zahnbehandlung hinausgehen."
+    }
   }
 }

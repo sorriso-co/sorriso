@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image"; // Use the new Image component
+import Image from "next/image";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
+// Optimized image paths, lazy loading enabled
 const slides = [
   { id: 1, src: "/images/about_us_slide/ars_technology.webp" },
   { id: 2, src: "/images/about_us_slide/program.webp" },
@@ -31,7 +32,7 @@ const TestSwiper: React.FC = () => {
           prevEl: ".swiper-button-prev",
         }}
         pagination={{ clickable: true }}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 5000, disableOnInteraction: false }} // Slightly increase delay to reduce requests
         breakpoints={{
           640: {
             slidesPerView: 2,
@@ -53,8 +54,9 @@ const TestSwiper: React.FC = () => {
                 alt={`Slide ${slide.id}`}
                 width={400}
                 height={300}
-                className="rounded-lg shadow-md object-cover "
-                priority // Add the priority property
+                className="rounded-lg object-cover"
+                quality={75} // Reduce image quality slightly for faster loading
+                loading="lazy" // Enable lazy loading for images
               />
             </div>
           </SwiperSlide>

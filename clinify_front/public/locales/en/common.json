@@ -1,99 +1,178 @@
 {
-    "meta": {
-    "description": "Sorriso: Affordable Dental Tourism in the Balkans. Offering high-quality dental care at affordable costs.",
-    "title": "Sorriso - Affordable Dental Tourism",
-    "ogTitle": "Sorriso - Affordable Dental Tourism in the Balkans",
-    "ogDescription": "Sorriso provides high-quality, affordable dental care in the Balkans for patients from Europe, the US, Australia, and beyond. Discover the benefits of dental tourism with Sorriso.",
-    "twitterTitle": "Sorriso - Affordable Dental Tourism in the Balkans",
-    "twitterDescription": "Discover affordable dental care in the Balkans with Sorriso. We offer high-quality treatments for patients from Europe, the US, Australia, and beyond.",
-    "keywords": "dental tourism, affordable dental care, dental care Balkans, Sorriso, dental treatments Europe, dental implants, teeth whitening, orthodontics, dental crowns, dental bridges, dental veneers, cosmetic dentistry, dental surgery, dental checkup, dental clinic, dental services, dental consultation, Balkans dental care, dental travel, dental packages, dental care abroad, international dental care, high-quality dental care, dental care savings, dental tourism Europe, dental tourism Balkans, dental care for US patients, dental care for Australian patients, dental care for European patients, dental health tourism, dental treatment abroad, dental tourism packages, dental holiday, dental care packages, affordable dental treatments, dental tourism destinations, dental care offers, dental tourism deals, low-cost dental care, dental care savings plans, international dental clinics, dental specialists Europe, advanced dental care, dental care options, dental care plans, dental care providers, professional dental care, dental care consultations, dental care deals, best dental care abroad, dental treatment plans, dental health travel, dental care trips, dental travel insurance, dental vacation, dental care discounts, dental tourism hotspots, dental procedures abroad, affordable dental solutions, comprehensive dental care, dental care packages Europe, dental care expertise, trusted dental services, quality dental treatments, modern dental clinics, dental health and wellness, patient-focused dental care, customized dental treatments, dental care excellence, reputable dental care, experienced dental professionals, dental care satisfaction, seamless dental care, dental wellness programs, expert dental care abroad, dental care safety, dental health packages, affordable dental packages, premium dental care, dental care options abroad, extensive dental services, personalized dental care, dental tourism planning, dental treatment savings, dental health travel packages, superior dental care, convenient dental care, dental care flexibility, affordable cosmetic dentistry, innovative dental treatments, reliable dental services, dental care convenience, international dental solutions, dental care travel, dental care appointments abroad, dental treatment abroad costs, efficient dental care, dental care coordination, dental care comfort, advanced dental technology, accessible dental care, dental care offers abroad, dental care options for seniors, family dental care abroad, group dental travel, corporate dental packages, luxury dental care, dental wellness tourism, dental treatment variety, dental care recommendations, dental care standards, dental patient care, quality dental materials, advanced dental techniques, dental tourism advice, dental treatment consultations, dental care with insurance, dental care planning assistance, expert dental consultations, dental health services, stress-free dental care, dental tourism reviews, dental treatment testimonials, dental care satisfaction, dental health assessments, reliable dental clinics, dental service guarantees, leading dental treatments, dental tourism benefits, international dental experts, dental care specialists, dental patient support, dental treatment expertise, dental care innovation, dental care results, dental health improvement, dental care quality, personalized dental solutions, professional dental assessments, dental treatment guarantees, dental patient care excellence, dental care network, trusted dental care providers"
+  "header": {
+    "menu": {
+      "about": "About Us",
+      "services": "Services",
+      "pricing": "Pricing",
+      "contact": "Contact"
+    },
+    "mobile_nav": {
+      "menu": "Menu",
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "pricing": "Pricing",
+      "contact": "Contact"
+    },
+    "phone": {
+      "number": "+382 69 664 668",
+      "availability": "24/7 Service"
+    }
   },
-  
-    "header": {
-      "menu": {
-        "home": "Home",
-        "about": "About",
-        "about_submenu": {
-          "about": "About",
-          "our_team": "Our Team",
-          "why_montenegro": "Why Montenegro?"
-        },
-        "services": "Services",
-        "services_submenu": {
-          "our_services": "Our Services",
-          "how_it_works": "How It Works",
-          "treatments": "Treatments",
-          "experiences": "Experiences",
-          "gallery": "Gallery"
-        },
-        "business": "Business",
-        "business_submenu": {
-          "for_clinics": "For Clinics",
-          "for_affiliates": "For Affiliates"
-        },
-        "pricing": "Pricing",
-        "contact": "Contact"
-      },
-      "mobile_nav": {
-        "menu": "Menu",
-        "close": "Close"
-      }
-    },
-    "footer": {
-    "copyright": "© 2024 Sorriso. All rights reserved.",
-    "aboutUs": "About Us",
-    "contact": "Contact",
-    "privacyPolicy": "Privacy Policy",
-    "facebook": "https://facebook.com",
-    "instagram": "https://instagram.com"
-    },
-    "contactDetails": {
-      "title": "Contact Us",
-      "addressTitle": "Our Address",
-      "address": "Ulica 13.Jula 2/18\nPodgorica 81000, Montenegro",
-      "phoneTitle": "Call Us Any Time",
-      "phone": "+382 69 664 668",
-      "emailTitle": "Email Us",
-      "email": "contact@sorriso.care",
-      "hoursTitle": "Working Hours",
-      "hours": "Monday - Friday: 9.00 - 17.00"
-    },
-    "contactForm": {
-    "name": "Name",
-    "email": "Email",
-    "phone": "Phone",
-    "message": "Message",
-    "messagePlaceholder": "Send us a message outlining your dental concerns, expectations, or questions. We will get back to you as soon as possible.",
-    "upload": "Upload an X-ray image of your teeth (optional)",
-    "send": "Send Message",
-    "success": "Email sent successfully!",
-    "failure": "Failed to send email. Please try again."
-    },
-    "contactSection": {
-      "title": "Get in Touch with Us",
-      "subtitle": "Get rid of the inconveniance. Let us help you be you.",
-      "consultationTitle": "Book a Free 30-Minute Consultation",
-      "consultationDescription": "Schedule a free consultation with our experts to discuss your needs and how we can help you achieve your goals."
-    },
-    "privacyPolicy": {
+  "footer": {
+    "aboutTitle": "About Sorriso",
+    "aboutText": "Discover more about Sorriso, our mission to provide world-class dental services, and how we aim to improve your dental health.",
+    "learnMore": "Learn More",
+    "quickLinks": "Quick Links",
+    "aboutLink": "About Us",
+    "contactLink": "Contact",
+    "servicesLink": "Services",
+    "privacyPolicyLink": "Privacy Policy",
+    "followUs": "Follow Us",
+    "language": "Change Language",
+    "copyright": "© 2023 Sorriso Dental. All rights reserved."
+  },
+  "privacyPolicy": {
     "title": "Privacy Policy",
     "introductionTitle": "Introduction",
-    "introductionContent": "Welcome to our Privacy Policy. Your privacy is critically important to us. Our privacy policy explains how we handle your personal information and data.",
+    "introductionContent": "We take your privacy seriously. This policy explains how we handle your personal data and what steps we take to ensure your information is secure.",
     "informationWeCollectTitle": "Information We Collect",
-    "informationWeCollectContent": "We collect several types of information from and about users of our website, including:",
-    "informationWeCollectItem1": "Personal identification information (Name, email address, phone number, etc.)",
-    "informationWeCollectItem2": "Demographic information (age, gender, preferences, interests, etc.)",
-    "informationWeCollectItem3": "Technical data (IP address, browser type and version, time zone setting, etc.)",
-    "informationWeCollectItem4": "Usage data (information about how you use our website, products, and services)",
-    "howWeUseInformationTitle": "How We Use Your Information",
-    "howWeUseInformationContent": "We use the information we collect in various ways, including to:",
-    "howWeUseInformationItem1": "Provide, operate, and maintain our website",
-    "howWeUseInformationItem2": "Improve, personalize, and expand our website",
-    "howWeUseInformationItem3": "Understand and analyze how you use our website",
-    "howWeUseInformationItem4": "Develop new products, services, features, and functionality",
+    "informationWeCollectContent": "We collect various types of information to provide you with the best service. This includes:",
+    "informationWeCollectItem1": "Personal identification details like name and email address.",
+    "informationWeCollectItem2": "Billing information such as credit card details.",
+    "informationWeCollectItem3": "Health-related data necessary for your dental treatment.",
+    "informationWeCollectItem4": "Your communication preferences and responses.",
+    "howWeUseInformationTitle": "How We Use Information",
+    "howWeUseInformationContent": "Your information is used to improve our services and provide you with the best experience. Specifically, we use your data for:",
+    "howWeUseInformationItem1": "Scheduling appointments and consultations.",
+    "howWeUseInformationItem2": "Processing payments and managing your account.",
+    "howWeUseInformationItem3": "Providing personalized health recommendations.",
+    "howWeUseInformationItem4": "Communicating important updates or promotions.",
     "dataSecurityTitle": "Data Security",
-    "dataSecurityContent": "We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process."
+    "dataSecurityContent": "We implement industry-standard security measures to protect your personal data from unauthorized access, alteration, or destruction. Rest assured, your information is in safe hands."
   },
-   "changeLanguage": "Change Language"
+  "meta_home": {
+    "title": "Sorriso Care - Your Trusted Partner for Dental Tourism",
+    "description": "Discover Sorriso Care, your trusted partner for dental tourism. Quality dental services in Montenegro with expert care and personalized treatments.",
+    "keywords": "dental tourism, sorriso care, dental services, dental implants, dental treatments, Montenegro dental care, affordable dental treatments",
+    "og_title": "Sorriso Care - Your Trusted Dental Partner",
+    "og_description": "Sorriso Care offers high-quality dental services for international patients. Find out how you can benefit from dental tourism in Montenegro.",
+    "twitter_title": "Sorriso Care - Dental Tourism",
+    "twitter_description": "Explore dental tourism in Montenegro with Sorriso Care. Affordable, expert dental treatments, and world-class care."
+  },
+  "meta_services": {
+    "title": "Dental Services - Comprehensive Care | Sorriso Care",
+    "description": "Explore the wide range of dental services offered at Sorriso Care, from cosmetic procedures to preventive care, all tailored to your needs.",
+    "keywords": "dental services, sorriso care, dental care, cosmetic dentistry, preventive dental care, dental procedures, dental health",
+    "og_title": "Comprehensive Dental Services | Sorriso Care",
+    "og_description": "Discover a wide range of dental services, including cosmetic and preventive procedures, tailored to meet your dental health needs at Sorriso Care.",
+    "twitter_title": "Comprehensive Dental Services | Sorriso Care",
+    "twitter_description": "Explore various dental services at Sorriso Care, including cosmetic, restorative, and preventive dental care solutions."
+  },
+  "meta_about": {
+    "title": "About Us - Sorriso Care | Dental Tourism in Montenegro",
+    "description": "Learn more about Sorriso Care, our mission, and why Montenegro is the perfect destination for dental tourism.",
+    "keywords": "Sorriso Care, dental tourism, Montenegro, dental care, dental travel, Montenegro tourism",
+    "og_title": "About Us - Sorriso Care",
+    "og_description": "Learn more about Sorriso Care, our mission, and why Montenegro is the perfect destination for dental tourism.",
+    "og_image": "https://sorriso.care/images/about-thumbnail.jpg",
+    "twitter_title": "About Us - Sorriso Care",
+    "twitter_description": "Learn more about Sorriso Care, our mission, and why Montenegro is the perfect destination for dental tourism.",
+    "twitter_image": "https://sorriso.care/images/about-thumbnail.jpg"
+  },
+  "meta_pricing": {
+    "title": "Pricing - Affordable Dental Treatments | Sorriso Care",
+    "description": "Explore Sorriso Care's transparent pricing for top-quality dental treatments. Compare prices and treatments to find the best solution for you.",
+    "keywords": "Sorriso Care pricing, affordable dental treatments, dental prices Montenegro, dental tourism pricing",
+    "og_title": "Affordable Dental Treatments at Sorriso Care",
+    "og_description": "Compare dental treatment prices at Sorriso Care and get top-quality services at affordable rates.",
+    "og_image": "https://sorriso.care/images/pricing-thumbnail.jpg",
+    "twitter_title": "Affordable Dental Treatments at Sorriso Care",
+    "twitter_description": "Explore affordable dental treatments with transparent pricing at Sorriso Care.",
+    "twitter_image": "https://sorriso.care/images/pricing-thumbnail.jpg"
+  },
+  "meta_contact": {
+    "title": "Contact Us - Sorriso Care | Get in Touch with Our Team",
+    "description": "Reach out to Sorriso Care for any inquiries or assistance regarding our dental services in Montenegro. We're here to help!",
+    "keywords": "Contact Sorriso Care, dental services, Montenegro dental care, dental tourism contact, Contatta Sorriso Care, servizi dentali, assistenza dentale in Montenegro, contatti turismo dentale, Kontakt Sorriso Care, Zahnbehandlungen, Zahntourismus Montenegro, Zahnpflege Kontakt",
+    "og_title": "Contact Us - Sorriso Care",
+    "og_description": "Reach out to Sorriso Care for any inquiries or assistance regarding our dental services in Montenegro.",
+    "og_image": "https://sorriso.care/images/contact-thumbnail.jpg",
+    "twitter_title": "Contact Us - Sorriso Care",
+    "twitter_description": "Reach out to Sorriso Care for any inquiries or assistance regarding our dental services in Montenegro.",
+    "twitter_image": "https://sorriso.care/images/contact-thumbnail.jpg"
+  },
+  "meta_gallery": {
+    "title": "Gallery - Sorriso Care | See Our Successful Dental Treatments",
+    "description": "Explore the gallery of Sorriso Care to see real-life examples of our successful dental treatments. Discover how we transform smiles!",
+    "keywords": "Sorriso Care gallery, dental treatment photos, smile transformation, dental tourism Montenegro",
+    "og_title": "Gallery - Sorriso Care",
+    "og_description": "Explore our gallery to see how Sorriso Care transforms smiles with expert dental treatments.",
+    "og_image": "https://sorriso.care/images/gallery-thumbnail.jpg",
+    "twitter_title": "Gallery - Sorriso Care",
+    "twitter_description": "See the gallery of Sorriso Care and discover the dental transformations of our patients.",
+    "twitter_image": "https://sorriso.care/images/gallery-thumbnail.jpg"
+  },
+  "testimonialsHero": {
+    "title": "Our Satisfied Patients",
+    "description": "Hear from our patients about their experiences and the high-quality care they received.",
+    "cta": "Contact Us"
+  },
+  "gallerySection": {
+    "title": "Gallery of Our Satisfied Patients"
+  },
+  "testimonials": {
+    "sheilaPeterson": {
+      "description": "I was always self-conscious about my smile, but after receiving the Hollywood Smile treatment at Sorriso, I feel confident and proud of my teeth. The results are amazing!"
+    },
+    "lauraBastone": {
+      "description": "The team at Sorriso made me feel at ease, and my dental implant procedure was a complete success. I'm so happy with the results!"
+    },
+    "lelaKovacMajcevski": {
+      "description": "I wanted a brighter smile, and Sorriso delivered! My teeth whitening treatment was quick, painless, and the results are stunning."
+    },
+    "marryDianaJones": {
+      "description": "I had orthodontic issues, but Sorriso’s professional team helped me achieve a perfect smile with their orthodontic treatment. Highly recommended!"
+    }
+  },
+  "treatments": {
+    "hollywoodSmile": "Hollywood Smile",
+    "dentalImplant": "Dental Implant",
+    "teethWhitening": "Teeth Whitening",
+    "orthodontics": "Orthodontics"
+  },
+  "countries": {
+    "unitedStates": "United States",
+    "italy": "Italy",
+    "montenegro": "Montenegro",
+    "australia": "Australia"
+  },
+
+  "bookACall": {
+    "header": {
+      "title": "Book a Call with Us",
+      "description": "Schedule a consultation and we’ll be happy to assist you with your dental needs."
+    },
+    "iframe": {
+      "title": "Schedule a Call",
+      "ariaLabel": "Google Calendar for scheduling a call"
+    }
+  },
+  "contactDetails": {
+    "title": "Contact Us",
+    "addressTitle": "Address",
+    "address": "Your Address Here",
+    "phoneTitle": "Phone",
+    "phone": "+382 69 664 668",
+    "emailTitle": "Email",
+    "email": "email@example.com",
+    "hoursTitle": "Working Hours",
+    "hours": "Mon-Fri 9:00 AM - 6:00 PM"
+  },
+  "contactSection": {
+    "title": "Get in Touch",
+    "subtitle": "We’d love to hear from you",
+    "consultationTitle": "Book a Consultation",
+    "consultationDescription": "Schedule a consultation with one of our dental experts."
   }
-  
+}

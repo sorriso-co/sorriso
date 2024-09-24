@@ -43,11 +43,17 @@ const NavbarItem: React.FC<NavbarItemProps> = ({
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
     >
-      <Link href={href} className="flex items-center py-4">
+      {/* Parent Link */}
+      <Link
+        href={href}
+        className="flex items-center py-4 hover:text-teal-400 transition-colors duration-300"
+      >
         {text}
         {submenu && (
           <svg
-            className="w-4 h-4 ml-1"
+            className={`w-4 h-4 ml-2 transform transition-transform duration-300 ${
+              isOpen ? "rotate-180" : "rotate-0"
+            }`}
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -62,11 +68,21 @@ const NavbarItem: React.FC<NavbarItemProps> = ({
           </svg>
         )}
       </Link>
+
+      {/* Submenu */}
       {submenu && isOpen && (
-        <div className={submenuClassName}>
+        <div
+          className={`absolute left-0 mt-2 w-48 bg-white border rounded-lg shadow-lg z-10 transition-opacity duration-300 ease-in-out ${submenuClassName} ${
+            isOpen ? "opacity-100" : "opacity-0"
+          }`}
+        >
           {submenu.map((item) => (
             <Link key={item.href} href={item.href}>
-              <div className={submenuItemClassName}>{item.text}</div>
+              <div
+                className={`block px-4 py-2 text-teal-700 hover:bg-teal-100 hover:text-teal-900 transition-colors duration-300 ${submenuItemClassName}`}
+              >
+                {item.text}
+              </div>
             </Link>
           ))}
         </div>

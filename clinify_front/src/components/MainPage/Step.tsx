@@ -8,20 +8,31 @@ interface StepProps {
   Icon: IconType;
 }
 
-const Step: React.FC<StepProps> = ({
-  stepNumber,
-  title,
-  description,
-  Icon,
-}) => {
+const Step: React.FC<StepProps> = ({ stepNumber, title, description, Icon }) => {
   return (
-    <div className="flex flex-col items-center text-center lg:text-left lg:items-start p-4 bg-white rounded-lg mb-7 mt-7 shadow-md h-80 w-60 mx-auto">
-      <Icon className="text-3xl text-darkPink mb-2" />
-      <h3 className="text-lg font-bold text-darkPink mb-1">
-        STEP {stepNumber}
+    <div className="relative flex flex-col items-center text-center lg:text-left lg:items-start bg-white rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:scale-105 w-[280px] h-[400px] mx-auto"> {/* Fixed dimensions */}
+      {/* Icon with Circle Background */}
+      <div className="w-20 h-20 mb-5 flex items-center justify-center rounded-full bg-teal-100 shadow-inner"> {/* Slightly larger icon container */}
+        <Icon className="text-6xl text-teal-600" /> {/* Larger icon size */}
+      </div>
+
+      {/* Step Number */}
+      <h3 className="text-3xl font-bold text-teal-700 mb-3 tracking-widest uppercase font-sans"> {/* Larger step number, new font */}
+        Step {stepNumber}
       </h3>
-      <h4 className="text-xl font-semibold mb-2">{title}</h4>
-      <p className="text-md text-gray-700">{description}</p>
+
+      {/* Step Title */}
+      <h4 className="text-2xl font-bold text-teal-900 mb-4 font-serif"> {/* Larger title font with a serif font */}
+        {title}
+      </h4>
+
+      {/* Description */}
+      <p className="text-lg text-gray-700 leading-relaxed font-sans"> {/* Larger description font */}
+        {description}
+      </p>
+
+      {/* Decorative Overlay on Hover */}
+      <div className="absolute inset-0 rounded-2xl bg-teal-50 opacity-0 hover:opacity-30 transition-opacity duration-300 ease-in-out"></div>
     </div>
   );
 };

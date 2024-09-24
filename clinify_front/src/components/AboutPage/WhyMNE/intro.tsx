@@ -20,7 +20,7 @@ const WhyMontenegro: React.FC = () => {
       <div className="absolute inset-0 w-full h-full">
         <Image
           src="/images/mne/prokletije.webp"
-          alt="Background"
+          alt={t("whyMontenegro.imageAlt", { defaultValue: "Montenegro Nature" })}
           width={1920}
           height={1080}
           priority
@@ -33,14 +33,14 @@ const WhyMontenegro: React.FC = () => {
           className="text-5xl md:text-8xl font-bold text-white font-serif mb-4"
           data-aos="fade-up"
         >
-          {t("whyMontenegro.title")}
+          {t("whyMontenegro.title", { defaultValue: "Why Choose Montenegro?" })}
         </h2>
         <h3
           className="text-3xl md:text-5xl font-bold text-teal-300 font-serif"
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          {t("whyMontenegro.subtitle")}
+          {t("whyMontenegro.subtitle", { defaultValue: "Stunning Nature and High-Quality Dental Care" })}
         </h3>
       </div>
     </div>

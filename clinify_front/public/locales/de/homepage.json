@@ -1,193 +1,91 @@
 {
-  "slideshow": {
-    "slide1": "KOSTENLOSE Online-Beratungen",
-    "slide2": "Sparen Sie bis zu 70%",
-    "slide3": "Genießen Sie mehr",
-    "slide4": "Verbringen Sie Ihren Urlaub lächelnd"
+  "frontHero": {
+    "title": "Deine Nächste Zahnreise",
+    "subtitle": "Kostenlose Beratungen, Weltklasse-Behandlungen, Beeindruckende Ergebnisse",
+    "visitButton": "Kontaktiere uns",
+    "scheduleButton": "Unsere Leistungen ansehen"
+  },
+  "haveItAll": {
+    "title": "Alles Haben mit Sorriso",
+    "description": "Erlebe die perfekte Kombination aus erstklassiger Zahnbehandlung und einem Traumurlaub in Montenegro. Mit Sorriso kannst du Weltklasse-Zahnbehandlungen genießen, während du die atemberaubende Schönheit Montenegros, seine reiche Geschichte und die herzliche Gastfreundschaft erlebst. Spare bis zu 80% bei Zahnbehandlungen.",
+    "buttonText": "Termin vereinbaren"
   },
   "introduction": {
-    "title": "Ihre nächste Zahnreise",
+    "title": "Deine Nächste Zahnreise",
     "subtitle": "Veni. Vidi. Vici mit Sorriso",
-    "description": "Entdecken Sie außergewöhnliche Zahnbehandlungen kombiniert mit einem unvergesslichen Reiseerlebnis. Lassen Sie sich von Sorriso auf eine Reise zu einem strahlenderen, gesünderen Lächeln führen, während Sie die Schönheit und Kultur Montenegros erkunden.",
+    "description": "Entdecke erstklassige Zahnbehandlungen kombiniert mit einem unvergesslichen Reiseerlebnis. Lass dich von Sorriso auf deinem Weg zu einem strahlenderen, gesünderen Lächeln begleiten und entdecke dabei die Schönheit und Kultur Montenegros.",
     "joinUsTitle": "Mach mit",
-    "joinUsDescription": "Vereinbaren Sie einen Termin und beginnen Sie Ihre Reise zu einem perfekten Lächeln mit Sorriso.",
-    "scheduleButton": "Jetzt buchen",
-  "visitButton": "Unsere Transformationen"
+    "joinUsDescription": "Vereinbare einen Termin und starte deine Reise zu einem perfekten Lächeln mit Sorriso.",
+    "visitButton": "Unsere Ergebnisse",
+    "scheduleButton": "Rückruf vereinbaren"
   },
   "howItWorks": {
-    "title": "Wie es funktioniert",
+    "title": "In 6 Einfachen Schritten zu Deinem Perfekten Lächeln",
     "steps": {
       "step1": {
-        "title": "Kontaktieren Sie uns",
-        "description": "Füllen Sie das Formular aus und senden Sie optional das neueste Röntgenbild oder ein Bild Ihrer Zähne. Wir werden Sie innerhalb von 24 Stunden kontaktieren, um Ihre Online-Beratung zu planen."
+        "title": "Kostenlose Online-Beratung",
+        "description": "Sprich mit unseren Zahnspezialisten, um herauszufinden, ob unsere Leistungen für dich geeignet sind."
       },
       "step2": {
-        "title": "Erhalten Sie Ihren Behandlungsplan",
-        "description": "Sie erhalten einen Behandlungsplan, der alle Schritte und Kosten detailliert auflistet."
+        "title": "Individueller Behandlungsplan",
+        "description": "Erhalte einen detaillierten Behandlungsplan, der auf deine Bedürfnisse zugeschnitten ist."
       },
       "step3": {
-        "title": "Erstberatung",
-        "description": "Während der Beratung haben Sie die Möglichkeit, alle Fragen zur Behandlung zu stellen."
+        "title": "Stell Alle Deine Fragen",
+        "description": "Stelle alle Fragen, die du zum Behandlungsablauf hast."
       },
       "step4": {
-        "title": "Reisen",
-        "description": "Wenn der Plan steht, packen Sie einfach, reisen Sie und lassen Sie sich behandeln. Wir kümmern uns um alles."
+        "title": "Reise für die Behandlung",
+        "description": "Reise nach Montenegro für deine erstklassige Zahnbehandlung."
       },
       "step5": {
-        "title": "Behandlung",
-        "description": "Erhalten Sie die benötigte Behandlung von unseren hochqualifizierten Zahnärzten. Wir verwenden die neueste Technologie."
+        "title": "Erhalte Deine Behandlung",
+        "description": "Unsere erfahrenen Zahnärzte bieten dir die beste Versorgung mit modernster Technik."
       },
       "step6": {
-        "title": "Viel Spaß",
-        "description": "Genießen Sie Ihren Aufenthalt und erkunden Sie die lokalen Attraktionen, während Sie die beste zahnärztliche Versorgung genießen und Montenegro erleben."
+        "title": "Genieße Dein Neues Lächeln",
+        "description": "Verlasse die Klinik mit einem wunderschönen Lächeln und einer unvergesslichen Erfahrung."
       }
     },
-    "buttonText": "Jetzt ansehen"
+    "buttonText": "Kostenlose Beratung buchen"
   },
   "serviceGrid": {
-    "title": "Unsere Dienstleistungen",
-    "description": "Wir bieten erstklassige Behandlungen für alle Zahnprobleme",
+    "title": "Unsere Zahnbehandlungen",
+    "description": "Erkunde unser umfassendes Angebot an Zahnbehandlungen, die auf deine Bedürfnisse abgestimmt sind.",
+    "buttonText": "Unser Video ansehen",
     "services": [
-      { "title": "Allgemeine Zahnheilkunde" },
-      { "title": "Implantologie" },
-      { "title": "Prothetik" },
-      { "title": "Zahnchirurgie" },
-      { "title": "Kosmetische Zahnheilkunde" },
-      { "title": "Endodontie" },
-      { "title": "Parodontologie" },
-      { "title": "Zahnradiologie" }
-    ],
-    "buttonText": "Jetzt ansehen"
-  },
-    "pricing": {
-      "title": "Durchschnittskostenvergleich",
-      "procedure": "Verfahren",
-      "ukPrice": "UK Preis",
-      "euPrice": "EU Durchschnitt",
-      "usPrice": "US Preis",
-      "balkanPrice": "Unser Preis",
-      "savings": "Ersparnis",
-      "note": "*Die Preise sind fallabhängig. Füllen Sie unser Online-Anfrageformular aus, um die neuesten Angebote und exklusiven Rabatte zu erfahren!",
-      "onlineRequestForm": "Online-Anfrageformular",
-      "buttonText": "Unsere Preise ansehen",
-      "procedures": [
-        {
-          "procedure": "Titanimplantat",
-          "ukPrice": "€3,000",
-          "euPrice": "€2,200",
-          "usPrice": "€3,600",
-          "balkanPrice": "€1,072",
-          "savings": "65%"
-        },
-        {
-          "procedure": "All-on-4 Implantate",
-          "ukPrice": "€14,400",
-          "euPrice": "€10,000",
-          "usPrice": "€15,000",
-          "balkanPrice": "€6,231",
-          "savings": "58%"
-        },
-        {
-          "procedure": "All-on-6 Implantate",
-          "ukPrice": "€16,200",
-          "euPrice": "€11,500",
-          "usPrice": "€16,800",
-          "balkanPrice": "€7,916",
-          "savings": "52%"
-        },
-        {
-          "procedure": "All-on-8 Implantate",
-          "ukPrice": "€18,000",
-          "euPrice": "€13,000",
-          "usPrice": "€19,200",
-          "balkanPrice": "€9,499",
-          "savings": "52%"
-        },
-        {
-          "procedure": "Vollkeramikkrone",
-          "ukPrice": "€1,200",
-          "euPrice": "€800",
-          "usPrice": "€1,300",
-          "balkanPrice": "€383",
-          "savings": "68%"
-        },
-        {
-          "procedure": "Zirkonkrone",
-          "ukPrice": "€1,440",
-          "euPrice": "€1,000",
-          "usPrice": "€1,560",
-          "balkanPrice": "€383",
-          "savings": "75%"
-        },
-        {
-          "procedure": "Porzellanveneers",
-          "ukPrice": "€1,200",
-          "euPrice": "€850",
-          "usPrice": "€1,440",
-          "balkanPrice": "€255",
-          "savings": "82%"
-        },
-        {
-          "procedure": "E-Max Veneers",
-          "ukPrice": "€1,260",
-          "euPrice": "€900",
-          "usPrice": "€1,500",
-          "balkanPrice": "€383",
-          "savings": "75%"
-        },
-        {
-          "procedure": "Vollprothese",
-          "ukPrice": "€2,160",
-          "euPrice": "€1,500",
-          "usPrice": "€2,400",
-          "balkanPrice": "€664",
-          "savings": "72%"
-        },
-        {
-          "procedure": "Zahnaufhellung",
-          "ukPrice": "€600",
-          "euPrice": "€450",
-          "usPrice": "€720",
-          "balkanPrice": "€255",
-          "savings": "65%"
-        },
-        {
-          "procedure": "Wurzelbehandlung (Molaren)",
-          "ukPrice": "€960",
-          "euPrice": "€700",
-          "usPrice": "€1,080",
-          "balkanPrice": "€123",
-          "savings": "87%"
-        },
-        {
-          "procedure": "Extraktion (einfach)",
-          "ukPrice": "€240",
-          "euPrice": "€180",
-          "usPrice": "€300",
-          "balkanPrice": "€56",
-          "savings": "77%"
-        },
-        {
-          "procedure": "Extraktion (chirurgisch)",
-          "ukPrice": "€360",
-          "euPrice": "€250",
-          "usPrice": "€420",
-          "balkanPrice": "€189",
-          "savings": "55%"
-        },
-        {
-          "procedure": "Regelmäßige Zahnreinigung",
-          "ukPrice": "€360",
-          "euPrice": "€250",
-          "usPrice": "€420",
-          "balkanPrice": "€66",
-          "savings": "84%"
-        }
-      ]
-    },  
-  "haveItAll": {
-    "title": "Alles haben mit Sorriso",
-    "description": "Entdecken Sie die perfekte Kombination aus erstklassiger Zahnversorgung und einem Traumurlaub in Montenegro. Mit Sorriso können Sie erstklassige Zahnbehandlungen genießen und gleichzeitig die atemberaubende Schönheit der Landschaften Montenegros, seine reiche Geschichte und die herzliche Gastfreundschaft erleben. Sparen Sie bis zu 80% bei Zahnbehandlungen.",
-    "buttonText": "Termin vereinbaren"
+      {
+        "title": "Allgemeine Zahnheilkunde",
+        "altText": "Leistungen der Allgemeinen Zahnheilkunde"
+      },
+      {
+        "title": "Zahnimplantate",
+        "altText": "Leistungen für Zahnimplantate"
+      },
+      {
+        "title": "Zahnkronen",
+        "altText": "Leistungen für Zahnkronen"
+      },
+      {
+        "title": "Zahnchirurgie",
+        "altText": "Leistungen für Zahnchirurgie"
+      },
+      {
+        "title": "Zahnaufhellung",
+        "altText": "Leistungen zur Zahnaufhellung"
+      },
+      {
+        "title": "Zahnschutz",
+        "altText": "Leistungen zum Zahnschutz"
+      },
+      {
+        "title": "Parodontale Behandlung",
+        "altText": "Leistungen zur Parodontalen Behandlung"
+      },
+      {
+        "title": "Radiologie",
+        "altText": "Radiologische Leistungen"
+      }
+    ]
   }
 }

@@ -16,11 +16,11 @@ interface Procedure {
 }
 
 interface MostWantedProceduresProps {
-  procedures: Procedure[];
+  procedures: Procedure[]; // Expecting an array
 }
 
 const MostWantedProcedures: React.FC<MostWantedProceduresProps> = ({
-  procedures,
+  procedures = [], // Default to an empty array
 }) => {
   const { t } = useTranslation('services');
 
@@ -40,11 +40,15 @@ const MostWantedProcedures: React.FC<MostWantedProceduresProps> = ({
       </div>
       <div className="container mx-auto flex justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 md:grid-cols-2 md:gap-6">
-          {procedures.map((procedure, index) => (
-            <div data-aos="fade-up" key={index}>
-              <FlipCard procedure={procedure} />
-            </div>
-          ))}
+          {procedures.length > 0 ? (
+            procedures.map((procedure, index) => (
+              <div data-aos="fade-up" key={index}>
+                <FlipCard procedure={procedure} />
+              </div>
+            ))
+          ) : (
+            <p className="text-teal-600">{t('mostWanted.noProcedures', { defaultValue: 'No procedures available at this time.' })}</p>
+          )}
         </div>
       </div>
     </section>

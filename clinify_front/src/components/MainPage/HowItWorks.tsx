@@ -7,61 +7,22 @@ import {
   FaPlane,
   FaTooth,
   FaSmile,
-  FaPlay,
 } from "react-icons/fa";
-import Step from "./Step";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "./CSS/custom-slick.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
+import Step from "./Step";
 
 const HowItWorks: React.FC = () => {
   const { t } = useTranslation("homepage");
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isSliderVisible, setIsSliderVisible] = useState(false);
   const sliderRef = useRef<HTMLDivElement>(null);
 
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
-  };
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    autoplay: true,
-    autoplaySpeed: 10000,
-    pauseOnFocus: false,
-    pauseOnHover: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true,
-          centerMode: false,
-          autoplaySpeed: 7000,
-          pauseOnHold: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: false,
-          autoplaySpeed: 8000,
-          pauseOnHold: true,
-        },
-      },
-    ],
   };
 
   useEffect(() => {
@@ -69,114 +30,196 @@ const HowItWorks: React.FC = () => {
       duration: 1000,
       once: true,
     });
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsSliderVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.5 } // Trigger when 50% of the slider is visible
-    );
-
-    if (sliderRef.current) {
-      observer.observe(sliderRef.current);
-    }
-
-    return () => observer.disconnect();
   }, []);
 
-  return (
-    <div className="bg-teal-50 py-16 overflow-hidden" data-aos="fade-up">
-      <div
-        className="container mx-auto px-4 lg:px-16 text-center"
-        ref={sliderRef}
+  const NextArrow = (props: any) => {
+    const { className, style, onClick } = props;
+    return (
+      <button
+        className={`${className} transition-opacity duration-300`}
+        style={{
+          ...style,
+          right: '0px', // Aligned to the right edge
+          zIndex: 2,
+          fontSize: '24px',
+          color: '#004d40', // Dark green color
+          background: 'none',
+          border: 'none',
+          outline: 'none',
+          cursor: 'pointer',
+        }}
+        onClick={onClick}
       >
+        &#10095;
+      </button>
+    );
+  };
+
+  const PrevArrow = (props: any) => {
+    const { className, style, onClick } = props;
+    return (
+      <button
+        className={`${className} transition-opacity duration-300`}
+        style={{
+          ...style,
+          left: '0px', // Aligned to the left edge
+          zIndex: 2,
+          fontSize: '24px',
+          color: '#004d40', // Dark green color
+          background: 'none',
+          border: 'none',
+          outline: 'none',
+          cursor: 'pointer',
+        }}
+        onClick={onClick}
+      >
+        &#10094;
+      </button>
+    );
+  };
+
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 10000,
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
+  return (
+    <section className="relative bg-teal-50 py-12 lg:py-16 overflow-hidden">
+      <div className="container mx-auto px-4 lg:px-16">
+        {/* Section Title */}
         <h2
-          className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-teal-600 mb-5"
+          className="font-serif text-5xl sm:text-5xl md:text-8xl font-extrabold text-teal-700 text-center mb-10"
           data-aos="fade-down"
         >
-          {t("howItWorks.title", { defaultValue: "How It Works" })}
+          {t("howItWorks.title", {
+            defaultValue: "In 6 Easy Steps to Your Perfect Smile",
+          })}
         </h2>
-        <div data-aos="fade-up">
-          {isSliderVisible && (
-            <Slider {...settings}>
+
+        {/* Slider Section */}
+        <div ref={sliderRef} data-aos="fade-up">
+          <Slider {...sliderSettings}>
+            {/* Step 1 */}
+            <div className="px-4"> {/* Added horizontal padding */}
               <Step
                 stepNumber="1"
                 title={t("howItWorks.steps.step1.title", {
-                  defaultValue: "Contact Us",
+                  defaultValue: "Free Online Consultation",
                 })}
-                description={t("howItWorks.steps.step1.description", {
-                  defaultValue:
-                    "Fill out the form and optionally send your most recent dental X-ray. We will contact you within 24 hours to schedule your online consultation.",
-                })}
+                description="Talk to our dental experts to find out if our services are right for you."
                 Icon={FaPhoneAlt}
               />
+            </div>
+
+            {/* Step 2 */}
+            <div className="px-4">
               <Step
                 stepNumber="2"
                 title={t("howItWorks.steps.step2.title", {
-                  defaultValue: "Receive Your Treatment Plan",
+                  defaultValue: "Personalized Treatment Plan",
                 })}
                 description={t("howItWorks.steps.step2.description", {
                   defaultValue:
-                    "You will receive a treatment plan detailing all steps and costs.",
+                    "Receive a detailed treatment plan personalized to your needs.",
                 })}
                 Icon={FaClipboardList}
               />
+            </div>
+
+            {/* Step 3 */}
+            <div className="px-4">
               <Step
                 stepNumber="3"
                 title={t("howItWorks.steps.step3.title", {
-                  defaultValue: "Initial Consultation",
+                  defaultValue: "Ask Any Questions",
                 })}
                 description={t("howItWorks.steps.step3.description", {
                   defaultValue:
-                    "During consultation, you have the opportunity to ask any questions about the treatment.",
+                    "Ask any questions you have about the treatment process.",
                 })}
                 Icon={FaComments}
               />
+            </div>
+
+            {/* Step 4 */}
+            <div className="px-4">
               <Step
                 stepNumber="4"
                 title={t("howItWorks.steps.step4.title", {
-                  defaultValue: "Travel",
+                  defaultValue: "Travel for Treatment",
                 })}
                 description={t("howItWorks.steps.step4.description", {
                   defaultValue:
-                    "When the plan is in place, just pack, travel, and get treated. We will take care of everything.",
+                    "Travel to Montenegro for your world-class dental treatment.",
                 })}
                 Icon={FaPlane}
               />
+            </div>
+
+            {/* Step 5 */}
+            <div className="px-4">
               <Step
                 stepNumber="5"
                 title={t("howItWorks.steps.step5.title", {
-                  defaultValue: "Treatment",
+                  defaultValue: "Receive Treatment",
                 })}
                 description={t("howItWorks.steps.step5.description", {
                   defaultValue:
-                    "Receive the treatment you need from our highly qualified dental professionals. We use the latest technology.",
+                    "Our expert dentists will provide you with the best care using the latest technology.",
                 })}
                 Icon={FaTooth}
               />
+            </div>
+
+            {/* Step 6 */}
+            <div className="px-4">
               <Step
                 stepNumber="6"
                 title={t("howItWorks.steps.step6.title", {
-                  defaultValue: "Have Fun",
+                  defaultValue: "Enjoy Your New Smile",
                 })}
                 description={t("howItWorks.steps.step6.description", {
                   defaultValue:
-                    "Enjoy your stay and explore the local attractions while you receive the best dental care while enjoying Montenegro.",
+                    "Leave with a beautiful smile and a memorable experience.",
                 })}
                 Icon={FaSmile}
               />
-            </Slider>
-          )}
+            </div>
+          </Slider>
         </div>
+
+        {/* Call to Action */}
         <div className="text-center mt-12">
           <button
-            className="bg-teal-600 hover:bg-teal-700 text-white py-2 px-6 rounded-full shadow-md transition duration-300 mt-8 flex items-center justify-center mx-auto"
+            className="bg-teal-700 hover:bg-teal-800 text-white py-3 px-8 rounded-full shadow-md transition duration-300 mt-8 flex items-center justify-center mx-auto"
             onClick={toggleModal}
           >
-            <FaPlay className="mr-2" /> {t("serviceGrid.buttonText")}
+            {t("serviceGrid.buttonText", {
+              defaultValue: "Book a Free Consultation",
+            })}
           </button>
           {isModalOpen && (
             <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75">
@@ -198,11 +241,10 @@ const HowItWorks: React.FC = () => {
                     allowFullScreen
                   ></iframe>
                 </div>
-                <Link href="/howitworks">
+                <Link href="/contact">
                   <button
                     className="bg-teal-600 hover:bg-teal-700 text-white py-3 px-8 rounded-full shadow-md transition duration-300 mt-8"
                     onClick={toggleModal}
-                    data-aos="fade-up"
                   >
                     Learn More
                   </button>
@@ -212,7 +254,7 @@ const HowItWorks: React.FC = () => {
           )}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

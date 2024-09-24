@@ -15,30 +15,32 @@ const ContactDetails: React.FC = () => {
   const { t } = useTranslation("common");
 
   return (
-    <section className="contact-details px-4 py-24 border-teal">
-      <div className="bg-white shadow-lg rounded-lg p-8 mx-auto max-w-lg">
-        <h2 className="text-3xl font-serif font-bold text-center mb-8 text-teal-700">
+    <section className="px-4 py-16">
+      <div className="bg-white rounded-lg p-8 mx-auto max-w-lg">
+        <h2 className="text-3xl font-serif font-bold text-center mb-8 text-teal-900">
           {t("contactDetails.title")}
         </h2>
+        {/* Address */}
         <div className="mb-6 flex items-start">
           <FaMapMarkerAlt className="text-teal-500 w-6 h-6 mr-4" />
           <div>
-            <h3 className="text-xl font-bold mb-2 text-teal-700">
+            <h3 className="text-xl font-bold text-teal-900 mb-1">
               {t("contactDetails.addressTitle")}
             </h3>
-            <p className="text-gray-700 font-serif">
+            <p className="text-gray-700">
               {t("contactDetails.address")}
             </p>
           </div>
         </div>
+        {/* Phone */}
         <div className="mb-6 flex items-start">
           <FaPhoneAlt className="text-teal-500 w-6 h-6 mr-4" />
           <div>
-            <h3 className="text-xl font-bold font-serif mb-2 text-teal-700">
+            <h3 className="text-xl font-bold text-teal-900 mb-1">
               {t("contactDetails.phoneTitle")}
             </h3>
             <Link href="https://wa.me/+38269664668" passHref>
-              <section className="text-teal-600 font-serif flex items-center underline hover:text-teal-800 transition-colors">
+              <section className="text-teal-700 flex items-center underline hover:text-teal-800 transition-colors">
                 {t("contactDetails.phone")}
                 <FontAwesomeIcon
                   icon={faWhatsapp}
@@ -48,24 +50,26 @@ const ContactDetails: React.FC = () => {
             </Link>
           </div>
         </div>
+        {/* Email */}
         <div className="mb-6 flex items-start">
           <FaEnvelope className="text-teal-500 w-6 h-6 mr-4" />
           <div>
-            <h3 className="text-xl font-bold mb-2 text-teal-700 font-serif">
+            <h3 className="text-xl font-bold text-teal-900 mb-1">
               {t("contactDetails.emailTitle")}
             </h3>
-            <p className="text-gray-700 font-serif">
+            <p className="text-gray-700">
               {t("contactDetails.email")}
             </p>
           </div>
         </div>
+        {/* Hours */}
         <div className="flex items-start">
           <FaClock className="text-teal-500 w-6 h-6 mr-4" />
           <div>
-            <h3 className="text-xl font-bold font-serif mb-2 text-teal-700">
+            <h3 className="text-xl font-bold text-teal-900 mb-1">
               {t("contactDetails.hoursTitle")}
             </h3>
-            <p className="text-gray-700 font-serif">
+            <p className="text-gray-700">
               {t("contactDetails.hours")}
             </p>
           </div>

@@ -1,12 +1,14 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+
 interface PriceCardProps {
   title: string;
   description: string;
   prices: { country: string; price: string; flag: string }[];
   buttonText: string;
-  topImage: string;
+  className?: string;
 }
 
 const PriceCard: React.FC<PriceCardProps> = ({
@@ -14,7 +16,7 @@ const PriceCard: React.FC<PriceCardProps> = ({
   description,
   prices,
   buttonText,
-  topImage,
+  className,
 }) => {
   const [isClicked, setIsClicked] = useState(false);
 
@@ -29,49 +31,55 @@ const PriceCard: React.FC<PriceCardProps> = ({
 
   return (
     <div
-      className={`border rounded-t-[30px] rounded-b-[30px] p-6 shadow-lg w-96 transition-transform duration-300 transform hover:scale-105 relative bg-whites overflow-x-hidden border-teal-400`}
-      style={{ minHeight: "550px" }}
+      className={`relative border rounded-[30px] p-6 shadow-lg w-full sm:w-96 transition-transform duration-300 transform hover:scale-105 bg-white overflow-hidden ${className}`}
+      style={{ minHeight: "600px" }}
       onClick={() => setIsClicked(!isClicked)}
     >
-      <div className="flex justify-between items-start mb-4">
+
+      {/* Card Content */}
+      <div className="flex flex-col justify-between h-full">
         <div>
-          <h2 className="text-3xl font-bold mb-2 text-teal-800">{title}</h2>
-          <p className="text-teal-700">{description}</p>
-        </div>
-        <img
-          src={topImage}
-          alt="Top Image"
-          className="w-24 h-24 rounded-full object-cover shadow-lg"
-        />
-      </div>
-      <h3 className="font-bold mb-4 text-teal-900">Price of the treatment:</h3>
-      <div className="space-y-2">
-        {prices.map((item, index) => (
-          <div
-            key={index}
-            className={`flex py-1 justify-between items-center text-teal-900 ${
-              index === cheapestIndex
-                ? "border-2 border-green-500 bg-green-100 rounded-md p-2"
-                : ""
-            }`}
-          >
-            <span className="flex items-center">
-              {item.country}{" "}
-              <img
-                src={item.flag}
-                alt={item.country}
-                className="ml-2 w-6 h-4 object-contain"
-              />
-            </span>
-            <span className="font-bold">{item.price}</span>
+          {/* Title and Description */}
+          <div className="mb-6">
+            <h2 className="text-3xl font-bold mb-2 text-teal-800">{title}</h2>
+            <p className="text-teal-600">{description}</p>
           </div>
-        ))}
+
+          {/* Price Section */}
+          <h3 className="font-bold mb-4 text-teal-900">Price of the treatment:</h3>
+          <div className="space-y-2">
+            {prices.map((item, index) => (
+              <div
+                key={index}
+                className={`flex justify-between items-center py-2 px-3 text-teal-900 ${
+                  index === cheapestIndex
+                    ? "border-2 border-green-500 bg-green-100 rounded-md"
+                    : "border border-teal-200 rounded-lg"
+                }`}
+              >
+                <span className="flex items-center">
+                  {item.country}
+                  <Image
+                    src={item.flag}
+                    alt={item.country}
+                    width={100}
+                    height={100}
+                    className="ml-2 w-6 h-4 object-contain"
+                  />
+                </span>
+                <span className="font-bold">{item.price}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Call to Action */}
+        <Link href="/contact" passHref>
+          <button className="mt-6 bg-teal-600 text-white py-2 px-4 rounded-full transition-colors duration-300 hover:bg-teal-700 shadow-md w-full">
+            {buttonText}
+          </button>
+        </Link>
       </div>
-      <Link href="/contact" passHref>
-        <button className="mt-6 bg-teal-600 text-white py-2 px-4 rounded-full transition-colors duration-300 hover:bg-teal-700 shadow-md">
-          {buttonText}
-        </button>
-      </Link>
     </div>
   );
 };

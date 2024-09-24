@@ -1,97 +1,172 @@
 {
-  "meta": {
-    "description": "Sorriso: Turismo dentale conveniente nei Balcani. Offriamo cure dentali di alta qualità a una frazione del costo per i pazienti provenienti da Europa, Stati Uniti, Australia e oltre.",
-    "title": "Sorriso - Turismo Dentale Conveniente",
-    "ogTitle": "Sorriso - Turismo Dentale Conveniente nei Balcani",
-    "ogDescription": "Sorriso fornisce cure dentali di alta qualità e convenienti nei Balcani per i pazienti provenienti da Europa, Stati Uniti, Australia e oltre. Scopri i vantaggi del turismo dentale con Sorriso.",
-    "twitterTitle": "Sorriso - Turismo Dentale Conveniente nei Balcani",
-    "twitterDescription": "Scopri le cure dentali convenienti nei Balcani con Sorriso. Offriamo trattamenti di alta qualità per i pazienti provenienti da Europa, Stati Uniti, Australia e oltre.",
-    "keywords": "turismo dentale, cure dentali convenienti, cure dentali Balcani, Sorriso, trattamenti dentali Europa, impianti dentali, sbiancamento dentale, ortodonzia, corone dentali, ponti dentali, faccette dentali, odontoiatria cosmetica, chirurgia dentale, controllo dentale, clinica dentale, servizi dentali, consulenza dentale, cure dentali nei Balcani, viaggio dentale, pacchetti dentali, cure dentali all'estero, cure dentali internazionali, cure dentali di alta qualità, risparmio sulle cure dentali, turismo dentale Europa, turismo dentale Balcani, cure dentali per pazienti americani, cure dentali per pazienti australiani, cure dentali per pazienti europei, turismo sanitario dentale, trattamento dentale all'estero, pacchetti di turismo dentale, vacanza dentale, pacchetti di cure dentali, trattamenti dentali convenienti, destinazioni di turismo dentale, offerte di cure dentali, offerte di turismo dentale, cure dentali a basso costo, piani di risparmio sulle cure dentali, cliniche dentali internazionali, specialisti dentali in Europa, cure dentali avanzate, opzioni di cure dentali, piani di cure dentali, fornitori di cure dentali, cure dentali professionali, consulenze dentali, offerte di cure dentali, migliori cure dentali all'estero, piani di trattamento dentale, viaggio sanitario dentale, viaggi di cure dentali, assicurazione viaggio dentale, vacanza dentale, sconti sulle cure dentali, hotspot di turismo dentale, procedure dentali all'estero, soluzioni dentali convenienti, cure dentali complete, pacchetti di cure dentali in Europa, competenza nelle cure dentali, servizi dentali affidabili, trattamenti dentali di qualità, cliniche dentali moderne, salute e benessere dentale, cure dentali incentrate sul paziente, trattamenti dentali personalizzati, eccellenza nelle cure dentali, cure dentali rinomate, professionisti dentali esperti, soddisfazione del paziente nelle cure dentali, cure dentali senza soluzione di continuità, programmi di benessere dentale, cure dentali esperte all'estero, sicurezza nelle cure dentali, pacchetti di salute dentale, pacchetti dentali convenienti, cure dentali premium, opzioni di cure dentali all'estero, servizi dentali estesi, cure dentali personalizzate, pianificazione del turismo dentale, risparmio sui trattamenti dentali, pacchetti di viaggio sanitario dentale, cure dentali superiori, cure dentali convenienti, flessibilità nelle cure dentali, odontoiatria cosmetica conveniente, trattamenti dentali innovativi, servizi dentali affidabili, comodità nelle cure dentali, soluzioni dentali internazionali, viaggi per cure dentali, appuntamenti per cure dentali all'estero, costi del trattamento dentale all'estero, cure dentali efficienti, coordinamento delle cure dentali, comfort nelle cure dentali, tecnologia dentale avanzata, cure dentali accessibili, offerte di cure dentali all'estero, opzioni di cure dentali per anziani, cure dentali per famiglie all'estero, viaggi dentali di gruppo, pacchetti dentali aziendali, cure dentali di lusso, turismo del benessere dentale, varietà di trattamenti dentali, raccomandazioni per cure dentali, standard delle cure dentali, cura del paziente dentale, materiali dentali di qualità, tecniche dentali avanzate, consigli sul turismo dentale, consulenze per trattamenti dentali, cure dentali con assicurazione, assistenza nella pianificazione delle cure dentali, consulenze dentali esperte, servizi di salute dentale, cure dentali senza stress, recensioni sul turismo dentale, testimonianze sui trattamenti dentali, soddisfazione delle cure dentali, valutazioni della salute dentale, cliniche dentali affidabili, garanzie sui servizi dentali, trattamenti dentali leader, vantaggi del turismo dentale, esperti dentali internazionali, specialisti delle cure dentali, supporto ai pazienti dentali, competenza nei trattamenti dentali, innovazione nelle cure dentali, risultati delle cure dentali, miglioramento della salute dentale, qualità delle cure dentali, soluzioni dentali personalizzate, valutazioni dentali professionali, garanzie sui trattamenti dentali, eccellenza nella cura del paziente dentale, rete di cure dentali, fornitori di cure dentali affidabili"
-  },
   "header": {
     "menu": {
-      "home": "Home",
       "about": "Chi Siamo",
-      "about_submenu": {
-        "about": "Chi Siamo",
-        "our_team": "Il Nostro Team",
-        "why_montenegro": "Perché il Montenegro?"
-      },
       "services": "Servizi",
-      "services_submenu": {
-        "our_services": "I Nostri Servizi",
-        "how_it_works": "Come Funziona",
-        "treatments": "Trattamenti",
-        "experiences": "Esperienze",
-        "gallery": "Galleria"
-      },
-      "business": "Affari",
-      "business_submenu": {
-        "for_clinics": "Per le Cliniche",
-        "for_affiliates": "Per gli Affiliati"
-      },
       "pricing": "Prezzi",
-      "contact": "Contatto"
+      "contact": "Contatti"
     },
     "mobile_nav": {
       "menu": "Menu",
-      "close": "Chiudi"
+      "home": "Home",
+      "about": "Chi Siamo",
+      "services": "Servizi",
+      "pricing": "Prezzi",
+      "contact": "Contatti"
+    },
+    "phone": {
+      "number": "+382 69 664 668",
+      "availability": "Servizio 24/7"
     }
   },
   "footer": {
-    "copyright": "© 2024 Sorriso. Tutti i diritti riservati.",
-    "aboutUs": "Chi siamo",
-    "contact": "Contatto",
-    "privacyPolicy": "Politica sulla riservatezza",
-    "facebook": "https://facebook.com",
-    "instagram": "https://instagram.com"
-  },
-  "contactDetails": {
-    "title": "Contattaci",
-    "addressTitle": "Il nostro indirizzo",
-    "address": "Ulica 13.Jula 2/18\nPodgorica 81000, Montenegro",
-    "phoneTitle": "Chiamaci in qualsiasi momento",
-    "phone": "+382 69 664 668",
-    "emailTitle": "Inviaci un'email",
-    "email": "contact@sorriso.care",
-    "hoursTitle": "Orari di lavoro",
-    "hours": "Lunedì - Venerdì: 9.00 - 17.00"
-  },
-  "contactForm": {
-    "name": "Nome",
-    "email": "Email",
-    "phone": "Telefono",
-    "message": "Messaggio",
-    "messagePlaceholder": "Inviaci un messaggio delineando le tue preoccupazioni dentali, aspettative o domande. Ti risponderemo al più presto.",
-    "upload": "Carica X-ray immagine dei tuoi denti (opzionale)",
-    "send": "Invia messaggio",
-    "success": "Email inviata con successo!",
-    "failure": "Invio email fallito. Per favore riprova."
-  },
-  "contactSection": {
-    "title": "Mettiti in contatto con noi",
-    "subtitle": "Elimina le inconvenienze. Lascia che ti aiutiamo a essere te stesso.",
-    "consultationTitle": "Prenota una consulenza gratuita di 30 minuti",
-    "consultationDescription": "Programma una consulenza gratuita con i nostri esperti per discutere le tue esigenze e come possiamo aiutarti a raggiungere i tuoi obiettivi."
+    "aboutTitle": "Chi Siamo",
+    "aboutText": "Scopri di più su Sorriso, la nostra missione di offrire servizi dentali di altissimo livello e come puntiamo a migliorare la tua salute orale.",
+    "learnMore": "Scopri di più",
+    "quickLinks": "Link Utili",
+    "aboutLink": "Chi Siamo",
+    "contactLink": "Contatti",
+    "servicesLink": "Servizi",
+    "privacyPolicyLink": "Informativa sulla Privacy",
+    "followUs": "Seguici",
+    "language": "Cambia Lingua",
+    "copyright": "© 2023 Sorriso Dental. Tutti i diritti riservati."
   },
   "privacyPolicy": {
     "title": "Informativa sulla Privacy",
     "introductionTitle": "Introduzione",
-    "introductionContent": "Benvenuti nella nostra Informativa sulla Privacy. La tua privacy è di fondamentale importanza per noi. La nostra informativa sulla privacy spiega come gestiamo le tue informazioni personali e i tuoi dati.",
+    "introductionContent": "Prendiamo molto sul serio la tua privacy. Questa politica spiega come gestiamo i tuoi dati personali e quali misure adottiamo per garantire la sicurezza delle tue informazioni.",
     "informationWeCollectTitle": "Informazioni che Raccogliamo",
-    "informationWeCollectContent": "Raccogliamo diversi tipi di informazioni dagli utenti del nostro sito web, tra cui:",
-    "informationWeCollectItem1": "Informazioni di identificazione personale (Nome, indirizzo email, numero di telefono, ecc.)",
-    "informationWeCollectItem2": "Informazioni demografiche (età, sesso, preferenze, interessi, ecc.)",
-    "informationWeCollectItem3": "Dati tecnici (indirizzo IP, tipo e versione del browser, impostazione del fuso orario, ecc.)",
-    "informationWeCollectItem4": "Dati di utilizzo (informazioni su come usi il nostro sito web, prodotti e servizi)",
-    "howWeUseInformationTitle": "Come Usiamo le Tue Informazioni",
-    "howWeUseInformationContent": "Utilizziamo le informazioni che raccogliamo in vari modi, tra cui:",
-    "howWeUseInformationItem1": "Fornire, operare e mantenere il nostro sito web",
-    "howWeUseInformationItem2": "Migliorare, personalizzare ed espandere il nostro sito web",
-    "howWeUseInformationItem3": "Comprendere e analizzare come utilizzi il nostro sito web",
-    "howWeUseInformationItem4": "Sviluppare nuovi prodotti, servizi, funzionalità e caratteristiche",
+    "informationWeCollectContent": "Raccogliamo diversi tipi di informazioni per offrirti il miglior servizio possibile. Queste includono:",
+    "informationWeCollectItem1": "Dati identificativi personali come nome e indirizzo email.",
+    "informationWeCollectItem2": "Informazioni di pagamento come dettagli della carta di credito.",
+    "informationWeCollectItem3": "Dati sanitari necessari per il tuo trattamento dentale.",
+    "informationWeCollectItem4": "Preferenze di comunicazione e risposte.",
+    "howWeUseInformationTitle": "Come Utilizziamo le Informazioni",
+    "howWeUseInformationContent": "Utilizziamo le tue informazioni per migliorare i nostri servizi e offrirti la migliore esperienza possibile. In particolare, usiamo i tuoi dati per:",
+    "howWeUseInformationItem1": "Pianificare appuntamenti e consulenze.",
+    "howWeUseInformationItem2": "Elaborare i pagamenti e gestire il tuo account.",
+    "howWeUseInformationItem3": "Fornire raccomandazioni sanitarie personalizzate.",
+    "howWeUseInformationItem4": "Comunicare aggiornamenti importanti o promozioni.",
     "dataSecurityTitle": "Sicurezza dei Dati",
-    "dataSecurityContent": "Abbiamo implementato misure di sicurezza tecniche e organizzative appropriate per proteggere la sicurezza di qualsiasi informazione personale che trattiamo."
+    "dataSecurityContent": "Implementiamo misure di sicurezza standard del settore per proteggere i tuoi dati personali da accessi non autorizzati, modifiche o distruzioni. Puoi stare tranquillo, le tue informazioni sono al sicuro."
   },
-  "changeLanguage": "Cambia lingua"
+  "meta_home": {
+    "title": "Sorriso Care - Il Tuo Partner di Fiducia per il Turismo Dentale",
+    "description": "Scopri Sorriso Care, il tuo partner di fiducia per il turismo dentale. Servizi odontoiatrici di qualità in Montenegro con cure esperte e trattamenti personalizzati.",
+    "keywords": "turismo dentale, sorriso care, servizi dentali, impianti dentali, trattamenti dentali, cure dentali Montenegro, trattamenti dentali a prezzi accessibili",
+    "og_title": "Sorriso Care - Il Tuo Partner Dentale di Fiducia",
+    "og_description": "Sorriso Care offre servizi dentali di alta qualità per pazienti internazionali. Scopri come puoi beneficiare del turismo dentale in Montenegro.",
+    "twitter_title": "Sorriso Care - Turismo Dentale",
+    "twitter_description": "Esplora il turismo dentale in Montenegro con Sorriso Care. Trattamenti dentali esperti e accessibili, con cure di livello mondiale."
+  },
+  "meta_services": {
+    "title": "Servizi Dentali - Cura Completa | Sorriso Care",
+    "description": "Scopri la vasta gamma di servizi dentali offerti da Sorriso Care, dai trattamenti cosmetici alla prevenzione, tutti personalizzati secondo le tue esigenze.",
+    "keywords": "servizi dentali, sorriso care, cura dentale, odontoiatria cosmetica, prevenzione dentale, trattamenti dentali, salute orale",
+    "og_title": "Servizi Dentali Completi | Sorriso Care",
+    "og_description": "Scopri una vasta gamma di servizi dentali, inclusi trattamenti cosmetici e di prevenzione, personalizzati per soddisfare le tue esigenze di salute orale presso Sorriso Care.",
+    "twitter_title": "Servizi Dentali Completi | Sorriso Care",
+    "twitter_description": "Esplora i vari servizi dentali di Sorriso Care, inclusi trattamenti cosmetici, restaurativi e preventivi."
+  },
+  "meta_about": {
+    "title": "Chi Siamo - Sorriso Care | Turismo Dentale in Montenegro",
+    "description": "Scopri di più su Sorriso Care, la nostra missione e perché il Montenegro è la destinazione perfetta per il turismo dentale.",
+    "keywords": "Sorriso Care, turismo dentale, Montenegro, cura dentale, viaggi dentali, turismo in Montenegro",
+    "og_title": "Chi Siamo - Sorriso Care",
+    "og_description": "Scopri di più su Sorriso Care, la nostra missione e perché il Montenegro è la destinazione perfetta per il turismo dentale.",
+    "og_image": "https://sorriso.care/images/about-thumbnail.jpg",
+    "twitter_title": "Chi Siamo - Sorriso Care",
+    "twitter_description": "Scopri di più su Sorriso Care, la nostra missione e perché il Montenegro è la destinazione perfetta per il turismo dentale.",
+    "twitter_image": "https://sorriso.care/images/about-thumbnail.jpg"
+  },
+  "meta_pricing": {
+    "title": "Prezzi - Trattamenti Dentali Accessibili | Sorriso Care",
+    "description": "Esplora i prezzi trasparenti di Sorriso Care per trattamenti dentali di alta qualità. Confronta prezzi e trattamenti per trovare la soluzione migliore per te.",
+    "keywords": "prezzi Sorriso Care, trattamenti dentali accessibili, prezzi trattamenti dentali Montenegro, prezzi turismo dentale",
+    "og_title": "Trattamenti Dentali Accessibili presso Sorriso Care",
+    "og_description": "Confronta i prezzi dei trattamenti dentali presso Sorriso Care e ottieni servizi di alta qualità a tariffe accessibili.",
+    "og_image": "https://sorriso.care/images/pricing-thumbnail.jpg",
+    "twitter_title": "Trattamenti Dentali Accessibili presso Sorriso Care",
+    "twitter_description": "Esplora trattamenti dentali accessibili con prezzi trasparenti presso Sorriso Care.",
+    "twitter_image": "https://sorriso.care/images/pricing-thumbnail.jpg"
+  },
+  "meta_contact": {
+    "title": "Contattaci - Sorriso Care | Mettiti in Contatto con il Nostro Team",
+    "description": "Contatta Sorriso Care per qualsiasi domanda o richiesta di assistenza riguardo ai nostri servizi dentali in Montenegro. Siamo qui per aiutarti!",
+    "keywords": "Contatta Sorriso Care, servizi dentali, assistenza dentale Montenegro, contatti turismo dentale, Contatta Sorriso Care, servizi dentali, assistenza dentale in Montenegro, contatti turismo dentale, Kontakt Sorriso Care, Zahnbehandlungen, Zahntourismus Montenegro, Zahnpflege Kontakt",
+    "og_title": "Contattaci - Sorriso Care",
+    "og_description": "Contatta Sorriso Care per qualsiasi domanda o richiesta di assistenza riguardo ai nostri servizi dentali in Montenegro.",
+    "og_image": "https://sorriso.care/images/contact-thumbnail.jpg",
+    "twitter_title": "Contattaci - Sorriso Care",
+    "twitter_description": "Contatta Sorriso Care per qualsiasi domanda o richiesta di assistenza riguardo ai nostri servizi dentali in Montenegro.",
+    "twitter_image": "https://sorriso.care/images/contact-thumbnail.jpg"
+  },
+  "meta_gallery": {
+    "title": "Galleria - Sorriso Care | Vedi i Nostri Trattamenti Dentali di Successo",
+    "description": "Esplora la galleria di Sorriso Care per vedere esempi reali dei nostri trattamenti dentali di successo. Scopri come trasformiamo i sorrisi!",
+    "keywords": "galleria Sorriso Care, foto trattamenti dentali, trasformazione del sorriso, turismo dentale Montenegro",
+    "og_title": "Galleria - Sorriso Care",
+    "og_description": "Esplora la nostra galleria per vedere come Sorriso Care trasforma i sorrisi con trattamenti dentali esperti.",
+    "og_image": "https://sorriso.care/images/gallery-thumbnail.jpg",
+    "twitter_title": "Galleria - Sorriso Care",
+    "twitter_description": "Guarda la galleria di Sorriso Care e scopri le trasformazioni dentali dei nostri pazienti.",
+    "twitter_image": "https://sorriso.care/images/gallery-thumbnail.jpg"
+  },
+  "gallerySection": {
+    "title": "Galleria dei nostri pazienti soddisfatti"
+  },
+  "testimonials": {
+    "sheilaPeterson": {
+      "description": "Ero sempre a disagio per il mio sorriso, ma dopo aver ricevuto il trattamento Hollywood Smile da Sorriso, mi sento sicura e orgogliosa dei miei denti. I risultati sono straordinari!"
+    },
+    "lauraBastone": {
+      "description": "Il team di Sorriso mi ha messo a mio agio, e il mio intervento di impianto dentale è stato un completo successo. Sono così felice dei risultati!"
+    },
+    "lelaKovacMajcevski": {
+      "description": "Volevo un sorriso più luminoso e Sorriso ha soddisfatto le mie aspettative! Il trattamento di sbiancamento dei denti è stato rapido, indolore e i risultati sono sorprendenti."
+    },
+    "marryDianaJones": {
+      "description": "Avevo problemi ortodontici, ma il team professionale di Sorriso mi ha aiutato a ottenere un sorriso perfetto con il loro trattamento ortodontico. Consiglio vivamente!"
+    }
+  },
+  "treatments": {
+    "hollywoodSmile": "Hollywood Smile",
+    "dentalImplant": "Impianto Dentale",
+    "teethWhitening": "Sbiancamento dei Denti",
+    "orthodontics": "Ortodontia"
+  },
+  "countries": {
+    "unitedStates": "Stati Uniti",
+    "italy": "Italia",
+    "montenegro": "Montenegro",
+    "australia": "Australia"
+  },
+  "bookACall": {
+    "header": {
+      "title": "Prenota una Chiamata con Noi",
+      "description": "Fissa una consulenza e saremo lieti di assisterti con le tue esigenze dentali."
+    },
+    "iframe": {
+      "title": "Prenota una Chiamata",
+      "ariaLabel": "Google Calendar per programmare una chiamata"
+    }
+  },
+  "contactDetails": {
+    "title": "Contattaci",
+    "addressTitle": "Indirizzo",
+    "address": "Il Tuo Indirizzo Qui",
+    "phoneTitle": "Telefono",
+    "phone": "+382 69 664 668",
+    "emailTitle": "Email",
+    "email": "email@example.com",
+    "hoursTitle": "Orario di Lavoro",
+    "hours": "Lun-Ven 9:00 AM - 6:00 PM"
+  },
+  "contactSection": {
+    "title": "Mettiti in Contatto",
+    "subtitle": "Ci piacerebbe sentirti",
+    "consultationTitle": "Prenota una Consulenza",
+    "consultationDescription": "Fissa una consulenza con uno dei nostri esperti dentali."
+  }
 }
