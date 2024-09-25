@@ -2,7 +2,6 @@
 import React from "react";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
-import { FiPhoneCall } from "react-icons/fi";
 
 interface MobileNavProps {
   toggleMenu: () => void;
