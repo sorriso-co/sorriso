@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import { useTranslation } from "react-i18next";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -224,7 +224,6 @@ const treatments: Treatment[] = [
 
 const Treatments: React.FC = () => {
   const { t } = useTranslation("pricing");
-  const [modalData, setModalData] = useState<Treatment | null>(null);
 
   useEffect(() => {
     AOS.init({ duration: 300, once: true });
@@ -270,7 +269,7 @@ const Treatments: React.FC = () => {
                     className={`cursor-pointer hover:bg-teal-50 transition-colors duration-200 ${
                       treatment.options ? "font-bold text-teal-800" : "text-teal-700"
                     }`}
-                    onClick={() => treatment.options && setModalData(treatment)}
+                    onClick={() => treatment.options}
                     data-aos="fade-up"
                     data-aos-delay={index * 50}
                   >
