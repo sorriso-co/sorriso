@@ -56,7 +56,7 @@ const MobileNav: React.FC<MobileNavProps> = ({ toggleMenu }) => {
         {/* About Link */}
         <Link
           href="/about"
-          className="block text-lg text-teal-300 hover:text-white transition-all duration-300"
+          className="block text-lg text-white hover:text-white transition-all duration-300"
           onClick={toggleMenu}
         >
           {t("header.mobile_nav.about")}
@@ -65,7 +65,7 @@ const MobileNav: React.FC<MobileNavProps> = ({ toggleMenu }) => {
         {/* Services Link */}
         <Link
           href="/services"
-          className="block text-lg text-teal-300 hover:text-white transition-all duration-300"
+          className="block text-lg text-white hover:text-white transition-all duration-300"
           onClick={toggleMenu}
         >
           {t("header.mobile_nav.services")}

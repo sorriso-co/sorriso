@@ -155,13 +155,13 @@
   "contactDetails": {
     "title": "Contactez-nous",
     "addressTitle": "Adresse",
-    "address": "Votre Adresse Ici",
+    "address": "b.b Gavra Vukovića",
     "phoneTitle": "Téléphone",
     "phone": "+382 69 664 668",
     "emailTitle": "E-mail",
-    "email": "email@example.com",
+    "email": "@contact@sorriso.care",
     "hoursTitle": "Horaires d'Ouverture",
-    "hours": "Lun-Ven 9:00 AM - 6:00 PM"
+    "hours": "Lun-Sab 9:00 AM - 6:00 PM"
   },
   "contactSection": {
     "title": "Prenez Contact",

@@ -65,7 +65,7 @@ const PricingPage: React.FC = () => {
           <PricingSection />
           <Comparison />
         </div>
-        <div className="relative rounded-t-[30px] rounded-b-[30px] bg-white overflow-x-hidden text-teal-900">
+        <div className="relative rounded-t-[30px] rounded-b-[30px] bg-gray-50 overflow-x-hidden text-teal-900">
           <div className="container mx-auto px-4 pt-16">
             <h1 className="text-5xl font-bold text-center text-teal-600 mb-12">
               {t("pricingPage.treatments_title", { defaultValue: "Our Dental Treatments & Prices" })}

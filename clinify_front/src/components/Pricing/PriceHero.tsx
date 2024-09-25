@@ -17,17 +17,35 @@ const Hero = () => {
   }, []);
 
   return (
-    <header className="relative rounded-t-[20px] bg-gradient-to-br from-teal-700 to-teal-900 py-24 overflow-x-hidden text-white p-8 shadow-xl">
+    <header className="relative rounded-t-[20px] bg-gradient-to-br from-teal-700 to-teal-900 py-24 overflow-x-hidden text-white p-8 ">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-10 md:space-y-0">
-        {/* Left Section: Title and CTA */}
+        
+        {/* Right Section: Image (hidden on mobile, visible on larger screens) */}
         <div
-          className="w-full md:w-1/2 py-10 text-center md:text-left"
+          className="hidden md:block w-full md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-start"
           data-aos="fade-right"
         >
-          <h1 className="text-5xl md:text-7xl font-serif font-extrabold mb-6 leading-tight tracking-tight">
+          <div className="relative w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto transform hover:scale-105 transition-transform duration-500">
+            <Image
+              src="/images/Team/staff/dr.webp"
+              alt={t("hero.imageAlt")}
+              width={1100}
+              height={1400}
+              className="rounded-lg"
+              priority
+            />
+          </div>
+        </div>
+
+        {/* Left Section: Title and CTA (visible on all devices) */}
+        <div
+          className="w-full md:w-1/2 py-10 text-center md:text-left"
+          data-aos="fade-left"
+        >
+          <h1 className="text-5xl sm:text-6xl md:text-8xl font-serif font-extrabold mb-6 leading-tight tracking-tight">
             {t("hero.title")}
           </h1>
-          <p className="text-2xl mb-8 font-serif">
+          <p className="text-2xl sm:text-3xl md:text-4xl mb-8 font-serif">
             {t("hero.subtitle")}
           </p>
           <Link
@@ -37,28 +55,9 @@ const Hero = () => {
           >
             {t("hero.cta")}
           </Link>
-          <p className="mt-4 text-base italic font-serif text-teal-200">
+          <p className="mt-4 text-lg italic font-serif text-teal-200">
             {t("hero.ctaNote")}
           </p>
-        </div>
-
-        {/* Right Section: Image */}
-        <div
-          className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end"
-          data-aos="fade-left"
-        >
-          <div className="relative w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto transform hover:scale-105 transition-transform duration-500">
-            <Image
-              src="/images/Team/staff/sestra.webp"
-              alt={t("hero.imageAlt")}
-              width={500}
-              height={600}
-              className="rounded-lg shadow-2xl"
-              priority
-            />
-            {/* Optional Decorative Element */}
-            <div className="absolute -top-4 -right-4 w-16 h-16 bg-white rounded-full shadow-lg transform rotate-45"></div>
-          </div>
         </div>
       </div>
 

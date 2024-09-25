@@ -104,7 +104,7 @@ const PricingSection: React.FC = () => {
   }, []);
 
   return (
-    <section className="bg-gradient-to-br from-blue-50 via-teal-50 to-teal-100 p-6 sm:p-8 lg:p-16 overflow-hidden rounded-lg shadow-xl">
+    <section className="bg-gray-50 p-6 sm:p-8 lg:p-16 overflow-hidden rounded-lg shadow-xl">
       <div className="container mx-auto py-12 text-center">
         <h1
           className="text-4xl sm:text-5xl lg:text-6xl font-serif font-extrabold mb-8 text-teal-900 leading-tight"

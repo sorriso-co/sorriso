@@ -8,7 +8,7 @@ const AboutPageCTA: React.FC = () => {
   const { t } = useTranslation('about');
 
   return (
-    <section className="bg-gradient-to-r from-teal-100 to-teal-200 py-12 lg:py-16 text-white">
+    <section className="bg-transparent py-12 lg:py-16 text-white">
       <div className="container mx-auto text-center px-4 sm:px-6 lg:px-8">
         {/* CTA Content */}
         <h2 className="text-3xl text-teal-700 sm:text-4xl lg:text-5xl font-bold font-serif mb-6">

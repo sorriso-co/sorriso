@@ -17,7 +17,7 @@ const Mission: React.FC = () => {
   }, []);
 
   return (
-    <section className="relative bg-gradient-to-r from-teal-100 via-teal-50 to-teal-200 text-left py-12 px-6 sm:py-16 sm:px-8 lg:px-16 xl:px-24 2xl:px-32 overflow-hidden">
+    <section className="relative bg-gradient-to-r from-teal-700 to-teal-900 text-left py-12 px-6 sm:py-16 sm:px-8 lg:px-16 xl:px-24 2xl:px-32 overflow-hidden">
       {/* Decorative SVGs for Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <svg width="100%" height="100%">
@@ -47,28 +47,28 @@ const Mission: React.FC = () => {
           data-aos="fade-left"
         >
           {/* Main Heading for SEO */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-extrabold mb-4 sm:mb-6 text-teal-900 hover:text-teal-700 transition duration-300">
+          <h1 className="text-4xl sm:text-6xl md:text-7xl font-serif font-extrabold mb-4 sm:mb-6 text-white hover:text-teal-700 transition duration-300">
             {t('mission.title', { defaultValue: "Patient-Centric Dental Care" })}
           </h1>
 
           {/* Subtitle */}
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-teal-800 mb-6 sm:mb-12 font-semibold">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-serif text-white mb-6 sm:mb-12 font-semibold">
             {t('mission.subtitle', { defaultValue: "Excellence, Tailored for You" })}
           </h2>
 
           {/* Descriptive Text with SEO Keywords */}
-          <div className="text-base sm:text-lg lg:text-xl text-teal-800 font-sans space-y-4 sm:space-y-6">
-            <p className="leading-relaxed">
+          <div className="text-base sm:text-lg lg:text-xl text-white font-sans space-y-4 sm:space-y-6">
+            <p className="leading-relaxed text-white">
               {t('mission.description1', { defaultValue: "At Sorriso, we combine advanced dental care with personalized treatment plans, ensuring your comfort and well-being at every step. Our mission is to deliver expert care in Montenegro, offering high-quality services to achieve your best smile." })}
             </p>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed text-white">
               {t('mission.description2', { defaultValue: "With cutting-edge technology and a dedicated team, we provide a seamless dental experience, making Sorriso a leader in dental tourism. Trust us to deliver the best care, from implants to cosmetic treatments." })}
             </p>
             {/* Call-to-Action */}
             <p className="leading-relaxed">
               <Link
                 href="/services"
-                className="text-teal-900 hover:text-teal-700 transition duration-200 underline"
+                className="text-white hover:text-teal-100 transition duration-200 underline"
               >
                 {t('mission.cta', { defaultValue: "Learn more about our services and how we can enhance your smile." })}
               </Link>

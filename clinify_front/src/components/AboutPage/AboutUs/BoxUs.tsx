@@ -8,7 +8,7 @@ const Box: React.FC = () => {
   return (
     <div className="relative">
       {/* Metrics Section */}
-      <div className="bg-white py-16 px-8 lg:px-16">
+      <div className="bg-transparent py-16 px-8 lg:px-16">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-5xl sm:text-6xl font-serif font-extrabold text-teal-900 mb-4">

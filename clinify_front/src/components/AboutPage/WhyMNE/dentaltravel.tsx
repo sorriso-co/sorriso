@@ -19,7 +19,7 @@ const DentalTravelIntro: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative bg-teal-50 py-20">
+    <div className="relative bg-transparent py-20">
       <div className="absolute top-0 left-0 w-80 h-80 bg-teal-300 rounded-full opacity-30 animate-pulse"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-teal-500 rounded-full opacity-30 animate-pulse"></div>
       <div className="container mx-auto relative z-10 px-4 sm:px-6 lg:px-8">

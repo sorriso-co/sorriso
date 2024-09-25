@@ -161,13 +161,13 @@
   "contactDetails": {
     "title": "Contact Us",
     "addressTitle": "Address",
-    "address": "Your Address Here",
+    "address": "b.b Gavra Vukovića",
     "phoneTitle": "Phone",
     "phone": "+382 69 664 668",
     "emailTitle": "Email",
-    "email": "email@example.com",
+    "email": "contact@sorriso.care",
     "hoursTitle": "Working Hours",
-    "hours": "Mon-Fri 9:00 AM - 6:00 PM"
+    "hours": "Mon-Saturday 09:00 AM - 6:00 PM"
   },
   "contactSection": {
     "title": "Get in Touch",

@@ -29,12 +29,12 @@ const MostWantedProcedures: React.FC<MostWantedProceduresProps> = ({
   }, []);
 
   return (
-    <section className="w-full h-full bg-teal-50 py-16 px-4 sm:px-8 overflow-x-hidden">
+    <section className="w-full h-full bg-transparent py-16 px-4 sm:px-8 overflow-x-hidden">
       <div className="container mx-auto text-center mb-12">
-        <h2 className="text-3xl sm:text-4xl font-serif font-bold text-teal-800 mb-6">
+        <h2 className="text-3xl sm:text-4xl md:text-7xl font-serif font-bold text-teal-800 mb-6">
           {t('mostWanted.title')}
         </h2>
-        <p className="text-base sm:text-lg font-serif text-teal-700 mb-8">
+        <p className="text-base sm:text-lg md:text-3xl font-serif text-teal-700 mb-8">
           {t('mostWanted.description')}
         </p>
       </div>

@@ -8,11 +8,11 @@ const YouTubeEmbed: React.FC = () => {
   const { t } = useTranslation('about');
 
   return (
-    <div className="youtube-embed">
-      <h4 className="font-serif font-bold text-teal-600 text-5xl mb-20">
+    <div className="youtube-embed bg-gradient-to-r from-teal-700 to-teal-900">
+      <h4 className="font-serif font-bold text-6xl text-teal-700  mb-20">
         {t('youtubeEmbed.title', { defaultValue: "Watch Our Transformation" })}
       </h4>
-      <p className="font-serif text-lg text-teal-600 mb-8">
+      <p className="font-serif text-lg text-white mb-8">
         {t('youtubeEmbed.description', { defaultValue: "Discover how Sorriso is transforming smiles and delivering world-class dental care." })}
       </p>
       <div className="video-container">

@@ -246,9 +246,9 @@ const Treatments: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen py-12 bg-gray-50 flex justify-center items-center">
+    <div className="min-h-screen py-12 bg-transparent flex justify-center items-center">
       <div className="container mx-auto px-4">
-        <div className="overflow-x-auto shadow-lg rounded-lg">
+        <div className="overflow-x-auto">
           <table className="min-w-full bg-white rounded-lg overflow-hidden">
             <thead className="bg-teal-600 text-white">
               <tr>

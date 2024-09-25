@@ -17,7 +17,7 @@ const ContactDetails: React.FC = () => {
   return (
     <section className="px-4 py-16">
       <div className="bg-white rounded-lg p-8 mx-auto max-w-lg">
-        <h2 className="text-3xl font-serif font-bold text-center mb-8 text-teal-900">
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif font-bold text-center mb-8 text-teal-900">
           {t("contactDetails.title")}
         </h2>
         {/* Address */}

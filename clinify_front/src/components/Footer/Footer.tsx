@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { FaFacebook, FaInstagram, FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaFacebook, FaInstagram} from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../Footer/LangSwitch";
 
@@ -33,7 +33,6 @@ const Footer: React.FC = () => {
             <h2 className="text-lg font-semibold mb-4 text-white">{t("footer.quickLinks")}</h2>
             <ul className="space-y-4">
               <li className="flex items-center justify-center md:justify-start">
-                <FaMapMarkerAlt className="mr-2 text-teal-400" />
                 <Link
                   href="/about"
                   className="hover:text-teal-300 transition-colors duration-200"
@@ -42,7 +41,6 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li className="flex items-center justify-center md:justify-start">
-                <FaPhone className="mr-2 text-teal-400" />
                 <Link
                   href="/contact"
                   className="hover:text-teal-300 transition-colors duration-200"
@@ -51,7 +49,6 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li className="flex items-center justify-center md:justify-start">
-                <FaEnvelope className="mr-2 text-teal-400" />
                 <Link
                   href="/services"
                   className="hover:text-teal-300 transition-colors duration-200"

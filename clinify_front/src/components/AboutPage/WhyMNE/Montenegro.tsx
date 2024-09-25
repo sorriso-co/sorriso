@@ -161,7 +161,7 @@ const ExperienceMontenegro: React.FC = () => {
   const { t } = useTranslation("about");
 
   return (
-    <section className="bg-gradient-to-r from-teal-200 via-teal-500 to-teal-700 text-center py-12 sm:py-16 px-4">
+    <section className="bg-gradient-to-r from-teal-700 to-teal-900 text-center py-12 sm:py-16 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6 font-serif">
@@ -210,7 +210,7 @@ const ExperienceMontenegro: React.FC = () => {
 
         {/* Call to Action */}
         <Link href="/contact"
-          className="inline-block mt-8 sm:mt-12 bg-teal-900 text-white py-3 px-6 sm:px-8 rounded-md hover:bg-teal-800 transition font-semibold text-base sm:text-lg">
+          className="inline-block mt-8 sm:mt-12 bg-teal-400 text-white py-3 px-6 sm:px-8 rounded-md hover:bg-teal-600 transition font-semibold text-base sm:text-lg">
             {t("experienceMontenegro.ctaButton", {
               defaultValue: "Plan Your Visit",
             })}

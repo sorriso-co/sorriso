@@ -56,7 +56,7 @@ const ExpertiseOverview: React.FC = () => {
   const features: Feature[] = t("expertise.features", { returnObjects: true });
 
   return (
-    <section className="relative bg-white py-24 px-8 lg:px-16 xl:px-24 2xl:px-32 overflow-hidden shadow-xl rounded-lg">
+    <section className="relative bg-transparent py-24 px-8 lg:px-16 xl:px-24 2xl:px-32 overflow-hidden rounded-lg">
       {/* Decorative Circles for Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <svg width="100%" height="100%" className="absolute">
@@ -73,10 +73,10 @@ const ExpertiseOverview: React.FC = () => {
 
       {/* Section Content */}
       <div className="container mx-auto text-center mb-16" data-aos="fade-up">
-        <h2 className="text-5xl sm:text-6xl font-serif font-bold text-teal-900 mb-8 leading-tight">
+        <h2 className="text-4xl sm:text-5xl md:text-7xl font-serif font-bold text-teal-900 mb-8 leading-tight">
           {t("expertise.title", { defaultValue: "Our Expertise" })}
         </h2>
-        <p className="text-lg sm:text-2xl font-serif text-teal-700 max-w-4xl mx-auto">
+        <p className="text-2xl sm:text-3xl md:text-5xl font-serif text-teal-700 max-w-4xl mx-auto">
           {t("expertise.description", {
             defaultValue: "World-class medical and dental services with an expert team.",
           })}
