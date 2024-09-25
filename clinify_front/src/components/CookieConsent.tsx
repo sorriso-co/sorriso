@@ -2,17 +2,15 @@
 
 import React from 'react';
 import CookieConsent from 'react-cookie-consent';
-import { useTranslation } from 'react-i18next';
 import { removeTrackingCookies } from '@/utils/cookies';
 
 const CookieConsentBanner: React.FC = () => {
-  const { t } = useTranslation();
 
   const handleAccept = () => {
     if (!window.gtag) {
       // Load the Google Analytics script
       const script = document.createElement('script');
-      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-M6K5YPE590'; // Replace with your Measurement ID
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-M6K5YPE590'; 
       script.async = true;
       document.head.appendChild(script);
   
@@ -24,7 +22,7 @@ const CookieConsentBanner: React.FC = () => {
   
         window.gtag('js', new Date());
         window.gtag('config', 'G-M6K5YPE590', {
-          anonymize_ip: true, // Optional
+          anonymize_ip: true,
         });
       };
     } else {
@@ -60,9 +58,9 @@ const CookieConsentBanner: React.FC = () => {
       buttonClasses="cookie-consent-button"
       declineButtonClasses="cookie-consent-decline-button"
     >
-      We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking Accept, you consent to our use of cookies.
+      We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking &lsquo;Accept&lsquo;, you consent to our use of cookies.
       <a href="/privacy-policy" className="cookie-consent-link">
-        {t('cookieConsent.privacyPolicy', { defaultValue: 'Learn more' })}
+        Learn more
       </a>
     </CookieConsent>
   );

@@ -51,19 +51,25 @@ html, body {
   transform: rotateY(180deg);
 }
 
+/* Styles for the cookie consent banner */
 .cookie-consent-container {
-  background-color: #004d4d;
-  color: #fff;
+  background-color: #004d4d; /* Dark teal color (teal-900) */
+  color: #ffffff; /* White text */
   padding: 20px;
   font-size: 16px;
   font-family: 'Inter', sans-serif;
   border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow for more depth */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
+/* Accept button */
 .cookie-consent-button {
-  color: #fff;
-  background-color: #008080;
+  color: #ffffff; /* White text */
+  background-color: #008080; /* Teal color (teal-900) */
   border-radius: 5px;
   padding: 12px 24px;
   margin-left: 10px;
@@ -75,12 +81,13 @@ html, body {
 }
 
 .cookie-consent-button:hover {
-  background-color: #006666;
+  background-color: #00b3b3; /* Lighter teal color (teal-500) */
 }
 
+/* Decline button */
 .cookie-consent-decline-button {
-  color: #fff;
-  background-color: #555;
+  color: #ffffff; /* White text */
+  background-color: #343232; /* Neutral dark gray */
   border-radius: 5px;
   padding: 12px 24px;
   margin-left: 10px;
@@ -92,13 +99,29 @@ html, body {
 }
 
 .cookie-consent-decline-button:hover {
-  background-color: #333;
+  background-color: #777777; /* Lighter gray */
 }
 
+/* Link to privacy policy */
 .cookie-consent-link {
-  color: #ffd700;
+  color: #ebff09; /* Gold color for the link to stand out */
   text-decoration: underline;
   font-weight: bold;
   cursor: pointer;
 }
+
+/* Responsive layout for smaller screens */
+@media (max-width: 600px) {
+  .cookie-consent-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cookie-consent-button,
+  .cookie-consent-decline-button {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
 
