@@ -1,21 +1,40 @@
-"use client";
-import React, { ReactNode } from "react";
-import { Inter } from "next/font/google";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-import "../i18n";
-import "../styles/global.css";
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from "@vercel/analytics/react";
-import CookieConsentBanner from "@/components/CookieConsent"; 
+'use client';
+import React, { ReactNode, useEffect } from 'react';
+import { Inter } from 'next/font/google';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
+import '../i18n';
+import '../styles/global.css';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
+import CookieConsentBanner from '@/components/CookieConsent';
+import { initializeDataLayer } from '@/utils/loadAnalytics';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 interface RootLayoutProps {
   children: ReactNode;
 }
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
+  useEffect(() => {
+    initializeDataLayer();
+
+    // Load the Google Analytics script
+    const script = document.createElement('script');
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX'; // Replace with your Measurement ID
+    script.async = true;
+    document.head.appendChild(script);
+
+    // Initialize gtag.js
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('js', new Date());
+      window.gtag('config', 'G-XXXXXXXXXX', {
+        anonymize_ip: true, // Optional: anonymize IP addresses
+      });
+    }
+  }, []);
+
   return (
     <html lang="en" className={`${inter.className} h-full w-full`}>
       <head>
@@ -29,11 +48,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
-
-        {/* Cookie Consent Banner */}
         <CookieConsentBanner />
-
-        {/* Performance and Analytics */}
         <SpeedInsights />
         <Analytics />
       </body>

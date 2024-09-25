@@ -1,25 +1,13 @@
 // utils/cookies.ts
+
+import Cookies from 'js-cookie';
+
 export const removeTrackingCookies = () => {
-    // Add your cookie names here that you want to clear
-    const cookiesToRemove = ["_ga", "_gid", "_gat", "fbp", "sorrisoCookieConsent"];
-    
-    cookiesToRemove.forEach((cookieName) => {
-      document.cookie = `${cookieName}=; Max-Age=-99999999;`;
-    });
-  
-    console.log("Tracking cookies removed");
-  };
+  const cookiesToRemove = ['_ga', '_gid', '_gat', 'fbp', 'sorrisoCookieConsent'];
 
-  
-  export const setDoNotTrackFlag = () => {
-    localStorage.setItem("doNotTrack", "true");
-    console.log("Do Not Track flag set");
-  };
+  cookiesToRemove.forEach((cookieName) => {
+    Cookies.remove(cookieName, { path: '/' });
+  });
 
-  
-  export const shouldBlockTracking = () => {
-    return localStorage.getItem("doNotTrack") === "true";
-  };
-
-  
-  
+  console.log('Tracking cookies removed');
+};
