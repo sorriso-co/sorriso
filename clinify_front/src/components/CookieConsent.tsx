@@ -59,7 +59,7 @@ const CookieConsentBanner: React.FC = () => {
       declineButtonClasses="cookie-consent-decline-button"
     >
       We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking &lsquo;Accept&lsquo;, you consent to our use of cookies.
-      <a href="/privacy-policy" className="cookie-consent-link">
+      <a href="/privacy" className="cookie-consent-link">
         Learn more
       </a>
     </CookieConsent>

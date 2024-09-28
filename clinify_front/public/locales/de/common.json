@@ -4,7 +4,8 @@
       "about": "Über uns",
       "services": "Leistungen",
       "pricing": "Preise",
-      "contact": "Kontakt"
+      "contact": "Kontakt",
+      "beforeAfter": "Vorher/Nachher"
     },
     "mobile_nav": {
       "menu": "Menü",
@@ -12,7 +13,8 @@
       "about": "Über uns",
       "services": "Leistungen",
       "pricing": "Preise",
-      "contact": "Kontakt"
+      "contact": "Kontakt",
+      "beforeAfter": "Vorher/Nachher"
     },
     "phone": {
       "number": "+382 69 664 668",
@@ -113,23 +115,6 @@
     "twitter_description": "Sieh dir die Galerie von Sorriso Care an und entdecke die Zahntransformationen unserer Patienten.",
     "twitter_image": "https://sorriso.care/images/gallery-thumbnail.jpg"
   },
-  "gallerySection": {
-    "title": "Galerie unserer zufriedenen Patienten"
-  },
-  "testimonials": {
-    "sheilaPeterson": {
-      "description": "Ich war immer unsicher über mein Lächeln, aber nach der Hollywood Smile-Behandlung bei Sorriso bin ich stolz auf meine Zähne und fühle mich selbstbewusst. Die Ergebnisse sind fantastisch!"
-    },
-    "lauraBastone": {
-      "description": "Das Team von Sorriso hat mir die Angst genommen, und mein Eingriff für das Zahnimplantat war ein voller Erfolg. Ich bin so glücklich mit den Ergebnissen!"
-    },
-    "lelaKovacMajcevski": {
-      "description": "Ich wollte ein strahlenderes Lächeln, und Sorriso hat geliefert! Meine Zahnaufhellungsbehandlung war schnell, schmerzlos und die Ergebnisse sind beeindruckend."
-    },
-    "marryDianaJones": {
-      "description": "Ich hatte kieferorthopädische Probleme, aber das professionelle Team von Sorriso hat mir mit ihrer kieferorthopädischen Behandlung zu einem perfekten Lächeln verholfen. Sehr zu empfehlen!"
-    }
-  },
   "treatments": {
     "hollywoodSmile": "Hollywood-Lächeln",
     "dentalImplant": "Zahnimplantat",
@@ -161,12 +146,90 @@
     "emailTitle": "E-Mail",
     "email": "contact@sorriso.care",
     "hoursTitle": "Öffnungszeiten",
-    "hours": "Mo-Sam 9:00 AM - 6:00 PM"
+    "hours": "Mo-Sam 9:00 AM - 6:00 PM",
+    "languagesOfferedTitle": "Angebotene Sprachen",
+    "languagesOffered": "Englisch, Italienisch, Spanisch, Montenegrinisch",
+    "doctorAlt": "Profilbild von Dr. Filip Sukovic"
   },
   "contactSection": {
     "title": "Kontakt aufnehmen",
     "subtitle": "Wir würden uns freuen, von Ihnen zu hören",
     "consultationTitle": "Vereinbaren Sie eine Beratung",
     "consultationDescription": "Vereinbaren Sie eine Beratung mit einem unserer Zahnexperten."
+  },
+  "testimonialsHero": {
+    "title": "Unsere zufriedenen Patienten",
+    "description": "Hören Sie von unseren Patienten, was sie über ihre Erfahrungen und die hochwertige Betreuung sagen, die sie erhalten haben.",
+    "cta": "Kontaktieren Sie uns"
+  },
+  "gallerySection": {
+    "title": "Unsere Patiententransformationen"
+  },
+  "testimonial": {
+    "sheila": {
+      "description": "Ich war immer sehr selbstbewusst wegen meines Lächelns und vermied es, Fotos zu machen. Dank Sorriso habe ich jetzt ein Lächeln, auf das ich stolz bin! Die Ärzte waren professionell und haben mich während des gesamten Prozesses wohl gefühlt."
+    },
+    "laura": {
+      "description": "Ich hatte Schwierigkeiten, eine erschwingliche Lösung für meine fehlenden Zähne zu finden. Sorriso Care bot mir hochwertige Zahnimplantate zu einem Bruchteil der Kosten im Vergleich zu Italien, und ich bin begeistert von meinen neuen Zähnen. Der gesamte Eingriff war schmerzfrei und ich könnte nicht zufriedener mit dem Ergebnis sein!"
+    },
+    "miroslav": {
+      "description": "Ich war immer selbstbewusst über die Ausrichtung meiner Zähne, aber traditionelle Zahnspangen waren zu teuer. Die kieferorthopädische Behandlung bei Sorriso war reibungslos, effizient und erschwinglich. Jetzt fühle ich mich selbstbewusster denn je. Danke, Sorriso!"
+    },
+    "hans": {
+      "description": "Ich wollte ein natürlich aussehendes Lächeln ohne den offensichtlichen 'gemachten' Look. Die Veneers bei Sorriso waren die beste Entscheidung, die ich getroffen habe. Meine Zähne sehen völlig natürlich aus und ich kann nicht aufhören zu lächeln. Das Engagement des Teams für Exzellenz ist unübertroffen."
+    },
+    "yasmin": {
+      "description": "Ich hatte ein Zahnfleischlächeln und war unsicher, ob eine Zahnfleischkonturierung für mich geeignet wäre. Die Experten von Sorriso gaben mir Sicherheit und erzielten hervorragende Ergebnisse. Jetzt kann ich mit Zuversicht lächeln, ohne mir Sorgen um mein Zahnfleisch zu machen. Ich könnte nicht glücklicher mit ihrem Service sein!"
+    },
+    "elizabeth": {
+      "description": "Jahrelange Zahnprobleme machten mich zögerlich zu lächeln, und ich hatte Schwierigkeiten, eine Klinik zu finden, die meinen komplexen Fall behandeln konnte. Die vollständige Mundrekonstruktion bei Sorriso hat meine Zahngesundheit und mein Aussehen verändert. Jetzt habe ich ein schönes Lächeln und ein neues Selbstbewusstsein. Das Team hat mich während des gesamten Prozesses wohl und umsorgt gefühlt."
+    }
+  },
+  "videoSection": {
+    "title": "Ihre Reise zu einem neuen Lächeln",
+    "description": "Bei unseren Zahnarztreisen stehen Ihre Bedürfnisse an erster Stelle. Gemeinsam erstellen wir einen Reise- und Behandlungsplan, der Ihren Bedürfnissen entspricht. Bei Zahnbehandlungsangst ist eine Behandlung unter Narkose oft möglich. Sehen Sie sich das Video unten an, um einen Eindruck von einem Zahnarzturlaub zu bekommen.",
+    "iframeTitle": "YouTube Video Player"
+  },
+  "trustSection": {
+    "title": "International anerkannt",
+    "description": "Sorriso Care arbeitet nur mit führenden Zahnärzteverbänden zusammen und hat daher zahlreiche Auszeichnungen für sein Engagement für Exzellenz erhalten. Von Patienten aus der ganzen Welt geschätzt, setzen wir uns dafür ein, die höchsten Standards in der Pflege und Zufriedenheit zu bieten.",
+    "iso": {
+      "alt": "ISO-Zertifizierung für Qualitätsmanagement",
+      "text": "ISO-Zertifiziert für Qualitätsmanagement"
+    },
+    "gcr": {
+      "alt": "Global Clinic Rating (GCR) Akkreditiert",
+      "text": "GCR Akkreditiert für Klinische Exzellenz"
+    },
+    "eda": {
+      "alt": "Mitglied der Europäischen Zahnärztevereinigung",
+      "text": "Mitglied der Europäischen Zahnärztevereinigung"
+    },
+    "ida": {
+      "alt": "Akkreditiert von der Internationalen Zahnärztevereinigung",
+      "text": "Akkreditiert von der Internationalen Zahnärztevereinigung"
+    }
+  },
+  "testimonialCard": {
+    "profileAlt": "{{name}} Profil",
+    "profileInfo": "{{name}}, {{age}} {{age, plural, one {Jahr} other {Jahre}} alt, {{country}}",
+    "watchVideo": "{{name}}s Video ansehen"
+  },
+  "patientJourney": {
+    "title": "Unsere globale Patientenreichweite",
+    "description1": "Von Patienten aus der ganzen Welt geschätzt, ist Sorriso Care zur ersten Wahl für internationale Zahnbehandlungen geworden und verwandelt Lächeln und verändert Leben weltweit.",
+    "description2": "Entdecken Sie, woher unsere Patienten kommen, und beginnen Sie Ihre Reise zu einem schönen Lächeln mit Sorriso Care.",
+    "mapAlt": "Weltkarte, die zeigt, woher die Patienten von Sorriso Care kommen, und über 20 Länder hervorhebt.",
+    "callToAction": "Bereit, sich unserer globalen Familie zufriedener Patienten anzuschließen? Vereinbaren Sie noch heute eine kostenlose Beratung und sehen Sie, wie wir Ihnen helfen können, das Lächeln Ihrer Träume zu erreichen!"
+  },
+  "consultationBanner": {
+    "profileAlt": "Profilbild von Dr. Filip Sukovic",
+    "title": "Erreichen Sie Ihr Traumlächeln in nur 7 Tagen",
+    "description1": "Lassen Sie sich von Dr. Filip Sukovic und seinem Expertenteam durch eine personalisierte Lächelntransformation führen. Ob Implantate, Veneers oder ein vollständiges Lächeln-Makeover – wir garantieren hochwertige Pflege und wunderschöne Ergebnisse.",
+    "description2": "Beginnen Sie noch heute Ihre Reise und sehen Sie, wie Sorriso Care Ihnen helfen kann, das perfekte Lächeln zu erreichen – schnell, erschwinglich und stressfrei.",
+    "accommodation": "Unterkunft inklusive",
+    "consultation": "Kostenlose Beratung",
+    "transport": "Transport zum/vom Flughafen",
+    "cta": "Vereinbaren Sie eine Online-Beratung"
   }
 }

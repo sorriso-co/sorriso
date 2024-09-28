@@ -4,7 +4,8 @@
       "about": "Chi Siamo",
       "services": "Servizi",
       "pricing": "Prezzi",
-      "contact": "Contatti"
+      "contact": "Contatti",
+      "beforeAfter": "Prima e Dopo"
     },
     "mobile_nav": {
       "menu": "Menu",
@@ -12,7 +13,8 @@
       "about": "Chi Siamo",
       "services": "Servizi",
       "pricing": "Prezzi",
-      "contact": "Contatti"
+      "contact": "Contatti",
+      "beforeAfter": "Prima e Dopo"
     },
     "phone": {
       "number": "+382 69 664 668",
@@ -113,23 +115,6 @@
     "twitter_description": "Guarda la galleria di Sorriso Care e scopri le trasformazioni dentali dei nostri pazienti.",
     "twitter_image": "https://sorriso.care/images/gallery-thumbnail.jpg"
   },
-  "gallerySection": {
-    "title": "Galleria dei nostri pazienti soddisfatti"
-  },
-  "testimonials": {
-    "sheilaPeterson": {
-      "description": "Ero sempre a disagio per il mio sorriso, ma dopo aver ricevuto il trattamento Hollywood Smile da Sorriso, mi sento sicura e orgogliosa dei miei denti. I risultati sono straordinari!"
-    },
-    "lauraBastone": {
-      "description": "Il team di Sorriso mi ha messo a mio agio, e il mio intervento di impianto dentale è stato un completo successo. Sono così felice dei risultati!"
-    },
-    "lelaKovacMajcevski": {
-      "description": "Volevo un sorriso più luminoso e Sorriso ha soddisfatto le mie aspettative! Il trattamento di sbiancamento dei denti è stato rapido, indolore e i risultati sono sorprendenti."
-    },
-    "marryDianaJones": {
-      "description": "Avevo problemi ortodontici, ma il team professionale di Sorriso mi ha aiutato a ottenere un sorriso perfetto con il loro trattamento ortodontico. Consiglio vivamente!"
-    }
-  },
   "treatments": {
     "hollywoodSmile": "Hollywood Smile",
     "dentalImplant": "Impianto Dentale",
@@ -161,12 +146,90 @@
     "emailTitle": "Email",
     "email": "contact@sorriso.care",
     "hoursTitle": "Orario di Lavoro",
-    "hours": "Lun-Sab 9:00 AM - 6:00 PM"
+    "hours": "Lun-Sab 9:00 AM - 6:00 PM",
+    "languagesOfferedTitle": "Lingue Offerte",
+    "languagesOffered": "Inglese, Italiano, Spagnolo, Montenegrino",
+    "doctorAlt": "Immagine del profilo del Dr. Filip Sukovic"
   },
   "contactSection": {
     "title": "Mettiti in Contatto",
     "subtitle": "Ci piacerebbe sentirti",
     "consultationTitle": "Prenota una Consulenza",
     "consultationDescription": "Fissa una consulenza con uno dei nostri esperti dentali."
+  },
+  "testimonialsHero": {
+    "title": "I nostri pazienti soddisfatti",
+    "description": "Ascolta le esperienze dei nostri pazienti e scopri la qualità delle cure che hanno ricevuto.",
+    "cta": "Contattaci"
+  },
+  "gallerySection": {
+    "title": "Le trasformazioni dei nostri pazienti"
+  },
+  "testimonial": {
+    "sheila": {
+      "description": "Ero sempre molto insicura del mio sorriso e evitavo di farmi fotografare. Grazie a Sorriso, ora ho un sorriso di cui sono orgogliosa! I medici sono stati professionali e mi hanno fatto sentire a mio agio durante tutto il processo."
+    },
+    "laura": {
+      "description": "Ho avuto difficoltà a trovare una soluzione economica per i miei denti mancanti. Sorriso Care mi ha offerto impianti dentali di alta qualità a una frazione del costo rispetto all'Italia, e sono entusiasta dei miei nuovi denti. L'intera procedura è stata indolore, e non potrei essere più felice del risultato!"
+    },
+    "miroslav": {
+      "description": "Ero sempre cosciente dell'allineamento dei miei denti, ma gli apparecchi tradizionali erano troppo costosi. Il trattamento ortodontico di Sorriso è stato semplice, efficace ed economico. Ora mi sento più sicuro che mai. Grazie, Sorriso!"
+    },
+    "hans": {
+      "description": "Volevo un sorriso naturale senza l'aspetto artificiale. Ottenere le faccette presso Sorriso è stata la migliore decisione che abbia mai preso. I miei denti sembrano completamente naturali, e non riesco a smettere di sorridere. La dedizione del team all'eccellenza è ineguagliabile."
+    },
+    "yasmin": {
+      "description": "Avevo un sorriso gengivale e non sapevo se il rimodellamento delle gengive fosse adatto a me. Gli esperti di Sorriso mi hanno messo a mio agio e hanno ottenuto risultati straordinari. Ora posso sorridere con sicurezza senza preoccuparmi delle mie gengive. Non potrei essere più soddisfatta del loro servizio!"
+    },
+    "elizabeth": {
+      "description": "Anni di problemi dentali mi hanno reso riluttante a sorridere, e ho avuto difficoltà a trovare una clinica che potesse gestire il mio caso complesso. La ricostruzione completa della bocca da Sorriso ha trasformato la mia salute dentale e il mio aspetto. Ora ho un sorriso splendido e una nuova fiducia in me stessa. Il team mi ha fatto sentire a mio agio e curata durante tutto il processo."
+    }
+  },
+  "videoSection": {
+    "title": "Il tuo viaggio verso un nuovo sorriso",
+    "description": "Con i nostri viaggi dentali, le tue esigenze vengono prima di tutto. Insieme, creiamo un piano di viaggio e trattamento che soddisfi le tue necessità. In caso di ansia dentale, è spesso possibile il trattamento in anestesia. Guarda il video qui sotto per avere un'idea di una vacanza dentale.",
+    "iframeTitle": "Riproduttore video di YouTube"
+  },
+  "trustSection": {
+    "title": "Riconosciuti a livello internazionale",
+    "description": "Sorriso Care collabora solo con le principali associazioni dentistiche e ha così ottenuto numerosi riconoscimenti per il suo impegno verso l'eccellenza. Apprezzati da pazienti di tutto il mondo, ci impegniamo a fornire i più alti standard di cura e soddisfazione.",
+    "iso": {
+      "alt": "Certificazione ISO per la gestione della qualità",
+      "text": "Certificato ISO per la gestione della qualità"
+    },
+    "gcr": {
+      "alt": "Accreditato Global Clinic Rating (GCR)",
+      "text": "Accreditato GCR per l'eccellenza clinica"
+    },
+    "eda": {
+      "alt": "Membro dell'Associazione Dentale Europea",
+      "text": "Membro dell'Associazione Dentale Europea"
+    },
+    "ida": {
+      "alt": "Accreditato dall'Associazione Dentale Internazionale",
+      "text": "Accreditato dall'Associazione Dentale Internazionale"
+    }
+  },
+  "testimonialCard": {
+    "profileAlt": "Profilo di {{name}}",
+    "profileInfo": "{{name}}, {{age}} {{age, plural, one {anno} other {anni}}, {{country}}",
+    "watchVideo": "Guarda il video di {{name}}"
+  },
+  "patientJourney": {
+    "title": "La nostra copertura globale dei pazienti",
+    "description1": "Apprezzati da pazienti di tutto il mondo, Sorriso Care è diventato la scelta principale per trattamenti dentali internazionali, trasformando sorrisi e cambiando vite in tutto il mondo.",
+    "description2": "Scopri da dove provengono i nostri pazienti e inizia il tuo viaggio verso un sorriso splendido con Sorriso Care.",
+    "mapAlt": "Mappa mondiale che mostra da dove provengono i pazienti di Sorriso Care, evidenziando oltre 20 paesi.",
+    "callToAction": "Pronto a unirti alla nostra famiglia globale di pazienti soddisfatti? Prenota oggi una consulenza gratuita e scopri come possiamo aiutarti a ottenere il sorriso dei tuoi sogni!"
+  },
+  "consultationBanner": {
+    "profileAlt": "Immagine del profilo del Dr. Filip Sukovic",
+    "title": "Ottieni il sorriso dei tuoi sogni in soli 7 giorni",
+    "description1": "Lascia che il Dr. Filip Sukovic e il suo team di esperti ti guidino in un percorso di trasformazione del sorriso personalizzato. Che si tratti di impianti, faccette o un restauro completo del sorriso, garantiamo cure di alta qualità e risultati splendidi.",
+    "description2": "Inizia il tuo viaggio oggi e scopri come Sorriso Care può aiutarti a ottenere il sorriso perfetto—rapidamente, a un costo accessibile e senza stress.",
+    "accommodation": "Alloggio incluso",
+    "consultation": "Consulenza gratuita",
+    "transport": "Trasporto da/per l'aeroporto",
+    "cta": "Prenota una consulenza online"
   }
 }

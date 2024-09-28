@@ -4,7 +4,7 @@ import { useTranslation } from "next-i18next";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const TestimonialsHero = () => {
+const TestimonialsHero: React.FC = () => {
   const { t } = useTranslation("common");
 
   useEffect(() => {
@@ -12,57 +12,36 @@ const TestimonialsHero = () => {
   }, []);
 
   return (
-    <section className="relative bg-gradient-to-r from-teal-400 via-teal-300 to-teal-400 py-28 md:py-36 px-6 text-white rounded-t-[40px] overflow-hidden">
-      {/* Background pattern */}
-      <div
-        className="absolute inset-0 opacity-30"
-        style={{
-          backgroundImage: 'url("/images/patterns/hero-pattern.svg")',
-          backgroundSize: "cover",
-        }}
-      ></div>
-
+    <section className="relative bg-gradient-to-r from-teal-800 via-teal-600 to-teal-800 py-20 md:py-32 lg:py-40 px-4 md:px-6 text-white rounded-t-[60px] overflow-hidden">
       <div className="relative container mx-auto text-center" data-aos="fade-up">
         {/* Title */}
-        <h1 className="text-6xl md:text-7xl font-serif font-bold mb-6 tracking-tight leading-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-9xl font-serif font-extrabold mb-6 sm:mb-8 tracking-tight leading-tight sm:leading-tight">
           {t("testimonialsHero.title", {
-            defaultValue: "Our Satisfied Patients",
+            defaultValue: "Satisfied Patients of Sorriso Care",
           })}
         </h1>
 
         {/* Description */}
-        <p className="text-lg md:text-2xl font-light max-w-4xl mx-auto text-teal-100 tracking-wide leading-relaxed mb-10">
+        <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light max-w-2xl sm:max-w-3xl md:max-w-4xl mx-auto text-teal-100 tracking-wide leading-relaxed sm:leading-relaxed md:leading-relaxed mb-8 sm:mb-12">
           {t("testimonialsHero.description", {
             defaultValue:
-              "Hear from our patients about their experiences and the high-quality care they received.",
+              "Discover what our patients have to say about their transformative experiences at Sorriso Care. Read their testimonials and learn about the exceptional dental treatments that made their journey unforgettable.",
           })}
         </p>
 
         {/* CTA Button */}
         <a
           href="/contact"
-          className="inline-block bg-white text-teal-700 font-semibold text-lg md:text-xl py-3 px-8 rounded-full shadow-md hover:bg-teal-100 transition-transform transform hover:scale-105"
+          className="inline-block bg-white text-teal-700 font-semibold text-base sm:text-lg md:text-xl lg:text-2xl py-3 sm:py-4 px-8 sm:px-10 rounded-full shadow-lg hover:bg-teal-100 transition-transform transform hover:scale-105"
           data-aos="zoom-in"
+          aria-label="Contact Sorriso Care for more information"
         >
-          {t("testimonialsHero.cta", { defaultValue: "Contact Us" })}
+          {t("testimonialsHero.cta", { defaultValue: "Contact Us Today" })}
         </a>
-      </div>
-
-      {/* Decorative Wave */}
-      <div className="absolute bottom-0 left-0 w-full h-32 overflow-hidden leading-none">
-        <svg
-          className="relative block w-full h-full"
-          viewBox="0 0 1440 320"
-          preserveAspectRatio="none"
-        >
-          <path
-            fill="#f7f7f7"
-            d="M0,96L60,112C120,128,240,160,360,181.3C480,203,600,213,720,218.7C840,224,960,224,1080,218.7C1200,213,1320,203,1380,197.3L1440,192V320H0Z"
-          ></path>
-        </svg>
       </div>
     </section>
   );
 };
 
 export default TestimonialsHero;
+

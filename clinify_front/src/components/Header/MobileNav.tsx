@@ -79,6 +79,15 @@ const MobileNav: React.FC<MobileNavProps> = ({ toggleMenu }) => {
           {t("header.mobile_nav.pricing")}
         </Link>
 
+        {/* Services Link */}
+        <Link
+          href="/gallery"
+          className="block text-lg text-white hover:text-white transition-all duration-300"
+          onClick={toggleMenu}
+        >
+          {t("header.mobile_nav.beforeAfter")}
+        </Link>
+
         {/* Contact Link */}
         <Link
           href="/contact"

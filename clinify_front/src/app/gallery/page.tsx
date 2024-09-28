@@ -56,10 +56,7 @@ const Gallery = () => {
       </Head>
 
       <div className="lg:px-20 xl:px-28 2xl:px-40 px-4 mx-auto mb-40 space-y-16">
-        {/* Hero Section */}
         <TestimonialsHero />
-
-        {/* Gallery Section */}
         <GallerySection />
       </div>
     </>

@@ -2,8 +2,9 @@
   "frontHero": {
     "title": "Your Next Dental Trip",
     "subtitle": "Free Consultations, World-Class Treatment, Stunning Results",
-    "visitButton": "Contact us",
-    "scheduleButton": "See our services"
+    "visitButton": "Our Transformations",
+    "scheduleButton": "How it works",
+    "patientSatisfaction": "Patient satisfaction rate: 4.9/5, based on thousands of successful treatments."
   },
   "haveItAll": {
     "title": "Have It All with Sorriso",

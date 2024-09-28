@@ -4,7 +4,8 @@
       "about": "About Us",
       "services": "Services",
       "pricing": "Pricing",
-      "contact": "Contact"
+      "contact": "Contact",
+      "beforeAfter": "Before & After"
     },
     "mobile_nav": {
       "menu": "Menu",
@@ -12,7 +13,8 @@
       "about": "About Us",
       "services": "Services",
       "pricing": "Pricing",
-      "contact": "Contact"
+      "contact": "Contact",
+      "beforeAfter": "Before & After"
     },
     "phone": {
       "number": "+382 69 664 668",
@@ -113,28 +115,6 @@
     "twitter_description": "See the gallery of Sorriso Care and discover the dental transformations of our patients.",
     "twitter_image": "https://sorriso.care/images/gallery-thumbnail.jpg"
   },
-  "testimonialsHero": {
-    "title": "Our Satisfied Patients",
-    "description": "Hear from our patients about their experiences and the high-quality care they received.",
-    "cta": "Contact Us"
-  },
-  "gallerySection": {
-    "title": "Gallery of Our Satisfied Patients"
-  },
-  "testimonials": {
-    "sheilaPeterson": {
-      "description": "I was always self-conscious about my smile, but after receiving the Hollywood Smile treatment at Sorriso, I feel confident and proud of my teeth. The results are amazing!"
-    },
-    "lauraBastone": {
-      "description": "The team at Sorriso made me feel at ease, and my dental implant procedure was a complete success. I'm so happy with the results!"
-    },
-    "lelaKovacMajcevski": {
-      "description": "I wanted a brighter smile, and Sorriso delivered! My teeth whitening treatment was quick, painless, and the results are stunning."
-    },
-    "marryDianaJones": {
-      "description": "I had orthodontic issues, but Sorriso’s professional team helped me achieve a perfect smile with their orthodontic treatment. Highly recommended!"
-    }
-  },
   "treatments": {
     "hollywoodSmile": "Hollywood Smile",
     "dentalImplant": "Dental Implant",
@@ -167,12 +147,91 @@
     "emailTitle": "Email",
     "email": "contact@sorriso.care",
     "hoursTitle": "Working Hours",
-    "hours": "Mon-Saturday 09:00 AM - 6:00 PM"
+    "hours": "Mon-Saturday 09:00 AM - 6:00 PM",
+    "languagesOfferedTitle": "Languages Offered",
+    "languagesOffered": "English, Italian, Spanish, Montenegrin",
+    "doctorAlt": "Profile image of Dr. Filip Sukovic"
   },
   "contactSection": {
     "title": "Get in Touch",
     "subtitle": "We’d love to hear from you",
     "consultationTitle": "Book a Consultation",
     "consultationDescription": "Schedule a consultation with one of our dental experts."
+  },
+  "testimonialsHero": {
+    "title": "Our Satisfied Patients",
+    "description": "Hear from our patients about their experiences and the high-quality care they received.",
+    "cta": "Contact Us"
+  },
+  "gallerySection": {
+    "title": "Our Patient Transformations"
+  },
+  "testimonial": {
+    "sheila": {
+      "description": "I used to be so self-conscious about my smile and always avoided taking pictures. Thanks to Sorriso, I now have a smile I’m proud to show off! The doctors were professional and made me feel comfortable throughout the entire process."
+    },
+    "laura": {
+      "description": "I had trouble finding an affordable solution for my missing teeth. Sorriso Care provided me with high-quality dental implants at a fraction of the cost compared to Italy, and I am delighted with my new teeth. The entire procedure was painless, and I couldn’t be happier with the results!"
+    },
+    "miroslav": {
+      "description": "I was always conscious about the alignment of my teeth, but traditional braces were too expensive. Sorriso’s orthodontic treatment was smooth, efficient, and affordable. Now, I feel more confident than ever. Thank you, Sorriso!"
+    },
+    "hans": {
+      "description": "I wanted a natural-looking smile without the obvious ‘done’ look. Getting veneers at Sorriso was the best decision I’ve made. My teeth look completely natural, and I can’t stop smiling. The team’s dedication to excellence is unmatched."
+    },
+    "yasmin": {
+      "description": "I had a gummy smile and was unsure if gum contouring would be right for me. Sorriso’s experts made me feel at ease and delivered outstanding results. Now, I can smile confidently without worrying about my gums. I couldn’t be happier with their service!"
+    },
+    "elizabeth": {
+      "description": "Years of dental issues made me hesitant to smile, and I struggled to find a clinic that could handle my complex case. The full mouth reconstruction at Sorriso transformed my dental health and appearance. I now have a beautiful smile and a newfound sense of confidence. The team made me feel comfortable and cared for throughout the entire process."
+    }
+  },
+  "videoSection": {
+    "title": "Your Journey to a New Smile",
+    "description": "With our dental trips, your needs come first. Together, we create a travel and treatment plan that suits your needs. In case of dental anxiety, treatment under anesthesia is often possible. Watch the video below to get an impression of a dental vacation.",
+    "iframeTitle": "YouTube video player"
+  },
+  "trustSection": {
+    "title": "Trusted Internationally",
+    "description": "Sorriso Care partners only with the leading dental associations and has thus earned numerous awards for its commitment to excellence. Trusted by patients from around the world, we strive to provide the highest standards of care and satisfaction.",
+    "iso": {
+      "alt": "ISO Certification for Quality Management",
+      "text": "ISO Certified for Quality Management"
+    },
+    "gcr": {
+      "alt": "Global Clinic Rating (GCR) Accredited",
+      "text": "GCR Accredited for Clinical Excellence"
+    },
+    "eda": {
+      "alt": "European Dental Association Member",
+      "text": "Member of European Dental Association"
+    },
+    "ida": {
+      "alt": "Accredited by International Dental Association",
+      "text": "Accredited by International Dental Association"
+    }
+  },
+  "testimonialCard": {
+    "profileAlt": "{{name}} profile",
+    "profileInfo": "{{name}}, {{age}} {{age, plural, one {year old} other {years old}}}, {{country}}",
+    "watchVideo": "Watch {{name}}'s Video"
+  },
+  "patientJourney": {
+    "title": "Our Global Patient Reach",
+    "description1": "Trusted by patients from all over the world, Sorriso Care has become the top choice for international dental treatments, transforming smiles and changing lives worldwide.",
+    "description2": "Discover where our patients come from and start your journey to a beautiful smile with Sorriso Care.",
+    "mapAlt": "World map showing where Sorriso Care patients come from, highlighting over 20 countries.",
+    "callToAction": "Ready to join our global family of satisfied patients? Schedule a free consultation today and see how we can help you achieve the smile of your dreams!"
+  },
+  "consultationBanner": {
+    "profileAlt": "Profile Image of Dr. Filip Sukovic",
+    "title": "Achieve the Smile of Your Dreams in Just 7 Days",
+    "description1": "Let Dr. Filip Sukovic and his expert team guide you through a personalized smile transformation journey. Whether it’s implants, veneers, or a full smile makeover, we ensure top-quality care and beautiful results.",
+    "description2": "Start your journey today and see how Sorriso Care can help you achieve the perfect smile—quickly, affordably, and stress-free.",
+    "accommodation": "Accommodation Included",
+    "consultation": "Free Consultation",
+    "transport": "Transport to/from Airport",
+    "cta": "Schedule an Online Consultation"
   }
+
 }

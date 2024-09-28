@@ -69,6 +69,7 @@ const Comparison = () => {
               alt={t("comparison.sorrisoBill")}
               width={400}
               height={700}
+              loading="lazy"
               className="rounded-lg shadow-lg"
             />
           </div>

@@ -17,17 +17,16 @@ const Hero = () => {
   }, []);
 
   return (
-    <header className="relative rounded-t-[20px] bg-gradient-to-br from-teal-700 to-teal-900 py-24 overflow-x-hidden text-white p-8 ">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-10 md:space-y-0">
-        
-        {/* Right Section: Image (hidden on mobile, visible on larger screens) */}
+    <header className="relative rounded-t-[20px] bg-gradient-to-br from-teal-700 to-teal-900 py-16 sm:py-24 overflow-x-hidden text-white p-6 sm:p-8">
+      <div className="container mx-auto flex flex-col md:flex-row-reverse items-center justify-between space-y-10 md:space-y-0">
+        {/* Right Section: Image (visible on larger screens) */}
         <div
-          className="hidden md:block w-full md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-start"
-          data-aos="fade-right"
+          className="w-full md:w-1/2 flex justify-center md:justify-end"
+          data-aos="fade-left"
         >
-          <div className="relative w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto transform hover:scale-105 transition-transform duration-500">
+          <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl h-auto transform hover:scale-105 transition-transform duration-500">
             <Image
-              src="/images/Team/staff/dr.webp"
+              src="/images/icons/pricing_front.webp"
               alt={t("hero.imageAlt")}
               width={1100}
               height={1400}
@@ -39,23 +38,23 @@ const Hero = () => {
 
         {/* Left Section: Title and CTA (visible on all devices) */}
         <div
-          className="w-full md:w-1/2 py-10 text-center md:text-left"
-          data-aos="fade-left"
+          className="w-full md:w-1/2 text-center md:text-left"
+          data-aos="fade-right"
         >
-          <h1 className="text-5xl sm:text-6xl md:text-8xl font-serif font-extrabold mb-6 leading-tight tracking-tight">
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl font-serif font-extrabold mb-4 md:mb-6 leading-tight tracking-tight">
             {t("hero.title")}
           </h1>
-          <p className="text-2xl sm:text-3xl md:text-4xl mb-8 font-serif">
+          <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-6 md:mb-8 font-serif">
             {t("hero.subtitle")}
           </p>
           <Link
             href="/contact"
-            className="inline-block font-serif font-bold bg-white text-teal-700 hover:bg-teal-600 hover:text-white py-4 px-8 rounded-full transition-transform transform hover:scale-105 duration-300 shadow-md"
+            className="inline-block font-serif font-bold bg-white text-teal-700 hover:bg-teal-600 hover:text-white py-4 px-8 md:py-5 md:px-10 lg:py-6 lg:px-8 rounded-full transition-transform transform hover:scale-105 duration-300 shadow-md text-lg md:text-xl lg:text-2xl"
             aria-label={t("hero.cta")}
           >
             {t("hero.cta")}
           </Link>
-          <p className="mt-4 text-lg italic font-serif text-teal-200">
+          <p className="mt-4 text-lg md:text-xl lg:text-2xl italic font-serif text-teal-200">
             {t("hero.ctaNote")}
           </p>
         </div>

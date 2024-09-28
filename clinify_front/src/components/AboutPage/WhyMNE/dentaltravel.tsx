@@ -47,7 +47,7 @@ const DentalTravelIntro: React.FC = () => {
                 alt={t("dentalTravelIntro.imageAlt", { defaultValue: "Montenegro landscape" })}
                 width={600}
                 height={400}
-                priority
+                loading="lazy"
                 className="object-cover w-full h-full transition-transform transform hover:scale-105"
               />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">

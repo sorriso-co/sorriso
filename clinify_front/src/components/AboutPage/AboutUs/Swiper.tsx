@@ -55,8 +55,8 @@ const TestSwiper: React.FC = () => {
                 width={400}
                 height={300}
                 className="rounded-lg object-cover"
-                quality={75} // Reduce image quality slightly for faster loading
-                loading="lazy" // Enable lazy loading for images
+                quality={75}
+                loading="lazy" 
               />
             </div>
           </SwiperSlide>

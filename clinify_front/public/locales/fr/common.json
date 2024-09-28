@@ -4,7 +4,8 @@
       "about": "À propos",
       "services": "Services",
       "pricing": "Tarifs",
-      "contact": "Contact"
+      "contact": "Contact",
+      "beforeAfter": "Avant/Après"
     },
     "mobile_nav": {
       "menu": "Menu",
@@ -12,7 +13,8 @@
       "about": "À propos",
       "services": "Services",
       "pricing": "Tarifs",
-      "contact": "Contact"
+      "contact": "Contact",
+      "beforeAfter": "Avant/Après"
     },
     "phone": {
       "number": "+382 69 664 668",
@@ -113,23 +115,6 @@
     "twitter_description": "Explorez la galerie de Sorriso Care et découvrez les transformations dentaires de nos patients.",
     "twitter_image": "https://sorriso.care/images/gallery-thumbnail.jpg"
   },
-  "gallerySection": {
-    "title": "Galerie de nos patients satisfaits"
-  },
-  "testimonials": {
-    "sheilaPeterson": {
-      "description": "J'ai toujours été complexée par mon sourire, mais après avoir reçu le traitement Hollywood Smile chez Sorriso, je me sens confiante et fière de mes dents. Les résultats sont incroyables !"
-    },
-    "lauraBastone": {
-      "description": "L'équipe de Sorriso m'a mise à l'aise et mon implant dentaire a été un succès total. Je suis tellement contente des résultats !"
-    },
-    "lelaKovacMajcevski": {
-      "description": "Je voulais un sourire plus éclatant et Sorriso a répondu à mes attentes ! Le traitement de blanchiment des dents a été rapide, indolore, et les résultats sont magnifiques."
-    },
-    "marryDianaJones": {
-      "description": "J'avais des problèmes orthodontiques, mais l'équipe professionnelle de Sorriso m'a aidée à obtenir un sourire parfait grâce à leur traitement orthodontique. Je recommande vivement !"
-    }
-  },
   "treatments": {
     "hollywoodSmile": "Sourire Hollywoodien",
     "dentalImplant": "Implant Dentaire",
@@ -161,12 +146,90 @@
     "emailTitle": "E-mail",
     "email": "@contact@sorriso.care",
     "hoursTitle": "Horaires d'Ouverture",
-    "hours": "Lun-Sab 9:00 AM - 6:00 PM"
+    "hours": "Lun-Sab 9:00 AM - 6:00 PM",
+    "languagesOfferedTitle": "Langues Proposées",
+    "languagesOffered": "Anglais, Italien, Espagnol, Monténégrin",
+    "doctorAlt": "Image de profil du Dr. Filip Sukovic"
   },
   "contactSection": {
     "title": "Prenez Contact",
     "subtitle": "Nous serions ravis d'avoir de vos nouvelles",
     "consultationTitle": "Réservez une Consultation",
     "consultationDescription": "Planifiez une consultation avec l'un de nos experts dentaires."
+  },
+  "testimonialsHero": {
+    "title": "Nos Patients Satisfaits",
+    "description": "Écoutez nos patients parler de leurs expériences et de la qualité des soins qu'ils ont reçus.",
+    "cta": "Contactez-Nous"
+  },
+  "gallerySection": {
+    "title": "Les Transformations de Nos Patients"
+  },
+  "testimonial": {
+    "sheila": {
+      "description": "J'étais toujours très complexée par mon sourire et j'évitais de me faire photographier. Grâce à Sorriso, j'ai maintenant un sourire dont je suis fière ! Les médecins ont été professionnels et m'ont mise à l'aise tout au long du processus."
+    },
+    "laura": {
+      "description": "J'avais du mal à trouver une solution abordable pour mes dents manquantes. Sorriso Care m'a offert des implants dentaires de haute qualité à une fraction du coût par rapport à l'Italie, et je suis ravie de mes nouvelles dents. L'ensemble de la procédure a été indolore, et je ne pourrais pas être plus heureuse du résultat !"
+    },
+    "miroslav": {
+      "description": "J'étais toujours conscient de l'alignement de mes dents, mais les appareils dentaires traditionnels étaient trop chers. Le traitement orthodontique de Sorriso a été fluide, efficace et abordable. Maintenant, je me sens plus confiant que jamais. Merci, Sorriso !"
+    },
+    "hans": {
+      "description": "Je voulais un sourire naturel sans l'aspect « fait ». Obtenir des facettes chez Sorriso a été la meilleure décision que j'ai prise. Mes dents ont un aspect totalement naturel, et je n'arrête pas de sourire. Le dévouement de l'équipe à l'excellence est incomparable."
+    },
+    "yasmin": {
+      "description": "J'avais un sourire gingival et je ne savais pas si le remodelage des gencives était fait pour moi. Les experts de Sorriso m'ont rassurée et ont obtenu des résultats exceptionnels. Maintenant, je peux sourire en toute confiance sans m'inquiéter de mes gencives. Je ne pourrais pas être plus satisfaite de leur service !"
+    },
+    "elizabeth": {
+      "description": "Des années de problèmes dentaires m'ont rendue hésitante à sourire, et j'ai eu du mal à trouver une clinique qui puisse gérer mon cas complexe. La reconstruction buccale complète chez Sorriso a transformé ma santé dentaire et mon apparence. J'ai maintenant un sourire magnifique et une nouvelle confiance en moi. L'équipe m'a fait sentir à l'aise et prise en charge tout au long du processus."
+    }
+  },
+  "videoSection": {
+    "title": "Votre Parcours vers un Nouveau Sourire",
+    "description": "Avec nos voyages dentaires, vos besoins passent en premier. Ensemble, nous élaborons un plan de voyage et de traitement qui répond à vos attentes. En cas d'anxiété dentaire, un traitement sous anesthésie est souvent possible. Regardez la vidéo ci-dessous pour avoir un aperçu d'un séjour dentaire.",
+    "iframeTitle": "Lecteur vidéo YouTube"
+  },
+  "trustSection": {
+    "title": "Reconnu Internationalement",
+    "description": "Sorriso Care s'associe uniquement aux principales associations dentaires et a ainsi obtenu de nombreuses distinctions pour son engagement envers l'excellence. Appréciés par des patients du monde entier, nous nous efforçons de fournir les normes de soins et de satisfaction les plus élevées.",
+    "iso": {
+      "alt": "Certification ISO pour la gestion de la qualité",
+      "text": "Certifié ISO pour la gestion de la qualité"
+    },
+    "gcr": {
+      "alt": "Accréditation Global Clinic Rating (GCR)",
+      "text": "Accrédité GCR pour l'Excellence Clinique"
+    },
+    "eda": {
+      "alt": "Membre de l'Association Dentaire Européenne",
+      "text": "Membre de l'Association Dentaire Européenne"
+    },
+    "ida": {
+      "alt": "Accrédité par l'Association Dentaire Internationale",
+      "text": "Accrédité par l'Association Dentaire Internationale"
+    }
+  },
+  "testimonialCard": {
+    "profileAlt": "Profil de {{name}}",
+    "profileInfo": "{{name}}, {{age}} {{age, plural, one {an} other {ans}}, {{country}}",
+    "watchVideo": "Regarder la vidéo de {{name}}"
+  },
+  "patientJourney": {
+    "title": "Notre Portée Globale des Patients",
+    "description1": "Apprécié par des patients du monde entier, Sorriso Care est devenu le choix privilégié pour les traitements dentaires internationaux, transformant les sourires et changeant des vies à travers le monde.",
+    "description2": "Découvrez d'où viennent nos patients et commencez votre propre parcours vers un sourire éclatant avec Sorriso Care.",
+    "mapAlt": "Carte mondiale montrant d'où viennent les patients de Sorriso Care, mettant en évidence plus de 20 pays.",
+    "callToAction": "Prêt à rejoindre notre famille mondiale de patients satisfaits ? Prenez rendez-vous pour une consultation gratuite aujourd'hui et voyez comment nous pouvons vous aider à obtenir le sourire de vos rêves !"
+  },
+  "consultationBanner": {
+    "profileAlt": "Image de profil du Dr. Filip Sukovic",
+    "title": "Obtenez le Sourire de Vos Rêves en Seulement 7 Jours",
+    "description1": "Laissez le Dr. Filip Sukovic et son équipe d'experts vous guider à travers un parcours de transformation du sourire personnalisé. Que ce soit pour des implants, des facettes ou une transformation complète du sourire, nous garantissons des soins de haute qualité et des résultats splendides.",
+    "description2": "Commencez votre parcours dès aujourd'hui et découvrez comment Sorriso Care peut vous aider à obtenir le sourire parfait—rapidement, à un prix abordable et sans stress.",
+    "accommodation": "Hébergement Inclus",
+    "consultation": "Consultation Gratuite",
+    "transport": "Transport de/vers l'Aéroport",
+    "cta": "Planifier une Consultation en Ligne"
   }
 }

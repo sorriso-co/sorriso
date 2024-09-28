@@ -43,6 +43,7 @@ const FlipCard: React.FC<FlipCardProps> = ({ procedure }) => {
               src={procedure.image}
               alt={procedure.title}
               fill
+              loading="lazy"
               className="w-full h-full object-cover"
             />
           </div>

@@ -123,6 +123,7 @@ const ServiceGrid: React.FC = () => {
                     alt={service.altText}
                     width={96}
                     height={96}
+                    loading="lazy"
                     className="w-full h-full object-contain"
                   />
                 </div>

@@ -1,17 +1,20 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import Image from "next/image";
+import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "next-i18next";
+import TestimonialCard from "@/components/Gallery/Testimonials/TestimonialCard";
+import VideoSection from "./Testimonials/Video";
+import ConsultationBanner from "./Testimonials/ConsultCTO";
+import PatientJourney from "./Testimonials/PatientJourney";
+import TrustSection from "./Testimonials/TrustSection";
 
+// Define the structure for a Testimonial
 interface Testimonial {
   name: string;
   age: number;
   country: string;
-  countryFlag: string;
   profileImage: string;
-  treatment: string;
   description: string;
   beforeImage: string;
   afterImage: string;
@@ -19,7 +22,6 @@ interface Testimonial {
 
 const GallerySection: React.FC = () => {
   const { t } = useTranslation("common");
-  const [selectedTestimonial, setSelectedTestimonial] = useState<Testimonial | null>(null);
 
   useEffect(() => {
     AOS.init({
@@ -28,162 +30,114 @@ const GallerySection: React.FC = () => {
     });
   }, []);
 
+  // Array of testimonials with translated descriptions
   const testimonials: Testimonial[] = [
     {
       name: "Sheila Peterson",
       age: 44,
-      country: t("countries.unitedStates"),
-      countryFlag: "/images/flags/us.png",
+      country: "United States",
       profileImage: "/images/people/emily.webp",
-      treatment: t("treatments.hollywoodSmile"),
-      description: t("testimonials.sheilaPeterson.description"),
-      beforeImage: "/images/before-after/pr1/prije.jpg",
-      afterImage: "/images/before-after/pr1/posle.jpg",
+      description: t("testimonial.sheila.description", {
+        defaultValue: "I used to be so self-conscious about my smile and always avoided taking pictures. Thanks to Sorriso, I now have a smile I’m proud to show off! The doctors were professional and made me feel comfortable throughout the entire process.",
+      }),
+      beforeImage: "/images/before-after/pr1/prije.webp",
+      afterImage: "/images/before-after/pr1/posle.webp",
     },
     {
       name: "Laura Bastone",
       age: 32,
-      country: t("countries.italy"),
-      countryFlag: "/images/flags/ita.svg",
-      profileImage: "/images/people/italy.webp",
-      treatment: t("treatments.dentalImplant"),
-      description: t("testimonials.lauraBastone.description"),
-      beforeImage: "/images/before-after/pr2/prije.jpg",
-      afterImage: "/images/before-after/pr2/posle.jpg",
+      country: "Italy",
+      profileImage: "/images/people/laura.webp",
+      description: t("testimonial.laura.description", {
+        defaultValue: "I had trouble finding an affordable solution for my missing teeth. Sorriso Care provided me with high-quality dental implants at a fraction of the cost compared to Italy, and I am delighted with my new teeth. The entire procedure was painless, and I couldn’t be happier with the results!",
+      }),
+      beforeImage: "/images/before-after/pr2/prije.webp",
+      afterImage: "/images/before-after/pr2/posle.webp",
     },
     {
-      name: "Lela Kovač Majčevski",
-      age: 49,
-      country: t("countries.montenegro"),
-      countryFlag: "/images/flags/mne.png",
-      profileImage: "/images/people/sarah.webp",
-      treatment: t("treatments.teethWhitening"),
-      description: t("testimonials.lelaKovacMajcevski.description"),
-      beforeImage: "/images/before-after/pr3/prije.JPG",
-      afterImage: "/images/before-after/pr3/posle.JPG",
+      name: "Miroslav Scekic",
+      age: 36,
+      country: "Montenegro",
+      profileImage: "/images/people/miki.webp",
+      description: t("testimonial.miroslav.description", {
+        defaultValue: "I was always conscious about the alignment of my teeth, but traditional braces were too expensive. Sorriso’s orthodontic treatment was smooth, efficient, and affordable. Now, I feel more confident than ever. Thank you, Sorriso!",
+      }),
+      beforeImage: "/images/before-after/pr4/prije.webp",
+      afterImage: "/images/before-after/pr4/posle.webp",
     },
     {
-      name: "Marry Diana Jones",
-      age: 27,
-      country: t("countries.australia"),
-      countryFlag: "/images/flags/a.svg",
-      profileImage: "/images/people/merima.webp",
-      treatment: t("treatments.orthodontics"),
-      description: t("testimonials.marryDianaJones.description"),
-      beforeImage: "/images/before-after/pr4/prije.jpg",
-      afterImage: "/images/before-after/pr4/posle.jpg",
+      name: "Hanspeter Adelberg",
+      age: 53,
+      country: "Germany",
+      profileImage: "/images/people/hans.webp",
+      description: t("testimonial.hans.description", {
+        defaultValue: "I wanted a natural-looking smile without the obvious ‘done’ look. Getting veneers at Sorriso was the best decision I’ve made. My teeth look completely natural, and I can’t stop smiling. The team’s dedication to excellence is unmatched.",
+      }),
+      beforeImage: "/images/before-after/pr5/prije.webp",
+      afterImage: "/images/before-after/pr5/posle.webp",
+    },
+    {
+      name: "Yasmin Bakker",
+      age: 46,
+      country: "Netherlands",
+      profileImage: "/images/people/natascha.webp",
+      description: t("testimonial.yasmin.description", {
+        defaultValue: "I had a gummy smile and was unsure if gum contouring would be right for me. Sorriso’s experts made me feel at ease and delivered outstanding results. Now, I can smile confidently without worrying about my gums. I couldn’t be happier with their service!",
+      }),
+      beforeImage: "/images/before-after/pr6/prije.webp",
+      afterImage: "/images/before-after/pr6/posle.webp",
+    },
+    {
+      name: "Elizabeth Mayer",
+      age: 68,
+      country: "Switzerland",
+      profileImage: "/images/people/mirka.webp",
+      description: t("testimonial.elizabeth.description", {
+        defaultValue: "Years of dental issues made me hesitant to smile, and I struggled to find a clinic that could handle my complex case. The full mouth reconstruction at Sorriso transformed my dental health and appearance. I now have a beautiful smile and a newfound sense of confidence. The team made me feel comfortable and cared for throughout the entire process.",
+      }),
+      beforeImage: "/images/before-after/pr7/prije.webp",
+      afterImage: "/images/before-after/pr7/posle.webp",
     },
   ];
 
-  const handleTestimonialClick = (testimonial: Testimonial) => {
-    setSelectedTestimonial(testimonial);
-  };
-
-  const handleCloseModal = () => {
-    setSelectedTestimonial(null);
-  };
-
   return (
-    <section className="bg-teal-50 py-20 px-6 sm:px-12 overflow-hidden">
-      <div className="container mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-teal-900 mb-12 text-center">
-          {t("gallerySection.title")}
-        </h2>
+    <>
+      {/* Video Section */}
+      <VideoSection />
+      {/* Testimonial Cards Section - One Card Per Row */}
+      <section className="flex flex-col bg-transparent">
+        <div className="container mx-auto">
+          {/* Section Title */}
+          <h2 className="text-4xl md:text-6xl lg:text-8xl font-serif font-bold text-teal-900 mb-12 text-center">
+            {t("gallerySection.title", { defaultValue: "Our Patient Transformations" })}
+          </h2>
 
-        {/* Gallery Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-          {testimonials.map((testimonial, index) => (
-            <div
-              key={index}
-              className="relative rounded-xl overflow-hidden cursor-pointer shadow-lg hover:shadow-xl transition-transform transform hover:scale-105"
-              onClick={() => handleTestimonialClick(testimonial)}
-              data-aos="fade-up"
-            >
-              <Image
-                src={testimonial.afterImage}
-                alt={`${testimonial.name} - ${testimonial.treatment}`}
-                width={300}
-                height={300}
-                className="w-full h-full object-cover"
-                placeholder="blur"
-                blurDataURL={testimonial.beforeImage}
-                loading="lazy" // Lazy load images
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-transparent to-transparent p-4">
-                <h3 className="text-lg font-bold text-white">{testimonial.name}</h3>
-                <p className="text-sm text-gray-200">{testimonial.treatment}</p>
+          {/* Responsive Layout for Single Testimonial Cards */}
+          <div className="flex flex-col gap-12">
+            {testimonials.map((testimonial, index) => (
+              <div key={index} data-aos="fade-up" className="w-full">
+                <TestimonialCard {...testimonial} />
               </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Modal for Detailed Testimonial */}
-      {selectedTestimonial && (
-        <div
-          className="fixed inset-0 z-50 bg-black bg-opacity-75 flex items-center justify-center overflow-y-auto"
-          role="dialog"
-          aria-modal="true"
-          onClick={handleCloseModal} // Close modal when clicking outside the content
-        >
-          <div
-            className="relative bg-white p-4 sm:p-8 rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-            onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the content
-          >
-            <button
-              className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 focus:outline-none"
-              onClick={handleCloseModal}
-              aria-label="Close modal"
-            >
-              ✕
-            </button>
-
-            <div className="grid grid-cols-1 gap-6">
-              <div className="flex flex-col items-center">
-                <div className="flex justify-center space-x-4">
-                  {/* Before Image */}
-                  <div className="relative w-40 h-40 sm:w-56 sm:h-56">
-                    <Image
-                      src={selectedTestimonial.beforeImage}
-                      alt={`Before - ${selectedTestimonial.name}`}
-                      layout="fill"
-                      objectFit="cover"
-                      className="rounded-lg"
-                    />
-                    <p className="absolute bottom-2 left-0 right-0 text-center text-sm text-gray-100 bg-black bg-opacity-50 py-1">
-                      Before
-                    </p>
-                  </div>
-
-                  {/* After Image */}
-                  <div className="relative w-40 h-40 sm:w-56 sm:h-56">
-                    <Image
-                      src={selectedTestimonial.afterImage}
-                      alt={`After - ${selectedTestimonial.name}`}
-                      layout="fill"
-                      objectFit="cover"
-                      className="rounded-lg"
-                    />
-                    <p className="absolute bottom-2 left-0 right-0 text-center text-sm text-gray-100 bg-black bg-opacity-50 py-1">
-                      After
-                    </p>
-                  </div>
-                </div>
-
-                {/* Testimonial Details */}
-                <div className="mt-6 text-center px-4">
-                  <h3 className="text-2xl font-bold text-teal-800">
-                    {selectedTestimonial.name}
-                  </h3>
-                  <p className="text-teal-600 text-lg">{selectedTestimonial.treatment}</p>
-                  <p className="mt-4 text-gray-700">{selectedTestimonial.description}</p>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
-      )}
-    </section>
+      </section>
+
+      {/* Patient Journey Section */}
+      <section className="flex flex-col bg-transparent">
+        <PatientJourney />
+      </section>
+
+      {/* Trust Section */}
+      <section className="flex flex-col bg-transparent">
+        <TrustSection />
+      </section>
+
+      {/* Consultation Banner Section */}
+      <section className="flex flex-col bg-transparent">
+        <ConsultationBanner />
+      </section>
+    </>
   );
 };
 
