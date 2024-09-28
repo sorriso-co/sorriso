@@ -99,6 +99,11 @@ const Header: React.FC = () => {
               className="relative px-2 py-1 hover:text-teal-400 hover:scale-105 transition-all duration-300"
             />
             <NavbarItem
+              href="/gallery"
+              text={t("header.menu.beforeAfter")}
+              className="relative px-2 py-1 hover:text-teal-400 hover:scale-105 transition-all duration-300"
+            />
+            <NavbarItem
               href="/contact"
               text={t("header.menu.contact")}
               className="relative px-2 py-1 hover:text-teal-400 hover:scale-105 transition-all duration-300"

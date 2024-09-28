@@ -4,7 +4,8 @@
       "about": "À propos",
       "services": "Services",
       "pricing": "Tarifs",
-      "contact": "Contact"
+      "contact": "Contact",
+      "beforeAfter": "Avant/Après"
     },
     "mobile_nav": {
       "menu": "Menu",
@@ -12,7 +13,8 @@
       "about": "À propos",
       "services": "Services",
       "pricing": "Tarifs",
-      "contact": "Contact"
+      "contact": "Contact",
+      "beforeAfter": "Avant/Après"
     },
     "phone": {
       "number": "+382 69 664 668",
