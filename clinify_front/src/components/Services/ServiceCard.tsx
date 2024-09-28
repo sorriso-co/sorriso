@@ -19,6 +19,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         alt={title}
         width={300}
         height={200}
+        loading="lazy"
         className="w-full h-40 object-cover rounded-t-2xl"
       />
       <div className="p-4">

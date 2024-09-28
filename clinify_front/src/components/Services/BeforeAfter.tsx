@@ -1,10 +1,4 @@
-import React, {
-  useState,
-  useRef,
-  useEffect,
-  MouseEvent,
-  TouchEvent,
-} from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowsAltH } from "@fortawesome/free-solid-svg-icons";
@@ -14,141 +8,106 @@ interface BeforeAfterProps {
   afterImage: string;
 }
 
-const BeforeAfter: React.FC<BeforeAfterProps> = ({
+const BeforeAfterSlider: React.FC<BeforeAfterProps> = ({
   beforeImage,
   afterImage,
 }) => {
   const [sliderPosition, setSliderPosition] = useState(50);
+  const [isDragging, setIsDragging] = useState(false);
   const sliderRef = useRef<HTMLDivElement>(null);
 
-  const handleSliderMove = (clientX: number) => {
-    if (!sliderRef.current) return;
-    const rect = sliderRef.current.getBoundingClientRect();
-    const offsetX = clientX - rect.left;
-    const newSliderPosition = (offsetX / rect.width) * 100;
-    setSliderPosition(Math.max(0, Math.min(100, newSliderPosition)));
+  // Handle the start of dragging
+  const startDragging = (event: React.MouseEvent | React.TouchEvent) => {
+    event.preventDefault(); // Prevent default behavior to avoid text/image selection
+    setIsDragging(true);
   };
 
-  const handleMouseMove = (e: MouseEvent) => {
-    if (e.buttons !== 1) return; // Only proceed if the left mouse button is pressed
-    handleSliderMove(e.clientX);
-  };
-
-  const handleTouchMove = (e: TouchEvent<HTMLDivElement>) => {
-    if (e.touches.length !== 1) return; // Only proceed if a single touch is present
-    handleSliderMove(e.touches[0].clientX);
-  };
-
-  const handleMouseDown = (e: MouseEvent<HTMLDivElement>) => {
-    handleSliderMove(e.clientX);
-    window.addEventListener(
-      "mousemove",
-      handleMouseMove as unknown as EventListener
-    );
-    window.addEventListener(
-      "mouseup",
-      handleMouseUp as unknown as EventListener
-    );
-  };
-
-  const handleTouchStart = (e: TouchEvent<HTMLDivElement>) => {
-    if (e.touches.length !== 1) return;
-    handleSliderMove(e.touches[0].clientX);
-    window.addEventListener(
-      "touchmove",
-      handleTouchMove as unknown as EventListener
-    );
-    window.addEventListener(
-      "touchend",
-      handleTouchEnd as unknown as EventListener
-    );
-  };
-
-  const handleMouseUp = () => {
-    window.removeEventListener(
-      "mousemove",
-      handleMouseMove as unknown as EventListener
-    );
-    window.removeEventListener(
-      "mouseup",
-      handleMouseUp as unknown as EventListener
-    );
-  };
-
-  const handleTouchEnd = () => {
-    window.removeEventListener(
-      "touchmove",
-      handleTouchMove as unknown as EventListener
-    );
-    window.removeEventListener(
-      "touchend",
-      handleTouchEnd as unknown as EventListener
-    );
+  // Handle the end of dragging
+  const stopDragging = () => {
+    setIsDragging(false);
   };
 
   useEffect(() => {
-    return () => {
-      window.removeEventListener(
-        "mousemove",
-        handleMouseMove as unknown as EventListener
-      );
-      window.removeEventListener(
-        "mouseup",
-        handleMouseUp as unknown as EventListener
-      );
-      window.removeEventListener(
-        "touchmove",
-        handleTouchMove as unknown as EventListener
-      );
-      window.removeEventListener(
-        "touchend",
-        handleTouchEnd as unknown as EventListener
-      );
+    const handleMouseMove = (event: MouseEvent | TouchEvent) => {
+      if (!isDragging || !sliderRef.current) return;
+
+      const sliderRect = sliderRef.current.getBoundingClientRect();
+      const clientX =
+        (event as MouseEvent).clientX ?? (event as TouchEvent).touches[0].clientX;
+      const newPosition = ((clientX - sliderRect.left) / sliderRect.width) * 100;
+      setSliderPosition(Math.max(0, Math.min(newPosition, 100)));
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+
+    const handleMouseUp = () => stopDragging();
+
+    // Add event listeners for mouse and touch movements
+    window.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener("mouseup", handleMouseUp);
+    window.addEventListener("touchmove", handleMouseMove, { passive: false });
+    window.addEventListener("touchend", handleMouseUp);
+
+    return () => {
+      // Remove event listeners on cleanup
+      window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("mouseup", handleMouseUp);
+      window.removeEventListener("touchmove", handleMouseMove);
+      window.removeEventListener("touchend", handleMouseUp);
+    };
+  }, [isDragging]);
 
   return (
     <div
-      className="relative w-full max-w-lg md:max-w-xl lg:max-w-2xl h-48 sm:h-64 md:h-72 lg:h-80 overflow-x-hidden rounded-3xl mx-auto"
       ref={sliderRef}
+      className="relative w-full max-w-lg h-56 sm:h-64 md:h-72 lg:h-80 overflow-hidden rounded-xl mx-auto select-none"
+      onMouseDown={startDragging}
+      onTouchStart={startDragging}
+      onTouchEnd={stopDragging}
+      style={{ touchAction: 'none' }} // Disable browser touch actions like scrolling
     >
-      <Image
-        src={beforeImage}
-        width={400}
-        height={400}
-        priority
-        alt="Before"
-        className="absolute top-0 left-0 w-full h-full"
-      />
-      <Image
-        src={afterImage}
-        width={400}
-        height={400}
-        priority
-        alt="After"
-        className="absolute top-0 left-0 w-full h-full"
-        style={{
-          clipPath: `polygon(0 0, ${sliderPosition}% 0, ${sliderPosition}% 100%, 0 100%)`,
-        }}
-      />
-      <div
-        className="absolute top-0 left-0 w-0.5 h-full bg-white pointer-events-none"
-        style={{ left: `${sliderPosition}%` }}
-      />
-      <div
-        className="absolute top-0 left-0 w-4 h-4 bg-white rounded-full shadow pointer-events-none flex items-center justify-center"
-        style={{ left: `calc(${sliderPosition}% - 0.5rem)` }}
-      >
-        <FontAwesomeIcon icon={faArrowsAltH} className="text-teal-500" />
+      {/* Before Image */}
+      <div className="absolute inset-0">
+        <Image
+          src={beforeImage}
+          alt="Before"
+          layout="fill"
+          objectFit="cover"
+          className="absolute inset-0 w-full h-full rounded-xl"
+        />
       </div>
+
+      {/* After Image with clip path controlled by slider */}
       <div
-        className="absolute top-0 left-0 w-full h-full cursor-col-resize"
-        onMouseDown={handleMouseDown}
-        onTouchStart={handleTouchStart}
-      />
+        className="absolute inset-0 overflow-hidden rounded-xl"
+        style={{
+          clipPath: `polygon(${sliderPosition}% 0, 100% 0, 100% 100%, ${sliderPosition}% 100%)`,
+          transition: isDragging ? "none" : "clip-path 0.4s ease-in-out",
+        }}
+      >
+        <Image
+          src={afterImage}
+          alt="After"
+          layout="fill"
+          objectFit="cover"
+          className="absolute inset-0 w-full h-full rounded-xl"
+        />
+      </div>
+
+      {/* Draggable Slider Line */}
+      <div
+        className="absolute top-0 bottom-0"
+        style={{
+          left: `${sliderPosition}%`,
+          transform: "translateX(-50%)",
+          cursor: "ew-resize",
+        }}
+      >
+        <div className="relative h-full bg-teal-400 w-1 rounded-full"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-teal-500 text-white p-1.5 rounded-full shadow-md">
+          <FontAwesomeIcon icon={faArrowsAltH} size="sm" />
+        </div>
+      </div>
     </div>
   );
 };
 
-export default BeforeAfter;
+export default BeforeAfterSlider;

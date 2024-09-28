@@ -124,6 +124,7 @@ const ExpertiseOverview: React.FC = () => {
                   layout="responsive"
                   width={1200}
                   height={800}
+                  loading="lazy"
                   className="w-full h-full object-cover rounded-xl shadow-lg"
                 />
               </div>

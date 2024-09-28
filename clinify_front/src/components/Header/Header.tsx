@@ -56,7 +56,7 @@ const Header: React.FC = () => {
 
       {/* Header */}
       <header
-        className={`fixed top-0 left-0 w-full py-4 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 text-lg flex items-center justify-between z-50 transition-all duration-300 ${
+        className={`fixed top-0 left-0 w-full py-2 px-4 sm:px-6 md:px-8 lg:px-12 text-base flex items-center justify-between z-50 transition-all duration-300 ${
           isScrolled
             ? "bg-white shadow-lg text-teal-700"
             : "bg-transparent text-green-900"
@@ -68,8 +68,8 @@ const Header: React.FC = () => {
             <Image
               src="/images/logos/sorriso.png"
               alt="Sorriso"
-              width={200}
-              height={50}
+              width={150}
+              height={40}
               priority
               className="h-auto w-auto"
             />
@@ -77,53 +77,53 @@ const Header: React.FC = () => {
         </div>
 
         {/* Menu Links (for larger screens) */}
-        <div className="flex flex-1 justify-end items-center">
-          <div className="hidden lg:flex flex-1 justify-evenly items-center">
+        <div className="flex flex-1 lg:flex-none justify-start items-center ml-4"> {/* Changed flex behavior */}
+          <div className="hidden lg:flex space-x-4 items-center"> {/* Reduced spacing and moved closer to logo */}
             <NavbarItem
               href="/about"
               text={t("header.menu.about")}
-              className="relative px-4 py-2 hover:text-teal-400 hover:scale-105 transition-all duration-300"
+              className="relative px-2 py-1 hover:text-teal-400 hover:scale-105 transition-all duration-300"
               submenuClassName="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg"
               submenuItemClassName="block px-4 py-2 text-teal-700 hover:bg-teal-100"
             />
             <NavbarItem
               href="/services"
               text={t("header.menu.services")}
-              className="relative px-4 py-2 hover:text-teal-400 hover:scale-105 transition-all duration-300"
+              className="relative px-2 py-1 hover:text-teal-400 hover:scale-105 transition-all duration-300"
               submenuClassName="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg"
               submenuItemClassName="block px-4 py-2 text-teal-700 hover:bg-teal-100"
             />
             <NavbarItem
               href="/pricing"
               text={t("header.menu.pricing")}
-              className="relative px-4 py-2 hover:text-teal-400 hover:scale-105 transition-all duration-300"
+              className="relative px-2 py-1 hover:text-teal-400 hover:scale-105 transition-all duration-300"
             />
             <NavbarItem
               href="/contact"
               text={t("header.menu.contact")}
-              className="relative px-4 py-2 hover:text-teal-400 hover:scale-105 transition-all duration-300"
+              className="relative px-2 py-1 hover:text-teal-400 hover:scale-105 transition-all duration-300"
             />
           </div>
 
           {/* Phone Number (visible only on large screens) */}
-          <div className="hidden lg:flex flex-col items-start text-teal-700">
+          <div className="hidden lg:flex flex-col items-start text-teal-700 ml-8"> {/* Added margin-left for separation */}
             <div className="flex items-center">
-              <FiPhoneCall className="w-6 h-6 mr-2" />
-              <span className="font-semibold">{t("header.phone.number")}</span>
+              <FiPhoneCall className="w-5 h-5 mr-1" />
+              <span className="font-semibold text-sm">{t("header.phone.number")}</span>
             </div>
-            <span className="text-sm text-gray-600 -ml-1">
+            <span className="text-xs text-gray-600 -ml-1">
               {t("header.phone.availability")}
             </span>
           </div>
 
           {/* Mobile Menu Toggle */}
-          <div className="relative lg:hidden flex items-center" ref={menuRef}>
+          <div className="relative lg:hidden flex items-center ml-auto" ref={menuRef}> {/* Adjusted spacing */}
             <button
               className="text-current focus:outline-none"
               onClick={toggleMenu}
             >
               <svg
-                className="w-6 h-6"
+                className="w-5 h-5"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -143,12 +143,9 @@ const Header: React.FC = () => {
       </header>
 
       {/* Spacing for fixed header */}
-      <div className="mt-24"></div>
+      <div className="mt-16"></div> {/* Reduced spacing to account for smaller header */}
     </>
   );
 };
 
 export default Header;
-
-// added comment just to trigger the push,
-// all

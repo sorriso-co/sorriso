@@ -87,7 +87,7 @@ const Mission: React.FC = () => {
             width={700}
             height={500}
             className="rounded-lg transform transition-transform hover:scale-105"
-            priority
+            loading="lazy"
           />
         </div>
       </div>

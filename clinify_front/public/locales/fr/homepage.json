@@ -2,8 +2,9 @@
   "frontHero": {
     "title": "Votre Prochain Voyage Dentaire",
     "subtitle": "Consultations Gratuites, Soins de Classe Mondiale, Résultats Éblouissants",
-    "visitButton": "Contactez-nous",
-    "scheduleButton": "Voir nos services"
+    "visitButton": "Nos transformations",
+    "scheduleButton": "Comment ça marche",
+    "patientSatisfaction":"Taux de satisfaction des patients : 4,9/5, basé sur des milliers de traitements réussis."
   },
   "haveItAll": {
     "title": "Tout Avoir avec Sorriso",

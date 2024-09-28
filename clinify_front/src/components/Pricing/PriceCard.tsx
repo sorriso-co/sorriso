@@ -64,6 +64,7 @@ const PriceCard: React.FC<PriceCardProps> = ({
                     alt={item.country}
                     width={100}
                     height={100}
+                    loading="lazy"
                     className="ml-2 w-6 h-4 object-contain"
                   />
                 </span>

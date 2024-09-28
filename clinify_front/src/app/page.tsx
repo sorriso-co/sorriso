@@ -97,7 +97,7 @@ const Home: React.FC = () => {
         </div>
 
         {/* How It Works Section */}
-        <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
+        <div id="how-it-works-section" className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
           <HowItWorks />
         </div>
 
