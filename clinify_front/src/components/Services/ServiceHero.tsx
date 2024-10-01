@@ -1,28 +1,17 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import Link from "next/link";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
 
 const ServiceHero: React.FC = () => {
   const { t } = useTranslation("services");
 
-  useEffect(() => {
-    AOS.init({
-      duration: 1200,
-      once: true,
-      easing: "ease-in-out",
-      disable: "phone",
-    });
-  }, []);
-
   return (
     <section className="relative bg-gradient-to-br from-teal-900 via-teal-600 to-teal-400 text-white py-24 px-8 overflow-hidden rounded-xl shadow-2xl font-serif">
       <div className="container mx-auto flex flex-col md:flex-row items-center md:space-x-8">
         {/* Text Section */}
-        <div className="md:w-1/2 text-center md:text-left" data-aos="fade-right">
+        <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold mb-4 text-white leading-tight">
             {t("serviceHero.title", { defaultValue: "Premium Dental Services" })}
           </h1>
@@ -34,12 +23,12 @@ const ServiceHero: React.FC = () => {
           </p>
           <div className="flex justify-center md:justify-start space-x-4 mt-8">
             <Link href="/howitworks" passHref>
-              <button className="font-serif bg-white text-teal-700 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-teal-100 transition-transform transform hover:scale-110 duration-300">
+              <button className="font-serif bg-white text-teal-700 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-teal-100">
                 {t("serviceHero.ctaLearnMore", { defaultValue: "Learn More" })}
               </button>
             </Link>
             <Link href="/contact" passHref>
-              <button className="font-serif bg-teal-800 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-teal-900 transition-transform transform hover:scale-110 duration-300">
+              <button className="font-serif bg-teal-800 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-teal-900">
                 {t("serviceHero.ctaBookAppointment", {
                   defaultValue: "Book an Appointment",
                 })}
@@ -49,14 +38,15 @@ const ServiceHero: React.FC = () => {
         </div>
 
         {/* Image Section */}
-        <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center" data-aos="fade-left">
+        <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center">
           <Image
             src="/images/about_us_slide/chair.webp"
             alt="High-Quality Dental Chair for Professional Services"
             width={800}
             height={600}
             priority
-            className="rounded-xl shadow-2xl max-w-full h-auto border-4 border-white transform hover:scale-110 transition-transform duration-500"
+            loading="eager"
+            className="rounded-xl shadow-2xl max-w-full h-auto border-4 border-white"
           />
         </div>
       </div>

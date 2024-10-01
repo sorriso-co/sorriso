@@ -24,7 +24,6 @@ const ContactUs = () => {
         {/* Title */}
         <h2
           className="text-5xl sm:text-6xl font-extrabold mb-6 text-white"
-          data-aos="fade-up"
         >
           {t("contactUs.title", { defaultValue: "Get in Touch" })}
         </h2>
@@ -32,8 +31,6 @@ const ContactUs = () => {
         {/* Description */}
         <p
           className="text-xl sm:text-2xl text-white mb-12 max-w-3xl mx-auto"
-          data-aos="fade-up"
-          data-aos-delay="100"
         >
           {t("contactUs.description", {
             defaultValue: "Reach out to us today for more information or assistance with your dental needs. We're here to help!"
@@ -44,8 +41,6 @@ const ContactUs = () => {
         <Link
           href="/contact"
           className="inline-block bg-teal-500 text-white text-lg sm:text-xl py-4 px-10 rounded-full hover:bg-teal-600 transition-transform transform hover:scale-105 mb-10 shadow-lg"
-          data-aos="fade-up"
-          data-aos-delay="200"
         >
           {t("contactUs.contactButton", { defaultValue: "Contact Us" })}
         </Link>
@@ -53,8 +48,6 @@ const ContactUs = () => {
         {/* Call Us Text */}
         <div
           className="text-xl sm:text-2xl font-semibold text-white mb-8"
-          data-aos="fade-up"
-          data-aos-delay="300"
         >
           {t("contactUs.callUs", { defaultValue: "Or Call Us" })}
         </div>
@@ -62,8 +55,6 @@ const ContactUs = () => {
         {/* Phone and WhatsApp Button */}
         <div
           className="flex justify-center items-center space-x-6"
-          data-aos="fade-up"
-          data-aos-delay="400"
         >
           <Link href="https://wa.me/+38269664668" passHref>
             <div className="flex items-center bg-white text-teal-600 py-4 px-8 rounded-full shadow-lg transform transition-transform hover:scale-105 cursor-pointer">

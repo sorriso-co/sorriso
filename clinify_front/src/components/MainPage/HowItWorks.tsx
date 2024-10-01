@@ -1,13 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
-import {
-  FaPhoneAlt,
-  FaClipboardList,
-  FaComments,
-  FaPlane,
-  FaTooth,
-  FaSmile,
-} from "react-icons/fa";
+import { FaPhoneAlt, FaClipboardList, FaComments, FaPlane, FaTooth, FaSmile } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
@@ -26,26 +19,25 @@ const HowItWorks: React.FC = () => {
   };
 
   useEffect(() => {
+    // Initialize AOS without unnecessary transitions
     AOS.init({
-      duration: 1000,
+      duration: 0, // Set to 0 to disable AOS transitions
       once: true,
     });
   }, []);
 
   const NextArrow = (props: any) => {
-    const { className, style, onClick } = props;
+    const { className, onClick } = props;
     return (
       <button
-        className={`${className} transition-opacity duration-300`}
+        className={`${className}`}
         style={{
-          ...style,
           right: '0px', // Aligned to the right edge
           zIndex: 2,
           fontSize: '24px',
           color: '#004d40', // Dark green color
           background: 'none',
           border: 'none',
-          outline: 'none',
           cursor: 'pointer',
         }}
         onClick={onClick}
@@ -56,19 +48,17 @@ const HowItWorks: React.FC = () => {
   };
 
   const PrevArrow = (props: any) => {
-    const { className, style, onClick } = props;
+    const { className, onClick } = props;
     return (
       <button
-        className={`${className} transition-opacity duration-300`}
+        className={`${className}`}
         style={{
-          ...style,
           left: '0px', // Aligned to the left edge
           zIndex: 2,
           fontSize: '24px',
           color: '#004d40', // Dark green color
           background: 'none',
           border: 'none',
-          outline: 'none',
           cursor: 'pointer',
         }}
         onClick={onClick}
@@ -107,23 +97,18 @@ const HowItWorks: React.FC = () => {
   };
 
   return (
-    <section className="relative bg-teal-50 py-12 lg:py-16 overflow-hidden">
+    <section className="relative bg-teal-50 py-12 lg:py-16">
       <div className="container mx-auto px-4 lg:px-16">
         {/* Section Title */}
-        <h2
-          className="font-serif text-5xl sm:text-5xl md:text-8xl font-extrabold text-teal-700 text-center mb-10"
-          data-aos="fade-down"
-        >
-          {t("howItWorks.title", {
-            defaultValue: "In 6 Easy Steps to Your Perfect Smile",
-          })}
+        <h2 className="font-serif text-5xl sm:text-5xl md:text-8xl font-extrabold text-teal-700 text-center mb-10">
+          {t("howItWorks.title", { defaultValue: "In 6 Easy Steps to Your Perfect Smile" })}
         </h2>
 
         {/* Slider Section */}
-        <div ref={sliderRef} data-aos="fade-up">
+        <div ref={sliderRef}>
           <Slider {...sliderSettings}>
             {/* Step 1 */}
-            <div className="px-4"> {/* Added horizontal padding */}
+            <div className="px-4">
               <Step
                 stepNumber="1"
                 title={t("howItWorks.steps.step1.title", {
@@ -142,8 +127,7 @@ const HowItWorks: React.FC = () => {
                   defaultValue: "Personalized Treatment Plan",
                 })}
                 description={t("howItWorks.steps.step2.description", {
-                  defaultValue:
-                    "Receive a detailed treatment plan personalized to your needs.",
+                  defaultValue: "Receive a detailed treatment plan personalized to your needs.",
                 })}
                 Icon={FaClipboardList}
               />
@@ -157,8 +141,7 @@ const HowItWorks: React.FC = () => {
                   defaultValue: "Ask Any Questions",
                 })}
                 description={t("howItWorks.steps.step3.description", {
-                  defaultValue:
-                    "Ask any questions you have about the treatment process.",
+                  defaultValue: "Ask any questions you have about the treatment process.",
                 })}
                 Icon={FaComments}
               />
@@ -172,8 +155,7 @@ const HowItWorks: React.FC = () => {
                   defaultValue: "Travel for Treatment",
                 })}
                 description={t("howItWorks.steps.step4.description", {
-                  defaultValue:
-                    "Travel to Montenegro for your world-class dental treatment.",
+                  defaultValue: "Travel to Montenegro for your world-class dental treatment.",
                 })}
                 Icon={FaPlane}
               />
@@ -187,8 +169,7 @@ const HowItWorks: React.FC = () => {
                   defaultValue: "Receive Treatment",
                 })}
                 description={t("howItWorks.steps.step5.description", {
-                  defaultValue:
-                    "Our expert dentists will provide you with the best care using the latest technology.",
+                  defaultValue: "Our expert dentists will provide you with the best care using the latest technology.",
                 })}
                 Icon={FaTooth}
               />
@@ -202,8 +183,7 @@ const HowItWorks: React.FC = () => {
                   defaultValue: "Enjoy Your New Smile",
                 })}
                 description={t("howItWorks.steps.step6.description", {
-                  defaultValue:
-                    "Leave with a beautiful smile and a memorable experience.",
+                  defaultValue: "Leave with a beautiful smile and a memorable experience.",
                 })}
                 Icon={FaSmile}
               />
@@ -214,26 +194,21 @@ const HowItWorks: React.FC = () => {
         {/* Call to Action */}
         <div className="text-center mt-12">
           <button
-            className="bg-teal-700 hover:bg-teal-800 text-white py-3 px-8 rounded-full shadow-md transition duration-300 mt-8 flex items-center justify-center mx-auto"
+            className="bg-teal-700 text-white py-3 px-8 rounded-full shadow-md mt-8"
             onClick={toggleModal}
           >
-            {t("serviceGrid.buttonText", {
-              defaultValue: "Book a Free Consultation",
-            })}
+            {t("serviceGrid.buttonText", { defaultValue: "Book a Free Consultation" })}
           </button>
           {isModalOpen && (
             <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75">
               <div className="bg-white rounded-lg p-8 w-full max-w-5xl relative shadow-xl">
                 <button
                   onClick={toggleModal}
-                  className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 text-3xl"
+                  className="absolute top-2 right-2 text-gray-600 text-3xl"
                 >
                   &times;
                 </button>
-                <div
-                  className="relative"
-                  style={{ paddingBottom: "56.25%", height: 0 }}
-                >
+                <div className="relative" style={{ paddingBottom: "56.25%", height: 0 }}>
                   <iframe
                     src="https://www.youtube.com/embed/CoucS-fy2FI?si=qt3GdS64rwl0elN2&start=2"
                     title="YouTube video player"
@@ -242,10 +217,7 @@ const HowItWorks: React.FC = () => {
                   ></iframe>
                 </div>
                 <Link href="/contact">
-                  <button
-                    className="bg-teal-600 hover:bg-teal-700 text-white py-3 px-8 rounded-full shadow-md transition duration-300 mt-8"
-                    onClick={toggleModal}
-                  >
+                  <button className="bg-teal-600 text-white py-3 px-8 rounded-full shadow-md mt-8">
                     Learn More
                   </button>
                 </Link>

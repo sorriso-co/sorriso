@@ -248,47 +248,35 @@ const Treatments: React.FC = () => {
     <div className="min-h-screen py-12 bg-transparent flex justify-center items-center">
       <div className="container mx-auto px-4">
         <div className="overflow-x-auto">
-          <table className="min-w-full bg-white rounded-lg overflow-hidden">
+          <table className="min-w-full bg-white rounded-lg overflow-hidden shadow-md">
             <thead className="bg-teal-600 text-white">
               <tr>
-                <th className="text-left py-3 px-4 text-lg font-semibold">
-                  {t("treatment")}
-                </th>
-                <th className="text-center py-3 px-4 text-lg font-semibold">
-                  {t("price")}
-                </th>
-                <th className="text-center py-3 px-4 text-lg font-semibold">
-                  {t("savings")}
-                </th>
+                <th className="text-left py-3 px-4 text-lg font-semibold">{t("treatment")}</th>
+                <th className="text-center py-3 px-4 text-lg font-semibold">{t("price")}</th>
+                <th className="text-center py-3 px-4 text-lg font-semibold">{t("savings")}</th>
               </tr>
             </thead>
             <tbody>
               {treatments.map((treatment, index) => (
-                <React.Fragment key={index}>
-                  <tr
-                    className={`cursor-pointer hover:bg-teal-50 transition-colors duration-200 ${
-                      treatment.options ? "font-bold text-teal-800" : "text-teal-700"
-                    }`}
-                    onClick={() => treatment.options}
-                    data-aos="fade-up"
-                    data-aos-delay={index * 50}
-                  >
-                    <td className="py-3 px-4 border-b border-gray-200">
-                      {t(treatment.name)}
-                      {treatment.options && (
-                        <span className="ml-2 text-sm text-teal-600">
-                          ({t("clickForOptions")})
-                        </span>
-                      )}
-                    </td>
-                    {!treatment.options && treatment.price !== undefined && (
-                      <>
-                        {renderPrice(treatment.price)}
-                        {renderSavings(treatment.price, treatment.euPrice!)}
-                      </>
+                <tr
+                  key={index}
+                  className={`cursor-pointer hover:bg-teal-50 transition-colors duration-200 ${
+                    treatment.options ? "font-bold text-teal-800" : "text-teal-700"
+                  }`}
+                >
+                  <td className="py-3 px-4 border-b border-gray-200">
+                    {t(treatment.name)}
+                    {treatment.options && (
+                      <span className="ml-2 text-sm text-teal-600">({t("clickForOptions")})</span>
                     )}
-                  </tr>
-                </React.Fragment>
+                  </td>
+                  {!treatment.options && treatment.price !== undefined && (
+                    <>
+                      {renderPrice(treatment.price)}
+                      {renderSavings(treatment.price, treatment.euPrice!)}
+                    </>
+                  )}
+                </tr>
               ))}
             </tbody>
           </table>

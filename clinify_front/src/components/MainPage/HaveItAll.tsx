@@ -1,9 +1,9 @@
-import React from "react";
+import React, {memo} from "react";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
 const HaveItAll: React.FC = () => {
-  const { t } = useTranslation('homepage');
+  const { t } = useTranslation("homepage");
 
   return (
     <section className="bg-transparent text-teal-800 py-20 px-8 lg:px-24">
@@ -21,7 +21,7 @@ const HaveItAll: React.FC = () => {
         {/* Button */}
         <div className="flex justify-center">
           <Link href="/contact"
-            className="inline-block bg-teal-500 text-white font-bold py-4 px-10 rounded-full shadow-lg hover:bg-teal-600 hover:shadow-2xl transition-transform transform hover:scale-105 text-xl lg:text-2xl transition-all duration-300">
+            className="bg-teal-500 text-white font-bold py-4 px-10 rounded-full shadow-lg text-xl lg:text-2xl border-2 border-teal-400">
               {t("haveItAll.buttonText", { defaultValue: "Schedule an Appointment" })}
           </Link>
         </div>
@@ -30,4 +30,4 @@ const HaveItAll: React.FC = () => {
   );
 };
 
-export default HaveItAll;
+export default memo(HaveItAll);

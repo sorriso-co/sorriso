@@ -1,5 +1,5 @@
 "use client";
-import React from 'react';
+import React, {memo} from 'react';
 import { useTranslation } from 'react-i18next';
 
 const Privacy: React.FC = () => {
@@ -35,7 +35,6 @@ const Privacy: React.FC = () => {
             </p>
             <ul className="list-disc list-inside ml-6 space-y-2 text-lg text-gray-600">
               <li>{t('privacyPolicy.informationWeCollectItem1')}</li>
-              <li>{t('privacyPolicy.informationWeCollectItem2')}</li>
               <li>{t('privacyPolicy.informationWeCollectItem3')}</li>
               <li>{t('privacyPolicy.informationWeCollectItem4')}</li>
             </ul>
@@ -51,7 +50,6 @@ const Privacy: React.FC = () => {
             </p>
             <ul className="list-disc list-inside ml-6 space-y-2 text-lg text-gray-600">
               <li>{t('privacyPolicy.howWeUseInformationItem1')}</li>
-              <li>{t('privacyPolicy.howWeUseInformationItem2')}</li>
               <li>{t('privacyPolicy.howWeUseInformationItem3')}</li>
               <li>{t('privacyPolicy.howWeUseInformationItem4')}</li>
             </ul>
@@ -72,4 +70,4 @@ const Privacy: React.FC = () => {
   );
 };
 
-export default Privacy;
+export default memo(Privacy);

@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useInView } from "react-intersection-observer";
-import { FaPlay } from "react-icons/fa";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 
@@ -13,7 +12,7 @@ interface Service {
 }
 
 const ServiceGrid: React.FC = () => {
-  const { t } = useTranslation("homepage"); 
+  const { t } = useTranslation("homepage");
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const toggleModal = () => {
@@ -66,68 +65,46 @@ const ServiceGrid: React.FC = () => {
   const router = useRouter();
 
   const handleCardClick = () => {
-    router.push("/procedures");
+    router.push("/services");
   };
 
-  const [ref, inView] = useInView({
+  const [ref] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
 
-  const getAnimationDelay = (index: number) => {
-    const row = Math.floor(index / 4);
-    const column = index % 4;
-    return `${row * 1.6 + column * 0.4}s`;
-  };
-
   return (
-    <div ref={ref} className="relative overflow-x-hidden px-8 py-16 bg-teal-50">
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <svg width="100%" height="100%">
-          <defs>
-            <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop
-                offset="0%"
-                style={{ stopColor: "rgba(255,255,255,0)", stopOpacity: 0 }}
-              />
-              <stop
-                offset="100%"
-                style={{ stopColor: "rgba(0,128,128,0.2)", stopOpacity: 1 }}
-              />
-            </linearGradient>
-          </defs>
-          <circle cx="50%" cy="50%" r="300" fill="url(#gradient2)" />
-        </svg>
-      </div>
+    <div
+      ref={ref}
+      className="relative overflow-x-hidden px-4 md:px-8 py-12 md:py-16 bg-teal-50"
+    >
       <div className="container mx-auto relative z-10">
-        <h2 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif font-bold text-center text-teal-700 mb-4 drop-shadow-lg">
+        <h2 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-center text-teal-700 mb-6">
           {t("serviceGrid.title")}
         </h2>
-        <p className="text-2xl font-serif text-center text-teal-600 mb-12">
+        <p className="text-xl md:text-3xl font-serif text-center text-teal-600 mb-12">
           {t("serviceGrid.description")}
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <div
               key={index}
-              className={`cursor-pointer transform transition duration-700 ease-in-out opacity-0 ${
-                inView ? "opacity-100 translate-y-0" : "translate-y-10"
-              }`}
-              style={{ transitionDelay: getAnimationDelay(index) }}
+              className={`opacity-100`} // Removed unnecessary transitions and animations
               onClick={handleCardClick}
             >
-              <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105">
-                <div className="w-24 h-24 mb-4">
+              <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md">
+                <div className="w-24 h-24 mb-4 flex items-center justify-center">
                   <Image
                     src={service.icon}
                     alt={service.altText}
                     width={96}
                     height={96}
-                    loading="lazy"
+                    loading={index === 0 ? "eager" : "lazy"} // Use eager loading for the first image and lazy for others
                     className="w-full h-full object-contain"
+                    sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 12vw" // Use responsive sizes for better performance
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-teal-600">
+                <h3 className="text-xl font-semibold text-teal-600 text-center">
                   {service.title}
                 </h3>
               </div>
@@ -136,30 +113,27 @@ const ServiceGrid: React.FC = () => {
         </div>
         <div className="text-center mt-12">
           <button
-            className="bg-teal-600 hover:bg-teal-700 text-white py-2 px-6 rounded-full shadow-md transition duration-300 mt-8 flex items-center justify-center mx-auto"
+            className="bg-teal-600 text-white py-2 px-8 rounded-full shadow-md text-lg md:text-xl"
             onClick={toggleModal}
           >
-            <FaPlay className="mr-2" /> {t("serviceGrid.buttonText")}
+             {t("serviceGrid.buttonText")}
           </button>
           {isModalOpen && (
             <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75">
               <div className="bg-white rounded-lg p-8 w-full max-w-5xl relative shadow-xl">
                 <button
                   onClick={toggleModal}
-                  className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 text-3xl"
+                  className="absolute top-2 right-2 text-gray-600 text-3xl"
                 >
                   &times;
                 </button>
-                <div
-                  className="relative"
-                  style={{ paddingBottom: "56.25%", height: 0 }}
-                >
+                <div className="relative" style={{ paddingBottom: "56.25%", height: 0 }}>
                   <iframe
                     src="https://www.youtube.com/embed/OEyE7MUoXIc?si=jwWSu2l9DkDTFT8Q&amp;start=4"
                     title="YouTube video player"
                     className="absolute top-0 left-0 w-full h-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
                     allowFullScreen
+                    loading="lazy" // Ensure the iframe is lazy-loaded
                   ></iframe>
                 </div>
               </div>
