@@ -21,7 +21,7 @@ const LanguageSwitcher: React.FC = () => {
   };
 
   return (
-    <div className="fixed bottom-4 right-4 flex space-x-4 z-50 p-2 bg-transparent rounded-lg backdrop-blur-md">
+    <div className="fixed bottom-4 right-4 flex space-x-2 md:space-x-4 z-50 p-2 bg-transparent rounded-lg backdrop-blur-md">
       {languages.map((lang) => (
         <div key={lang.code} className="relative">
           {/* Language Button */}
@@ -29,7 +29,7 @@ const LanguageSwitcher: React.FC = () => {
             onClick={() => handleChangeLanguage(lang.code)}
             onMouseEnter={() => setHoveredLang(lang.name)}
             onMouseLeave={() => setHoveredLang(null)}
-            className={`w-16 h-10 overflow-hidden rounded-lg focus:outline-none ${
+            className={`w-12 h-8 md:w-16 md:h-10 overflow-hidden rounded-lg focus:outline-none ${
               i18n.language === lang.code
                 ? "ring-2 ring-teal-400"
                 : "ring-1 ring-gray-600"
@@ -48,7 +48,7 @@ const LanguageSwitcher: React.FC = () => {
 
           {/* Tooltip */}
           {hoveredLang === lang.name && (
-            <div className="absolute bottom-12 left-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded shadow-lg z-50">
+            <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded shadow-lg z-50">
               {lang.name}
             </div>
           )}

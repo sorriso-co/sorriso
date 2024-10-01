@@ -12,7 +12,7 @@ const PatientJourney: React.FC = () => {
       <div className="w-full max-w-7xl flex flex-col items-center">
         {/* Text Section */}
         <div className="w-full max-w-4xl text-center mb-8 sm:mb-12 px-4">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-extrabold text-teal-900 mb-6 sm:mb-8 leading-tight">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-extrabold text-teal-900 mb-6 sm:mb-8 leading-tight">
             {t("patientJourney.title")}
           </h1>
           <p className="text-base sm:text-lg md:text-2xl font-serif text-gray-800 mb-4 sm:mb-6 leading-relaxed">

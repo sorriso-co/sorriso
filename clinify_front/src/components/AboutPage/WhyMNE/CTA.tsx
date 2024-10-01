@@ -11,10 +11,10 @@ const AboutPageCTA: React.FC = () => {
     <section className="bg-transparent py-12 lg:py-16 text-white">
       <div className="container mx-auto text-center px-4 sm:px-6 lg:px-8">
         {/* CTA Content */}
-        <h2 className="text-3xl text-teal-700 sm:text-4xl lg:text-5xl font-bold font-serif mb-6">
+        <h2 className="text-2xl text-teal-700 sm:text-3xl lg:text-5xl font-bold font-serif mb-4 sm:mb-6">
           {t("cta.title", { defaultValue: "Ready to Experience World-Class Dental Care?" })}
         </h2>
-        <p className="text-lg text-teal-700 sm:text-xl lg:text-2xl font-light mb-8">
+        <p className="text-base text-teal-700 sm:text-lg lg:text-2xl font-light mb-6 sm:mb-8">
           {t("cta.description", {
             defaultValue:
               "Join thousands of satisfied clients and get the dental care you deserve at Sorriso. Start your journey towards a healthier, more radiant smile today.",
@@ -22,16 +22,16 @@ const AboutPageCTA: React.FC = () => {
         </p>
 
         {/* Buttons */}
-        <div className="flex justify-center space-x-4">
+        <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
           <Link
             href="/contact"
-            className="bg-white text-teal-700 font-bold py-3 px-8 rounded-full shadow-lg text-lg"
+            className="bg-white text-teal-700 font-bold py-2 px-6 sm:py-3 sm:px-8 rounded-full shadow-lg text-sm sm:text-lg"
           >
             {t("cta.bookButton", { defaultValue: "Book a Consultation" })}
           </Link>
           <Link
             href="/services"
-            className="bg-teal-500 text-white font-bold py-3 px-8 rounded-full shadow-lg text-lg"
+            className="bg-teal-500 text-white font-bold py-2 px-6 sm:py-3 sm:px-8 rounded-full shadow-lg text-sm sm:text-lg"
           >
             {t("cta.servicesButton", { defaultValue: "Explore Our Services" })}
           </Link>
