@@ -1,23 +1,28 @@
 "use client";
-import React from 'react';
-import Link from 'next/link';
-import { useTranslation } from 'next-i18next';
+import React from "react";
+import Link from "next/link";
+import { useTranslation } from "next-i18next";
 
 const CallToAction: React.FC = () => {
-  const { t } = useTranslation('services');
+  const { t } = useTranslation("services");
 
   return (
-    <section className="relative bg-transparent py-16 px-8 text-center overflow-x-hidden">
-      <div className="container mx-auto relative z-10">
-        <h2 className="text-4xl md:text-7xl font-serif font-bold text-teal-800 mb-6">
-          {t('cta.title')}
+    <section className="relative bg-transparent py-16 px-8 text-center">
+      <div className="container mx-auto">
+        {/* Title */}
+        <h2 className="text-4xl md:text-6xl font-serif font-bold text-teal-800 mb-6">
+          {t("cta.title")}
         </h2>
-        <p className="text-lg md:text-3xl font-serif text-teal-800 mb-8">
-          {t('cta.description')}
+
+        {/* Description */}
+        <p className="text-base md:text-xl font-serif text-teal-800 mb-8">
+          {t("cta.description")}
         </p>
+
+        {/* Call to Action Button */}
         <Link href="/contact" passHref>
-          <div className="bg-white text-teal-800 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition-transform transform hover:scale-110 inline-block text-xl cursor-pointer">
-            {t('cta.buttonText')}
+          <div className="bg-teal-700 text-white font-bold py-3 px-8 rounded-full hover:bg-teal-800 transition-colors inline-block text-lg cursor-pointer">
+            {t("cta.buttonText")}
           </div>
         </Link>
       </div>

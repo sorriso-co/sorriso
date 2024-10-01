@@ -14,34 +14,41 @@ const LanguageSwitcher: React.FC = () => {
     { code: "fr", name: "French" },
   ];
 
+  const handleChangeLanguage = (code: string) => {
+    if (i18n.language !== code) {
+      i18n.changeLanguage(code);
+    }
+  };
+
   return (
-    <div className="fixed bottom-4 right-4 flex space-x-2 z-50 p-2 bg-transparent bg-opacity-90 rounded-lg">
+    <div className="fixed bottom-4 right-4 flex space-x-4 z-50 p-2 bg-transparent rounded-lg backdrop-blur-md">
       {languages.map((lang) => (
         <div key={lang.code} className="relative">
           {/* Language Button */}
           <button
-            onClick={() => i18n.changeLanguage(lang.code)}
+            onClick={() => handleChangeLanguage(lang.code)}
             onMouseEnter={() => setHoveredLang(lang.name)}
             onMouseLeave={() => setHoveredLang(null)}
-            className={`w-10 h-10 rounded-full focus:outline-none transition-transform transform hover:scale-110 ${
+            className={`w-16 h-10 overflow-hidden rounded-lg focus:outline-none ${
               i18n.language === lang.code
                 ? "ring-2 ring-teal-400"
                 : "ring-1 ring-gray-600"
-            } shadow-lg hover:ring-teal-300`}
+            } shadow-lg`}
+            aria-label={`Change language to ${lang.name}`}
           >
             <Image
-              src={`/images/lang/${lang.code}.png`}
+              src={`/images/lang/${lang.code}.webp`}
               alt={`${lang.name} flag`}
-              width={40}
-              height={40}
-              className="rounded-full object-cover"
-              style={{ width: "40px", height: "40px" }}
+              width={160}
+              height={100}
+              loading="eager"
+              className="object-cover"
             />
           </button>
 
           {/* Tooltip */}
           {hoveredLang === lang.name && (
-            <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded shadow-lg z-10">
+            <div className="absolute bottom-12 left-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded shadow-lg z-50">
               {lang.name}
             </div>
           )}

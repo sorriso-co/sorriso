@@ -132,7 +132,7 @@ const ImageCard: React.FC<ImageCardProps> = ({
             alt={alt}
             width={600}
             height={400}
-            priority
+            loading="eager"
             className="w-full h-full object-cover rounded-xl shadow-lg group-hover:brightness-90 transition duration-500"
           />
           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-transparent to-transparent p-4 rounded-b-xl">

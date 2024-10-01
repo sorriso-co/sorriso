@@ -9,10 +9,14 @@ const FrontHero: React.FC = () => {
   const { t } = useTranslation("homepage");
 
   useEffect(() => {
-    AOS.init({
-      duration: 1200,
-      once: true,
-    });
+    const timeout = setTimeout(() => {
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    }, 500); 
+
+    return () => clearTimeout(timeout);
   }, []);
 
   return (
@@ -59,15 +63,16 @@ const FrontHero: React.FC = () => {
             data-aos="fade-left"
           >
             <div className="relative w-full h-auto sm:w-3/4 lg:w-full px-4 sm:px-0">
-              <Image
+            <Image
                 src="/images/icons/front.webp"
-                alt="Lead Doctor at Sorriso smiling"
-                layout="intrinsic"
-                width={900}
-                height={1000}
-                quality={100}
+                alt="Happy Patients at Sorriso Care smiling"
+                width={900} 
+                height={1100} 
+                quality={90} 
                 priority
+                loading="eager"
                 className="object-cover rounded-xl transform transition-transform duration-300"
+                sizes="(max-width: 768px) 90vw, (max-width: 1024px) 50vw, 33vw"
               />
             </div>
           </div>

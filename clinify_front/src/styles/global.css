@@ -53,13 +53,13 @@ html, body {
 }
 
 .cookie-consent-container {
-  background-color: #ffffff;
-  color: #2c3e50;
-  padding: 16px 24px;
+  background-color: #f9fafb; 
+  color: #34495e; 
+  padding: 20px 30px;
   font-size: 16px;
   font-family: 'Inter', sans-serif;
-  border-top: 1px solid #e0e0e0; 
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05); 
+  border-top: 2px solid #e0e0e0;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,21 +74,22 @@ html, body {
 /* Button styling */
 .cookie-consent-button,
 .cookie-consent-decline-button {
-  background-color: #005580; 
-  color: #ffffff; 
-  padding: 12px 24px;
+  background-color: #007bff; 
+  color: #ffffff;
+  padding: 12px 28px;
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
+  border-radius: 4px; 
   border: none;
   margin-left: 10px;
-  transition: background-color 0.3s ease, transform 0.1s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .cookie-consent-button:hover,
 .cookie-consent-decline-button:hover {
-  background-color: #004766;
-  transform: translateY(-1px);
+  background-color: #0056b3;
+  transform: translateY(-2px); 
 }
 
 .cookie-consent-button:active,
@@ -98,8 +99,9 @@ html, body {
 
 /* Link styling */
 .cookie-consent-link {
-  color: #005580; 
+  color: #007bff;
   text-decoration: underline;
+  font-weight: 500;
   cursor: pointer;
 }
 
@@ -107,10 +109,12 @@ html, body {
   text-decoration: none;
 }
 
+/* Mobile responsiveness */
 @media (max-width: 600px) {
   .cookie-consent-container {
     flex-direction: column;
     align-items: flex-start;
+    padding: 15px 20px;
   }
 
   .cookie-consent-content {
@@ -124,16 +128,4 @@ html, body {
     margin-bottom: 10px;
     width: 100%;
   }
-
-  
 }
-
-@keyframes glow {
-  0% { text-shadow: 0 0 5px #ffdd57, 0 0 10px #ffdd57, 0 0 15px #ffdd57, 0 0 20px #ffdd57; }
-  50% { text-shadow: 0 0 15px #ffdd57, 0 0 20px #ffdd57, 0 0 25px #ffdd57, 0 0 30px #ffdd57; }
-  100% { text-shadow: 0 0 5px #ffdd57, 0 0 10px #ffdd57, 0 0 15px #ffdd57, 0 0 20px #ffdd57; }
-}
-.glow {
-  animation: glow 1.5s ease-in-out infinite alternate;
-}
-

@@ -1,13 +1,14 @@
 "use client";
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
+import dynamic from "next/dynamic";
 import { useTranslation } from "next-i18next";
 import TestimonialCard from "@/components/Gallery/Testimonials/TestimonialCard";
 import VideoSection from "./Testimonials/Video";
-import ConsultationBanner from "./Testimonials/ConsultCTO";
-import PatientJourney from "./Testimonials/PatientJourney";
-import TrustSection from "./Testimonials/TrustSection";
+
+// Dynamically import components to lazy-load non-critical sections
+const ConsultationBanner = dynamic(() => import("./Testimonials/ConsultCTO"), { ssr: false });
+const PatientJourney = dynamic(() => import("./Testimonials/PatientJourney"), { ssr: false });
+const TrustSection = dynamic(() => import("./Testimonials/TrustSection"), { ssr: false });
 
 // Define the structure for a Testimonial
 interface Testimonial {
@@ -22,13 +23,6 @@ interface Testimonial {
 
 const GallerySection: React.FC = () => {
   const { t } = useTranslation("common");
-
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-  }, []);
 
   // Array of testimonials with translated descriptions
   const testimonials: Testimonial[] = [
@@ -104,7 +98,8 @@ const GallerySection: React.FC = () => {
     <>
       {/* Video Section */}
       <VideoSection />
-      {/* Testimonial Cards Section - One Card Per Row */}
+
+      {/* Testimonial Cards Section */}
       <section className="flex flex-col bg-transparent">
         <div className="container mx-auto">
           {/* Section Title */}
@@ -112,10 +107,10 @@ const GallerySection: React.FC = () => {
             {t("gallerySection.title", { defaultValue: "Our Patient Transformations" })}
           </h2>
 
-          {/* Responsive Layout for Single Testimonial Cards */}
+          {/* Testimonial Cards */}
           <div className="flex flex-col gap-12">
             {testimonials.map((testimonial, index) => (
-              <div key={index} data-aos="fade-up" className="w-full">
+              <div key={index} className="w-full">
                 <TestimonialCard {...testimonial} />
               </div>
             ))}
@@ -123,20 +118,10 @@ const GallerySection: React.FC = () => {
         </div>
       </section>
 
-      {/* Patient Journey Section */}
-      <section className="flex flex-col bg-transparent">
-        <PatientJourney />
-      </section>
-
-      {/* Trust Section */}
-      <section className="flex flex-col bg-transparent">
-        <TrustSection />
-      </section>
-
-      {/* Consultation Banner Section */}
-      <section className="flex flex-col bg-transparent">
-        <ConsultationBanner />
-      </section>
+      {/* Lazy-load non-critical sections */}
+      <PatientJourney />
+      <TrustSection />
+      <ConsultationBanner />
     </>
   );
 };

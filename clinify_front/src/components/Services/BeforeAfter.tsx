@@ -17,8 +17,7 @@ const BeforeAfterSlider: React.FC<BeforeAfterProps> = ({
   const sliderRef = useRef<HTMLDivElement>(null);
 
   // Handle the start of dragging
-  const startDragging = (event: React.MouseEvent | React.TouchEvent) => {
-    event.preventDefault(); // Prevent default behavior to avoid text/image selection
+  const startDragging = () => {
     setIsDragging(true);
   };
 
@@ -62,16 +61,17 @@ const BeforeAfterSlider: React.FC<BeforeAfterProps> = ({
       onMouseDown={startDragging}
       onTouchStart={startDragging}
       onTouchEnd={stopDragging}
-      style={{ touchAction: 'none' }} // Disable browser touch actions like scrolling
+      style={{ touchAction: "none" }} // Disable browser touch actions like scrolling
     >
       {/* Before Image */}
       <div className="absolute inset-0">
         <Image
           src={beforeImage}
           alt="Before"
-          layout="fill"
-          objectFit="cover"
-          className="absolute inset-0 w-full h-full rounded-xl"
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="absolute inset-0 w-full h-full rounded-xl object-cover"
+          priority={true}
         />
       </div>
 
@@ -80,25 +80,24 @@ const BeforeAfterSlider: React.FC<BeforeAfterProps> = ({
         className="absolute inset-0 overflow-hidden rounded-xl"
         style={{
           clipPath: `polygon(${sliderPosition}% 0, 100% 0, 100% 100%, ${sliderPosition}% 100%)`,
-          transition: isDragging ? "none" : "clip-path 0.4s ease-in-out",
         }}
       >
         <Image
           src={afterImage}
           alt="After"
-          layout="fill"
-          objectFit="cover"
-          className="absolute inset-0 w-full h-full rounded-xl"
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="absolute inset-0 w-full h-full rounded-xl object-cover"
+          priority={true}
         />
       </div>
 
       {/* Draggable Slider Line */}
       <div
-        className="absolute top-0 bottom-0"
+        className="absolute top-0 bottom-0 cursor-ew-resize"
         style={{
           left: `${sliderPosition}%`,
           transform: "translateX(-50%)",
-          cursor: "ew-resize",
         }}
       >
         <div className="relative h-full bg-teal-400 w-1 rounded-full"></div>

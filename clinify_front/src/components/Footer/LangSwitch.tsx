@@ -7,10 +7,10 @@ const LangSwitch: React.FC = () => {
   const { i18n } = useTranslation();
 
   const languages = [
-    { code: "en", flag: "/images/lang/en.png" },
-    { code: "it", flag: "/images/lang/it.png" },
-    { code: "de", flag: "/images/lang/de.png" },
-    { code: "fr", flag: "/images/lang/fr.png" },
+    { code: "en", flag: "/images/lang/en.webp" },
+    { code: "it", flag: "/images/lang/it.webp" },
+    { code: "de", flag: "/images/lang/de.webp" },
+    { code: "fr", flag: "/images/lang/fr.webp" },
   ];
 
   const changeLanguage = (lang: string) => {

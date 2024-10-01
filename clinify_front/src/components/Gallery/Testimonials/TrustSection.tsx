@@ -10,20 +10,16 @@ const TrustSection: React.FC = () => {
     <section className="flex flex-col items-center bg-transparent py-12 px-4 sm:py-16 lg:px-20">
       {/* Section Title */}
       <div className="w-full text-center mb-12 md:mb-16">
-        <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-teal-900 mb-4 sm:mb-6" data-aos="fade-up">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-teal-900 mb-4 sm:mb-6">
           {t("trustSection.title")}
         </h2>
-        <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto font-serif" data-aos="fade-up" data-aos-delay="100">
+        <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto font-serif">
           {t("trustSection.description")}
         </p>
       </div>
 
       {/* Trust Symbols Section */}
-      <div
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 md:gap-16 justify-items-center items-center"
-        data-aos="fade-up"
-        data-aos-delay="200"
-      >
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 md:gap-16 justify-items-center items-center">
         {/* ISO Certification */}
         <div className="flex flex-col items-center text-center max-w-xs w-full">
           <div className="flex-grow flex items-center justify-center mb-4 sm:mb-6 w-[180px] h-[180px] sm:w-[220px] sm:h-[220px]">
@@ -32,6 +28,7 @@ const TrustSection: React.FC = () => {
               alt={t("trustSection.iso.alt")}
               width={220}
               height={220}
+              loading="lazy" // Lazy-load the image to improve performance
               className="object-contain"
             />
           </div>
@@ -48,6 +45,7 @@ const TrustSection: React.FC = () => {
               alt={t("trustSection.gcr.alt")}
               width={220}
               height={220}
+              loading="lazy"
               className="object-contain"
             />
           </div>
@@ -64,6 +62,7 @@ const TrustSection: React.FC = () => {
               alt={t("trustSection.eda.alt")}
               width={220}
               height={220}
+              loading="lazy"
               className="object-contain"
             />
           </div>
@@ -80,6 +79,7 @@ const TrustSection: React.FC = () => {
               alt={t("trustSection.ida.alt")}
               width={220}
               height={220}
+              loading="lazy"
               className="object-contain"
             />
           </div>

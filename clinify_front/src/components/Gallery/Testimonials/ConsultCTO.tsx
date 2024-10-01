@@ -10,8 +10,8 @@ const ConsultationBanner: React.FC = () => {
   const { t } = useTranslation("common"); // Use the translation namespace
 
   return (
-    <section className="flex justify-center py-12 sm:py-16 bg-transparent px-4 lg:px-0">
-      <div className="relative w-full max-w-7xl mx-auto bg-teal-900 text-white rounded-3xl p-8 sm:p-12 flex flex-col md:flex-row md:items-center">
+    <section className="flex justify-center py-12 sm:py-16 px-4 lg:px-0 bg-transparent">
+      <div className="w-full max-w-7xl mx-auto bg-teal-900 text-white rounded-3xl p-8 sm:p-12 flex flex-col md:flex-row md:items-center">
         
         {/* Profile Section */}
         <div className="flex justify-center md:justify-start md:items-center mb-8 md:mb-0">
@@ -19,10 +19,9 @@ const ConsultationBanner: React.FC = () => {
             <Image
               src="/images/Team/staff/filip.webp"
               alt={t("consultationBanner.profileAlt")}
-              fill={true}
-              objectFit="cover"
-              objectPosition="top center"
-              className="rounded-full shadow-lg absolute"
+              fill
+              loading="lazy" // Use lazy loading to improve performance
+              className="rounded-full object-cover object-top"
             />
           </div>
         </div>
@@ -64,8 +63,8 @@ const ConsultationBanner: React.FC = () => {
         {/* CTA Button */}
         <div className="text-center w-full md:w-auto md:mt-0 mt-8 md:ml-16">
           <Link href="/contact"
-            className="inline-flex items-center justify-center bg-white text-teal-900 text-base sm:text-lg md:text-xl font-semibold px-8 sm:px-10 py-3 sm:py-4 rounded-full hover:bg-gray-200 transition-transform transform hover:scale-105 w-full md:w-auto">
-              {t("consultationBanner.cta")}{" "}
+            className="inline-flex items-center justify-center bg-white text-teal-900 text-base sm:text-lg md:text-xl font-semibold px-8 sm:px-10 py-3 sm:py-4 rounded-full transition-colors duration-150 w-full md:w-auto">
+              {t("consultationBanner.cta")}
               <FontAwesomeIcon icon={faArrowRight} className="ml-2 sm:ml-3 text-lg" />
           </Link>
         </div>
