@@ -79,7 +79,7 @@ const ServiceGrid: React.FC = () => {
       className="relative overflow-x-hidden px-4 md:px-8 py-12 md:py-16 bg-teal-50"
     >
       <div className="container mx-auto relative z-10">
-        <h2 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-center text-teal-700 mb-6">
+        <h2 className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold text-center text-teal-700 mb-6">
           {t("serviceGrid.title")}
         </h2>
         <p className="text-xl md:text-3xl font-serif text-center text-teal-600 mb-12">

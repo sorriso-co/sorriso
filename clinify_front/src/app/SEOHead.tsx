@@ -1,7 +1,6 @@
-// components/SEOHead.tsx
 import React from 'react';
 import Head from 'next/head';
-import Script from 'next/script';  // Import next/script
+import Script from 'next/script';
 
 const SEOHead = () => {
   return (
@@ -17,18 +16,20 @@ const SEOHead = () => {
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="author" content="Sorriso Care" />
         <meta name="theme-color" content="#ffffff" />
+        <meta name="application-name" content="Sorriso Care" />
 
         {/* Canonical Link */}
         <link rel="canonical" href="https://sorriso.care/" />
 
         {/* Favicons */}
         <link rel="icon" href="/images/icons/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/images/icons/icon.png" sizes="180x180" />
+        <link rel="apple-touch-icon" href="/images/icons/icon.svg" sizes="180x180" />
         <link rel="manifest" href="/site.webmanifest" />
 
-        {/* Preconnect for Performance Optimization */}
+        {/* Preconnect and DNS Prefetch for Performance Optimization */}
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
 
         {/* Open Graph Meta Tags for Social Sharing */}
         <meta property="og:title" content="Sorriso Care - Affordable Dental Tourism in the Balkans" />
@@ -47,6 +48,13 @@ const SEOHead = () => {
         <meta name="twitter:description" content="Affordable Dental Tourism in the Balkans. Offering high-quality dental care at affordable costs." />
         <meta name="twitter:image" content="https://sorriso.care/images/icons/icon.svg" />
         <meta name="twitter:image:alt" content="Sorriso Care Logo" />
+
+        {/* Additional SEO Meta Tags */}
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:image:width" content="1200" />
+        <meta name="twitter:image:height" content="630" />
 
         {/* Security Headers */}
         <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://sorriso.care data:; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:;" />
@@ -70,6 +78,11 @@ const SEOHead = () => {
               "name": "Sorriso Care",
               "url": "https://sorriso.care",
               "logo": "https://sorriso.care/images/icons/icon.svg",
+              "sameAs": [
+                "https://www.facebook.com/sorrisocare",
+                "https://www.linkedin.com/company/sorriso-care",
+                "https://www.instagram.com/sorriso_care/"
+              ],
               "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "+382 60 664 668",

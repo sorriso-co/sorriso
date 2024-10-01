@@ -29,7 +29,7 @@ const FrontHero: React.FC = () => {
             className="lg:w-1/2 text-center lg:text-left space-y-4 sm:space-y-6 lg:space-y-8 lg:pr-8"
             data-aos="fade-right"
           >
-            <h1 className="font-serif text-white font-extrabold text-4xl sm:text-4xl lg:text-7xl tracking-tight leading-tight mb-4 lg:mb-8">
+            <h1 className="font-serif text-white font-extrabold text-5xl sm:text-5xl lg:text-7xl tracking-tight leading-tight mb-4 lg:mb-8">
               {t("frontHero.title", { defaultValue: "Your Next Dental Trip" })}
             </h1>
             <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl text-white mt-2 sm:mt-4 mb-4 lg:mb-8">

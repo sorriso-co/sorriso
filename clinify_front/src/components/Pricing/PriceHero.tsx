@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl font-serif font-extrabold mb-4 md:mb-6 leading-tight tracking-tight">
+          <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl font-serif font-extrabold mb-4 md:mb-6 leading-tight tracking-tight">
             {t("hero.title")}
           </h1>
           <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-6 md:mb-8 font-serif">

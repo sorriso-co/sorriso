@@ -58,6 +58,14 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center justify-center md:justify-start">
                 <Link
+                  href="/gallery"
+                  className="hover:text-teal-300 transition-colors duration-200"
+                >
+                  {t("footer.galleryLink")}
+                </Link>
+              </li>
+              <li className="flex items-center justify-center md:justify-start">
+                <Link
                   href="/privacy"
                   className="hover:text-teal-300 transition-colors duration-200"
                 >
