@@ -94,8 +94,9 @@ const ContactDetails: React.FC = () => {
           <Image
             src="/images/Team/staff/filip.webp"
             alt={t("contactDetails.doctorAlt", { name: "Dr. Filip Sukovic" })}
-            fill={true}
-            objectFit="cover"
+            priority
+            loading="eager"
+            fill
             className="rounded-full"
           />
         </div>

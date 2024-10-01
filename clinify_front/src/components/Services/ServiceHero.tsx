@@ -9,9 +9,9 @@ const ServiceHero: React.FC = () => {
 
   return (
     <section className="relative bg-gradient-to-br from-teal-900 via-teal-600 to-teal-400 text-white py-24 px-8 overflow-hidden rounded-xl shadow-2xl font-serif">
-      <div className="container mx-auto flex flex-col items-center text-center">
+      <div className="container mx-auto flex flex-col md:flex-row items-center text-center md:text-left">
         {/* Text Section */}
-        <div className="w-full max-w-3xl">
+        <div className="w-full md:w-1/2 max-w-3xl mb-12 md:mb-0 md:mr-8">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 text-white leading-tight">
             {t("serviceHero.title", { defaultValue: "Premium Dental Services" })}
           </h1>
@@ -21,7 +21,7 @@ const ServiceHero: React.FC = () => {
                 "Discover world-class dental services tailored to meet your needs. Our experienced professionals deliver exceptional care, ensuring a comfortable and effective experience for every patient.",
             })}
           </p>
-          <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-8">
+          <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4 mt-8">
             <Link href="/howitworks" passHref>
               <button className="font-serif bg-white text-teal-700 font-bold py-3 px-6 sm:px-8 rounded-full shadow-lg hover:bg-teal-100 text-base sm:text-lg">
                 {t("serviceHero.ctaLearnMore", { defaultValue: "Learn More" })}
@@ -38,7 +38,7 @@ const ServiceHero: React.FC = () => {
         </div>
 
         {/* Image Section */}
-        <div className="w-full mt-12 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-12 md:mt-0">
           <Image
             src="/images/about_us_slide/chair.webp"
             alt="High-Quality Dental Chair for Professional Services"
