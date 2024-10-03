@@ -40,7 +40,6 @@ const Gallery = () => {
           })}
         />
         <meta property="og:url" content="https://sorriso.care/gallery" />
-        <meta property="og:image" content={t("meta_gallery.og_image", { defaultValue: "https://sorriso.care/images/gallery-thumbnail.jpg" })} />
         <meta property="og:type" content="website" />
 
         {/* Twitter Card Meta */}
@@ -52,7 +51,6 @@ const Gallery = () => {
             defaultValue: "See the gallery of Sorriso Care and discover the dental transformations of our patients.",
           })}
         />
-        <meta name="twitter:image" content={t("meta_gallery.twitter_image", { defaultValue: "https://sorriso.care/images/gallery-thumbnail.jpg" })} />
       </Head>
 
       <div className="lg:px-20 xl:px-28 2xl:px-40 px-4 mx-auto mb-40 space-y-16">

@@ -35,15 +35,14 @@ const Introduction: React.FC = () => {
               defaultValue: "Schedule an appointment and start your journey to a perfect smile with Sorriso.",
             })}
           </p>
-          {/* CTA Buttons */}
           <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
             <Link href="/gallery"
-              className="bg-teal-900 text-white py-2 sm:py-3 px-4 sm:px-6 rounded-full text-center font-semibold transition-colors duration-150">
-                {t("introduction.visitButton", { defaultValue: "Our Transformations" })}
+              className="bg-teal-900 text-white py-2 sm:py-3 px-4 sm:px-6 rounded-full text-center font-semibold hover:bg-teal-700 focus:outline-none focus:ring-4 focus:ring-teal-300">
+              {t("introduction.visitButton", { defaultValue: "Our Transformations" })}
             </Link>
             <Link href="/contact"
-              className="bg-teal-100 text-teal-600 py-2 sm:py-3 px-4 sm:px-6 rounded-full text-center font-semibold transition-colors duration-150">
-                {t("introduction.scheduleButton", { defaultValue: "Book a Call" })}
+              className="bg-teal-100 text-teal-600 py-2 sm:py-3 px-4 sm:px-6 rounded-full text-center font-semibold focus:outline-none focus:ring-4 hover:bg-teal-200 focus:ring-teal-300">
+              {t("introduction.scheduleButton", { defaultValue: "Book a Call" })}
             </Link>
           </div>
         </div>
