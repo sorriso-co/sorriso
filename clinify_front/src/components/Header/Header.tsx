@@ -71,14 +71,13 @@ const Header: React.FC = () => {
               width={150}
               height={40}
               priority
-              className="h-auto w-auto"
             />
           </Link>
         </div>
 
         {/* Menu Links (for larger screens) */}
-        <div className="flex flex-1 lg:flex-none justify-start items-center ml-4"> {/* Changed flex behavior */}
-          <div className="hidden lg:flex space-x-4 items-center"> {/* Reduced spacing and moved closer to logo */}
+        <div className="flex flex-1 lg:flex-none justify-start items-center ml-4">
+          <div className="hidden lg:flex space-x-4 items-center"> 
             <NavbarItem
               href="/about"
               text={t("header.menu.about")}

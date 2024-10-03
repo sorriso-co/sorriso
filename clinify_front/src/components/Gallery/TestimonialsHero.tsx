@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { useTranslation } from "next-i18next";
-import "aos/dist/aos.css";
 
 const TestimonialsHero: React.FC = () => {
   const { t } = useTranslation("common");
@@ -25,7 +24,7 @@ const TestimonialsHero: React.FC = () => {
         {/* CTA Button */}
         <a
           href="/contact"
-          className="inline-block bg-white text-teal-700 font-semibold text-lg py-3 px-8 rounded-full shadow-sm hover:bg-teal-100 transition-colors duration-150"
+          className="inline-block bg-white text-teal-700 font-semibold text-lg py-3 px-8 rounded-full shadow-sm hover:bg-teal-100"
           aria-label="Contact Sorriso Care for more information"
         >
           {t("testimonialsHero.cta", { defaultValue: "Contact Us Today" })}
