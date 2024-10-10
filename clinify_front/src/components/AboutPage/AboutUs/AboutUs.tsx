@@ -14,44 +14,42 @@ const AboutUs: React.FC = () => {
   const { t } = useTranslation("about");
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-teal-900">
-      {/* Background Image */}
-      <div className="absolute inset-0 h-full w-full">
-        <Image
-          src="/images/about_us_slide/tech.webp"
-          alt="Background"
-          width={1920}
-          height={1080}
-          priority
-          className="object-cover w-full h-full opacity-40"
-        />
-      </div>
-
-      {/* Content */}
-      <div className="relative z-20 container mx-auto flex flex-col md:flex-row items-center justify-between px-4 py-16 md:px-8 lg:px-12 xl:px-16 2xl:px-20 md:py-20">
-        <div className="md:w-1/2 md:pr-8 lg:pr-12 xl:pr-16">
-          <ul className="space-y-6 sm:space-y-8 md:space-y-10 lg:space-y-12 xl:space-y-14 2xl:space-y-16">
-            <li className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold font-serif text-white">
-              {t("aboutUs.cuttingEdgeTech", { defaultValue: "Cutting-Edge Dental Technology" })}
+    <div className="relative min-h-screen bg-gradient-to-r bg-white">
+      {/* Content and Image Section */}
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 py-16 md:px-8 lg:px-12 xl:px-16 md:py-20">
+        {/* Text Content */}
+        <div className="md:w-1/2 md:pr-8 lg:pr-12">
+          <ul className="space-y-6">
+            <li className="text-4xl md:text-5xl lg:text-7xl font-bold text-[#008080]">
+              {t("aboutUs.expertTeam", { defaultValue: "Experienced Dentists" })}
             </li>
-            <li className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold font-serif text-white">
-              {t("aboutUs.expertTeam", { defaultValue: "Expert Team of Dentists" })}
-            </li>
-            <li className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold font-serif text-white">
-              {t("aboutUs.personalizedCare", { defaultValue: "Personalized Care for Every Patient" })}
+            <li className="text-4xl md:text-5xl lg:text-7xl font-bold text-[#008080]">
+              {t("aboutUs.personalizedCare", { defaultValue: "Personalized Care" })}
             </li>
           </ul>
-          <p className="mt-6 sm:mt-8 md:mt-10 lg:mt-12 xl:mt-14 2xl:mt-16 mb-4 sm:mb-6 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-serif text-gray-100">
+          <p className="mt-8 text-lg md:text-xl lg:text-2xl font-medium text-[#008080]">
             {t("aboutUs.description", {
-              defaultValue:
-                "At Sorriso, we combine world-class dental care with cutting-edge technology to ensure that you receive the highest level of service possible. Experience the future of dentistry today.",
+              defaultValue: "Combining the best in dental technology and care for your perfect smile.",
             })}
           </p>
+        </div>
+
+        {/* Image Content */}
+        <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center">
+          <Image
+            src="/images/about_us_slide/front.webp" 
+            alt="Smiling Woman"
+            width={600}
+            height={600}
+            priority
+            quality={70}
+            className="object-cover rounded-lg shadow-2xl transform transition-transform duration-500 hover:scale-105"
+          />
         </div>
       </div>
 
       {/* Swiper Section */}
-      <div className="relative z-20 p-4 md:mt-10">
+      <div className="mt-12">
         <TestSwiper />
       </div>
     </div>
