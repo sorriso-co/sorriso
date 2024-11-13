@@ -13,7 +13,9 @@ const ServiceHero: React.FC = () => {
         {/* Text Section */}
         <div className="w-full md:w-1/2 max-w-3xl mb-12 md:mb-0 md:mr-8">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 text-white leading-tight">
-            {t("serviceHero.title", { defaultValue: "Premium Dental Services" })}
+            {t("serviceHero.title", {
+              defaultValue: "Premium Dental Services",
+            })}
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-serif mb-8 text-teal-100 leading-relaxed">
             {t("serviceHero.description", {
@@ -40,7 +42,7 @@ const ServiceHero: React.FC = () => {
         {/* Image Section */}
         <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-12 md:mt-0">
           <Image
-            src="/images/about_us_slide/chair.webp"
+            src="/images/about_us_slide/tech.webp"
             alt="High-Quality Dental Chair for Professional Services"
             width={800}
             height={600}
@@ -55,7 +57,13 @@ const ServiceHero: React.FC = () => {
       <div className="absolute inset-0 opacity-25 pointer-events-none">
         <svg width="100%" height="100%">
           <defs>
-            <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <linearGradient
+              id="heroGradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
               <stop offset="0%" stopColor="rgba(255, 255, 255, 0)" />
               <stop offset="100%" stopColor="rgba(255, 255, 255, 0.1)" />
             </linearGradient>
