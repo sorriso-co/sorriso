@@ -15,6 +15,11 @@ const MediaGallery: React.FC = () => {
       src: "/images/about_us_slide/zastolicom-2.webp",
       alt: "Patient Smiling 2",
     },
+    {
+      type: "video",
+      src: "https://www.youtube.com/embed/OEyE7MUoXIc?si=YhakUvaXEDRfXTz5",
+      thumbnail: "/images/services/dr_i_pacijent.png",
+    },
 
     {
       type: "video",

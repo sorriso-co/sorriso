@@ -1,12 +1,18 @@
 import React, { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
-import { FaPhoneAlt, FaClipboardList, FaComments, FaPlane, FaTooth, FaSmile } from "react-icons/fa";
+import {
+  FaPhoneAlt,
+  FaClipboardList,
+  FaComments,
+  FaPlane,
+  FaTooth,
+  FaSmile,
+} from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useTranslation } from "react-i18next";
-import Link from "next/link";
 import Step from "./Step";
 
 const HowItWorks: React.FC = () => {
@@ -32,13 +38,13 @@ const HowItWorks: React.FC = () => {
       <button
         className={`${className}`}
         style={{
-          right: '0px', // Aligned to the right edge
+          right: "0px", // Aligned to the right edge
           zIndex: 2,
-          fontSize: '24px',
-          color: '#004d40', // Dark green color
-          background: 'none',
-          border: 'none',
-          cursor: 'pointer',
+          fontSize: "24px",
+          color: "#004d40", // Dark green color
+          background: "none",
+          border: "none",
+          cursor: "pointer",
         }}
         onClick={onClick}
       >
@@ -53,13 +59,13 @@ const HowItWorks: React.FC = () => {
       <button
         className={`${className}`}
         style={{
-          left: '0px', // Aligned to the left edge
+          left: "0px", // Aligned to the left edge
           zIndex: 2,
-          fontSize: '24px',
-          color: '#004d40', // Dark green color
-          background: 'none',
-          border: 'none',
-          cursor: 'pointer',
+          fontSize: "24px",
+          color: "#004d40", // Dark green color
+          background: "none",
+          border: "none",
+          cursor: "pointer",
         }}
         onClick={onClick}
       >
@@ -78,6 +84,7 @@ const HowItWorks: React.FC = () => {
     autoplaySpeed: 10000,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
+
     responsive: [
       {
         breakpoint: 1024,
@@ -101,7 +108,9 @@ const HowItWorks: React.FC = () => {
       <div className="container mx-auto px-4 lg:px-16">
         {/* Section Title */}
         <h2 className="font-serif text-5xl sm:text-5xl md:text-8xl font-extrabold text-teal-700 text-center mb-10">
-          {t("howItWorks.title", { defaultValue: "In 6 Easy Steps to Your Perfect Smile" })}
+          {t("howItWorks.title", {
+            defaultValue: "In 6 Easy Steps to Your Perfect Smile",
+          })}
         </h2>
 
         {/* Slider Section */}
@@ -127,7 +136,8 @@ const HowItWorks: React.FC = () => {
                   defaultValue: "Personalized Treatment Plan",
                 })}
                 description={t("howItWorks.steps.step2.description", {
-                  defaultValue: "Receive a detailed treatment plan personalized to your needs.",
+                  defaultValue:
+                    "Receive a detailed treatment plan personalized to your needs.",
                 })}
                 Icon={FaClipboardList}
               />
@@ -141,7 +151,8 @@ const HowItWorks: React.FC = () => {
                   defaultValue: "Ask Any Questions",
                 })}
                 description={t("howItWorks.steps.step3.description", {
-                  defaultValue: "Ask any questions you have about the treatment process.",
+                  defaultValue:
+                    "Ask any questions you have about the treatment process.",
                 })}
                 Icon={FaComments}
               />
@@ -155,7 +166,8 @@ const HowItWorks: React.FC = () => {
                   defaultValue: "Travel for Treatment",
                 })}
                 description={t("howItWorks.steps.step4.description", {
-                  defaultValue: "Travel to Montenegro for your world-class dental treatment.",
+                  defaultValue:
+                    "Travel to Montenegro for your world-class dental treatment.",
                 })}
                 Icon={FaPlane}
               />
@@ -169,7 +181,8 @@ const HowItWorks: React.FC = () => {
                   defaultValue: "Receive Treatment",
                 })}
                 description={t("howItWorks.steps.step5.description", {
-                  defaultValue: "Our expert dentists will provide you with the best care using the latest technology.",
+                  defaultValue:
+                    "Our expert dentists will provide you with the best care using the latest technology.",
                 })}
                 Icon={FaTooth}
               />
@@ -183,7 +196,8 @@ const HowItWorks: React.FC = () => {
                   defaultValue: "Enjoy Your New Smile",
                 })}
                 description={t("howItWorks.steps.step6.description", {
-                  defaultValue: "Leave with a beautiful smile and a memorable experience.",
+                  defaultValue:
+                    "Leave with a beautiful smile and a memorable experience.",
                 })}
                 Icon={FaSmile}
               />
@@ -191,13 +205,12 @@ const HowItWorks: React.FC = () => {
           </Slider>
         </div>
 
-        {/* Call to Action */}
         <div className="text-center mt-12">
           <button
-            className="bg-teal-700 text-white py-3 px-8 rounded-full shadow-md mt-8"
+            className="bg-teal-600 text-white py-2 px-8 rounded-full shadow-md text-lg md:text-xl"
             onClick={toggleModal}
           >
-            {t("serviceGrid.buttonText", { defaultValue: "Book a Free Consultation" })}
+            {t("serviceGrid.buttonText")}
           </button>
           {isModalOpen && (
             <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75">
@@ -208,24 +221,29 @@ const HowItWorks: React.FC = () => {
                 >
                   &times;
                 </button>
-                <div className="relative" style={{ paddingBottom: "56.25%", height: 0 }}>
+                <div
+                  className="relative"
+                  style={{ paddingBottom: "56.25%", height: 0 }}
+                >
                   <iframe
                     src="https://www.youtube.com/embed/CoucS-fy2FI?si=qt3GdS64rwl0elN2&start=2"
                     title="YouTube video player"
                     className="absolute top-0 left-0 w-full h-full"
                     allowFullScreen
+                    loading="lazy" // Ensure the iframe is lazy-loaded
                   ></iframe>
                 </div>
-                <Link href="/contact">
-                  <button className="bg-teal-600 text-white py-3 px-8 rounded-full shadow-md mt-8">
-                    Learn More
-                  </button>
-                </Link>
               </div>
             </div>
           )}
         </div>
       </div>
+      <style jsx>{`
+        :global(.slick-prev:before),
+        :global(.slick-next:before) {
+          display: none;
+        }
+      `}</style>
     </section>
   );
 };
