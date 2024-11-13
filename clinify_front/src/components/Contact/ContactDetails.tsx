@@ -1,7 +1,12 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from "react-icons/fa";
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaClock,
+} from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -25,9 +30,7 @@ const ContactDetails: React.FC = () => {
             <h3 className="text-xl font-bold text-teal-900 mb-1">
               {t("contactDetails.addressTitle")}
             </h3>
-            <p className="text-gray-700">
-              {t("contactDetails.address")}
-            </p>
+            <p className="text-gray-700">{t("contactDetails.address")}</p>
           </div>
         </div>
 
@@ -57,9 +60,7 @@ const ContactDetails: React.FC = () => {
             <h3 className="text-xl font-bold text-teal-900 mb-1">
               {t("contactDetails.emailTitle")}
             </h3>
-            <p className="text-gray-700">
-              {t("contactDetails.email")}
-            </p>
+            <p className="text-gray-700">{t("contactDetails.email")}</p>
           </div>
         </div>
 
@@ -70,9 +71,7 @@ const ContactDetails: React.FC = () => {
             <h3 className="text-xl font-bold text-teal-900 mb-1">
               {t("contactDetails.hoursTitle")}
             </h3>
-            <p className="text-gray-700">
-              {t("contactDetails.hours")}
-            </p>
+            <p className="text-gray-700">{t("contactDetails.hours")}</p>
           </div>
         </div>
       </div>
@@ -92,7 +91,7 @@ const ContactDetails: React.FC = () => {
         {/* Doctor's Image */}
         <div className="relative w-44 h-44 sm:w-52 sm:h-52 md:w-64 md:h-64 mb-4">
           <Image
-            src="/images/Team/staff/filip.webp"
+            src="/images/Team/staff/filip.png"
             alt={t("contactDetails.doctorAlt", { name: "Dr. Filip Sukovic" })}
             priority
             loading="eager"

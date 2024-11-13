@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { FaFacebook, FaInstagram} from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../Footer/LangSwitch";
-
+import FooterQuickLinks from "./QuickLinks";
 const Footer: React.FC = () => {
   const { t } = useTranslation("common");
 
@@ -13,10 +13,10 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Multi-Column Layout */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
-          
-          {/* About & Contact Section */}
-          <div className="mb-6 md:mb-0">
-            <h2 className="text-lg font-semibold mb-4 text-white">{t("footer.aboutTitle")}</h2>
+          {/* <div className="mb-6 md:mb-0">
+            <h2 className="text-lg font-semibold mb-4 text-white">
+              {t("footer.aboutTitle")}
+            </h2>
             <p className="text-sm leading-relaxed mb-4 text-white">
               {t("footer.aboutText")}
             </p>
@@ -26,11 +26,14 @@ const Footer: React.FC = () => {
             >
               {t("footer.learnMore")}
             </Link>
-          </div>
+          </div> */}
 
           {/* Quick Links Section */}
-          <nav className="mb-6 md:mb-0">
-            <h2 className="text-lg font-semibold mb-4 text-white">{t("footer.quickLinks")}</h2>
+          <FooterQuickLinks />
+          {/* <nav className="mb-6 md:mb-0">
+            <h2 className="text-lg font-semibold mb-4 text-white">
+              {t("footer.quickLinks")}
+            </h2>
             <ul className="space-y-4">
               <li className="flex items-center justify-center md:justify-start">
                 <Link
@@ -73,11 +76,13 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
             </ul>
-          </nav>
+          </nav> */}
 
           {/* Social Media, Language Switcher */}
           <div className="flex flex-col items-center md:items-start">
-            <h2 className="text-lg font-semibold mb-4 text-white">{t("footer.followUs")}</h2>
+            <h2 className="text-lg font-semibold mb-4 text-white">
+              {t("footer.followUs")}
+            </h2>
             <div className="flex space-x-6 mb-6">
               <Link href="https://facebook.com" aria-label="Facebook">
                 <FaFacebook className="w-6 h-6 text-white hover:text-teal-100 transition-colors duration-200" />
@@ -89,9 +94,17 @@ const Footer: React.FC = () => {
 
             {/* Language Switcher */}
             <div className="mt-4">
-              <h3 className="text-sm font-medium text-white">{t("footer.language")}</h3>
+              <h3 className="text-sm font-medium text-white">
+                {t("footer.language")}
+              </h3>
               <div className="mt-2">
                 <LanguageSwitcher />
+                <Link
+                  href="/about"
+                  className="text-white hover:text-teal-100 transition-colors duration-200 font-medium mt-10"
+                >
+                  {t("footer.learnMore")}
+                </Link>
               </div>
             </div>
           </div>

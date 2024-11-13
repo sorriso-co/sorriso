@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import Image from "next/image";
+import MediaGallery from "./MediaGallery";
 import Link from "next/link";
 
 const FrontHero: React.FC = () => {
@@ -18,7 +18,8 @@ const FrontHero: React.FC = () => {
             </h1>
             <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl text-white mt-2 sm:mt-4 mb-4 lg:mb-8">
               {t("frontHero.subtitle", {
-                defaultValue: "Free Consultations, World-Class Treatment, Stunning Results",
+                defaultValue:
+                  "Free Consultations, World-Class Treatment, Stunning Results",
               })}
             </h2>
 
@@ -40,19 +41,11 @@ const FrontHero: React.FC = () => {
               </Link>
             </div>
           </div>
-          
+
           {/* Right Image Section */}
           <div className="relative flex justify-center lg:justify-end mt-10 lg:mt-0">
             <div className="relative w-full h-auto sm:w-3/4 lg:w-full px-4 sm:px-0">
-              <Image
-                src="/images/icons/front.webp"
-                alt="Happy Patients at Sorriso Care smiling"
-                width={900} 
-                height={1100} 
-                quality={70} 
-                priority
-                loading="eager"
-              />
+              <MediaGallery />
             </div>
           </div>
         </div>

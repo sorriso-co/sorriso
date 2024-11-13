@@ -53,14 +53,15 @@ const Header: React.FC = () => {
           onClick={() => setMenuOpen(false)}
         ></div>
       )}
-
       {/* Header */}
       <header
-        className={`fixed top-0 left-0 w-full py-2 px-4 sm:px-6 md:px-8 lg:px-12 text-base flex items-center justify-between z-50 transition-all duration-300 ${
-          isScrolled
-            ? "bg-white shadow-lg text-teal-700"
-            : "bg-transparent text-green-900"
-        }`}
+        // className={`fixed top-0 left-0 w-full py-4 px-4 sm:px-6 md:px-8 lg:px-12 text-base flex items-center justify-between z-50 transition-all duration-300 ${
+        //   isScrolled
+        //     ? "bg-white shadow-lg text-teal-700"
+        //     : "bg-transparent text-green-900"
+        // }`}
+
+        className="fixed top-0 left-0 w-full h-20 px-4 sm:px-6 md:px-8 lg:px-12 text-base flex items-center justify-between z-50 bg-white shadow-lg text-teal-700 transition-all duration-300"
       >
         {/* Logo */}
         <div className="flex items-center">
@@ -68,8 +69,8 @@ const Header: React.FC = () => {
             <Image
               src="/images/logos/sorriso.png"
               alt="Sorriso"
-              width={150}
-              height={40}
+              width={250}
+              height={150}
               priority
             />
           </Link>
@@ -77,7 +78,7 @@ const Header: React.FC = () => {
 
         {/* Menu Links (for larger screens) */}
         <div className="flex flex-1 lg:flex-none justify-start items-center ml-4">
-          <div className="hidden lg:flex space-x-4 items-center"> 
+          <div className="hidden lg:flex space-x-4 items-center">
             <NavbarItem
               href="/about"
               text={t("header.menu.about")}
@@ -110,10 +111,14 @@ const Header: React.FC = () => {
           </div>
 
           {/* Phone Number (visible only on large screens) */}
-          <div className="hidden lg:flex flex-col items-start text-teal-700 ml-8"> {/* Added margin-left for separation */}
+          <div className="hidden lg:flex flex-col items-start text-teal-700 ml-8">
+            {" "}
+            {/* Added margin-left for separation */}
             <div className="flex items-center">
               <FiPhoneCall className="w-5 h-5 mr-1" />
-              <span className="font-semibold text-sm">{t("header.phone.number")}</span>
+              <span className="font-semibold text-sm">
+                {t("header.phone.number")}
+              </span>
             </div>
             <span className="text-xs text-gray-600 -ml-1">
               {t("header.phone.availability")}
@@ -121,7 +126,12 @@ const Header: React.FC = () => {
           </div>
 
           {/* Mobile Menu Toggle */}
-          <div className="relative lg:hidden flex items-center ml-auto" ref={menuRef}> {/* Adjusted spacing */}
+          <div
+            className="relative lg:hidden flex items-center ml-auto"
+            ref={menuRef}
+          >
+            {" "}
+            {/* Adjusted spacing */}
             <button
               className="text-current focus:outline-none"
               onClick={toggleMenu}
@@ -145,9 +155,9 @@ const Header: React.FC = () => {
           </div>
         </div>
       </header>
-
       {/* Spacing for fixed header */}
-      <div className="mt-16"></div> {/* Reduced spacing to account for smaller header */}
+      <div className="mt-16"></div>{" "}
+      {/* Reduced spacing to account for smaller header */}
     </>
   );
 };
