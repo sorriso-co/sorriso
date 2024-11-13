@@ -8,15 +8,14 @@ const FrontHero: React.FC = () => {
 
   return (
     <section className="relative w-full bg-gradient-to-b from-teal-700 to-teal-900 overflow-hidden">
-      {/* Main Hero Section */}
-      <div className="container h-screen mx-auto py-12 sm:py-16 px-4 sm:px-6 lg:px-16">
-        <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between space-y-8 lg:space-y-0">
+      <div className="container mx-auto py-8 sm:py-12 px-4 sm:px-6 lg:px-16">
+        <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between space-y-6 lg:space-y-0">
           {/* Left Text Section */}
-          <div className="lg:w-1/2 text-center lg:text-left space-y-4 sm:space-y-6 lg:space-y-8 lg:pr-8">
-            <h1 className="font-serif text-white font-extrabold text-5xl sm:text-5xl lg:text-7xl tracking-tight leading-tight mb-4 lg:mb-8">
+          <div className="lg:w-1/2 text-center lg:text-left space-y-4">
+            <h1 className="font-serif text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-tight mb-2">
               {t("frontHero.title", { defaultValue: "Your Next Dental Trip" })}
             </h1>
-            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl text-white mt-2 sm:mt-4 mb-4 lg:mb-8">
+            <h2 className="font-serif text-lg sm:text-2xl lg:text-3xl text-white mt-2 mb-4">
               {t("frontHero.subtitle", {
                 defaultValue:
                   "Free Consultations, World-Class Treatment, Stunning Results",
@@ -24,16 +23,17 @@ const FrontHero: React.FC = () => {
             </h2>
 
             {/* Call to Action Buttons */}
-            <div className="mt-4 sm:mt-6 flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 lg:space-x-6">
+            <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-2 sm:space-y-0 sm:space-x-4">
               <Link href="/gallery">
-                <button className="inline-block bg-gradient-to-r from-teal-700 to-teal-500 text-white font-serif font-bold py-3 px-6 lg:py-3 lg:px-6 rounded-full shadow-2xl text-xl lg:text-base border-2 border-teal-400 hover:text-white">
+                <button className="inline-block bg-gradient-to-r from-teal-700 to-teal-500 text-white font-serif font-bold py-2 px-4 rounded-full shadow-md text-lg border-2 border-teal-400 transform transition-all duration-300 ease-in-out hover:scale-105 hover:from-teal-500 hover:to-teal-700 hover:shadow-lg">
                   {t("frontHero.visitButton", {
                     defaultValue: "Our Transformations",
                   })}
                 </button>
               </Link>
+
               <Link href="#how-it-works-section">
-                <button className="inline-block bg-white text-teal-900 font-bold py-3 px-6 lg:py-3 lg:px-6 rounded-full shadow-2xl text-xl lg:text-base border-2 border-teal-700 hover:text-teal-700">
+                <button className="inline-block bg-white text-teal-900 font-bold py-2 px-4 rounded-full shadow-md text-lg border-2 border-teal-700 transform transition-all duration-300 ease-in-out hover:scale-105 hover:bg-teal-100 hover:shadow-lg hover:border-teal-500">
                   {t("frontHero.scheduleButton", {
                     defaultValue: "How it works",
                   })}
@@ -43,10 +43,8 @@ const FrontHero: React.FC = () => {
           </div>
 
           {/* Right Image Section */}
-          <div className="relative flex justify-center lg:justify-end mt-10 lg:mt-0">
-            <div className="relative w-full h-auto sm:w-3/4 lg:w-full px-4 sm:px-0">
-              <MediaGallery />
-            </div>
+          <div className="relative flex justify-center lg:justify-end mt-6 lg:mt-0 w-full sm:w-3/4 lg:w-1/2">
+            <MediaGallery />
           </div>
         </div>
       </div>

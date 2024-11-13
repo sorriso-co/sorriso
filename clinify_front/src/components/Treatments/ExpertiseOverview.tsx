@@ -50,7 +50,8 @@ const ExpertiseOverview: React.FC = () => {
         </h2>
         <p className="text-lg sm:text-xl text-teal-700 max-w-4xl mx-auto">
           {t("expertise.description", {
-            defaultValue: "World-class medical and dental services with an expert team.",
+            defaultValue:
+              "World-class medical and dental services with an expert team.",
           })}
         </p>
       </div>
@@ -63,14 +64,17 @@ const ExpertiseOverview: React.FC = () => {
           </h3>
           <p className="text-base sm:text-lg text-teal-700 mb-4">
             {t("expertise.sectionDescription", {
-              defaultValue: "Discover the benefits of choosing Sorriso for your dental care.",
+              defaultValue:
+                "Discover the benefits of choosing Sorriso for your dental care.",
             })}
           </p>
           <ul className="space-y-4">
             {features.map((feature, index) => (
               <li className="flex items-center" key={index}>
                 {iconMapping[feature.icon]}
-                <span className="text-base sm:text-lg text-teal-700">{feature.text}</span>
+                <span className="text-base sm:text-lg text-teal-700">
+                  {feature.text}
+                </span>
               </li>
             ))}
           </ul>
@@ -80,11 +84,12 @@ const ExpertiseOverview: React.FC = () => {
         <div className="lg:w-1/2 w-full">
           <Slider {...sliderSettings}>
             {[
-              "ars_zgrada.webp",
               "waiting.webp",
               "clinic.webp",
               "ars_technology.webp",
+
               "chair.webp",
+              "ars_zgrada.webp",
             ].map((image, idx) => (
               <div key={idx} className="w-full h-64 sm:h-80 lg:h-96">
                 <Image

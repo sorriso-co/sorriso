@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+
 import { useRouter } from "next/navigation";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
@@ -13,11 +13,6 @@ interface Service {
 
 const ServiceGrid: React.FC = () => {
   const { t } = useTranslation("homepage");
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const toggleModal = () => {
-    setIsModalOpen(!isModalOpen);
-  };
 
   const services: Service[] = [
     {
@@ -68,7 +63,7 @@ const ServiceGrid: React.FC = () => {
     router.push("/services");
   };
 
-  const [ref] = useInView({
+  const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
@@ -89,19 +84,24 @@ const ServiceGrid: React.FC = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className={`opacity-100`} // Removed unnecessary transitions and animations
+              className={`transition duration-700 ease-in-out transform ${
+                inView
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-10"
+              }`}
+              style={{ transitionDelay: `${index * 0.15}s` }}
               onClick={handleCardClick}
             >
-              <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md">
+              <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transform hover:scale-105">
                 <div className="w-24 h-24 mb-4 flex items-center justify-center">
                   <Image
                     src={service.icon}
                     alt={service.altText}
                     width={96}
                     height={96}
-                    loading={index === 0 ? "eager" : "lazy"} // Use eager loading for the first image and lazy for others
+                    loading={index === 0 ? "eager" : "lazy"}
                     className="w-full h-full object-contain"
-                    sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 12vw" // Use responsive sizes for better performance
+                    sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 12vw"
                   />
                 </div>
                 <h3 className="text-xl font-semibold text-teal-600 text-center">
@@ -110,35 +110,6 @@ const ServiceGrid: React.FC = () => {
               </div>
             </div>
           ))}
-        </div>
-        <div className="text-center mt-12">
-          <button
-            className="bg-teal-600 text-white py-2 px-8 rounded-full shadow-md text-lg md:text-xl"
-            onClick={toggleModal}
-          >
-             {t("serviceGrid.buttonText")}
-          </button>
-          {isModalOpen && (
-            <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75">
-              <div className="bg-white rounded-lg p-8 w-full max-w-5xl relative shadow-xl">
-                <button
-                  onClick={toggleModal}
-                  className="absolute top-2 right-2 text-gray-600 text-3xl"
-                >
-                  &times;
-                </button>
-                <div className="relative" style={{ paddingBottom: "56.25%", height: 0 }}>
-                  <iframe
-                    src="https://www.youtube.com/embed/OEyE7MUoXIc?si=jwWSu2l9DkDTFT8Q&amp;start=4"
-                    title="YouTube video player"
-                    className="absolute top-0 left-0 w-full h-full"
-                    allowFullScreen
-                    loading="lazy" // Ensure the iframe is lazy-loaded
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-          )}
         </div>
       </div>
     </div>
