@@ -10,7 +10,7 @@ import { FiPhoneCall } from "react-icons/fi"; // Import phone icon from react-ic
 const Header: React.FC = () => {
   const { t } = useTranslation("common");
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [, setIsScrolled] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
   const toggleMenu = () => {
