@@ -21,15 +21,20 @@ const AboutUs: React.FC = () => {
         <div className="md:w-1/2 md:pr-8 lg:pr-12">
           <ul className="space-y-6">
             <li className="text-4xl md:text-5xl lg:text-7xl font-bold text-[#008080]">
-              {t("aboutUs.expertTeam", { defaultValue: "Experienced Dentists" })}
+              {t("aboutUs.expertTeam", {
+                defaultValue: "Experienced Dentists",
+              })}
             </li>
             <li className="text-4xl md:text-5xl lg:text-7xl font-bold text-[#008080]">
-              {t("aboutUs.personalizedCare", { defaultValue: "Personalized Care" })}
+              {t("aboutUs.personalizedCare", {
+                defaultValue: "Personalized Care",
+              })}
             </li>
           </ul>
           <p className="mt-8 text-lg md:text-xl lg:text-2xl font-medium text-[#008080]">
             {t("aboutUs.description", {
-              defaultValue: "Combining the best in dental technology and care for your perfect smile.",
+              defaultValue:
+                "Combining the best in dental technology and care for your perfect smile.",
             })}
           </p>
         </div>
@@ -37,7 +42,7 @@ const AboutUs: React.FC = () => {
         {/* Image Content */}
         <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center">
           <Image
-            src="/images/about_us_slide/front.webp" 
+            src="/images/about_us_slide/front.webp"
             alt="Smiling Woman"
             width={600}
             height={600}
