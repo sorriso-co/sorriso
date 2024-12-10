@@ -9,13 +9,26 @@ const priceCardData = [
     title: "Dental Implants",
     description: "Get affordable and high-quality dental implants.",
     prices: [
-      { country: "Montenegro", price: "€800", flag: "/images/flags/mne.webp" },
+      { country: "Montenegro", price: "€600", flag: "/images/flags/mne.webp" },
+
+      { country: "Turkey", price: "€700", flag: "/images/flags/turk.png" },
+      {
+        country: "Croatia",
+        price: "€800",
+        flag: "/images/flags/cro.png",
+      },
       { country: "Italy", price: "€1200", flag: "/images/flags/ita.webp" },
-      { country: "Austria", price: "€1400", flag: "/images/flags/aus.webp" },
-      { country: "Australia", price: "$3000", flag: "/images/flags/australia.webp" },
       { country: "Germany", price: "€2000", flag: "/images/flags/ger.webp" },
-      { country: "Switzerland", price: "€2500", flag: "/images/flags/sw.webp" },
-      { country: "United States", price: "$4000", flag: "/images/flags/us.webp" },
+      {
+        country: "United Kingdom",
+        price: "€2500",
+        flag: "/images/flags/uk.webp",
+      },
+      {
+        country: "United States",
+        price: "$4000",
+        flag: "/images/flags/us.webp",
+      },
     ],
     buttonText: "Book Now",
   },
@@ -24,12 +37,25 @@ const priceCardData = [
     description: "Top-quality zirconium crowns at an affordable price.",
     prices: [
       { country: "Montenegro", price: "€350", flag: "/images/flags/mne.webp" },
-      { country: "Italy", price: "€600", flag: "/images/flags/ita.webp" },
-      { country: "Austria", price: "€700", flag: "/images/flags/aus.webp" },
-      { country: "Australia", price: "$1000", flag: "/images/flags/australia.webp" },
+
+      { country: "Turkey", price: "€400", flag: "/images/flags/turk.png" },
+      {
+        country: "Croatia",
+        price: "€450",
+        flag: "/images/flags/cro.png",
+      },
+      { country: "Italy", price: "€700", flag: "/images/flags/ita.webp" },
       { country: "Germany", price: "€900", flag: "/images/flags/ger.webp" },
-      { country: "Switzerland", price: "€1100", flag: "/images/flags/sw.webp" },
-      { country: "United States", price: "$1500", flag: "/images/flags/us.webp" },
+      {
+        country: "United Kingdom",
+        price: "€1000",
+        flag: "/images/flags/uk.webp",
+      },
+      {
+        country: "United States",
+        price: "$1500",
+        flag: "/images/flags/us.webp",
+      },
     ],
     buttonText: "Schedule Appointment",
   },
@@ -37,55 +63,107 @@ const priceCardData = [
     title: "Ceramic Crowns",
     description: "High-quality ceramic crowns for a perfect smile.",
     prices: [
-      { country: "Montenegro", price: "€300", flag: "/images/flags/mne.webp" },
-      { country: "Italy", price: "€500", flag: "/images/flags/ita.webp" },
-      { country: "Austria", price: "€600", flag: "/images/flags/aus.webp" },
-      { country: "Australia", price: "$900", flag: "/images/flags/australia.webp" },
+      { country: "Montenegro", price: "€250", flag: "/images/flags/mne.webp" },
+
+      { country: "Turkey", price: "€350", flag: "/images/flags/turk.png" },
+      {
+        country: "Croatia",
+        price: "€400",
+        flag: "/images/flags/cro.png",
+      },
+      { country: "Italy", price: "€600", flag: "/images/flags/ita.webp" },
       { country: "Germany", price: "€800", flag: "/images/flags/ger.webp" },
-      { country: "Switzerland", price: "€1000", flag: "/images/flags/sw.webp" },
-      { country: "United States", price: "$1200", flag: "/images/flags/us.webp" },
+      {
+        country: "United Kingdom",
+        price: "€900",
+        flag: "/images/flags/uk.webp",
+      },
+      {
+        country: "United States",
+        price: "$1200",
+        flag: "/images/flags/us.webp",
+      },
     ],
     buttonText: "Contact Us",
   },
   {
-    title: "All-on-4",
+    title: "All-on-4 (per jaw)",
     description: "Full-arch restoration with just 4 implants.",
     prices: [
-      { country: "Montenegro", price: "€5000", flag: "/images/flags/mne.webp" },
-      { country: "Italy", price: "€9000", flag: "/images/flags/ita.webp" },
-      { country: "Austria", price: "€9500", flag: "/images/flags/aus.webp" },
-      { country: "Australia", price: "$15000", flag: "/images/flags/australia.webp" },
+      { country: "Montenegro", price: "€6000", flag: "/images/flags/mne.webp" },
+
+      { country: "Turkey", price: "€7000", flag: "/images/flags/turk.png" },
+      {
+        country: "Croatia",
+        price: "€9000",
+        flag: "/images/flags/cro.png",
+      },
+      { country: "Italy", price: "€10000", flag: "/images/flags/ita.webp" },
       { country: "Germany", price: "€12000", flag: "/images/flags/ger.webp" },
-      { country: "Switzerland", price: "€13000", flag: "/images/flags/sw.webp" },
-      { country: "United States", price: "$20000", flag: "/images/flags/us.webp" },
+      {
+        country: "United Kingdom",
+        price: "€14000",
+        flag: "/images/flags/uk.webp",
+      },
+      {
+        country: "United States",
+        price: "$20000",
+        flag: "/images/flags/us.webp",
+      },
     ],
     buttonText: "Book Now",
   },
   {
-    title: "All-on-6",
+    title: "All-on-6 (per jaw)",
     description: "Full-arch restoration with 6 implants for maximum stability.",
     prices: [
-      { country: "Montenegro", price: "€6000", flag: "/images/flags/mne.webp" },
-      { country: "Italy", price: "€10000", flag: "/images/flags/ita.webp" },
-      { country: "Austria", price: "€10500", flag: "/images/flags/aus.webp" },
-      { country: "Australia", price: "$16000", flag: "/images/flags/australia.webp" },
+      { country: "Montenegro", price: "€8000", flag: "/images/flags/mne.webp" },
+
+      { country: "Turkey", price: "€9500", flag: "/images/flags/turk.png" },
+      {
+        country: "Croatia",
+        price: "€11000",
+        flag: "/images/flags/cro.png",
+      },
+      { country: "Italy", price: "€11000", flag: "/images/flags/ita.webp" },
       { country: "Germany", price: "€13000", flag: "/images/flags/ger.webp" },
-      { country: "Switzerland", price: "€14000", flag: "/images/flags/sw.webp" },
-      { country: "United States", price: "$22000", flag: "/images/flags/us.webp" },
+      {
+        country: "United Kingdom",
+        price: "€18000",
+        flag: "/images/flags/uk.webp",
+      },
+      {
+        country: "United States",
+        price: "$22000",
+        flag: "/images/flags/us.webp",
+      },
     ],
     buttonText: "Schedule Appointment",
   },
   {
-    title: "Hollywood Smile",
+    title: "Hollywood Smile (per jaw)",
     description: "Achieve the perfect, celebrity-like smile with veneers.",
     prices: [
-      { country: "Montenegro", price: "€3000", flag: "/images/flags/mne.webp" },
+      { country: "Montenegro", price: "€3500", flag: "/images/flags/mne.webp" },
+
+      { country: "Turkey", price: "€4000", flag: "/images/flags/turk.png" },
+      {
+        country: "Croatia",
+        price: "€4000",
+        flag: "/images/flags/cro.png",
+      },
       { country: "Italy", price: "€6000", flag: "/images/flags/ita.webp" },
-      { country: "Austria", price: "€7000", flag: "/images/flags/aus.webp" },
-      { country: "Australia", price: "$12000", flag: "/images/flags/australia.webp" },
       { country: "Germany", price: "€8000", flag: "/images/flags/ger.webp" },
-      { country: "Switzerland", price: "€10000", flag: "/images/flags/sw.webp" },
-      { country: "United States", price: "$15000", flag: "/images/flags/us.webp" },
+      {
+        country: "United Kingdom",
+        price: "€7000",
+        flag: "/images/flags/uk.webp",
+      },
+      {
+        country: "United States",
+        price: "$15000",
+        flag: "/images/flags/us.webp",
+      },
     ],
     buttonText: "Contact Us",
   },
@@ -102,7 +180,8 @@ const PricingSection: React.FC = () => {
         </h1>
         <p className="text-md sm:text-lg lg:text-xl text-teal-700 mb-10 max-w-3xl mx-auto">
           {t("pricingSection.description", {
-            defaultValue: "Transparent pricing for world-class dental services.",
+            defaultValue:
+              "Transparent pricing for world-class dental services.",
           })}
         </p>
       </div>

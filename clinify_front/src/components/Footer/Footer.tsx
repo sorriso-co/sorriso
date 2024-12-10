@@ -11,74 +11,9 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-teal-800 text-white py-12 mt-5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Multi-Column Layout */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
-          {/* <div className="mb-6 md:mb-0">
-            <h2 className="text-lg font-semibold mb-4 text-white">
-              {t("footer.aboutTitle")}
-            </h2>
-            <p className="text-sm leading-relaxed mb-4 text-white">
-              {t("footer.aboutText")}
-            </p>
-            <Link
-              href="/about"
-              className="text-white hover:text-teal-100 transition-colors duration-200 font-medium"
-            >
-              {t("footer.learnMore")}
-            </Link>
-          </div> */}
-
-          {/* Quick Links Section */}
           <FooterQuickLinks />
-          {/* <nav className="mb-6 md:mb-0">
-            <h2 className="text-lg font-semibold mb-4 text-white">
-              {t("footer.quickLinks")}
-            </h2>
-            <ul className="space-y-4">
-              <li className="flex items-center justify-center md:justify-start">
-                <Link
-                  href="/about"
-                  className="hover:text-teal-300 transition-colors duration-200"
-                >
-                  {t("footer.aboutLink")}
-                </Link>
-              </li>
-              <li className="flex items-center justify-center md:justify-start">
-                <Link
-                  href="/contact"
-                  className="hover:text-teal-300 transition-colors duration-200"
-                >
-                  {t("footer.contactLink")}
-                </Link>
-              </li>
-              <li className="flex items-center justify-center md:justify-start">
-                <Link
-                  href="/services"
-                  className="hover:text-teal-300 transition-colors duration-200"
-                >
-                  {t("footer.servicesLink")}
-                </Link>
-              </li>
-              <li className="flex items-center justify-center md:justify-start">
-                <Link
-                  href="/gallery"
-                  className="hover:text-teal-300 transition-colors duration-200"
-                >
-                  {t("footer.galleryLink")}
-                </Link>
-              </li>
-              <li className="flex items-center justify-center md:justify-start">
-                <Link
-                  href="/privacy"
-                  className="hover:text-teal-300 transition-colors duration-200"
-                >
-                  {t("footer.privacyPolicyLink")}
-                </Link>
-              </li>
-            </ul>
-          </nav> */}
 
-          {/* Social Media, Language Switcher */}
           <div className="flex flex-col items-center md:items-start">
             <h2 className="text-lg font-semibold mb-4 text-white">
               {t("footer.followUs")}
