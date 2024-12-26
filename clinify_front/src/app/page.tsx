@@ -37,15 +37,9 @@ const Home: React.FC = () => {
     <>
       {/* SEO Meta Tags */}
       <Head>
-        <title>{t("meta_home.title")}</title>
-        <meta
-          name="description"
-          content={t("meta_home.description")}
-        />
-        <meta
-          name="keywords"
-          content={t("meta_home.keywords")}
-        />
+        <title>{"Sorriso Care"}</title>
+        <meta name="description" content={t("meta_home.description")} />
+        <meta name="keywords" content={t("meta_home.keywords")} />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://sorriso.care/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -53,10 +47,7 @@ const Home: React.FC = () => {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
         {/* Open Graph Meta Tags */}
-        <meta
-          property="og:title"
-          content={t("meta_home.og_title")}
-        />
+        <meta property="og:title" content={t("meta_home.og_title")} />
         <meta
           property="og:description"
           content={t("meta_home.og_description")}
@@ -70,10 +61,7 @@ const Home: React.FC = () => {
 
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content={t("meta_home.twitter_title")}
-        />
+        <meta name="twitter:title" content={t("meta_home.twitter_title")} />
         <meta
           name="twitter:description"
           content={t("meta_home.twitter_description")}
@@ -97,7 +85,10 @@ const Home: React.FC = () => {
         </div>
 
         {/* How It Works Section */}
-        <div id="how-it-works-section" className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
+        <div
+          id="how-it-works-section"
+          className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent"
+        >
           <HowItWorks />
         </div>
 
