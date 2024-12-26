@@ -107,7 +107,7 @@ const HowItWorks: React.FC = () => {
     <section className="relative bg-teal-50 py-12 ">
       <div className="container mx-auto px-4 lg:px-16">
         {/* Section Title */}
-        <h2 className="font-serif text-5xl sm:text-5xl md:text-8xl font-extrabold text-teal-700 text-center mb-10 mt-7">
+        <h2 className="font-serif text-5xl sm:text-5xl md:text-8xl font-extrabold text-teal-700 text-center mb-10 mt-8">
           {t("howItWorks.title", {
             defaultValue: "In 6 Easy Steps to Your Perfect Smile",
           })}
