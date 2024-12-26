@@ -12,7 +12,7 @@ const ServiceHero: React.FC = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center text-center md:text-left">
         {/* Text Section */}
         <div className="w-full md:w-1/2 max-w-3xl mb-12 md:mb-0 md:mr-8">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 text-white leading-tight">
+          <h1 className="text-4xl font-serif sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 text-white leading-tight">
             {t("serviceHero.title", {
               defaultValue: "Premium Dental Services",
             })}

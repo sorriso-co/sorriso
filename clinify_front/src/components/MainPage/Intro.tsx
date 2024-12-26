@@ -15,7 +15,7 @@ const Introduction: React.FC = () => {
         </h1>
         <h4 className="font-serif text-xl sm:text-2xl lg:text-3xl text-teal-700 mb-6">
           {t("introduction.subtitle", {
-            defaultValue: "Veni. Vidi. Vici with Sorriso",
+            defaultValue: "Veni Vidi Vici with Sorriso",
           })}
         </h4>
         <p className="font-sans text-base sm:text-lg lg:text-xl text-teal-800">
@@ -24,6 +24,14 @@ const Introduction: React.FC = () => {
               "Discover exceptional dental care combined with an unforgettable travel experience. Let Sorriso guide you through a journey to a brighter, healthier smile while exploring the beauty and culture of Montenegro.",
           })}
         </p>
+        <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4 mt-5 font-serif">
+          <Link
+            href="/contact"
+            className="bg-gradient-to-r from-teal-500 via-teal-600 to-teal-800 text-white py-3 sm:py-4 px-6 sm:px-8 rounded-full text-center font-semibold shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-4 focus:ring-teal-300 font-inter"
+          >
+            View Our Pricing
+          </Link>
+        </div>
       </div>
 
       {/* Call to Action Section */}
@@ -38,14 +46,12 @@ const Introduction: React.FC = () => {
                 "Schedule an appointment and start your journey to a perfect smile with Sorriso.",
             })}
           </p>
-          <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
+          <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4 font-serif">
             <Link
               href="/contact"
-              className="bg-teal-900 text-white py-2 sm:py-3 px-4 sm:px-6 rounded-full text-center font-semibold hover:bg-teal-700 focus:outline-none focus:ring-4 focus:ring-teal-300"
+              className="bg-teal-100 text-teal-800 py-2 sm:py-3 px-4 sm:px-6 rounded-full text-center font-semibold transition-all duration-300 hover:bg-teal-800 hover:text-white focus:outline-none focus:ring-4 focus:ring-teal-300 font-inter"
             >
-              {t("introduction.scheduleButton", {
-                defaultValue: "Book a Call",
-              })}
+              Book a Call
             </Link>
           </div>
         </div>

@@ -33,7 +33,7 @@ const FrontHero: React.FC = () => {
               </Link>
 
               <Link href="#how-it-works-section">
-                <button className="inline-block bg-white text-teal-900 font-bold py-2 px-4 rounded-full shadow-md text-lg border-2 border-teal-700 transform transition-all duration-300 ease-in-out hover:scale-105 hover:bg-teal-100 hover:shadow-lg hover:border-teal-500">
+                <button className="inline-block bg-white text-cyan-700 font-bold py-2 font-serif px-4 rounded-full shadow-md text-lg border-2 border-teal-700 transform transition-all duration-300 ease-in-out hover:scale-105 hover:bg-cyan-100 hover:shadow-lg hover:border-cyan-500">
                   {t("frontHero.scheduleButton", {
                     defaultValue: "How it works",
                   })}
