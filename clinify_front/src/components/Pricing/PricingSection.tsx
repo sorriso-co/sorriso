@@ -11,10 +11,10 @@ const priceCardData = [
     prices: [
       { country: "Montenegro", price: "€600", flag: "/images/flags/mne.webp" },
 
-      { country: "Turkey", price: "€700", flag: "/images/flags/turk.png" },
+      { country: "Turkey", price: "€800", flag: "/images/flags/turk.png" },
       {
         country: "Croatia",
-        price: "€800",
+        price: "€900",
         flag: "/images/flags/cro.png",
       },
       { country: "Italy", price: "€1200", flag: "/images/flags/ita.webp" },
@@ -38,10 +38,10 @@ const priceCardData = [
     prices: [
       { country: "Montenegro", price: "€350", flag: "/images/flags/mne.webp" },
 
-      { country: "Turkey", price: "€400", flag: "/images/flags/turk.png" },
+      { country: "Turkey", price: "€450", flag: "/images/flags/turk.png" },
       {
         country: "Croatia",
-        price: "€450",
+        price: "€500",
         flag: "/images/flags/cro.png",
       },
       { country: "Italy", price: "€700", flag: "/images/flags/ita.webp" },
@@ -65,10 +65,10 @@ const priceCardData = [
     prices: [
       { country: "Montenegro", price: "€250", flag: "/images/flags/mne.webp" },
 
-      { country: "Turkey", price: "€350", flag: "/images/flags/turk.png" },
+      { country: "Turkey", price: "€400", flag: "/images/flags/turk.png" },
       {
         country: "Croatia",
-        price: "€400",
+        price: "€450",
         flag: "/images/flags/cro.png",
       },
       { country: "Italy", price: "€600", flag: "/images/flags/ita.webp" },
@@ -87,12 +87,12 @@ const priceCardData = [
     buttonText: "Contact Us",
   },
   {
-    title: "All-on-4 (per jaw)",
+    title: "All-on-4",
     description: "Full-arch restoration with just 4 implants.",
     prices: [
       { country: "Montenegro", price: "€6000", flag: "/images/flags/mne.webp" },
 
-      { country: "Turkey", price: "€7000", flag: "/images/flags/turk.png" },
+      { country: "Turkey", price: "€7500", flag: "/images/flags/turk.png" },
       {
         country: "Croatia",
         price: "€9000",
@@ -114,12 +114,12 @@ const priceCardData = [
     buttonText: "Book Now",
   },
   {
-    title: "All-on-6 (per jaw)",
+    title: "All-on-6",
     description: "Full-arch restoration with 6 implants for maximum stability.",
     prices: [
       { country: "Montenegro", price: "€8000", flag: "/images/flags/mne.webp" },
 
-      { country: "Turkey", price: "€9500", flag: "/images/flags/turk.png" },
+      { country: "Turkey", price: "€10000", flag: "/images/flags/turk.png" },
       {
         country: "Croatia",
         price: "€11000",
@@ -141,15 +141,15 @@ const priceCardData = [
     buttonText: "Schedule Appointment",
   },
   {
-    title: "Hollywood Smile (per jaw)",
+    title: "Hollywood Smile",
     description: "Achieve the perfect, celebrity-like smile with veneers.",
     prices: [
       { country: "Montenegro", price: "€3500", flag: "/images/flags/mne.webp" },
 
-      { country: "Turkey", price: "€4000", flag: "/images/flags/turk.png" },
+      { country: "Turkey", price: "€4500", flag: "/images/flags/turk.png" },
       {
         country: "Croatia",
-        price: "€4000",
+        price: "€5000",
         flag: "/images/flags/cro.png",
       },
       { country: "Italy", price: "€6000", flag: "/images/flags/ita.webp" },
@@ -189,15 +189,25 @@ const PricingSection: React.FC = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
           {priceCardData.map((card, index) => (
-            <div key={index} className="flex justify-center">
-              <PriceCard
-                title={card.title}
-                description={card.description}
-                prices={card.prices}
-                buttonText={card.buttonText}
-                className="rounded-lg shadow-lg bg-white p-4 sm:p-6 lg:p-8"
-              />
-            </div>
+            <React.Fragment key={index}>
+              <div className="flex justify-center">
+                <PriceCard
+                  title={card.title}
+                  description={card.description}
+                  prices={card.prices}
+                  buttonText={card.buttonText}
+                  className="rounded-lg shadow-lg bg-white p-4 sm:p-6 lg:p-8"
+                />
+              </div>
+              {/*header for pricing per jaw*/}
+              {index === 2 && (
+                <div className="w-full text-center my-2 col-span-full">
+                  <p className="text-teal-600 font-medium font-serif">
+                    Below prices are calculated per jaw.
+                  </p>
+                </div>
+              )}
+            </React.Fragment>
           ))}
         </div>
       </div>

@@ -24,7 +24,7 @@ const ServiceHero: React.FC = () => {
             })}
           </p>
           <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4 mt-8">
-            <Link href="/howitworks" passHref>
+            <Link href="/#how-it-works-section" passHref>
               <button className="font-serif bg-white text-teal-700 font-bold py-3 px-6 sm:px-8 rounded-full shadow-lg hover:bg-teal-100 text-base sm:text-lg">
                 {t("serviceHero.ctaLearnMore", { defaultValue: "Learn More" })}
               </button>

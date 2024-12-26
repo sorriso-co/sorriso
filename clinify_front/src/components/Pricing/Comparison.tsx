@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+
 import { useTranslation } from "react-i18next";
 
 const Comparison: React.FC = () => {
@@ -30,7 +30,7 @@ const Comparison: React.FC = () => {
               alt={t("comparison.otherBill")}
               width={400}
               height={700}
-              loading="lazy" 
+              loading="lazy"
               className="rounded-lg shadow-lg"
             />
           </div>
@@ -45,18 +45,10 @@ const Comparison: React.FC = () => {
               alt={t("comparison.sorrisoBill")}
               width={400}
               height={700}
-              loading="lazy" 
+              loading="lazy"
               className="rounded-lg shadow-lg"
             />
           </div>
-        </div>
-
-        {/* Call to Action */}
-        <div className="mt-16">
-          <Link href="/contact"
-            className="inline-block bg-teal-600 text-white text-lg font-bold py-4 px-10 rounded-full shadow-lg transition-colors duration-200 hover:bg-teal-700">
-              {t("comparison.cta")}
-          </Link>
         </div>
       </div>
     </section>
