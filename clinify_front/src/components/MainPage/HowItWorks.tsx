@@ -104,10 +104,10 @@ const HowItWorks: React.FC = () => {
   };
 
   return (
-    <section className="relative bg-teal-50 py-12 lg:py-16">
+    <section className="relative bg-teal-50 py-12 ">
       <div className="container mx-auto px-4 lg:px-16">
         {/* Section Title */}
-        <h2 className="font-serif text-5xl sm:text-5xl md:text-8xl font-extrabold text-teal-700 text-center mb-10">
+        <h2 className="font-serif text-5xl sm:text-5xl md:text-8xl font-extrabold text-teal-700 text-center mb-10 mt-7">
           {t("howItWorks.title", {
             defaultValue: "In 6 Easy Steps to Your Perfect Smile",
           })}
@@ -213,11 +213,11 @@ const HowItWorks: React.FC = () => {
             {t("serviceGrid.buttonText")}
           </button>
           {isModalOpen && (
-            <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75">
+            <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-75 font-serif">
               <div className="bg-white rounded-lg p-8 w-full max-w-5xl relative shadow-xl">
                 <button
                   onClick={toggleModal}
-                  className="absolute top-2 right-2 text-gray-600 text-3xl"
+                  className="absolute top-2 right-2 text-gray-600 text-3xl  "
                 >
                   &times;
                 </button>
