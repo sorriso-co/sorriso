@@ -1,6 +1,6 @@
-import React from 'react';
-import Head from 'next/head';
-import Script from 'next/script';
+import React from "react";
+import Head from "next/head";
+import Script from "next/script";
 
 const SEOHead = () => {
   return (
@@ -9,9 +9,18 @@ const SEOHead = () => {
         {/* Essential Meta Tags */}
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Sorriso Care offers affordable dental tourism in the Balkans with high-quality dental care at low costs. Book your next dental trip today!" />
-        <meta name="keywords" content="dental tourism, affordable dental care, dental treatment Balkans, Sorriso Care, Montenegro dental services" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"
+        />
+        <meta
+          name="description"
+          content="Sorriso Care offers affordable dental tourism in the Balkans with high-quality dental care at low costs. Book your next dental trip today!"
+        />
+        <meta
+          name="keywords"
+          content="dental tourism, affordable dental care, dental treatment Balkans, Sorriso Care, Montenegro dental services"
+        />
         <meta name="robots" content="index, follow" />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta name="author" content="Sorriso Care" />
@@ -23,7 +32,11 @@ const SEOHead = () => {
 
         {/* Favicons */}
         <link rel="icon" href="/images/icons/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/images/icons/icon.svg" sizes="180x180" />
+        <link
+          rel="apple-touch-icon"
+          href="/images/icons/icon.svg"
+          sizes="180x180"
+        />
         <link rel="manifest" href="/site.webmanifest" />
 
         {/* Preconnect and DNS Prefetch for Performance Optimization */}
@@ -32,9 +45,18 @@ const SEOHead = () => {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
 
         {/* Open Graph Meta Tags for Social Sharing */}
-        <meta property="og:title" content="Sorriso Care - Affordable Dental Tourism in the Balkans" />
-        <meta property="og:description" content="Affordable Dental Tourism in the Balkans. Offering high-quality dental care at affordable costs." />
-        <meta property="og:image" content="https://sorriso.care/images/icons/icon.svg" />
+        <meta
+          property="og:title"
+          content="Sorriso Care - Affordable Dental Tourism in the Balkans"
+        />
+        <meta
+          property="og:description"
+          content="Affordable Dental Tourism in the Balkans. Offering high-quality dental care at affordable costs."
+        />
+        <meta
+          property="og:image"
+          content="https://sorriso.care/images/icons/icon.svg"
+        />
         <meta property="og:image:alt" content="Sorriso Care Logo" />
         <meta property="og:url" content="https://sorriso.care" />
         <meta property="og:type" content="website" />
@@ -44,9 +66,18 @@ const SEOHead = () => {
         {/* Twitter Card for Social Sharing */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@sorriso_care" />
-        <meta name="twitter:title" content="Sorriso Care - Affordable Dental Tourism in the Balkans" />
-        <meta name="twitter:description" content="Affordable Dental Tourism in the Balkans. Offering high-quality dental care at affordable costs." />
-        <meta name="twitter:image" content="https://sorriso.care/images/icons/icon.svg" />
+        <meta
+          name="twitter:title"
+          content="Sorriso Care - Affordable Dental Tourism in the Balkans"
+        />
+        <meta
+          name="twitter:description"
+          content="Affordable Dental Tourism in the Balkans. Offering high-quality dental care at affordable costs."
+        />
+        <meta
+          name="twitter:image"
+          content="https://sorriso.care/images/icons/icon.svg"
+        />
         <meta name="twitter:image:alt" content="Sorriso Care Logo" />
 
         {/* Additional SEO Meta Tags */}
@@ -57,15 +88,27 @@ const SEOHead = () => {
         <meta name="twitter:image:height" content="630" />
 
         {/* Security Headers */}
-        <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://sorriso.care data:; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:;" />
-        <meta httpEquiv="Permissions-Policy" content="geolocation=(self), microphone=()" />
-        <meta httpEquiv="Strict-Transport-Security" content="max-age=63072000; includeSubDomains; preload" />
+        <meta
+          httpEquiv="Content-Security-Policy"
+          content="default-src 'self'; img-src 'self' https://sorriso.care data:; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:;"
+        />
+        <meta
+          httpEquiv="Permissions-Policy"
+          content="geolocation=(self), microphone=()"
+        />
+        <meta
+          httpEquiv="Strict-Transport-Security"
+          content="max-age=63072000; includeSubDomains; preload"
+        />
         <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
         <meta httpEquiv="X-Frame-Options" content="DENY" />
         <meta httpEquiv="X-XSS-Protection" content="1; mode=block" />
 
         {/* Performance Optimization */}
-        <meta httpEquiv="Cache-Control" content="max-age=3600, must-revalidate" />
+        <meta
+          httpEquiv="Cache-Control"
+          content="max-age=3600, must-revalidate"
+        />
         <meta httpEquiv="Pragma" content="no-cache" />
 
         {/* Structured Data (Schema.org JSON-LD) */}
@@ -75,34 +118,35 @@ const SEOHead = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "Sorriso Care",
-              "url": "https://sorriso.care",
-              "logo": "https://sorriso.care/images/icons/icon.svg",
-              "sameAs": [
+              name: "Sorriso Care",
+              url: "https://sorriso.care",
+              logo: "https://sorriso.care/images/icons/icon.svg",
+              sameAs: [
                 "https://www.facebook.com/sorrisocare",
                 "https://www.linkedin.com/company/sorriso-care",
-                "https://www.instagram.com/sorriso_care/"
+                "https://www.instagram.com/sorriso_care/",
               ],
-              "contactPoint": {
+              contactPoint: {
                 "@type": "ContactPoint",
-                "telephone": "+382 60 664 668",
-                "contactType": "Customer Service",
-                "areaServed": "Balkans",
-                "availableLanguage": ["English", "Montenegrin", "Italian"]
+                telephone: "+382 60 664 668",
+                contactType: "Customer Service",
+                areaServed: "Balkans",
+                availableLanguage: ["English", "Montenegrin", "Italian"],
               },
-              "description": "Affordable Dental Tourism in the Balkans. Offering high-quality dental care at affordable costs.",
-              "founder": {
+              description:
+                "Affordable Dental Tourism in the Balkans. Offering high-quality dental care at affordable costs.",
+              founder: {
                 "@type": "Person",
-                "name": "Dr. Filip Šuković"
+                name: "Dr. Filip Šuković",
               },
-              "address": {
+              address: {
                 "@type": "PostalAddress",
-                "addressLocality": "Podgorica",
-                "addressCountry": "Montenegro",
-                "postalCode": "81000",
-                "streetAddress": "bb Gavra Vukovića"
-              }
-            })
+                addressLocality: "Podgorica",
+                addressCountry: "Montenegro",
+                postalCode: "81000",
+                streetAddress: "bb Gavra Vukovića",
+              },
+            }),
           }}
         />
       </Head>
