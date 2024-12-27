@@ -12,13 +12,9 @@
     "buttonText": "Schedule an Appointment"
   },
   "introduction": {
-    "title": "Dental issues have you thinking?",
+    "title": "Dental issues got you thinking?",
     "subtitle": "Veni Vidi Vici with Sorriso",
-<<<<<<< HEAD
-    "description": "Fly to Montenegro where we offer the better quality for less. Discover Dental Implants and Veneers in Montenegro and achieve your perfect smile.",
-=======
     "description": "Fly to Montenegro for high-quality dental care at affordable prices and achieve your perfect smile—an exceptional alternative to Turkey teeth, with personalized treatments like dental implants and veneers.",
->>>>>>> 62b826d3d9fa4f81cb707ac8d159ce327c885418
     "joinUsTitle": "Join Us",
     "joinUsDescription": "Schedule an appointment and start your journey to a perfect smile with Sorriso.",
     "visitButton": "Our Transformation",
@@ -56,7 +52,7 @@
   },
   "serviceGrid": {
     "title": "Our Dental Services",
-    "description": "Discover our specialized dental services, focusing on all-on-4 and all-on-6 dental procedures and full mouth rehabilitation—what Montenegro and our partner clinic are internationally renowned for.",
+    "description": "Discover our specialized dental services, focusing on all on 4 dental implants & all on 6 dental implants with full mouth rehabilitation—what Montenegro and our partner clinic are internationally renowned for.",
    "buttonText": "Watch Our Video",
     "services": [
       {
@@ -72,7 +68,7 @@
         "altText": "Full Mouth Rehabilitation Services"
       },
       {
-        "title": "General Implantology",
+        "title": "Dental Implants",
         "altText": "General Implantology Services"
       }
     ]
