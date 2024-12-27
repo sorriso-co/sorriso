@@ -1,90 +1,57 @@
 "use client";
 import React from "react";
-import { useTranslation } from "next-i18next";
 import Hero from "../../components/Pricing/PriceHero";
 import Comparison from "../../components/Pricing/Comparison";
-// import Treatments from "../../components/Pricing/TreatmentsListPrices";
 import PricingSection from "@/components/Pricing/PricingSection";
-
 import Head from "next/head";
+import { getSEOConfig } from "@/app/seoConfig";
 
 const PricingPage: React.FC = () => {
-  const { t } = useTranslation("common");
+  // Page-specific SEO configuration
+  const seoConfig = getSEOConfig({
+    title: "Pricing - Affordable Dental Treatments | Sorriso Care",
+    description:
+      "Explore Sorriso Care's transparent pricing for top-quality dental treatments. Compare prices and treatments to find the best solution for you.",
+    url: "https://sorriso.care/pricing"
+  });
 
   return (
     <>
-      {/* SEO Meta Tags */}
+      {/* Page-Specific SEO Metadata */}
       <Head>
-        <title>
-          {t("meta_pricing.title", {
-            defaultValue:
-              "Pricing - Affordable Dental Treatments | Sorriso Care",
-          })}
-        </title>
-        <meta
-          name="description"
-          content={t("meta_pricing.description", {
-            defaultValue:
-              "Explore Sorriso Care's transparent pricing for top-quality dental treatments. Compare prices and treatments to find the best solution for you.",
-          })}
-        />
-        <meta
-          name="keywords"
-          content={t("meta_pricing.keywords", {
-            defaultValue:
-              "Sorriso Care pricing, affordable dental treatments, dental prices Montenegro, dental tourism pricing",
-          })}
-        />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://sorriso.care/pricing" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="UTF-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <title>{seoConfig.title}</title>
+        <meta name="description" content={seoConfig.description} />
+        <meta name="keywords" content={seoConfig.keywords} />
+        <meta name="robots" content={seoConfig.robots} />
+        <link rel="canonical" href={seoConfig.canonical} />
+        <meta name="viewport" content={seoConfig.viewport} />
+        <meta charSet={seoConfig.charSet} />
+        <meta httpEquiv="X-UA-Compatible" content={seoConfig.xUACompatible} />
 
-        {/* Open Graph Meta Tags for Social Sharing */}
-        <meta
-          property="og:title"
-          content={t("meta_pricing.og_title", {
-            defaultValue: "Affordable Dental Treatments at Sorriso Care",
-          })}
-        />
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content={seoConfig.openGraph.title} />
         <meta
           property="og:description"
-          content={t("meta_pricing.og_description", {
-            defaultValue:
-              "Compare dental treatment prices at Sorriso Care and get top-quality services at affordable rates.",
-          })}
+          content={seoConfig.openGraph.description}
         />
-        <meta property="og:url" content="https://sorriso.care/pricing" />
+        <meta property="og:url" content={seoConfig.openGraph.url} />
         <meta
           property="og:image"
-          content={t("meta_pricing.og_image", {
-            defaultValue: "https://sorriso.care/images/pricing-thumbnail.jpg",
-          })}
+          content={seoConfig.openGraph.images[0].url}
         />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content={seoConfig.openGraph.type} />
+        <meta property="og:site_name" content={seoConfig.openGraph.siteName} />
+        <meta property="og:locale" content={seoConfig.openGraph.locale} />
 
         {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content={t("meta_pricing.twitter_title", {
-            defaultValue: "Affordable Dental Treatments at Sorriso Care",
-          })}
-        />
+        <meta name="twitter:card" content={seoConfig.twitter.card} />
+        <meta name="twitter:site" content={seoConfig.twitter.site} />
+        <meta name="twitter:title" content={seoConfig.twitter.title} />
         <meta
           name="twitter:description"
-          content={t("meta_pricing.twitter_description", {
-            defaultValue:
-              "Explore affordable dental treatments with transparent pricing at Sorriso Care.",
-          })}
+          content={seoConfig.twitter.description}
         />
-        <meta
-          name="twitter:image"
-          content={t("meta_pricing.twitter_image", {
-            defaultValue: "https://sorriso.care/images/pricing-thumbnail.jpg",
-          })}
-        />
+        <meta name="twitter:image" content={seoConfig.twitter.images[0]} />
       </Head>
 
       {/* Page Content */}
@@ -97,9 +64,7 @@ const PricingPage: React.FC = () => {
         <div className="relative rounded-t-[30px] rounded-b-[30px] bg-gray-50 overflow-x-hidden text-teal-900">
           <div className="container mx-auto px-4 pt-16">
             {/* <h1 className="text-5xl font-bold text-center text-teal-600 mb-12">
-              {t("pricingPage.treatments_title", {
-                defaultValue: "Our Dental Treatments & Prices",
-              })}
+              Our Dental Treatments & Prices
             </h1> */}
             {/* <Treatments /> */}
           </div>
@@ -110,3 +75,4 @@ const PricingPage: React.FC = () => {
 };
 
 export default PricingPage;
+

@@ -54,38 +54,22 @@
     "title": "I Nostri Servizi Dentali",
     "description": "Esplora i nostri servizi dentali completi progettati per soddisfare tutte le tue esigenze.",
     "buttonText": "Guarda il Nostro Video",
-    "services": [
+   "services": [
       {
-        "title": "Odontoiatria Generale",
-        "altText": "Servizi di Odontoiatria Generale"
+        "title": "All-on-4",
+        "altText": "Servizi di implantologia All-on-4 e All-on-6"
       },
       {
-        "title": "Impianti Dentali",
-        "altText": "Servizi di Impianti Dentali"
+        "title": "Sorriso di Hollywood",
+        "altText": "Servizi di trasformazione del sorriso di Hollywood"
       },
       {
-        "title": "Corone Dentali",
-        "altText": "Servizi di Corone Dentali"
+        "title": "Riabilitazione completa della bocca",
+        "altText": "Servizi di riabilitazione completa della bocca"
       },
       {
-        "title": "Chirurgia Dentale",
-        "altText": "Servizi di Chirurgia Dentale"
-      },
-      {
-        "title": "Sbiancamento Dentale",
-        "altText": "Servizi di Sbiancamento Dentale"
-      },
-      {
-        "title": "Protezione dei Denti",
-        "altText": "Servizi di Protezione Dentale"
-      },
-      {
-        "title": "Trattamento Parodontale",
-        "altText": "Servizi di Trattamento Parodontale"
-      },
-      {
-        "title": "Radiologia",
-        "altText": "Servizi di Radiologia"
+        "title": "Implantologia Generale",
+        "altText": "Servizi di implantologia generale"
       }
     ]
   }

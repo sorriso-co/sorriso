@@ -1,0 +1,18 @@
+.container {
+  font-family: "Georgia", "Times New Roman", serif; /* Serif font */
+  font-size: 16px; /* Increase font size by 2px from typical base */
+  color: #0d9488; /* Dark teal color */
+  line-height: 1.6; /* Improved readability */
+}
+
+.learnMore {
+  font-weight: bold;
+  color: #0d9488; /* Match dark teal color */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.learnMore:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: #086f63; /* Slightly darker teal for hover */
+}

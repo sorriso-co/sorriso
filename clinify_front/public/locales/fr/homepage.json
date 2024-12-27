@@ -56,36 +56,20 @@
     "buttonText": "Regarder Notre Vidéo",
     "services": [
       {
-        "title": "Soins Dentaires Généraux",
-        "altText": "Services de Soins Dentaires Généraux"
+        "title": "All-on-4",
+        "altText": "Services d'implants All-on-4 et All-on-6"
       },
       {
-        "title": "Implants Dentaires",
-        "altText": "Services d'Implants Dentaires"
+        "title": "Sourire Hollywoodien",
+        "altText": "Services de transformation de sourire hollywoodien"
       },
       {
-        "title": "Couronnes Dentaires",
-        "altText": "Services de Couronnes Dentaires"
+        "title": "Réhabilitation complète de la bouche",
+        "altText": "Services de réhabilitation complète de la bouche"
       },
       {
-        "title": "Chirurgie Dentaire",
-        "altText": "Services de Chirurgie Dentaire"
-      },
-      {
-        "title": "Blanchiment des Dents",
-        "altText": "Services de Blanchiment des Dents"
-      },
-      {
-        "title": "Protection Dentaire",
-        "altText": "Services de Protection Dentaire"
-      },
-      {
-        "title": "Traitement Parodontal",
-        "altText": "Services de Traitement Parodontal"
-      },
-      {
-        "title": "Radiologie",
-        "altText": "Services de Radiologie"
+        "title": "Implantologie Générale",
+        "altText": "Services d'implantologie générale"
       }
     ]
   }

@@ -12,9 +12,13 @@
     "buttonText": "Schedule an Appointment"
   },
   "introduction": {
-    "title": "Turkey Teeth got you thinking?",
+    "title": "Dental issues have you thinking?",
     "subtitle": "Veni Vidi Vici with Sorriso",
+<<<<<<< HEAD
     "description": "Fly to Montenegro where we offer the better quality for less. Discover Dental Implants and Veneers in Montenegro and achieve your perfect smile.",
+=======
+    "description": "Fly to Montenegro for high-quality dental care at affordable prices and achieve your perfect smile—an exceptional alternative to Turkey teeth, with personalized treatments like dental implants and veneers.",
+>>>>>>> 62b826d3d9fa4f81cb707ac8d159ce327c885418
     "joinUsTitle": "Join Us",
     "joinUsDescription": "Schedule an appointment and start your journey to a perfect smile with Sorriso.",
     "visitButton": "Our Transformation",
@@ -52,40 +56,24 @@
   },
   "serviceGrid": {
     "title": "Our Dental Services",
-    "description": "Explore our comprehensive dental services designed to meet your needs.",
-    "buttonText": "Watch Our Video",
+    "description": "Discover our specialized dental services, focusing on all-on-4 and all-on-6 dental procedures and full mouth rehabilitation—what Montenegro and our partner clinic are internationally renowned for.",
+   "buttonText": "Watch Our Video",
     "services": [
       {
-        "title": "General Dentistry",
-        "altText": "General Dentistry Services"
+        "title": "All-on-4",
+        "altText": "All-on-4 and All-on-6 Implant Services"
       },
       {
-        "title": "Dental Implants",
-        "altText": "Dental Implant Services"
+        "title": "Hollywood Smile",
+        "altText": "Hollywood Smile Transformation Services"
       },
       {
-        "title": "Dental Crowns",
-        "altText": "Dental Crown Services"
+        "title": "Full Mouth Rehabilitation",
+        "altText": "Full Mouth Rehabilitation Services"
       },
       {
-        "title": "Dental Surgery",
-        "altText": "Dental Surgery Services"
-      },
-      {
-        "title": "Tooth Whitening",
-        "altText": "Tooth Whitening Services"
-      },
-      {
-        "title": "Tooth Protection",
-        "altText": "Tooth Protection Services"
-      },
-      {
-        "title": "Periodontal Treatment",
-        "altText": "Periodontal Treatment Services"
-      },
-      {
-        "title": "Radiology",
-        "altText": "Radiology Services"
+        "title": "General Implantology",
+        "altText": "General Implantology Services"
       }
     ]
   }
