@@ -1,28 +1,36 @@
 import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
 import nodemailer from "nodemailer";
 
-export async function POST(req: { json: () => PromiseLike<{ email: any; }> | { email: any; }; }) {
+export async function POST(request: NextRequest) { 
   try {
-    const { email } = await req.json();
+    // (3) Parse JSON from the request
+    const { email } = await request.json();
 
+    // (4) Validate the email
     if (!email || !email.includes("@")) {
-      return NextResponse.json({ message: "Invalid email address." }, { status: 400 });
+      return NextResponse.json(
+        { message: "Invalid email address." }, 
+        { status: 400 }
+      );
     }
 
+    // (5) Create a Nodemailer transporter
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
         user: "djordjeivanovic65@gmail.com",
-        pass: "owlj ddmq zjce gues"
+        pass: "owlj ddmq zjce gues", 
       },
     });
 
+    // (6) Define your email content
     const mailOptions = {
-      from: process.env.EMAIL_USER,
+      from: "djordjeivanovic65@gmail.com",
       to: email,
-      subject: "Your Exclusive Dental Discount Awaits!",
+      subject: "Your Dental Discount Awaits!",
       html: `
-       <!DOCTYPE html>
+      <!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8" />
@@ -96,6 +104,10 @@ export async function POST(req: { json: () => PromiseLike<{ email: any; }> | { e
             .footer p {
                 margin: 5px 0;
             }
+            .unsubscribe-link {
+                color: #006666;
+                text-decoration: none;
+            }
             </style>
         </head>
         <body>
@@ -123,8 +135,9 @@ export async function POST(req: { json: () => PromiseLike<{ email: any; }> | { e
                 us create a personalized treatment plan for you.
                 </p>
                 <a
-                href="https://www.sorriso.care/book"
+                href="https://www.sorriso.care/contact"
                 target="_blank"
+                rel="noopener"
                 class="cta-button"
                 >
                 Book Your Consultation
@@ -134,25 +147,21 @@ export async function POST(req: { json: () => PromiseLike<{ email: any; }> | { e
                 </p>
                 <p>Warm regards,<br />The Sorriso Care Team</p>
             </div>
-
-            <!-- Footer -->
             <div class="footer">
                 <p>&copy; 2024 Sorriso Care. All rights reserved.</p>
                 <p>
-                <a href="https://sorriso.care/unsubscribe" style="color: #006666; text-decoration: none;">
-                    Unsubscribe
-                </a>
                 </p>
             </div>
             </div>
         </body>
-        </html>
-
+    </html>
       `,
     };
 
+    // (7) Send the email
     await transporter.sendMail(mailOptions);
 
+    // (8) Respond with success
     return NextResponse.json({ message: "Promo email sent successfully!" });
   } catch (error) {
     console.error("Failed to send promo email:", error);

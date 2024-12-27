@@ -41,7 +41,7 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
     }
 
     try {
-      await axios.post("/api/send-promo-email", { email });
+      await axios.post("/api/send", { email });
       setSubmitted(true);
       setError(null);
     } catch (error) {
