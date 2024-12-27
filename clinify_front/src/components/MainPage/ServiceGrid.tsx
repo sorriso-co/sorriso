@@ -16,45 +16,25 @@ const ServiceGrid: React.FC = () => {
 
   const services: Service[] = [
     {
-      icon: "/images/service-grid/general-dent.webp",
+      icon: "/images/service-grid/all-on-4.webp",
       title: t("serviceGrid.services.0.title"),
       altText: t("serviceGrid.services.0.altText"),
     },
     {
-      icon: "/images/service-grid/dental-implant.webp",
+      icon: "/images/service-grid/veneers.webp",
       title: t("serviceGrid.services.1.title"),
       altText: t("serviceGrid.services.1.altText"),
     },
     {
-      icon: "/images/service-grid/dental-crown.webp",
+      icon: "/images/service-grid/full-mouth.webp",
       title: t("serviceGrid.services.2.title"),
       altText: t("serviceGrid.services.2.altText"),
     },
     {
-      icon: "/images/service-grid/dental-surgery.webp",
+      icon: "/images/service-grid/dental-implant.webp",
       title: t("serviceGrid.services.3.title"),
       altText: t("serviceGrid.services.3.altText"),
-    },
-    {
-      icon: "/images/service-grid/tooth-whitening.webp",
-      title: t("serviceGrid.services.4.title"),
-      altText: t("serviceGrid.services.4.altText"),
-    },
-    {
-      icon: "/images/service-grid/protection.webp",
-      title: t("serviceGrid.services.5.title"),
-      altText: t("serviceGrid.services.5.altText"),
-    },
-    {
-      icon: "/images/service-grid/perio.webp",
-      title: t("serviceGrid.services.6.title"),
-      altText: t("serviceGrid.services.6.altText"),
-    },
-    {
-      icon: "/images/service-grid/radio.webp",
-      title: t("serviceGrid.services.7.title"),
-      altText: t("serviceGrid.services.7.altText"),
-    },
+    }
   ];
 
   const router = useRouter();
