@@ -26,7 +26,7 @@ const Introduction: React.FC = () => {
         </p>
         <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4 mt-5 font-serif">
           <Link
-            href="/contact"
+            href="/pricing"
             className="bg-gradient-to-r from-teal-500 via-teal-600 to-teal-800 text-white py-3 sm:py-4 px-6 sm:px-8 rounded-full text-center font-semibold shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-4 focus:ring-teal-300 font-inter"
           >
             View Our Pricing

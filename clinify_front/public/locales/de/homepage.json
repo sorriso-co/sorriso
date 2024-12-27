@@ -56,36 +56,20 @@
     "buttonText": "Unser Video ansehen",
     "services": [
       {
-        "title": "Allgemeine Zahnheilkunde",
-        "altText": "Leistungen der Allgemeinen Zahnheilkunde"
+        "title": "All-on-4",
+        "altText": "All-on-4 und All-on-6 Implantat-Dienstleistungen"
       },
       {
-        "title": "Zahnimplantate",
-        "altText": "Leistungen für Zahnimplantate"
+        "title": "Hollywood-Lächeln",
+        "altText": "Hollywood-Lächeln-Transformation Dienstleistungen"
       },
       {
-        "title": "Zahnkronen",
-        "altText": "Leistungen für Zahnkronen"
+        "title": "Komplette Mundrehabilitation",
+        "altText": "Dienstleistungen für komplette Mundrehabilitation"
       },
       {
-        "title": "Zahnchirurgie",
-        "altText": "Leistungen für Zahnchirurgie"
-      },
-      {
-        "title": "Zahnaufhellung",
-        "altText": "Leistungen zur Zahnaufhellung"
-      },
-      {
-        "title": "Zahnschutz",
-        "altText": "Leistungen zum Zahnschutz"
-      },
-      {
-        "title": "Parodontale Behandlung",
-        "altText": "Leistungen zur Parodontalen Behandlung"
-      },
-      {
-        "title": "Radiologie",
-        "altText": "Radiologische Leistungen"
+        "title": "Allgemeine Implantologie",
+        "altText": "Dienstleistungen für allgemeine Implantologie"
       }
     ]
   }

@@ -230,5 +230,56 @@
     "consultation": "Consulenza gratuita",
     "transport": "Trasporto da/per l'aeroporto",
     "cta": "Prenota una consulenza online"
+  },
+  "faqs": {
+    "title": "Domande Frequenti",
+    "q1": {
+      "question": "Qual è il costo degli impianti dentali?",
+      "answer": "Il costo degli impianti dentali in Montenegro parte da circa €500 per impianto. Che si tratti di impianti singoli, impianti dentali per tutta la bocca o trattamenti avanzati come gli impianti dentali all-on-4, il Montenegro offre opzioni di alta qualità a prezzi accessibili. Questi costi sono significativamente inferiori rispetto ai paesi occidentali, pur mantenendo cure di prim'ordine."
+    },
+    "q2": {
+      "question": "Il Montenegro è famoso per le vacanze economiche?",
+      "answer": "Sì, il Montenegro è una destinazione economica per vacanze a basso costo. I visitatori possono esplorare spiagge mozzafiato, montagne e siti storici, godendo al contempo di trattamenti dentali accessibili come faccette, corone e odontoiatria estetica. Vola in Montenegro per una perfetta combinazione di turismo e risparmio."
+    },
+    "q3": {
+      "question": "Dai denti marci a un sorriso perfetto: makeover del sorriso a prezzi accessibili in Montenegro",
+      "answer": "Trasforma i tuoi denti marci in un sorriso perfetto con le soluzioni dentali accessibili del Montenegro. Dai makeover del sorriso agli impianti dentali, faccette e corone, i nostri dentisti qualificati offrono trattamenti completi per ripristinare la tua fiducia a una frazione del costo rispetto a paesi come la Turchia."
+    },
+    "q4": {
+      "question": "Come trattare le carie nei denti e la decadenza dentale?",
+      "answer": "Le carie e la decadenza dentale vengono trattate con otturazioni, trattamenti canalari o corone a prezzi accessibili in Montenegro. Previeni ulteriori danni e ottieni soluzioni efficaci da dentisti esperti specializzati nel ripristino dei denti e nel mantenimento della salute orale."
+    },
+    "q5": {
+      "question": "Come pianificare una vacanza economica? Vola in Montenegro per odontoiatria estetica e turismo.",
+      "answer": "Combina una vacanza economica con cure dentistiche di alta qualità in Montenegro. Prenota una consulenza per trattamenti come faccette, impianti dentali o corone dentali e goditi i panorami mozzafiato e i prezzi convenienti per cui il Montenegro è famoso."
+    },
+    "q6": {
+      "question": "Faccette in Turchia vs. faccette in Montenegro: qual è meglio per il tuo budget e sorriso?",
+      "answer": "Sebbene le faccette in Turchia siano popolari, il Montenegro offre un'esperienza meno affollata e più personalizzata. Prezzi competitivi, materiali di alta qualità e cura esperta rendono le faccette in Montenegro una scelta eccellente per il tuo makeover del sorriso."
+    },
+    "q7": {
+      "question": "Costo degli impianti dentali per denti danneggiati?",
+      "answer": "Il costo degli impianti dentali per denti danneggiati in Montenegro varia da €500 a €800 per impianto. Che tu abbia bisogno di impianti dentali per denti gravemente danneggiati o impianti dentali per tutta la bocca, il Montenegro offre soluzioni accessibili e affidabili."
+    },
+    "q8": {
+      "question": "Come trattare i denti marci?",
+      "answer": "I denti marci possono essere ripristinati con trattamenti come otturazioni, trattamenti canalari, estrazioni o corone dentali. I dentisti del Montenegro offrono opzioni efficaci ed economiche per ripristinare la tua salute orale e regalarti un sorriso perfetto."
+    },
+    "q9": {
+      "question": "Cosa sono gli impianti dentali all-on-4 e perché scegliere il Montenegro?",
+      "answer": "Gli impianti dentali all-on-4 forniscono un restauro completo dell'arcata con soli quattro impianti, ideali per sostituire denti danneggiati o ripristinare l'intera bocca. Il Montenegro offre impianti all-on-4 e all-on-6 a prezzi accessibili, combinando tecniche avanzate con vacanze panoramiche."
+    },
+    "q10": {
+      "question": "Cosa sono le corone dentali e i ponti dentali?",
+      "answer": "Le corone e i ponti dentali sono trattamenti essenziali per ripristinare denti danneggiati o riempire spazi vuoti. Il Montenegro offre corone e ponti dentali a prezzi accessibili, garantendo un sorriso funzionale ed estetico senza svuotare il portafoglio."
+    },
+    "q11": {
+      "question": "Cos'è un makeover del sorriso e quanto è conveniente in Montenegro?",
+      "answer": "Un makeover del sorriso combina trattamenti come faccette, corone dentali, impianti e sbiancamento per creare il tuo sorriso perfetto. Il Montenegro offre makeover del sorriso a prezzi accessibili, fornendo odontoiatria estetica di livello mondiale a prezzi competitivi."
+    },
+    "q12": {
+      "question": "Perché volare in Montenegro per impianti dentali?",
+      "answer": "Volare in Montenegro per impianti dentali offre una combinazione perfetta di trattamenti a prezzi accessibili e scenari mozzafiato. Che tu abbia bisogno di impianti dentali, impianti dentali per tutta la bocca o makeover del sorriso, il Montenegro garantisce cure di qualità a una frazione del costo."
+    }
   }
 }
