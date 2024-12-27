@@ -15,15 +15,19 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
   const [error, setError] = useState<string | null>(null);
   const [shouldShow, setShouldShow] = useState(false);
 
-  // Check if popup should be shown based on the cookie
   useEffect(() => {
     const isPopupDismissed = document.cookie
       .split("; ")
       .find((row) => row.startsWith("popupDismissed="));
 
     if (!isPopupDismissed) {
-      setShouldShow(true);
+      const timer = setTimeout(() => {
+        setShouldShow(true);
+      }, 18000); // 18 seconds
+
+      return () => clearTimeout(timer);
     }
+    return undefined;
   }, []);
 
   const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {

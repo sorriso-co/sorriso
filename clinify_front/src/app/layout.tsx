@@ -31,6 +31,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
         <meta charSet={seoConfig.charSet} />
         <meta httpEquiv="X-UA-Compatible" content={seoConfig.xUACompatible} />
         <meta name="theme-color" content={seoConfig.themeColor} />
+        <meta name="msapplication-TileColor" content={seoConfig.themeColor} />
         <meta name="application-name" content={seoConfig.applicationName} />
 
         {/* Favicons */}
