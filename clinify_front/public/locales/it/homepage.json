@@ -71,6 +71,17 @@
         "title": "Implantologia Generale",
         "altText": "Servizi di implantologia generale"
       }
-    ]
-  }
+    ]   
+  },
+  "title": "Esplora i voli per il Montenegro",
+    "description": "La maggior parte dei nostri pazienti proviene da questi paesi. Seleziona il tuo paese per vedere le rotte dei voli.",
+    "label": "Seleziona il tuo paese",
+    "button": "Esplora i voli per il Montenegro",
+    "mapAlt": "Mappa che mostra i voli da {{country}}",
+    "countries": {
+      "Germany": "Germania",
+      "Great Britain": "Gran Bretagna",
+      "Italy": "Italia",
+      "Austria": "Austria"
+    } 
 }

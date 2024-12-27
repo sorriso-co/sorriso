@@ -72,5 +72,16 @@
         "altText": "General Implantology Services"
       }
     ]
+  },
+  "title": "Explore Flights to Montenegro",
+  "description": "Most of our patients come from these countries. Select your country to see flight paths.",
+  "label": "Select your country",
+  "button": "Explore Flights to Montenegro",
+  "mapAlt": "Map showing flights from {{country}}",
+  "countries": {
+    "Germany": "Germany",
+    "Great Britain": "Great Britain",
+    "Italy": "Italy",
+    "Austria": "Austria"
   }
 }

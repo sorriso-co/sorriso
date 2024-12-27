@@ -69,7 +69,6 @@ const ServiceGrid: React.FC = () => {
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-10"
               }`}
-              style={{ transitionDelay: `${index * 0.15}s` }}
               onClick={handleCardClick}
             >
               <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transform hover:scale-105">
