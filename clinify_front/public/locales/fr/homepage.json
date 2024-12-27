@@ -72,5 +72,16 @@
         "altText": "Services d'implantologie générale"
       }
     ]
+  },
+  "title": "Explorez les vols vers le Monténégro",
+  "description": "La plupart de nos patients viennent de ces pays. Sélectionnez votre pays pour voir les itinéraires de vol.",
+  "label": "Sélectionnez votre pays",
+  "button": "Explorez les vols vers le Monténégro",
+  "mapAlt": "Carte montrant les vols depuis {{country}}",
+  "countries": {
+    "Germany": "Allemagne",
+    "Great Britain": "Grande-Bretagne",
+    "Italy": "Italie",
+    "Austria": "Autriche"
   }
 }

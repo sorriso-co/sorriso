@@ -30,14 +30,11 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
         <meta name="viewport" content={seoConfig.viewport} />
         <meta charSet={seoConfig.charSet} />
         <meta httpEquiv="X-UA-Compatible" content={seoConfig.xUACompatible} />
-        <meta name="theme-color" content={seoConfig.themeColor} />
         <meta name="msapplication-TileColor" content={seoConfig.themeColor} />
         <meta name="application-name" content={seoConfig.applicationName} />
 
         {/* Favicons */}
         <link rel="icon" href="/images/icons/icon.svg" type="image/svg+xml" />
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" />
 
         {/* Open Graph Meta Tags */}
         <meta property="og:title" content={seoConfig.openGraph.title} />

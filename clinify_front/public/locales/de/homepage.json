@@ -72,5 +72,16 @@
         "altText": "Dienstleistungen für allgemeine Implantologie"
       }
     ]
+  },
+  "title": "Entdecken Sie Flüge nach Montenegro",
+  "description": "Die meisten unserer Patienten kommen aus diesen Ländern. Wählen Sie Ihr Land, um die Flugrouten anzuzeigen.",
+  "label": "Wählen Sie Ihr Land",
+  "button": "Entdecken Sie Flüge nach Montenegro",
+  "mapAlt": "Karte, die Flüge von {{country}} zeigt",
+  "countries": {
+    "Germany": "Deutschland",
+    "Great Britain": "Großbritannien",
+    "Italy": "Italien",
+    "Austria": "Österreich"
   }
 }
