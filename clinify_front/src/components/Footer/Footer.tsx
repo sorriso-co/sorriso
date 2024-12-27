@@ -51,9 +51,7 @@ const Footer: React.FC = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.9022024027467!2d19.258372015446858!3d42.45324407918168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134d955190dc516d%3A0xd8401676f898ab53!2sGavra%20Vukovi%C4%87a%2C%20Podgorica%2081000%2C%20Montenegro!5e0!3m2!1sen!2s!4v1695655642876!5m2!1sen!2s"
             width="100%"
             height="100%"
-            style={{ border: 0 }}
             allowFullScreen
-            loading="lazy"
             title="Sorriso Location"
           ></iframe>
         </div>

@@ -37,15 +37,6 @@ const HowItWorks: React.FC = () => {
     return (
       <button
         className={`${className}`}
-        style={{
-          right: "0px", // Aligned to the right edge
-          zIndex: 2,
-          fontSize: "24px",
-          color: "#004d40", // Dark green color
-          background: "none",
-          border: "none",
-          cursor: "pointer",
-        }}
         onClick={onClick}
       >
         &#10095;
@@ -58,15 +49,6 @@ const HowItWorks: React.FC = () => {
     return (
       <button
         className={`${className}`}
-        style={{
-          left: "0px", // Aligned to the left edge
-          zIndex: 2,
-          fontSize: "24px",
-          color: "#004d40", // Dark green color
-          background: "none",
-          border: "none",
-          cursor: "pointer",
-        }}
         onClick={onClick}
       >
         &#10094;
@@ -223,14 +205,13 @@ const HowItWorks: React.FC = () => {
                 </button>
                 <div
                   className="relative"
-                  style={{ paddingBottom: "56.25%", height: 0 }}
+
                 >
                   <iframe
                     src="https://www.youtube.com/embed/CoucS-fy2FI?si=qt3GdS64rwl0elN2&start=2"
                     title="YouTube video player"
                     className="absolute top-0 left-0 w-full h-full"
                     allowFullScreen
-                    loading="lazy" // Ensure the iframe is lazy-loaded
                   ></iframe>
                 </div>
               </div>

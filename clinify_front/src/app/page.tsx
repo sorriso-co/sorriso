@@ -12,7 +12,7 @@ import WhatsAppLink from "@/components/Contact/WhatsApp";
 import FAQ from "@/components/MainPage/FAQ/FAQ";
 import PopUp from "@/components/MainPage/PopUp/PopUp";
 import FlightMap from "@/components/MainPage/Maps/FlightMap";
-// import SavingsChart from "@/components/MainPage/Chart/SavingsChart";
+import SavingsChart from "@/components/MainPage/Chart/SavingsChart";
 import "../styles/global.css";
 
 const Home: React.FC = () => {
@@ -121,7 +121,10 @@ const Home: React.FC = () => {
           <FlightMap />
         </div>
 
-
+        {/* Savings Chart Section */}
+        <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
+          <SavingsChart />
+        </div>
 
         {/* FAQ Section */}
         <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
