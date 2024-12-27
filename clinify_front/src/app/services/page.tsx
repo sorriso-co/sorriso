@@ -1,11 +1,12 @@
 "use client";
 import React from "react";
-import { useTranslation } from "next-i18next";
 import Head from "next/head";
 import ServiceHero from "../../components/Services/ServiceHero";
 import MostWantedProcedures from "../../components/Treatments/MostWantedProcedures";
 import ExpertiseOverview from "../../components/Treatments/ExpertiseOverview";
 import CallToAction from "../../components/Treatments/CallToAction";
+import { useTranslation } from "next-i18next";
+import { getSEOConfig } from "@/app/seoConfig";
 
 interface Procedure {
   image: string;
@@ -18,82 +19,58 @@ interface Procedure {
 }
 
 const Services: React.FC = () => {
-  const { t: tCommon } = useTranslation("common");
   const { t: tServices } = useTranslation("services");
 
+  // Use translations for procedures
   const procedures = tServices("procedures", {
     returnObjects: true,
   }) as Procedure[];
 
+  // Get SEO config for the page
+  const seoConfig = getSEOConfig({
+    title: "Dental Services - Comprehensive Care | Sorriso Care",
+    description:
+      "Explore the wide range of dental services offered at Sorriso Care, from cosmetic procedures to preventive care, all tailored to your needs.",
+    url: "https://sorriso.care/services"
+  });
+
   return (
     <>
-      {/* SEO Meta Tags */}
+      {/* SEO Metadata */}
       <Head>
-        <title>
-          {tCommon("meta_services.title", {
-            defaultValue: "Dental Services - Comprehensive Care | Sorriso Care",
-          })}
-        </title>
-        <meta
-          name="description"
-          content={tCommon("meta_services.description", {
-            defaultValue:
-              "Explore the wide range of dental services offered at Sorriso Care, from cosmetic procedures to preventive care, all tailored to your needs.",
-          })}
-        />
-        <meta
-          name="keywords"
-          content={tCommon("meta_services.keywords", {
-            defaultValue:
-              "dental services, sorriso care, dental care, cosmetic dentistry, preventive dental care, dental procedures, dental health",
-          })}
-        />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://sorriso.care/services" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="UTF-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <title>{seoConfig.title}</title>
+        <meta name="description" content={seoConfig.description} />
+        <meta name="keywords" content={seoConfig.keywords} />
+        <meta name="robots" content={seoConfig.robots} />
+        <link rel="canonical" href={seoConfig.canonical} />
+        <meta name="viewport" content={seoConfig.viewport} />
+        <meta charSet={seoConfig.charSet} />
+        <meta httpEquiv="X-UA-Compatible" content={seoConfig.xUACompatible} />
 
-        {/* Open Graph Meta Tags */}
-        <meta
-          property="og:title"
-          content={tCommon("meta_services.og_title", {
-            defaultValue: "Comprehensive Dental Services | Sorriso Care",
-          })}
-        />
+        {/* Open Graph Metadata */}
+        <meta property="og:title" content={seoConfig.openGraph.title} />
         <meta
           property="og:description"
-          content={tCommon("meta_services.og_description", {
-            defaultValue:
-              "Discover a wide range of dental services, including cosmetic and preventive procedures, tailored to meet your dental health needs at Sorriso Care.",
-          })}
+          content={seoConfig.openGraph.description}
         />
-        <meta property="og:url" content="https://sorriso.care/services" />
+        <meta property="og:url" content={seoConfig.openGraph.url} />
         <meta
           property="og:image"
-          content="https://sorriso.care/images/services-hero.jpg"
+          content={seoConfig.openGraph.images[0].url}
         />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content={seoConfig.openGraph.type} />
+        <meta property="og:site_name" content={seoConfig.openGraph.siteName} />
+        <meta property="og:locale" content={seoConfig.openGraph.locale} />
 
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content={tCommon("meta_services.twitter_title", {
-            defaultValue: "Comprehensive Dental Services | Sorriso Care",
-          })}
-        />
+        {/* Twitter Card Metadata */}
+        <meta name="twitter:card" content={seoConfig.twitter.card} />
+        <meta name="twitter:site" content={seoConfig.twitter.site} />
+        <meta name="twitter:title" content={seoConfig.twitter.title} />
         <meta
           name="twitter:description"
-          content={tCommon("meta_services.twitter_description", {
-            defaultValue:
-              "Explore various dental services at Sorriso Care, including cosmetic, restorative, and preventive dental care solutions.",
-          })}
+          content={seoConfig.twitter.description}
         />
-        <meta
-          name="twitter:image"
-          content="https://sorriso.care/images/services-hero.jpg"
-        />
+        <meta name="twitter:image" content={seoConfig.twitter.images[0]} />
       </Head>
 
       {/* Page Content */}

@@ -9,14 +9,25 @@ import HowItWorks from "@/components/MainPage/HowItWorks";
 import HaveItAll from "@/components/MainPage/HaveItAll";
 import LanguageSwitcher from "@/components/MainPage/Language/LanguageSwitcher";
 import WhatsAppLink from "@/components/Contact/WhatsApp";
+import FAQ from "@/components/MainPage/FAQ/FAQ";
+import PopUp from "@/components/MainPage/PopUp/PopUp";
 import "../styles/global.css";
 
 const Home: React.FC = () => {
   const { t } = useTranslation("common");
   const [isVisible, setIsVisible] = useState(true);
+  const [isPopupVisible, setIsPopupVisible] = useState(false);
 
-  // Scroll handler to track when user scrolls past the first component
+  // Check if the popup was previously dismissed
   useEffect(() => {
+    const popupDismissed = localStorage.getItem("popupDismissed");
+
+    // If not dismissed, show the popup
+    if (!popupDismissed) {
+      setIsPopupVisible(true);
+    }
+
+    // Scroll handler to track when user scrolls past the first component
     const handleScroll = () => {
       const heroHeight = document.querySelector("#hero-section")?.clientHeight;
       if (window.scrollY > (heroHeight || 0)) {
@@ -32,6 +43,12 @@ const Home: React.FC = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const handlePopupClose = () => {
+    // Mark the popup as dismissed in local storage
+    localStorage.setItem("popupDismissed", "true");
+    setIsPopupVisible(false);
+  };
 
   return (
     <>
@@ -97,6 +114,11 @@ const Home: React.FC = () => {
           <ServiceGrid />
         </div>
 
+        {/* FAQ Section */}
+        <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
+          <FAQ />
+        </div>
+
         {/* Have It All Section */}
         <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
           <HaveItAll />
@@ -107,6 +129,9 @@ const Home: React.FC = () => {
 
         {/* Language Switcher */}
         {isVisible && <LanguageSwitcher />}
+
+        {/* PopUp */}
+        {isPopupVisible && <PopUp show={isPopupVisible} handleClose={handlePopupClose} />}
       </div>
     </>
   );

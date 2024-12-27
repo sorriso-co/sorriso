@@ -1,64 +1,62 @@
 "use client";
 import React from "react";
-import { useTranslation } from "next-i18next";
 import ContactSection from "../../components/Contact/ContactSection";
-import Head from "next/head"; 
+import Head from "next/head";
+import { getSEOConfig } from "@/app/seoConfig";
 
 const Contact: React.FC = () => {
-  const { t } = useTranslation("common");
+  // Page-specific SEO configuration
+  const seoConfig = getSEOConfig({
+    title: "Contact Us - Sorriso Care | Get in Touch with Our Team",
+    description:
+      "Reach out to Sorriso Care for any inquiries or assistance regarding our dental services in Montenegro. We're here to help!",
+    url: "https://sorriso.care/contact"
+  });
 
   return (
     <>
+      {/* Page-Specific SEO Metadata */}
       <Head>
-        <title>{t("meta_contact.title", { defaultValue: "Contact Us - Sorriso Care | Get in Touch with Our Team" })}</title>
-        <meta
-          name="description"
-          content={t("meta_contact.description", {
-            defaultValue: "Reach out to Sorriso Care for any inquiries or assistance regarding our dental services in Montenegro. We're here to help!",
-          })}
-        />
-        <meta
-          name="keywords"
-          content={t("meta_contact.keywords", {
-            defaultValue:
-              "Contact Sorriso Care, dental services, Montenegro dental care, dental tourism contact, Contatta Sorriso Care, servizi dentali, assistenza dentale in Montenegro, contatti turismo dentale, Kontakt Sorriso Care, Zahnbehandlungen, Zahntourismus Montenegro, Zahnpflege Kontakt",
-          })}
-        />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://sorriso.care/contact" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="UTF-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <title>{seoConfig.title}</title>
+        <meta name="description" content={seoConfig.description} />
+        <meta name="keywords" content={seoConfig.keywords} />
+        <meta name="robots" content={seoConfig.robots} />
+        <link rel="canonical" href={seoConfig.canonical} />
+        <meta name="viewport" content={seoConfig.viewport} />
+        <meta charSet={seoConfig.charSet} />
+        <meta httpEquiv="X-UA-Compatible" content={seoConfig.xUACompatible} />
 
-        {/* Open Graph Meta Tags for Social Media */}
-        <meta property="og:title" content={t("meta_contact.og_title", { defaultValue: "Contact Us - Sorriso Care" })} />
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content={seoConfig.openGraph.title} />
         <meta
           property="og:description"
-          content={t("meta_contact.og_description", {
-            defaultValue: "Reach out to Sorriso Care for any inquiries or assistance regarding our dental services in Montenegro.",
-          })}
+          content={seoConfig.openGraph.description}
         />
-        <meta property="og:url" content="https://sorriso.care/contact" />
-        <meta property="og:image" content={t("meta_contact.og_image", { defaultValue: "https://sorriso.care/images/contact-thumbnail.jpg" })} />
-        <meta property="og:type" content="website" />
+        <meta property="og:url" content={seoConfig.openGraph.url} />
+        <meta
+          property="og:image"
+          content={seoConfig.openGraph.images[0].url}
+        />
+        <meta property="og:type" content={seoConfig.openGraph.type} />
+        <meta property="og:site_name" content={seoConfig.openGraph.siteName} />
+        <meta property="og:locale" content={seoConfig.openGraph.locale} />
 
-        {/* Twitter Card Meta */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={t("meta_contact.twitter_title", { defaultValue: "Contact Us - Sorriso Care" })} />
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content={seoConfig.twitter.card} />
+        <meta name="twitter:site" content={seoConfig.twitter.site} />
+        <meta name="twitter:title" content={seoConfig.twitter.title} />
         <meta
           name="twitter:description"
-          content={t("meta_contact.twitter_description", {
-            defaultValue: "Reach out to Sorriso Care for any inquiries or assistance regarding our dental services in Montenegro.",
-          })}
+          content={seoConfig.twitter.description}
         />
-        <meta name="twitter:image" content={t("meta_contact.twitter_image", { defaultValue: "https://sorriso.care/images/contact-thumbnail.jpg" })} />
+        <meta name="twitter:image" content={seoConfig.twitter.images[0]} />
       </Head>
 
       <div className="flex flex-col min-h-screen">
         <main className="flex-grow">
           <section aria-labelledby="contact-section-heading">
             <h1 id="contact-section-heading" className="sr-only">
-              {t("meta_contact.title", { defaultValue: "Contact Us" })}
+              Contact Us
             </h1>
             <ContactSection />
           </section>

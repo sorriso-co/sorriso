@@ -5,8 +5,8 @@ export default function BookACall() {
   const { t } = useTranslation("common");
 
   return (
-    <div className="w-full rounded-xl p-4 sm:p-6 lg:p-8 mt-12 max-w-screen mx-auto">
-      {/* Header for Context */}
+    <div className="w-full h-screen flex flex-col items-center justify-center overflow-hidden bg-white">
+      {/* Header */}
       <div className="text-center mb-6">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-teal-800">
           {t("bookACall.header.title")}
@@ -16,15 +16,13 @@ export default function BookACall() {
         </p>
       </div>
 
-      {/* Iframe Wrapper */}
-      <div className="relative overflow-hidden rounded-lg shadow-md">
-        <iframe
-          src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1Z-M-9vG8Fy6-4ZN5H_Ck3v_NOXdIMFFZt9eXxffaFzhL3PeswZYOyjiCd4kdqp276PXFXooxj?gv=true"
-          className="w-full h-[500px] sm:h-[600px] md:h-[700px] lg:h-[800px] rounded-lg"
-          title={t("bookACall.iframe.title")}
-          aria-label={t("bookACall.iframe.ariaLabel")}
-        ></iframe>
-      </div>
+      {/* Fullscreen Iframe */}
+      <iframe
+        src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1Z-M-9vG8Fy6-4ZN5H_Ck3v_NOXdIMFFZt9eXxffaFzhL3PeswZYOyjiCd4kdqp276PXFXooxj?gv=true"
+        className="w-full h-full border-none"
+        title={t("bookACall.iframe.title")}
+        aria-label={t("bookACall.iframe.ariaLabel")}
+      ></iframe>
     </div>
   );
 }

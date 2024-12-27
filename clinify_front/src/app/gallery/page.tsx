@@ -1,56 +1,56 @@
 "use client";
 import React from "react";
-import { useTranslation } from "next-i18next";
 import GallerySection from "@/components/Gallery/Gallery";
 import TestimonialsHero from "@/components/Gallery/TestimonialsHero";
-import Head from "next/head"; 
+import Head from "next/head";
+import { getSEOConfig } from "@/app/seoConfig";
 
 const Gallery = () => {
-  const { t } = useTranslation("common");
+  // Page-specific SEO configuration
+  const seoConfig = getSEOConfig({
+    title: "Gallery - Sorriso Care | See Our Successful Dental Treatments",
+    description:
+      "Explore the gallery of Sorriso Care to see real-life examples of our successful dental treatments. Discover how we transform smiles!",
+    url: "https://sorriso.care/gallery"
+  });
 
   return (
     <>
-      {/* SEO Meta Tags */}
+      {/* Page-Specific SEO Metadata */}
       <Head>
-        <title>{t("meta_gallery.title", { defaultValue: "Gallery - Sorriso Care | See Our Successful Dental Treatments" })}</title>
-        <meta
-          name="description"
-          content={t("meta_gallery.description", {
-            defaultValue: "Explore the gallery of Sorriso Care to see real-life examples of our successful dental treatments. Discover how we transform smiles!",
-          })}
-        />
-        <meta
-          name="keywords"
-          content={t("meta_gallery.keywords", {
-            defaultValue: "Sorriso Care gallery, dental treatment photos, smile transformation, dental tourism Montenegro",
-          })}
-        />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://sorriso.care/gallery" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="UTF-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <title>{seoConfig.title}</title>
+        <meta name="description" content={seoConfig.description} />
+        <meta name="keywords" content={seoConfig.keywords} />
+        <meta name="robots" content={seoConfig.robots} />
+        <link rel="canonical" href={seoConfig.canonical} />
+        <meta name="viewport" content={seoConfig.viewport} />
+        <meta charSet={seoConfig.charSet} />
+        <meta httpEquiv="X-UA-Compatible" content={seoConfig.xUACompatible} />
 
-        {/* Open Graph Meta Tags for Social Media */}
-        <meta property="og:title" content={t("meta_gallery.og_title", { defaultValue: "Gallery - Sorriso Care" })} />
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content={seoConfig.openGraph.title} />
         <meta
           property="og:description"
-          content={t("meta_gallery.og_description", {
-            defaultValue: "Explore our gallery to see how Sorriso Care transforms smiles with expert dental treatments.",
-          })}
+          content={seoConfig.openGraph.description}
         />
-        <meta property="og:url" content="https://sorriso.care/gallery" />
-        <meta property="og:type" content="website" />
+        <meta property="og:url" content={seoConfig.openGraph.url} />
+        <meta
+          property="og:image"
+          content={seoConfig.openGraph.images[0].url}
+        />
+        <meta property="og:type" content={seoConfig.openGraph.type} />
+        <meta property="og:site_name" content={seoConfig.openGraph.siteName} />
+        <meta property="og:locale" content={seoConfig.openGraph.locale} />
 
-        {/* Twitter Card Meta */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={t("meta_gallery.twitter_title", { defaultValue: "Gallery - Sorriso Care" })} />
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content={seoConfig.twitter.card} />
+        <meta name="twitter:site" content={seoConfig.twitter.site} />
+        <meta name="twitter:title" content={seoConfig.twitter.title} />
         <meta
           name="twitter:description"
-          content={t("meta_gallery.twitter_description", {
-            defaultValue: "See the gallery of Sorriso Care and discover the dental transformations of our patients.",
-          })}
+          content={seoConfig.twitter.description}
         />
+        <meta name="twitter:image" content={seoConfig.twitter.images[0]} />
       </Head>
 
       <div className="lg:px-20 xl:px-28 2xl:px-40 px-4 mx-auto mb-40 space-y-16">

@@ -1,0 +1,22 @@
+.collapse {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 300ms ease-in-out;
+  }
+  
+  .collapse.entering {
+    max-height: 500px;
+  }
+  
+  .collapse.entered {
+    max-height: 500px;
+  }
+  
+  .collapse.exiting {
+    max-height: 0;
+  }
+  
+  .collapse.exited {
+    max-height: 0;
+  }
+  
