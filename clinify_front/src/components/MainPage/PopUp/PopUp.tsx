@@ -23,7 +23,7 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
     if (!isPopupDismissed) {
       const timer = setTimeout(() => {
         setShouldShow(true);
-      }, 18000); // 18 seconds
+      }, 11000); // 18 seconds
 
       return () => clearTimeout(timer);
     }
@@ -53,7 +53,7 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
   const handleDismiss = async () => {
     try {
       await axios.post("/api/dismiss-popup");
-      document.cookie = "popupDismissed=true; path=/; max-age=2592000"; // 30 days
+      document.cookie = "popupDismissed=true; path=/; max-age=604800"; // 7 days
       setShouldShow(false);
       handleClose();
     } catch (error) {
