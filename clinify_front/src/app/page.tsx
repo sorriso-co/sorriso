@@ -65,6 +65,8 @@ const Home: React.FC = () => {
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://sorriso.care/" />
+        <link rel="icon" href="/images/icons/icon.svg" type="image/x-icon" />
+        <link rel="shortcut icon" href="/images/icons/icon.svg" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
