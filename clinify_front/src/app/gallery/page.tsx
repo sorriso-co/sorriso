@@ -21,6 +21,8 @@ const Gallery: React.FC = () => {
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://sorriso.care/gallery" />
+        <link rel="icon" href="/images/icons/icon.svg" type="image/x-icon" />
+        <link rel="shortcut icon" href="/images/icons/icon.svg" type="image/x-icon" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"
