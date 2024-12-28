@@ -7,7 +7,7 @@ const CallToAction: React.FC = () => {
   const { t } = useTranslation("services");
 
   return (
-    <section className="relative bg-transparent py-16 px-8 text-center">
+    <section className="relative bg-transparent px-8 text-center">
       <div className="container mx-auto">
         {/* Title */}
         <h2 className="text-4xl md:text-6xl font-serif font-bold text-teal-800 mb-6">

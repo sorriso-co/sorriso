@@ -26,7 +26,7 @@ const FAQComponent = () => {
           <div key={index} className="pb-4">
             <button
               onClick={() => toggleFAQ(index)}
-              className={`w-full text-left text-teal-800 text-xl sm:text-2xl font-semibold py-2 sm:py-3 px-4 sm:px-5 hover:bg-teal-50 focus:outline-none focus:ring-2 focus:ring-teal-500 transition-all ${
+              className={`w-full text-left text-teal-800 text-xl sm:text-2xl font-semibold py-2 sm:py-3 px-4 sm:px-5 hover:bg-teal-50 transition-all ${
                 activeIndices.includes(index) ? "bg-teal-100" : ""
               }`}
             >

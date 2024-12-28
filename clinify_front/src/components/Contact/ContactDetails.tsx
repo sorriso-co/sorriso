@@ -16,7 +16,7 @@ const ContactDetails: React.FC = () => {
   const { t } = useTranslation("common");
 
   return (
-    <section className="px-4 py-16">
+    <section className="px-4 py-8">
       <div className="bg-white rounded-lg p-8 mx-auto max-w-lg">
         {/* Title */}
         <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif font-bold text-center mb-8 text-teal-900">
@@ -89,7 +89,7 @@ const ContactDetails: React.FC = () => {
         </p>
 
         {/* Doctor's Image */}
-        <div className="relative w-44 h-44 sm:w-52 sm:h-52 md:w-64 md:h-64 mb-4">
+        <div className="relative w-44 h-44 sm:w-52 sm:h-52 md:w-64 md:h-64 ">
           <Image
             src="/images/Team/staff/filip.png"
             alt={t("contactDetails.doctorAlt", { name: "Dr. Filip Sukovic" })}

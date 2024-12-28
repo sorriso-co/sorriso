@@ -13,14 +13,18 @@ const FlightMap = () => {
     { name: "Austria", image: "/images/maps/Austria.svg" },
   ];
 
-  const handleChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
+  const handleChange = (event: {
+    target: { value: React.SetStateAction<string> };
+  }) => {
     setSelectedCountry(event.target.value);
   };
 
-  const selectedOption = options.find(option => option.name === selectedCountry);
+  const selectedOption = options.find(
+    (option) => option.name === selectedCountry
+  );
 
   return (
-    <div className="flex flex-col items-center justify-center w-full h-screen bg-transparent p-4">
+    <div className="flex flex-col items-center justify-center w-full bg-transparent p-4">
       <h1 className="text-4xl md:text-6xl font-bold text-teal-800 mb-4 text-center font-serif">
         {t("title")}
       </h1>
@@ -28,7 +32,9 @@ const FlightMap = () => {
         {t("description")}
       </p>
 
-      <label htmlFor="country-select" className="sr-only">{t("label")}</label>
+      <label htmlFor="country-select" className="sr-only">
+        {t("label")}
+      </label>
       <select
         id="country-select"
         className="w-full md:w-1/3 h-12 border border-gray-300 rounded-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500 transition duration-300"
@@ -36,7 +42,9 @@ const FlightMap = () => {
         onChange={handleChange}
       >
         {options.map((option) => (
-          <option key={option.name} value={option.name}>{t(`countries.${option.name}`)}</option>
+          <option key={option.name} value={option.name}>
+            {t(`countries.${option.name}`)}
+          </option>
         ))}
       </select>
 

@@ -42,7 +42,7 @@ const ExpertiseOverview: React.FC = () => {
   const features: Feature[] = t("expertise.features", { returnObjects: true });
 
   return (
-    <section className="relative bg-transparent py-16 px-8 lg:px-16 overflow-hidden">
+    <section className="relative bg-transparent py-4 px-8 lg:px-16 overflow-hidden">
       {/* Section Content */}
       <div className="container mx-auto text-center mb-12">
         <h2 className="text-4xl sm:text-5xl font-serif font-bold text-teal-900 mb-6">

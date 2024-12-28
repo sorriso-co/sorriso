@@ -2,7 +2,14 @@
 
 import React, { useState } from "react";
 import { Bar } from "react-chartjs-2";
-import { Chart as ChartJS, BarElement, CategoryScale, LinearScale, Tooltip, Legend } from "chart.js";
+import {
+  Chart as ChartJS,
+  BarElement,
+  CategoryScale,
+  LinearScale,
+  Tooltip,
+  Legend,
+} from "chart.js";
 import { namedProcedures } from "./named_procedures";
 import { customProcedures } from "./custom_procedures";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -22,13 +29,48 @@ ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
 const icons = [
   { name: "Car", description: "Buy a car", value: 15000, icon: faCar },
-  { name: "Family Trip", description: "Luxury trip for 10 days", value: 8000, icon: faPlane },
-  { name: "Home Upgrade", description: "Home renovations", value: 10000, icon: faHome },
-  { name: "Electronics", description: "High-end gadgets", value: 3000, icon: faMobileAlt },
-  { name: "Savings Fund", description: "Add to your savings", value: 5000, icon: faPiggyBank },
-  { name: "Luxury Watch", description: "Buy a premium watch", value: 3000, icon: faClock },
-  { name: "Fitness Equipment", description: "Build a home gym", value: 4000, icon: faDumbbell },
-  { name: "Education Fund", description: "Invest in courses or education", value: 6000, icon: faGraduationCap },
+  {
+    name: "Family Trip",
+    description: "Luxury trip for 10 days",
+    value: 8000,
+    icon: faPlane,
+  },
+  {
+    name: "Home Upgrade",
+    description: "Home renovations",
+    value: 10000,
+    icon: faHome,
+  },
+  {
+    name: "Electronics",
+    description: "High-end gadgets",
+    value: 3000,
+    icon: faMobileAlt,
+  },
+  {
+    name: "Savings Fund",
+    description: "Add to your savings",
+    value: 5000,
+    icon: faPiggyBank,
+  },
+  {
+    name: "Luxury Watch",
+    description: "Buy a premium watch",
+    value: 3000,
+    icon: faClock,
+  },
+  {
+    name: "Fitness Equipment",
+    description: "Build a home gym",
+    value: 4000,
+    icon: faDumbbell,
+  },
+  {
+    name: "Education Fund",
+    description: "Invest in courses or education",
+    value: 6000,
+    icon: faGraduationCap,
+  },
 ];
 
 const ChartComponent = () => {
@@ -41,17 +83,36 @@ const ChartComponent = () => {
   const countries = Object.keys(customProcedures.crowns.pricePerUnit);
 
   const getNamedProcedurePrice = (country: string, procedure: string) => {
-    const procedureData = namedProcedures.find((p) => p.procedure === procedure);
-    return procedureData?.countries[country as keyof typeof procedureData.countries] || 0;
+    const procedureData = namedProcedures.find(
+      (p) => p.procedure === procedure
+    );
+    return (
+      procedureData?.countries[
+        country as keyof typeof procedureData.countries
+      ] || 0
+    );
   };
 
-  const getCustomProcedurePrice = (country: string, implants: number, crowns: number) => {
+  const getCustomProcedurePrice = (
+    country: string,
+    implants: number,
+    crowns: number
+  ) => {
     const implantPrice =
-      implants * customProcedures.implants.pricePerUnit[country as keyof typeof customProcedures.implants.pricePerUnit];
+      implants *
+      customProcedures.implants.pricePerUnit[
+        country as keyof typeof customProcedures.implants.pricePerUnit
+      ];
     const crownPrice =
-      crowns * customProcedures.crowns.pricePerUnit[country as keyof typeof customProcedures.crowns.pricePerUnit];
+      crowns *
+      customProcedures.crowns.pricePerUnit[
+        country as keyof typeof customProcedures.crowns.pricePerUnit
+      ];
     const extractionPrice =
-      implants * customProcedures.extractions.pricePerUnit[country as keyof typeof customProcedures.extractions.pricePerUnit];
+      implants *
+      customProcedures.extractions.pricePerUnit[
+        country as keyof typeof customProcedures.extractions.pricePerUnit
+      ];
     return implantPrice + crownPrice + extractionPrice;
   };
 
@@ -154,7 +215,9 @@ const ChartComponent = () => {
           ) : (
             <div className="mt-4 flex gap-4">
               <div>
-                <label className="block text-teal-700 mb-1">Number of Implants</label>
+                <label className="block text-teal-700 mb-1">
+                  Number of Implants
+                </label>
                 <input
                   type="number"
                   className="w-full border rounded-lg p-2"
@@ -164,7 +227,9 @@ const ChartComponent = () => {
                 />
               </div>
               <div>
-                <label className="block text-teal-700 mb-1">Number of Crowns</label>
+                <label className="block text-teal-700 mb-1">
+                  Number of Crowns
+                </label>
                 <input
                   type="number"
                   className="w-full border rounded-lg p-2"
@@ -191,8 +256,6 @@ const ChartComponent = () => {
         </div>
       </div>
 
-
-
       {savings > 0 && (
         <div className="mt-8">
           <h2 className="text-2xl font-serif text-teal-800 mb-4 text-center">
@@ -203,22 +266,21 @@ const ChartComponent = () => {
               .filter((icon) => icon.value <= savings)
               .map((icon, idx) => (
                 <div
-                    key={idx}
-                    className="p-4 border rounded-lg flex flex-col items-center shadow-md bg-white hover:shadow-lg transition duration-300"
-                    >
-                    <FontAwesomeIcon
-                        icon={icon.icon as IconProp}
-                        size="2x"
-                        className="text-teal-700 mb-2"
-                    />
-                    <span className="text-lg md:text-xl font-bold text-teal-700 text-center">
-                        {icon.name}
-                    </span>
-                    <p className="text-xs md:text-sm text-gray-600 mt-2 text-center">
-                        {icon.description}
-                    </p>
-                    </div>
-
+                  key={idx}
+                  className="p-4 border rounded-lg flex flex-col items-center shadow-md bg-white hover:shadow-lg transition duration-300"
+                >
+                  <FontAwesomeIcon
+                    icon={icon.icon as IconProp}
+                    size="2x"
+                    className="text-teal-700 mb-2"
+                  />
+                  <span className="text-lg md:text-xl font-bold text-teal-700 text-center">
+                    {icon.name}
+                  </span>
+                  <p className="text-xs md:text-sm text-gray-600 mt-2 text-center">
+                    {icon.description}
+                  </p>
+                </div>
               ))}
           </div>
         </div>
