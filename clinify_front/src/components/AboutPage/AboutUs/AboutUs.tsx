@@ -20,11 +20,6 @@ const AboutUs: React.FC = () => {
         {/* Text Content */}
         <div className="md:w-1/2 md:pr-8 lg:pr-12">
           <ul className="space-y-6">
-            {/* <li className="text-4xl md:text-5xl lg:text-7xl font-bold text-[#008080]">
-              {t("aboutUs.expertTeam", {
-                defaultValue: "Experienced Dentists",
-              })}
-            </li> */}
             <h1 className="text-4xl md:text-5xl font-serif lg:text-7xl font-bold text-[#008080]">
               {t("aboutUs.personalizedCare", {
                 defaultValue:

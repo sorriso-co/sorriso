@@ -8,11 +8,13 @@ const AboutPageCTA: React.FC = () => {
   const { t } = useTranslation("about");
 
   return (
-    <section className="bg-transparent py-12 lg:py-16 text-white">
+    <section className="bg-transparent py-3 lg:py-4 text-white">
       <div className="container mx-auto text-center px-4 sm:px-6 lg:px-8">
         {/* CTA Content */}
         <h2 className="text-2xl text-teal-700 sm:text-3xl lg:text-5xl font-bold font-serif mb-4 sm:mb-6">
-          {t("cta.title", { defaultValue: "Ready to Experience World-Class Dental Care?" })}
+          {t("cta.title", {
+            defaultValue: "Ready to Experience World-Class Dental Care?",
+          })}
         </h2>
         <p className="text-base text-teal-700 sm:text-lg lg:text-2xl font-light mb-6 sm:mb-8">
           {t("cta.description", {

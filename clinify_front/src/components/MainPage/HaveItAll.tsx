@@ -6,7 +6,7 @@ const HaveItAll: React.FC = () => {
   const { t } = useTranslation("homepage");
 
   return (
-    <section className="bg-transparent text-teal-800 py-10 px-8 lg:px-24">
+    <section className="bg-transparent text-teal-800 px-8 lg:px-24">
       <div className="container mx-auto text-center max-w-4xl">
         {/* Title */}
         <h2 className="text-5xl sm:text-7xl md:text-7xl lg:text-8xl font-serif font-extrabold mb-8 leading-tight text-teal-700">
