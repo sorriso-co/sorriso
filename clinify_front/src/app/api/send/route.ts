@@ -122,7 +122,7 @@ export async function POST(request: NextRequest) {
                 <h2>Your Exclusive Dental Discount Awaits!</h2>
                 <p>
                 We're thrilled to have you join Sorriso Care! As part of our exclusive
-                offer, you can enjoy savings of up to <strong>€2000</strong> on premium dental
+                offer, you can enjoy savings of up to <strong>€1500</strong> on premium dental
                 treatments, along with <strong>complimentary accommodation</strong> during your stay in Montenegro.
                 </p>
                 <p>

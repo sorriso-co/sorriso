@@ -23,7 +23,7 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
     if (!isPopupDismissed) {
       const timer = setTimeout(() => {
         setShouldShow(true);
-      }, 11000); // 18 seconds
+      }, 11000); // 11 seconds
 
       return () => clearTimeout(timer);
     }
@@ -82,7 +82,7 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
             <p className="text-teal-700 text-center mb-6">
               Start the year with a brighter smile and a healthier you. Enter
               your email address to receive a discount of up to{" "}
-              <strong>€2000</strong> on your next dental treatment. Plus, enjoy{" "}
+              <strong>€1500</strong> on your next dental treatment. Plus, enjoy{" "}
               <strong>free accommodation</strong> with us as part of this
               exclusive offer.
             </p>
