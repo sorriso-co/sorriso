@@ -17,6 +17,16 @@ interface RootLayoutProps {
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en">
+      <head>
+        {/* SEO Meta Tags */}
+        <link rel="icon" href="/images/icons/icon.svg" type="image/x-icon" />
+        <link
+          rel="shortcut icon"
+          href="/images/icons/icon.svg"
+          type="image/x-icon"
+        />
+      </head>
+
       <body>
         {/* Google Analytics using next/script */}
         <Script
