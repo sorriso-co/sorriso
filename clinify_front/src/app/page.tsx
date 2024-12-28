@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import FrontHero from "@/components/MainPage/FrontpageHero";
@@ -52,7 +53,6 @@ const Home: React.FC = () => {
 
   return (
     <>
-      {/* SEO Meta Tags */}
       <Head>
         <title>Sorriso Care | Your Destination for Dental Tourism</title>
         <meta
@@ -61,7 +61,7 @@ const Home: React.FC = () => {
         />
         <meta
           name="keywords"
-          content="impianti dentali costo, quanto costa un impianto dentale, faccette per denti, ponte dentale, rifarsi i denti, dentisti in croazia, cliniche dentali turchia, veneers turkey, cost for tooth implant, dental implants, full mouth dental implants, teeth implants cost, hair transplant turkey, smile makeover, Montenegro, fly to Montenegro, dental bridge"
+          content="impianti dentali costo, quanto costa un impianto dentale, faccette per denti, ponte dentale, rifarsi i denti, dentisti in croazia, cliniche dentali turchia, veneers turkey, cost for tooth implant, dental implants, full mouth dental implants, teeth implants cost, hair transplant turkey, smile makeover, Montenegro, fly to Montenegro, dental bridge, Turkey teeth, New Year, Cavity, bad teeth, cosmetic dentistry, teeth whitening, dental crowns"
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://sorriso.care/" />
@@ -110,7 +110,8 @@ const Home: React.FC = () => {
               name: "Sorriso Care",
               url: "https://sorriso.care/",
               logo: "https://sorriso.care/images/logo.png",
-              description: "Discover affordable dental treatments in Montenegro with Sorriso Care. From veneers to implants, we provide world-class care tailored to your needs.",
+              description:
+                "Discover affordable dental treatments in Montenegro with Sorriso Care. From veneers to implants, we provide world-class care tailored to your needs.",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "bb Gavra Vukovića",
@@ -124,19 +125,13 @@ const Home: React.FC = () => {
                 contactType: "Customer Service",
               },
               image: "https://sorriso.care/images/front-hero.jpg",
-              sameAs: [
-                "https://www.facebook.com/sorrisocare",
-                "https://www.instagram.com/sorriso_care/",
-                "https://www.linkedin.com/company/sorriso-care",
-              ],
             }),
           }}
         />
       </Head>
 
-      {/* Page Content */}
-      <div>
-        {/* Hero Section with additional spacing */}
+      <main>
+        {/* Hero Section */}
         <div id="hero-section" className="mb-20 lg:mb-32 bg-transparent">
           <FrontHero />
         </div>
@@ -159,8 +154,8 @@ const Home: React.FC = () => {
           <ServiceGrid />
         </div>
 
-         {/* Flight Map Section */}
-         <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
+        {/* Flight Map Section */}
+        <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
           <FlightMap />
         </div>
 
@@ -186,8 +181,10 @@ const Home: React.FC = () => {
         {isVisible && <LanguageSwitcher />}
 
         {/* PopUp */}
-        {isPopupVisible && <PopUp show={isPopupVisible} handleClose={handlePopupClose} />}
-      </div>
+        {isPopupVisible && (
+          <PopUp show={isPopupVisible} handleClose={handlePopupClose} />
+        )}
+      </main>
     </>
   );
 };

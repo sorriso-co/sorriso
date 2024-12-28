@@ -26,7 +26,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
         />
         <meta
           name="keywords"
-          content="veneers turkey, cost for tooth implant, dental implants, teeth implants, tooth implants, full mouth dental implants, all on 4 dental implants, teeth implants cost, smile dentist, dental bridge"
+          content="veneers turkey, cost for tooth implant, dental implants, teeth implants, tooth implants, full mouth dental implants, all on 4 dental implants, teeth implants cost, smile dentist, dental bridge, Turkey teeth, Montenegro, fly to Montenegro, New Year, cavity, bad teeth"
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://sorriso.care/" />
