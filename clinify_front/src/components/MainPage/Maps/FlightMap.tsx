@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
 const FlightMap = () => {
@@ -50,10 +49,6 @@ const FlightMap = () => {
           className="rounded-lg shadow-lg"
         />
       </div>
-
-      <Link href="/flights" className="mt-8 text-teal-800 hover:text-teal-700 transition duration-300 text-lg font-medium">
-        {t("button")}
-      </Link>
     </div>
   );
 };
