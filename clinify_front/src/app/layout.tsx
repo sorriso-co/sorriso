@@ -8,7 +8,6 @@ import "../styles/global.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import CookieConsentBanner from "@/components/CookieConsent/CookieConsent";
-import { getSEOConfig } from "@/app/seoConfig";
 import Script from "next/script";
 
 interface RootLayoutProps {
@@ -16,58 +15,94 @@ interface RootLayoutProps {
 }
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
-  const seoConfig = getSEOConfig({});
-
   return (
     <html lang="en">
       <head>
         {/* Essential Meta Tags */}
-        <title>{seoConfig.title}</title>
-        <meta name="description" content={seoConfig.description} />
-        <meta name="keywords" content={seoConfig.keywords} />
-        <meta name="robots" content={seoConfig.robots} />
-        <link rel="canonical" href={seoConfig.canonical} />
-        <meta name="viewport" content={seoConfig.viewport} />
-        <meta charSet={seoConfig.charSet} />
-        <meta httpEquiv="X-UA-Compatible" content={seoConfig.xUACompatible} />
-        <meta name="msapplication-TileColor" content={seoConfig.themeColor} />
-        <meta name="application-name" content={seoConfig.applicationName} />
+        <title>Sorriso Care - Affordable Dental Tourism</title>
+        <meta
+          name="description"
+          content="Sorriso Care offers affordable dental tourism in the Balkans with high-quality dental care at low costs. Book your next dental trip today!"
+        />
+        <meta
+          name="keywords"
+          content="veneers turkey, cost for tooth implant, dental implants, teeth implants, tooth implants, full mouth dental implants, all on 4 dental implants, teeth implants cost, smile dentist, dental bridge"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://sorriso.care/" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"
+        />
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="application-name" content="Sorriso Care" />
 
         {/* Favicons */}
         <link rel="icon" href="/images/icons/icon.svg" type="image/svg+xml" />
 
         {/* Open Graph Meta Tags */}
-        <meta property="og:title" content={seoConfig.openGraph.title} />
-        <meta property="og:description" content={seoConfig.openGraph.description} />
-        <meta property="og:url" content={seoConfig.openGraph.url} />
+        <meta property="og:title" content="Sorriso Care - Affordable Dental Tourism" />
+        <meta
+          property="og:description"
+          content="Discover high-quality dental care at affordable prices with Sorriso Care. Your dental tourism partner in the Balkans."
+        />
+        <meta property="og:url" content="https://sorriso.care/" />
         <meta
           property="og:image"
-          content={seoConfig.openGraph.images[0].url}
+          content="https://sorriso.care/images/icons/icon.svg"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:type" content={seoConfig.openGraph.type} />
-        <meta property="og:site_name" content={seoConfig.openGraph.siteName} />
-        <meta property="og:locale" content={seoConfig.openGraph.locale} />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Sorriso Care" />
+        <meta property="og:locale" content="en_US" />
 
         {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content={seoConfig.twitter.card} />
-        <meta name="twitter:site" content={seoConfig.twitter.site} />
-        <meta name="twitter:title" content={seoConfig.twitter.title} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@sorriso_care" />
+        <meta name="twitter:title" content="Sorriso Care - Affordable Dental Tourism" />
         <meta
           name="twitter:description"
-          content={seoConfig.twitter.description}
+          content="High-quality dental care at low costs. Explore dental tourism options in the Balkans with Sorriso Care."
         />
         <meta
           name="twitter:image"
-          content={seoConfig.twitter.images[0]}
+          content="https://sorriso.care/images/icons/icon.svg"
         />
 
         {/* Structured Data (Schema.org JSON-LD) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(seoConfig.structuredData),
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Sorriso Care",
+              url: "https://sorriso.care/",
+              logo: "https://sorriso.care/images/icons/icon.svg",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+382 60 664 668",
+                contactType: "Customer Service",
+                areaServed: "Balkans",
+                availableLanguage: ["English", "Montenegrin", "Italian", "German"],
+              },
+              description:
+                "Sorriso Care offers affordable dental tourism in the Balkans with high-quality dental care at low costs.",
+              founder: {
+                "@type": "Person",
+                name: "Dr. Filip Šuković",
+              },
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Podgorica",
+                addressCountry: "Montenegro",
+                postalCode: "81000",
+                streetAddress: "bb Gavra Vukovića",
+              },
+            }),
           }}
         />
       </head>

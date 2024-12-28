@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import { useTranslation } from "next-i18next";
 import FrontHero from "@/components/MainPage/FrontpageHero";
 import Intro from "../components/MainPage/Intro";
 import ServiceGrid from "@/components/MainPage/ServiceGrid";
@@ -16,7 +15,6 @@ import SavingsChart from "@/components/MainPage/Chart/SavingsChart";
 import "../styles/global.css";
 
 const Home: React.FC = () => {
-  const { t } = useTranslation("common");
   const [isVisible, setIsVisible] = useState(true);
   const [isPopupVisible, setIsPopupVisible] = useState(false);
 
@@ -56,9 +54,15 @@ const Home: React.FC = () => {
     <>
       {/* SEO Meta Tags */}
       <Head>
-        <title>{t("meta_home.title")}</title>
-        <meta name="description" content={t("meta_home.description")} />
-        <meta name="keywords" content={t("meta_home.keywords")} />
+        <title>Sorriso Care | Your Destination for Dental Tourism</title>
+        <meta
+          name="description"
+          content="Discover affordable dental treatments in Montenegro with Sorriso Care. From veneers to implants, we provide world-class care tailored to your needs."
+        />
+        <meta
+          name="keywords"
+          content="impianti dentali costo, quanto costa un impianto dentale, faccette per denti, ponte dentale, rifarsi i denti, dentisti in croazia, cliniche dentali turchia, veneers turkey, cost for tooth implant, dental implants, full mouth dental implants, teeth implants cost, hair transplant turkey, smile makeover, Montenegro, fly to Montenegro, dental bridge"
+        />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://sorriso.care/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -66,10 +70,13 @@ const Home: React.FC = () => {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
         {/* Open Graph Meta Tags */}
-        <meta property="og:title" content={t("meta_home.og_title")} />
+        <meta
+          property="og:title"
+          content="Sorriso Care | Your Destination for Dental Tourism"
+        />
         <meta
           property="og:description"
-          content={t("meta_home.og_description")}
+          content="Discover affordable dental treatments in Montenegro with Sorriso Care. From veneers to implants, we provide world-class care tailored to your needs."
         />
         <meta property="og:url" content="https://sorriso.care/" />
         <meta
@@ -80,14 +87,50 @@ const Home: React.FC = () => {
 
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={t("meta_home.twitter_title")} />
+        <meta
+          name="twitter:title"
+          content="Sorriso Care | Your Destination for Dental Tourism"
+        />
         <meta
           name="twitter:description"
-          content={t("meta_home.twitter_description")}
+          content="Discover affordable dental treatments in Montenegro with Sorriso Care. From veneers to implants, we provide world-class care tailored to your needs."
         />
         <meta
           name="twitter:image"
           content="https://sorriso.care/images/front-hero.jpg"
+        />
+
+        {/* Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "MedicalBusiness",
+              name: "Sorriso Care",
+              url: "https://sorriso.care/",
+              logo: "https://sorriso.care/images/logo.png",
+              description: "Discover affordable dental treatments in Montenegro with Sorriso Care. From veneers to implants, we provide world-class care tailored to your needs.",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "bb Gavra Vukovića",
+                addressLocality: "Podgorica",
+                addressCountry: "Montenegro",
+                postalCode: "81000",
+              },
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+382 60 664 668",
+                contactType: "Customer Service",
+              },
+              image: "https://sorriso.care/images/front-hero.jpg",
+              sameAs: [
+                "https://www.facebook.com/sorrisocare",
+                "https://www.instagram.com/sorriso_care/",
+                "https://www.linkedin.com/company/sorriso-care",
+              ],
+            }),
+          }}
         />
       </Head>
 
