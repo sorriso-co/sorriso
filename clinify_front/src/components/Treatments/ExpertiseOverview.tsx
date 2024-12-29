@@ -39,7 +39,7 @@ const ExpertiseOverview: React.FC = () => {
     pauseOnHover: true,
   };
 
-  const features: Feature[] = t("expertise.features", { returnObjects: true });
+  const features: Feature[] = t("expertise.features", { returnObjects: true }) as Feature[];
 
   return (
     <section className="relative bg-transparent py-4 px-8 lg:px-16 overflow-hidden">
