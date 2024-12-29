@@ -259,7 +259,7 @@ const ChartComponent = () => {
       {savings > 0 && (
         <div className="mt-8">
           <h2 className="text-2xl font-serif text-teal-800 mb-4 text-center">
-            You Save: ${savings.toLocaleString()}
+            You Save: ${savings.toLocaleString()} per jaw
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {icons
