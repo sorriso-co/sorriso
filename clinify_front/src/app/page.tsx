@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Head from "next/head";
 import FrontHero from "@/components/MainPage/FrontpageHero";
 import Intro from "../components/MainPage/Intro";
 import ServiceGrid from "@/components/MainPage/ServiceGrid";
@@ -53,7 +52,7 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <Head>
+      <head>
         <title>Sorriso Care | Your Destination for Dental Tourism</title>
         <meta
           name="description"
@@ -130,7 +129,7 @@ const Home: React.FC = () => {
             }),
           }}
         />
-      </Head>
+      </head>
 
       <main>
         {/* Hero Section */}

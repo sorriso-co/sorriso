@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Head from "next/head";
 import AboutUs from "@/components/AboutPage/AboutUs/AboutUs";
 import Box from "@/components/AboutPage/AboutUs/BoxUs";
 import YouTubeEmbed from "@/components/AboutPage/Youtube/YoutubeEmbed";
@@ -14,7 +13,7 @@ import CTA from "@/components/AboutPage/WhyMNE/CTA";
 const About: React.FC = () => {
   return (
     <>
-      <Head>
+      <head>
         {/* Essential Meta Tags */}
         <title>About Us - Sorriso Care | Dental Tourism in Montenegro</title>
         <meta
@@ -69,7 +68,7 @@ const About: React.FC = () => {
           name="twitter:image"
           content="https://sorriso.care/images/about-og-image.jpg"
         />
-      </Head>
+      </head>
       <main>
         {/* About Us Section */}
         <section className="mb-24" aria-labelledby="about-us-heading">

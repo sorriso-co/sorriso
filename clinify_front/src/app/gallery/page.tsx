@@ -1,14 +1,13 @@
 "use client";
 
 import React from "react";
-import Head from "next/head";
 import GallerySection from "@/components/Gallery/Gallery";
 import TestimonialsHero from "@/components/Gallery/TestimonialsHero";
 
 const Gallery: React.FC = () => {
   return (
     <>
-      <Head>
+      <head>
         {/* Essential Meta Tags */}
         <title>Gallery - Sorriso Care | See Our Successful Dental Treatments</title>
         <meta
@@ -63,7 +62,7 @@ const Gallery: React.FC = () => {
           name="twitter:image"
           content="https://sorriso.care/images/gallery-og-image.jpg"
         />
-      </Head>
+      </head>
       <main className="lg:px-20 xl:px-28 2xl:px-40 px-4 mx-auto mb-40 space-y-16">
         <TestimonialsHero />
         <GallerySection />

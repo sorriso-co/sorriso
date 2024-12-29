@@ -1,13 +1,12 @@
 "use client";
 
 import React from "react";
-import Head from "next/head";
 import ContactSection from "../../components/Contact/ContactSection";
 
 const Contact: React.FC = () => {
   return (
     <>
-      <Head>
+      <head>
         {/* Essential Meta Tags */}
         <title>Contact Us - Sorriso Care | Get in Touch with Our Team</title>
         <meta
@@ -62,7 +61,7 @@ const Contact: React.FC = () => {
           name="twitter:image"
           content="https://sorriso.care/images/contact-og-image.jpg"
         />
-      </Head>
+      </head>
       <section aria-labelledby="contact-section-heading">
         <h1 id="contact-section-heading" className="sr-only">
           Contact Us

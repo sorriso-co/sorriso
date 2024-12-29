@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Head from "next/head";
 import ServiceHero from "../../components/Services/ServiceHero";
 import MostWantedProcedures from "../../components/Treatments/MostWantedProcedures";
 import ExpertiseOverview from "../../components/Treatments/ExpertiseOverview";
@@ -28,7 +27,7 @@ const Services: React.FC = () => {
 
   return (
     <>
-      <Head>
+      <head>
         {/* Essential Meta Tags */}
         <title>Dental Services - Comprehensive Care | Sorriso Care</title>
         <meta
@@ -83,7 +82,7 @@ const Services: React.FC = () => {
           name="twitter:image"
           content="https://sorriso.care/images/services-og-image.jpg"
         />
-      </Head>
+      </head>
       <main className="overflow-x-hidden">
         {/* Hero Section */}
         <div className="mb-16">
