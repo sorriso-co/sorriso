@@ -17,18 +17,8 @@ interface RootLayoutProps {
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en">
-      <head>
-        {/* SEO Meta Tags */}
-        <link rel="icon" href="/images/icons/icon.svg" type="image/x-icon" />
-        <link
-          rel="shortcut icon"
-          href="/images/icons/icon.svg"
-          type="image/x-icon"
-        />
-      </head>
-
       <body>
-        {/* Google Analytics using next/script */}
+        {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-M6K5YPE590"
           strategy="afterInteractive"
@@ -45,13 +35,13 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
           `}
         </Script>
 
-        {/* Header Component */}
+        {/* Header */}
         <Header />
 
         {/* Main Content */}
         <main>{children}</main>
 
-        {/* Footer Component */}
+        {/* Footer */}
         <Footer />
 
         {/* Additional Components */}
