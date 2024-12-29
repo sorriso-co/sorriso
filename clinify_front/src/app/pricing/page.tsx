@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Head from "next/head";
 import Hero from "../../components/Pricing/PriceHero";
 import Comparison from "../../components/Pricing/Comparison";
 import PricingSection from "@/components/Pricing/PricingSection";
@@ -9,7 +8,7 @@ import PricingSection from "@/components/Pricing/PricingSection";
 const PricingPage: React.FC = () => {
   return (
     <>
-      <Head>
+      <head>
         {/* Essential Meta Tags */}
         <title>Pricing - Affordable Dental Treatments | Sorriso Care</title>
         <meta
@@ -64,7 +63,7 @@ const PricingPage: React.FC = () => {
           name="twitter:image"
           content="https://sorriso.care/images/pricing-og-image.jpg"
         />
-      </Head>
+      </head>
       <main className="overflow-x-hidden">
         <div className="mx-auto">
           <Hero />
