@@ -10,7 +10,7 @@ export const namedProcedures = [
       Italy: 10000,
       Croatia: 7000,
       Hungary: 7000,
-      Montenegro: 4000,
+      Montenegro: 3500,
     },
   },
   {
@@ -24,7 +24,7 @@ export const namedProcedures = [
       Italy: 15000,
       Croatia: 10000,
       Hungary: 10000,
-      Montenegro: 7000,
+      Montenegro: 6000,
     },
   },
   {
@@ -52,7 +52,7 @@ export const namedProcedures = [
       Italy: 23000,
       Croatia: 15000,
       Hungary: 15000,
-      Montenegro: 10000,
+      Montenegro: 9000,
     },
   },
   {
@@ -66,7 +66,7 @@ export const namedProcedures = [
       Italy: 23000,
       Croatia: 15000,
       Hungary: 15000,
-      Montenegro: 10000,
+      Montenegro: 9000,
     },
   },
   {
@@ -80,7 +80,7 @@ export const namedProcedures = [
       Italy: 30000,
       Croatia: 20000,
       Hungary: 20000,
-      Montenegro: 15000,
+      Montenegro: 14000,
     },
   },
 ];
