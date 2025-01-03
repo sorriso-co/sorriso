@@ -20,7 +20,6 @@ const MediaGallery: React.FC = () => {
       src: "https://www.youtube.com/embed/OEyE7MUoXIc?si=YhakUvaXEDRfXTz5",
       thumbnail: "/images/services/dr_i_pacijent.png",
     },
-
     {
       type: "video",
       src: "https://www.youtube.com/watch?v=ToRKxww1hCQ",
@@ -28,88 +27,49 @@ const MediaGallery: React.FC = () => {
     },
     {
       type: "instagram",
-      src: "https://www.instagram.com/reel/C_SafR-PwjH/?utm_source=ig_embed&amp;utm_campaign=loading",
+      src: "https://www.instagram.com/reel/C_SafR-PwjH/",
       thumbnail: "/images/about_us_slide/holand.webp",
     },
   ];
 
-  const [playingVideo, setPlayingVideo] = useState<number | null>(null);
-
-  const handlePlayVideo = (index: number) => {
-    setPlayingVideo(index);
-  };
+  const [modalItem, setModalItem] = useState<MediaItem | null>(null);
 
   return (
-    <div className="grid grid-cols-2 gap-4 lg:gap-6">
-      {mediaItems.map((item, index) => (
-        <div key={index} className="relative">
-          {item.type === "image" ? (
-            <Image
-              src={item.src}
-              alt={item.alt || "Gallery Image"}
-              width={300}
-              height={300}
-              className="rounded-lg object-cover w-full h-full"
-            />
-          ) : item.type === "video" && item.src.includes("youtube.com") ? (
-            // YouTube Thumbnail with Play Button Overlay
-            <a
-              href={item.src.replace("watch?v=", "embed/")}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative block w-full h-full"
-            >
+    <>
+      <div className="grid grid-cols-2 gap-4 lg:gap-6">
+        {mediaItems.map((item, index) => (
+          <div
+            key={index}
+            className="relative overflow-hidden rounded-lg shadow-md group"
+          >
+            {item.type === "image" ? (
               <Image
-                src={item.thumbnail || "/images/default-youtube-thumbnail.jpg"}
-                alt="YouTube Video"
+                src={item.src}
+                alt={item.alt || "Gallery Image"}
                 width={300}
                 height={300}
-                className="rounded-lg object-cover w-full h-full"
+                className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
               />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <button className="bg-white p-2 rounded-full shadow-lg">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-teal-700"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M14.752 11.168l-5.197-3.099A1 1 0 008 9v6a1 1 0 001.555.832l5.197-3.099a1 1 0 000-1.664z"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </a>
-          ) : item.type === "video" ? (
-            <div className="relative w-full h-full">
-              {playingVideo === index ? (
-                <video
-                  src={item.src}
-                  controls
-                  autoPlay
-                  className="rounded-lg w-full h-full object-cover"
+            ) : (
+              <>
+                <Image
+                  src={
+                    item.thumbnail || "/images/default-thumbnail.jpg"
+                  }
+                  alt={item.type === "video" ? "Video Thumbnail" : "Instagram"}
+                  width={300}
+                  height={300}
+                  className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
+                  onClick={() => setModalItem(item)}
                 />
-              ) : (
-                <>
-                  <Image
-                    src={item.thumbnail || "/images/icons/video-thumbnail.jpg"}
-                    alt="Video Thumbnail"
-                    width={300}
-                    height={300}
-                    className="rounded-lg object-cover w-full h-full"
-                  />
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-black bg-opacity-50">
                   <button
-                    onClick={() => handlePlayVideo(index)}
-                    className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white p-2 rounded-full shadow-lg"
+                    className="bg-white p-3 rounded-full shadow-lg"
+                    onClick={() => setModalItem(item)}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6 text-teal-700"
+                      className="h-8 w-8 text-teal-700"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -122,49 +82,61 @@ const MediaGallery: React.FC = () => {
                       />
                     </svg>
                   </button>
-                </>
-              )}
-            </div>
-          ) : (
-            // Instagram Thumbnail with Play Button Overlay
-            <a
-              href={item.src}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative block w-full h-full"
+                </div>
+              </>
+            )}
+          </div>
+        ))}
+      </div>
+
+      {/* Modal */}
+      {modalItem && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
+          <div className="relative bg-white rounded-lg overflow-hidden max-w-lg w-full shadow-lg">
+            <button
+              className="absolute top-4 right-4 bg-gray-100 p-2 rounded-full shadow-md"
+              onClick={() => setModalItem(null)}
             >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 text-gray-700"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+            {modalItem.type === "image" ? (
               <Image
-                src={
-                  item.thumbnail || "/images/default-instagram-thumbnail.jpg"
-                }
-                alt="Instagram Video"
-                width={300}
-                height={300}
-                className="rounded-lg object-cover w-full h-full"
+                src={modalItem.src}
+                alt={modalItem.alt || "Expanded Image"}
+                width={600}
+                height={400}
+                className="object-contain w-full h-full"
               />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <button className="bg-white p-2 rounded-full shadow-lg">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-teal-700"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M14.752 11.168l-5.197-3.099A1 1 0 008 9v6a1 1 0 001.555.832l5.197-3.099a1 1 0 000-1.664z"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </a>
-          )}
+            ) : (
+              <iframe
+                title={modalItem.type === "video" ? "Video Player" : "Instagram Post"}
+                src={
+                  modalItem.type === "video"
+                    ? modalItem.src.replace("watch?v=", "embed/")
+                    : modalItem.src
+                }
+                className="w-full h-80"
+                allow="autoplay; fullscreen"
+                allowFullScreen
+              ></iframe>
+            )}
+          </div>
         </div>
-      ))}
-    </div>
+      )}
+    </>
   );
 };
 

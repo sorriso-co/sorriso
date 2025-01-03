@@ -12,14 +12,22 @@
     "buttonText": "Prenota un Appuntamento"
   },
   "introduction": {
-    "title": "Il Tuo Prossimo Viaggio Dentale",
-    "subtitle": "Veni. Vidi. Vici con Sorriso",
-    "description": "Scopri cure dentali eccezionali combinate con un'esperienza di viaggio indimenticabile. Lascia che Sorriso ti guidi verso un sorriso più luminoso e sano, mentre esplori la bellezza e la cultura del Montenegro.",
-    "joinUsTitle": "Unisciti a Noi",
-    "joinUsDescription": "Prenota un appuntamento e inizia il tuo percorso verso un sorriso perfetto con Sorriso.",
-    "visitButton": "Le Nostre Trasformazioni",
-    "scheduleButton": "Prenota una Chiamata"
-  },
+  "title": "La Tua Porta d’Accesso a Cure Dentistiche di Classe Mondiale",
+  "subtitle": "Trasforma il Tuo Sorriso con Sorriso",
+  "description": "Scopri la perfetta combinazione di cure dentistiche eccezionali e un'esperienza di viaggio indimenticabile. Da Sorriso, ci specializziamo nella creazione di sorrisi radiosi e sani attraverso trattamenti personalizzati come faccette, impianti dentali e riabilitazioni orali complete, il tutto mentre ti godi la bellezza scenica e la ricca cultura del Montenegro.",
+  "joinUsTitle": "Inizia il Tuo Percorso Verso un Sorriso Perfetto",
+  "joinUsDescription": "Condividi i tuoi dettagli di contatto e il nostro team dedicato ti contatterà per guidarti nel tuo percorso dentale personalizzato. Vivi cure di altissimo livello su misura per le tue esigenze.",
+  "emailLabel": "Indirizzo Email",
+  "phoneLabel": "Numero di Telefono",
+  "formSubmitSuccess": "Grazie per il tuo interesse! Ti contatteremo presto per discutere le tue esigenze e opzioni.",
+  "formSubmitError": "Si è verificato un errore durante l'invio delle tue informazioni di contatto. Riprova per favore.",
+  "viewPricingButton": "Scopri i Nostri Piani Tariffari",
+  "contactForm": {
+    "buttonText": "Invia",
+    "placeholderEmail": "Inserisci il tuo indirizzo email",
+    "placeholderPhone": "Inserisci il tuo numero di telefono"
+  }
+},
   "howItWorks": {
     "title": "Semplici Passi per il Tuo Sorriso Perfetto",
     "steps": {
@@ -83,5 +91,16 @@
       "Great Britain": "Gran Bretagna",
       "Italy": "Italia",
       "Austria": "Austria"
-    } 
+    },
+    "contactMain": {
+  "heading": "Trasforma il tuo sorriso con cure esperte",
+  "description": "Vivi un'esperienza di cura dentale personalizzata con <span class='font-semibold text-teal-700'>Dr. Filip</span> presso le nostre rinomate cliniche in Montenegro. Approfitta di una <strong class='text-teal-700'>consulenza gratuita individuale</strong> e ricevi un <strong class='text-teal-700'>preventivo dettagliato entro 24 ore</strong>. Con il nostro processo senza intoppi, il tuo viaggio verso un sorriso radioso non è mai stato così facile.",
+  "buttonText": "Prenota la tua consulenza gratuita",
+  "imageAlt": "Dr. Filip - Il tuo specialista dentale di fiducia",
+  "modal": {
+    "iframeTitle": "Prenota una consulenza dentale",
+    "closeButtonAriaLabel": "Chiudi il modulo di prenotazione"
+  }
+}
+
 }

@@ -1,87 +1,107 @@
 {
   "frontHero": {
-    "title": "Your Next Dental Trip",
-    "subtitle": "Free Consultations, World-Class Treatment, Stunning Results",
-    "visitButton": "Our Transformations",
-    "scheduleButton": "How it works?",
-    "patientSatisfaction": "Patient satisfaction rate: 4.9/5, based on thousands of successful treatments."
+    "title": "Transform Your Smile with Sorriso",
+    "subtitle": "Free Consultations, Advanced Dental Treatments, Exceptional Results",
+    "visitButton": "See Our Transformations",
+    "scheduleButton": "Learn How It Works",
+    "patientSatisfaction": "Patient satisfaction rate: 4.9/5 based on thousands of successful procedures, from veneers to dental implants."
   },
   "haveItAll": {
-  "title": "Sorriso, the dentist for me",
-    "description": " Book your free consulatation today.Discover the perfect blend of world-class dental care and a dream holiday in Montenegro. From full-mouth dental implants and smile makeovers to treating rotten teeth and tooth decay, Sorriso offers advanced treatments for your perfect teeth.",
-    "buttonText": "Schedule an Appointment"
+    "title": "Why Choose Sorriso?",
+    "description": "Book your free consultation today. Experience world-class dental treatments, including All-on-4 implants, veneers, full-mouth rehabilitation, and more, all while enjoying the beauty of Montenegro. Let us help you overcome challenges like decayed teeth, gum disease, or genetic dental issues, and achieve a smile you'll be proud of.",
+    "buttonText": "Schedule Your Appointment"
   },
   "introduction": {
-    "title": "Dental issues got you thinking?",
-    "subtitle": "Veni Vidi Vici with Sorriso",
-    "description": "Fly to Montenegro for high-quality dental care at affordable prices and achieve your perfect smile—an exceptional alternative to Turkey teeth, with personalized treatments like dental implants and veneers.",
-    "joinUsTitle": "Join Us",
-    "joinUsDescription": "Schedule an appointment and start your journey to a perfect smile with Sorriso.",
-    "visitButton": "Our Transformation",
-    "scheduleButton": "Book a Call"
+    "title": "Your Gateway to World-Class Dental Care",
+    "subtitle": "Transform Your Smile with Sorriso",
+    "description": "Discover the perfect blend of exceptional dental care and an unforgettable travel experience. At Sorriso, we specialize in creating radiant, healthy smiles through personalized treatments such as veneers, dental implants, and full-mouth restorations, all while you enjoy the scenic beauty and rich culture of Montenegro.",
+    "joinUsTitle": "Start Your Journey to a Perfect Smile",
+    "joinUsDescription": "Share your contact details, and our dedicated team will reach out to guide you through your personalized dental journey. Experience top-tier care tailored to your needs.",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "formSubmitSuccess": "Thank you for your interest! We will contact you soon to discuss your needs and options.",
+    "formSubmitError": "An error occurred while submitting your contact information. Please try again.",
+    "viewPricingButton": "Explore Our Pricing Plans",
+    "contactForm": {
+      "buttonText": "Submit",
+      "placeholderEmail": "Enter your email",
+      "placeholderPhone": "Enter your phone number"
+    }
   },
   "howItWorks": {
-    "title": "Easy Steps to Your Perfect Smile",
+    "title": "Your Journey to a Perfect Smile",
     "steps": {
       "step1": {
         "title": "Free Online Consultation",
-        "description": "Talk to our dental experts to find out if our services are right for you."
+        "description": "Connect with our dental specialists to discuss your needs and explore treatment options like All-on-4 implants, veneers, or smile makeovers."
       },
       "step2": {
         "title": "Personalized Treatment Plan",
-        "description": "Receive a detailed treatment plan personalized to your needs."
+        "description": "Receive a comprehensive, customized treatment plan tailored to your dental and aesthetic goals."
       },
       "step3": {
-        "title": "Ask Any Questions",
-        "description": "Ask any questions you have about the treatment process."
+        "title": "Ask the Experts",
+        "description": "Get answers to all your questions about treatments, costs, and recovery."
       },
       "step4": {
-        "title": "Travel for Treatment",
-        "description": "Travel to Montenegro for your world-class dental treatment."
+        "title": "Travel to Montenegro",
+        "description": "Arrive in Montenegro to experience high-quality, state-of-the-art dental care."
       },
       "step5": {
-        "title": "Receive Treatment",
-        "description": "Our expert dentists will provide you with the best care using the latest technology."
+        "title": "Undergo Treatment",
+        "description": "Our expert dentists use the latest technology and techniques to restore your smile."
       },
       "step6": {
-        "title": "Enjoy Your New Smile",
-        "description": "Leave with a beautiful smile and a memorable experience."
+        "title": "Enjoy Your Perfect Smile",
+        "description": "Leave with a radiant smile and the confidence you’ve always wanted, complemented by an unforgettable travel experience."
       }
     },
-    "buttonText": "Book a Free Consultation"
+    "buttonText": "Start Your Free Consultation"
   },
   "serviceGrid": {
-    "title": "Our Dental Services",
-    "description": "Discover our specialized dental services, focusing on all on 4 dental implants & all on 6 dental implants with full mouth rehabilitation—what Montenegro and our partner clinic are internationally renowned for.",
-   "buttonText": "Watch Our Video",
+    "title": "Comprehensive Dental Services",
+    "description": "Explore our world-class dental services, including All-on-4 implants, veneers, full-mouth rehabilitation, and more. Our partner clinics in Montenegro are internationally recognized for addressing dental issues like decaying teeth, missing teeth, and bad genetics with precision and care.",
+    "buttonText": "Watch Our Story",
     "services": [
       {
-        "title": "All-on-4",
-        "altText": "All-on-4 and All-on-6 Implant Services"
+        "title": "All-on-4 Implants",
+        "altText": "Advanced All-on-4 and All-on-6 Implant Services"
       },
       {
         "title": "Hollywood Smile",
-        "altText": "Hollywood Smile Transformation Services"
+        "altText": "Complete Hollywood Smile Transformations"
       },
       {
-        "title": "Full Mouth Rehabilitation",
-        "altText": "Full Mouth Rehabilitation Services"
+        "title": "Full-Mouth Rehabilitation",
+        "altText": "Full-Mouth Restoration and Rehabilitation Services"
       },
       {
-        "title": "Dental Implants",
-        "altText": "General Implantology Services"
+        "title": "Dental Implant Solutions",
+        "altText": "Expert Implantology for Missing Teeth"
       }
     ]
   },
-  "title": "Explore Flights to Montenegro",
-  "description": "Most of our patients come from these countries. Select your country to see flight paths.",
-  "label": "Select your country",
-  "button": "Explore Flights to Montenegro",
-  "mapAlt": "Map showing flights from {{country}}",
-  "countries": {
-    "Germany": "Germany",
-    "Great Britain": "Great Britain",
-    "Italy": "Italy",
-    "Austria": "Austria"
+  "flightMap": {
+    "title": "Plan Your Trip to Montenegro",
+    "description": "Most of our patients travel from these countries. Select your country to discover direct and affordable flight options for your dental journey.",
+    "label": "Choose Your Country",
+    "button": "Find Flights to Montenegro",
+    "mapAlt": "Flight map for travel from {{country}} to Montenegro",
+    "countries": {
+      "Germany": "Germany",
+      "Great Britain": "Great Britain",
+      "Italy": "Italy",
+      "Austria": "Austria"
+    }
+  },
+  "contactMain": {
+    "heading": "Transform Your Smile with Expert Care",
+    "description": "Experience personalized dental care with <span class='font-semibold text-teal-700'>Dr. Filip</span> at our renowned clinics in Montenegro. Enjoy a <strong class='text-teal-700'>free one-on-one consultation</strong> and receive a <strong class='text-teal-700'>detailed quote within 24 hours</strong>. With our seamless process, your journey to a radiant smile has never been easier.",
+    "buttonText": "Book Your Free Consultation",
+    "imageAlt": "Dr. Filip - Your Trusted Dental Specialist",
+    "modal": {
+      "iframeTitle": "Book a Dental Consultation",
+      "closeButtonAriaLabel": "Close Booking Modal"
+    }
   }
 }

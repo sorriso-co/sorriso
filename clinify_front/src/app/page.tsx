@@ -9,25 +9,32 @@ import HaveItAll from "@/components/MainPage/HaveItAll";
 import LanguageSwitcher from "@/components/MainPage/Language/LanguageSwitcher";
 import WhatsAppLink from "@/components/Contact/WhatsApp";
 import FAQ from "@/components/MainPage/FAQ/FAQ";
-import PopUp from "@/components/MainPage/PopUp/PopUp";
 import FlightMap from "@/components/MainPage/Maps/FlightMap";
 import SavingsChart from "@/components/MainPage/Chart/SavingsChart";
+import Different from "@/components/MainPage/ContactUs/Different";
+import PopUp from "@/components/MainPage/PopUp/PopUp"; // Import the Popup component
 import "../styles/global.css";
 
 const Home: React.FC = () => {
-  const [isVisible, setIsVisible] = useState(true);
   const [isPopupVisible, setIsPopupVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
 
-  // Check if the popup was previously dismissed
+  // Handle popup visibility logic
   useEffect(() => {
     const popupDismissed = localStorage.getItem("popupDismissed");
 
-    // If not dismissed, show the popup
     if (!popupDismissed) {
       setIsPopupVisible(true);
     }
+  }, []);
 
-    // Scroll handler to track when user scrolls past the first component
+  const handlePopupClose = () => {
+    localStorage.setItem("popupDismissed", "true");
+    setIsPopupVisible(false);
+  };
+
+  // Scroll handler for LanguageSwitcher visibility
+  useEffect(() => {
     const handleScroll = () => {
       const heroHeight = document.querySelector("#hero-section")?.clientHeight;
       if (window.scrollY > (heroHeight || 0)) {
@@ -43,12 +50,6 @@ const Home: React.FC = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  const handlePopupClose = () => {
-    // Mark the popup as dismissed in local storage
-    localStorage.setItem("popupDismissed", "true");
-    setIsPopupVisible(false);
-  };
 
   return (
     <>
@@ -69,8 +70,6 @@ const Home: React.FC = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-
-        {/* Open Graph Meta Tags */}
         <meta
           property="og:title"
           content="Sorriso Care | Your Destination for Dental Tourism"
@@ -85,8 +84,6 @@ const Home: React.FC = () => {
           content="https://sorriso.care/images/front-hero.jpg"
         />
         <meta property="og:type" content="website" />
-
-        {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -99,35 +96,6 @@ const Home: React.FC = () => {
         <meta
           name="twitter:image"
           content="https://sorriso.care/images/front-hero.jpg"
-        />
-
-        {/* Structured Data */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "MedicalBusiness",
-              name: "Sorriso Care",
-              url: "https://sorriso.care/",
-              logo: "https://sorriso.care/images/logo.png",
-              description:
-                "Discover affordable dental treatments in Montenegro with Sorriso Care. From veneers to implants, we provide world-class care tailored to your needs.",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "bb Gavra Vukovića",
-                addressLocality: "Podgorica",
-                addressCountry: "Montenegro",
-                postalCode: "81000",
-              },
-              contactPoint: {
-                "@type": "ContactPoint",
-                telephone: "+382 60 664 668",
-                contactType: "Customer Service",
-              },
-              image: "https://sorriso.care/images/front-hero.jpg",
-            }),
-          }}
         />
       </head>
 
@@ -153,6 +121,11 @@ const Home: React.FC = () => {
         {/* Service Grid Section */}
         <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
           <ServiceGrid />
+        </div>
+
+        {/* Why Are We Different Section */}
+        <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
+          <Different />
         </div>
 
         {/* Flight Map Section */}
@@ -181,10 +154,8 @@ const Home: React.FC = () => {
         {/* Language Switcher */}
         {isVisible && <LanguageSwitcher />}
 
-        {/* PopUp */}
-        {isPopupVisible && (
-          <PopUp show={isPopupVisible} handleClose={handlePopupClose} />
-        )}
+        {/* Popup */}
+        {isPopupVisible && <PopUp show={isPopupVisible} handleClose={handlePopupClose} />}
       </main>
     </>
   );
