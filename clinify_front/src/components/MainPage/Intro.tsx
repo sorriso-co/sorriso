@@ -1,59 +1,116 @@
-import React from "react";
+import React, { useState } from "react";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
-import Link from "next/link";
 
 const Introduction: React.FC = () => {
   const { t } = useTranslation("homepage");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+  
+    try {
+      const response = await fetch("/api/contact-info", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, phone }),
+      });
+  
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || "Failed to submit contact information");
+      }
+  
+      // Reset the form on success
+      setEmail("");
+      setPhone("");
+      alert("Thank you for your interest! We will contact you soon.");
+    } catch (error) {
+      console.error("Submission error:", error);
+      alert("An error occurred while submitting your contact information. Please try again.");
+    }
+  };
+  
 
   return (
-    <section className="container mx-auto flex flex-col lg:flex-row items-center py-10 sm:py-20 w-full sm:w-3/4 mt-8 sm:mt-12 space-y-8 lg:space-y-0 lg:space-x-12 bg-teal-100 rounded-lg shadow-md p-4 sm:p-8">
+    <section className="container mx-auto flex flex-col lg:flex-row items-center py-16 px-6 lg:px-12 space-y-10 lg:space-y-0 lg:space-x-12 bg-gradient-to-r from-teal-50 to-teal-100 rounded-lg shadow-lg">
       {/* Text Section */}
-      <div className="lg:w-1/2 text-center lg:text-left px-4 sm:px-0">
-        <h1 className="font-serif text-teal-900 font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight mb-4">
+      <div className="lg:w-1/2 text-center lg:text-left">
+        <h1 className="font-serif text-teal-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6">
           {t("introduction.title", { defaultValue: "Your Next Dental Trip" })}
         </h1>
-        <h4 className="font-serif text-xl sm:text-2xl lg:text-3xl text-teal-700 mb-6">
+        <h4 className="font-serif text-2xl sm:text-3xl text-teal-700 mb-6">
           {t("introduction.subtitle", {
             defaultValue: "Veni Vidi Vici with Sorriso",
           })}
         </h4>
-        <p className="font-sans text-base sm:text-lg lg:text-xl text-teal-800">
+        <p className="font-sans text-lg sm:text-xl text-teal-800 mb-8">
           {t("introduction.description", {
             defaultValue:
               "Discover exceptional dental care combined with an unforgettable travel experience. Let Sorriso guide you through a journey to a brighter, healthier smile while exploring the beauty and culture of Montenegro.",
           })}
         </p>
-        <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4 mt-5 font-serif">
-          <Link
+        <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+          <a
             href="/pricing"
-            className="bg-gradient-to-r from-teal-500 via-teal-600 to-teal-800 text-white py-3 sm:py-4 px-6 sm:px-8 rounded-full text-center font-semibold shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-4 focus:ring-teal-300 font-inter"
+            className="bg-gradient-to-r from-teal-500 to-teal-600 text-white py-3 sm:py-4 px-8 rounded-full font-semibold shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-teal-300"
           >
             View Our Pricing
-          </Link>
+          </a>
         </div>
       </div>
 
-      {/* Call to Action Section */}
-      <div className="lg:w-1/2 flex justify-center lg:justify-end px-4 sm:px-0">
-        <div className="bg-teal-300 p-6 sm:p-8 rounded-lg shadow-md">
-          <h3 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+      {/* Contact Form Section */}
+      <div className="lg:w-1/2 flex justify-center lg:justify-end">
+        <div className="bg-gradient-to-r from-teal-700 to-teal-800 p-8 sm:p-10 rounded-lg shadow-md text-white w-full max-w-md">
+          <h3 className="text-3xl sm:text-4xl font-bold mb-6">
             {t("introduction.joinUsTitle", { defaultValue: "Join Us" })}
           </h3>
-          <p className="text-base sm:text-lg text-white mb-6">
+          <p className="text-lg sm:text-xl mb-6">
             {t("introduction.joinUsDescription", {
               defaultValue:
-                "Schedule an appointment and start your journey to a perfect smile with Sorriso.",
+                "Enter your contact details, and we'll get in touch with you to start your journey to a perfect smile.",
             })}
           </p>
-          <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4 font-serif">
-            <Link
-              href="/contact"
-              className="bg-teal-100 text-teal-800 py-2 sm:py-3 px-4 sm:px-6 rounded-full text-center font-semibold transition-all duration-300 hover:bg-teal-800 hover:text-white focus:outline-none focus:ring-4 focus:ring-teal-300 font-inter"
+          <form onSubmit={handleSubmit} className="space-y-4">
+            <div>
+              <label htmlFor="email" className="block text-white text-lg mb-2">
+                {t("introduction.emailLabel", { defaultValue: "Email Address" })}
+              </label>
+              <input
+                type="email"
+                id="email"
+                className="w-full p-3 rounded-lg text-teal-900 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="phone" className="block text-white text-lg mb-2">
+                {t("introduction.phoneLabel", { defaultValue: "Phone Number" })}
+              </label>
+              <input
+                type="tel"
+                id="phone"
+                className="w-full p-3 rounded-lg text-teal-900 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                placeholder="Enter your phone number"
+                required
+              />
+            </div>
+            <button
+              type="submit"
+              className="w-full bg-white text-teal-800 py-3 px-6 rounded-full font-semibold shadow-md transition-transform duration-300 hover:bg-teal-100 hover:text-teal-900 focus:outline-none focus:ring-4 focus:ring-teal-300"
             >
-              Book a Call
-            </Link>
-          </div>
+              Submit
+            </button>
+          </form>
         </div>
       </div>
     </section>

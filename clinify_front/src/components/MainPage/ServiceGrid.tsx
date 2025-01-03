@@ -34,7 +34,7 @@ const ServiceGrid: React.FC = () => {
       icon: "/images/service-grid/dental-implant.webp",
       title: t("serviceGrid.services.3.title"),
       altText: t("serviceGrid.services.3.altText"),
-    }
+    },
   ];
 
   const router = useRouter();
@@ -49,30 +49,43 @@ const ServiceGrid: React.FC = () => {
   });
 
   return (
-    <div
+    <section
       ref={ref}
-      className="relative overflow-x-hidden px-4 md:px-8 py-12 md:py-16 bg-teal-50"
+      className="relative overflow-x-hidden px-6 py-16 bg-gradient-to-br from-teal-50 to-teal-100"
     >
       <div className="container mx-auto relative z-10">
-        <h2 className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold text-center text-teal-700 mb-6">
+        {/* Section Title */}
+        <h2
+          className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-center text-teal-800 mb-6"
+          data-aos="fade-up"
+        >
           {t("serviceGrid.title")}
         </h2>
-        <p className="text-xl md:text-3xl font-serif text-center text-teal-600 mb-12">
+        <p
+          className="text-lg md:text-2xl font-serif text-center text-teal-700 mb-12"
+          data-aos="fade-up"
+        >
           {t("serviceGrid.description")}
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+
+        {/* Service Cards */}
+        <div
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           {services.map((service, index) => (
             <div
               key={index}
-              className={`transition duration-700 ease-in-out transform ${
+              className={`transition-all duration-500 ease-in-out transform ${
                 inView
-                  ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-10"
+                  ? "opacity-100 scale-100"
+                  : "opacity-0 scale-95"
               }`}
               onClick={handleCardClick}
             >
-              <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transform hover:scale-105">
-                <div className="w-24 h-24 mb-4 flex items-center justify-center">
+              <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transform transition-transform duration-300">
+                <div className="w-24 h-24 mb-6">
                   <Image
                     src={service.icon}
                     alt={service.altText}
@@ -80,10 +93,9 @@ const ServiceGrid: React.FC = () => {
                     height={96}
                     loading={index === 0 ? "eager" : "lazy"}
                     className="w-full h-full object-contain"
-                    sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 12vw"
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-teal-600 text-center">
+                <h3 className="text-lg md:text-xl font-semibold text-teal-700 text-center">
                   {service.title}
                 </h3>
               </div>
@@ -91,7 +103,7 @@ const ServiceGrid: React.FC = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
