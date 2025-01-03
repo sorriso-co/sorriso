@@ -12,13 +12,21 @@
     "buttonText": "Schedule Your Appointment"
   },
   "introduction": {
-    "title": "Facing Dental Issues?",
-    "subtitle": "Your Smile, Our Mission at Sorriso",
-    "description": "Travel to Montenegro for premium yet affordable dental care. Sorriso specializes in advanced procedures such as dental implants, veneers, and smile makeovers. It's the perfect alternative to dental tourism in Turkey, offering personalized care for conditions like missing teeth, decayed teeth, and more.",
-    "joinUsTitle": "Join Our Growing Patient Community",
-    "joinUsDescription": "Take the first step toward your perfect smile. Schedule a free consultation with our experts today.",
-    "visitButton": "See Transformations",
-    "scheduleButton": "Book Your Consultation"
+    "title": "Your Gateway to World-Class Dental Care",
+    "subtitle": "Transform Your Smile with Sorriso",
+    "description": "Discover the perfect blend of exceptional dental care and an unforgettable travel experience. At Sorriso, we specialize in creating radiant, healthy smiles through personalized treatments such as veneers, dental implants, and full-mouth restorations, all while you enjoy the scenic beauty and rich culture of Montenegro.",
+    "joinUsTitle": "Start Your Journey to a Perfect Smile",
+    "joinUsDescription": "Share your contact details, and our dedicated team will reach out to guide you through your personalized dental journey. Experience top-tier care tailored to your needs.",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "formSubmitSuccess": "Thank you for your interest! We will contact you soon to discuss your needs and options.",
+    "formSubmitError": "An error occurred while submitting your contact information. Please try again.",
+    "viewPricingButton": "Explore Our Pricing Plans",
+    "contactForm": {
+      "buttonText": "Submit",
+      "placeholderEmail": "Enter your email",
+      "placeholderPhone": "Enter your phone number"
+    }
   },
   "howItWorks": {
     "title": "Your Journey to a Perfect Smile",
@@ -84,6 +92,16 @@
       "Great Britain": "Great Britain",
       "Italy": "Italy",
       "Austria": "Austria"
+    }
+  },
+  "contactMain": {
+    "heading": "Transform Your Smile with Expert Care",
+    "description": "Experience personalized dental care with <span class='font-semibold text-teal-700'>Dr. Filip</span> at our renowned clinics in Montenegro. Enjoy a <strong class='text-teal-700'>free one-on-one consultation</strong> and receive a <strong class='text-teal-700'>detailed quote within 24 hours</strong>. With our seamless process, your journey to a radiant smile has never been easier.",
+    "buttonText": "Book Your Free Consultation",
+    "imageAlt": "Dr. Filip - Your Trusted Dental Specialist",
+    "modal": {
+      "iframeTitle": "Book a Dental Consultation",
+      "closeButtonAriaLabel": "Close Booking Modal"
     }
   }
 }

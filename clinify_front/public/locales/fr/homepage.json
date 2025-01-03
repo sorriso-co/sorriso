@@ -12,14 +12,22 @@
     "buttonText": "Planifier un Rendez-vous"
   },
   "introduction": {
-    "title": "Votre Prochain Voyage Dentaire",
-    "subtitle": "Veni. Vidi. Vici avec Sorriso",
-    "description": "Découvrez des soins dentaires exceptionnels combinés à une expérience de voyage inoubliable. Laissez Sorriso vous guider vers un sourire plus éclatant et en meilleure santé tout en explorant la beauté et la culture du Monténégro.",
-    "joinUsTitle": "Rejoignez-nous",
-    "joinUsDescription": "Prenez rendez-vous et commencez votre voyage vers un sourire parfait avec Sorriso.",
-    "visitButton": "Nos Transformations",
-    "scheduleButton": "Réserver un Appel"
-  },
+  "title": "Votre Porte d’Entrée à des Soins Dentaires de Classe Mondiale",
+  "subtitle": "Transformez Votre Sourire avec Sorriso",
+  "description": "Découvrez le mélange parfait de soins dentaires exceptionnels et d'une expérience de voyage inoubliable. Chez Sorriso, nous nous spécialisons dans la création de sourires éclatants et sains grâce à des traitements personnalisés tels que les facettes, les implants dentaires et les restaurations complètes, tout en profitant de la beauté pittoresque et de la riche culture du Monténégro.",
+  "joinUsTitle": "Commencez Votre Voyage Vers un Sourire Parfait",
+  "joinUsDescription": "Partagez vos coordonnées, et notre équipe dévouée vous contactera pour vous guider dans votre parcours dentaire personnalisé. Profitez de soins haut de gamme adaptés à vos besoins.",
+  "emailLabel": "Adresse Email",
+  "phoneLabel": "Numéro de Téléphone",
+  "formSubmitSuccess": "Merci pour votre intérêt ! Nous vous contacterons bientôt pour discuter de vos besoins et options.",
+  "formSubmitError": "Une erreur est survenue lors de l’envoi de vos coordonnées. Veuillez réessayer.",
+  "viewPricingButton": "Découvrez Nos Tarifs",
+  "contactForm": {
+    "buttonText": "Envoyer",
+    "placeholderEmail": "Entrez votre adresse email",
+    "placeholderPhone": "Entrez votre numéro de téléphone"
+  }
+},
   "howItWorks": {
     "title": "Étapes Simples Vers Votre Sourire Parfait",
     "steps": {
@@ -83,5 +91,16 @@
     "Great Britain": "Grande-Bretagne",
     "Italy": "Italie",
     "Austria": "Autriche"
+  },
+  "contactMain": {
+  "heading": "Transformez votre sourire avec des soins experts",
+  "description": "Découvrez des soins dentaires personnalisés avec <span class='font-semibold text-teal-700'>Dr. Filip</span> dans nos cliniques renommées au Monténégro. Profitez d'une <strong class='text-teal-700'>consultation individuelle gratuite</strong> et recevez un <strong class='text-teal-700'>devis détaillé sous 24 heures</strong>. Grâce à notre processus fluide, votre voyage vers un sourire éclatant n'a jamais été aussi simple.",
+  "buttonText": "Réservez votre consultation gratuite",
+  "imageAlt": "Dr. Filip - Votre spécialiste dentaire de confiance",
+  "modal": {
+    "iframeTitle": "Réservez une consultation dentaire",
+    "closeButtonAriaLabel": "Fermer le formulaire de réservation"
   }
+}
+
 }

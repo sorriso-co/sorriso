@@ -12,14 +12,22 @@
     "buttonText": "Termin vereinbaren"
   },
   "introduction": {
-    "title": "Deine Nächste Zahnreise",
-    "subtitle": "Veni Vidi Vici mit Sorriso",
-    "description": "Entdecke erstklassige Zahnbehandlungen kombiniert mit einem unvergesslichen Reiseerlebnis. Lass dich von Sorriso auf deinem Weg zu einem strahlenderen, gesünderen Lächeln begleiten und entdecke dabei die Schönheit und Kultur Montenegros.",
-    "joinUsTitle": "Mach mit",
-    "joinUsDescription": "Vereinbare einen Termin und starte deine Reise zu einem perfekten Lächeln mit Sorriso.",
-    "visitButton": "Unsere Ergebnisse",
-    "scheduleButton": "Rückruf vereinbaren"
-  },
+  "title": "Ihr Tor zur Weltklasse-Zahnmedizin",
+  "subtitle": "Verwandeln Sie Ihr Lächeln mit Sorriso",
+  "description": "Entdecken Sie die perfekte Kombination aus außergewöhnlicher Zahnpflege und einem unvergesslichen Reiseerlebnis. Bei Sorriso sind wir darauf spezialisiert, strahlende, gesunde Lächeln durch personalisierte Behandlungen wie Veneers, Zahnimplantate und vollständige Mundrekonstruktionen zu schaffen – während Sie die malerische Schönheit und die reiche Kultur Montenegros genießen.",
+  "joinUsTitle": "Starten Sie Ihre Reise zu einem perfekten Lächeln",
+  "joinUsDescription": "Teilen Sie uns Ihre Kontaktdaten mit, und unser engagiertes Team wird Sie kontaktieren, um Sie auf Ihrer personalisierten Zahnreise zu begleiten. Erleben Sie erstklassige Betreuung, die auf Ihre Bedürfnisse zugeschnitten ist.",
+  "emailLabel": "E-Mail-Adresse",
+  "phoneLabel": "Telefonnummer",
+  "formSubmitSuccess": "Vielen Dank für Ihr Interesse! Wir werden Sie bald kontaktieren, um Ihre Bedürfnisse und Optionen zu besprechen.",
+  "formSubmitError": "Beim Senden Ihrer Kontaktdaten ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+  "viewPricingButton": "Entdecken Sie unsere Preispläne",
+  "contactForm": {
+    "buttonText": "Senden",
+    "placeholderEmail": "Geben Sie Ihre E-Mail-Adresse ein",
+    "placeholderPhone": "Geben Sie Ihre Telefonnummer ein"
+  }
+},
   "howItWorks": {
     "title": "Einfachen Schritten zu Deinem Perfekten Lächeln",
     "steps": {
@@ -83,5 +91,16 @@
     "Great Britain": "Großbritannien",
     "Italy": "Italien",
     "Austria": "Österreich"
+  },
+  "contactMain": {
+  "heading": "Verwandeln Sie Ihr Lächeln mit Expertenpflege",
+  "description": "Erleben Sie eine individuelle Zahnbehandlung mit <span class='font-semibold text-teal-700'>Dr. Filip</span> in unseren renommierten Kliniken in Montenegro. Genießen Sie eine <strong class='text-teal-700'>kostenlose Einzelberatung</strong> und erhalten Sie innerhalb von <strong class='text-teal-700'>24 Stunden ein detailliertes Angebot</strong>. Mit unserem nahtlosen Prozess war der Weg zu einem strahlenden Lächeln noch nie einfacher.",
+  "buttonText": "Buchen Sie Ihre kostenlose Beratung",
+  "imageAlt": "Dr. Filip - Ihr vertrauenswürdiger Zahnarztspezialist",
+  "modal": {
+    "iframeTitle": "Buchen Sie eine Zahnberatung",
+    "closeButtonAriaLabel": "Buchungsformular schließen"
   }
+}
+
 }
