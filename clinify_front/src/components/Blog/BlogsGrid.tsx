@@ -21,7 +21,7 @@ interface BlogGridProps {
 
 const BlogGrid: React.FC<BlogGridProps> = ({ blogs }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const blogsPerPage = 12; // Number of blogs per page
+  const blogsPerPage = 24; // Number of blogs per page
 
   // Pagination Logic
   const totalPages = Math.ceil(blogs.length / blogsPerPage);

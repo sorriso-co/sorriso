@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Transition } from "react-transition-group";
 import { useTranslation } from "react-i18next";
 import faqs from "./text"; // your FAQ data
@@ -7,6 +7,11 @@ import styles from "./FAQComponent.module.css"; // for the .collapse classes onl
 const FAQComponent = () => {
   const [activeIndices, setActiveIndices] = useState<number[]>([]);
   const { t } = useTranslation("common");
+
+  // Ref array for each FAQ
+  const nodeRefs = useRef<Array<React.RefObject<HTMLDivElement>>>(
+    faqs.map(() => React.createRef<HTMLDivElement>())
+  );
 
   const toggleFAQ = (index: number) => {
     if (activeIndices.includes(index)) {
@@ -32,9 +37,14 @@ const FAQComponent = () => {
             >
               {t(faq.question)}
             </button>
-            <Transition in={activeIndices.includes(index)} timeout={300}>
+            <Transition
+              in={activeIndices.includes(index)}
+              timeout={300}
+              nodeRef={nodeRefs.current[index]}
+            >
               {(state) => (
                 <div
+                  ref={nodeRefs.current[index]}
                   className={`${styles.collapse} ${
                     state === "entering" || state === "entered"
                       ? styles.entered
