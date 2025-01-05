@@ -5,7 +5,7 @@ import Image from "next/image";
 import NavbarItem from "./NavbarItem";
 import MobileNav from "./MobileNav";
 import { useTranslation } from "react-i18next";
-import { FiPhoneCall } from "react-icons/fi"; // Import phone icon from react-icons
+// import { FiPhoneCall } from "react-icons/fi"; // Import phone icon from react-icons
 
 const Header: React.FC = () => {
   const { t } = useTranslation("common");
@@ -103,6 +103,11 @@ const Header: React.FC = () => {
               text={t("header.menu.beforeAfter")}
               className="relative px-2 py-1 hover:text-teal-400 hover:scale-105 transition-all duration-300"
             />
+             <NavbarItem
+              href="/blog"
+              text={t("header.menu.blog")}
+              className="relative px-2 py-1 hover:text-teal-400 hover:scale-105 transition-all duration-300"
+            />
             <NavbarItem
               href="/contact"
               text={t("header.menu.contact")}
@@ -110,20 +115,15 @@ const Header: React.FC = () => {
             />
           </div>
 
-          {/* Phone Number (visible only on large screens) */}
-          <div className="hidden lg:flex flex-col items-start text-teal-700 ml-8">
-            {" "}
-            {/* Added margin-left for separation */}
-            <div className="flex items-center">
-              <FiPhoneCall className="w-5 h-5 mr-1" />
-              <span className="font-semibold text-sm">
-                {t("header.phone.number")}
-              </span>
-            </div>
-            <span className="text-xs text-gray-600 -ml-1">
-              {t("header.phone.availability")}
-            </span>
+          <div className="hidden lg:flex items-center ml-8">
+            <Link
+              href="/quote"
+              className="px-6 py-2 bg-teal-800 text-white font-semibold rounded-md shadow-md hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-teal-600 transition-transform transform hover:scale-105"
+            >
+              Get a Quote
+            </Link>
           </div>
+
 
           {/* Mobile Menu Toggle */}
           <div

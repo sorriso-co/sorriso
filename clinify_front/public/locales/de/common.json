@@ -5,6 +5,7 @@
       "services": "Leistungen",
       "pricing": "Preise",
       "contact": "Kontakt",
+      "blog": "Blog",
       "beforeAfter": "Vorher/Nachher"
     },
     "mobile_nav": {
@@ -14,6 +15,8 @@
       "services": "Leistungen",
       "pricing": "Preise",
       "contact": "Kontakt",
+      "blog": "Blog",
+      "quote": "Ein Angebot Anfordern",
       "beforeAfter": "Vorher/Nachher"
     },
     "phone": {

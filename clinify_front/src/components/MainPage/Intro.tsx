@@ -60,8 +60,17 @@ const Introduction: React.FC = () => {
           >
             View Our Pricing
           </a>
+          {/* New Get a Quote Button */}
+          <a
+            href="/quote"
+            className="bg-gradient-to-r from-teal-800 to-teal-900 text-white py-3 sm:py-4 px-8 rounded-full font-semibold shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-teal-500"
+          >
+            Get a Quote
+          </a>
         </div>
+        
       </div>
+      
 
       {/* Contact Form Section */}
       <div className="lg:w-1/2 flex justify-center lg:justify-end">

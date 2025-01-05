@@ -1,0 +1,13 @@
+{
+    "slug": "everything-about-montenegro",
+    "title": "Everything You Need to Know About Montenegro",
+    "description": "Discover Montenegro, a hidden gem of the Balkans. From its stunning landscapes to rich history and culture, find out why this country should be on your bucket list.",
+    "date": "2025-01-15",
+    "imageUrl": "/images/blog/montenegro.webp",
+    "author": {
+      "name": "Dr. Filip Suković",
+      "avatarUrl": "/images/Team/staff/filip.png"
+    },
+    "htmlFile": "/posts/html/everything-about-montenegro.html"
+  }
+  

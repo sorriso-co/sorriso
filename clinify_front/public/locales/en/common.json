@@ -5,6 +5,7 @@
       "services": "Services",
       "pricing": "Pricing",
       "contact": "Contact",
+      "blog": "Blog",
       "beforeAfter": "Before & After"
     },
     "mobile_nav": {
@@ -13,6 +14,8 @@
       "about": "About Us",
       "services": "Services",
       "pricing": "Pricing",
+      "blog": "Blog",
+      "quote": "Get a Quote",
       "contact": "Contact",
       "beforeAfter": "Before & After"
     },
