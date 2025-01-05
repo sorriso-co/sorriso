@@ -1,37 +1,47 @@
-import React from 'react';
-import fs from 'fs';
+import fs from 'fs/promises';
 import path from 'path';
+import { Metadata } from 'next';
 import Image from 'next/image';
 
-// Adjust the type to match Next.js PageProps with async params
-interface BlogPostProps {
-  params: Promise<{ slug: string }>; 
-}
-
+// Function to fetch metadata
 async function fetchBlogMetadata(slug: string) {
-  // Load the blog metadata JSON file
-  const metadataPath = path.join(process.cwd(), `src/posts/metadata/${slug}.json`);
-  const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
-  return metadata;
+  try {
+    const metadataPath = path.join(process.cwd(), `src/posts/metadata/${slug}.json`);
+    const metadata = await fs.readFile(metadataPath, 'utf8');
+    return JSON.parse(metadata);
+  } catch (error) {
+    throw new Error(`Failed to fetch metadata for slug: ${slug}`);
+  }
 }
 
+// Function to fetch HTML content
 async function fetchBlogHtml(slug: string) {
-  // Load the blog HTML content
-  const htmlPath = path.join(process.cwd(), `src/posts/html/${slug}.html`);
-  return fs.readFileSync(htmlPath, 'utf8');
+  try {
+    const htmlPath = path.join(process.cwd(), `src/posts/html/${slug}.html`);
+    return await fs.readFile(htmlPath, 'utf8');
+  } catch (error) {
+    throw new Error(`Failed to fetch HTML content for slug: ${slug}`);
+  }
 }
 
-const BlogPost: React.FC<BlogPostProps> = async ({ params }) => {
-  const resolvedParams = await params; // Ensure params is resolved if it's a Promise
-  const metadata = await fetchBlogMetadata(resolvedParams.slug);
-  const htmlContent = await fetchBlogHtml(resolvedParams.slug);
+// Generate static params for dynamic routing
+export async function generateStaticParams() {
+  const postsDirectory = path.join(process.cwd(), 'src/posts/metadata');
+  const filenames = await fs.readdir(postsDirectory);
+
+  return filenames.map((filename) => ({
+    slug: filename.replace('.json', ''),
+  }));
+}
+
+// Page Component
+const BlogPost = async ({ params }: any) => {
+  const metadata = await fetchBlogMetadata(params.slug);
+  const htmlContent = await fetchBlogHtml(params.slug);
 
   return (
     <article className="blog-page container mx-auto py-10 px-6 text-teal-900">
-      {/* Blog Title */}
       <h1 className="text-4xl font-bold mb-4">{metadata.title}</h1>
-
-      {/* Blog Metadata */}
       <p className="text-gray-600 text-sm mb-8">{metadata.date}</p>
       <div className="flex items-center mb-8">
         <Image
@@ -43,8 +53,6 @@ const BlogPost: React.FC<BlogPostProps> = async ({ params }) => {
         />
         <p className="text-lg font-medium">{metadata.author.name}</p>
       </div>
-
-      {/* Blog Image */}
       <div className="relative h-64 mb-8">
         <Image
           src={metadata.imageUrl}
@@ -53,7 +61,6 @@ const BlogPost: React.FC<BlogPostProps> = async ({ params }) => {
           className="object-cover rounded-lg"
         />
       </div>
-
       <div
         className="prose lg:prose-xl max-w-none text-gray-700 leading-relaxed"
         dangerouslySetInnerHTML={{ __html: htmlContent }}
@@ -63,3 +70,18 @@ const BlogPost: React.FC<BlogPostProps> = async ({ params }) => {
 };
 
 export default BlogPost;
+
+// Metadata for SEO and Open Graph
+export async function generateMetadata({ params }: any): Promise<Metadata> {
+  const metadata = await fetchBlogMetadata(params.slug);
+
+  return {
+    title: metadata.title,
+    description: metadata.description,
+    openGraph: {
+      title: metadata.title,
+      description: metadata.description,
+      images: metadata.imageUrl,
+    },
+  };
+}
