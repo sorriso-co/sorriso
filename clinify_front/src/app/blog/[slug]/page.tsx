@@ -3,10 +3,6 @@ import path from 'path';
 import { Metadata } from 'next';
 import Image from 'next/image';
 
-interface BlogPostProps {
-  params: { slug: string };
-}
-
 // Function to fetch metadata
 async function fetchBlogMetadata(slug: string) {
   try {
@@ -39,7 +35,7 @@ export async function generateStaticParams() {
 }
 
 // Page Component
-export default async function BlogPost({ params }: BlogPostProps) {
+const BlogPost = async ({ params }: any) => {
   const metadata = await fetchBlogMetadata(params.slug);
   const htmlContent = await fetchBlogHtml(params.slug);
 
@@ -71,10 +67,12 @@ export default async function BlogPost({ params }: BlogPostProps) {
       />
     </article>
   );
-}
+};
+
+export default BlogPost;
 
 // Metadata for SEO and Open Graph
-export async function generateMetadata({ params }: BlogPostProps): Promise<Metadata> {
+export async function generateMetadata({ params }: any): Promise<Metadata> {
   const metadata = await fetchBlogMetadata(params.slug);
 
   return {
