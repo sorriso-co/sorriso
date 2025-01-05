@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import { promises as fs } from 'fs';
 import path from 'path';
+import os from 'os';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
@@ -23,10 +24,8 @@ export async function POST(request: Request) {
     if (file) {
       console.log("Processing file upload...");
       const buffer = Buffer.from(await file.arrayBuffer());
-      // Use 'temp_uploads' directory in project root for temporary storage
-      const tempUploadsDir = path.join(process.cwd(), 'temp_uploads');
-      // Ensure the directory exists
-      await fs.mkdir(tempUploadsDir, { recursive: true });
+      // Use temporary system directory
+      const tempUploadsDir = os.tmpdir();
       filePath = path.join(tempUploadsDir, file.name);
       await fs.writeFile(filePath, buffer);
       console.log("File saved at:", filePath);
@@ -35,13 +34,13 @@ export async function POST(request: Request) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: "djordjeivanovic65@gmail.com",
-        pass: "owlj ddmq zjce gues", 
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
       },
     });
 
     const mailOptions = {
-      from: 'djordjeivanovic65@gmail.com',
+      from: process.env.EMAIL_USER,
       to: 'contact@sorriso.care',
       subject: `Message from ${name}`,
       text: `From: ${name}\nEmail: ${email}\nPhone: ${phone}\n\n${message}`,
