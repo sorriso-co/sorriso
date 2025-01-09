@@ -11,7 +11,7 @@ const FrontHero: React.FC = () => {
       <div className="container mx-auto py-20 px-6 lg:px-16">
         <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between space-y-12 lg:space-y-0">
           {/* Left Text Section */}
-          <div className="lg:w-1/2 text-center lg:text-left space-y-8">
+          <div className="lg:w-1/2 text-center lg:text-left space-y-8 lg:mr-10">
             <h1 className="font-serif text-white font-extrabold text-5xl sm:text-6xl lg:text-7xl tracking-tight leading-tight animate-fade-in">
               {t("frontHero.title", { defaultValue: "Your Next Dental Trip" })}
             </h1>
