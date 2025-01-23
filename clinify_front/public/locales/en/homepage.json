@@ -1,7 +1,7 @@
 {
   "frontHero": {
     "title": "Transform Your Smile with Sorriso",
-    "subtitle": "Free Consultations, Advanced Dental Treatments, Exceptional Results",
+    "subtitle": "Free Consultations & Stay,\nAdvanced Dental Treatments,\nExceptional Results",
     "visitButton": "See Our Transformations",
     "scheduleButton": "Learn How It Works",
     "patientSatisfaction": "Patient satisfaction rate: 4.9/5 based on thousands of successful procedures, from veneers to dental implants."
@@ -61,7 +61,7 @@
   "serviceGrid": {
     "title": "Comprehensive Dental Services",
     "description": "Explore our world-class dental services, including All-on-4 implants, veneers, full-mouth rehabilitation, and more. Our partner clinics in Montenegro are internationally recognized for addressing dental issues like decaying teeth, missing teeth, and bad genetics with precision and care.",
-    "buttonText": "Watch Our Story",
+    "buttonText": "Watch Your Story",
     "services": [
       {
         "title": "All-on-4 Implants",

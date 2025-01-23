@@ -18,8 +18,14 @@ const FrontHero: React.FC = () => {
             <h2 className="font-serif text-xl sm:text-2xl lg:text-3xl text-teal-200 animate-slide-up">
               {t("frontHero.subtitle", {
                 defaultValue:
-                  "Free Consultations, World-Class Treatment, Stunning Results",
-              })}
+                  "Free Consultations & Stay\nAdvanced Dental Treatments\nExceptional Results",
+              })
+                .split("\n")
+                .map((line, index) => (
+                  <span key={index} className="block">
+                    {line}
+                  </span>
+                ))}
             </h2>
 
             {/* Call to Action Buttons */}

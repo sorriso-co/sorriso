@@ -93,7 +93,10 @@ const HowItWorks: React.FC = () => {
     <section className="relative bg-teal-50 py-12">
       <div className="container mx-auto px-4 lg:px-16">
         {/* Section Title */}
-        <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-extrabold text-teal-700 text-center mb-10 mt-8" data-aos="fade-up">
+        <h2
+          className="font-serif text-3xl sm:text-4xl md:text-5xl font-extrabold text-teal-700 text-center mb-10 mt-8"
+          data-aos="fade-up"
+        >
           {t("howItWorks.title", {
             defaultValue: "In 6 Easy Steps to Your Perfect Smile",
           })}
@@ -194,7 +197,7 @@ const HowItWorks: React.FC = () => {
         {/* Call-to-Action */}
         <div className="text-center mt-12">
           <button
-            className="bg-teal-600 text-white py-2 px-8 rounded-full shadow-md text-lg md:text-xl"
+            className="bg-teal-600 font-serif hover:bg-teal-500 text-white py-2 px-8 rounded-full shadow-md text-lg md:text-xl"
             onClick={toggleModal}
           >
             {t("serviceGrid.buttonText", { defaultValue: "Learn More" })}
@@ -211,9 +214,10 @@ const HowItWorks: React.FC = () => {
                 >
                   &times;
                 </button>
+
                 <div className="relative pt-[56.25%]">
                   <iframe
-                    src="https://www.youtube.com/embed/CoucS-fy2FI?si=qt3GdS64rwl0elN2&start=2"
+                    src="https://www.youtube.com/embed/pHUxGQKx0Tk?si=PlVTnOD0hV-TFN0m&amp;start=3"
                     title="YouTube video player"
                     className="absolute top-0 left-0 w-full h-full rounded-lg"
                     allowFullScreen
