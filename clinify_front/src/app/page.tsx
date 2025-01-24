@@ -54,7 +54,7 @@ const Home: React.FC = () => {
   return (
     <>
       <head>
-        <title>Sorriso Care | Your Destination for Dental Tourism</title>
+        <title>Sorriso Care | Smile Worth Flying For</title>
         <meta
           name="description"
           content="Discover affordable dental treatments in Montenegro with Sorriso Care. From veneers to implants, we provide world-class care tailored to your needs."
@@ -66,13 +66,17 @@ const Home: React.FC = () => {
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://sorriso.care/" />
         <link rel="icon" href="/images/icons/icon.svg" type="image/x-icon" />
-        <link rel="shortcut icon" href="/images/icons/icon.svg" type="image/x-icon" />
+        <link
+          rel="shortcut icon"
+          href="/images/icons/icon.svg"
+          type="image/x-icon"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
           property="og:title"
-          content="Sorriso Care | Your Destination for Dental Tourism"
+          content="Sorriso Care | Smile Worth Flying For"
         />
         <meta
           property="og:description"
@@ -87,7 +91,7 @@ const Home: React.FC = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Sorriso Care | Your Destination for Dental Tourism"
+          content="Sorriso Care | Smile Worth Flying For"
         />
         <meta
           name="twitter:description"
@@ -155,7 +159,9 @@ const Home: React.FC = () => {
         {isVisible && <LanguageSwitcher />}
 
         {/* Popup */}
-        {isPopupVisible && <PopUp show={isPopupVisible} handleClose={handlePopupClose} />}
+        {isPopupVisible && (
+          <PopUp show={isPopupVisible} handleClose={handlePopupClose} />
+        )}
       </main>
     </>
   );
