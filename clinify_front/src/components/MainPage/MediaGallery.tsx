@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
@@ -7,7 +6,7 @@ interface MediaItem {
   type: "image" | "video" | "instagram";
   src: string;
   alt?: string;
-  thumbnail?: string; 
+  thumbnail?: string;
 }
 const MediaGallery: React.FC = () => {
   const { t } = useTranslation("homepage");
@@ -19,7 +18,7 @@ const MediaGallery: React.FC = () => {
     },
     {
       type: "video",
-      src: "https://www.youtube.com/embed/OEyE7MUoXIc?si=YhakUvaXEDRfXTz5",
+      src: "https://www.youtube.com/embed/Qgi6h-8Vpvk?si=t5q4vFjG5ze7vhQp",
       thumbnail: "/images/services/dr_i_pacijent.png",
     },
     {
@@ -29,7 +28,7 @@ const MediaGallery: React.FC = () => {
     },
     {
       type: "instagram",
-      src: "https://www.instagram.com/reel/C_SafR-PwjH/",
+      src: "https://www.youtube.com/embed/iH1wDwRIUb8?si=p0CZWwgKCPqbzTVY&amp;start=1",
       thumbnail: "/images/about_us_slide/holand.webp",
     },
   ];
@@ -120,9 +119,9 @@ const MediaGallery: React.FC = () => {
           </svg>
 
           <p className="text-white text-base sm:text-lg font-serif font-semibold px-4 text-center">
-          {t("transformationsPrompt", {
-                    defaultValue: "See Our Transformations",
-                  })}
+            {t("transformationsPrompt", {
+              defaultValue: "See Our Transformations",
+            })}
           </p>
         </div>
       </div>

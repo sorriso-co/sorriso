@@ -20,7 +20,7 @@ const YouTubeEmbed: React.FC = () => {
       </p>
       <div className="video-container">
         <iframe
-          src="https://www.youtube.com/embed/Qgi6h-8Vpvk?si=n6FUtgUBLy30Ey_g&amp;start=1"
+          src="https://www.youtube.com/embed/pHUxGQKx0Tk?si=PlVTnOD0hV-TFN0m&amp;start=3"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
           allowFullScreen
