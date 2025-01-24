@@ -1,106 +1,179 @@
 {
   "frontHero": {
-    "title": "Il Tuo Prossimo Viaggio Dentale",
-    "subtitle": "Consulenze Gratuite, Trattamenti di Classe Mondiale, Risultati Straordinari",
-    "visitButton": "Le nostre trasformazioni",  
-    "scheduleButton": "Come funziona?",
-    "patientSatisfaction": "Tasso di soddisfazione dei pazienti: 4,9/5, basato su migliaia di trattamenti di successo."
+    "title": "Trasforma il Tuo Sorriso con Sorriso",
+    "subtitle": "Consulenze e Soggiorno Gratuiti,\nTrattamenti Dentali Avanzati,\nRisultati Eccezionali",
+    "visitButton": "Guarda le Nostre Trasformazioni",
+    "scheduleButton": "Scopri Come Funziona",
+    "patientSatisfaction": "Tasso di soddisfazione dei pazienti: 4,9/5 basato su migliaia di procedure di successo, da faccette dentali a impianti."
   },
   "haveItAll": {
-    "title": "Con Sorriso Puoi Avere Tutto",
-    "description": "Scopri il perfetto equilibrio tra cure dentali di livello mondiale e una vacanza da sogno in Montenegro. Con Sorriso, puoi godere di trattamenti odontoiatrici eccellenti mentre ammiri la bellezza mozzafiato dei paesaggi del Montenegro, la sua ricca storia e la calorosa ospitalità. Risparmia fino all'80% sui trattamenti dentali.",
-    "buttonText": "Prenota un Appuntamento"
+    "title": "Perché Scegliere Sorriso?",
+    "description": "Prenota oggi la tua consulenza gratuita. Vivi trattamenti dentali di livello mondiale, tra cui impianti All-on-4, faccette, riabilitazione completa della bocca e molto altro, mentre ti godi la bellezza del Montenegro. Ti aiutiamo a superare sfide come carie dentali, malattie gengivali o problemi genetici, per raggiungere un sorriso di cui essere orgoglioso.",
+    "buttonText": "Prenota il Tuo Appuntamento"
   },
   "introduction": {
-  "title": "La Tua Porta d’Accesso a Cure Dentistiche di Classe Mondiale",
-  "subtitle": "Trasforma il Tuo Sorriso con Sorriso",
-  "description": "Scopri la perfetta combinazione di cure dentistiche eccezionali e un'esperienza di viaggio indimenticabile. Da Sorriso, ci specializziamo nella creazione di sorrisi radiosi e sani attraverso trattamenti personalizzati come faccette, impianti dentali e riabilitazioni orali complete, il tutto mentre ti godi la bellezza scenica e la ricca cultura del Montenegro.",
-  "joinUsTitle": "Inizia il Tuo Percorso Verso un Sorriso Perfetto",
-  "joinUsDescription": "Condividi i tuoi dettagli di contatto e il nostro team dedicato ti contatterà per guidarti nel tuo percorso dentale personalizzato. Vivi cure di altissimo livello su misura per le tue esigenze.",
-  "emailLabel": "Indirizzo Email",
-  "phoneLabel": "Numero di Telefono",
-  "formSubmitSuccess": "Grazie per il tuo interesse! Ti contatteremo presto per discutere le tue esigenze e opzioni.",
-  "formSubmitError": "Si è verificato un errore durante l'invio delle tue informazioni di contatto. Riprova per favore.",
-  "viewPricingButton": "Scopri i Nostri Piani Tariffari",
-  "contactForm": {
-    "buttonText": "Invia",
-    "placeholderEmail": "Inserisci il tuo indirizzo email",
-    "placeholderPhone": "Inserisci il tuo numero di telefono"
-  }
-},
+    "title": "La Tua Porta d’Ingresso a Cure Dentali di Livello Mondiale",
+    "subtitle": "Trasforma il Tuo Sorriso con Sorriso",
+    "description": "Scopri la combinazione perfetta di cure dentali eccezionali e un’esperienza di viaggio indimenticabile. Con Sorriso, ci specializziamo nel creare sorrisi radiosi e sani attraverso trattamenti personalizzati come faccette, impianti dentali e restauri completi della bocca, il tutto mentre ti godi la bellezza scenica e la ricca cultura del Montenegro.",
+    "joinUsTitle": "Inizia il Tuo Viaggio Verso un Sorriso Perfetto",
+    "joinUsDescription": "Condividi i tuoi dati di contatto, e il nostro team dedicato ti contatterà per guidarti nel tuo viaggio dentale personalizzato. Vivi cure di livello superiore su misura per le tue esigenze.",
+    "emailLabel": "Indirizzo Email",
+    "phoneLabel": "Numero di Telefono",
+    "formSubmitSuccess": "Grazie per il tuo interesse! Ti contatteremo presto per discutere le tue esigenze e opzioni.",
+    "formSubmitError": "Si è verificato un errore durante l’invio delle tue informazioni di contatto. Per favore riprova.",
+    "viewPricingButton": "Esplora i Nostri Piani Tariffari",
+    "contactForm": {
+      "buttonText": "Invia",
+      "placeholderEmail": "Inserisci il tuo email",
+      "placeholderPhone": "Inserisci il tuo numero di telefono"
+    }
+  },
   "howItWorks": {
-    "title": "Semplici Passi per il Tuo Sorriso Perfetto",
+    "title": "Il Tuo Viaggio Verso un Sorriso Perfetto",
     "steps": {
       "step1": {
         "title": "Consulenza Online Gratuita",
-        "description": "Parla con i nostri esperti dentali per capire se i nostri servizi sono adatti a te."
+        "description": "Collegati con i nostri specialisti dentali per discutere le tue esigenze ed esplorare opzioni di trattamento come impianti All-on-4, faccette o smile makeover."
       },
       "step2": {
         "title": "Piano di Trattamento Personalizzato",
-        "description": "Ricevi un piano di trattamento dettagliato e su misura per le tue esigenze."
+        "description": "Ricevi un piano di trattamento completo e su misura per i tuoi obiettivi dentali ed estetici."
       },
       "step3": {
-        "title": "Fai Tutte le Domande che Vuoi",
-        "description": "Chiedi qualsiasi cosa sul processo di trattamento."
+        "title": "Chiedi agli Esperti",
+        "description": "Ottieni risposte a tutte le tue domande su trattamenti, costi e recupero."
       },
       "step4": {
-        "title": "Viaggia per il Trattamento",
-        "description": "Viaggia in Montenegro per il tuo trattamento dentale di altissimo livello."
+        "title": "Viaggio in Montenegro",
+        "description": "Arriva in Montenegro per vivere cure dentali di alta qualità e all’avanguardia."
       },
       "step5": {
-        "title": "Ricevi il Trattamento",
-        "description": "I nostri dentisti esperti ti offriranno le migliori cure con le tecnologie più avanzate."
+        "title": "Sottoponiti al Trattamento",
+        "description": "I nostri esperti dentisti utilizzano le tecnologie e le tecniche più recenti per restaurare il tuo sorriso."
       },
       "step6": {
-        "title": "Goditi il Tuo Nuovo Sorriso",
-        "description": "Lascia la clinica con un sorriso splendente e un'esperienza indimenticabile."
+        "title": "Goditi il Tuo Sorriso Perfetto",
+        "description": "Torna a casa con un sorriso radioso e la fiducia che hai sempre desiderato, arricchita da un’esperienza di viaggio indimenticabile."
       }
     },
-    "buttonText": "Prenota una Consulenza Gratuita"
+    "buttonText": "Inizia la Tua Consulenza Gratuita"
   },
   "serviceGrid": {
-    "title": "I Nostri Servizi Dentali",
-    "description": "Esplora i nostri servizi dentali completi progettati per soddisfare tutte le tue esigenze.",
-    "buttonText": "Guarda il Nostro Video",
-   "services": [
+    "title": "Servizi Dentali Completi",
+    "description": "Esplora i nostri servizi dentali di livello mondiale, tra cui impianti All-on-4, faccette, riabilitazione completa della bocca e altro ancora. Le nostre cliniche partner in Montenegro sono riconosciute a livello internazionale per affrontare con precisione e cura problemi dentali come carie, denti mancanti e problemi genetici.",
+    "buttonText": "Guarda la Tua Storia",
+    "services": [
       {
-        "title": "All-on-4",
-        "altText": "Servizi di implantologia All-on-4 e All-on-6"
+        "title": "Impianti All-on-4",
+        "altText": "Servizi Avanzati di Impianti All-on-4 e All-on-6"
       },
       {
         "title": "Sorriso di Hollywood",
-        "altText": "Servizi di trasformazione del sorriso di Hollywood"
+        "altText": "Trasformazioni Complete per un Sorriso di Hollywood"
       },
       {
-        "title": "Riabilitazione completa della bocca",
-        "altText": "Servizi di riabilitazione completa della bocca"
+        "title": "Riabilitazione Completa della Bocca",
+        "altText": "Servizi di Restauro e Riabilitazione Completa della Bocca"
       },
       {
-        "title": "Implantologia Generale",
-        "altText": "Servizi di implantologia generale"
+        "title": "Soluzioni per Impianti Dentali",
+        "altText": "Implantologia Esperta per Denti Mancanti"
       }
-    ]   
+    ]
   },
-  "title": "Esplora i voli per il Montenegro",
-    "description": "La maggior parte dei nostri pazienti proviene da questi paesi. Seleziona il tuo paese per vedere le rotte dei voli.",
-    "label": "Seleziona il tuo paese",
-    "button": "Esplora i voli per il Montenegro",
-    "mapAlt": "Mappa che mostra i voli da {{country}}",
+  "flightMap": {
+    "title": "Organizza il Tuo Viaggio in Montenegro",
+    "description": "La maggior parte dei nostri pazienti viaggia da questi paesi. Seleziona il tuo paese per scoprire opzioni di volo dirette e convenienti per il tuo viaggio dentale.",
+    "label": "Scegli il Tuo Paese",
+    "button": "Trova Voli per il Montenegro",
+    "mapAlt": "Mappa dei voli per viaggi da {{country}} al Montenegro",
     "countries": {
       "Germany": "Germania",
-      "Great Britain": "Gran Bretagna",
+      "Great Britain": "Regno Unito",
       "Italy": "Italia",
       "Austria": "Austria"
+    }
+  },
+  "contactMain": {
+    "heading": "Trasforma il Tuo Sorriso con Cure Esperte",
+    "description": "Vivi cure dentali personalizzate con <span class='font-semibold text-teal-700'>Dr. Filip</span> nelle nostre rinomate cliniche in Montenegro. Goditi una <strong class='text-teal-700'>consulenza individuale gratuita</strong> e ricevi un <strong class='text-teal-700'>preventivo dettagliato entro 24 ore</strong>. Con il nostro processo semplice, il tuo viaggio verso un sorriso radioso non è mai stato così facile.",
+    "buttonText": "Prenota la Tua Consulenza Gratuita",
+    "imageAlt": "Dr. Filip - Il Tuo Specialista Dentale di Fiducia",
+    "modal": {
+      "iframeTitle": "Prenota una Consulenza Dentale",
+      "closeButtonAriaLabel": "Chiudi il Modale di Prenotazione"
+    }
+  },
+  "chartComponent": {
+  "title": "Confronta i Costi delle Procedure Dentali",
+  "countryLabel": "Seleziona il Tuo Paese",
+  "procedureLabel": "Seleziona una Procedura",
+  "namedProceduresButton": "Procedure Standard",
+  "customProceduresButton": "Procedure Personalizzate",
+  "numImplantsLabel": "Numero di Impianti",
+  "numImplantsPlaceholder": "Inserisci il numero di impianti",
+  "numCrownsLabel": "Numero di Corone",
+  "numCrownsPlaceholder": "Inserisci il numero di corone",
+  "savingsTitle": "Risparmi: ${{savings}} per arcata",
+  "savingsDescription": "Scopri cosa puoi risparmiare con l'importo restante.",
+  "icons": [
+    {
+      "name": "Auto",
+      "description": "Compra un'auto",
+      "value": 15000
     },
-    "contactMain": {
-  "heading": "Trasforma il tuo sorriso con cure esperte",
-  "description": "Vivi un'esperienza di cura dentale personalizzata con <span class='font-semibold text-teal-700'>Dr. Filip</span> presso le nostre rinomate cliniche in Montenegro. Approfitta di una <strong class='text-teal-700'>consulenza gratuita individuale</strong> e ricevi un <strong class='text-teal-700'>preventivo dettagliato entro 24 ore</strong>. Con il nostro processo senza intoppi, il tuo viaggio verso un sorriso radioso non è mai stato così facile.",
-  "buttonText": "Prenota la tua consulenza gratuita",
-  "imageAlt": "Dr. Filip - Il tuo specialista dentale di fiducia",
-  "modal": {
-    "iframeTitle": "Prenota una consulenza dentale",
-    "closeButtonAriaLabel": "Chiudi il modulo di prenotazione"
+    {
+      "name": "Viaggio in Famiglia",
+      "description": "Viaggio di lusso per 10 giorni",
+      "value": 8000
+    },
+    {
+      "name": "Ristrutturazione Casa",
+      "description": "Ristrutturazioni domestiche",
+      "value": 10000
+    },
+    {
+      "name": "Elettronica",
+      "description": "Gadget di fascia alta",
+      "value": 3000
+    },
+    {
+      "name": "Fondo Risparmi",
+      "description": "Aggiungi ai tuoi risparmi",
+      "value": 5000
+    },
+    {
+      "name": "Orologio di Lusso",
+      "description": "Compra un orologio premium",
+      "value": 3000
+    },
+    {
+      "name": "Attrezzatura per Fitness",
+      "description": "Costruisci una palestra domestica",
+      "value": 4000
+    },
+    {
+      "name": "Fondo per l'Istruzione",
+      "description": "Investi in corsi o istruzione",
+      "value": 6000
+    }
+  ],
+  "barChart": {
+    "labels": ["Il Tuo Paese", "Montenegro"],
+    "datasets": [
+      {
+        "label": "Confronto Prezzi",
+        "backgroundColor": ["#F87171", "#34D399"]
+      }
+    ]
+  },
+  "options": {
+    "legendDisplay": false,
+    "tooltipEnabled": true,
+    "yScaleBeginAtZero": true,
+    "yScaleTickCallback": "return `$${Number(tickValue).toLocaleString()}`"
   }
-}
-
+},
+"getQuote": "Richiedi un Preventivo",
+"transformationsPrompt": "Guarda le nostre trasformazioni"
 }

@@ -36,7 +36,7 @@
     "privacyPolicyLink": "Privacy Policy",
     "followUs": "Follow Us",
     "language": "Change Language",
-    "copyright": "© 2023 Sorriso Dental. All rights reserved."
+    "copyright": "© 2025 Sorriso Dental. All rights reserved."
   },
   "privacyPolicy": {
     "title": "Privacy Policy",
@@ -285,5 +285,6 @@
       "question": "Why fly to Montenegro for dental implants?",
       "answer": "Flying to Montenegro for dental implants offers a perfect combination of affordable treatments and stunning scenery. Whether you need teeth implants, full mouth dental implants, or smile makeovers, Montenegro ensures quality care at a fraction of the cost."
     }
-  }
+  },
+  "getQuote" : "Get A Quote"
 }

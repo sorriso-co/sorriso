@@ -103,5 +103,77 @@
       "iframeTitle": "Book a Dental Consultation",
       "closeButtonAriaLabel": "Close Booking Modal"
     }
-  }
+  },
+    "chartComponent": {
+      "title": "Compare Dental Procedure Costs",
+      "countryLabel": "Select Your Country",
+      "procedureLabel": "Select a Procedure",
+      "namedProceduresButton": "Named Procedures",
+      "customProceduresButton": "Custom Procedures",
+      "numImplantsLabel": "Number of Implants",
+      "numImplantsPlaceholder": "Enter number of implants",
+      "numCrownsLabel": "Number of Crowns",
+      "numCrownsPlaceholder": "Enter number of crowns",
+      "savingsTitle": "You Save: ${{savings}} per jaw",
+      "savingsDescription": "Explore what you can save with the amount leftover.",
+      "icons": [
+        {
+          "name": "Car",
+          "description": "Buy a car",
+          "value": 15000
+        },
+        {
+          "name": "Family Trip",
+          "description": "Luxury trip for 10 days",
+          "value": 8000
+        },
+        {
+          "name": "Home Upgrade",
+          "description": "Home renovations",
+          "value": 10000
+        },
+        {
+          "name": "Electronics",
+          "description": "High-end gadgets",
+          "value": 3000
+        },
+        {
+          "name": "Savings Fund",
+          "description": "Add to your savings",
+          "value": 5000
+        },
+        {
+          "name": "Luxury Watch",
+          "description": "Buy a premium watch",
+          "value": 3000
+        },
+        {
+          "name": "Fitness Equipment",
+          "description": "Build a home gym",
+          "value": 4000
+        },
+        {
+          "name": "Education Fund",
+          "description": "Invest in courses or education",
+          "value": 6000
+        }
+      ],
+      "barChart": {
+        "labels": ["Your Country", "Montenegro"],
+        "datasets": [
+          {
+            "label": "Price Comparison",
+            "backgroundColor": ["#F87171", "#34D399"]
+          }
+        ]
+      },
+      "options": {
+        "legendDisplay": false,
+        "tooltipEnabled": true,
+        "yScaleBeginAtZero": true,
+        "yScaleTickCallback": "return `$${Number(tickValue).toLocaleString()}`"
+      }
+    },
+    "getQuote" : "Get A Quote",
+    "transformationsPrompt": "See our transformations"
 }

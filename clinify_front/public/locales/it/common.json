@@ -36,7 +36,7 @@
     "privacyPolicyLink": "Informativa sulla Privacy",
     "followUs": "Seguici",
     "language": "Cambia Lingua",
-    "copyright": "© 2023 Sorriso Dental. Tutti i diritti riservati."
+    "copyright": "© 2025 Sorriso Dental. Tutti i diritti riservati."
   },
   "privacyPolicy": {
     "title": "Informativa sulla Privacy",
@@ -284,5 +284,6 @@
       "question": "Perché volare in Montenegro per impianti dentali?",
       "answer": "Volare in Montenegro per impianti dentali offre una combinazione perfetta di trattamenti a prezzi accessibili e scenari mozzafiato. Che tu abbia bisogno di impianti dentali, impianti dentali per tutta la bocca o makeover del sorriso, il Montenegro garantisce cure di qualità a una frazione del costo."
     }
-  }
+  },
+  "getQuote": "Richiedi un Preventivo"
 }

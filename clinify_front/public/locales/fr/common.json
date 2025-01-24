@@ -36,7 +36,7 @@
     "privacyPolicyLink": "Politique de confidentialité",
     "followUs": "Suivez-nous",
     "language": "Changer de langue",
-    "copyright": "© 2023 Sorriso Dental. Tous droits réservés."
+    "copyright": "© 2025 Sorriso Dental. Tous droits réservés."
   },
   "privacyPolicy": {
     "title": "Politique de confidentialité",
@@ -284,5 +284,6 @@
       "question": "Pourquoi se rendre au Monténégro pour des implants dentaires ?",
       "answer": "Se rendre au Monténégro pour des implants dentaires offre une combinaison parfaite de traitements abordables et de paysages époustouflants. Que vous ayez besoin d'implants dentaires, d'implants complets pour toute la bouche ou de transformations de sourire, le Monténégro garantit des soins de qualité à une fraction du coût."
     }
-  }
+  },
+  "getQuote": "Obtenir un Devis"
 }

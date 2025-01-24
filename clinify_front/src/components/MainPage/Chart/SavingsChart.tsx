@@ -24,6 +24,7 @@ import {
   faGraduationCap,
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "react-i18next";
 
 ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
@@ -80,6 +81,8 @@ const ChartComponent = () => {
   const [numCrowns, setNumCrowns] = useState(0);
   const [isCustom, setIsCustom] = useState(false);
 
+  const { t } = useTranslation("homepage");
+
   const countries = Object.keys(customProcedures.crowns.pricePerUnit);
 
   const getNamedProcedurePrice = (country: string, procedure: string) => {
@@ -93,11 +96,7 @@ const ChartComponent = () => {
     );
   };
 
-  const getCustomProcedurePrice = (
-    country: string,
-    implants: number,
-    crowns: number
-  ) => {
+  const getCustomProcedurePrice = (country: string, implants: number, crowns: number) => {
     const implantPrice =
       implants *
       customProcedures.implants.pricePerUnit[
@@ -127,10 +126,10 @@ const ChartComponent = () => {
   const savings = countryPrice - montenegroPrice;
 
   const data = {
-    labels: ["Your Country", "Montenegro"],
+    labels: [t("chartComponent.barChart.labels.0"), t("chartComponent.barChart.labels.1")],
     datasets: [
       {
-        label: "Price Comparison",
+        label: t("chartComponent.barChart.datasets.0.label"),
         data: [countryPrice, montenegroPrice],
         backgroundColor: ["#F87171", "#34D399"],
         borderWidth: 1,
@@ -138,7 +137,23 @@ const ChartComponent = () => {
     ],
   };
 
-  const options = {
+  interface ChartOptions {
+    responsive: boolean;
+    plugins: {
+      legend: { display: boolean };
+      tooltip: { enabled: boolean };
+    };
+    scales: {
+      y: {
+        beginAtZero: boolean;
+        ticks: {
+          callback: (tickValue: string | number) => string;
+        };
+      };
+    };
+  }
+
+  const options: ChartOptions = {
     responsive: true,
     plugins: {
       legend: { display: false },
@@ -148,7 +163,7 @@ const ChartComponent = () => {
       y: {
         beginAtZero: true,
         ticks: {
-          callback: function (tickValue: string | number) {
+          callback: function (tickValue) {
             return `$${Number(tickValue).toLocaleString()}`;
           },
         },
@@ -159,11 +174,13 @@ const ChartComponent = () => {
   return (
     <div className="flex flex-col items-center justify-center p-6">
       <h1 className="text-4xl md:text-5xl font-serif text-teal-900 mb-6 text-center">
-        Compare Dental Procedure Costs
+        {t("chartComponent.title")}
       </h1>
       <div className="flex flex-col md:flex-row gap-6 items-center w-full max-w-4xl">
         <div className="flex flex-col w-full">
-          <label className="text-teal-700 mb-2">Select Your Country</label>
+          <label className="text-teal-700 mb-2">
+            {t("chartComponent.countryLabel")}
+          </label>
           <select
             aria-label="Select your country"
             className="w-full border rounded-lg p-2"
@@ -179,7 +196,9 @@ const ChartComponent = () => {
         </div>
 
         <div className="flex flex-col w-full">
-          <label className="text-teal-700 mb-2">Select a Procedure</label>
+          <label className="text-teal-700 mb-2">
+            {t("chartComponent.procedureLabel")}
+          </label>
           <div className="flex gap-2">
             <button
               className={`w-1/2 p-2 border rounded-lg ${
@@ -187,7 +206,7 @@ const ChartComponent = () => {
               }`}
               onClick={() => setIsCustom(false)}
             >
-              Named Procedures
+              {t("chartComponent.namedProceduresButton")}
             </button>
             <button
               className={`w-1/2 p-2 border rounded-lg ${
@@ -195,7 +214,7 @@ const ChartComponent = () => {
               }`}
               onClick={() => setIsCustom(true)}
             >
-              Custom Procedures
+              {t("chartComponent.customProceduresButton")}
             </button>
           </div>
 
@@ -206,7 +225,7 @@ const ChartComponent = () => {
               value={selectedProcedure}
               onChange={(e) => setSelectedProcedure(e.target.value)}
             >
-              {namedProcedures.map((procedure: { procedure: string }) => (
+              {namedProcedures.map((procedure) => (
                 <option key={procedure.procedure} value={procedure.procedure}>
                   {procedure.procedure}
                 </option>
@@ -216,26 +235,26 @@ const ChartComponent = () => {
             <div className="mt-4 flex gap-4">
               <div>
                 <label className="block text-teal-700 mb-1">
-                  Number of Implants
+                  {t("chartComponent.numImplantsLabel")}
                 </label>
                 <input
                   type="number"
                   className="w-full border rounded-lg p-2"
                   value={numImplants}
                   onChange={(e) => setNumImplants(Number(e.target.value))}
-                  placeholder="Enter number of implants"
+                  placeholder={t("chartComponent.numImplantsPlaceholder")}
                 />
               </div>
               <div>
                 <label className="block text-teal-700 mb-1">
-                  Number of Crowns
+                  {t("chartComponent.numCrownsLabel")}
                 </label>
                 <input
                   type="number"
                   className="w-full border rounded-lg p-2"
                   value={numCrowns}
                   onChange={(e) => setNumCrowns(Number(e.target.value))}
-                  placeholder="Enter number of crowns"
+                  placeholder={t("chartComponent.numCrownsPlaceholder")}
                 />
               </div>
             </div>
@@ -259,7 +278,7 @@ const ChartComponent = () => {
       {savings > 0 && (
         <div className="mt-8">
           <h2 className="text-2xl font-serif text-teal-800 mb-4 text-center">
-            You Save: ${savings.toLocaleString()} per jaw
+            {t("chartComponent.savingsTitle", { savings: savings.toLocaleString() })}
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {icons

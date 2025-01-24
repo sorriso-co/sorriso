@@ -43,7 +43,7 @@ export default function BookACall() {
               href="/quote"
               className="bg-teal-800 hover:bg-teal-600 text-white py-3 sm:py-4 px-6 sm:px-8 rounded-full text-base sm:text-lg md:text-xl font-bold shadow-lg transition duration-300 w-full sm:w-auto text-center"
             >
-              {t("contactMain.getQuoteButtonText", { defaultValue: "Get a Quote" })}
+              {t("getQuote", { defaultValue: "Get a Quote" })}
             </a>
           </div>
         </div>

@@ -120,7 +120,7 @@ const Header: React.FC = () => {
               href="/quote"
               className="px-6 py-2 bg-teal-800 text-white font-semibold rounded-md shadow-md hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-teal-600 transition-transform transform hover:scale-105"
             >
-              Get a Quote
+              {t("getQuote")}
             </Link>
           </div>
 
