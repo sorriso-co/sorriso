@@ -28,7 +28,7 @@ const MediaGallery: React.FC = () => {
     },
     {
       type: "instagram",
-      src: "https://www.youtube.com/embed/iH1wDwRIUb8?si=p0CZWwgKCPqbzTVY&amp;start=1",
+      src: "https://www.youtube.com/embed/Ln9jn_djVww?si=sSX7sudrEFwtjOBv&amp;start=1",
       thumbnail: "/images/about_us_slide/holand.webp",
     },
   ];
