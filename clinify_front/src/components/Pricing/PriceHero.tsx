@@ -10,8 +10,6 @@ const Hero = () => {
   return (
     <header className="relative rounded-t-[20px] bg-gradient-to-br from-teal-700 to-teal-900 py-16 sm:py-24 overflow-x-hidden text-white p-6 sm:p-8">
       <div className="container mx-auto flex flex-col md:flex-row-reverse items-center justify-between space-y-10 md:space-y-0">
-        {/* <div className="w-full md:w-1/2 flex justify-center md:justify-end"> */}
-        {/* <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl h-auto"> */}
         <div
           className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end"
           data-aos="fade-left"
@@ -30,7 +28,7 @@ const Hero = () => {
           {/* </div> */}
         </div>
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl font-serif font-extrabold mb-4 md:mb-6 leading-tight tracking-tight">
+          <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-7xl font-serif font-extrabold mb-4 md:mb-6 leading-tight tracking-tight">
             {t("hero.title")}
           </h1>
           <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-6 md:mb-8 font-serif">

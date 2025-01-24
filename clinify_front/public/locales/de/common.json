@@ -36,7 +36,7 @@
     "privacyPolicyLink": "Datenschutzrichtlinie",
     "followUs": "Folge uns",
     "language": "Sprache ändern",
-    "copyright": "© 2023 Sorriso Dental. Alle Rechte vorbehalten."
+    "copyright": "© 2025 Sorriso Dental. Alle Rechte vorbehalten."
   },
   "privacyPolicy": {
     "title": "Datenschutzrichtlinie",
@@ -284,5 +284,6 @@
       "question": "Warum nach Montenegro für Zahnimplantate fliegen?",
       "answer": "Ein Flug nach Montenegro für Zahnimplantate bietet die perfekte Kombination aus erschwinglichen Behandlungen und atemberaubender Landschaft. Ob Sie Zahnimplantate, komplette Zahnimplantate oder Smile-Makeovers benötigen – Montenegro garantiert qualitativ hochwertige Pflege zu einem Bruchteil der Kosten."
     }
-  }
+  },
+  "getQuote": "Angebot Einholen"
 }

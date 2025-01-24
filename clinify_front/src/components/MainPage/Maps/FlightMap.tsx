@@ -25,23 +25,17 @@ const FlightMap = () => {
     <div className="flex flex-col items-center justify-center w-full bg-gradient-to-b from-teal-50 to-teal-100 p-8">
       {/* Title */}
       <h1 className="text-3xl md:text-5xl font-bold text-teal-800 mb-6 text-center font-serif">
-        {t("title", { defaultValue: "Explore Flights to Montenegro" })}
+        {t("flightMap.title")}
       </h1>
 
       {/* Description */}
       <p className="text-teal-700 text-center mb-8 text-sm md:text-lg font-serif max-w-2xl">
-        {t(
-          "description",
-          {
-            defaultValue:
-              "Discover flight connections from major cities to Montenegro. Select your country to view the route map.",
-          }
-        )}
+        {t("flightMap.description")}
       </p>
 
       {/* Country Selector */}
       <label htmlFor="country-select" className="sr-only">
-        {t("label", { defaultValue: "Select your country" })}
+        {t("flightMap.label")}
       </label>
       <select
         id="country-select"
@@ -51,7 +45,7 @@ const FlightMap = () => {
       >
         {options.map((option) => (
           <option key={option.name} value={option.name}>
-            {t(`countries.${option.name}`, { defaultValue: option.name })}
+            {t(`flightMap.countries.${option.name}`)}
           </option>
         ))}
       </select>
@@ -61,10 +55,7 @@ const FlightMap = () => {
         <div className="relative w-full max-w-3xl">
           <Image
             src={selectedOption?.image || "/images/default.png"}
-            alt={t("mapAlt", {
-              country: selectedCountry,
-              defaultValue: `Map showing flight routes from ${selectedCountry}`,
-            })}
+            alt={t("flightMap.mapAlt", { country: selectedCountry })}
             width={800}
             height={600}
             className="rounded-lg shadow-lg object-cover"

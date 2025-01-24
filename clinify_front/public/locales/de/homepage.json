@@ -101,6 +101,78 @@
     "iframeTitle": "Buchen Sie eine Zahnberatung",
     "closeButtonAriaLabel": "Buchungsformular schließen"
   }
-}
+},
+"chartComponent": {
+  "title": "Vergleichen Sie die Kosten für Zahnbehandlungen",
+  "countryLabel": "Wählen Sie Ihr Land",
+  "procedureLabel": "Wählen Sie eine Prozedur",
+  "namedProceduresButton": "Standardprozeduren",
+  "customProceduresButton": "Individuelle Prozeduren",
+  "numImplantsLabel": "Anzahl der Implantate",
+  "numImplantsPlaceholder": "Geben Sie die Anzahl der Implantate ein",
+  "numCrownsLabel": "Anzahl der Kronen",
+  "numCrownsPlaceholder": "Geben Sie die Anzahl der Kronen ein",
+  "savingsTitle": "Ersparnis: ${{savings}} pro Kiefer",
+  "savingsDescription": "Entdecken Sie, was Sie mit dem verbleibenden Betrag sparen können.",
+  "icons": [
+    {
+      "name": "Auto",
+      "description": "Kaufen Sie ein Auto",
+      "value": 15000
+    },
+    {
+      "name": "Familienreise",
+      "description": "Luxusreise für 10 Tage",
+      "value": 8000
+    },
+    {
+      "name": "Hausrenovierung",
+      "description": "Hausrenovierungen",
+      "value": 10000
+    },
+    {
+      "name": "Elektronik",
+      "description": "Hochwertige Geräte",
+      "value": 3000
+    },
+    {
+      "name": "Sparfonds",
+      "description": "Fügen Sie Ihren Ersparnissen hinzu",
+      "value": 5000
+    },
+    {
+      "name": "Luxusuhr",
+      "description": "Kaufen Sie eine Premium-Uhr",
+      "value": 3000
+    },
+    {
+      "name": "Fitnessgeräte",
+      "description": "Erstellen Sie ein Fitnessstudio zu Hause",
+      "value": 4000
+    },
+    {
+      "name": "Bildungsfonds",
+      "description": "In Kurse oder Bildung investieren",
+      "value": 6000
+    }
+  ],
+  "barChart": {
+    "labels": ["Ihr Land", "Montenegro"],
+    "datasets": [
+      {
+        "label": "Preisvergleich",
+        "backgroundColor": ["#F87171", "#34D399"]
+      }
+    ]
+  },
+  "options": {
+    "legendDisplay": false,
+    "tooltipEnabled": true,
+    "yScaleBeginAtZero": true,
+    "yScaleTickCallback": "return `$${Number(tickValue).toLocaleString()}`"
+  }
+},
+"getQuote": "Angebot Einholen",
+"transformationsPrompt": "Sehen Sie unsere Transformationen"
 
 }

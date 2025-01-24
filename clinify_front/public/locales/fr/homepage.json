@@ -101,6 +101,78 @@
     "iframeTitle": "Réservez une consultation dentaire",
     "closeButtonAriaLabel": "Fermer le formulaire de réservation"
   }
-}
+},
+"chartComponent": {
+  "title": "Comparez les Coûts des Procédures Dentaires",
+  "countryLabel": "Sélectionnez votre Pays",
+  "procedureLabel": "Sélectionnez une Procédure",
+  "namedProceduresButton": "Procédures Standard",
+  "customProceduresButton": "Procédures Personnalisées",
+  "numImplantsLabel": "Nombre d'Implants",
+  "numImplantsPlaceholder": "Entrez le nombre d'implants",
+  "numCrownsLabel": "Nombre de Couronnes",
+  "numCrownsPlaceholder": "Entrez le nombre de couronnes",
+  "savingsTitle": "Vous Économisez : ${{savings}} par mâchoire",
+  "savingsDescription": "Découvrez ce que vous pouvez économiser avec le montant restant.",
+  "icons": [
+    {
+      "name": "Voiture",
+      "description": "Achetez une voiture",
+      "value": 15000
+    },
+    {
+      "name": "Voyage en Famille",
+      "description": "Voyage de luxe de 10 jours",
+      "value": 8000
+    },
+    {
+      "name": "Rénovation de Maison",
+      "description": "Rénovations domiciliaires",
+      "value": 10000
+    },
+    {
+      "name": "Électronique",
+      "description": "Appareils haut de gamme",
+      "value": 3000
+    },
+    {
+      "name": "Fonds d'Épargne",
+      "description": "Ajoutez à vos économies",
+      "value": 5000
+    },
+    {
+      "name": "Montre de Luxe",
+      "description": "Achetez une montre premium",
+      "value": 3000
+    },
+    {
+      "name": "Équipement de Fitness",
+      "description": "Aménagez une salle de sport à domicile",
+      "value": 4000
+    },
+    {
+      "name": "Fonds Éducatif",
+      "description": "Investissez dans des cours ou l'éducation",
+      "value": 6000
+    }
+  ],
+  "barChart": {
+    "labels": ["Votre Pays", "Monténégro"],
+    "datasets": [
+      {
+        "label": "Comparaison des Prix",
+        "backgroundColor": ["#F87171", "#34D399"]
+      }
+    ]
+  },
+  "options": {
+    "legendDisplay": false,
+    "tooltipEnabled": true,
+    "yScaleBeginAtZero": true,
+    "yScaleTickCallback": "return `$${Number(tickValue).toLocaleString()}`"
+  }
+},
+"getQuote": "Obtenir un Devis",
+"transformationsPrompt": "Découvrez nos transformations"
 
 }
