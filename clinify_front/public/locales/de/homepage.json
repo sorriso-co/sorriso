@@ -1,178 +1,180 @@
 {
   "frontHero": {
-    "title": "Deine Nächste Zahnreise",
-    "subtitle": "Kostenlose Beratungen, Weltklasse-Behandlungen, Beeindruckende Ergebnisse",
-    "visitButton": "Unsere Transformationen",
-    "scheduleButton": "Wie es funktioniert?",
-    "patientSatisfaction":" Patientenzufriedenheitsrate: 4,9/5, basierend auf Tausenden erfolgreicher Behandlungen."
+    "title": "Verwandle Dein Lächeln mit Sorriso",
+    "subtitle": "Kostenlose Beratung & Aufenthalt,\nFortschrittliche Zahnbehandlungen,\nAußergewöhnliche Ergebnisse",
+    "visitButton": "Sehen Sie unsere Transformationen",
+    "scheduleButton": "Erfahren Sie, wie es funktioniert",
+    "patientSatisfaction": "Patientenzufriedenheitsrate: 4,9/5 basierend auf Tausenden erfolgreicher Behandlungen, von Veneers bis Zahnimplantaten."
   },
   "haveItAll": {
-    "title": "Alles Haben mit Sorriso",
-    "description": "Erlebe die perfekte Kombination aus erstklassiger Zahnbehandlung und einem Traumurlaub in Montenegro. Mit Sorriso kannst du Weltklasse-Zahnbehandlungen genießen, während du die atemberaubende Schönheit Montenegros, seine reiche Geschichte und die herzliche Gastfreundschaft erlebst. Spare bis zu 80% bei Zahnbehandlungen.",
-    "buttonText": "Termin vereinbaren"
+    "title": "Warum Sorriso Wählen?",
+    "description": "Buchen Sie noch heute Ihre kostenlose Beratung. Erleben Sie erstklassige Zahnbehandlungen, einschließlich All-on-4 Implantaten, Veneers, vollständiger Mundrehabilitation und mehr – während Sie die Schönheit Montenegros genießen. Lassen Sie uns Ihnen helfen, Herausforderungen wie verfallene Zähne, Zahnfleischerkrankungen oder genetische Zahnprobleme zu überwinden und ein Lächeln zu erreichen, auf das Sie stolz sein können.",
+    "buttonText": "Vereinbaren Sie einen Termin"
   },
   "introduction": {
-  "title": "Ihr Tor zur Weltklasse-Zahnmedizin",
-  "subtitle": "Verwandeln Sie Ihr Lächeln mit Sorriso",
-  "description": "Entdecken Sie die perfekte Kombination aus außergewöhnlicher Zahnpflege und einem unvergesslichen Reiseerlebnis. Bei Sorriso sind wir darauf spezialisiert, strahlende, gesunde Lächeln durch personalisierte Behandlungen wie Veneers, Zahnimplantate und vollständige Mundrekonstruktionen zu schaffen – während Sie die malerische Schönheit und die reiche Kultur Montenegros genießen.",
-  "joinUsTitle": "Starten Sie Ihre Reise zu einem perfekten Lächeln",
-  "joinUsDescription": "Teilen Sie uns Ihre Kontaktdaten mit, und unser engagiertes Team wird Sie kontaktieren, um Sie auf Ihrer personalisierten Zahnreise zu begleiten. Erleben Sie erstklassige Betreuung, die auf Ihre Bedürfnisse zugeschnitten ist.",
-  "emailLabel": "E-Mail-Adresse",
-  "phoneLabel": "Telefonnummer",
-  "formSubmitSuccess": "Vielen Dank für Ihr Interesse! Wir werden Sie bald kontaktieren, um Ihre Bedürfnisse und Optionen zu besprechen.",
-  "formSubmitError": "Beim Senden Ihrer Kontaktdaten ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
-  "viewPricingButton": "Entdecken Sie unsere Preispläne",
-  "contactForm": {
-    "buttonText": "Senden",
-    "placeholderEmail": "Geben Sie Ihre E-Mail-Adresse ein",
-    "placeholderPhone": "Geben Sie Ihre Telefonnummer ein"
-  }
-},
-  "howItWorks": {
-    "title": "Einfachen Schritten zu Deinem Perfekten Lächeln",
-    "steps": {
-      "step1": {
-        "title": "Kostenlose Online-Beratung",
-        "description": "Sprich mit unseren Zahnspezialisten, um herauszufinden, ob unsere Leistungen für dich geeignet sind."
-      },
-      "step2": {
-        "title": "Individueller Behandlungsplan",
-        "description": "Erhalte einen detaillierten Behandlungsplan, der auf deine Bedürfnisse zugeschnitten ist."
-      },
-      "step3": {
-        "title": "Stell Alle Deine Fragen",
-        "description": "Stelle alle Fragen, die du zum Behandlungsablauf hast."
-      },
-      "step4": {
-        "title": "Reise für die Behandlung",
-        "description": "Reise nach Montenegro für deine erstklassige Zahnbehandlung."
-      },
-      "step5": {
-        "title": "Erhalte Deine Behandlung",
-        "description": "Unsere erfahrenen Zahnärzte bieten dir die beste Versorgung mit modernster Technik."
-      },
-      "step6": {
-        "title": "Genieße Dein Neues Lächeln",
-        "description": "Verlasse die Klinik mit einem wunderschönen Lächeln und einer unvergesslichen Erfahrung."
-      }
-    },
-    "buttonText": "Kostenlose Beratung buchen"
+    "title": "Ihr Tor zu Zahnmedizin auf Weltklasseniveau",
+    "subtitle": "Verwandeln Sie Ihr Lächeln mit Sorriso",
+    "description": "Entdecken Sie die perfekte Kombination aus außergewöhnlicher Zahnpflege und einem unvergesslichen Reiseerlebnis. Bei Sorriso haben wir uns darauf spezialisiert, strahlende, gesunde Lächeln durch personalisierte Behandlungen wie Veneers, Zahnimplantate und vollständige Mundrekonstruktionen zu schaffen – während Sie die malerische Schönheit und die reiche Kultur Montenegros genießen.",
+    "joinUsTitle": "Starten Sie Ihre Reise zu einem perfekten Lächeln",
+    "joinUsDescription": "Teilen Sie uns Ihre Kontaktdaten mit, und unser engagiertes Team wird Sie kontaktieren, um Sie auf Ihrer personalisierten Zahnreise zu begleiten. Erleben Sie erstklassige Betreuung, die auf Ihre Bedürfnisse zugeschnitten ist.",
+    "emailLabel": "E-Mail-Adresse",
+    "phoneLabel": "Telefonnummer",
+    "formSubmitSuccess": "Vielen Dank für Ihr Interesse! Wir werden Sie bald kontaktieren, um Ihre Bedürfnisse und Optionen zu besprechen.",
+    "formSubmitError": "Es ist ein Fehler beim Senden Ihrer Kontaktdaten aufgetreten. Bitte versuchen Sie es erneut.",
+    "viewPricingButton": "Entdecken Sie unsere Preispläne",
+    "contactForm": {
+      "buttonText": "Absenden",
+      "placeholderEmail": "Geben Sie Ihre E-Mail-Adresse ein",
+      "placeholderPhone": "Geben Sie Ihre Telefonnummer ein"
+    }
   },
+  
+    "howItWorks": {
+      "title": "Ihre Reise zu einem perfekten Lächeln",
+      "steps": {
+        "step1": {
+          "title": "Kostenlose Online-Beratung",
+          "description": "Verbinden Sie sich mit unseren Zahnspezialisten, um Ihre Bedürfnisse zu besprechen und Behandlungsoptionen wie All-on-4 Implantate, Veneers oder Lächeln-Umwandlungen zu erkunden."
+        },
+        "step2": {
+          "title": "Individueller Behandlungsplan",
+          "description": "Erhalten Sie ihren massgeschneiderten Plan fuer ihre persoenlichen, zahnmedizinischen Wuensche."
+        }, 
+        "step3": {
+          "title": "Fragen an die Experten",
+          "description": "Stellen Sie alle Ihre Fragen zu Behandlungen, Kosten und Erholungszeit."
+        },
+        "step4": {
+          "title": "Reisen Sie nach Montenegro",
+          "description": "Kommen Sie nach Montenegro, um erstklassige, hochmoderne Zahnmedizin zu erleben."
+        },
+        "step5": {
+          "title": "Behandlung erhalten",
+          "description": "Unsere erfahrenen Zahnärzte verwenden die neuesten Technologien und Techniken, um Ihr Lächeln zu restaurieren."
+        },
+        "step6": {
+          "title": "Genießen Sie Ihr neues Lächeln",
+          "description": "Verlassen Sie die Klinik mit einem strahlenden Lächeln und neuem Selbstvertrauen."
+        }
+      },
+      "buttonText": "Starten Sie Ihre kostenlose Beratung"
+    },  
   "serviceGrid": {
-    "title": "Unsere Zahnbehandlungen",
-    "description": "Erkunde unser umfassendes Angebot an Zahnbehandlungen, die auf deine Bedürfnisse abgestimmt sind.",
-    "buttonText": "Unser Video ansehen",
+    "title": "Umfassende Zahnbehandlungen",
+    "description": "Entdecken Sie unsere Weltklasse-Zahnbehandlungen, einschließlich All-on-4 Implantaten, Veneers, vollständiger Mundrehabilitation und mehr. Unsere Partnerkliniken in Montenegro sind international anerkannt für die präzise und einfühlsame Behandlung von Zahnproblemen wie Karies, fehlenden Zähnen und genetischen Zahnproblemen.",
+    "buttonText": "Sehen Sie Ihre Geschichte",
     "services": [
       {
-        "title": "All-on-4",
-        "altText": "All-on-4 und All-on-6 Implantat-Dienstleistungen"
+        "title": "All-on-4 Implantate",
+        "altText": "Fortschrittliche All-on-4 und All-on-6 Implantat-Dienstleistungen"
       },
       {
-        "title": "Hollywood-Lächeln",
-        "altText": "Hollywood-Lächeln-Transformation Dienstleistungen"
+        "title": "Hollywood Lächeln",
+        "altText": "Vollständige Hollywood-Lächeln Transformationen"
       },
       {
         "title": "Komplette Mundrehabilitation",
-        "altText": "Dienstleistungen für komplette Mundrehabilitation"
+        "altText": "Dienstleistungen für vollständige Mundrestauration und Rehabilitation"
       },
       {
-        "title": "Allgemeine Implantologie",
-        "altText": "Dienstleistungen für allgemeine Implantologie"
+        "title": "Zahnimplantatlösungen",
+        "altText": "Expertenimplantologie für fehlende Zähne"
       }
     ]
   },
-  "title": "Entdecken Sie Flüge nach Montenegro",
-  "description": "Die meisten unserer Patienten kommen aus diesen Ländern. Wählen Sie Ihr Land, um die Flugrouten anzuzeigen.",
-  "label": "Wählen Sie Ihr Land",
-  "button": "Entdecken Sie Flüge nach Montenegro",
-  "mapAlt": "Karte, die Flüge von {{country}} zeigt",
-  "countries": {
-    "Germany": "Deutschland",
-    "Great Britain": "Großbritannien",
-    "Italy": "Italien",
-    "Austria": "Österreich"
+  "flightMap": {
+    "title": "Planen Sie Ihre Reise nach Montenegro",
+    "description": "Die meisten unserer Patienten reisen aus diesen Ländern. Wählen Sie Ihr Land, um direkte und erschwingliche Flugoptionen für Ihre Zahnreise zu entdecken.",
+    "label": "Wählen Sie Ihr Land",
+    "button": "Finden Sie Flüge nach Montenegro",
+    "mapAlt": "Flughafenkarte für Reisen von {{country}} nach Montenegro",
+    "countries": {
+      "Germany": "Deutschland",
+      "Great Britain": "Großbritannien",
+      "Italy": "Italien",
+      "Austria": "Österreich"
+    }
   },
   "contactMain": {
-  "heading": "Verwandeln Sie Ihr Lächeln mit Expertenpflege",
-  "description": "Erleben Sie eine individuelle Zahnbehandlung mit <span class='font-semibold text-teal-700'>Dr. Filip</span> in unseren renommierten Kliniken in Montenegro. Genießen Sie eine <strong class='text-teal-700'>kostenlose Einzelberatung</strong> und erhalten Sie innerhalb von <strong class='text-teal-700'>24 Stunden ein detailliertes Angebot</strong>. Mit unserem nahtlosen Prozess war der Weg zu einem strahlenden Lächeln noch nie einfacher.",
-  "buttonText": "Buchen Sie Ihre kostenlose Beratung",
-  "imageAlt": "Dr. Filip - Ihr vertrauenswürdiger Zahnarztspezialist",
-  "modal": {
-    "iframeTitle": "Buchen Sie eine Zahnberatung",
-    "closeButtonAriaLabel": "Buchungsformular schließen"
-  }
-},
-"chartComponent": {
-  "title": "Vergleichen Sie die Kosten für Zahnbehandlungen",
-  "countryLabel": "Wählen Sie Ihr Land",
-  "procedureLabel": "Wählen Sie eine Prozedur",
-  "namedProceduresButton": "Standardprozeduren",
-  "customProceduresButton": "Individuelle Prozeduren",
-  "numImplantsLabel": "Anzahl der Implantate",
-  "numImplantsPlaceholder": "Geben Sie die Anzahl der Implantate ein",
-  "numCrownsLabel": "Anzahl der Kronen",
-  "numCrownsPlaceholder": "Geben Sie die Anzahl der Kronen ein",
-  "savingsTitle": "Ersparnis: ${{savings}} pro Kiefer",
-  "savingsDescription": "Entdecken Sie, was Sie mit dem verbleibenden Betrag sparen können.",
-  "icons": [
-    {
-      "name": "Auto",
-      "description": "Kaufen Sie ein Auto",
-      "value": 15000
-    },
-    {
-      "name": "Familienreise",
-      "description": "Luxusreise für 10 Tage",
-      "value": 8000
-    },
-    {
-      "name": "Hausrenovierung",
-      "description": "Hausrenovierungen",
-      "value": 10000
-    },
-    {
-      "name": "Elektronik",
-      "description": "Hochwertige Geräte",
-      "value": 3000
-    },
-    {
-      "name": "Sparfonds",
-      "description": "Fügen Sie Ihren Ersparnissen hinzu",
-      "value": 5000
-    },
-    {
-      "name": "Luxusuhr",
-      "description": "Kaufen Sie eine Premium-Uhr",
-      "value": 3000
-    },
-    {
-      "name": "Fitnessgeräte",
-      "description": "Erstellen Sie ein Fitnessstudio zu Hause",
-      "value": 4000
-    },
-    {
-      "name": "Bildungsfonds",
-      "description": "In Kurse oder Bildung investieren",
-      "value": 6000
+    "heading": "Verwandeln Sie Ihr Lächeln mit Expertenpflege",
+    "description": "Erleben Sie individuelle Zahnbehandlung mit <span class='font-semibold text-teal-700'>Dr. Filip</span> in unseren renommierten Kliniken in Montenegro. Genießen Sie eine <strong class='text-teal-700'>kostenlose Einzelberatung</strong> und erhalten Sie innerhalb von <strong class='text-teal-700'>24 Stunden ein detailliertes Angebot</strong>. Mit unserem nahtlosen Prozess war Ihr Weg zu einem strahlenden Lächeln noch nie einfacher.",
+    "buttonText": "Buchen Sie Ihre kostenlose Beratung",
+    "imageAlt": "Dr. Filip - Ihr vertrauenswürdiger Zahnspezialist",
+    "modal": {
+      "iframeTitle": "Buchen Sie eine Zahnberatung",
+      "closeButtonAriaLabel": "Buchungsformular schließen"
     }
-  ],
-  "barChart": {
-    "labels": ["Ihr Land", "Montenegro"],
-    "datasets": [
-      {
-        "label": "Preisvergleich",
-        "backgroundColor": ["#F87171", "#34D399"]
-      }
-    ]
   },
-  "options": {
-    "legendDisplay": false,
-    "tooltipEnabled": true,
-    "yScaleBeginAtZero": true,
-    "yScaleTickCallback": "return `$${Number(tickValue).toLocaleString()}`"
-  }
-},
-"getQuote": "Angebot Einholen",
-"transformationsPrompt": "Sehen Sie unsere Transformationen"
-
+  "chartComponent": {
+    "title": "Vergleichen Sie die Kosten für Zahnbehandlungen",
+    "countryLabel": "Wählen Sie Ihr Land",
+    "procedureLabel": "Wählen Sie eine Prozedur",
+    "namedProceduresButton": "Standardprozeduren",
+    "customProceduresButton": "Individuelle Prozeduren",
+    "numImplantsLabel": "Anzahl der Implantate",
+    "numImplantsPlaceholder": "Geben Sie die Anzahl der Implantate ein",
+    "numCrownsLabel": "Anzahl der Kronen",
+    "numCrownsPlaceholder": "Geben Sie die Anzahl der Kronen ein",
+    "savingsTitle": "Sie sparen: ${{savings}} pro Kiefer",
+    "savingsDescription": "Entdecken Sie, was Sie mit dem verbleibenden Betrag sparen können.",
+    "icons": [
+      {
+        "name": "Auto",
+        "description": "Kaufen Sie ein Auto",
+        "value": 15000
+      },
+      {
+        "name": "Familienreise",
+        "description": "Luxusreise für 10 Tage",
+        "value": 8000
+      },
+      {
+        "name": "Hausrenovierung",
+        "description": "Hausrenovierungen",
+        "value": 10000
+      },
+      {
+        "name": "Elektronik",
+        "description": "Hochwertige Geräte",
+        "value": 3000
+      },
+      {
+        "name": "Sparfonds",
+        "description": "Fügen Sie Ihren Ersparnissen hinzu",
+        "value": 5000
+      },
+      {
+        "name": "Luxusuhr",
+        "description": "Kaufen Sie eine Premium-Uhr",
+        "value": 3000
+      },
+      {
+        "name": "Fitnessgeräte",
+        "description": "Erstellen Sie ein Fitnessstudio zu Hause",
+        "value": 4000
+      },
+      {
+        "name": "Bildungsfonds",
+        "description": "In Kurse oder Bildung investieren",
+        "value": 6000
+      }
+    ],
+    "barChart": {
+      "labels": ["Ihr Land", "Montenegro"],
+      "datasets": [
+        {
+          "label": "Preisvergleich",
+          "backgroundColor": ["#F87171", "#34D399"]
+        }
+      ]
+    },
+    "options": {
+      "legendDisplay": false,
+      "tooltipEnabled": true,
+      "yScaleBeginAtZero": true,
+      "yScaleTickCallback": "return `$${Number(tickValue).toLocaleString()}`"
+    }
+  },
+  "getQuote": "Angebot Einholen",
+  "transformationsPrompt": "Sehen Sie, was uns unterscheidet"
 }
