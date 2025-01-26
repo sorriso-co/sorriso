@@ -1,50 +1,50 @@
 {
   "aboutUs": {
-    "cuttingEdgeTech": "Zahnmedizinische Spitzentechnologie",
+    "cuttingEdgeTech": "Fortschrittliche Zahntechnologie",
     "expertTeam": "Expertenteam von Zahnärzten",
-    "personalizedCare": "Individuelle Betreuung für jeden Patienten",
-    "description": "Bei Sorriso kombinieren wir erstklassige zahnärztliche Versorgung mit modernster Technologie, um sicherzustellen, dass Sie den höchsten Servicestandard erhalten. Erleben Sie die Zukunft der Zahnmedizin noch heute."
+    "personalizedCare": "Verabschieden Sie sich von schlechten Zähnen und begrüßen Sie Ihr perfektes Lächeln",
+    "description": "Bei Sorriso bieten wir erstklassige Zahnpflege an, von der Behandlung von Karies und Zahnverfall bis hin zu fortschrittlichen Zahnimplantaten und Zahnbrücken für den gesamten Mund. Unsere Experten erstellen personalisierte Zahnverschönerungen mit modernster Technologie – alles zu einem erschwinglichen Preis in Montenegro."
   },
   "box": {
     "section1": {
-      "title": "Warum Sorriso Wählen?",
-      "subtitle": "Verpflichtung zur Exzellenz",
-      "description": "Unsere Mission ist es, zahnärztliche Versorgung auf Weltklasseniveau zu bieten und die Zufriedenheit unserer Kunden sicherzustellen."
+      "title": "Warum Sorriso wählen?",
+      "subtitle": "Engagiert für Exzellenz",
+      "description": "Unsere Mission ist es, erstklassige Zahnpflege zu bieten und die Zufriedenheit unserer Kunden sicherzustellen."
     },
     "metrics": {
       "client_satisfaction": "Kundenzufriedenheit",
-      "dental_success": "Erfolg der Zahnbehandlungen",
+      "dental_success": "Erfolg der Zahnbehandlung",
       "client_referral": "Kundenempfehlungen"
     }
   },
   "youtubeEmbed": {
-    "title": "Sehen Sie sich unsere Transformation an",
-    "description": "Entdecken Sie, wie Sorriso Lächeln verändert und zahnärztliche Versorgung auf Weltklasseniveau bietet."
+    "title": "Sehen Sie sich unsere Verwandlung an",
+    "description": "Erfahren Sie, wie Sorriso Lächeln verwandelt und erstklassige Zahnpflege bietet."
   },
   "mission": {
-    "title": "Patientenzentrierte Zahnmedizinische Versorgung",
-    "subtitle": "Exzellenz, Maßgeschneidert für Sie",
-    "description1": "Bei Sorriso kombinieren wir fortschrittliche Zahnmedizin mit individuell zugeschnittenen Behandlungsplänen, um Ihren Komfort und Ihr Wohlbefinden in jeder Phase zu gewährleisten. Unsere Mission ist es, Expertenversorgung in Montenegro anzubieten, mit hochwertigen Dienstleistungen, um Ihr schönstes Lächeln zu erreichen.",
-    "description2": "Mit modernster Technologie und einem engagierten Team bieten wir ein nahtloses zahnärztliches Erlebnis und machen Sorriso zu einem führenden Anbieter im Zahntourismus. Vertrauen Sie uns, um Ihnen die besten Behandlungen zu bieten, von Implantaten bis hin zu kosmetischen Eingriffen.",
+    "title": "Patientenzentrierte Zahnpflege",
+    "subtitle": "Exzellenz, maßgeschneidert für Sie",
+    "description1": "Bei Sorriso kombinieren wir fortschrittliche Zahnpflege mit personalisierten Behandlungsplänen, um Ihr Wohlbefinden und Ihre Zufriedenheit in jedem Schritt zu gewährleisten. Unsere Mission ist es, Expertenpflege in Montenegro zu bieten und qualitativ hochwertige Dienstleistungen anzubieten, um Ihr bestes Lächeln zu erreichen.",
+    "description2": "Mit modernster Technologie und einem engagierten Team bieten wir ein nahtloses Zahnpflege-Erlebnis und machen Sorriso zu einem führenden Anbieter im Bereich des Zahn-Tourismus. Vertrauen Sie uns, um die beste Pflege zu bieten, von Implantaten bis hin zu kosmetischen Behandlungen.",
     "cta": "Erfahren Sie mehr über unsere Dienstleistungen und wie wir Ihr Lächeln verbessern können."
   },
   "whyMontenegro": {
-    "title": "Warum Montenegro Wählen?",
-    "subtitle": "Atemberaubende Natur und Hochwertige Zahnmedizinische Versorgung"
+    "title": "Warum Montenegro wählen?",
+    "subtitle": "Atemberaubende Natur und hochwertige Zahnpflege"
   },
   "dentalTravelIntro": {
-    "title": "Entdecken Sie den Zahntourismus in Montenegro",
-    "description": "Erfahren Sie, wie Sie erstklassige Zahnbehandlungen mit einem unvergesslichen Reiseerlebnis in Montenegro kombinieren können.",
+    "title": "Entdecken Sie den Zahn-Tourismus in Montenegro",
+    "description": "Erfahren Sie, wie Sie erstklassige Zahnbehandlungen mit einem unvergesslichen Reiseerlebnis in Montenegro verbinden können.",
     "buttonText": "Kontaktieren Sie uns noch heute",
     "travel": "Reise",
     "accommodation": "Unterkunft",
     "sightseeing": "Sehenswürdigkeiten"
   },
   "cta": {
-    "title": "Bereit für Zahnmedizinische Versorgung auf Weltklasseniveau?",
-    "description": "Schließen Sie sich Tausenden zufriedener Kunden an und erhalten Sie die zahnärztliche Versorgung, die Sie bei Sorriso verdienen. Beginnen Sie noch heute Ihre Reise zu einem gesünderen, strahlenderen Lächeln.",
-    "bookButton": "Vereinbaren Sie einen Beratungstermin",
-    "servicesButton": "Entdecken Sie unsere Dienstleistungen"
+    "title": "Bereit, erstklassige Zahnpflege zu erleben?",
+    "description": "Schließen Sie sich tausenden zufriedenen Kunden an und erhalten Sie die Zahnpflege, die Sie verdienen, bei Sorriso. Beginnen Sie noch heute Ihre Reise zu einem gesünderen, strahlenderen Lächeln.",
+    "bookButton": "Beratung buchen",
+    "servicesButton": "Unsere Dienstleistungen entdecken"
   },
   "experienceMontenegro": {
     "heading": "Erleben Sie Montenegro",
@@ -52,20 +52,20 @@
     "ctaButton": "Planen Sie Ihren Besuch",
     "cards": {
       "card1": {
-        "caption": "Unterkünfte",
+        "caption": "Wo man übernachtet",
         "title": "Sveti Stefan",
         "text": {
           "paragraph1": "ist ein luxuriöses Resort und ein Symbol der montenegrinischen Küste.",
           "paragraph2": "Genießen Sie atemberaubende Ausblicke und erstklassige Annehmlichkeiten.",
-          "paragraph3": "Ein idealer Ort, um sich während Ihres Besuchs zu entspannen."
+          "paragraph3": "Ein idealer Ort, um sich während Ihres Besuchs zu entspannen und zu erholen."
         }
       },
       "card2": {
-        "caption": "Was man sehen sollte",
-        "title": "Unsere Liebe Frau vom Felsen",
+        "caption": "Was zu sehen",
+        "title": "Unsere Liebe Frau von den Felsen",
         "text": {
           "paragraph1": "ist eine künstliche Insel vor der Küste von Perast.",
-          "paragraph2": "Besuchen Sie die historische Kirche und das Museum, das voller Kunstwerke ist.",
+          "paragraph2": "Besuchen Sie die historische Kirche und das Museum mit Kunstwerken.",
           "paragraph3": "Ein Muss für Geschichtsinteressierte."
         }
       },
@@ -73,17 +73,17 @@
         "caption": "Outdoor-Abenteuer",
         "title": "Durmitor",
         "text": {
-          "paragraph1": "bietet beeindruckende Berge, Seen und Schluchten.",
-          "paragraph2": "Ideal zum Wandern, Skifahren und Naturerleben.",
+          "paragraph1": "bietet atemberaubende Berge, Seen und Schluchten.",
+          "paragraph2": "Perfekt zum Wandern, Skifahren und Naturerlebnissen.",
           "paragraph3": "Erleben Sie die wilde Schönheit Montenegros."
         }
       },
       "card4": {
-        "caption": "Essen & Wein",
+        "caption": "Essen & Trinken",
         "title": "Montenegrinische Küche",
         "text": {
-          "paragraph1": "Genießen Sie lokale Gerichte wie Njeguški pršut und Käse.",
-          "paragraph2": "Kombinieren Sie sie mit regionalen Weinen für ein genussvolles Erlebnis.",
+          "paragraph1": "Genießen Sie lokale Gerichte wie Njeguški Pršut und Käse.",
+          "paragraph2": "Paaren Sie mit regionalen Weinen für ein genussvolles Erlebnis.",
           "paragraph3": "Erleben Sie die reichen Aromen Montenegros."
         }
       }

@@ -175,10 +175,10 @@ const PricingSection: React.FC = () => {
   return (
     <section className="bg-gray-50 p-6 sm:p-8 lg:p-16 overflow-hidden rounded-lg shadow-xl">
       <div className="container mx-auto py-12 text-center">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-extrabold mb-8 text-teal-900 leading-tight">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-extrabold mb-4 text-teal-900 leading-tight">
           {t("pricingSection.title", { defaultValue: "Our Pricing Plans" })}
         </h1>
-        <p className="text-md sm:text-lg lg:text-xl text-teal-700 mb-10 max-w-3xl mx-auto">
+        <p className="text-md sm:text-lg lg:text-xl text-teal-700 mb-5 max-w-3xl mx-auto">
           {t("pricingSection.description", {
             defaultValue:
               "Transparent pricing for world-class dental services.",
