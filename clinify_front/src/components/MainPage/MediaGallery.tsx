@@ -63,7 +63,7 @@
 //                   onClick={() => setModalItem(item)}
 //                 />
 //                 {/* Hover “play” icon */}
-//                 <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-black bg-opacity-50">
+//                 <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-black bg-opacity-20">
 //                   <button
 //                     className="bg-white p-3 rounded-full shadow-lg"
 //                     onClick={() => setModalItem(item)}
@@ -168,12 +168,12 @@
 
 // export default MediaGallery;
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 
 interface MediaItem {
-  type: "image" | "video" | "instagram";
+  type: "image" | "video";
   src: string;
   alt?: string;
   thumbnail?: string;
@@ -189,59 +189,43 @@ const MediaGallery: React.FC = () => {
     },
     {
       type: "video",
-      src: "https://www.youtube.com/embed/Qgi6h-8Vpvk",
+      src: "https://www.youtube.com/embed/Qgi6h-8Vpvk?si=t5q4vFjG5ze7vhQp",
       thumbnail: "/images/services/dr_i_pacijent.png",
     },
     {
       type: "video",
-      src: "https://www.youtube.com/embed/ToRKxww1hCQ",
+      src: "https://www.youtube.com/watch?v=ToRKxww1hCQ",
       thumbnail: "/images/about_us_slide/trisa2.webp",
     },
     {
       type: "video",
-      src: "https://www.youtube.com/embed/Ln9jn_djVww",
+      src: "https://www.youtube.com/embed/Ln9jn_djVww?si=sSX7sudrEFwtjOBv&amp;start=2",
       thumbnail: "/images/about_us_slide/holand.webp",
     },
   ];
 
   const [modalItem, setModalItem] = useState<MediaItem | null>(null);
-  const [showPlayButtonForVideo1, setShowPlayButtonForVideo1] = useState(false);
-  const [showPlayButtonForVideo2, setShowPlayButtonForVideo2] = useState(false);
-  const [showPlayButtonForVideo3, setShowPlayButtonForVideo3] = useState(false);
+  const [firstVideoPlayed, setFirstVideoPlayed] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setShowPlayButtonForVideo1(true); // Show play button for Video 1 on scroll
-      } else {
-        setShowPlayButtonForVideo1(false);
-        setShowPlayButtonForVideo2(false);
-        setShowPlayButtonForVideo3(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const handleVideoClick = (index: number) => {
-    setModalItem(mediaItems[index]); // Open the clicked video in the modal
-
-    // Update play button visibility based on which video was clicked
-    if (index === 3) {
-      setShowPlayButtonForVideo2(true); // Show play button for Video 2 after Video 1 is opened
-    } else if (index === 2) {
-      setShowPlayButtonForVideo3(true); // Show play button for Video 3 after Video 2 is opened
+  const handleVideoClick = (item: MediaItem) => {
+    setModalItem(item);
+    if (
+      !firstVideoPlayed &&
+      item.src ===
+        "https://www.youtube.com/embed/Ln9jn_djVww?si=sSX7sudrEFwtjOBv&amp;start=2"
+    ) {
+      setFirstVideoPlayed(true);
     }
   };
 
   return (
     <>
+      {/* 2x2 grid */}
       <div className="grid grid-cols-2 gap-4 lg:gap-6">
         {mediaItems.map((item, index) => (
           <div
             key={index}
-            className="relative overflow-hidden rounded-lg shadow-md group"
+            className="relative overflow-hidden rounded-lg shadow-md"
           >
             {item.type === "image" ? (
               <Image
@@ -249,48 +233,26 @@ const MediaGallery: React.FC = () => {
                 alt={item.alt || "Gallery Image"}
                 width={300}
                 height={300}
-                className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
+                className="object-cover w-full h-full"
               />
             ) : (
               <>
                 <Image
                   src={item.thumbnail || "/images/default-thumbnail.jpg"}
-                  alt={item.type === "video" ? "Video Thumbnail" : "Instagram"}
+                  alt="Video Thumbnail"
                   width={300}
                   height={300}
-                  className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105 cursor-pointer"
-                  onClick={() => handleVideoClick(index)}
+                  className="object-cover w-full h-full cursor-pointer"
+                  onClick={() => handleVideoClick(item)}
                 />
-                {/* Hover “play” icon */}
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-black bg-opacity-50">
-                  <button
-                    className="bg-white p-3 rounded-full shadow-lg"
-                    onClick={() => handleVideoClick(index)}
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-8 w-8 text-teal-700"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M14.752 11.168l-5.197-3.099A1 1 0 008 9v6a1 1 0 001.555.832l5.197-3.099a1 1 0 000-1.664z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                {/* Auto-appearing play button */}
-                {(index === 3 && showPlayButtonForVideo1) ||
-                (index === 2 && showPlayButtonForVideo2) ||
-                (index === 1 && showPlayButtonForVideo3) ? (
-                  <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 transition-opacity duration-300 opacity-100">
+                {/* Show play button for the first video by default, and for all videos after the first video is played */}
+                {(firstVideoPlayed ||
+                  item.src ===
+                    "https://www.youtube.com/embed/Ln9jn_djVww?si=sSX7sudrEFwtjOBv&amp;start=2") && (
+                  <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-20">
                     <button
                       className="bg-white p-3 rounded-full shadow-lg"
-                      onClick={() => handleVideoClick(index)}
+                      onClick={() => handleVideoClick(item)}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -308,7 +270,7 @@ const MediaGallery: React.FC = () => {
                       </svg>
                     </button>
                   </div>
-                ) : null}
+                )}
               </>
             )}
           </div>
@@ -333,12 +295,13 @@ const MediaGallery: React.FC = () => {
         </div>
       </div>
 
+      {/* Video Modal */}
       {modalItem && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
           <div className="relative bg-white rounded-lg overflow-hidden max-w-lg w-full shadow-lg">
             <button
               className="absolute top-4 right-4 bg-gray-100 p-2 rounded-full shadow-md"
-              onClick={() => setModalItem(null)} // Close the modal
+              onClick={() => setModalItem(null)}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -365,24 +328,9 @@ const MediaGallery: React.FC = () => {
                 className="object-contain w-full h-full"
               />
             ) : (
-              // <iframe
-              //   title={
-              //     modalItem.type === "video" ? "Video Player" : "Instagram Post"
-              //   }
-              //   src={
-              //     modalItem.type === "video"
-              //       ? modalItem.src.replace("watch?v=", "embed/")
-              //       : modalItem.src
-              //   }
-              //   className="w-full h-80"
-              //   allow="autoplay; fullscreen"
-              //   allowFullScreen
-              // ></iframe>
               <iframe
                 title="Video Player"
-                src={
-                  modalItem && modalItem.type === "video" ? modalItem.src : "" // Avoid loading until modal is explicitly opened
-                }
+                src={modalItem.src.replace("watch?v=", "embed/")}
                 className="w-full h-80"
                 allow="autoplay; fullscreen"
                 allowFullScreen
