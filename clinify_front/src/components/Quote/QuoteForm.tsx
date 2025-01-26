@@ -17,16 +17,16 @@ const ContactForm: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-  
+
     if (email !== confirmEmail) {
       setEmailError("Emails do not match. Please check again.");
       return;
     }
     setEmailError("");
-  
+
     // Prepend gift card code to the message
     const fullMessage = `Message from customer with gift code: ${token}\n\n${message}`;
-  
+
     const formData = new FormData();
     formData.append("token", token);
     formData.append("name", name);
@@ -36,13 +36,13 @@ const ContactForm: React.FC = () => {
     if (file) {
       formData.append("file", file);
     }
-  
+
     try {
       const response = await fetch("/api/quote", {
         method: "POST",
         body: formData,
       });
-  
+
       if (response.status === 202) {
         setStatus("Thank you for your message! We'll get back to you shortly.");
         setToken("");
@@ -63,7 +63,7 @@ const ContactForm: React.FC = () => {
       console.error("Error sending email:", error);
       setStatus("Failed to send message. Please try again later.");
     }
-  };  
+  };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
@@ -112,7 +112,6 @@ const ContactForm: React.FC = () => {
             onChange={(e) => setToken(e.target.value)}
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Enter your gift card code"
-            required
           />
         </div>
 

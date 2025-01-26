@@ -6,34 +6,56 @@ const Introduction: React.FC = () => {
   const { t } = useTranslation("homepage");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
+  const [confirm_email, setConfEmail] = useState("");
+  const [showIframe, setShowIframe] = useState(false); // State for iframe modal
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-  
+
     try {
       const response = await fetch("/api/contact-info", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email, phone }),
+        body: JSON.stringify({ email, confirm_email, phone }),
       });
-  
+
+      if (email != confirm_email) {
+        const errorData = await response.json();
+        throw new Error(
+          errorData.error || "Failed to submit contact information"
+        );
+      }
       if (!response.ok) {
         const errorData = await response.json();
-        throw new Error(errorData.error || "Failed to submit contact information");
+        throw new Error(
+          errorData.error || "Failed to submit contact information"
+        );
       }
-  
+
       // Reset the form on success
       setEmail("");
       setPhone("");
       alert("Thank you for your interest! We will contact you soon.");
     } catch (error) {
       console.error("Submission error:", error);
-      alert("An error occurred while submitting your contact information. Please try again.");
+      alert(
+        "An error occurred while submitting your contact information. Please try again."
+      );
     }
   };
-  
+
+  const handleBookCallClick = () => {
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("event", "book_call_click", {
+        event_category: "engagement",
+        event_label: t("contactMain.buttonText"),
+        value: 1,
+      });
+    }
+    setShowIframe(true); // Show the iframe modal
+  };
 
   return (
     <section className="container mx-auto flex flex-col lg:flex-row items-center py-16 px-6 lg:px-12 space-y-10 lg:space-y-0 lg:space-x-12 bg-gradient-to-r from-teal-50 to-teal-100 rounded-lg shadow-lg">
@@ -60,17 +82,15 @@ const Introduction: React.FC = () => {
           >
             View Our Pricing
           </a>
-          {/* New Get a Quote Button */}
-          <a
-            href="/quote"
+          {/* Replaced Get a Quote Button with Book a Free Consultation Button */}
+          <button
+            onClick={handleBookCallClick}
             className="bg-gradient-to-r from-teal-800 to-teal-900 text-white py-3 sm:py-4 px-8 rounded-full font-semibold shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-teal-500"
           >
-            Get a Quote
-          </a>
+            Book a Free Consultation
+          </button>
         </div>
-        
       </div>
-      
 
       {/* Contact Form Section */}
       <div className="lg:w-1/2 flex justify-center lg:justify-end">
@@ -87,7 +107,9 @@ const Introduction: React.FC = () => {
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label htmlFor="email" className="block text-white text-lg mb-2">
-                {t("introduction.emailLabel", { defaultValue: "Email Address" })}
+                {t("introduction.emailLabel", {
+                  defaultValue: "Email Address",
+                })}
               </label>
               <input
                 type="email"
@@ -122,6 +144,40 @@ const Introduction: React.FC = () => {
           </form>
         </div>
       </div>
+
+      {/* Fullscreen Google Calendar Iframe Modal */}
+      {showIframe && (
+        <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
+          <div className="bg-white rounded-3xl w-11/12 sm:w-10/12 md:w-3/4 lg:w-2/3 xl:w-1/2 h-4/5 relative shadow-2xl overflow-hidden">
+            <button
+              className="absolute top-4 right-4 text-gray-400 hover:text-gray-700"
+              aria-label="Close modal"
+              onClick={() => setShowIframe(false)}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+            <iframe
+              src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1Z-M-9vG8Fy6-4ZN5H_Ck3v_NOXdIMFFZt9eXxffaFzhL3PeswZYOyjiCd4kdqp276PXFXooxj?gv=true"
+              className="w-full h-full"
+              title="Book a Free Consultation"
+              aria-label="Book a Free Consultation"
+            ></iframe>
+          </div>
+        </div>
+      )}
     </section>
   );
 };
