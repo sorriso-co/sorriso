@@ -13,7 +13,7 @@ const PricingPage: React.FC = () => {
         <title>Pricing - Affordable Dental Treatments | Sorriso Care</title>
         <meta
           name="description"
-          content="Explore Sorriso Care's transparent pricing for top-quality dental treatments, including veneers, implants, and full-mouth restoration. Compare prices and treatments to find the best solution for you."
+          content="Explore Sorriso Care's transparent pricing for top-quality dental treatments, including veneers, implants, and full-mouth restoration."
         />
         <meta
           name="keywords"
@@ -22,7 +22,11 @@ const PricingPage: React.FC = () => {
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://sorriso.care/pricing" />
         <link rel="icon" href="/images/icons/icon.svg" type="image/x-icon" />
-        <link rel="shortcut icon" href="/images/icons/icon.svg" type="image/x-icon" />
+        <link
+          rel="shortcut icon"
+          href="/images/icons/icon.svg"
+          type="image/x-icon"
+        />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"
