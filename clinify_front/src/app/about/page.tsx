@@ -18,7 +18,7 @@ const About: React.FC = () => {
         <title>About Us - Sorriso Care | Dental Tourism in Montenegro</title>
         <meta
           name="description"
-          content="Learn more about Sorriso Care, our mission, and why Montenegro is the perfect destination for dental tourism. Discover our services including dental implants, veneers, and full-mouth restoration."
+          content="Discover Sorriso Care, and why Montenegro is the perfect dental tourism destination for dental implants, veneers, and full-mouth restoration."
         />
         <meta
           name="keywords"
@@ -27,7 +27,11 @@ const About: React.FC = () => {
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://sorriso.care/about" />
         <link rel="icon" href="/images/icons/icon.svg" type="image/x-icon" />
-        <link rel="shortcut icon" href="/images/icons/icon.svg" type="image/x-icon" />
+        <link
+          rel="shortcut icon"
+          href="/images/icons/icon.svg"
+          type="image/x-icon"
+        />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"

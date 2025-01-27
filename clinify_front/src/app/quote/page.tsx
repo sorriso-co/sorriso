@@ -11,7 +11,7 @@ const QuotePage: React.FC = () => {
         <title>Get a Quote - Affordable Dental Treatments | Sorriso Care</title>
         <meta
           name="description"
-          content="Request a personalized quote for dental treatments with Sorriso Care. Submit your details to explore affordable options for veneers, implants, and other cosmetic dentistry procedures in Montenegro."
+          content="Request a personalized quote from Sorriso Care. Explore affordable options for veneers, implants, and other cosmetic dentistry procedures in Montenegro."
         />
         <meta
           name="keywords"
@@ -20,7 +20,11 @@ const QuotePage: React.FC = () => {
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://sorriso.care/quote" />
         <link rel="icon" href="/images/icons/icon.svg" type="image/x-icon" />
-        <link rel="shortcut icon" href="/images/icons/icon.svg" type="image/x-icon" />
+        <link
+          rel="shortcut icon"
+          href="/images/icons/icon.svg"
+          type="image/x-icon"
+        />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"
