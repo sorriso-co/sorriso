@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
-
+import Link from "next/link";
 const Introduction: React.FC = () => {
   const { t } = useTranslation("homepage");
   const [email, setEmail] = useState("");
@@ -77,27 +77,15 @@ const Introduction: React.FC = () => {
           })}
         </p>
         <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-          {/* <a
-            href="/pricing"
-            className="bg-gradient-to-r from-teal-500 to-teal-600 text-white py-3 sm:py-4 px-8 rounded-full font-semibold shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-teal-300"
-          >
-            View Our Pricing
-          </a>
-
-          <button
-            onClick={handleBookCallClick}
-            className="bg-gradient-to-r from-teal-800 to-teal-900 text-white py-3 sm:py-4 px-8 rounded-full font-semibold shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-teal-500"
-          >
-            Book a Free Consultation
-          </button> */}
-          <a
+          <Link
             href="/pricing"
             className="bg-gradient-to-r from-teal-500 to-teal-600 text-white py-3 sm:py-4 px-8 rounded-full font-semibold shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-teal-300"
           >
             {t("introduction.viewPricingButton", {
               defaultValue: "View Our Pricing",
             })}
-          </a>
+          </Link>
+
           <button
             onClick={handleBookCallClick}
             className="bg-gradient-to-r from-teal-800 to-teal-900 text-white py-3 sm:py-4 px-8 rounded-full font-semibold shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-teal-500"
