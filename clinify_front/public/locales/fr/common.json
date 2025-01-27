@@ -24,6 +24,30 @@
       "availability": "Service 24h/24"
     }
   },
+  "contactForm": {
+  "title": "Obtenez votre consultation gratuite",
+  "description": "Remplissez le formulaire ci-dessous et notre équipe vous contactera sous peu.",
+  "giftCardHint": "Le code de votre carte cadeau se trouve au dos de la carte, dans une boîte de couleur turquoise.",
+  "giftCardLabel": "Code de la carte cadeau (Facultatif)",
+  "giftCardPlaceholder": "Entrez votre code de carte cadeau",
+  "nameLabel": "Nom",
+  "namePlaceholder": "Votre nom",
+  "emailLabel": "Email",
+  "emailPlaceholder": "Votre email",
+  "confirmEmailLabel": "Confirmer l'email",
+  "confirmEmailPlaceholder": "Confirmez votre email",
+  "copyPasteAlert": "Le copier-coller n'est pas autorisé. Veuillez entrer votre email manuellement.",
+  "phoneLabel": "Téléphone",
+  "messageLabel": "Message",
+  "messagePlaceholder": "Décrivez vos besoins en soins dentaires. Par exemple : 'J'ai besoin d'implants dentaires et de radiographies pour évaluer ma situation.'",
+  "uploadFileLabel": "Télécharger un fichier",
+  "submitButton": "Envoyer",
+  "emailMismatchError": "Les emails ne correspondent pas. Veuillez vérifier à nouveau.",
+  "successMessage": "Merci pour votre message ! Nous vous répondrons sous peu.",
+  "failureMessage": "Échec de l'envoi du message",
+  "errorMessage": "Échec de l'envoi du message. Veuillez réessayer plus tard.",
+  "messagePrefix": "Message du client avec code cadeau :"
+},
   "footer": {
     "aboutTitle": "À propos de Sorriso",
     "aboutText": "Découvrez Sorriso, notre mission d'offrir des soins dentaires de classe mondiale, et comment nous œuvrons pour améliorer votre santé bucco-dentaire.",

@@ -88,14 +88,14 @@ const MobileNav: React.FC<MobileNavProps> = ({ toggleMenu }) => {
           {t("header.mobile_nav.beforeAfter")}
         </Link>
 
-         {/* Blog Link */}
-         <Link
+        {/* Blog Link */}
+        {/* <Link
           href="/blog"
           className="block text-xl text-white hover:text-teal-400 transition-all duration-300"
           onClick={toggleMenu}
         >
           {t("header.mobile_nav.blog")}
-        </Link>
+        </Link> */}
 
         {/* Contact Link */}
         <Link

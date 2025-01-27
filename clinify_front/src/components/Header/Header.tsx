@@ -103,11 +103,11 @@ const Header: React.FC = () => {
               text={t("header.menu.beforeAfter")}
               className="relative px-2 py-1 hover:text-teal-400 hover:scale-105 transition-all duration-300"
             />
-             <NavbarItem
+            {/* <NavbarItem
               href="/blog"
               text={t("header.menu.blog")}
               className="relative px-2 py-1 hover:text-teal-400 hover:scale-105 transition-all duration-300"
-            />
+            /> */}
             <NavbarItem
               href="/contact"
               text={t("header.menu.contact")}
@@ -123,7 +123,6 @@ const Header: React.FC = () => {
               {t("getQuote")}
             </Link>
           </div>
-
 
           {/* Mobile Menu Toggle */}
           <div
