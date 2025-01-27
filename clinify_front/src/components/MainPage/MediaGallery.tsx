@@ -287,7 +287,7 @@ const MediaGallery: React.FC = () => {
             />
           </div>
 
-          <p className="text-white text-base text-xl font-serif font-semibold px-4 text-center">
+          <p className="text-white  text-2xl font-serif font-semibold px-4 text-center">
             {t("transformationsPrompt", {
               defaultValue: "See Our Transformations",
             })}

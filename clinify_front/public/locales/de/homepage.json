@@ -12,7 +12,7 @@
     "buttonText": "Vereinbaren Sie einen Termin"
   },
   "introduction": {
-    "title": "Ihr Tor zu Zahnmedizin auf Weltklasseniveau",
+    "title": "Ihr Zugang zu Zahnmedizin auf Weltklasseniveau",
     "subtitle": "Verwandeln Sie Ihr Lächeln mit Sorriso",
     "description": "Entdecken Sie die perfekte Kombination aus außergewöhnlicher Zahnpflege und einem unvergesslichen Reiseerlebnis. Bei Sorriso haben wir uns darauf spezialisiert, strahlende, gesunde Lächeln durch personalisierte Behandlungen wie Veneers, Zahnimplantate und vollständige Mundrekonstruktionen zu schaffen – während Sie die malerische Schönheit und die reiche Kultur Montenegros genießen.",
     "joinUsTitle": "Starten Sie Ihre Reise zu einem perfekten Lächeln",
@@ -34,11 +34,11 @@
       "steps": {
         "step1": {
           "title": "Kostenlose Online-Beratung",
-          "description": "Verbinden Sie sich mit unseren Zahnspezialisten, um Ihre Bedürfnisse zu besprechen und Behandlungsoptionen wie All-on-4 Implantate, Veneers oder Lächeln-Umwandlungen zu erkunden."
+          "description": "Sprechen Sie mit unseren Experten und entdecken Sie Optionen wie All-on-4 Implantate oder Veneers."
         },
         "step2": {
           "title": "Individueller Behandlungsplan",
-          "description": "Erhalten Sie ihren massgeschneiderten Plan fuer ihre persoenlichen, zahnmedizinischen Wuensche."
+          "description": "Erhalten Sie ihren massgeschneiderten Plan für ihre persönlich, zahnmedizinischen Wünsche."
         }, 
         "step3": {
           "title": "Fragen an die Experten",

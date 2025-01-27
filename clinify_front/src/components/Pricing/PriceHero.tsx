@@ -24,8 +24,6 @@ const Hero = () => {
               className="rounded-lg shadow-lg"
             />
           </div>
-          {/* </div> */}
-          {/* </div> */}
         </div>
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-7xl font-serif font-extrabold mb-4 md:mb-6 leading-tight tracking-tight">
