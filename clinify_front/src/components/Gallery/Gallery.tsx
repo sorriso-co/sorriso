@@ -69,7 +69,7 @@ const GallerySection: React.FC = () => {
       afterImage: "/images/before-after/pr4/posle.webp",
     },
     {
-      name: "Hanspeter Adelberg",
+      name: "Hans-Peter Adelberg",
       age: 53,
       country: "Germany",
       profileImage: "/images/people/hans.webp",

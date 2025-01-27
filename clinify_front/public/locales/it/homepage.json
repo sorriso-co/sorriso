@@ -31,10 +31,11 @@
   "howItWorks": {
     "title": "Il Tuo Viaggio Verso un Sorriso Perfetto",
     "steps": {
-      "step1": {
-        "title": "Consulenza Online Gratuita",
-        "description": "Collegati con i nostri specialisti dentali per discutere le tue esigenze ed esplorare opzioni di trattamento come impianti All-on-4, faccette o smile makeover."
-      },
+     "step1": {
+  "title": "Consulenza Online Gratuita",
+  "description": "Parla con i nostri dentisti per discutere le tue esigenze ed esplorare trattamenti come impianti All-on-4, faccette o smile makeover."
+}
+,
       "step2": {
         "title": "Piano di Trattamento Personalizzato",
         "description": "Ricevi un piano di trattamento completo e su misura per i tuoi obiettivi dentali ed estetici."

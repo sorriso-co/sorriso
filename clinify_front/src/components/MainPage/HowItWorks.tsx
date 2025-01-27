@@ -112,7 +112,10 @@ const HowItWorks: React.FC = () => {
                 title={t("howItWorks.steps.step1.title", {
                   defaultValue: "Free Online Consultation",
                 })}
-                description="Talk to our dental experts to find out if our services are right for you."
+                description={t("howItWorks.steps.step1.description", {
+                  defaultValue:
+                    "Talk to our dental experts to find out if our services are right for you.",
+                })}
                 Icon={FaPhoneAlt}
               />
             </div>

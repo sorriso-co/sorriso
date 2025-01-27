@@ -31,10 +31,11 @@
   "howItWorks": {
     "title": "Your Journey to a Perfect Smile",
     "steps": {
-      "step1": {
-        "title": "Free Online Consultation",
-        "description": "Connect with our dental specialists to discuss your needs and explore treatment options like All-on-4 implants, veneers, or smile makeovers."
-      },
+  "step1": {
+  "title": "Free Online Consultation",
+  "description": "Connect with our specialists to discuss your needs and explore treatments like All-on-4 implants, veneers, or smile makeovers."
+}
+,
       "step2": {
         "title": "Personalized Treatment Plan",
         "description": "Receive a comprehensive, customized treatment plan tailored to your dental and aesthetic goals."

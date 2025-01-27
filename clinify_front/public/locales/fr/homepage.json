@@ -1,178 +1,181 @@
 {
   "frontHero": {
-    "title": "Votre Prochain Voyage Dentaire",
-    "subtitle": "Consultations Gratuites, Soins de Classe Mondiale, Résultats Éblouissants",
-    "visitButton": "Nos transformations",
-    "scheduleButton": "Comment ça marche?",
-    "patientSatisfaction":"Taux de satisfaction des patients : 4,9/5, basé sur des milliers de traitements réussis."
+    "title": "Transformez Votre Sourire avec Sorriso",
+    "subtitle": "Consultations Gratuites & Séjour,\nSoins Dentaires Avancés,\nRésultats Exceptionnels",
+    "visitButton": "Découvrez Nos Transformations",
+    "scheduleButton": "Découvrez Comment ça Marche",
+    "patientSatisfaction": "Taux de satisfaction des patients : 4,9/5, basé sur des milliers de procédures réussies, des facettes aux implants dentaires."
   },
   "haveItAll": {
-    "title": "Tout Avoir avec Sorriso",
-    "description": "Découvrez la parfaite combinaison entre des soins dentaires de classe mondiale et des vacances de rêve au Monténégro. Avec Sorriso, profitez de traitements dentaires de haute qualité tout en explorant la beauté époustouflante des paysages monténégrins, sa riche histoire et sa chaleureuse hospitalité. Économisez jusqu'à 80% sur les traitements dentaires.",
-    "buttonText": "Planifier un Rendez-vous"
+    "title": "Pourquoi Choisir Sorriso ?",
+    "description": "Réservez votre consultation gratuite dès aujourd'hui. Profitez de soins dentaires de classe mondiale, y compris des implants All-on-4, des facettes, une réhabilitation complète de la bouche et bien plus encore, tout en découvrant la beauté du Monténégro. Laissez-nous vous aider à surmonter des défis comme les dents cariées, les maladies des gencives ou des problèmes dentaires génétiques, et obtenez un sourire dont vous serez fier.",
+    "buttonText": "Planifiez Votre Rendez-vous"
   },
   "introduction": {
-  "title": "Votre Porte d’Entrée à des Soins Dentaires de Classe Mondiale",
-  "subtitle": "Transformez Votre Sourire avec Sorriso",
-  "description": "Découvrez le mélange parfait de soins dentaires exceptionnels et d'une expérience de voyage inoubliable. Chez Sorriso, nous nous spécialisons dans la création de sourires éclatants et sains grâce à des traitements personnalisés tels que les facettes, les implants dentaires et les restaurations complètes, tout en profitant de la beauté pittoresque et de la riche culture du Monténégro.",
-  "joinUsTitle": "Commencez Votre Voyage Vers un Sourire Parfait",
-  "joinUsDescription": "Partagez vos coordonnées, et notre équipe dévouée vous contactera pour vous guider dans votre parcours dentaire personnalisé. Profitez de soins haut de gamme adaptés à vos besoins.",
-  "emailLabel": "Adresse Email",
-  "phoneLabel": "Numéro de Téléphone",
-  "formSubmitSuccess": "Merci pour votre intérêt ! Nous vous contacterons bientôt pour discuter de vos besoins et options.",
-  "formSubmitError": "Une erreur est survenue lors de l’envoi de vos coordonnées. Veuillez réessayer.",
-  "viewPricingButton": "Découvrez Nos Tarifs",
-  "contactForm": {
-    "buttonText": "Envoyer",
-    "placeholderEmail": "Entrez votre adresse email",
-    "placeholderPhone": "Entrez votre numéro de téléphone"
-  }
-},
+    "title": "Votre Porte d'Entrée à des Soins Dentaires de Classe Mondiale",
+    "subtitle": "Transformez Votre Sourire avec Sorriso",
+    "description": "Découvrez le parfait mélange entre des soins dentaires exceptionnels et une expérience de voyage inoubliable. Chez Sorriso, nous nous spécialisons dans la création de sourires éclatants et sains grâce à des traitements personnalisés comme les facettes, les implants dentaires et les restaurations complètes, tout en profitant de la beauté pittoresque et de la riche culture du Monténégro.",
+    "joinUsTitle": "Commencez Votre Voyage Vers un Sourire Parfait",
+    "joinUsDescription": "Partagez vos coordonnées, et notre équipe dévouée vous contactera pour vous guider tout au long de votre parcours dentaire personnalisé. Découvrez des soins de première qualité adaptés à vos besoins.",
+    "emailLabel": "Adresse Email",
+    "phoneLabel": "Numéro de Téléphone",
+    "formSubmitSuccess": "Merci pour votre intérêt ! Nous vous contacterons bientôt pour discuter de vos besoins et options.",
+    "formSubmitError": "Une erreur est survenue lors de l’envoi de vos coordonnées. Veuillez réessayer.",
+    "viewPricingButton": "Explorez Nos Tarifs",
+    "contactForm": {
+      "buttonText": "Envoyer",
+      "placeholderEmail": "Entrez votre email",
+      "placeholderPhone": "Entrez votre numéro de téléphone"
+    }
+  },
   "howItWorks": {
-    "title": "Étapes Simples Vers Votre Sourire Parfait",
+    "title": "Votre Voyage Vers un Sourire Parfait",
     "steps": {
-      "step1": {
-        "title": "Consultation en Ligne Gratuite",
-        "description": "Discutez avec nos experts dentaires pour savoir si nos services sont faits pour vous."
-      },
-      "step2": {
-        "title": "Plan de Traitement Personnalisé",
-        "description": "Recevez un plan de traitement détaillé et personnalisé en fonction de vos besoins."
-      },
+ "step1": {
+  "title": "Consultation en Ligne Gratuite",
+  "description": "Contactez nos experts pour discuter de vos besoins et des traitements comme les implants All-on-4 et les facettes."
+},
+"step2": {
+  "title": "Plan de Traitement Personnalisé",
+  "description": "Recevez un plan sur mesure pour vos objectifs dentaires et esthétiques."
+}
+
+,
       "step3": {
-        "title": "Posez Toutes Vos Questions",
-        "description": "Posez toutes les questions que vous avez concernant le processus de traitement."
+        "title": "Posez vos Questions aux Experts",
+        "description": "Obtenez des réponses à toutes vos questions concernant les traitements, les coûts et la récupération."
       },
       "step4": {
-        "title": "Voyagez pour Votre Traitement",
-        "description": "Voyagez au Monténégro pour recevoir votre traitement dentaire de classe mondiale."
+        "title": "Voyagez au Monténégro",
+        "description": "Arrivez au Monténégro pour bénéficier de soins dentaires de haute qualité, utilisant les dernières technologies."
       },
       "step5": {
         "title": "Recevez Votre Traitement",
-        "description": "Nos dentistes experts vous prodigueront les meilleurs soins en utilisant les dernières technologies."
+        "description": "Nos dentistes experts utiliseront les dernières technologies et techniques pour restaurer votre sourire."
       },
       "step6": {
-        "title": "Profitez de Votre Nouveau Sourire",
-        "description": "Repartez avec un sourire éclatant et une expérience mémorable."
+        "title": "Profitez de Votre Sourire Parfait",
+        "description": "Partez avec un sourire éclatant, accompagné d'une expérience de voyage mémorable."
       }
     },
-    "buttonText": "Réserver une Consultation Gratuite"
+    "buttonText": "Commencez Votre Consultation Gratuite"
   },
   "serviceGrid": {
-    "title": "Nos Soins Dentaires",
-    "description": "Explorez nos services dentaires complets conçus pour répondre à vos besoins.",
-    "buttonText": "Regarder Notre Vidéo",
+    "title": "Nos Services Dentaires Complets",
+    "description": "Explorez nos services dentaires de classe mondiale, y compris les implants All-on-4, les facettes, la réhabilitation complète de la bouche et bien plus encore. Nos cliniques partenaires au Monténégro sont internationalement reconnues pour traiter des problèmes dentaires tels que les dents cariées, les dents manquantes et les problèmes génétiques avec précision et soin.",
+    "buttonText": "Regardez Notre Histoire",
     "services": [
       {
-        "title": "All-on-4",
-        "altText": "Services d'implants All-on-4 et All-on-6"
+        "title": "Implants All-on-4",
+        "altText": "Services avancés d'implants All-on-4 et All-on-6"
       },
       {
         "title": "Sourire Hollywoodien",
-        "altText": "Services de transformation de sourire hollywoodien"
+        "altText": "Transformations complètes de sourire Hollywoodien"
       },
       {
         "title": "Réhabilitation complète de la bouche",
-        "altText": "Services de réhabilitation complète de la bouche"
+        "altText": "Services de réhabilitation et de restauration complète de la bouche"
       },
       {
-        "title": "Implantologie Générale",
-        "altText": "Services d'implantologie générale"
+        "title": "Solutions d'Implants Dentaires",
+        "altText": "Implantologie experte pour les dents manquantes"
       }
     ]
   },
-  "title": "Explorez les vols vers le Monténégro",
-  "description": "La plupart de nos patients viennent de ces pays. Sélectionnez votre pays pour voir les itinéraires de vol.",
-  "label": "Sélectionnez votre pays",
-  "button": "Explorez les vols vers le Monténégro",
-  "mapAlt": "Carte montrant les vols depuis {{country}}",
-  "countries": {
-    "Germany": "Allemagne",
-    "Great Britain": "Grande-Bretagne",
-    "Italy": "Italie",
-    "Austria": "Autriche"
+  "flightMap": {
+    "title": "Planifiez Votre Voyage au Monténégro",
+    "description": "La plupart de nos patients viennent de ces pays. Sélectionnez votre pays pour découvrir les options de vol direct et abordables pour votre voyage dentaire.",
+    "label": "Choisissez Votre Pays",
+    "button": "Trouvez des Vols pour le Monténégro",
+    "mapAlt": "Carte des vols depuis {{country}} vers le Monténégro",
+    "countries": {
+      "Germany": "Allemagne",
+      "Great Britain": "Grande-Bretagne",
+      "Italy": "Italie",
+      "Austria": "Autriche"
+    }
   },
   "contactMain": {
-  "heading": "Transformez votre sourire avec des soins experts",
-  "description": "Découvrez des soins dentaires personnalisés avec <span class='font-semibold text-teal-700'>Dr. Filip</span> dans nos cliniques renommées au Monténégro. Profitez d'une <strong class='text-teal-700'>consultation individuelle gratuite</strong> et recevez un <strong class='text-teal-700'>devis détaillé sous 24 heures</strong>. Grâce à notre processus fluide, votre voyage vers un sourire éclatant n'a jamais été aussi simple.",
-  "buttonText": "Réservez votre consultation gratuite",
-  "imageAlt": "Dr. Filip - Votre spécialiste dentaire de confiance",
-  "modal": {
-    "iframeTitle": "Réservez une consultation dentaire",
-    "closeButtonAriaLabel": "Fermer le formulaire de réservation"
-  }
-},
-"chartComponent": {
-  "title": "Comparez les Coûts des Procédures Dentaires",
-  "countryLabel": "Sélectionnez votre Pays",
-  "procedureLabel": "Sélectionnez une Procédure",
-  "namedProceduresButton": "Procédures Standard",
-  "customProceduresButton": "Procédures Personnalisées",
-  "numImplantsLabel": "Nombre d'Implants",
-  "numImplantsPlaceholder": "Entrez le nombre d'implants",
-  "numCrownsLabel": "Nombre de Couronnes",
-  "numCrownsPlaceholder": "Entrez le nombre de couronnes",
-  "savingsTitle": "Vous Économisez : ${{savings}} par mâchoire",
-  "savingsDescription": "Découvrez ce que vous pouvez économiser avec le montant restant.",
-  "icons": [
-    {
-      "name": "Voiture",
-      "description": "Achetez une voiture",
-      "value": 15000
-    },
-    {
-      "name": "Voyage en Famille",
-      "description": "Voyage de luxe de 10 jours",
-      "value": 8000
-    },
-    {
-      "name": "Rénovation de Maison",
-      "description": "Rénovations domiciliaires",
-      "value": 10000
-    },
-    {
-      "name": "Électronique",
-      "description": "Appareils haut de gamme",
-      "value": 3000
-    },
-    {
-      "name": "Fonds d'Épargne",
-      "description": "Ajoutez à vos économies",
-      "value": 5000
-    },
-    {
-      "name": "Montre de Luxe",
-      "description": "Achetez une montre premium",
-      "value": 3000
-    },
-    {
-      "name": "Équipement de Fitness",
-      "description": "Aménagez une salle de sport à domicile",
-      "value": 4000
-    },
-    {
-      "name": "Fonds Éducatif",
-      "description": "Investissez dans des cours ou l'éducation",
-      "value": 6000
+    "heading": "Transformez Votre Sourire avec des Soins Experts",
+    "description": "Découvrez des soins dentaires personnalisés avec <span class='font-semibold text-teal-700'>Dr. Filip</span> dans nos cliniques renommées au Monténégro. Profitez d'une <strong class='text-teal-700'>consultation gratuite</strong> et recevez un <strong class='text-teal-700'>devis détaillé sous 24 heures</strong>. Grâce à notre processus fluide, votre voyage vers un sourire éclatant n'a jamais été aussi simple.",
+    "buttonText": "Réservez Votre Consultation Gratuite",
+    "imageAlt": "Dr. Filip - Votre Spécialiste Dentaire de Confiance",
+    "modal": {
+      "iframeTitle": "Réservez une Consultation Dentaire",
+      "closeButtonAriaLabel": "Fermer le Modal de Réservation"
     }
-  ],
-  "barChart": {
-    "labels": ["Votre Pays", "Monténégro"],
-    "datasets": [
-      {
-        "label": "Comparaison des Prix",
-        "backgroundColor": ["#F87171", "#34D399"]
-      }
-    ]
   },
-  "options": {
-    "legendDisplay": false,
-    "tooltipEnabled": true,
-    "yScaleBeginAtZero": true,
-    "yScaleTickCallback": "return `$${Number(tickValue).toLocaleString()}`"
-  }
-},
-"getQuote": "Obtenir un Devis",
-"transformationsPrompt": "Découvrez nos transformations"
-
+  "chartComponent": {
+    "title": "Comparez les Coûts des Procédures Dentaires",
+    "countryLabel": "Sélectionnez Votre Pays",
+    "procedureLabel": "Sélectionnez une Procédure",
+    "namedProceduresButton": "Procédures Standards",
+    "customProceduresButton": "Procédures Personnalisées",
+    "numImplantsLabel": "Nombre d'Implants",
+    "numImplantsPlaceholder": "Entrez le nombre d'implants",
+    "numCrownsLabel": "Nombre de Couronnes",
+    "numCrownsPlaceholder": "Entrez le nombre de couronnes",
+    "savingsTitle": "Vous Économisez : ${{savings}} par mâchoire",
+    "savingsDescription": "Explorez ce que vous pouvez économiser avec le montant restant.",
+    "icons": [
+      {
+        "name": "Voiture",
+        "description": "Achetez une voiture",
+        "value": 15000
+      },
+      {
+        "name": "Voyage en Famille",
+        "description": "Voyage de luxe pour 10 jours",
+        "value": 8000
+      },
+      {
+        "name": "Rénovation de Maison",
+        "description": "Rénovations de maison",
+        "value": 10000
+      },
+      {
+        "name": "Électronique",
+        "description": "Appareils électroniques haut de gamme",
+        "value": 3000
+      },
+      {
+        "name": "Fonds d'Épargne",
+        "description": "Ajoutez à vos économies",
+        "value": 5000
+      },
+      {
+        "name": "Montre de Luxe",
+        "description": "Achetez une montre de luxe",
+        "value": 3000
+      },
+      {
+        "name": "Équipement de Fitness",
+        "description": "Créez une salle de sport à domicile",
+        "value": 4000
+      },
+      {
+        "name": "Fonds d'Éducation",
+        "description": "Investissez dans des cours ou dans l'éducation",
+        "value": 6000
+      }
+    ],
+    "barChart": {
+      "labels": ["Votre Pays", "Monténégro"],
+      "datasets": [
+        {
+          "label": "Comparaison des Prix",
+          "backgroundColor": ["#F87171", "#34D399"]
+        }
+      ]
+    },
+    "options": {
+      "legendDisplay": false,
+      "tooltipEnabled": true,
+      "yScaleBeginAtZero": true,
+      "yScaleTickCallback": "return `$${Number(tickValue).toLocaleString()}`"
+    }
+  },
+  "getQuote": "Obtenez un Devis",
+  "transformationsPrompt": "Découvrez Ce Qui Nous Rend Différents"
 }
