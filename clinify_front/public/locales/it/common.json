@@ -24,6 +24,30 @@
       "availability": "Servizio 24/7"
     }
   },
+  "contactForm": {
+  "title": "Ottieni la tua consulenza gratuita",
+  "description": "Compila il modulo qui sotto e il nostro team ti contatterà a breve.",
+  "giftCardHint": "Il codice della tua carta regalo si trova sul retro della carta, in un riquadro di colore turchese.",
+  "giftCardLabel": "Codice della carta regalo (Opzionale)",
+  "giftCardPlaceholder": "Inserisci il codice della tua carta regalo",
+  "nameLabel": "Nome",
+  "namePlaceholder": "Il tuo nome",
+  "emailLabel": "Email",
+  "emailPlaceholder": "La tua email",
+  "confirmEmailLabel": "Conferma l'email",
+  "confirmEmailPlaceholder": "Conferma la tua email",
+  "copyPasteAlert": "Non è consentito copiare e incollare. Inserisci manualmente la tua email.",
+  "phoneLabel": "Telefono",
+  "messageLabel": "Messaggio",
+  "messagePlaceholder": "Descrivi le tue esigenze di trattamento dentale. Ad esempio: 'Ho bisogno di impianti dentali e radiografie per valutare la mia situazione.'",
+  "uploadFileLabel": "Carica file",
+  "submitButton": "Invia",
+  "emailMismatchError": "Le email non corrispondono. Controlla di nuovo.",
+  "successMessage": "Grazie per il tuo messaggio! Ti risponderemo a breve.",
+  "failureMessage": "Impossibile inviare il messaggio",
+  "errorMessage": "Impossibile inviare il messaggio. Per favore, riprova più tardi.",
+  "messagePrefix": "Messaggio del cliente con codice regalo:"
+},
   "footer": {
     "aboutTitle": "Chi Siamo",
     "aboutText": "Scopri di più su Sorriso, la nostra missione di offrire servizi dentali di altissimo livello e come puntiamo a migliorare la tua salute orale.",

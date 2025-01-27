@@ -24,6 +24,31 @@
       "availability": "24/7 Service"
     }
   },
+  
+    "contactForm": {
+      "title": "Get Your Free Consultation",
+      "description": "Fill out the form below and our team will reach out to you shortly.",
+      "giftCardHint": "Your gift card code is on the back of the card in a teal-colored box.",
+      "giftCardLabel": "Gift Card Code (Optional)",
+      "giftCardPlaceholder": "Enter your gift card code",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your Name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Your Email",
+      "confirmEmailLabel": "Confirm Email",
+      "confirmEmailPlaceholder": "Confirm Your Email",
+      "copyPasteAlert": "Copy-pasting is not allowed. Please type your email manually.",
+      "phoneLabel": "Phone",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Describe your needs for dental treatment. For example, 'I need dental implants and X-rays to assess my condition.'",
+      "uploadFileLabel": "Upload File",
+      "submitButton": "Submit",
+      "emailMismatchError": "Emails do not match. Please check again.",
+      "successMessage": "Thank you for your message! We'll get back to you shortly.",
+      "failureMessage": "Failed to send message",
+      "errorMessage": "Failed to send message. Please try again later.",
+      "messagePrefix": "Message from customer with gift code:"
+    },
   "footer": {
     "aboutTitle": "About Sorriso",
     "aboutText": "Discover more about Sorriso, our mission to provide world-class dental services, and how we aim to improve your dental health.",
