@@ -14,6 +14,7 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [shouldShow, setShouldShow] = useState(false);
+  const [isDismissing, setIsDismissing] = useState(false); 
 
   useEffect(() => {
     const isPopupDismissed = document.cookie
@@ -51,6 +52,9 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
   };
 
   const handleDismiss = async () => {
+    if (isDismissing) return; // Prevent multiple dismissals
+    setIsDismissing(true); // Set dismissing state
+
     try {
       await axios.post("/api/dismiss-popup");
       document.cookie = "popupDismissed=true; path=/; max-age=604800"; // 7 days
@@ -58,6 +62,7 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
       handleClose();
     } catch (error) {
       console.error("Failed to dismiss popup:", error);
+      setIsDismissing(false); // Reset dismissing state on error
     }
   };
 
@@ -69,7 +74,9 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
         <div className="text-right">
           <button
             onClick={handleDismiss}
-            className="text-gray-800 hover:text-gray-600"
+            className={`text-gray-800 hover:text-gray-600 ${isDismissing ? "cursor-not-allowed opacity-50" : ""}`}
+            disabled={isDismissing} 
+            aria-label="Close popup"
           >
             &times;
           </button>
