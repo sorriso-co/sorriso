@@ -31,8 +31,8 @@ const VideoSlider: React.FC = () => {
       {/* Loader: Shows until video is loaded */}
       {isLoading && (
         <div className="loader absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <div className="loader-outter"></div>
-          <div className="loader-inner"></div>
+          {/* <div className="loader-outter"></div>
+          <div className="loader-inner"></div> */}
         </div>
       )}
 
