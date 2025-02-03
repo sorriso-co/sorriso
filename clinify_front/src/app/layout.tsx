@@ -63,7 +63,9 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
         <Footer />
 
         {/* Popup */}
-        {isPopupVisible && <PopUp show={isPopupVisible} handleClose={handlePopupClose} />}
+        {isPopupVisible && (
+          <PopUp show={isPopupVisible} handleClose={handlePopupClose} />
+        )}
 
         {/* Additional Components */}
         <CookieConsentBanner />
