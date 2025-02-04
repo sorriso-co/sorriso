@@ -24,6 +24,11 @@
       "availability": "Rund um die Uhr erreichbar"
     }
   },
+  "success": {
+    "title": "Herzlichen Glückwunsch! Sie haben den ersten Schritt zu Ihrem perfekten Lächeln gemacht.",
+    "message": "Unser Team wird sich in Kürze bei Ihnen melden!",
+    "returnHome": "Zurück zur Startseite"
+  },
   "footer": {
     "aboutTitle": "Über Sorriso",
     "aboutText": "Erfahre mehr über Sorriso, unsere Mission, erstklassige zahnmedizinische Leistungen anzubieten, und wie wir deine Zahngesundheit verbessern möchten.",

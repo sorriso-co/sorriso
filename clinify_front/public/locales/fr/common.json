@@ -24,6 +24,11 @@
       "availability": "Service 24h/24"
     }
   },
+  "success": {
+    "title": "Félicitations! Vous avez franchi la première étape vers un sourire parfait.",
+    "message": "Notre équipe vous contactera très prochainement!",
+    "returnHome": "Retour à l'accueil"
+  },
   "contactForm": {
   "title": "Obtenez votre consultation gratuite",
   "description": "Remplissez le formulaire ci-dessous et notre équipe vous contactera sous peu.",
