@@ -1,10 +1,13 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-// import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../Footer/LangSwitch";
 import FooterQuickLinks from "./QuickLinks";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons"; // Import X logo
+
 const Footer: React.FC = () => {
   const { t } = useTranslation("common");
 
@@ -15,17 +18,23 @@ const Footer: React.FC = () => {
           <FooterQuickLinks />
 
           <div className="flex flex-col items-center md:items-start">
-            {/* <h2 className="text-lg font-semibold mb-4 text-white">
+            <h2 className="text-lg font-semibold mb-4 text-white">
               {t("footer.followUs")}
-            </h2> */}
-            {/* <div className="flex space-x-6 mb-6">
-              <Link href="https://facebook.com" aria-label="Facebook">
-                <FaFacebook className="w-6 h-6 text-white hover:text-teal-100 transition-colors duration-200" />
+            </h2>
+            <div className="flex space-x-6 mb-6">
+              <Link
+                href="https://www.linkedin.com/company/sorriso-care/"
+                aria-label="Linkedin"
+              >
+                <FaLinkedin className="w-6 h-6 text-white hover:text-teal-100 transition-colors duration-200" />
               </Link>
-              <Link href="https://instagram.com" aria-label="Instagram">
-                <FaInstagram className="w-6 h-6 text-white hover:text-teal-100 transition-colors duration-200" />
+              <Link href="https://x.com/CareSorris37454" aria-label="X">
+                <FontAwesomeIcon
+                  icon={faXTwitter}
+                  className="w-6 h-6 text-white hover:text-teal-100 transition-colors duration-200"
+                />
               </Link>
-            </div> */}
+            </div>
 
             {/* Language Switcher */}
             <div className="mt-4">

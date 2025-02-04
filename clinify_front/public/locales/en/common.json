@@ -24,7 +24,12 @@
       "availability": "24/7 Service"
     }
   },
-  
+
+  "success": {
+    "title": "Congratulations! You've taken the first step toward a perfect smile.",
+    "message": "Our team will contact you shortly!",
+    "returnHome": "Return Home"
+  },
     "contactForm": {
       "title": "Get Your Free Consultation",
       "description": "Fill out the form below and our team will reach out to you shortly.",

@@ -9,7 +9,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import CookieConsentBanner from "@/components/CookieConsent/CookieConsent";
 import PopUp from "@/components/MainPage/PopUp/PopUp";
-import Script from "next/script";
+import TagManager from "react-gtm-module";
 
 interface RootLayoutProps {
   children: ReactNode;
@@ -18,17 +18,17 @@ interface RootLayoutProps {
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
 
+  // Initialize GTM on client
   useEffect(() => {
-    const popupDismissed = localStorage.getItem("popupDismissed");
+    TagManager.initialize({ gtmId: "GTM-W2BPQDMN" });
 
-    // Show the popup if it hasn't been dismissed
+    const popupDismissed = localStorage.getItem("popupDismissed");
     if (!popupDismissed) {
       setIsPopupVisible(true);
     }
   }, []);
 
   const handlePopupClose = () => {
-    // Dismiss the popup and store the dismissal in localStorage
     localStorage.setItem("popupDismissed", "true");
     setIsPopupVisible(false);
   };
@@ -36,23 +36,6 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en">
       <body>
-        {/* Google Analytics */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-M6K5YPE590"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-M6K5YPE590', {
-              anonymize_ip: true,
-              cookie_flags: 'SameSite=None;Secure'
-            });
-          `}
-        </Script>
-
         {/* Header */}
         <Header />
 

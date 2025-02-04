@@ -24,6 +24,11 @@
       "availability": "Servizio 24/7"
     }
   },
+  "success": {
+    "title": "Congratulazioni! Hai fatto il primo passo verso un sorriso perfetto.",
+    "message": "Il nostro team ti contatterà a breve!",
+    "returnHome": "Torna alla Home"
+  },
   "contactForm": {
   "title": "Ottieni la tua consulenza gratuita",
   "description": "Compila il modulo qui sotto e il nostro team ti contatterà a breve.",
