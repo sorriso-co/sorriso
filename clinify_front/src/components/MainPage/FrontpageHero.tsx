@@ -9,7 +9,8 @@ const FrontHero: React.FC = () => {
   return (
     <section className="relative w-full bg-gradient-to-tr from-teal-700 to-teal-900 overflow-hidden">
       <div className="container mx-auto py-20 px-6 lg:px-16">
-        <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between space-y-12 lg:space-y-0">
+        {/* <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between space-y-12 lg:space-y-0"> */}
+        <div className="flex flex-col lg:flex-row items-baseline justify-center lg:justify-between space-y-12 lg:space-y-0">
           {/* Left Text Section */}
           <div className="lg:w-1/2 text-center lg:text-left space-y-8 lg:mr-10">
             <h1 className="font-serif text-white font-extrabold text-5xl sm:text-6xl lg:text-7xl tracking-tight leading-tight animate-fade-in">
@@ -49,7 +50,7 @@ const FrontHero: React.FC = () => {
           </div>
 
           {/* Right Image Section */}
-          <div className="relative flex justify-center lg:justify-end w-full sm:w-3/4 lg:w-1/2">
+          <div className="relative flex justify-center w-full sm:w-3/4 md:w-full lg:w-1/2">
             <MediaGallery />
           </div>
         </div>
