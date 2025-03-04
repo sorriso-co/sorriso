@@ -19,7 +19,7 @@ const MediaGallery: React.FC = () => {
     {
       type: "image",
       src: "/images/services/dr_i_pacijent.png",
-      alt: "patient and doctor",
+      alt: "Patient and Doctor",
     },
   ];
 
@@ -28,42 +28,33 @@ const MediaGallery: React.FC = () => {
   return (
     <>
       {/* Photo Grid */}
-      <div className="grid grid-cols-2 gap-4 lg:gap-6">
+      {/* <div className="grid grid-cols-2 gap-4 lg:gap-6"> */}
+      <div className="grid grid-cols-2 gap-4 lg:gap-6 justify-center mx-auto">
         {mediaItems.map((item, index) => (
           <div
             key={index}
             className="relative overflow-hidden rounded-lg shadow-md group"
           >
-            {item.type === "image" ? (
-              <Image
-                src={item.src}
-                alt={item.alt || "Gallery Image"}
-                width={300}
-                height={300}
-                className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
-              />
-            ) : (
-              <>
-                <Image
-                  src={item.thumbnail || "/images/default-thumbnail.jpg"}
-                  alt={item.type === "video" ? "Video Thumbnail" : "Instagram"}
-                  width={300}
-                  height={300}
-                  className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
-                  onClick={() => setModalItem(item)}
-                />
-              </>
-            )}
+            <Image
+              src={item.src}
+              alt={item.alt || "Gallery Image"}
+              width={300}
+              height={300}
+              className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
+            />
           </div>
         ))}
-        <div className="mt-3  col-span-2">
-          {" "}
-          {/* Ensure it spans the full width of the grid */}
-          <VideoSlider />
+
+        {/* Twitter (X) Video - Positioned Below Images */}
+        {/* <div className="col-span-2 flex justify-center mt-4"> */}
+        <div className="col-span-2 flex flex-col items-center justify-center mt-4">
+          <div className="w-full max-w-[600px] min-h-[400px] flex items-center justify-center">
+            <VideoSlider />
+          </div>
         </div>
       </div>
 
-      {/* Modal */}
+      {/* Modal for Image Expansion */}
       {modalItem && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
           <div className="relative bg-white rounded-lg overflow-hidden max-w-lg w-full shadow-lg">

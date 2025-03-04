@@ -1,9 +1,20 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 const SuccessPage: React.FC = () => {
-  const { t } = useTranslation("common"); // or your namespace
+  const { t } = useTranslation("common");
+
+  useEffect(() => {
+    // Check if gtag is available on the window
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-16639056870/g7l6CKvT2JkaEOa3j_49",
+        value: 1.0,
+        currency: "EUR",
+      });
+    }
+  }, []);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-[60vh] p-4 text-center">
@@ -26,9 +37,7 @@ const SuccessPage: React.FC = () => {
       <h1 className="text-2xl font-bold text-teal-600 mb-2">
         {t("success.title")}
       </h1>
-
       <p className="text-gray-700 mb-4">{t("success.message")}</p>
-
       <a
         href="/"
         className="inline-block bg-teal-600 text-white px-4 py-2 rounded-md hover:bg-teal-700"
