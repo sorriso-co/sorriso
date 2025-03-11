@@ -1,29 +1,109 @@
-import React, { useState } from "react";
-import { TwitterTweetEmbed } from "react-twitter-embed";
-import "./loader.css";
+// import React, { useState } from "react";
+// import { TwitterTweetEmbed } from "react-twitter-embed";
+// import "./loader.css";
 
-const VideoSlider: React.FC = () => {
-  const [isLoading, setIsLoading] = useState(true);
+// const VideoSlider: React.FC = () => {
+//   const [isLoading, setIsLoading] = useState(true);
+
+//   return (
+//     <div className="w-full h-full overflow-hidden rounded-lg shadow-md relative">
+//       {/* Loader: Shows until video is loaded */}
+//       {isLoading && (
+//         <div className="loader absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+//           <div className="loader-outter"></div>
+//           <div className="loader-inner"></div>
+//         </div>
+//       )}
+
+//       <div className="w-full flex justify-center">
+//         <div className="w-full max-w-[600px]">
+//           <TwitterTweetEmbed
+//             tweetId="1887278581857865921"
+//             options={{ width: "100%", align: "center" }}
+//             onLoad={() => setIsLoading(false)}
+//           />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default VideoSlider;
+// import React from "react";
+
+// const CustomVideoEmbed = () => {
+//   const handleClick = () => {
+//     window.open(
+//       "https://twitter.com/CareSorris37454/status/1887278581857865921",
+//       "_blank"
+//     );
+//   };
+
+//   return (
+//     <div
+//       className="relative w-full max-w-[600px] cursor-pointer"
+//       onClick={handleClick}
+//     >
+//       <img
+//         src="/images/about_us_slide/zastolicom-2.webp"
+//         alt="Custom Video Thumbnail"
+//         className="rounded-lg shadow-md"
+//       />
+//       <div className="absolute inset-0 flex items-center justify-center">
+//         <button className="bg-blue-500 text-white p-4 rounded-full shadow-lg text-2xl">
+//           ▶
+//         </button>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default CustomVideoEmbed;
+
+import React, { useState, useEffect } from "react";
+
+const VideoSlider = () => {
+  const [height, setHeight] = useState("200px");
+
+  useEffect(() => {
+    const updateHeight = () => {
+      if (window.innerWidth >= 768) {
+        // Medium and larger screens
+        setHeight("400px");
+      } else {
+        // Small screens
+        setHeight("200px");
+      }
+    };
+
+    updateHeight(); // initial render height
+    window.addEventListener("resize", updateHeight); // Update on window resize
+
+    return () => window.removeEventListener("resize", updateHeight);
+  }, []);
 
   return (
-    <div className="w-full h-full overflow-hidden rounded-lg shadow-md relative">
-      {/* Loader: Shows until video is loaded */}
-      {isLoading && (
-        <div className="loader absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <div className="loader-outter"></div>
-          <div className="loader-inner"></div>
-        </div>
-      )}
-
-      <div className="w-full flex justify-center">
-        <div className="w-full max-w-[600px]">
-          <TwitterTweetEmbed
-            tweetId="1887278581857865921"
-            options={{ width: "100%", align: "center" }}
-            onLoad={() => setIsLoading(false)}
-          />
-        </div>
-      </div>
+    <div
+      style={{
+        position: "relative",
+        width: "100%",
+        maxWidth: "600px",
+        height: height, // Dynamically updated
+        margin: "auto",
+        zIndex: 10,
+      }}
+    >
+      <iframe
+        title="Gumlet video player"
+        src="https://play.gumlet.io/embed/67d059c9cd9a5420ba31c175?t1=1741709800&t2=1741709359444?preload=false&autoplay=false&loop=false&background=false&disable_player_controls=false"
+        style={{
+          border: "none",
+          width: "100%",
+          height: "100%",
+          position: "relative",
+        }}
+        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen"
+      ></iframe>
     </div>
   );
 };
