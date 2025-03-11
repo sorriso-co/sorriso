@@ -59,23 +59,43 @@
 // };
 
 // export default CustomVideoEmbed;
-import React from "react";
 
-const CustomVideoEmbed = () => {
+import React, { useState, useEffect } from "react";
+
+const VideoSlider = () => {
+  const [height, setHeight] = useState("200px");
+
+  useEffect(() => {
+    const updateHeight = () => {
+      if (window.innerWidth >= 768) {
+        // Medium and larger screens
+        setHeight("400px");
+      } else {
+        // Small screens
+        setHeight("200px");
+      }
+    };
+
+    updateHeight(); // initial render height
+    window.addEventListener("resize", updateHeight); // Update on window resize
+
+    return () => window.removeEventListener("resize", updateHeight);
+  }, []);
+
   return (
     <div
       style={{
         position: "relative",
         width: "100%",
         maxWidth: "600px",
-        height: "400px",
+        height: height, // Dynamically updated
         margin: "auto",
         zIndex: 10,
       }}
     >
       <iframe
         title="Gumlet video player"
-        src="https://play.gumlet.io/embed/67d04be4cd9a5420ba315f70?t1=1741704576&t2=1741704258154?preload=false&autoplay=false&loop=false&background=false&disable_player_controls=false"
+        src="https://play.gumlet.io/embed/67d059c9cd9a5420ba31c175?t1=1741709800&t2=1741709359444?preload=false&autoplay=false&loop=false&background=false&disable_player_controls=false"
         style={{
           border: "none",
           width: "100%",
@@ -88,4 +108,4 @@ const CustomVideoEmbed = () => {
   );
 };
 
-export default CustomVideoEmbed;
+export default VideoSlider;
