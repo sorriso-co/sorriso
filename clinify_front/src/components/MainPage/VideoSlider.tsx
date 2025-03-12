@@ -79,6 +79,7 @@
 // };
 
 // export default VideoSlider;
+
 import React, { useState, useEffect, useRef } from "react";
 import "./loader.css"; // Ensure you have your loader styles
 
@@ -133,7 +134,7 @@ const VideoSlider = () => {
       <iframe
         ref={iframeRef}
         title="Gumlet video player"
-        src="https://play.gumlet.io/embed/67d059c9cd9a5420ba31c175?t1=1741709800&t2=1741709359444?preload=false&autoplay=false&loop=false&background=false&disable_player_controls=false"
+        src="https://play.gumlet.io/embed/67d059c9cd9a5420ba31c175?preload=false&autoplay=false&loop=false&background=false&disable_player_controls=false"
         style={{
           border: "none",
           width: "100%",
