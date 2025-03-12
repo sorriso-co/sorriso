@@ -45,7 +45,7 @@
   "phoneLabel": "Telefono",
   "messageLabel": "Messaggio",
   "messagePlaceholder": "Descrivi le tue esigenze di trattamento dentale. Ad esempio: 'Ho bisogno di impianti dentali e radiografie per valutare la mia situazione.'",
-  "uploadFileLabel": "Carica file",
+  "uploadFileLabel": "Carica file (Opzionale)",
   "submitButton": "Invia",
   "emailMismatchError": "Le email non corrispondono. Controlla di nuovo.",
   "successMessage": "Grazie per il tuo messaggio! Ti risponderemo a breve.",
@@ -197,24 +197,24 @@
     "title": "Le trasformazioni dei nostri pazienti"
   },
   "testimonial": {
-    "sheila": {
-      "description": "Ero sempre molto insicura del mio sorriso e evitavo di farmi fotografare. Grazie a Sorriso, ora ho un sorriso di cui sono orgogliosa! I medici sono stati professionali e mi hanno fatto sentire a mio agio durante tutto il processo."
-    },
-    "laura": {
-      "description": "Ho avuto difficoltà a trovare una soluzione economica per i miei denti mancanti. Sorriso Care mi ha offerto impianti dentali di alta qualità a una frazione del costo rispetto all'Italia, e sono entusiasta dei miei nuovi denti. L'intera procedura è stata indolore, e non potrei essere più felice del risultato!"
-    },
-    "miroslav": {
-      "description": "Ero sempre cosciente dell'allineamento dei miei denti, ma gli apparecchi tradizionali erano troppo costosi. Il trattamento ortodontico di Sorriso è stato semplice, efficace ed economico. Ora mi sento più sicuro che mai. Grazie, Sorriso!"
-    },
-    "hans": {
-      "description": "Volevo un sorriso naturale senza l'aspetto artificiale. Ottenere le faccette presso Sorriso è stata la migliore decisione che abbia mai preso. I miei denti sembrano completamente naturali, e non riesco a smettere di sorridere. La dedizione del team all'eccellenza è ineguagliabile."
-    },
-    "yasmin": {
-      "description": "Avevo un sorriso gengivale e non sapevo se il rimodellamento delle gengive fosse adatto a me. Gli esperti di Sorriso mi hanno messo a mio agio e hanno ottenuto risultati straordinari. Ora posso sorridere con sicurezza senza preoccuparmi delle mie gengive. Non potrei essere più soddisfatta del loro servizio!"
-    },
-    "elizabeth": {
-      "description": "Anni di problemi dentali mi hanno reso riluttante a sorridere, e ho avuto difficoltà a trovare una clinica che potesse gestire il mio caso complesso. La ricostruzione completa della bocca da Sorriso ha trasformato la mia salute dentale e il mio aspetto. Ora ho un sorriso splendido e una nuova fiducia in me stessa. Il team mi ha fatto sentire a mio agio e curata durante tutto il processo."
-    }
+  "sheila": {
+    "description": "Evitavo le foto a causa del mio sorriso, ma ora mi sento sicura e adoro mostrarlo!"
+  },
+  "laura": {
+    "description": "Trovare impianti di qualità a un prezzo equo sembrava impossibile, ma la procedura è stata indolore e il risultato ha superato le mie aspettative!"
+  },
+  "miroslav": {
+    "description": "Questo trattamento mi ha dato denti dritti senza problemi. Finalmente ho il sorriso che ho sempre desiderato!"
+  },
+  "hans": {
+    "description": "Volevo faccette che sembrassero naturali, e ci sono riusciti! Il mio sorriso è più luminoso, ma sempre autentico—non potrei essere più felice!"
+  },
+  "yasmin": {
+    "description": "Ero incerta sul rimodellamento gengivale, ma i risultati sono incredibili. Il mio sorriso è più armonioso e ora lo adoro!"
+  },
+  "elizabeth": {
+    "description": "Anni di problemi dentali mi hanno causato molto dolore, ma la ricostruzione completa ha cambiato tutto. Mi sento più sicura che mai!"
+  }
   },
   "videoSection": {
     "title": "Il tuo viaggio verso un nuovo sorriso",

@@ -47,7 +47,9 @@ const PriceCard: React.FC<PriceCardProps> = ({
         </div>
 
         {/* Price Section */}
-        <h3 className="font-bold mb-4 text-teal-900">Price of the treatment:</h3>
+        <h3 className="font-bold mb-4 text-teal-900">
+          Price of the treatment:
+        </h3>
         <div className="space-y-2">
           {prices.map((item, index) => (
             <div
@@ -75,7 +77,7 @@ const PriceCard: React.FC<PriceCardProps> = ({
         </div>
 
         {/* Call to Action */}
-        <Link href="/contact" passHref>
+        <Link href="/quote" passHref>
           <button className="mt-6 bg-teal-600 text-white py-2 px-4 rounded-full transition-colors duration-200 hover:bg-teal-700 w-full">
             {buttonText}
           </button>

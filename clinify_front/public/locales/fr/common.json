@@ -45,7 +45,7 @@
   "phoneLabel": "Téléphone",
   "messageLabel": "Message",
   "messagePlaceholder": "Décrivez vos besoins en soins dentaires. Par exemple : 'J'ai besoin d'implants dentaires et de radiographies pour évaluer ma situation.'",
-  "uploadFileLabel": "Télécharger un fichier",
+  "uploadFileLabel": "Télécharger un fichier (Facultatif)",
   "submitButton": "Envoyer",
   "emailMismatchError": "Les emails ne correspondent pas. Veuillez vérifier à nouveau.",
   "successMessage": "Merci pour votre message ! Nous vous répondrons sous peu.",
@@ -197,24 +197,25 @@
     "title": "Les Transformations de Nos Patients"
   },
   "testimonial": {
-    "sheila": {
-      "description": "J'étais toujours très complexée par mon sourire et j'évitais de me faire photographier. Grâce à Sorriso, j'ai maintenant un sourire dont je suis fière ! Les médecins ont été professionnels et m'ont mise à l'aise tout au long du processus."
-    },
-    "laura": {
-      "description": "J'avais du mal à trouver une solution abordable pour mes dents manquantes. Sorriso Care m'a offert des implants dentaires de haute qualité à une fraction du coût par rapport à l'Italie, et je suis ravie de mes nouvelles dents. L'ensemble de la procédure a été indolore, et je ne pourrais pas être plus heureuse du résultat !"
-    },
-    "miroslav": {
-      "description": "J'étais toujours conscient de l'alignement de mes dents, mais les appareils dentaires traditionnels étaient trop chers. Le traitement orthodontique de Sorriso a été fluide, efficace et abordable. Maintenant, je me sens plus confiant que jamais. Merci, Sorriso !"
-    },
-    "hans": {
-      "description": "Je voulais un sourire naturel sans l'aspect « fait ». Obtenir des facettes chez Sorriso a été la meilleure décision que j'ai prise. Mes dents ont un aspect totalement naturel, et je n'arrête pas de sourire. Le dévouement de l'équipe à l'excellence est incomparable."
-    },
-    "yasmin": {
-      "description": "J'avais un sourire gingival et je ne savais pas si le remodelage des gencives était fait pour moi. Les experts de Sorriso m'ont rassurée et ont obtenu des résultats exceptionnels. Maintenant, je peux sourire en toute confiance sans m'inquiéter de mes gencives. Je ne pourrais pas être plus satisfaite de leur service !"
-    },
-    "elizabeth": {
-      "description": "Des années de problèmes dentaires m'ont rendue hésitante à sourire, et j'ai eu du mal à trouver une clinique qui puisse gérer mon cas complexe. La reconstruction buccale complète chez Sorriso a transformé ma santé dentaire et mon apparence. J'ai maintenant un sourire magnifique et une nouvelle confiance en moi. L'équipe m'a fait sentir à l'aise et prise en charge tout au long du processus."
-    }
+  "sheila": {
+    "description": "J’évitais les photos à cause de mon sourire, mais maintenant je me sens en confiance et j’adore le montrer !"
+  },
+  "laura": {
+    "description": "Trouver des implants de qualité à un prix raisonnable me semblait impossible, mais la procédure a été indolore et le résultat a dépassé mes attentes !"
+  },
+  "miroslav": {
+    "description": "Ce traitement m’a donné des dents bien alignées sans complications. J’ai enfin le sourire dont j’ai toujours rêvé !"
+  },
+  "hans": {
+    "description": "Je voulais des facettes naturelles, et le résultat est parfait ! Mon sourire est plus éclatant tout en restant naturel—je ne pourrais pas être plus heureux !"
+  },
+  "yasmin": {
+    "description": "J’hésitais à faire un remodelage gingival, mais le résultat est incroyable. Mon sourire est plus harmonieux et je l’adore enfin !"
+  },
+  "elizabeth": {
+    "description": "Des années de problèmes dentaires m’ont causé beaucoup de douleur, mais la reconstruction complète a tout changé. Je me sens plus confiante que jamais !"
+  }
+
   },
   "videoSection": {
     "title": "Votre Parcours vers un Nouveau Sourire",

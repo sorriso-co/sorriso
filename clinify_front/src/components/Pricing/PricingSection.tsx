@@ -6,31 +6,31 @@ import { useTranslation } from "react-i18next";
 // Define the price card data
 const priceCardData = [
   {
-    title: "Dental Implants",
-    description: "Get affordable and high-quality dental implants.",
+    title: "Ceramic Crowns",
+    description: "High-quality ceramic crowns for a perfect smile.",
     prices: [
-      { country: "Montenegro", price: "€600", flag: "/images/flags/mne.webp" },
+      { country: "Montenegro", price: "€250", flag: "/images/flags/mne.webp" },
 
-      { country: "Turkey", price: "€800", flag: "/images/flags/turk.png" },
+      { country: "Turkey", price: "€400", flag: "/images/flags/turk.png" },
       {
         country: "Croatia",
-        price: "€900",
+        price: "€450",
         flag: "/images/flags/cro.png",
       },
-      { country: "Italy", price: "€1200", flag: "/images/flags/ita.webp" },
-      { country: "Germany", price: "€2000", flag: "/images/flags/ger.webp" },
+      { country: "Italy", price: "€600", flag: "/images/flags/ita.webp" },
+      { country: "Germany", price: "€800", flag: "/images/flags/ger.webp" },
       {
         country: "United Kingdom",
-        price: "€2500",
+        price: "€900",
         flag: "/images/flags/uk.webp",
       },
       {
         country: "United States",
-        price: "$4000",
+        price: "$1200",
         flag: "/images/flags/us.webp",
       },
     ],
-    buttonText: "Book Now",
+    buttonText: "Contact Us",
   },
   {
     title: "Zirconium Crowns",
@@ -60,27 +60,55 @@ const priceCardData = [
     buttonText: "Schedule Appointment",
   },
   {
-    title: "Ceramic Crowns",
-    description: "High-quality ceramic crowns for a perfect smile.",
+    title: "Dental Implants",
+    description: "Get affordable and high-quality dental implants.",
     prices: [
-      { country: "Montenegro", price: "€250", flag: "/images/flags/mne.webp" },
+      { country: "Montenegro", price: "€600", flag: "/images/flags/mne.webp" },
 
-      { country: "Turkey", price: "€400", flag: "/images/flags/turk.png" },
+      { country: "Turkey", price: "€800", flag: "/images/flags/turk.png" },
       {
         country: "Croatia",
-        price: "€450",
+        price: "€900",
         flag: "/images/flags/cro.png",
       },
-      { country: "Italy", price: "€600", flag: "/images/flags/ita.webp" },
-      { country: "Germany", price: "€800", flag: "/images/flags/ger.webp" },
+      { country: "Italy", price: "€1200", flag: "/images/flags/ita.webp" },
+      { country: "Germany", price: "€2000", flag: "/images/flags/ger.webp" },
       {
         country: "United Kingdom",
-        price: "€900",
+        price: "€2500",
         flag: "/images/flags/uk.webp",
       },
       {
         country: "United States",
-        price: "$1200",
+        price: "$4000",
+        flag: "/images/flags/us.webp",
+      },
+    ],
+    buttonText: "Book Now",
+  },
+
+  {
+    title: "Hollywood Smile",
+    description: "Achieve the perfect, celebrity-like smile with veneers.",
+    prices: [
+      { country: "Montenegro", price: "€3500", flag: "/images/flags/mne.webp" },
+
+      { country: "Turkey", price: "€4500", flag: "/images/flags/turk.png" },
+      {
+        country: "Croatia",
+        price: "€5000",
+        flag: "/images/flags/cro.png",
+      },
+      { country: "Italy", price: "€6000", flag: "/images/flags/ita.webp" },
+      { country: "Germany", price: "€8000", flag: "/images/flags/ger.webp" },
+      {
+        country: "United Kingdom",
+        price: "€7000",
+        flag: "/images/flags/uk.webp",
+      },
+      {
+        country: "United States",
+        price: "$15000",
         flag: "/images/flags/us.webp",
       },
     ],
@@ -139,33 +167,6 @@ const priceCardData = [
       },
     ],
     buttonText: "Schedule Appointment",
-  },
-  {
-    title: "Hollywood Smile",
-    description: "Achieve the perfect, celebrity-like smile with veneers.",
-    prices: [
-      { country: "Montenegro", price: "€3500", flag: "/images/flags/mne.webp" },
-
-      { country: "Turkey", price: "€4500", flag: "/images/flags/turk.png" },
-      {
-        country: "Croatia",
-        price: "€5000",
-        flag: "/images/flags/cro.png",
-      },
-      { country: "Italy", price: "€6000", flag: "/images/flags/ita.webp" },
-      { country: "Germany", price: "€8000", flag: "/images/flags/ger.webp" },
-      {
-        country: "United Kingdom",
-        price: "€7000",
-        flag: "/images/flags/uk.webp",
-      },
-      {
-        country: "United States",
-        price: "$15000",
-        flag: "/images/flags/us.webp",
-      },
-    ],
-    buttonText: "Contact Us",
   },
 ];
 

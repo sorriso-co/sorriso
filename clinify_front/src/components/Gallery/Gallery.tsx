@@ -122,7 +122,7 @@ const GallerySection: React.FC = () => {
           </h2> */}
 
           {/* Testimonial Cards */}
-          <div className="flex flex-col gap-12">
+          <div className="flex flex-col">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="w-full">
                 <TestimonialCard {...testimonial} />

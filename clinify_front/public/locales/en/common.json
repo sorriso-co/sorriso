@@ -46,7 +46,7 @@
       "phoneLabel": "Phone",
       "messageLabel": "Message",
       "messagePlaceholder": "Describe your needs for dental treatment. For example, 'I need dental implants and X-rays to assess my condition.'",
-      "uploadFileLabel": "Upload File",
+      "uploadFileLabel": "Upload File (Optional)",
       "submitButton": "Submit",
       "emailMismatchError": "Emails do not match. Please check again.",
       "successMessage": "Thank you for your message! We'll get back to you shortly.",
@@ -192,32 +192,35 @@
   },
   "testimonialsHero": {
     "title": "Our Satisfied Patients",
-    "description": "Hear firsthand from our patients about their transformative experiences and the exceptional care they received. Contact us, and we’ll gladly connect you with our previous customers to share their stories and insights.",
+    "description":"Discover what our patients have to say about their transformative experiences at Sorriso Care.",
     "cta": "Contact Us"
   },
   "gallerySection": {
     "title": "Our Patient Transformations"
   },
   "testimonial": {
-    "sheila": {
-      "description": "I used to be so self-conscious about my smile and always avoided taking pictures. Thanks to Sorriso, I now have a smile I’m proud to show off! The doctors were professional and made me feel comfortable throughout the entire process."
-    },
-    "laura": {
-      "description": "I had trouble finding an affordable solution for my missing teeth. Sorriso Care provided me with high-quality dental implants at a fraction of the cost compared to Italy, and I am delighted with my new teeth. The entire procedure was painless, and I couldn’t be happier with the results!"
-    },
-    "miroslav": {
-      "description": "I was always conscious about the alignment of my teeth, but traditional braces were too expensive. Sorriso’s orthodontic treatment was smooth, efficient, and affordable. Now, I feel more confident than ever. Thank you, Sorriso!"
-    },
-    "hans": {
-      "description": "I wanted a natural-looking smile without the obvious ‘done’ look. Getting veneers at Sorriso was the best decision I’ve made. My teeth look completely natural, and I can’t stop smiling. The team’s dedication to excellence is unmatched."
-    },
-    "yasmin": {
-      "description": "I had a gummy smile and was unsure if gum contouring would be right for me. Sorriso’s experts made me feel at ease and delivered outstanding results. Now, I can smile confidently without worrying about my gums. I couldn’t be happier with their service!"
-    },
-    "elizabeth": {
-      "description": "Years of dental issues made me hesitant to smile, and I struggled to find a clinic that could handle my complex case. The full mouth reconstruction at Sorriso transformed my dental health and appearance. I now have a beautiful smile and a newfound sense of confidence. The team made me feel comfortable and cared for throughout the entire process."
-    }
+  "sheila": {
+    "description": "I used to avoid pictures because of my smile, but now I feel confident and love showing my teeth!"
   },
+  "laura": {
+    "description": "Finding quality implants at a fair price seemed impossible, but the procedure was painless, and the results exceeded my expectations!"
+  },
+  "miroslav": {
+    "description": "This treatment gave me straight teeth without hassle. I finally have the smile I always wanted!"
+  },
+  "hans": {
+    "description": "I wanted veneers that looked natural, and they delivered! My smile is brighter, yet still looks like me—I couldn’t be happier!"
+  },
+  "yasmin": {
+    "description": "I was unsure about gum contouring, but the results are amazing. My smile feels more balanced, and I finally love how it looks!"
+  },
+  "elizabeth": {
+    "description": "Years of dental issues made me suffer a lot of pain, but full-mouth reconstruction changed everything. I feel more confident than ever!"
+  }
+}
+
+
+,
   "videoSection": {
     "title": "Your Journey to a New Smile",
     "description": "With our dental trips, your needs come first. Together, we create a travel and treatment plan that suits your needs. In case of dental anxiety, treatment under anesthesia is often possible. Watch the video below to get an impression of a dental vacation.",

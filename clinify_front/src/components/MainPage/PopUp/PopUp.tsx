@@ -15,7 +15,6 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
   const [error, setError] = useState<string | null>(null);
   const [shouldShow, setShouldShow] = useState(false); // 🔹 New state for timing
 
-  // 🔹 Timer to show the popup after 20 seconds
   useEffect(() => {
     const isPopupDismissed = document.cookie
       .split("; ")
@@ -24,7 +23,7 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
     if (!isPopupDismissed) {
       const timer = setTimeout(() => {
         setShouldShow(true); // 🔹 Show the popup after 20 seconds
-      }, 25000); // 25 seconds
+      }, 12000); // 12 seconds
 
       return () => clearTimeout(timer); // 🔹 Cleanup the timer
     }
@@ -54,15 +53,9 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
 
   const handleDismiss = async () => {
     try {
-      console.log("Dismiss clicked! Calling API...");
-
+      handleClose(); // Close the popup immediately
       await axios.post("/api/dismiss-popup");
-      document.cookie = "popupDismissed=true; path=/; max-age=604800"; // 7 days
-
-      console.log("Cookie set, now calling handleClose...");
-      handleClose(); // 🔹 This should trigger `handlePopupClose` in `page.tsx`
-
-      console.log("Popup should now close.");
+      document.cookie = "popupDismissed=true; path=/; max-age=604800";
     } catch (error) {
       console.error("Failed to dismiss popup:", error);
     }
