@@ -65,11 +65,11 @@
 // }
 
 import { NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+// import fs from "fs";
+// import path from "path";
 import nodemailer from "nodemailer";
 
-const dataFilePath = path.resolve("./contact-info.json");
+// const dataFilePath = path.resolve("./contact-info.json");
 
 const transporter = nodemailer.createTransport({
   service: "gmail", // You can use other services like 'hotmail', 'yahoo', etc.
@@ -91,7 +91,7 @@ export async function POST(req: Request) {
     }
 
     // Read existing data from the file
-    let existingData: { email: string; confirmEmail: string }[] = []; // Updated to store confirmEmail
+    // let existingData: { email: string; confirmEmail: string }[] = []; // Updated to store confirmEmail
     // if (fs.existsSync(dataFilePath)) {
     //   const fileContent = fs.readFileSync(dataFilePath, "utf8");
     //   existingData = JSON.parse(fileContent);
