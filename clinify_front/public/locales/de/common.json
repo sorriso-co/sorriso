@@ -174,22 +174,23 @@
   },
  "testimonial": {
   "sheila": {
-    "description": "Ich habe Fotos wegen meines Lächelns vermieden, aber jetzt fühle ich mich selbstbewusst und zeige es gerne!"
+     "description": "Erschwingliche und hochwertige Implantate zu finden, schien unmöglich, aber der Eingriff war schmerzfrei und das Ergebnis hat meine Erwartungen übertroffen!"
   },
   "laura": {
-    "description": "Erschwingliche und hochwertige Implantate zu finden, schien unmöglich, aber der Eingriff war schmerzfrei und das Ergebnis hat meine Erwartungen übertroffen!"
+        "description": "Ich habe Fotos wegen meines Lächelns vermieden, aber jetzt fühle ich mich selbstbewusst und zeige es gerne!"
+   
   },
   "miroslav": {
     "description": "Diese Behandlung hat mir gerade Zähne ohne großen Aufwand ermöglicht. Endlich habe ich das Lächeln, das ich mir immer gewünscht habe!"
   },
   "hans": {
-    "description": "Ich wollte Veneers, die natürlich aussehen – und genau das habe ich bekommen! Mein Lächeln ist heller, aber immer noch ich selbst – ich könnte nicht glücklicher sein!"
+    "description": "Ich wollte Veneers, die natürlich aussehen – und genau das habe ich bekommen!"
   },
   "yasmin": {
     "description": "Ich war unsicher wegen einer Zahnfleischkorrektur, aber das Ergebnis ist unglaublich. Mein Lächeln wirkt harmonischer, und ich liebe es endlich!"
   },
   "elizabeth": {
-    "description": "Jahrelange Zahnprobleme haben mir Schmerzen bereitet, aber die komplette Rekonstruktion hat alles verändert. Ich fühle mich selbstbewusster als je zuvor!"
+    "description": "Jahrelange Zahnprobleme haben mir Schmerzen bereitet, aber die komplette Rekonstruktion hat alles verändert."
   }
 },
   "videoSection": {

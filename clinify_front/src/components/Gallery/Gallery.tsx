@@ -32,30 +32,44 @@ const GallerySection: React.FC = () => {
 
   // Array of testimonials with translated descriptions
   const testimonials: Testimonial[] = [
+    // {
+    //   name: "Sheila Peterson",
+    //   age: 44,
+    //   country: "United States",
+    //   profileImage: "/images/people/emily.webp",
+    //   description: t("testimonial.sheila.description", {
+    //     defaultValue:
+    //       "I used to be so self-conscious about my smile and always avoided taking pictures. Thanks to Sorriso, I now have a smile I’m proud to show off! The doctors were professional and made me feel comfortable throughout the entire process.",
+    //   }),
+    //   beforeImage: "/images/before-after/pr1/prije.webp",
+    //   afterImage: "/images/before-after/pr1/posle.webp",
+    // },
     {
-      name: "Sheila Peterson",
-      age: 44,
-      country: "United States",
-      profileImage: "/images/people/emily.webp",
-      description: t("testimonial.sheila.description", {
+      name: "Yasmin Bakker",
+      age: 46,
+      country: "Netherlands",
+      profileImage: "/images/people/natascha.webp",
+      description: t("testimonial.yasmin.description", {
         defaultValue:
-          "I used to be so self-conscious about my smile and always avoided taking pictures. Thanks to Sorriso, I now have a smile I’m proud to show off! The doctors were professional and made me feel comfortable throughout the entire process.",
+          "I had a gummy smile and was unsure if gum contouring would be right for me. Sorriso’s experts made me feel at ease and delivered outstanding results. Now, I can smile confidently without worrying about my gums. I couldn’t be happier with their service!",
       }),
-      beforeImage: "/images/before-after/pr1/prije.webp",
-      afterImage: "/images/before-after/pr1/posle.webp",
+      beforeImage: "/images/before-after/pr6/prije.webp",
+      afterImage: "/images/before-after/pr6/posle.webp",
     },
+
     {
-      name: "Laura Bastone",
-      age: 32,
-      country: "Italy",
-      profileImage: "/images/people/laura.webp",
-      description: t("testimonial.laura.description", {
+      name: "Elizabeth Mayer",
+      age: 68,
+      country: "Switzerland",
+      profileImage: "/images/people/mirka.webp",
+      description: t("testimonial.elizabeth.description", {
         defaultValue:
-          "I had trouble finding an affordable solution for my missing teeth. Sorriso Care provided me with high-quality dental implants at a fraction of the cost compared to Italy, and I am delighted with my new teeth. The entire procedure was painless, and I couldn’t be happier with the results!",
+          "Years of dental issues made me hesitant to smile, and I struggled to find a clinic that could handle my complex case. The full mouth reconstruction at Sorriso transformed my dental health and appearance. I now have a beautiful smile and a newfound sense of confidence. The team made me feel comfortable and cared for throughout the entire process.",
       }),
-      beforeImage: "/images/before-after/pr2/prije.webp",
-      afterImage: "/images/before-after/pr2/posle.webp",
+      beforeImage: "/images/before-after/pr7/prije.webp",
+      afterImage: "/images/before-after/pr7/posle.webp",
     },
+
     {
       name: "Miroslav Scekic",
       age: 36,
@@ -80,29 +94,18 @@ const GallerySection: React.FC = () => {
       beforeImage: "/images/before-after/pr5/prije.webp",
       afterImage: "/images/before-after/pr5/posle.webp",
     },
+
     {
-      name: "Yasmin Bakker",
-      age: 46,
-      country: "Netherlands",
-      profileImage: "/images/people/natascha.webp",
-      description: t("testimonial.yasmin.description", {
+      name: "Laura Bastone",
+      age: 32,
+      country: "Italy",
+      profileImage: "/images/people/laura.webp",
+      description: t("testimonial.laura.description", {
         defaultValue:
-          "I had a gummy smile and was unsure if gum contouring would be right for me. Sorriso’s experts made me feel at ease and delivered outstanding results. Now, I can smile confidently without worrying about my gums. I couldn’t be happier with their service!",
+          "I used to be so self-conscious about my smile and always avoided taking pictures. Thanks to Sorriso, I now have a smile I’m proud to show off! The doctors were professional and made me feel comfortable throughout the entire process.",
       }),
-      beforeImage: "/images/before-after/pr6/prije.webp",
-      afterImage: "/images/before-after/pr6/posle.webp",
-    },
-    {
-      name: "Elizabeth Mayer",
-      age: 68,
-      country: "Switzerland",
-      profileImage: "/images/people/mirka.webp",
-      description: t("testimonial.elizabeth.description", {
-        defaultValue:
-          "Years of dental issues made me hesitant to smile, and I struggled to find a clinic that could handle my complex case. The full mouth reconstruction at Sorriso transformed my dental health and appearance. I now have a beautiful smile and a newfound sense of confidence. The team made me feel comfortable and cared for throughout the entire process.",
-      }),
-      beforeImage: "/images/before-after/pr7/prije.webp",
-      afterImage: "/images/before-after/pr7/posle.webp",
+      beforeImage: "/images/before-after/pr2/prije.webp",
+      afterImage: "/images/before-after/pr2/posle.webp",
     },
   ];
 

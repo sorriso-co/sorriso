@@ -16,7 +16,7 @@ const Hero = () => {
         >
           <div className="relative priority w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto">
             <Image
-              src="/images/Team/staff/sestra.jpg"
+              src="/images/Team/staff/sestra.webp"
               alt="Dentist"
               width={500}
               height={600}

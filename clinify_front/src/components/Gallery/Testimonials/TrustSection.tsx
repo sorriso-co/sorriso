@@ -7,7 +7,7 @@ const TrustSection: React.FC = () => {
   const { t } = useTranslation("common");
 
   return (
-    <section className="flex flex-col items-center bg-transparent py-12 px-4 sm:py-16 lg:px-20">
+    <section className="flex flex-col items-center bg-transparent py-12 px-4 lg:px-20">
       {/* Section Title */}
       <div className="w-full text-center mb-12 md:mb-16">
         <h2 className="text-3xl sm:text-5xl md:text-6xl font-serif font-bold text-teal-900 mb-4 sm:mb-6">
