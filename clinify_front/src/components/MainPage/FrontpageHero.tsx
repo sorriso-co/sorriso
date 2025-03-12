@@ -7,7 +7,7 @@ const FrontHero: React.FC = () => {
   const { t } = useTranslation("homepage");
 
   return (
-    <section className="relative w-full bg-gradient-to-tr from-teal-700 to-teal-900 overflow-hidden">
+    <section className="relative w-full bg-gradient-to-tr from-teal-500 to-teal-900 overflow-hidden">
       <div className="container mx-auto py-20 px-6 lg:px-16">
         {/* <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between space-y-12 lg:space-y-0"> */}
         <div className="flex flex-col lg:flex-row items-baseline justify-center lg:justify-between space-y-12 lg:space-y-0">
