@@ -20,16 +20,18 @@ const ContactSection: React.FC = () => {
           </p>
         </div>
 
-        
         {/* Content Section with Side-by-Side Layout */}
-        <div className="flex flex-col lg:flex-row sm: bg-white rounded-lg items-start">
+        <div className="flex flex-col lg:flex-row bg-white rounded-lg items-start">
           {/* Left: Book a Call */}
-          <div className="w-full lg:w-2/3 border-r border-gray-200">
+          <div className="w-full lg:w-2/3 border-gray-300 flex flex-col">
             <BookACall />
           </div>
 
+          {/* Horizontal Divider for Mobile (Appears Only on Small Screens) */}
+          <div className="w-full h-[2px] bg-gray-300 my-6 lg:hidden"></div>
+
           {/* Right: Contact Details */}
-          <div className="w-full lg:w-1/3">
+          <div className="w-full lg:w-1/3 flex flex-col">
             <ContactDetails />
           </div>
         </div>

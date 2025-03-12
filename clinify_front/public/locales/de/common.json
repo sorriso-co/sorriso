@@ -172,26 +172,26 @@
   "gallerySection": {
     "title": "Unsere Patiententransformationen"
   },
-  "testimonial": {
-    "sheila": {
-      "description": "Ich war immer sehr selbstbewusst wegen meines Lächelns und vermied es, Fotos zu machen. Dank Sorriso habe ich jetzt ein Lächeln, auf das ich stolz bin! Die Ärzte waren professionell und haben mich während des gesamten Prozesses wohl gefühlt."
-    },
-    "laura": {
-      "description": "Ich hatte Schwierigkeiten, eine erschwingliche Lösung für meine fehlenden Zähne zu finden. Sorriso Care bot mir hochwertige Zahnimplantate zu einem Bruchteil der Kosten im Vergleich zu Italien, und ich bin begeistert von meinen neuen Zähnen. Der gesamte Eingriff war schmerzfrei und ich könnte nicht zufriedener mit dem Ergebnis sein!"
-    },
-    "miroslav": {
-      "description": "Ich war immer selbstbewusst über die Ausrichtung meiner Zähne, aber traditionelle Zahnspangen waren zu teuer. Die kieferorthopädische Behandlung bei Sorriso war reibungslos, effizient und erschwinglich. Jetzt fühle ich mich selbstbewusster denn je. Danke, Sorriso!"
-    },
-    "hans": {
-      "description": "Ich wollte ein natürlich aussehendes Lächeln ohne den offensichtlichen 'gemachten' Look. Die Veneers bei Sorriso waren die beste Entscheidung, die ich getroffen habe. Meine Zähne sehen völlig natürlich aus und ich kann nicht aufhören zu lächeln. Das Engagement des Teams für Exzellenz ist unübertroffen."
-    },
-    "yasmin": {
-      "description": "Ich hatte ein Zahnfleischlächeln und war unsicher, ob eine Zahnfleischkonturierung für mich geeignet wäre. Die Experten von Sorriso gaben mir Sicherheit und erzielten hervorragende Ergebnisse. Jetzt kann ich mit Zuversicht lächeln, ohne mir Sorgen um mein Zahnfleisch zu machen. Ich könnte nicht glücklicher mit ihrem Service sein!"
-    },
-    "elizabeth": {
-      "description": "Jahrelange Zahnprobleme machten mich zögerlich zu lächeln, und ich hatte Schwierigkeiten, eine Klinik zu finden, die meinen komplexen Fall behandeln konnte. Die vollständige Mundrekonstruktion bei Sorriso hat meine Zahngesundheit und mein Aussehen verändert. Jetzt habe ich ein schönes Lächeln und ein neues Selbstbewusstsein. Das Team hat mich während des gesamten Prozesses wohl und umsorgt gefühlt."
-    }
+ "testimonial": {
+  "sheila": {
+    "description": "Ich habe Fotos wegen meines Lächelns vermieden, aber jetzt fühle ich mich selbstbewusst und zeige es gerne!"
   },
+  "laura": {
+    "description": "Erschwingliche und hochwertige Implantate zu finden, schien unmöglich, aber der Eingriff war schmerzfrei und das Ergebnis hat meine Erwartungen übertroffen!"
+  },
+  "miroslav": {
+    "description": "Diese Behandlung hat mir gerade Zähne ohne großen Aufwand ermöglicht. Endlich habe ich das Lächeln, das ich mir immer gewünscht habe!"
+  },
+  "hans": {
+    "description": "Ich wollte Veneers, die natürlich aussehen – und genau das habe ich bekommen! Mein Lächeln ist heller, aber immer noch ich selbst – ich könnte nicht glücklicher sein!"
+  },
+  "yasmin": {
+    "description": "Ich war unsicher wegen einer Zahnfleischkorrektur, aber das Ergebnis ist unglaublich. Mein Lächeln wirkt harmonischer, und ich liebe es endlich!"
+  },
+  "elizabeth": {
+    "description": "Jahrelange Zahnprobleme haben mir Schmerzen bereitet, aber die komplette Rekonstruktion hat alles verändert. Ich fühle mich selbstbewusster als je zuvor!"
+  }
+},
   "videoSection": {
     "title": "Ihre Reise zu einem neuen Lächeln",
     "description": "Bei unseren Zahnarztreisen stehen Ihre Bedürfnisse an erster Stelle. Gemeinsam erstellen wir einen Reise- und Behandlungsplan, der Ihren Bedürfnissen entspricht. Bei Zahnbehandlungsangst ist eine Behandlung unter Narkose oft möglich. Sehen Sie sich das Video unten an, um einen Eindruck von einem Zahnarzturlaub zu bekommen.",
@@ -213,7 +213,7 @@
   "phoneLabel": "Telefon",
   "messageLabel": "Nachricht",
   "messagePlaceholder": "Beschreiben Sie Ihre Bedürfnisse für die Zahnbehandlung. Zum Beispiel: 'Ich benötige Zahnimplantate und Röntgenbilder zur Beurteilung meines Zustands.'",
-  "uploadFileLabel": "Datei hochladen",
+  "uploadFileLabel": "Datei hochladen (Optional)",
   "submitButton": "Absenden",
   "emailMismatchError": "Die E-Mails stimmen nicht überein. Bitte überprüfen Sie Ihre Eingaben.",
   "successMessage": "Vielen Dank für Ihre Nachricht! Wir melden uns in Kürze bei Ihnen.",

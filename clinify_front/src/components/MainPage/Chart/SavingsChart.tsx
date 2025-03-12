@@ -20,7 +20,7 @@ import {
   faHome,
   faMobileAlt,
   faPiggyBank,
-  faDumbbell,
+  // faDumbbell,
   faGraduationCap,
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
@@ -60,12 +60,12 @@ const icons = [
     value: 3000,
     icon: faClock,
   },
-  {
-    name: "Fitness Equipment",
-    description: "Build a home gym",
-    value: 4000,
-    icon: faDumbbell,
-  },
+  // {
+  //   name: "Fitness Equipment",
+  //   description: "Build a home gym",
+  //   value: 4000,
+  //   icon: faDumbbell,
+  // },
   {
     name: "Education Fund",
     description: "Invest in courses or education",
@@ -96,7 +96,11 @@ const ChartComponent = () => {
     );
   };
 
-  const getCustomProcedurePrice = (country: string, implants: number, crowns: number) => {
+  const getCustomProcedurePrice = (
+    country: string,
+    implants: number,
+    crowns: number
+  ) => {
     const implantPrice =
       implants *
       customProcedures.implants.pricePerUnit[
@@ -126,12 +130,15 @@ const ChartComponent = () => {
   const savings = countryPrice - montenegroPrice;
 
   const data = {
-    labels: [t("chartComponent.barChart.labels.0"), t("chartComponent.barChart.labels.1")],
+    labels: [
+      t("chartComponent.barChart.labels.0"),
+      t("chartComponent.barChart.labels.1"),
+    ],
     datasets: [
       {
         label: t("chartComponent.barChart.datasets.0.label"),
         data: [countryPrice, montenegroPrice],
-        backgroundColor: ["#F87171", "#34D399"],
+        backgroundColor: ["#1e90ff", "#34D399"],
         borderWidth: 1,
       },
     ],
@@ -278,7 +285,9 @@ const ChartComponent = () => {
       {savings > 0 && (
         <div className="mt-8">
           <h2 className="text-2xl font-serif text-teal-800 mb-4 text-center">
-            {t("chartComponent.savingsTitle", { savings: savings.toLocaleString() })}
+            {t("chartComponent.savingsTitle", {
+              savings: savings.toLocaleString(),
+            })}
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {icons

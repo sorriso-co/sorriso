@@ -50,14 +50,15 @@ export default function BookACall() {
 
         {/* Right Section */}
         <div className="lg:w-1/3 w-full flex justify-center items-center">
-          <Image
-            src="/images/Team/staff/filip.png"
-            alt={t("contactMain.imageAlt")}
-            width={280}
-            height={280}
-            className="rounded-full shadow-xl"
-            objectFit="cover"
-          />
+          <div className="relative w-48 h-48 md:w-56 md:h-56 overflow-hidden">
+            <Image
+              src="/images/Team/staff/milija.webp"
+              alt={t("consultationBanner.profileAlt")}
+              fill
+              loading="lazy" // Use lazy loading to improve performance
+              className="rounded-full object-cover object-top"
+            />
+          </div>
         </div>
       </div>
 
