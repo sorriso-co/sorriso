@@ -85,7 +85,7 @@ import "./loader.css"; // Ensure you have your loader styles
 
 const VideoSlider = () => {
   const [height, setHeight] = useState("200px");
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
   useEffect(() => {
@@ -104,13 +104,13 @@ const VideoSlider = () => {
   }, []);
 
   // Check when the iframe loads
-  useEffect(() => {
-    if (iframeRef.current) {
-      iframeRef.current.onload = () => {
-        setIsLoading(false);
-      };
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (iframeRef.current) {
+  //     iframeRef.current.onload = () => {
+  //       setIsLoading(false);
+  //     };
+  //   }
+  // }, []);
 
   return (
     <div
@@ -124,12 +124,12 @@ const VideoSlider = () => {
       }}
     >
       {/* Loader */}
-      {isLoading && (
+      {/* {isLoading && (
         <div className="loader absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <div className="loader-outter"></div>
           <div className="loader-inner"></div>
         </div>
-      )}
+      )} */}
 
       <iframe
         ref={iframeRef}
@@ -140,7 +140,7 @@ const VideoSlider = () => {
           width: "100%",
           height: "100%",
           position: "relative",
-          display: isLoading ? "none" : "block",
+          // display: isLoading ? "none" : "block",
         }}
         allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen"
       ></iframe>
