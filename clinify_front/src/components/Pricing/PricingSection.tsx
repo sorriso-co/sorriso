@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import PriceCard from "../../components/Pricing/PriceCard";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 
 // Define the price card data
 const priceCardData = [
@@ -171,20 +171,20 @@ const priceCardData = [
 ];
 
 const PricingSection: React.FC = () => {
-  const { t } = useTranslation("pricing");
+  // const { t } = useTranslation("pricing");
 
   return (
-    <section className="bg-gray-50 p-6 sm:p-8 lg:p-16 overflow-hidden rounded-lg shadow-xl">
-      <div className="container mx-auto py-12 text-center">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-extrabold mb-4 text-teal-900 leading-tight">
+    <section className="bg-gray-50 p-6 sm:p-8 lg:p-16 overflow-hidden rounded-lg">
+      <div className="container mx-auto py-5 text-center">
+        {/* <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-extrabold mb-4 text-teal-900 leading-tight">
           {t("pricingSection.title", { defaultValue: "Our Pricing Plans" })}
-        </h1>
-        <p className="text-md sm:text-lg lg:text-xl text-teal-700 mb-5 max-w-3xl mx-auto">
+        </h1> */}
+        {/* <p className="text-md sm:text-lg lg:text-xl text-teal-700 mb-5 max-w-3xl mx-auto">
           {t("pricingSection.description", {
             defaultValue:
               "Transparent pricing for world-class dental services.",
           })}
-        </p>
+        </p> */}
       </div>
 
       <div className="container mx-auto">

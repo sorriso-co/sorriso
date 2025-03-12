@@ -7,7 +7,7 @@ const PatientJourney: React.FC = () => {
   const { t } = useTranslation("common");
 
   return (
-    <section className="flex justify-center items-center bg-transparent py-12 sm:py-16 px-4 lg:px-20">
+    <section className="flex justify-center items-center bg-transparent py-15 px-4 lg:px-20">
       {/* Content Wrapper */}
       <div className="w-full max-w-7xl flex flex-col items-center">
         {/* Text Section */}

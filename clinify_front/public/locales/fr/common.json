@@ -198,22 +198,23 @@
   },
   "testimonial": {
   "sheila": {
-    "description": "J’évitais les photos à cause de mon sourire, mais maintenant je me sens en confiance et j’adore le montrer !"
+
+     "description": "Trouver des implants de qualité à un prix raisonnable me semblait impossible, mais la procédure a été indolore et le résultat a dépassé mes attentes !"
   },
   "laura": {
-    "description": "Trouver des implants de qualité à un prix raisonnable me semblait impossible, mais la procédure a été indolore et le résultat a dépassé mes attentes !"
+       "description": "J’évitais les photos à cause de mon sourire, mais maintenant je me sens en confiance et j’adore le montrer !"
   },
   "miroslav": {
     "description": "Ce traitement m’a donné des dents bien alignées sans complications. J’ai enfin le sourire dont j’ai toujours rêvé !"
   },
   "hans": {
-    "description": "Je voulais des facettes naturelles, et le résultat est parfait ! Mon sourire est plus éclatant tout en restant naturel—je ne pourrais pas être plus heureux !"
+    "description": "Je voulais des facettes naturelles, et le résultat est parfait !"
   },
   "yasmin": {
     "description": "J’hésitais à faire un remodelage gingival, mais le résultat est incroyable. Mon sourire est plus harmonieux et je l’adore enfin !"
   },
   "elizabeth": {
-    "description": "Des années de problèmes dentaires m’ont causé beaucoup de douleur, mais la reconstruction complète a tout changé. Je me sens plus confiante que jamais !"
+    "description": "Des années de problèmes dentaires m’ont causé beaucoup de douleur, mais la reconstruction complète a tout changé."
   }
 
   },

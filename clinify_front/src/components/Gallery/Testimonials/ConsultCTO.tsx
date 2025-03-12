@@ -9,22 +9,22 @@ import {
   faCar,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import { useTranslation } from "next-i18next"; // Import the useTranslation hook
+import { useTranslation } from "next-i18next";
 
 const ConsultationBanner: React.FC = () => {
-  const { t } = useTranslation("common"); // Use the translation namespace
+  const { t } = useTranslation("common");
 
   return (
     <section className="flex justify-center py-12 sm:py-16 px-4 lg:px-0 bg-transparent">
       <div className="w-full max-w-7xl mx-auto bg-teal-900 text-white rounded-3xl p-8 sm:p-12 flex flex-col md:flex-row md:items-center">
         {/* Profile Section */}
         <div className="flex justify-center md:justify-start md:items-center mb-8 md:mb-0">
-          <div className="relative  w-48 h-48 md:w-56 md:h-56 overflow-hidden">
+          <div className="relative w-48 h-48 md:w-56 md:h-56 overflow-hidden">
             <Image
               src="/images/Team/staff/milija.webp"
               alt={t("consultationBanner.profileAlt")}
               fill
-              loading="lazy" // Use lazy loading to improve performance
+              loading="lazy"
               className="rounded-full object-cover object-top"
             />
           </div>
@@ -43,36 +43,36 @@ const ConsultationBanner: React.FC = () => {
           </p>
 
           {/* Additional Information Section */}
-          <div className="flex flex-wrap justify-center md:justify-start gap-4 sm:gap-8 mt-4 sm:mt-8">
+          <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center md:justify-start gap-4 sm:gap-6 mt-7 sm:mt-8">
             {/* Accommodation Included */}
-            <div className="flex items-center">
+            <div className="flex items-center justify-center sm:justify-start">
               <FontAwesomeIcon
                 icon={faHome}
-                className="text-2xl sm:text-3xl mr-3 sm:mr-4"
+                className="text-xl sm:text-2xl md:text-3xl mr-3 flex-shrink-0"
               />
-              <p className="text-base sm:text-lg md:text-xl font-medium">
+              <p className="text-sm sm:text-base md:text-xl font-medium">
                 {t("consultationBanner.accommodation")}
               </p>
             </div>
 
             {/* Free Consultation */}
-            <div className="flex items-center">
+            <div className="flex items-center justify-center sm:justify-start">
               <FontAwesomeIcon
                 icon={faPhone}
-                className="text-2xl sm:text-3xl mr-3 sm:mr-4"
+                className="text-xl sm:text-2xl md:text-3xl mr-3 flex-shrink-0"
               />
-              <p className="text-base sm:text-lg md:text-xl font-medium">
+              <p className="text-sm sm:text-base md:text-xl font-medium">
                 {t("consultationBanner.consultation")}
               </p>
             </div>
 
             {/* Transport Included */}
-            <div className="flex items-center">
+            <div className="flex items-center justify-center sm:justify-start">
               <FontAwesomeIcon
                 icon={faCar}
-                className="text-2xl sm:text-3xl mr-3 sm:mr-4"
+                className="text-xl sm:text-2xl md:text-3xl mr-3 flex-shrink-0"
               />
-              <p className="text-base sm:text-lg md:text-xl font-medium">
+              <p className="text-sm sm:text-base md:text-xl font-medium">
                 {t("consultationBanner.transport")}
               </p>
             </div>

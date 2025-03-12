@@ -198,22 +198,23 @@
   },
   "testimonial": {
   "sheila": {
-    "description": "Evitavo le foto a causa del mio sorriso, ma ora mi sento sicura e adoro mostrarlo!"
+    "description": "Trovare impianti di qualità a un prezzo equo sembrava impossibile, ma la procedura è stata indolore e il risultato ha superato le mie aspettative!"
+
   },
   "laura": {
-    "description": "Trovare impianti di qualità a un prezzo equo sembrava impossibile, ma la procedura è stata indolore e il risultato ha superato le mie aspettative!"
+        "description": "Evitavo le foto a causa del mio sorriso, ma ora mi sento sicura e adoro mostrarlo!"
   },
   "miroslav": {
     "description": "Questo trattamento mi ha dato denti dritti senza problemi. Finalmente ho il sorriso che ho sempre desiderato!"
   },
   "hans": {
-    "description": "Volevo faccette che sembrassero naturali, e ci sono riusciti! Il mio sorriso è più luminoso, ma sempre autentico—non potrei essere più felice!"
+    "description": "Volevo faccette che sembrassero naturali, e ci sono riusciti!"
   },
   "yasmin": {
     "description": "Ero incerta sul rimodellamento gengivale, ma i risultati sono incredibili. Il mio sorriso è più armonioso e ora lo adoro!"
   },
   "elizabeth": {
-    "description": "Anni di problemi dentali mi hanno causato molto dolore, ma la ricostruzione completa ha cambiato tutto. Mi sento più sicura che mai!"
+    "description": "Anni di problemi dentali mi hanno causato molto dolore, ma la ricostruzione completa ha cambiato tutto."
   }
   },
   "videoSection": {
