@@ -15,7 +15,7 @@ export default function BookACall() {
         className="w-full h-[1400px] sm:h-[850px] border-none overflow-x-hidden"
         title={t("bookACall.iframe.title")}
         aria-label={t("bookACall.iframe.ariaLabel")}
-        // scrolling="no"
+        scrolling="no"
         style={{ overflow: "hidden" }}
       ></iframe>
     </div>
