@@ -23,7 +23,7 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ show, handleClose }) => {
     if (!isPopupDismissed) {
       const timer = setTimeout(() => {
         setShouldShow(true); // 🔹 Show the popup after 20 seconds
-      }, 12000); // 12 seconds
+      }, 22000); // 12 seconds
 
       return () => clearTimeout(timer); // 🔹 Cleanup the timer
     }
