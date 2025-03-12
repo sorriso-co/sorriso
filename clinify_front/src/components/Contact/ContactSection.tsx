@@ -23,7 +23,7 @@ const ContactSection: React.FC = () => {
         {/* Content Section with Side-by-Side Layout */}
         <div className="flex flex-col lg:flex-row bg-white rounded-lg items-start">
           {/* Left: Book a Call */}
-          <div className="w-full lg:w-2/3 border-gray-300 flex flex-col overflow-auto">
+          <div className="w-full lg:w-2/3 border-gray-300 flex flex-col overflow-hidden">
             <BookACall />
           </div>
 
