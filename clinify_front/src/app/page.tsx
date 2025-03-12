@@ -30,7 +30,55 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <head>{/* ... metadata unchanged ... */}</head>
+      <head>
+        <title>Sorriso Care | Smile Worth Flying For</title>
+        <meta
+          name="description"
+          content="Discover affordable dental treatments in Montenegro with Sorriso Care. From veneers to implants, we provide world-class care tailored to your needs."
+        />
+        <meta
+          name="keywords"
+          content="impianti dentali costo, quanto costa un impianto dentale, faccette per denti, ponte dentale, rifarsi i denti, dentisti in croazia, cliniche dentali turchia, veneers turkey, cost for tooth implant, dental implants, full mouth dental implants, teeth implants cost, hair transplant turkey, smile makeover, Montenegro, fly to Montenegro, dental bridge, Turkey teeth, New Year, Cavity, bad teeth, cosmetic dentistry, teeth whitening, dental crowns"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://sorriso.care/" />
+        <link rel="icon" href="/images/icons/icon.svg" type="image/x-icon" />
+        <link
+          rel="shortcut icon"
+          href="/images/icons/icon.svg"
+          type="image/x-icon"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+          property="og:title"
+          content="Sorriso Care | Smile Worth Flying For"
+        />
+        <meta
+          property="og:description"
+          content="Discover affordable dental treatments in Montenegro with Sorriso Care. From veneers to implants, we provide world-class care tailored to your needs."
+        />
+        <meta property="og:url" content="https://sorriso.care/" />
+        <meta
+          property="og:image"
+          content="https://sorriso.care/images/front-hero.jpg"
+        />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Sorriso Care | Smile Worth Flying For"
+        />
+        <meta
+          name="twitter:description"
+          content="Discover affordable dental treatments in Montenegro with Sorriso Care. From veneers to implants, we provide world-class care tailored to your needs."
+        />
+        <meta
+          name="twitter:image"
+          content="https://sorriso.care/images/front-hero.jpg"
+        />
+      </head>
       <main>
         <div id="hero-section" className="mb-20 lg:mb-32 bg-transparent">
           <FrontHero />
