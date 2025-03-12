@@ -2,7 +2,8 @@
 
 import React from "react";
 import Hero from "../../components/Pricing/PriceHero";
-import Comparison from "../../components/Pricing/Comparison";
+// import Comparison from "../../components/Pricing/Comparison";
+import SavingsChart from "@/components/MainPage/Chart/SavingsChart";
 import PricingSection from "@/components/Pricing/PricingSection";
 
 const PricingPage: React.FC = () => {
@@ -72,7 +73,11 @@ const PricingPage: React.FC = () => {
         <div className="mx-auto">
           <Hero />
           <PricingSection />
-          <Comparison />
+          {/* <Comparison /> */}
+          <div className="pt-5">
+            {" "}
+            <SavingsChart />
+          </div>
         </div>
       </main>
     </>

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import { useTranslation } from "next-i18next";
 
 const Hero = () => {
@@ -32,16 +32,16 @@ const Hero = () => {
           <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-6 md:mb-8 font-serif">
             {t("hero.subtitle")}
           </p>
-          <Link
+          {/* <Link
             href="/contact"
             className="inline-block font-serif font-bold bg-white text-teal-700 hover:bg-teal-600 hover:text-white py-4 px-8 md:py-5 md:px-10 lg:py-6 lg:px-8 rounded-full transition-colors duration-200 shadow-md text-lg md:text-xl lg:text-2xl"
             aria-label={t("hero.cta")}
           >
             {t("hero.cta")}
-          </Link>
-          <p className="mt-4 text-lg md:text-xl lg:text-2xl italic font-serif text-teal-200">
+          </Link> */}
+          {/* <p className="mt-4 text-lg md:text-xl lg:text-2xl italic font-serif text-teal-200">
             {t("hero.ctaNote")}
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="absolute inset-0 pointer-events-none">
