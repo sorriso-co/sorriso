@@ -63,6 +63,7 @@
 //     );
 //   }
 // }
+
 import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
@@ -91,20 +92,20 @@ export async function POST(req: Request) {
 
     // Read existing data from the file
     let existingData: { email: string; confirmEmail: string }[] = []; // Updated to store confirmEmail
-    if (fs.existsSync(dataFilePath)) {
-      const fileContent = fs.readFileSync(dataFilePath, "utf8");
-      existingData = JSON.parse(fileContent);
-    }
+    // if (fs.existsSync(dataFilePath)) {
+    //   const fileContent = fs.readFileSync(dataFilePath, "utf8");
+    //   existingData = JSON.parse(fileContent);
+    // }
 
-    // Append the new contact information
-    existingData.push({ email, confirmEmail }); // Updated to store confirmEmail
+    // // Append the new contact information
+    // existingData.push({ email, confirmEmail }); // Updated to store confirmEmail
 
-    // Write the updated data back to the file
-    fs.writeFileSync(
-      dataFilePath,
-      JSON.stringify(existingData, null, 2),
-      "utf8"
-    );
+    // // Write the updated data back to the file
+    // fs.writeFileSync(
+    //   dataFilePath,
+    //   JSON.stringify(existingData, null, 2),
+    //   "utf8"
+    // );
 
     // Send an email with the contact information
     const emailContent = `
