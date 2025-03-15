@@ -16,7 +16,7 @@ const FrontHero: React.FC = () => {
             <h1 className="font-serif text-white font-extrabold text-5xl sm:text-6xl lg:text-7xl tracking-tight leading-tight animate-fade-in">
               {t("frontHero.title", { defaultValue: "Your Next Dental Trip" })}
             </h1>
-            <h2 className="font-serif text-xl sm:text-2xl lg:text-3xl text-teal-200 animate-slide-up">
+            <h2 className="font-serif text-2xl sm:text-3xl lg:text-3xl text-teal-200 animate-slide-up">
               {t("frontHero.subtitle", {
                 defaultValue:
                   "Free Consultations & Stay\nAdvanced Dental Treatments\nExceptional Results",
@@ -39,10 +39,10 @@ const FrontHero: React.FC = () => {
                 </button>
               </Link>
 
-              <Link href="#how-it-works-section">
+              <Link href="/quote">
                 <button className="inline-flex items-center justify-center bg-white text-teal-700 font-serif font-bold py-3 px-6 rounded-full shadow-lg transition-transform transform hover:scale-105 hover:bg-teal-100 hover:text-teal-800">
                   {t("frontHero.scheduleButton", {
-                    defaultValue: "How it works",
+                    defaultValue: "Free Video Consultation",
                   })}
                 </button>
               </Link>

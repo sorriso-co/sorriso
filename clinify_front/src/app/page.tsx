@@ -8,7 +8,6 @@ import LanguageSwitcher from "@/components/MainPage/Language/LanguageSwitcher";
 import WhatsAppLink from "@/components/Contact/WhatsApp";
 import FAQ from "@/components/MainPage/FAQ/FAQ";
 import SavingsChart from "@/components/MainPage/Chart/SavingsChart";
-import Different from "@/components/MainPage/ContactUs/Different";
 import "../styles/global.css";
 
 const Home: React.FC = () => {
@@ -38,7 +37,8 @@ const Home: React.FC = () => {
         />
         <meta
           name="keywords"
-          content="impianti dentali costo, quanto costa un impianto dentale, faccette per denti, ponte dentale, rifarsi i denti, dentisti in croazia, cliniche dentali turchia, veneers turkey, cost for tooth implant, dental implants, full mouth dental implants, teeth implants cost, hair transplant turkey, smile makeover, Montenegro, fly to Montenegro, dental bridge, Turkey teeth, New Year, Cavity, bad teeth, cosmetic dentistry, teeth whitening, dental crowns"
+          content="
+Cosmetic dentistry, Dental crown, Cavity, Montenegro, Tooth decay, Rotten teeth, Cavities in teeth, Veneers Turkey, Perfect smile, Veneers Colombia, Veneers Mexico, Veneers cost Mexico, Veneer cost, Veneers cost, Fly to Montenegro, Smile makeover, All-on-6, Cheap Dental Tourism, Affordable dental care, Dental Tourism Montenegro, Best dentist, All-on-4, Dental treatments, Fix my smile, Dental care, Perfect teeth, No insurance dental care near me, Dental care near me no insurance, Crooked teeth, How to fix my teeth, How much to fix my teeth, Wisdom teeth removal, No dental insurance, Teeth pain from wisdom teeth, Dentist near me, Affordable bridges for teeth, Impianti dentali costo, Quanto costa un impianto dentale, Faccette per denti, Ponte dentale, Rifarsi i denti, Dentisti in Croazia, Cliniche dentali Turchia, Cost for tooth implant, Dental implants, Full mouth dental implants, Teeth implants cost, Hair transplant Turkey, Dental bridge, Turkey teeth, Bad teeth, Teeth whitening, Dental crowns"
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://sorriso.care/" />
@@ -60,10 +60,7 @@ const Home: React.FC = () => {
           content="Discover affordable dental treatments in Montenegro with Sorriso Care. From veneers to implants, we provide world-class care tailored to your needs."
         />
         <meta property="og:url" content="https://sorriso.care/" />
-        <meta
-          property="og:image"
-          content="https://sorriso.care/images/front-hero.jpg"
-        />
+
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -74,29 +71,19 @@ const Home: React.FC = () => {
           name="twitter:description"
           content="Discover affordable dental treatments in Montenegro with Sorriso Care. From veneers to implants, we provide world-class care tailored to your needs."
         />
-        <meta
-          name="twitter:image"
-          content="https://sorriso.care/images/front-hero.jpg"
-        />
       </head>
       <main>
-        <div id="hero-section" className="mb-20 lg:mb-32 bg-transparent">
+        <div className="mb-20 lg:mb-32 bg-transparent">
           <FrontHero />
         </div>
         <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
           <Intro />
         </div>
-        <div
-          id="how-it-works-section"
-          className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent"
-        >
+        <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
           <HowItWorks />
         </div>
         <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
           <ServiceGrid />
-        </div>
-        <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
-          <Different />
         </div>
         <div className="mt-20 lg:mt-32 mb-20 lg:mb-32 bg-transparent">
           <SavingsChart />
