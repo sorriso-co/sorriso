@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
+import Image from "next/image";
 const Introduction: React.FC = () => {
   const { t } = useTranslation("homepage");
   const [email, setEmail] = useState("");
@@ -59,27 +60,34 @@ const Introduction: React.FC = () => {
   };
 
   return (
-    <section className="container mx-auto flex flex-col lg:flex-row items-center py-16 px-6 lg:px-12 space-y-10 lg:space-y-0 lg:space-x-12 bg-gradient-to-r from-teal-50 to-teal-100 rounded-lg shadow-lg">
+    <section className="container mx-auto flex flex-col lg:flex-row items-center py-10 px-6 lg:px-12 bg-teal-50 space-y-10 lg:space-y-0 lg:space-x-12  rounded-lg shadow-lg">
       {/* Text Section */}
       <div className="lg:w-1/2 text-center lg:text-left">
         <h1 className="font-serif text-teal-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6">
           {t("introduction.title", { defaultValue: "Your Next Dental Trip" })}
         </h1>
-        <h4 className="font-serif text-2xl sm:text-3xl text-teal-700 mb-6">
-          {t("introduction.subtitle", {
-            defaultValue: "Veni Vidi Vici with Sorriso",
-          })}
-        </h4>
+
         <p className="font-sans text-lg sm:text-xl text-teal-800 mb-8">
           {t("introduction.description", {
             defaultValue:
               "Discover exceptional dental care combined with an unforgettable travel experience. Let Sorriso guide you through a journey to a brighter, healthier smile while exploring the beauty and culture of Montenegro.",
           })}
         </p>
-        <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+
+        <div className="flex flex-col items-center lg:items-start space-y-4 lg:space-y-6">
+          <div className="relative w-52 h-52 md:w-56 md:h-56 lg:w-64 lg:h-64 mb-5 overflow-hidden">
+            <Image
+              src="/images/Team/staff/milija.webp"
+              alt={t("consultationBanner.profileAlt")}
+              fill
+              loading="lazy"
+              className="rounded-full object-cover object-top"
+            />
+          </div>
+
           <Link
             href="/pricing"
-            className="bg-gradient-to-r from-teal-500 to-teal-600 text-white py-3 sm:py-4 px-8 rounded-full font-semibold shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-teal-300"
+            className="bg-gradient-to-r font-serif from-teal-500 to-teal-600 text-white py-3 sm:py-4 px-8 rounded-full font-semibold shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-teal-300"
           >
             {t("introduction.viewPricingButton", {
               defaultValue: "View Our Pricing",
@@ -88,10 +96,10 @@ const Introduction: React.FC = () => {
 
           <button
             onClick={handleBookCallClick}
-            className="bg-gradient-to-r from-teal-800 to-teal-900 text-white py-3 sm:py-4 px-8 rounded-full font-semibold shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-teal-500"
+            className="bg-gradient-to-r font-serif from-teal-800 to-teal-900 text-white py-3 sm:py-4 px-8 rounded-full font-semibold shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-teal-500"
           >
             {t("contactMain.buttonText", {
-              defaultValue: "Book a Free Consultation",
+              defaultValue: "Book Your Free Consultation",
             })}
           </button>
         </div>

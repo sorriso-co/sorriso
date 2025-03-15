@@ -31,8 +31,8 @@
     "returnHome": "Return Home"
   },
     "contactForm": {
-      "title": "Get Your Free Consultation",
-      "description": "Fill out the form below and our team will reach out to you shortly.",
+      "title": "Get Your Free Video Consultation",
+      "description": "Fill out the form below and we will schedule a video call within 24 hours.",
       "giftCardHint": "Your gift card code is on the back of the card in a teal-colored box.",
       "giftCardLabel": "Gift Card Code (Optional)",
       "giftCardPlaceholder": "Enter your gift card code",
@@ -43,9 +43,9 @@
       "confirmEmailLabel": "Confirm Email",
       "confirmEmailPlaceholder": "Confirm Your Email",
       "copyPasteAlert": "Copy-pasting is not allowed. Please type your email manually.",
-      "phoneLabel": "Phone",
+      "phoneLabel": "Phone (Optional)",
       "messageLabel": "Message",
-      "messagePlaceholder": "Describe your needs for dental treatment. For example, 'I need dental implants and X-rays to assess my condition.'",
+      "messagePlaceholder": "Describe your dental needs. For example, ''I need dental implants.'' ",
       "uploadFileLabel": "Upload File (Optional)",
       "submitButton": "Submit",
       "emailMismatchError": "Emails do not match. Please check again.",

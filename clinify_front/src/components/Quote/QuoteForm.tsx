@@ -73,11 +73,11 @@ const ContactForm: React.FC = () => {
     }
   };
 
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files) {
-      setFile(e.target.files[0]);
-    }
-  };
+  // const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  //   if (e.target.files) {
+  //     setFile(e.target.files[0]);
+  //   }
+  // };
 
   const handleMessageChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     setMessage(e.target.value);
@@ -98,31 +98,14 @@ const ContactForm: React.FC = () => {
       <h1 className="text-center text-3xl font-serif text-teal-600 mb-6">
         {t("contactForm.title")}
       </h1>
-      <p className="text-center text-gray-700 mb-8">
+      <p className=" mb-8 text-center ml-5 mr-5 font-semi text-gray-500">
         {t("contactForm.description")}
-        <br />
-        <span className="font-semibold text-teal-600">
-          {t("contactForm.giftCardHint")}
-        </span>
       </p>
 
       <form
         onSubmit={handleSubmit}
         className="space-y-6 bg-white p-6 rounded-lg shadow-lg max-w-md mx-auto sm:p-8"
       >
-        <div>
-          <label className="block text-gray-700 font-semibold">
-            {t("contactForm.giftCardLabel")}
-          </label>
-          <input
-            type="text"
-            value={token}
-            onChange={(e) => setToken(e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            placeholder={t("contactForm.giftCardPlaceholder")}
-          />
-        </div>
-
         <div>
           <label className="block text-gray-700 font-semibold">
             {t("contactForm.nameLabel")}
@@ -177,19 +160,6 @@ const ContactForm: React.FC = () => {
 
         <div>
           <label className="block text-gray-700 font-semibold">
-            {t("contactForm.phoneLabel")}
-          </label>
-          <PhoneInput
-            country={"us"}
-            value={phone}
-            onChange={(phone) => setPhone(phone)}
-            inputClass="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            containerClass="w-full"
-          />
-        </div>
-
-        <div>
-          <label className="block text-gray-700 font-semibold">
             {t("contactForm.messageLabel")}
           </label>
           <textarea
@@ -204,6 +174,32 @@ const ContactForm: React.FC = () => {
 
         <div>
           <label className="block text-gray-700 font-semibold">
+            {t("contactForm.phoneLabel")}
+          </label>
+          <PhoneInput
+            country={"us"}
+            value={phone}
+            onChange={(phone) => setPhone(phone)}
+            inputClass="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            containerClass="w-full"
+          />
+        </div>
+
+        <div>
+          <label className="block text-gray-700 font-semibold">
+            {t("contactForm.giftCardLabel")}
+          </label>
+          <input
+            type="text"
+            value={token}
+            onChange={(e) => setToken(e.target.value)}
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder={t("contactForm.giftCardPlaceholder")}
+          />
+        </div>
+        {/* 
+        <div>
+          <label className="block text-gray-700 font-semibold">
             {t("contactForm.uploadFileLabel")}
           </label>
           <input
@@ -211,7 +207,7 @@ const ContactForm: React.FC = () => {
             onChange={handleFileChange}
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
-        </div>
+        </div> */}
 
         <button
           type="submit"
